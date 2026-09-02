@@ -1,0 +1,183 @@
+country_id,country_name
+C0001,Albania
+C0002,Algeria
+C0003,Andorra
+C0004,Angola
+C0005,Argentina
+C0006,Armenia
+C0007,Aruba
+C0008,Australia
+C0009,Austria
+C0010,Azerbaijan
+C0011,Bahrain
+C0012,Bangladesh
+C0013,Belarus
+C0014,Belgium
+C0015,Belize
+C0016,Bermuda
+C0017,Bolivia
+C0018,Bosnia And Herzegovina
+C0019,Botswana
+C0020,Brazil
+C0021,British Virgin Islands
+C0022,Brunei
+C0023,Brunei Darussalam
+C0024,Bulgaria
+C0025,Burkina Faso
+C0026,Cabo Verde
+C0027,Cambodia
+C0028,Cameroon
+C0029,Canada
+C0030,Chad
+C0031,Chile
+C0032,China
+C0033,China (Mainland)
+C0034,Colombia
+C0035,"Congo, Dem. Rep."
+C0036,Costa Rica
+C0037,Cote D'Ivoire
+C0038,Croatia
+C0039,Cuba
+C0040,Cyprus
+C0041,Czech Republic
+C0042,Denmark
+C0043,Dominican Republic
+C0044,Ecuador
+C0045,Egypt
+C0046,"Egypt, Arab Rep."
+C0047,El Salvador
+C0048,Estonia
+C0049,Ethiopia
+C0050,Fiji
+C0051,Finland
+C0052,France
+C0053,Georgia
+C0054,Germany
+C0055,Ghana
+C0056,Greece
+C0057,Greenland
+C0058,Grenada
+C0059,Guatemala
+C0060,High Income
+C0061,Honduras
+C0062,Hong Kong
+C0063,Hong Kong Sar
+C0064,"Hong Kong Sar, China"
+C0065,Hungary
+C0066,Iceland
+C0067,India
+C0068,Indonesia
+C0069,Iran
+C0070,"Iran, Islamic Rep."
+C0071,"Iran, Islamic Republic Of"
+C0072,Iraq
+C0073,Ireland
+C0074,Israel
+C0075,Italy
+C0076,Jamaica
+C0077,Japan
+C0078,Jordan
+C0079,Kazakhstan
+C0080,Kenya
+C0081,"Korea, Dem. PeopleâS Rep."
+C0082,"Korea, Rep."
+C0083,Kosovo
+C0084,Kuwait
+C0085,Kyrgyz Republic
+C0086,Kyrgyzstan
+C0087,Lao Pdr
+C0088,Latvia
+C0089,Lebanon
+C0090,Libya
+C0091,Liechtenstein
+C0092,Lithuania
+C0093,Low Income
+C0094,Lower Middle Income
+C0095,Luxembourg
+C0096,Macao
+C0097,"Macao Sar, China"
+C0098,Macau Sar
+C0099,"Macedonia, Fyr"
+C0100,Malawi
+C0101,Malaysia
+C0102,Mali
+C0103,Malta
+C0104,Mauritania
+C0105,Mauritius
+C0106,Mexico
+C0107,Middle Income
+C0108,Moldova
+C0109,Mongolia
+C0110,Montenegro
+C0111,Morocco
+C0112,Mozambique
+C0113,Myanmar
+C0114,Namibia
+C0115,Nepal
+C0116,Netherlands
+C0117,New Zealand
+C0118,Nigeria
+C0119,North Macedonia
+C0120,Northern Cyprus
+C0121,Norway
+C0122,Oman
+C0123,Pakistan
+C0124,Palau
+C0125,Palestine
+C0126,"Palestinian Territory, Occupied"
+C0127,Panama
+C0128,Paraguay
+C0129,Peru
+C0130,Philippines
+C0131,Poland
+C0132,Portugal
+C0133,Puerto Rico
+C0134,Qatar
+C0135,Romania
+C0136,Russia
+C0137,Russian Federation
+C0138,Rwanda
+C0139,Sao Tome And Principe
+C0140,Saudi Arabia
+C0141,Senegal
+C0142,Serbia
+C0143,Seychelles
+C0144,Singapore
+C0145,Slovakia
+C0146,Slovenia
+C0147,Somalia
+C0148,South Africa
+C0149,South Korea
+C0150,Spain
+C0151,Sri Lanka
+C0152,St. Kitts And Nevis
+C0153,St. Lucia
+C0154,Sudan
+C0155,Sweden
+C0156,Switzerland
+C0157,Syrian Arab Republic
+C0158,Taiwan
+C0159,Tajikistan
+C0160,Tanzania
+C0161,Thailand
+C0162,Togo
+C0163,Tunisia
+C0164,Turkey
+C0165,Turkmenistan
+C0166,Turks And Caicos Islands
+C0167,Uganda
+C0168,Ukraine
+C0169,United Arab Emirates
+C0170,United Kingdom
+C0171,United States
+C0172,Upper Middle Income
+C0173,Uruguay
+C0174,Uzbekistan
+C0175,Venezuela
+C0176,"Venezuela, Rb"
+C0177,Vietnam
+C0178,West Bank And Gaza
+C0179,World
+C0180,Yemen
+C0181,Zambia
+C0182,Zimbabwe

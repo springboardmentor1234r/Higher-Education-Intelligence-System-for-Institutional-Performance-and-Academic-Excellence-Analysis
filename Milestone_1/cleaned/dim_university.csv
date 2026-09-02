@@ -1,0 +1,3535 @@
+university_id,university_name,country_id,country_name
+U00001,Aalborg University,C0042,Denmark
+U00002,Aalto University,C0051,Finland
+U00003,Aarhus University,C0042,Denmark
+U00004,Abai Kazakh National Pedagogical University,C0079,Kazakhstan
+U00005,Abbes Laghrour University Of Khenchala,C0002,Algeria
+U00006,Abbottabad University Of Science And Technology,C0123,Pakistan
+U00007,Abdelhafid Boussouf University Center Of Mila,C0002,Algeria
+U00008,Abdelmalek Essaãâdi University,C0111,Morocco
+U00009,Abdul Wali Khan University Mardan,C0123,Pakistan
+U00010,Abdullah Gãâ¼L University,C0164,Turkey
+U00011,Abertay University,C0170,United Kingdom
+U00012,Aberystwyth University,C0170,United Kingdom
+U00013,Abia State University,C0118,Nigeria
+U00014,Abo Akademi University,C0051,Finland
+U00015,Abrar University,C0147,Somalia
+U00016,Abu Dhabi University,C0169,United Arab Emirates
+U00017,Academy Of Economic Studies Of Moldova,C0108,Moldova
+U00018,Acharya Nagarjuna University,C0067,India
+U00019,Acãâbadem University,C0164,Turkey
+U00020,Ada Kent University,C0120,Northern Cyprus
+U00021,Adam Mickiewicz University Poznan,C0131,Poland
+U00022,Adam Mickiewicz University Poznaã Â,C0131,Poland
+U00023,Adamawa State University Mubi,C0118,Nigeria
+U00024,Addis Ababa University,C0049,Ethiopia
+U00025,Adelphi University,C0171,United States
+U00026,Adolfo Ibãâãâez University,C0031,Chile
+U00027,Adventist University Of Central Africa,C0138,Rwanda
+U00028,Aecc University College,C0170,United Kingdom
+U00029,Afe Babalola University,C0118,Nigeria
+U00030,Aga Khan University,C0123,Pakistan
+U00031,Agh University Of Krakow,C0131,Poland
+U00032,Agh University Of Science And Technology,C0131,Poland
+U00033,Ahl Al Bayt University,C0072,Iraq
+U00034,Ahlia University,C0011,Bahrain
+U00035,Ahvaz Jundishapur University Of Medical Sciences Ajums,C0069,Iran
+U00036,Aichi Medical University,C0077,Japan
+U00037,Aichi Prefectural University,C0077,Japan
+U00038,Ain Shams University,C0045,Egypt
+U00039,Air University,C0123,Pakistan
+U00040,Airlangga University,C0068,Indonesia
+U00041,Aixmarseille University,C0052,France
+U00042,Ajeenkya Dy Patil University,C0067,India
+U00043,Ajman University,C0169,United Arab Emirates
+U00044,Ajou University,C0149,South Korea
+U00045,Akdeniz University,C0164,Turkey
+U00046,Akdeniz Ãniversitesi,C0164,Turkey
+U00047,Akhmet Yassawi University,C0079,Kazakhstan
+U00048,Akita Prefectural University,C0077,Japan
+U00049,Akita University,C0077,Japan
+U00050,Akli Mohand Oulhadj Bouira University,C0002,Algeria
+U00051,Aksaray University,C0164,Turkey
+U00052,Akwa Ibom State University,C0118,Nigeria
+U00053,Al Ain University,C0169,United Arab Emirates
+U00054,Al Akhawayn University,C0111,Morocco
+U00055,Al Albayt University,C0078,Jordan
+U00056,Al Safwa University College,C0072,Iraq
+U00057,Al Turath University,C0072,Iraq
+U00058,Alagappa University,C0067,India
+U00059,Alahliyya Amman University,C0078,Jordan
+U00060,Alayen University,C0072,Iraq
+U00061,Alazhar University,C0045,Egypt
+U00062,Albaha University,C0140,Saudi Arabia
+U00063,Albalqa Applied University,C0078,Jordan
+U00064,Albayan University,C0072,Iraq
+U00065,Albaydha University,C0180,Yemen
+U00066,Albertludwigsuniversitaet Freiburg,C0054,Germany
+U00067,Alesraa University College,C0072,Iraq
+U00068,Alex Ekwueme Federal University Ndufualike,C0118,Nigeria
+U00069,Alexandria University,C0045,Egypt
+U00070,Alexandru Ioan Cuza University,C0135,Romania
+U00071,Alfaisal University,C0140,Saudi Arabia
+U00072,Alfarabi Kazakh National University,C0079,Kazakhstan
+U00073,Alfarabi University College,C0072,Iraq
+U00074,Alfarahidi University,C0072,Iraq
+U00075,Alfurat Alawsat Technical University,C0072,Iraq
+U00076,Algiers 2 University,C0002,Algeria
+U00077,Alhussein Bin Talal University,C0078,Jordan
+U00078,Aligarh Muslim University,C0067,India
+U00079,Alisher Navoãââi Tashkent State University Of Uzbek Language And Literature,C0174,Uzbekistan
+U00080,Aljanad University For Science And Technology,C0180,Yemen
+U00081,Alkarkh University Of Science,C0072,Iraq
+U00082,Alkitab University,C0072,Iraq
+U00083,Allameh Tabataba Ãââi University,C0069,Iran
+U00084,Alma Mater Studiorum University Of Bologna,C0075,Italy
+U00085,Almaarefa University,C0140,Saudi Arabia
+U00086,Almaarif University College,C0072,Iraq
+U00087,Almanara College For Medical Sciences,C0072,Iraq
+U00088,Almaty Technological University,C0079,Kazakhstan
+U00089,Almazov National Medical Research Centre,C0137,Russian Federation
+U00090,Almustaqbal University,C0072,Iraq
+U00091,Almuthanna University,C0072,Iraq
+U00092,Alnahrain University,C0072,Iraq
+U00093,Alnisour University College,C0072,Iraq
+U00094,Alnoor University College,C0072,Iraq
+U00095,Alqalam University College,C0072,Iraq
+U00096,Alqasim Green University,C0072,Iraq
+U00097,Alquds University,C0126,"Palestinian Territory, Occupied"
+U00098,Alrafidain University College,C0072,Iraq
+U00099,Altai State University,C0136,Russia
+U00100,Altoosi University College,C0072,Iraq
+U00101,Altãânbaã Â University,C0164,Turkey
+U00102,Alzahra University,C0069,Iran
+U00103,Alzaytoonah University Of Jordan,C0078,Jordan
+U00104,Amedeo Avogadro University Of Eastern Piedmont,C0075,Italy
+U00105,American International University Ãââ Bangladesh,C0012,Bangladesh
+U00106,American University,C0171,United States
+U00107,American University In Cairo,C0045,Egypt
+U00108,American University In Dubai,C0169,United Arab Emirates
+U00109,American University In The Emirates Aue,C0169,United Arab Emirates
+U00110,American University Of Beirut,C0089,Lebanon
+U00111,American University Of Beirut Aub,C0089,Lebanon
+U00112,American University Of Madaba,C0078,Jordan
+U00113,American University Of Nigeria,C0118,Nigeria
+U00114,American University Of Ras Al Khaimah,C0169,United Arab Emirates
+U00115,American University Of Ras Al Khaimah Aurak,C0169,United Arab Emirates
+U00116,American University Of Sharjah,C0169,United Arab Emirates
+U00117,American University Of The Middle East,C0084,Kuwait
+U00118,Amirkabir University Of Technology,C0071,"Iran, Islamic Republic Of"
+U00119,Amity University,C0067,India
+U00120,Amity University Chhattisgarh,C0067,India
+U00121,Amity University Gurugram,C0067,India
+U00122,Amity University Gwalior,C0067,India
+U00123,Amity University Mumbai,C0067,India
+U00124,Amity University Rajasthan Jaipur,C0067,India
+U00125,Amrita Vishwa Vidyapeetham,C0067,India
+U00126,Anadolu University,C0164,Turkey
+U00127,Andhra University,C0067,India
+U00128,Andijan Machinebuilding Institute,C0174,Uzbekistan
+U00129,Andijan State Medical Institute,C0174,Uzbekistan
+U00130,Andijan State Pedagogical Institute Aspi,C0174,Uzbekistan
+U00131,Andijan State University,C0174,Uzbekistan
+U00132,Andrãâs Bello Catholic University Ucab,C0175,Venezuela
+U00133,Anglia Ruskin University Aru,C0170,United Kingdom
+U00134,Angloamerican University,C0041,Czech Republic
+U00135,Ankara Science University,C0164,Turkey
+U00136,Ankara University,C0164,Turkey
+U00137,Ankara Yildirim Beyazit University,C0164,Turkey
+U00138,Ankara Ãniversitesi,C0164,Turkey
+U00139,Anna University,C0067,India
+U00140,Annajah National University,C0126,"Palestinian Territory, Occupied"
+U00141,Annamalai University,C0067,India
+U00142,Antonio Nariãâo University,C0034,Colombia
+U00143,Anãâhuac University,C0106,Mexico
+U00144,Aoyama Gakuin University,C0077,Japan
+U00145,Applied Science Private University,C0078,Jordan
+U00146,Applied Science Private University Jordan,C0078,Jordan
+U00147,Applied Science University Bahrain,C0011,Bahrain
+U00148,Arab Academy For Science Technology And Maritime Transport,C0045,Egypt
+U00149,Arab American University,C0125,Palestine
+U00150,Arab Open University,C0084,Kuwait
+U00151,Arab Open University Lebanon,C0089,Lebanon
+U00152,Arab Open University Ãââ Kuwait,C0084,Kuwait
+U00153,Arabian Gulf University,C0011,Bahrain
+U00154,Arak University,C0069,Iran
+U00155,Arak University Of Medical Sciences,C0069,Iran
+U00156,Ariel University,C0074,Israel
+U00157,Aristotle University Of Thessaloniki,C0056,Greece
+U00158,Arizona State University,C0171,United States
+U00159,Arizona State University Tempe,C0171,United States
+U00160,Arkãân University Of Creative Arts And Design Arucad,C0120,Northern Cyprus
+U00161,Armenian State Pedagogical University,C0006,Armenia
+U00162,Arts Et Mãâtiers,C0052,France
+U00163,Arts University Bournemouth,C0170,United Kingdom
+U00164,Arts University Plymouth,C0170,United Kingdom
+U00165,Arturo Prat University,C0031,Chile
+U00166,Asahi University,C0077,Japan
+U00167,Asfendiyarov Kazakh National Medical University,C0079,Kazakhstan
+U00168,Ashikaga University,C0077,Japan
+U00169,Ashur University College,C0072,Iraq
+U00170,Asia Pacific University Of Technology And Innovation Apu,C0101,Malaysia
+U00171,Asia University Taiwan,C0158,Taiwan
+U00172,Assiut University,C0045,Egypt
+U00173,Aston University,C0170,United Kingdom
+U00174,Aswan University,C0045,Egypt
+U00175,Ataturk University,C0164,Turkey
+U00176,Atatãâ¼Rk University,C0164,Turkey
+U00177,Ateneo De Manila University,C0130,Philippines
+U00178,Athens University Of Economics And Business,C0056,Greece
+U00179,Atma Jaya Catholic University Jakarta,C0068,Indonesia
+U00180,Atyrau University,C0079,Kazakhstan
+U00181,Atãâlãâm University,C0164,Turkey
+U00182,Auburn University,C0171,United States
+U00183,Auckland University Of Technology,C0117,New Zealand
+U00184,Auckland University Of Technology Aut,C0117,New Zealand
+U00185,Audencia,C0052,France
+U00186,Auezov South Kazakhstan University Sku,C0079,Kazakhstan
+U00187,Augustine University,C0118,Nigeria
+U00188,Austral University,C0005,Argentina
+U00189,Austral University Of Chile,C0031,Chile
+U00190,Australian Catholic University,C0008,Australia
+U00191,Australian National University,C0008,Australia
+U00192,Autonomous University Of Baja California,C0106,Mexico
+U00193,Autonomous University Of Barcelona,C0150,Spain
+U00194,Autonomous University Of Chiapas,C0106,Mexico
+U00195,Autonomous University Of Madrid,C0150,Spain
+U00196,Autonomous University Of Sinaloa,C0106,Mexico
+U00197,Azarbaijan Shahid Madani University,C0069,Iran
+U00198,Azerbaijan State Oil And Industry University,C0010,Azerbaijan
+U00199,Azerbaijan State University Of Economics,C0010,Azerbaijan
+U00200,Azerbaijan University Of Architecture And Construction,C0010,Azerbaijan
+U00201,B S Abdur Rahman Crescent Institute Of Science And Technology,C0067,India
+U00202,Babcock University,C0118,Nigeria
+U00203,Babesbolyai University,C0135,Romania
+U00204,Babeã Âbolyai University,C0135,Romania
+U00205,Babol Noshirvani University Of Technology,C0069,Iran
+U00206,Babol University Of Medical Sciences,C0069,Iran
+U00207,Bacha Khan University Charsadda,C0123,Pakistan
+U00208,Badji Mokhtar University Ãââ Annaba,C0002,Algeria
+U00209,Badr University In Cairo Buc,C0045,Egypt
+U00210,Bahauddin Zakariya University,C0123,Pakistan
+U00211,Bahria University,C0123,Pakistan
+U00212,Bahãâeã Âehir University,C0164,Turkey
+U00213,Bakrie University,C0068,Indonesia
+U00214,Baku State University,C0010,Azerbaijan
+U00215,Balochistan University Of Engineering And Technology Khuzdar,C0123,Pakistan
+U00216,Balochistan University Of Information Technology Engineering And Management Sciences Buitems,C0123,Pakistan
+U00217,Bamidele Olumilua University Of Education Science And Technology Ikereikiti,C0118,Nigeria
+U00218,Banaras Hindu University,C0067,India
+U00219,Banasthali University,C0067,India
+U00220,Bandirma Onyedi Eylãâ¼L University,C0164,Turkey
+U00221,Bandung Institute Of Technology Itb,C0068,Indonesia
+U00222,Bangabandhu Sheikh Mujibur Rahman Agricultural University,C0012,Bangladesh
+U00223,Bangladesh Agricultural University Bau,C0012,Bangladesh
+U00224,Bangladesh University Of Engineering And Technology,C0012,Bangladesh
+U00225,Bangor University,C0170,United Kingdom
+U00226,Barawa International University,C0147,Somalia
+U00227,Barilan University,C0074,Israel
+U00228,Bartin University,C0164,Turkey
+U00229,Bashkir State Medical University,C0137,Russian Federation
+U00230,Basrah University College Of Science And Technology,C0072,Iraq
+U00231,Bath Spa University,C0170,United Kingdom
+U00232,Bauman Moscow State Technical University,C0136,Russia
+U00233,Bayburt University,C0164,Turkey
+U00234,Bayero University,C0118,Nigeria
+U00235,Baylor University,C0171,United States
+U00236,Baze University,C0118,Nigeria
+U00237,Baã Âkent University,C0164,Turkey
+U00238,Beihang University,C0032,China
+U00239,Beihang University Former Buaa,C0033,China (Mainland)
+U00240,Beijing Foreign Studies University,C0033,China (Mainland)
+U00241,Beijing Institute Of Technology,C0033,China (Mainland)
+U00242,Beijing Jiaotong University,C0033,China (Mainland)
+U00243,Beijing Normal University,C0033,China (Mainland)
+U00244,Beijing University Of Chemical Technology,C0033,China (Mainland)
+U00245,Beijing University Of Chinese Medicine,C0033,China (Mainland)
+U00246,Beijing University Of Posts And Telecommunications,C0033,China (Mainland)
+U00247,Beijing University Of Technology,C0033,China (Mainland)
+U00248,Beirut Arab University,C0089,Lebanon
+U00249,Belarusian National Technical University Bntu,C0013,Belarus
+U00250,Belarusian State Medical University,C0013,Belarus
+U00251,Belarusian State University,C0013,Belarus
+U00252,Belarusian State University Of Informatics And Radioelectronics,C0013,Belarus
+U00253,Belgorod State National Research University,C0137,Russian Federation
+U00254,Bells University Of Technology,C0118,Nigeria
+U00255,Benemãrita Universidad Autã³Noma De Puebla,C0106,Mexico
+U00256,Benemãârita Universidad Autãâ³Noma De Puebla,C0106,Mexico
+U00257,Bengurion University Of The Negev,C0074,Israel
+U00258,Benha University,C0045,Egypt
+U00259,Benisuef University,C0045,Egypt
+U00260,Benson Idahosa University,C0118,Nigeria
+U00261,Bernardo Oãââhiggins University,C0031,Chile
+U00262,Beykent University,C0164,Turkey
+U00263,Bezmiãâlem Vakif University,C0164,Turkey
+U00264,Bharath Institute Of Higher Education And Research,C0067,India
+U00265,Bharathiar University,C0067,India
+U00266,Bharati Vidyapeeth University,C0067,India
+U00267,Bialystok University Of Technology,C0131,Poland
+U00268,Bielefeld University,C0054,Germany
+U00269,Bilad Alrafidain University College,C0072,Iraq
+U00270,Bilecik Ã Âeyh Edebali University,C0164,Turkey
+U00271,Bilkent University,C0164,Turkey
+U00272,Bina Nusantara University Binus,C0068,Indonesia
+U00273,Binghamton University Suny,C0171,United States
+U00274,Binus University,C0068,Indonesia
+U00275,Birkbeck University Of London,C0170,United Kingdom
+U00276,Birla Institute Of Technology And Science Pilani,C0067,India
+U00277,Birmingham City University,C0170,United Kingdom
+U00278,Biruni University,C0164,Turkey
+U00279,Birzeit University,C0126,"Palestinian Territory, Occupied"
+U00280,Bishop Grosseteste University,C0170,United Kingdom
+U00281,Blida 1 University,C0002,Algeria
+U00282,Bogaziãi University,C0164,Turkey
+U00283,Bohdan Khmelnytsky National University Of Cherkasy,C0168,Ukraine
+U00284,Bolu Abant Izzet Baysal University,C0164,Turkey
+U00285,Bond University,C0008,Australia
+U00286,Boston College,C0171,United States
+U00287,Boston University,C0171,United States
+U00288,Botswana International University Of Science And Technology Biust,C0019,Botswana
+U00289,Bournemouth University,C0170,United Kingdom
+U00290,Bowen University,C0118,Nigeria
+U00291,Bowling Green State University,C0171,United States
+U00292,Bozok University,C0164,Turkey
+U00293,Boãâaziãâi University,C0164,Turkey
+U00294,Brac University,C0012,Bangladesh
+U00295,Brandeis University,C0171,United States
+U00296,Brigham Young University,C0171,United States
+U00297,Brighton And Sussex Medical School,C0170,United Kingdom
+U00298,British University In Egypt,C0045,Egypt
+U00299,Brno University Of Technology,C0041,Czech Republic
+U00300,Brock University,C0029,Canada
+U00301,Brown University,C0171,United States
+U00302,Brunel University London,C0170,United Kingdom
+U00303,Buali Sina University,C0069,Iran
+U00304,Bucharest University Of Economic Studies,C0135,Romania
+U00305,Buckinghamshire New University,C0170,United Kingdom
+U00306,Budapest University Of Technology And Economics,C0065,Hungary
+U00307,Bukhara Engineering Technological Institute,C0174,Uzbekistan
+U00308,Bukhara State Medical Institute,C0174,Uzbekistan
+U00309,Bukhara State University,C0174,Uzbekistan
+U00310,Bukkyo University,C0077,Japan
+U00311,Burapha University,C0161,Thailand
+U00312,Buriram Rajabhat University,C0161,Thailand
+U00313,Bursa Technical University,C0164,Turkey
+U00314,Bursa Uludaãâ University,C0164,Turkey
+U00315,Ca Foscari University Of Venice,C0075,Italy
+U00316,Cairo University,C0045,Egypt
+U00317,California Institute Of Technology,C0171,United States
+U00318,California Institute Of Technology Caltech,C0171,United States
+U00319,California Polytechnic State University,C0171,United States
+U00320,California State University Long Beach,C0171,United States
+U00321,California State University Los Angeles,C0171,United States
+U00322,Campus Biomedico University Of Rome,C0075,Italy
+U00323,Canadian International College Cic Ãââ Cairo,C0045,Egypt
+U00324,Canadian University Dubai,C0169,United Arab Emirates
+U00325,Cankaya University,C0164,Turkey
+U00326,Canterbury Christ Church University,C0170,United Kingdom
+U00327,Capital Medical University,C0032,China
+U00328,Capital University Of Science And Technology,C0123,Pakistan
+U00329,Cardiff Metropolitan University,C0170,United Kingdom
+U00330,Cardiff University,C0170,United Kingdom
+U00331,Carleton University,C0029,Canada
+U00332,Carlos Iii University Of Madrid,C0150,Spain
+U00333,Carnegie Mellon University,C0171,United States
+U00334,Case Western Reserve University,C0171,United States
+U00335,Catania University,C0075,Italy
+U00336,Catholic University In Erbil,C0072,Iraq
+U00337,Catholic University Of Brasãâlia,C0020,Brazil
+U00338,Catholic University Of Portugal,C0132,Portugal
+U00339,Catholic University Of The North,C0031,Chile
+U00340,Catholic University Of The Sacred Heart,C0075,Italy
+U00341,Catholic University Of Ãâvila,C0150,Spain
+U00342,Catã³Lica De Cã³Rdoba,C0005,Argentina
+U00343,Caucasus International University,C0053,Georgia
+U00344,Caãââ Foscari University Of Venice,C0075,Italy
+U00345,Cbs International Business School,C0054,Germany
+U00346,Cearãâ State University,C0020,Brazil
+U00347,Cebu Technological University,C0130,Philippines
+U00348,Cecos University Of It And Emerging Sciences,C0123,Pakistan
+U00349,Central European University,C0009,Austria
+U00350,Central Luzon State University,C0130,Philippines
+U00351,Central Michigan University,C0171,United States
+U00352,Central Queensland University,C0008,Australia
+U00353,Central Queensland University Cquniversity Australia,C0008,Australia
+U00354,Central South University,C0033,China (Mainland)
+U00355,Centrale Nantes,C0052,France
+U00356,Centro De Estudios Para La Calidad Educativa Y La Investigaciãâ³N Cientãâfica Ceceic,C0106,Mexico
+U00357,Centro Federal De Educaãâãâo Tecnolãâ³Gica Celso Suckow Da Fonseca Cefetrj,C0020,Brazil
+U00358,Centro Universitãârio Cesuca,C0020,Brazil
+U00359,Centro Universitãârio De Jaguariãâºna,C0020,Brazil
+U00360,Centro Universitãârio Max Planck,C0020,Brazil
+U00361,Centurion University Of Technology And Management,C0067,India
+U00362,Ces University,C0034,Colombia
+U00363,Cetys Universidad,C0106,Mexico
+U00364,Chalmers University Of Technology,C0155,Sweden
+U00365,Chandigarh University,C0067,India
+U00366,Chang Gung University,C0158,Taiwan
+U00367,Chang Gung University Of Science And Technology,C0158,Taiwan
+U00368,Chang Jung Christian University,C0158,Taiwan
+U00369,Changsha University Of Science And Technology,C0032,China
+U00370,Chaoyang University Of Technology,C0158,Taiwan
+U00371,Chapman University,C0171,United States
+U00372,Charisma University,C0166,Turks And Caicos Islands
+U00373,Charitãâ Universitãâtsmedizin Berlin,C0054,Germany
+U00374,Charles Darwin University,C0008,Australia
+U00375,Charles Sturt University,C0008,Australia
+U00376,Charles University,C0041,Czech Republic
+U00377,Chelyabinsk State University,C0137,Russian Federation
+U00378,Chengdu University,C0032,China
+U00379,Chernihiv Polytechnic National University,C0168,Ukraine
+U00380,Chettinad Academy Of Research And Education,C0067,India
+U00381,Chiang Mai University,C0161,Thailand
+U00382,Chiba Institute Of Technology,C0077,Japan
+U00383,Chiba University,C0077,Japan
+U00384,China Agricultural University,C0033,China (Mainland)
+U00385,China Medical University Taiwan,C0158,Taiwan
+U00386,China Pharmaceutical University,C0032,China
+U00387,China University Of Geosciences,C0033,China (Mainland)
+U00388,China University Of Geosciences Beijing,C0032,China
+U00389,China University Of Mining And Technology,C0033,China (Mainland)
+U00390,China University Of Petroleum,C0033,China (Mainland)
+U00391,China University Of Petroleum Beijing,C0032,China
+U00392,China University Of Petroleum East China,C0032,China
+U00393,China University Of Political Science And Law,C0033,China (Mainland)
+U00394,Chinese Culture University,C0158,Taiwan
+U00395,Chinese University Of Hong Kong,C0062,Hong Kong
+U00396,Chinhoyi University Of Technology,C0182,Zimbabwe
+U00397,Chitkara University,C0067,India
+U00398,Chittagong University Of Engineering And Technology,C0012,Bangladesh
+U00399,Chongqing University,C0033,China (Mainland)
+U00400,Chonnam National University,C0149,South Korea
+U00401,Chosun University,C0149,South Korea
+U00402,Christ University Bengaluru India,C0067,India
+U00403,Christianalbrechtsuniversity Zu Kiel,C0054,Germany
+U00404,Chubu University,C0077,Japan
+U00405,Chulalongkorn University,C0161,Thailand
+U00406,Chung Shan Medical University,C0158,Taiwan
+U00407,Chung Yuan Christian University,C0158,Taiwan
+U00408,Chungang University,C0149,South Korea
+U00409,Chungang University Cau,C0149,South Korea
+U00410,Chungbuk National University,C0149,South Korea
+U00411,Chungnam National University,C0149,South Korea
+U00412,Chuo University,C0077,Japan
+U00413,Cihan University Sulaimaniya,C0072,Iraq
+U00414,Cihan University Ãââ Erbil,C0072,Iraq
+U00415,City University Of Hong Kong,C0063,Hong Kong Sar
+U00416,City University Of London,C0170,United Kingdom
+U00417,City University Of New York,C0171,United States
+U00418,City University Of Science And Information Technology Peshawar,C0123,Pakistan
+U00419,Civil Aviation Academy,C0079,Kazakhstan
+U00420,Clark University,C0171,United States
+U00421,Clarkson University,C0171,United States
+U00422,Claude Bernard University Lyon 1,C0052,France
+U00423,Clemson University,C0171,United States
+U00424,Cleveland State University,C0171,United States
+U00425,Coal City University,C0118,Nigeria
+U00426,Cochin University Of Science And Technology,C0067,India
+U00427,Colegio De Mãxico,C0106,Mexico
+U00428,College Of Charleston,C0171,United States
+U00429,College Of William And Mary,C0171,United States
+U00430,Colorado School Of Mines,C0171,United States
+U00431,Colorado State University,C0171,United States
+U00432,Colorado State University Fort Collins,C0171,United States
+U00433,Columbia University,C0171,United States
+U00434,Comenius University Bratislava,C0145,Slovakia
+U00435,Comenius University In Bratislava,C0145,Slovakia
+U00436,Comillas Pontifical University,C0150,Spain
+U00437,Communication University Of China,C0032,China
+U00438,Complutense University Of Madrid,C0150,Spain
+U00439,Comsats University Islamabad,C0123,Pakistan
+U00440,Concordia University,C0029,Canada
+U00441,Conservatoire For Dance And Drama,C0170,United Kingdom
+U00442,Constructor University Bremen,C0054,Germany
+U00443,Copenhagen Business School,C0042,Denmark
+U00444,Cornell University,C0171,United States
+U00445,Corvinus University Of Budapest,C0065,Hungary
+U00446,Courtauld Institute Of Art,C0170,United Kingdom
+U00447,Covenant University,C0118,Nigeria
+U00448,Coventry University,C0170,United Kingdom
+U00449,Cracow University Of Technology,C0131,Poland
+U00450,Cracow University Of Technology Politechnika Krakowska,C0131,Poland
+U00451,Cranfield University,C0170,United Kingdom
+U00452,Creighton University,C0171,United States
+U00453,Cross River University Of Technology,C0118,Nigeria
+U00454,Cukurova University,C0164,Turkey
+U00455,Cuny The City College Of New York,C0171,United States
+U00456,Curtin University,C0008,Australia
+U00457,Cv Raman Global University,C0067,India
+U00458,Cy Cergy Paris University,C0052,France
+U00459,Cyprus Health And Social Sciences University,C0120,Northern Cyprus
+U00460,Cyprus University Of Technology,C0040,Cyprus
+U00461,Czech Technical University In Prague,C0041,Czech Republic
+U00462,Czech University Of Life Sciences In Prague,C0041,Czech Republic
+U00463,Czech University Of Life Sciences Prague Czu,C0041,Czech Republic
+U00464,Cãâsar Ritz Colleges Switzerland,C0156,Switzerland
+U00465,D Serikbayev East Kazakhstan State Technical University,C0079,Kazakhstan
+U00466,D Serikbayev East Kazakhstan Technical University,C0079,Kazakhstan
+U00467,Daegu Gyeongbuk Institute Of Science And Technology Dgist,C0149,South Korea
+U00468,Daffodil International University,C0012,Bangladesh
+U00469,Daffodil International University Diu,C0012,Bangladesh
+U00470,Dalhousie University,C0029,Canada
+U00471,Dalian University Of Technology,C0033,China (Mainland)
+U00472,Damascus University,C0157,Syrian Arab Republic
+U00473,Damghan University,C0069,Iran
+U00474,Damietta University,C0045,Egypt
+U00475,Daneshpajoohan Pishro Higher Education Institute,C0069,Iran
+U00476,Dankook University,C0149,South Korea
+U00477,Dartmouth College,C0171,United States
+U00478,Dawood University Of Engineering And Technology,C0123,Pakistan
+U00479,De La Salle University,C0130,Philippines
+U00480,De Montfort University,C0170,United Kingdom
+U00481,Deakin University,C0008,Australia
+U00482,Debre Tabor University,C0049,Ethiopia
+U00483,Del Rosario University,C0034,Colombia
+U00484,Delft University Of Technology,C0116,Netherlands
+U00485,Delhi Technological University,C0067,India
+U00486,Delta State University Abraka,C0118,Nigeria
+U00487,Delta University For Science And Technology,C0045,Egypt
+U00488,Democritus University Of Thrace,C0056,Greece
+U00489,Denau Institute Of Entrepreneurship And Pedagogy,C0174,Uzbekistan
+U00490,Deraya University,C0045,Egypt
+U00491,Dha Suffa University,C0123,Pakistan
+U00492,Dhaka International University,C0012,Bangladesh
+U00493,Dhofar University,C0122,Oman
+U00494,Dhonburi Rajabhat University,C0161,Thailand
+U00495,Dicle University,C0164,Turkey
+U00496,Diego Portales University,C0031,Chile
+U00497,Dijlah University,C0072,Iraq
+U00498,Diponegoro University,C0068,Indonesia
+U00499,Dokkyo Medical University,C0077,Japan
+U00500,Dokuz Eylã¼L Ãniversitesi,C0164,Turkey
+U00501,Dokuz Eylãâ¼L University,C0164,Turkey
+U00502,Don Bosco University,C0067,India
+U00503,Don State Technical University,C0136,Russia
+U00504,Donetsk National University Of Economics And Trade Named After Mykhailo Tuhanbaranovsky Donnuet,C0168,Ukraine
+U00505,Dongguk University,C0149,South Korea
+U00506,Donghua University,C0033,China (Mainland)
+U00507,Doshisha University,C0077,Japan
+U00508,Dovletmammet Azadi Turkmen National Institute Of World Languages,C0165,Turkmenistan
+U00509,Dow University Of Health Sciences,C0123,Pakistan
+U00510,Doãâuã Â University,C0164,Turkey
+U00511,Dr Br Ambedkar National Institute Of Technology Jalandhar,C0067,India
+U00512,Dr D Y Patil Vidyapeeth Pune,C0067,India
+U00513,Dr Mgr Educational And Research Institute,C0067,India
+U00514,Drexel University,C0171,United States
+U00515,Dublin City University,C0073,Ireland
+U00516,Duke University,C0171,United States
+U00517,Dulaty University,C0079,Kazakhstan
+U00518,Dumlupinar University,C0164,Turkey
+U00519,Dunarea De Jos University Of Galati,C0135,Romania
+U00520,Durban University Of Technology,C0148,South Africa
+U00521,Durham University,C0170,United Kingdom
+U00522,Duy Tan University,C0177,Vietnam
+U00523,Duzce University,C0164,Turkey
+U00524,Eae Business School,C0150,Spain
+U00525,Eafit University,C0034,Colombia
+U00526,Ean University,C0034,Colombia
+U00527,East China Normal University,C0033,China (Mainland)
+U00528,East China University Of Science And Technology,C0033,China (Mainland)
+U00529,East West University,C0012,Bangladesh
+U00530,Eastern Mediterranean University,C0120,Northern Cyprus
+U00531,Eberhard Karls Universitãt Tã¼Bingen,C0054,Germany
+U00532,Ebonyi State University,C0118,Nigeria
+U00533,Ecole Des Ponts Paristech,C0052,France
+U00534,Edge Hill University,C0170,United Kingdom
+U00535,Edinburgh Napier University,C0170,United Kingdom
+U00536,Edith Cowan University,C0008,Australia
+U00537,Edo State University Uzairue,C0118,Nigeria
+U00538,Edwin Clark University,C0118,Nigeria
+U00539,Effat University,C0140,Saudi Arabia
+U00540,Ege University,C0164,Turkey
+U00541,Egerton University,C0080,Kenya
+U00542,Egyptian Russian University,C0045,Egypt
+U00543,Egyptjapan University Of Science And Technology Ejust,C0045,Egypt
+U00544,Ehime University,C0077,Japan
+U00545,Eindhoven University Of Technology,C0116,Netherlands
+U00546,El Bosque University,C0034,Colombia
+U00547,Elizade University,C0118,Nigeria
+U00548,Emir Abdelkader University Of Islamic Sciences,C0002,Algeria
+U00549,Emory University,C0171,United States
+U00550,Ensta Bretagne,C0052,France
+U00551,Epfl,C0156,Switzerland
+U00552,Erasmus University Rotterdam,C0116,Netherlands
+U00553,Erciyes University,C0164,Turkey
+U00554,Erciyes Ãniversitesi,C0164,Turkey
+U00555,Erzincan Binali Yãâldãârãâm University,C0164,Turkey
+U00556,Escola Superior De Enfermagem Do Porto Esep,C0132,Portugal
+U00557,Escuela Politãcnica Nacional,C0044,Ecuador
+U00558,Escuela Politãâcnica Nacional,C0044,Ecuador
+U00559,Escuela Superior Politãcnica Del Litoral Espol,C0044,Ecuador
+U00560,Escuela Superior Politãâcnica De Chimborazo,C0044,Ecuador
+U00561,Escuela Superior Politãâcnica Del Litoral,C0044,Ecuador
+U00562,Esic,C0150,Spain
+U00563,Eskiã Âehir Osmangazi University,C0164,Turkey
+U00564,Eskiã Âehir Technical University,C0164,Turkey
+U00565,Essex University Of,C0170,United Kingdom
+U00566,Eth Zurich,C0156,Switzerland
+U00567,Eth Zurich Swiss Federal Institute Of Technology,C0156,Switzerland
+U00568,European University,C0053,Georgia
+U00569,European University Cyprus,C0040,Cyprus
+U00570,European University Of Armenia,C0006,Armenia
+U00571,European University Of Madrid,C0150,Spain
+U00572,European University Of Tunis,C0163,Tunisia
+U00573,European University Of Valencia,C0150,Spain
+U00574,Evangel University Akaeze,C0118,Nigeria
+U00575,Ewha Womans University,C0149,South Korea
+U00576,Externado University Of Colombia,C0034,Colombia
+U00577,Eãtvãs Lorãnd University,C0065,Hungary
+U00578,Eãâtvãâs Lorãând University,C0065,Hungary
+U00579,Falmouth University,C0170,United Kingdom
+U00580,Far Eastern Federal University,C0136,Russia
+U00581,Fayoum University,C0045,Egypt
+U00582,Federal Rural University Of Pernambuco,C0020,Brazil
+U00583,Federal University Gashua,C0118,Nigeria
+U00584,Federal University Of Agriculture Abeokuta,C0118,Nigeria
+U00585,Federal University Of Espãârito Santo,C0020,Brazil
+U00586,Federal University Of Goiãâs,C0020,Brazil
+U00587,Federal University Of Itajubãâ,C0020,Brazil
+U00588,Federal University Of Kashere,C0118,Nigeria
+U00589,Federal University Of Lafia,C0118,Nigeria
+U00590,Federal University Of Latin American Integration Unila,C0020,Brazil
+U00591,Federal University Of Lavras,C0020,Brazil
+U00592,Federal University Of Mato Grosso Do Sul,C0020,Brazil
+U00593,Federal University Of Minas Gerais,C0020,Brazil
+U00594,Federal University Of Paraãâãâba Ufpb,C0020,Brazil
+U00595,Federal University Of Parãâ,C0020,Brazil
+U00596,Federal University Of Pelotas,C0020,Brazil
+U00597,Federal University Of Pernambuco,C0020,Brazil
+U00598,Federal University Of Petroleum Resources Effurun,C0118,Nigeria
+U00599,Federal University Of Piauãâ,C0020,Brazil
+U00600,Federal University Of Rio De Janeiro,C0020,Brazil
+U00601,Federal University Of Rio Grande Do Norte Ufrn,C0020,Brazil
+U00602,Federal University Of Santa Maria,C0020,Brazil
+U00603,Federal University Of Sãâo Carlos,C0020,Brazil
+U00604,Federal University Of Technology Akure,C0118,Nigeria
+U00605,Federal University Of Technology Minna,C0118,Nigeria
+U00606,Federal University Of Technology Owerri,C0118,Nigeria
+U00607,Federal University Of The State Of Rio De Janeiro Unirio,C0020,Brazil
+U00608,Federal University Of Toulouse Midipyrãânãâes,C0052,France
+U00609,Federal University Of Uberlãândia,C0020,Brazil
+U00610,Federal University Of Vales Do Jequitinhonha E Mucuri,C0020,Brazil
+U00611,Federal University Of Viãâosa,C0020,Brazil
+U00612,Federation University Australia,C0008,Australia
+U00613,Federico Santa Marãâa Technical University,C0031,Chile
+U00614,Feng Chia University,C0158,Taiwan
+U00615,Ferdowsi University Of Mashhad,C0071,"Iran, Islamic Republic Of"
+U00616,Fergana Medical Institute Of Public Health,C0174,Uzbekistan
+U00617,Fergana Polytechnic Institute,C0174,Uzbekistan
+U00618,Fergana State University,C0174,Uzbekistan
+U00619,Ferhat Abbas Sãâtif University 1,C0002,Algeria
+U00620,Financial University Under The Government Of The Russian Federation,C0136,Russia
+U00621,Finis Terrae University,C0031,Chile
+U00622,Firat University,C0164,Turkey
+U00623,First Technical University,C0118,Nigeria
+U00624,Flinders University,C0008,Australia
+U00625,Florida Agricultural And Mechanical University,C0171,United States
+U00626,Florida Atlantic University,C0171,United States
+U00627,Florida Atlantic University Boca Raton,C0171,United States
+U00628,Florida Institute Of Technology,C0171,United States
+U00629,Florida International University,C0171,United States
+U00630,Florida State University,C0171,United States
+U00631,Fluminense Federal University,C0020,Brazil
+U00632,Fordham University,C0171,United States
+U00633,Forman Christian College,C0123,Pakistan
+U00634,Fountain University,C0118,Nigeria
+U00635,Francisk Skorina Gomel State University,C0013,Belarus
+U00636,Free University Of Berlin,C0054,Germany
+U00637,Free University Of Bozenbolzano,C0075,Italy
+U00638,Freie Universitaet Berlin,C0054,Germany
+U00639,Friedrich Schiller University Jena,C0054,Germany
+U00640,Friedrichalexanderuniversitãt Erlangennã¼Rnberg,C0054,Germany
+U00641,Fu Jen Catholic University,C0158,Taiwan
+U00642,Fudan University,C0033,China (Mainland)
+U00643,Fujian Agriculture And Forestry University,C0032,China
+U00644,Fujian Normal University,C0032,China
+U00645,Fujita Health University,C0077,Japan
+U00646,Fukui Prefectural University,C0077,Japan
+U00647,Fukuoka University,C0077,Japan
+U00648,Fukushima University,C0077,Japan
+U00649,Fundaciã³N Ceu San Pablo,C0150,Spain
+U00650,Fundaciã³N Universidad De Bogotãjorge Tadeo Lozano,C0034,Colombia
+U00651,Fundaciãâ³N Universitaria Del Ãârea Andina,C0034,Colombia
+U00652,Fundaãâãâo Oswaldo Cruz,C0020,Brazil
+U00653,Future University In Egypt,C0045,Egypt
+U00654,Fuzhou University,C0032,China
+U00655,Gabriele Dãââannunzio University,C0075,Italy
+U00656,Gadjah Mada University,C0068,Indonesia
+U00657,Gangadhar Meher University,C0067,India
+U00658,Gauhati University,C0067,India
+U00659,Gazi University,C0164,Turkey
+U00660,Gazi Ãniversitesi,C0164,Turkey
+U00661,Gaziantep University,C0164,Turkey
+U00662,Gdansk University Of Technology,C0131,Poland
+U00663,Gdaã Âsk University Of Technology,C0131,Poland
+U00664,Gebze Technical University,C0164,Turkey
+U00665,Gebze Technical University Gtu,C0164,Turkey
+U00666,General Sir John Kotelawala Defence University,C0151,Sri Lanka
+U00667,George Emil Palade University Of Medicine Pharmacy Science And Technology Of Targu Mures,C0135,Romania
+U00668,George Mason University,C0171,United States
+U00669,George Washington University,C0171,United States
+U00670,Georgetown University,C0171,United States
+U00671,Georgia Institute Of Technology,C0171,United States
+U00672,Georgia Southern University,C0171,United States
+U00673,Georgia State University,C0171,United States
+U00674,Georgian Technical University,C0053,Georgia
+U00675,German Jordanian University,C0078,Jordan
+U00676,German University In Cairo,C0045,Egypt
+U00677,Ghent University,C0014,Belgium
+U00678,Gheorghe Asachi Technical University Of Iaã Âi,C0135,Romania
+U00679,Ghulam Ishaq Khan Institute Of Engineering Sciences And Technology,C0123,Pakistan
+U00680,Gifu University,C0077,Japan
+U00681,Gitam University,C0067,India
+U00682,Gla University,C0067,India
+U00683,Glasgow Caledonian University,C0170,United Kingdom
+U00684,Glasgow School Of Art,C0170,United Kingdom
+U00685,Goa University,C0067,India
+U00686,Goethe University Frankfurt,C0054,Germany
+U00687,Goetheuniversity Frankfurt Am Main,C0054,Germany
+U00688,Goldsmiths University Of London,C0170,United Kingdom
+U00689,Golestan University Of Medical Sciences,C0069,Iran
+U00690,Gomel State Medical University,C0013,Belarus
+U00691,Gorgan University Of Agricultural Sciences And Natural Resources,C0069,Iran
+U00692,Government College University Faisalabad,C0123,Pakistan
+U00693,Government College University Lahore,C0123,Pakistan
+U00694,Government College Women University Faisalabad,C0123,Pakistan
+U00695,Government College Women University Sialkot,C0123,Pakistan
+U00696,Grand Valley State University,C0171,United States
+U00697,Graphic Era University,C0067,India
+U00698,Graz University Of Technology,C0009,Austria
+U00699,Greenwich University,C0123,Pakistan
+U00700,Gregory University Uturu,C0118,Nigeria
+U00701,Griffith University,C0008,Australia
+U00702,Grigore T Popa University Of Medicine And Pharmacy,C0135,Romania
+U00703,Guangdong University Of Technology,C0032,China
+U00704,Guangxi University,C0032,China
+U00705,Guangzhou Medical University,C0032,China
+U00706,Guangzhou University,C0032,China
+U00707,Gubkin Russian State University Of Oil And Gas,C0137,Russian Federation
+U00708,Guilan University Of Medical Sciences,C0069,Iran
+U00709,Guildhall School Of Music And Drama,C0170,United Kingdom
+U00710,Gulf College,C0122,Oman
+U00711,Gulf Medical University,C0169,United Arab Emirates
+U00712,Gulf University For Science And Technology,C0084,Kuwait
+U00713,Gulistan State University,C0174,Uzbekistan
+U00714,Gunma University,C0077,Japan
+U00715,Guru Ghasidas Vishwavidyalaya,C0067,India
+U00716,Guru Gobind Singh Indraprastha University,C0067,India
+U00717,Guru Jambheshwar University Of Science And Technology,C0067,India
+U00718,Gwangju Institute Of Science And Technology Gist,C0149,South Korea
+U00719,Gyeongsang National University,C0149,South Korea
+U00720,Hacettepe University,C0164,Turkey
+U00721,Hagoromo University Of International Studies,C0077,Japan
+U00722,Hakim Sabzevari University,C0069,Iran
+U00723,Hakuoh University,C0077,Japan
+U00724,Haliãâ University,C0164,Turkey
+U00725,Hallym University,C0149,South Korea
+U00726,Halmstad University,C0155,Sweden
+U00727,Hamad Bin Khalifa University,C0134,Qatar
+U00728,Hamamatsu University School Of Medicine,C0077,Japan
+U00729,Hamburg University Of Technology,C0054,Germany
+U00730,Hanoi University Of Science And Technology,C0177,Vietnam
+U00731,Hanseo University,C0149,South Korea
+U00732,Hanyang University,C0149,South Korea
+U00733,Harbin Engineering University,C0033,China (Mainland)
+U00734,Harbin Institute Of Technology,C0033,China (Mainland)
+U00735,Harokopio University Of Athens,C0056,Greece
+U00736,Harper Adams University,C0170,United Kingdom
+U00737,Hartpury University,C0170,United Kingdom
+U00738,Harvard University,C0171,United States
+U00739,Hasanuddin University,C0068,Indonesia
+U00740,Hasselt University,C0014,Belgium
+U00741,Hassiba Benbouali University Of Chlef,C0002,Algeria
+U00742,Hawler Medical University,C0072,Iraq
+U00743,Hazara University Mansehra,C0123,Pakistan
+U00744,Hebrew University Of Jerusalem,C0074,Israel
+U00745,Heinrich Heine University Dãâ¼Sseldorf,C0054,Germany
+U00746,Hellenic Open University,C0056,Greece
+U00747,Helwan University,C0045,Egypt
+U00748,Heriotwatt University,C0170,United Kingdom
+U00749,Herzen State Pedagogical University Of Russia,C0137,Russian Federation
+U00750,Higher National School Of Renewable Energies Environment And Sustainable Development,C0002,Algeria
+U00751,Higher School Of Agronomy Ãââ Mostaganem Esam,C0002,Algeria
+U00752,Higher School Of Management And Digital Economy Hsmde,C0002,Algeria
+U00753,Higher School Of Management Ãââ Tlemcen,C0002,Algeria
+U00754,Hilla University College,C0072,Iraq
+U00755,Hindustan Institute Of Technology And Science,C0067,India
+U00756,Hiroshima Institute Of Technology,C0077,Japan
+U00757,Hiroshima International University,C0077,Japan
+U00758,Hiroshima Shudo University,C0077,Japan
+U00759,Hiroshima University,C0077,Japan
+U00760,Hitit University,C0164,Turkey
+U00761,Hitotsubashi University,C0077,Japan
+U00762,Ho Chi Minh City Open University,C0177,Vietnam
+U00763,Ho Technical University,C0055,Ghana
+U00764,Hodeida University,C0180,Yemen
+U00765,Hohai University,C0033,China (Mainland)
+U00766,Hokkaido University,C0077,Japan
+U00767,Hokkaido University Of Science,C0077,Japan
+U00768,Holy Spirit University Of Kaslik,C0089,Lebanon
+U00769,Hong Kong Baptist University,C0063,Hong Kong Sar
+U00770,Hong Kong Polytechnic University,C0062,Hong Kong
+U00771,Hongik University,C0149,South Korea
+U00772,Hosei University,C0077,Japan
+U00773,Howard University,C0171,United States
+U00774,Hryhorii Skovoroda University In Pereiaslav,C0168,Ukraine
+U00775,Hse University,C0136,Russia
+U00776,Huachiew Chalermprakiet University,C0161,Thailand
+U00777,Huaqiao University,C0032,China
+U00778,Huazhong Agricultural University,C0033,China (Mainland)
+U00779,Huazhong University Of Science And Technology,C0033,China (Mainland)
+U00780,Hue University,C0177,Vietnam
+U00781,Hufs Hankuk Korea University Of Foreign Studies,C0149,South Korea
+U00782,Humanitas University,C0075,Italy
+U00783,Humboldt State University,C0171,United States
+U00784,Humboldt University Of Berlin,C0054,Germany
+U00785,Humboldtuniversitãt Zu Berlin,C0054,Germany
+U00786,Hunan University,C0033,China (Mainland)
+U00787,Hungarian University Of Agriculture And Life Sciences,C0065,Hungary
+U00788,Hyogo College Of Medicine,C0077,Japan
+U00789,Hyogo Medical University,C0077,Japan
+U00790,Hyogo University Of Teacher Education,C0077,Japan
+U00791,Hãâme University Of Applied Sciences,C0051,Finland
+U00792,Ibaraki University,C0077,Japan
+U00793,Ibn Khaldoun University,C0002,Algeria
+U00794,Ibn Tofaãâl University,C0111,Morocco
+U00795,Icesi University,C0034,Colombia
+U00796,Icfai University Dehradun,C0067,India
+U00797,Ie University,C0150,Spain
+U00798,Ifhe Hyderabad,C0067,India
+U00799,Ignatius Ajuru University Of Education,C0118,Nigeria
+U00800,Ilam University,C0069,Iran
+U00801,Ilam University Of Medical Sciences,C0069,Iran
+U00802,Ilia State University,C0053,Georgia
+U00803,Illinois Institute Of Technology,C0171,United States
+U00804,Illinois State University,C0171,United States
+U00805,Ilma University,C0123,Pakistan
+U00806,Ilmenau University Of Technology,C0054,Germany
+U00807,Imam Abdulrahman Bin Faisal University,C0140,Saudi Arabia
+U00808,Imam Abdulrahman Bin Faisal University Iau Formerly University Of Dammam,C0140,Saudi Arabia
+U00809,Imam Alkadhum College Ikc,C0072,Iraq
+U00810,Imam Khomeini International University,C0069,Iran
+U00811,Imam Mohammad Ibn Saud Islamic University,C0140,Saudi Arabia
+U00812,Imam Mohammad Ibn Saud Islamic University Â Imsiu,C0140,Saudi Arabia
+U00813,Immanuel Kant Baltic Federal University,C0136,Russia
+U00814,Imperial College London,C0170,United Kingdom
+U00815,Imt Atlantique,C0052,France
+U00816,Imt Mines Alãâs,C0052,France
+U00817,Imt Nord Europe,C0052,France
+U00818,Incheon National University,C0149,South Korea
+U00819,Independent University Bangladesh,C0012,Bangladesh
+U00820,Indian Institute Of Information Technology Allahabad,C0067,India
+U00821,Indian Institute Of Science,C0067,India
+U00822,Indian Institute Of Science Education And Research Bhopal,C0067,India
+U00823,Indian Institute Of Science Education And Research Kolkata,C0067,India
+U00824,Indian Institute Of Science Education And Research Pune,C0067,India
+U00825,Indian Institute Of Technology Bhu Varanasi,C0067,India
+U00826,Indian Institute Of Technology Bhubaneswar,C0067,India
+U00827,Indian Institute Of Technology Bombay Iitb,C0067,India
+U00828,Indian Institute Of Technology Delhi Iitd,C0067,India
+U00829,Indian Institute Of Technology Gandhinagar,C0067,India
+U00830,Indian Institute Of Technology Guwahati,C0067,India
+U00831,Indian Institute Of Technology Guwahati Iitg,C0067,India
+U00832,Indian Institute Of Technology Hyderabad,C0067,India
+U00833,Indian Institute Of Technology Indian School Of Mines Dhanbad,C0067,India
+U00834,Indian Institute Of Technology Indore,C0067,India
+U00835,Indian Institute Of Technology Indore Iit Indore,C0067,India
+U00836,Indian Institute Of Technology Kanpur Iitk,C0067,India
+U00837,Indian Institute Of Technology Kharagpur Iitkgp,C0067,India
+U00838,Indian Institute Of Technology Madras Iitm,C0067,India
+U00839,Indian Institute Of Technology Mandi,C0067,India
+U00840,Indian Institute Of Technology Patna,C0067,India
+U00841,Indian Institute Of Technology Roorkee Iitr,C0067,India
+U00842,Indian Institute Of Technology Ropar,C0067,India
+U00843,Indiana State University,C0171,United States
+U00844,Indiana University,C0171,United States
+U00845,Indiana University Bloomington,C0171,United States
+U00846,Indiana Universityâpurdue University Indianapolis,C0171,United States
+U00847,Indira Gandhi Delhi Technical University For Women,C0067,India
+U00848,Indraprastha Institute Of Information Technology Delhi,C0067,India
+U00849,Industrial University Of Tyumen,C0137,Russian Federation
+U00850,Information Technology University Of The Punjab,C0123,Pakistan
+U00851,Inha University,C0149,South Korea
+U00852,Innopolis University,C0137,Russian Federation
+U00853,Institut Agro,C0052,France
+U00854,Institut National Des Sciences Appliquães De Lyon Insa,C0052,France
+U00855,Institut Polytechnique De Paris,C0052,France
+U00856,Institut Teknologi Nasional Bandung Itenas Bandung,C0068,Indonesia
+U00857,Institut Teknologi Sepuluh Nopember,C0068,Indonesia
+U00858,Institut Teknologi Sepuluh Nopember Its Surabaya,C0068,Indonesia
+U00859,Institute Of Cancer Research,C0170,United Kingdom
+U00860,Institute Of Chemical Technology,C0067,India
+U00861,Institute Of Engineering Technical And Transport Communications Of Turkmenistan,C0165,Turkmenistan
+U00862,Institute Of International Relations Of The Ministry Of Foreign Affairs Of Turkmenistan,C0165,Turkmenistan
+U00863,Institute Of Southern Punjab Ãââ Multan,C0123,Pakistan
+U00864,Institute Of Space Technology,C0123,Pakistan
+U00865,Institute Of Telecommunications And Informatics Of Turkmenistan,C0165,Turkmenistan
+U00866,Instituto Politãcnico Nacional Ipn,C0106,Mexico
+U00867,Instituto Politãâcnico De Braganãâa,C0132,Portugal
+U00868,Instituto Politãâcnico De Viana Do Castelo,C0132,Portugal
+U00869,Instituto Politãâcnico Nacional Ipn,C0106,Mexico
+U00870,Instituto Tecnolã³Gico Autã³Nomo De Mãxico Itam,C0106,Mexico
+U00871,Instituto Tecnolã³Gico De Buenos Aires Itba,C0005,Argentina
+U00872,Instituto Tecnolã³Gico De Santo Domingo Intec,C0043,Dominican Republic
+U00873,Instituto Tecnolãâ³Gico Metropolitano,C0034,Colombia
+U00874,International American University,C0171,United States
+U00875,International Christian University,C0077,Japan
+U00876,International Engineering And Technology University Metu,C0079,Kazakhstan
+U00877,International Hellenic University,C0056,Greece
+U00878,International Institute Of Information Technology Hyderabad,C0067,India
+U00879,International Islamic University Islamabad,C0123,Pakistan
+U00880,International Islamic University Islamabad Iiu,C0123,Pakistan
+U00881,International Islamic University Malaysia Iium,C0101,Malaysia
+U00882,International It University,C0079,Kazakhstan
+U00883,International University For The Humanities And Development,C0165,Turkmenistan
+U00884,International University Of Business Agriculture And Technology,C0012,Bangladesh
+U00885,International University Of Rabat,C0111,Morocco
+U00886,Interstate School Of Veterinary Sciences And Medicine,C0141,Senegal
+U00887,Inti International University,C0101,Malaysia
+U00888,Inãânãâ¼ University,C0164,Turkey
+U00889,Ion Mincu University Of Architecture And Urbanism,C0135,Romania
+U00890,Ionian University,C0056,Greece
+U00891,Iowa State University,C0171,United States
+U00892,Ipb University,C0068,Indonesia
+U00893,Ipb University Aka Bogor Agricultural University,C0068,Indonesia
+U00894,Iqra University,C0123,Pakistan
+U00895,Iran University Of Medical Sciences,C0069,Iran
+U00896,Iran University Of Science And Technology,C0071,"Iran, Islamic Republic Of"
+U00897,Irkutsk National Research Technical University,C0137,Russian Federation
+U00898,Irkutsk State University,C0136,Russia
+U00899,Iscte Instituto Universitario De Lisboa,C0132,Portugal
+U00900,Iscteuniversity Institute Of Lisbon,C0132,Portugal
+U00901,Isfahan University Of Medical Sciences,C0069,Iran
+U00902,Isfahan University Of Technology,C0071,"Iran, Islamic Republic Of"
+U00903,Ishou University,C0158,Taiwan
+U00904,Islamia College Peshawar,C0123,Pakistan
+U00905,Islamic Azad University Najafabad Branch Iaun,C0069,Iran
+U00906,Islamic University Of Gaza,C0125,Palestine
+U00907,Islamic University Of Indonesia,C0068,Indonesia
+U00908,Islamic University Of Madinah,C0140,Saudi Arabia
+U00909,Isra University,C0078,Jordan
+U00910,Israel Technological University,C0044,Ecuador
+U00911,Istanbul Arel University,C0164,Turkey
+U00912,Istanbul Aydin University,C0164,Turkey
+U00913,Istanbul Aydãân University,C0164,Turkey
+U00914,Istanbul Bilgi University,C0164,Turkey
+U00915,Istanbul Bilgi Ãniversitesi,C0164,Turkey
+U00916,Istanbul Geliã Âim University,C0164,Turkey
+U00917,Istanbul Kãâ¼Ltãâ¼R University,C0164,Turkey
+U00918,Istanbul Medeniyet University,C0164,Turkey
+U00919,Istanbul Medipol University,C0164,Turkey
+U00920,Istanbul Okan University,C0164,Turkey
+U00921,Istanbul Technical University,C0164,Turkey
+U00922,Istanbul University,C0164,Turkey
+U00923,Istanbul Universitycerrahpaã Âa,C0164,Turkey
+U00924,Iteso Universidad Jesuita De Guadalajara,C0106,Mexico
+U00925,Itmo University,C0136,Russia
+U00926,Iubat Ãââ International University Of Business Agriculture And Technology,C0012,Bangladesh
+U00927,Iuliu Haã Âieganu University Of Medicine And Pharmacy Clujnapoca,C0135,Romania
+U00928,Ivan Franko National University Of Lviv,C0168,Ukraine
+U00929,Ivane Javakhishvili Tbilisi State University,C0053,Georgia
+U00930,Ivano Frankivsk National Technical University Of Oil And Gas,C0168,Ukraine
+U00931,Ivanovo State University Of Chemistry And Technology,C0137,Russian Federation
+U00932,Iwate University,C0077,Japan
+U00933,Izmir Institute Of Technology,C0164,Turkey
+U00934,Izmir Institute Of Technology Iztech,C0164,Turkey
+U00935,Izmir University Of Economics,C0164,Turkey
+U00936,Jabir Ibn Hayyan Medical University,C0072,Iraq
+U00937,Jadara University,C0078,Jordan
+U00938,Jadavpur University,C0067,India
+U00939,Jagiellonian University,C0131,Poland
+U00940,Jahangirnagar University,C0012,Bangladesh
+U00941,James Cook University,C0008,Australia
+U00942,Jamia Hamdard,C0067,India
+U00943,Jamia Hamdard University,C0067,India
+U00944,Jamia Millia Islamia,C0067,India
+U00945,Jan Evangelista Purkynãâ University,C0041,Czech Republic
+U00946,Jan Kochanowski University In Kielce,C0131,Poland
+U00947,Japan Advanced Institute Of Science And Technology Jaist,C0077,Japan
+U00948,Japan University Of Economics,C0077,Japan
+U00949,Jashore University Of Science And Technology,C0012,Bangladesh
+U00950,Jaume I University,C0150,Spain
+U00951,Jawaharlal Nehru Technological University Anantapur Jntua,C0067,India
+U00952,Jawaharlal Nehru University,C0067,India
+U00953,Jaypee University Of Information Technology,C0067,India
+U00954,Jazan University,C0140,Saudi Arabia
+U00955,Jean Moulin University Ãââ Lyon 3,C0052,France
+U00956,Jeju National University,C0149,South Korea
+U00957,Jember University,C0068,Indonesia
+U00958,Jeonbuk National University,C0149,South Korea
+U00959,Jerash Private University,C0078,Jordan
+U00960,Jianghan University,C0032,China
+U00961,Jiangnan University,C0033,China (Mainland)
+U00962,Jiangsu Normal University,C0032,China
+U00963,Jiangsu University,C0032,China
+U00964,Jiangxi University Of Finance And Economics,C0032,China
+U00965,Jilin University,C0033,China (Mainland)
+U00966,Jimma University,C0049,Ethiopia
+U00967,Jinan University,C0032,China
+U00968,Jinan University China,C0033,China (Mainland)
+U00969,Jizzakh Polytechnic Institute,C0174,Uzbekistan
+U00970,Jizzakh State Pedagogical University,C0174,Uzbekistan
+U00971,Johannes Gutenberg University Of Mainz,C0054,Germany
+U00972,Johannes Gutenberg Universitãt Mainz,C0054,Germany
+U00973,Johannes Kepler University Linz,C0009,Austria
+U00974,Johannes Kepler University Of Linz,C0009,Austria
+U00975,John Von Neumann University,C0065,Hungary
+U00976,Johns Hopkins University,C0171,United States
+U00977,Jordan University Of Science And Technology,C0078,Jordan
+U00978,Jordan University Of Science Technology,C0078,Jordan
+U00979,Jouf University,C0140,Saudi Arabia
+U00980,Jss Academy Of Higher Education And Research,C0067,India
+U00981,Juliusmaximiliansuniversitãt Wã¼Rzburg,C0054,Germany
+U00982,Juntendo University,C0077,Japan
+U00983,Justus Liebig University Giessen,C0054,Germany
+U00984,Justusliebiguniversity Giessen,C0054,Germany
+U00985,Jãânkãâping University,C0155,Sweden
+U00986,K Zhubanov Aktobe Regional University,C0079,Kazakhstan
+U00987,Kabarak University,C0080,Kenya
+U00988,Kabardinobalkarian State University,C0137,Russian Federation
+U00989,Kadir Has University,C0164,Turkey
+U00990,Kafrelsheikh University,C0045,Egypt
+U00991,Kagawa University,C0077,Japan
+U00992,Kagoshima University,C0077,Japan
+U00993,Kaist Korea Advanced Institute Of Science Technology,C0149,South Korea
+U00994,Kalasalingam Academy Of Research And Education,C0067,India
+U00995,Kamianetspodãâlskyi Ivan Ohiienko National University,C0168,Ukraine
+U00996,Kampala International University,C0167,Uganda
+U00997,Kanagawa University,C0077,Japan
+U00998,Kanazawa Medical University,C0077,Japan
+U00999,Kanazawa University,C0077,Japan
+U01000,Kangwon National University,C0149,South Korea
+U01001,Kansai Medical University,C0077,Japan
+U01002,Kansai University,C0077,Japan
+U01003,Kansas State University,C0171,United States
+U01004,Kaohsiung Medical University,C0158,Taiwan
+U01005,Karabãâ¼K University,C0164,Turkey
+U01006,Karadeniz Technical University,C0164,Turkey
+U01007,Karaganda Buketov University,C0079,Kazakhstan
+U01008,Karaganda State Technical University,C0079,Kazakhstan
+U01009,Karaganda University Of Kazpotrebsoyuz,C0079,Kazakhstan
+U01010,Karakalpak State University,C0174,Uzbekistan
+U01011,Karlfranzensuniversitaet Graz,C0009,Austria
+U01012,Karlsruhe Institute Of Technology,C0054,Germany
+U01013,Karlstad University,C0155,Sweden
+U01014,Karnatak University Dharwad,C0067,India
+U01015,Karolinska Institute,C0155,Sweden
+U01016,Karshi Engineering Economics Institute,C0174,Uzbekistan
+U01017,Karshi State University,C0174,Uzbekistan
+U01018,Karunya Institute Of Technology And Sciences,C0067,India
+U01019,Kasetsart University,C0161,Thailand
+U01020,Kashan University Of Medical Sciences And Health Services,C0069,Iran
+U01021,Kastamonu University,C0164,Turkey
+U01022,Kaunas University Of Technology,C0092,Lithuania
+U01023,Kazakh Ablai Khan University Of International Relations And World Languages,C0079,Kazakhstan
+U01024,Kazakh National Agrarian University Kaznau,C0079,Kazakhstan
+U01025,Kazakh National Pedagogical University Abai,C0079,Kazakhstan
+U01026,Kazakh National Womenãââs Teacher Training University,C0079,Kazakhstan
+U01027,Kazakhbritish Technical University,C0079,Kazakhstan
+U01028,Kazakhstan Medical University Ksph,C0079,Kazakhstan
+U01029,Kazan Federal University,C0137,Russian Federation
+U01030,Kazan National Research Technical University,C0137,Russian Federation
+U01031,Kazan National Research Technological University,C0136,Russia
+U01032,Kazan State Medical University,C0137,Russian Federation
+U01033,Kazan State Power Engineering University,C0137,Russian Federation
+U01034,Kazan Volga Region Federal University,C0136,Russia
+U01035,Keele University,C0170,United Kingdom
+U01036,Keio University,C0077,Japan
+U01037,Keisen University,C0077,Japan
+U01038,Kemerovo State University,C0137,Russian Federation
+U01039,Kent State University,C0171,United States
+U01040,Kenyatta University,C0080,Kenya
+U01041,Kerman University Of Medical Sciences,C0069,Iran
+U01042,Kermanshah University Of Medical Sciences,C0069,Iran
+U01043,Kermanshah University Of Technology,C0069,Iran
+U01044,Khalifa University,C0169,United Arab Emirates
+U01045,Khalifa University Of Science And Technology,C0169,United Arab Emirates
+U01046,Kharazmi University,C0069,Iran
+U01047,Kharkiv Aviation Institute,C0168,Ukraine
+U01048,Kharkiv National Automobile And Highway University,C0168,Ukraine
+U01049,Kharkiv National University Of Internal Affairs,C0168,Ukraine
+U01050,Kharkiv National University Of Radio Electronics,C0168,Ukraine
+U01051,Kharkiv University Of Humanities Ãââpeopleãââs Ukrainian Academyãââ,C0168,Ukraine
+U01052,Khazar University,C0010,Azerbaijan
+U01053,Khoja Akhmet Yassawi International Kazakhturkish University,C0079,Kazakhstan
+U01054,Khomein University Of Medical Sciences,C0069,Iran
+U01055,Khon Kaen University,C0161,Thailand
+U01056,Khulna University,C0012,Bangladesh
+U01057,Khulna University Of Engineering And Technology,C0012,Bangladesh
+U01058,Khulna University Of Engineering And Technology Kuet,C0012,Bangladesh
+U01059,Khwaja Fareed University Of Engineering And Information Technology,C0123,Pakistan
+U01060,Khyber Medical University,C0123,Pakistan
+U01061,Kiit University,C0067,India
+U01062,Kimyo International University In Tashkent,C0174,Uzbekistan
+U01063,Kindai University,C0077,Japan
+U01064,Kindai University Kinki University,C0077,Japan
+U01065,King Abdulaziz University,C0140,Saudi Arabia
+U01066,King Abdulaziz University Kau,C0140,Saudi Arabia
+U01067,King Abdullah University Of Science And Technology Kaust,C0140,Saudi Arabia
+U01068,King Danylo University,C0168,Ukraine
+U01069,King Edward Medical University,C0123,Pakistan
+U01070,King Fahd University Of Petroleum And Minerals,C0140,Saudi Arabia
+U01071,King Fahd University Of Petroleum Minerals,C0140,Saudi Arabia
+U01072,King Faisal University,C0140,Saudi Arabia
+U01073,King Khalid University,C0140,Saudi Arabia
+U01074,King Mongkuts Institute Of Technology Ladkrabang,C0161,Thailand
+U01075,King Mongkuts University Of Technology North Bangkok,C0161,Thailand
+U01076,King Mongkuts University Of Technology Thonburi,C0161,Thailand
+U01077,King Mongkutãââs Institute Of Technology Ladkrabang,C0161,Thailand
+U01078,King Mongkutãââs University Of Technology Thonburi,C0161,Thailand
+U01079,King Saud Bin Abdulaziz University For Health Sciences,C0140,Saudi Arabia
+U01080,King Saud University,C0140,Saudi Arabia
+U01081,Kings College London,C0170,United Kingdom
+U01082,Kings University,C0118,Nigeria
+U01083,Kingston University,C0170,United Kingdom
+U01084,Kingston University London,C0170,United Kingdom
+U01085,Kingãââs College London,C0170,United Kingdom
+U01086,Kinnaird College For Women,C0123,Pakistan
+U01087,Kirikkale University,C0164,Turkey
+U01088,Kit Karlsruhe Institute Of Technology,C0054,Germany
+U01089,Kitami Institute Of Technology,C0077,Japan
+U01090,Kitasato University,C0077,Japan
+U01091,Kl University,C0067,India
+U01092,Kle Technological University,C0067,India
+U01093,Kn Toosi University Of Technology,C0069,Iran
+U01094,Knowledge University,C0072,Iraq
+U01095,Kobe City University Of Foreign Studies,C0077,Japan
+U01096,Kobe Gakuin University,C0077,Japan
+U01097,Kobe University,C0077,Japan
+U01098,Kocaeli Health And Technology University,C0164,Turkey
+U01099,Kocaeli University,C0164,Turkey
+U01100,Kochi University,C0077,Japan
+U01101,Kochi University Of Technology,C0077,Japan
+U01102,Kogakuin University,C0077,Japan
+U01103,Kohat University Of Science And Technology,C0123,Pakistan
+U01104,Kohsar University Murree,C0123,Pakistan
+U01105,Kokshetau State University,C0079,Kazakhstan
+U01106,Kokugakuin University,C0077,Japan
+U01107,Konan University,C0077,Japan
+U01108,Konan Womenãââs University,C0077,Japan
+U01109,Konkuk University,C0149,South Korea
+U01110,Konya Technical University,C0164,Turkey
+U01111,Kookmin University,C0149,South Korea
+U01112,Kore University Of Enna,C0075,Italy
+U01113,Korea Advanced Institute Of Science And Technology Kaist,C0149,South Korea
+U01114,Korea University,C0149,South Korea
+U01115,Korkyt Ata Kyzylorda University,C0079,Kazakhstan
+U01116,Koya University,C0072,Iraq
+U01117,Koã University,C0164,Turkey
+U01118,Koãâ University,C0164,Turkey
+U01119,Kpr Institute Of Engineering And Technology,C0067,India
+U01120,Kth Royal Institute Of Technology,C0155,Sweden
+U01121,Kto Karatay University,C0164,Turkey
+U01122,Ku Leuven,C0014,Belgium
+U01123,Kumamoto University,C0077,Japan
+U01124,Kumasi Technical University,C0055,Ghana
+U01125,Kurdistan University Of Medical Sciences,C0069,Iran
+U01126,Kursk State Medical University,C0137,Russian Federation
+U01127,Kurume University,C0077,Japan
+U01128,Kutaisi University,C0053,Georgia
+U01129,Kuwait College Of Science And Technology Kcst,C0084,Kuwait
+U01130,Kuwait University,C0084,Kuwait
+U01131,Kwame Nkrumah University Of Science And Technology,C0055,Ghana
+U01132,Kwansei Gakuin University,C0077,Japan
+U01133,Kyiv National Economic University,C0168,Ukraine
+U01134,Kyoai Gakuen University,C0077,Japan
+U01135,Kyoto Institute Of Technology,C0077,Japan
+U01136,Kyoto Koka Womenãââs University,C0077,Japan
+U01137,Kyoto Notre Dame University,C0077,Japan
+U01138,Kyoto Prefectural University Of Medicine,C0077,Japan
+U01139,Kyoto Sangyo University,C0077,Japan
+U01140,Kyoto University,C0077,Japan
+U01141,Kyrgyz Russian Slavic University,C0086,Kyrgyzstan
+U01142,Kyrgyz State Technical University,C0086,Kyrgyzstan
+U01143,Kyrgyzturkish Manas University,C0086,Kyrgyzstan
+U01144,Kyung Hee University,C0149,South Korea
+U01145,Kyungpook National University,C0149,South Korea
+U01146,Kyushu Institute Of Technology,C0077,Japan
+U01147,Kyushu Institute Of Technology Kyutech,C0077,Japan
+U01148,Kyushu University,C0077,Japan
+U01149,Kãârã Âehir Ahi Evran University,C0164,Turkey
+U01150,Kãâ¼Tahya Health Sciences University,C0164,Turkey
+U01151,La Salle University,C0034,Colombia
+U01152,La Trobe University,C0008,Australia
+U01153,Ladoke Akintola University Of Technology,C0118,Nigeria
+U01154,Lagos State University,C0118,Nigeria
+U01155,Lahore College For Women University Lcwu,C0123,Pakistan
+U01156,Lahore Leads University,C0123,Pakistan
+U01157,Lahore University Of Management Sciences,C0123,Pakistan
+U01158,Lahore University Of Management Sciences Lums,C0123,Pakistan
+U01159,Lakehead University,C0029,Canada
+U01160,Lancaster University,C0170,United Kingdom
+U01161,Landmark University,C0118,Nigeria
+U01162,Lanzhou University,C0033,China (Mainland)
+U01163,Lappeenrantalahti University Of Technology Lut,C0051,Finland
+U01164,Larbi Tebessi University,C0002,Algeria
+U01165,Latvia University Of Life Sciences And Technologies,C0088,Latvia
+U01166,Lebanese American University,C0089,Lebanon
+U01167,Lebanese University,C0089,Lebanon
+U01168,Leeds Arts University,C0170,United Kingdom
+U01169,Leeds Beckett University,C0170,United Kingdom
+U01170,Leeds Conservatoire,C0170,United Kingdom
+U01171,Leeds Trinity University,C0170,United Kingdom
+U01172,Lehigh University,C0171,United States
+U01173,Leibniz University Hannover,C0054,Germany
+U01174,Leiden University,C0116,Netherlands
+U01175,Lesya Ukrainka Volyn National University,C0168,Ukraine
+U01176,Leuphana University Of Lãâ¼Neburg,C0054,Germany
+U01177,Liaquat University Of Medical And Health Sciences Lumhs,C0123,Pakistan
+U01178,Lincoln University,C0117,New Zealand
+U01179,Lincoln University College,C0101,Malaysia
+U01180,Lingnan University Hong Kong,C0063,Hong Kong Sar
+U01181,Linkãping University,C0155,Sweden
+U01182,Linkãâping University,C0155,Sweden
+U01183,Lira University,C0167,Uganda
+U01184,Lithuanian University Of Health Sciences,C0092,Lithuania
+U01185,Liverpool Hope University,C0170,United Kingdom
+U01186,Liverpool Institute For Performing Arts,C0170,United Kingdom
+U01187,Liverpool John Moores University,C0170,United Kingdom
+U01188,Liverpool School Of Tropical Medicine,C0170,United Kingdom
+U01189,Lmu Munich,C0054,Germany
+U01190,Ln Gumilyov Eurasian National University,C0079,Kazakhstan
+U01191,Ln Gumilyov Eurasian National University Enu,C0079,Kazakhstan
+U01192,Lobachevsky State University Of Nizhni Novgorod,C0137,Russian Federation
+U01193,Lobachevsky University,C0136,Russia
+U01194,Lodz University Of Technology,C0131,Poland
+U01195,Loei Rajabhat University,C0161,Thailand
+U01196,Lomonosov Moscow State University,C0136,Russia
+U01197,London Academy Of Music And Dramatic Art Lamda,C0170,United Kingdom
+U01198,London Business School,C0170,United Kingdom
+U01199,London Metropolitan University,C0170,United Kingdom
+U01200,London School Of Economics And Political Science,C0170,United Kingdom
+U01201,London School Of Hygiene And Tropical Medicine,C0170,United Kingdom
+U01202,London South Bank University,C0170,United Kingdom
+U01203,Londrina State University,C0020,Brazil
+U01204,Lorestan University,C0069,Iran
+U01205,Loughborough University,C0170,United Kingdom
+U01206,Louisiana State University,C0171,United States
+U01207,Lovely Professional University,C0067,India
+U01208,Loyola University Chicago,C0171,United States
+U01209,Lucian Blaga University Of Sibiu,C0135,Romania
+U01210,Ludwigmaximiliansuniversitãt Mã¼Nchen,C0054,Germany
+U01211,Lumiãâre University Lyon 2,C0052,France
+U01212,Lund University,C0155,Sweden
+U01213,Lusophone University Of Humanities And Technologies,C0132,Portugal
+U01214,Lviv Polytechnic National University,C0168,Ukraine
+U01215,Lviv State University Of Life Safety,C0168,Ukraine
+U01216,M Auezov South Kazakhstan University,C0079,Kazakhstan
+U01217,M Kumarasamy College Of Engineering,C0067,India
+U01218,Maastricht University,C0116,Netherlands
+U01219,Macau University Of Science And Technology,C0098,Macau Sar
+U01220,Mackenzie Presbyterian University,C0020,Brazil
+U01221,Macquarie University,C0008,Australia
+U01222,Mae Fah Luang University,C0161,Thailand
+U01223,Maharishi Markandeshwar University Mmu,C0067,India
+U01224,Mahasarakham University,C0161,Thailand
+U01225,Mahatma Gandhi University,C0067,India
+U01226,Mahatma Jyotiba Phule Rohilkhand University,C0067,India
+U01227,Mahidol University,C0161,Thailand
+U01228,Majmaah University,C0140,Saudi Arabia
+U01229,Makerere University,C0167,Uganda
+U01230,Malaviya National Institute Of Technology,C0067,India
+U01231,Malawi University Of Science And Technology Must,C0100,Malawi
+U01232,Management And Science University,C0101,Malaysia
+U01233,Management Development Institute Mdi,C0067,India
+U01234,Management Science University Msu,C0101,Malaysia
+U01235,Manchester Metropolitan University,C0170,United Kingdom
+U01236,Manchester Metropolitan University Mmu,C0170,United Kingdom
+U01237,Manipal Academy Of Higher Education,C0067,India
+U01238,Manipal Academy Of Higher Education Manipal Karnataka India,C0067,India
+U01239,Manipal University Jaipur,C0067,India
+U01240,Manisa Celal Bayar University,C0164,Turkey
+U01241,Mansoura University,C0045,Egypt
+U01242,Mapãâºa University,C0130,Philippines
+U01243,Marche Polytechnic University,C0075,Italy
+U01244,Margulan University,C0079,Kazakhstan
+U01245,Maria Curieskã Âodowska University Umcs,C0131,Poland
+U01246,Marian College Kuttikkanam Autonomous,C0067,India
+U01247,Mariano Marcos State University,C0130,Philippines
+U01248,Maritime University Of Szczecin,C0131,Poland
+U01249,Marmara University,C0164,Turkey
+U01250,Marquette University,C0171,United States
+U01251,Martinlutheruniversitãt Hallewittenberg,C0054,Germany
+U01252,Masaryk University,C0041,Czech Republic
+U01253,Mashhad University Of Medical Sciences,C0069,Iran
+U01254,Massachusetts Institute Of Technology,C0171,United States
+U01255,Massachusetts Institute Of Technology Mit,C0171,United States
+U01256,Massey University,C0117,New Zealand
+U01257,Matej Bel University,C0145,Slovakia
+U01258,Maynooth University,C0073,Ireland
+U01259,Mazandaran University Of Medical Sciences,C0069,Iran
+U01260,Mcgill University,C0029,Canada
+U01261,Mcmaster University,C0029,Canada
+U01262,Medical University Of Bialystok,C0131,Poland
+U01263,Medical University Of Gdaã Âsk,C0131,Poland
+U01264,Medical University Of Graz,C0009,Austria
+U01265,Medical University Of Innsbruck,C0009,Austria
+U01266,Medical University Of Lodz,C0131,Poland
+U01267,Medical University Of Lublin,C0131,Poland
+U01268,Medical University Of Silesia In Katowice,C0131,Poland
+U01269,Medical University Of Sofia,C0024,Bulgaria
+U01270,Medical University Of Vienna,C0009,Austria
+U01271,Medical University Of Warsaw,C0131,Poland
+U01272,Medizinische Hochschule Hannover,C0054,Germany
+U01273,Mehran University Of Engineering And Technology Jamshoro Pakistan,C0123,Pakistan
+U01274,Meiji University,C0077,Japan
+U01275,Meijo University,C0077,Japan
+U01276,Meikai University,C0077,Japan
+U01277,Memorial University Of Newfoundland,C0029,Canada
+U01278,Mendel University In Brno,C0041,Czech Republic
+U01279,Mendeleev University Of Chemical Technology,C0136,Russia
+U01280,Menoufia University,C0045,Egypt
+U01281,Metropolitan Autonomous University,C0106,Mexico
+U01282,Mgimo University,C0136,Russia
+U01283,Miami University,C0171,United States
+U01284,Michael And Cecilia Ibru University,C0118,Nigeria
+U01285,Michael Okpara University Of Agriculture Umudike,C0118,Nigeria
+U01286,Michigan State University,C0171,United States
+U01287,Michigan Technological University,C0171,United States
+U01288,Middle East Technical University,C0164,Turkey
+U01289,Middle East University,C0078,Jordan
+U01290,Middle Technical University,C0072,Iraq
+U01291,Middlesex University,C0170,United Kingdom
+U01292,Mie University,C0077,Japan
+U01293,Miguel Hernãândez University Of Elche,C0150,Spain
+U01294,Mindanao State University Ãââ Iligan Institute Of Technology,C0130,Philippines
+U01295,Ming Chi University Of Technology,C0158,Taiwan
+U01296,Ming Chuan University,C0158,Taiwan
+U01297,Minhaj University Lahore,C0123,Pakistan
+U01298,Minia University,C0045,Egypt
+U01299,Mioti Tech And Business School,C0150,Spain
+U01300,Mirea Russian Technological University,C0136,Russia
+U01301,Mirpur University Of Science And Technology,C0123,Pakistan
+U01302,Misr University For Science And Technology,C0045,Egypt
+U01303,Mississippi State University,C0171,United States
+U01304,Missouri University Of Science And Technology,C0171,United States
+U01305,Mizoram University,C0067,India
+U01306,Mizzou University Of Missouri,C0171,United States
+U01307,Mkh Dulaty Taraz Regional University,C0079,Kazakhstan
+U01308,Mns University Of Agriculture Multan,C0123,Pakistan
+U01309,Modern University For Business And Science,C0089,Lebanon
+U01310,Mohammed V University Of Rabat,C0111,Morocco
+U01311,Monash University,C0008,Australia
+U01312,Monroe College,C0171,United States
+U01313,Montana State University,C0171,United States
+U01314,Monterrey Institute Of Technology,C0106,Mexico
+U01315,Montpellier University,C0052,France
+U01316,Morgan State University,C0171,United States
+U01317,Moscow Aviation Institute,C0137,Russian Federation
+U01318,Moscow City University,C0136,Russia
+U01319,Moscow Institute Of Physics And Technology Mipt,C0137,Russian Federation
+U01320,Moscow Institute Of Physics And Technology Mipt Moscow Phystech,C0136,Russia
+U01321,Moscow Pedagogical State University,C0136,Russia
+U01322,Moscow Polytechnic University,C0137,Russian Federation
+U01323,Moscow Power Engineering Institute,C0137,Russian Federation
+U01324,Moscow State Linguistic University,C0137,Russian Federation
+U01325,Moscow State University Of Civil Engineering,C0137,Russian Federation
+U01326,Moscow Technical University Of Communications And Informatics,C0137,Russian Federation
+U01327,Moulay Ismail University,C0111,Morocco
+U01328,Muban Chombueng Rajabhat University,C0161,Thailand
+U01329,Muhimbili University Of Health And Allied Sciences,C0160,Tanzania
+U01330,Mukogawa Womenãââs University,C0077,Japan
+U01331,Multimedia University,C0101,Malaysia
+U01332,Multimedia University Mmu,C0101,Malaysia
+U01333,Mulungushi University,C0181,Zambia
+U01334,Murdoch University,C0008,Australia
+U01335,Muroran Institute Of Technology,C0077,Japan
+U01336,Musashino University,C0077,Japan
+U01337,Mustansiriyah University,C0072,Iraq
+U01338,Mutah University,C0078,Jordan
+U01339,Mykolas Romeris University,C0092,Lithuania
+U01340,Mãââhamed Bougara University Of Boumerdãâs,C0002,Algeria
+U01341,Nagaoka University Of Technology,C0077,Japan
+U01342,Nagasaki University,C0077,Japan
+U01343,Nagoya City University,C0077,Japan
+U01344,Nagoya Institute Of Technology,C0077,Japan
+U01345,Nagoya Institute Of Technology Nit,C0077,Japan
+U01346,Nagoya University,C0077,Japan
+U01347,Nagoya University Of Commerce Business,C0077,Japan
+U01348,Najran University,C0140,Saudi Arabia
+U01349,Nakhchivan State University,C0010,Azerbaijan
+U01350,Nakhon Ratchasima Rajabhat University,C0161,Thailand
+U01351,Namal University,C0123,Pakistan
+U01352,Namangan Engineering Construction Institute,C0174,Uzbekistan
+U01353,Namangan Institute Of Engineering And Technology,C0174,Uzbekistan
+U01354,Namangan State University,C0174,Uzbekistan
+U01355,Nanjing Agricultural University,C0033,China (Mainland)
+U01356,Nanjing Forestry University,C0032,China
+U01357,Nanjing Medical University,C0032,China
+U01358,Nanjing Normal University,C0033,China (Mainland)
+U01359,Nanjing Tech University,C0032,China
+U01360,Nanjing University,C0033,China (Mainland)
+U01361,Nanjing University Of Aeronautics And Astronautics,C0033,China (Mainland)
+U01362,Nanjing University Of Information Science And Technology,C0032,China
+U01363,Nanjing University Of Science And Technology,C0033,China (Mainland)
+U01364,Nankai University,C0033,China (Mainland)
+U01365,Nantes Universitãâ,C0052,France
+U01366,Nanyang Technological University Singapore,C0144,Singapore
+U01367,Nanyang Technological University Singapore Ntu,C0144,Singapore
+U01368,Nara Institute Of Science And Technology,C0077,Japan
+U01369,Nara Womenãââs University,C0077,Japan
+U01370,Naresuan University,C0161,Thailand
+U01371,Narxoz University,C0079,Kazakhstan
+U01372,Nasarawa State University Keffi,C0118,Nigeria
+U01373,National Agrarian University La Molina,C0129,Peru
+U01374,National And Kapodistrian University Of Athens,C0056,Greece
+U01375,National Autonomous University Of Mexico,C0106,Mexico
+U01376,National Aviation University,C0168,Ukraine
+U01377,National Central University,C0158,Taiwan
+U01378,National Changhua University Of Education,C0158,Taiwan
+U01379,National Cheng Kung University Ncku,C0158,Taiwan
+U01380,National Chengchi University,C0158,Taiwan
+U01381,National Chi Nan University,C0158,Taiwan
+U01382,National Chiayi University,C0158,Taiwan
+U01383,National Chinyi University Of Technology,C0158,Taiwan
+U01384,National Chung Cheng University,C0158,Taiwan
+U01385,National Chung Hsing University,C0158,Taiwan
+U01386,National Dong Hwa University,C0158,Taiwan
+U01387,National Film And Television School,C0170,United Kingdom
+U01388,National Formosa University,C0158,Taiwan
+U01389,National Ilan University,C0158,Taiwan
+U01390,National Institute Of Applied Sciences Of Lyon Insa Lyon,C0052,France
+U01391,National Institute Of Technology Hamirpur,C0067,India
+U01392,National Institute Of Technology Rourkela,C0067,India
+U01393,National Institute Of Technology Silchar,C0067,India
+U01394,National Institute Of Technology Srinagar,C0067,India
+U01395,National Institute Of Technology Tiruchirappalli,C0067,India
+U01396,National Institute Of Technology Warangal,C0067,India
+U01397,National Kaohsiung University Of Science And Technology,C0158,Taiwan
+U01398,National Polytechnic University Of Armenia,C0006,Armenia
+U01399,National Research Nuclear University Mephi,C0137,Russian Federation
+U01400,National Research Nuclear University Mephi Moscow Engineering Physics Institute,C0136,Russia
+U01401,National Research Saratov State University,C0136,Russia
+U01402,National Research Tomsk Polytechnic University,C0136,Russia
+U01403,National Research University Moscow Power Engineering Institute Mpei,C0136,Russia
+U01404,National Research University Of Electronic Technology Miet,C0137,Russian Federation
+U01405,National School Of Artificial Intelligence Ensia,C0002,Algeria
+U01406,National Sun Yatsen University,C0158,Taiwan
+U01407,National Taichung University Of Science And Technology,C0158,Taiwan
+U01408,National Taipei University,C0158,Taiwan
+U01409,National Taipei University Of Technology,C0158,Taiwan
+U01410,National Taiwan Normal University,C0158,Taiwan
+U01411,National Taiwan Ocean University,C0158,Taiwan
+U01412,National Taiwan University Ntu,C0158,Taiwan
+U01413,National Taiwan University Of Science And Technology Taiwan Tech,C0158,Taiwan
+U01414,National Technical University Kharkiv Polytechnic Institute,C0168,Ukraine
+U01415,National Technical University Of Athens,C0056,Greece
+U01416,National Technical University Of Ukraine Igor Sikorsky Kyiv Polytechnic Institute,C0168,Ukraine
+U01417,National Technical University Of Ukraine Ãââ Igor Sikorsky Kyiv Polytechnic Institute,C0168,Ukraine
+U01418,National Textile University,C0123,Pakistan
+U01419,National Transport University,C0168,Ukraine
+U01420,National Tsing Hua University,C0158,Taiwan
+U01421,National United University,C0158,Taiwan
+U01422,National University Odessa Law Academy,C0168,Ukraine
+U01423,National University Of Colombia,C0034,Colombia
+U01424,National University Of Computer And Emerging Sciences,C0123,Pakistan
+U01425,National University Of Costa Rica,C0036,Costa Rica
+U01426,National University Of Cãâ³Rdoba,C0005,Argentina
+U01427,National University Of Distance Education Uned,C0150,Spain
+U01428,National University Of Food Technologies,C0168,Ukraine
+U01429,National University Of Kaohsiung,C0158,Taiwan
+U01430,National University Of Kyivmohyla Academy Naukma,C0168,Ukraine
+U01431,National University Of Life And Environmental Sciences Of Ukraine,C0168,Ukraine
+U01432,National University Of Medical Sciences Nums,C0123,Pakistan
+U01433,National University Of Modern Languages Numl Islamabad,C0123,Pakistan
+U01434,National University Of Mongolia,C0109,Mongolia
+U01435,National University Of Quilmes,C0005,Argentina
+U01436,National University Of San Martãân,C0005,Argentina
+U01437,National University Of Science And Technology Misis,C0137,Russian Federation
+U01438,National University Of Science And Technology Oman,C0122,Oman
+U01439,National University Of Sciences And Technology,C0123,Pakistan
+U01440,National University Of Sciences And Technology Nust Islamabad,C0123,Pakistan
+U01441,National University Of Singapore,C0144,Singapore
+U01442,National University Of Singapore Nus,C0144,Singapore
+U01443,National University Of Uzbekistan,C0174,Uzbekistan
+U01444,National University Of Uzbekistan Named After Mirzo Ulugbek,C0174,Uzbekistan
+U01445,National University Of Water And Environmental Engineering,C0168,Ukraine
+U01446,National University Sudan,C0154,Sudan
+U01447,National University Ãââyuri Kondratyuk Poltava Polytechnicãââ,C0168,Ukraine
+U01448,National Yang Ming Chiao Tung University,C0158,Taiwan
+U01449,National Yunlin University Of Science And Technology,C0158,Taiwan
+U01450,Navoi State Pedagogical Institute,C0174,Uzbekistan
+U01451,Nazarbayev University,C0079,Kazakhstan
+U01452,Near East University,C0120,Northern Cyprus
+U01453,Necmettin Erbakan University,C0164,Turkey
+U01454,Ned University Of Engineering And Technology,C0123,Pakistan
+U01455,Netaji Subhas University Of Technology,C0067,India
+U01456,New Jersey Institute Of Technology,C0171,United States
+U01457,New Jersey Institute Of Technology Njit,C0171,United States
+U01458,New Mexico State University Main Campus,C0171,United States
+U01459,New York University,C0171,United States
+U01460,New York University Nyu,C0171,United States
+U01461,Newcastle University,C0170,United Kingdom
+U01462,Newman University,C0170,United Kingdom
+U01463,Nicolaus Copernicus University,C0131,Poland
+U01464,Nicolaus Copernicus University In Toruã Â,C0131,Poland
+U01465,Niger Delta University,C0118,Nigeria
+U01466,Nigerian Police Academy Wudil,C0118,Nigeria
+U01467,Nihon Pharmaceutical University,C0077,Japan
+U01468,Niigata University,C0077,Japan
+U01469,Niigata University Of Health And Welfare,C0077,Japan
+U01470,Nile University,C0045,Egypt
+U01471,Ninevah University,C0072,Iraq
+U01472,Nippon Medical School,C0077,Japan
+U01473,Nitte Deemed To Be University,C0067,India
+U01474,Nizhny Novgorod State Technical University,C0137,Russian Federation
+U01475,Niãâde Ãâmer Halisdemir University,C0164,Turkey
+U01476,Njsc Kimep University,C0079,Kazakhstan
+U01477,Nnamdi Azikiwe University,C0118,Nigeria
+U01478,North Carolina State University,C0171,United States
+U01479,North China Electric Power University,C0032,China
+U01480,North South University,C0012,Bangladesh
+U01481,Northcaucasus Federal University,C0137,Russian Federation
+U01482,Northeast Normal University,C0032,China
+U01483,Northeast Ohio Medical University,C0171,United States
+U01484,Northeastern Federal University,C0137,Russian Federation
+U01485,Northeastern University,C0171,United States
+U01486,Northeastern University China,C0032,China
+U01487,Northeastern University Us,C0171,United States
+U01488,Northern Arctic Federal University Named After Mv Lomonosov,C0137,Russian Federation
+U01489,Northern Arizona University,C0171,United States
+U01490,Northern Border University,C0140,Saudi Arabia
+U01491,Northern Borders University,C0140,Saudi Arabia
+U01492,Northern Illinois University,C0171,United States
+U01493,Northern Technical University,C0072,Iraq
+U01494,Northumbria University,C0170,United Kingdom
+U01495,Northumbria University At Newcastle,C0170,United Kingdom
+U01496,Northwest Agriculture And Forestry University,C0033,China (Mainland)
+U01497,Northwest University,C0148,South Africa
+U01498,Northwest University China,C0033,China (Mainland)
+U01499,Northwestern Polytechnical University,C0033,China (Mainland)
+U01500,Northwestern State Medical University Named After Ii Mechnikov,C0137,Russian Federation
+U01501,Northwestern University,C0171,United States
+U01502,Norwegian University Of Life Sciences,C0121,Norway
+U01503,Norwegian University Of Life Sciences Umb,C0121,Norway
+U01504,Norwegian University Of Science And Technology,C0121,Norway
+U01505,Norwich University Of The Arts,C0170,United Kingdom
+U01506,Nosov Magnitogorsk State Technical University,C0137,Russian Federation
+U01507,Nottingham Trent University,C0170,United Kingdom
+U01508,Nova Southeastern University,C0171,United States
+U01509,Nova University Of Lisbon,C0132,Portugal
+U01510,Novena University,C0118,Nigeria
+U01511,Novosibirsk State Technical University,C0136,Russia
+U01512,Novosibirsk State University,C0136,Russia
+U01513,Novosibirsk State University Of Economics And Management,C0137,Russian Federation
+U01514,Nueva Ecija University Of Science And Technology Neust,C0130,Philippines
+U01515,Nueva Granada Military University,C0034,Colombia
+U01516,Nursing School Of Coimbra,C0132,Portugal
+U01517,Oakland University,C0171,United States
+U01518,Obafemi Awolowo University,C0118,Nigeria
+U01519,Ocean University Of China,C0033,China (Mainland)
+U01520,Ochanomizu University,C0077,Japan
+U01521,October 6 University,C0045,Egypt
+U01522,October University For Modern Sciences And Arts Msa,C0045,Egypt
+U01523,Odesa Ii Mechnikov National University,C0168,Ukraine
+U01524,Odessa Ii Mechnikov National University,C0168,Ukraine
+U01525,Ogarev Mordovia State University,C0137,Russian Federation
+U01526,Oguz Han Engineering And Technology University Of Turkmenistan,C0165,Turkmenistan
+U01527,Ohio State University Main Campus,C0171,United States
+U01528,Ohio University,C0171,United States
+U01529,Ohio University Main Campus,C0171,United States
+U01530,Oita University,C0077,Japan
+U01531,Okayama University,C0077,Japan
+U01532,Oklahoma State University,C0171,United States
+U01533,Old Dominion University,C0171,United States
+U01534,Oles Honchar Dnipro National University,C0168,Ukraine
+U01535,Olusegun Agagu University Of Science And Technology,C0118,Nigeria
+U01536,Omsk State Agrarian University,C0137,Russian Federation
+U01537,Omsk State Technical University,C0137,Russian Federation
+U01538,Ondokuz Mayis University,C0164,Turkey
+U01539,Ontario Tech University,C0029,Canada
+U01540,Op Jindal Global University,C0067,India
+U01541,Open Christian University,C0148,South Africa
+U01542,Open University Of Catalonia,C0150,Spain
+U01543,Opole University Of Technology,C0131,Poland
+U01544,Oran 1 University,C0002,Algeria
+U01545,Oran Graduate School Of Economics,C0002,Algeria
+U01546,Ordu University,C0164,Turkey
+U01547,Oregon Health And Science University,C0171,United States
+U01548,Oregon State University,C0171,United States
+U01549,Orel State Agrarian University Named After Nv Parahin,C0137,Russian Federation
+U01550,Orel State University Named After Is Turgenev,C0137,Russian Federation
+U01551,Ort Uruguay University,C0173,Uruguay
+U01552,Osaka Institute Of Technology,C0077,Japan
+U01553,Osaka Medical And Pharmaceutical University,C0077,Japan
+U01554,Osaka Metropolitan University,C0077,Japan
+U01555,Osaka University,C0077,Japan
+U01556,Osmania University,C0067,India
+U01557,Osol Aldeen University College,C0072,Iraq
+U01558,Ostrogradsky National University Of Kremenchuk,C0168,Ukraine
+U01559,Otto Von Guericke University Of Magdeburg,C0054,Germany
+U01560,Ovidius University Of Constanãâa,C0135,Romania
+U01561,Oxford Brookes University,C0170,United Kingdom
+U01562,Ozyegin University,C0164,Turkey
+U01563,Pablo De Olavide University,C0150,Spain
+U01564,Pakistan Institute Of Engineering And Applied Sciences Pieas,C0123,Pakistan
+U01565,Palackã½ University Olomouc,C0041,Czech Republic
+U01566,Palackãâ½ University Olomouc,C0041,Czech Republic
+U01567,Palestine Polytechnic University,C0125,Palestine
+U01568,Palestine Technical University Ãââ Kadoorie,C0125,Palestine
+U01569,Pamukkale University,C0164,Turkey
+U01570,Panjab University,C0067,India
+U01571,Panteion University Of Social And Political Sciences,C0056,Greece
+U01572,Panthãâonassas University Paris 2,C0052,France
+U01573,Panthãâonsorbonne University Ãââ Paris 1,C0052,France
+U01574,Paris Lodron University Of Salzburg,C0009,Austria
+U01575,Paris Lodron Universitãât Salzburg,C0009,Austria
+U01576,Paris Nanterre University,C0052,France
+U01577,Paris Sciences Et Lettres Ãââ Psl Research University Paris,C0052,France
+U01578,Paris University Of International Education,C0052,France
+U01579,Parthenope University Of Naples,C0075,Italy
+U01580,Paul Valãry University Montpellier,C0052,France
+U01581,Pavlo Tychyna Uman State Pedagogical University,C0168,Ukraine
+U01582,Pavlov First Saint Petersburg State Medical University,C0137,Russian Federation
+U01583,Pavol Jozef Âafãrik University In Koâice,C0145,Slovakia
+U01584,Pavol Jozef Ã Â Afãârik University In Koã Âice,C0145,Slovakia
+U01585,Payame Noor University,C0069,Iran
+U01586,Pedagogical And Technological University Of Colombia,C0034,Colombia
+U01587,Peking University,C0033,China (Mainland)
+U01588,Penn State Main Campus,C0171,United States
+U01589,Pennsylvania State University,C0171,United States
+U01590,Penza State University,C0137,Russian Federation
+U01591,Perm National Research Polytechnic University,C0137,Russian Federation
+U01592,Perm State National Research University,C0136,Russia
+U01593,Perm State University,C0137,Russian Federation
+U01594,Persian Gulf University,C0069,Iran
+U01595,Peter The Great St Petersburg Polytechnic University,C0136,Russia
+U01596,Petre Shotadze Tbilisi Medical Academy,C0053,Georgia
+U01597,Petro Mohyla Black Sea National University,C0168,Ukraine
+U01598,Petroleum University Of Technology,C0069,Iran
+U01599,Pharos University,C0045,Egypt
+U01600,Philadelphia University Jordan,C0078,Jordan
+U01601,Philippsuniversitãt Marburg,C0054,Germany
+U01602,Pirogov Russian National Research Medical University,C0137,Russian Federation
+U01603,Plateau State University Bokkos,C0118,Nigeria
+U01604,Platov Southrussian State Polytechnic University Npi,C0137,Russian Federation
+U01605,Plekhanov Russian University Of Economics,C0136,Russia
+U01606,Plymouth Marjon University,C0170,United Kingdom
+U01607,Pmas Arid Agriculture University Rawalpindi,C0123,Pakistan
+U01608,Pohang University Of Science And Technology Postech,C0149,South Korea
+U01609,Politecnico Di Bari,C0075,Italy
+U01610,Politecnico Di Milano,C0075,Italy
+U01611,Politecnico Di Torino,C0075,Italy
+U01612,Poltava Vg Korolenko National Pedagogical University Pnpu,C0168,Ukraine
+U01613,Polytechnic Institute Of Porto,C0132,Portugal
+U01614,Polytechnic Institute Of Setãâºbal,C0132,Portugal
+U01615,Polytechnic University Of Bari,C0075,Italy
+U01616,Polytechnic University Of Bucharest,C0135,Romania
+U01617,Polytechnic University Of Timiã Âoara,C0135,Romania
+U01618,Polytechnic University Of Tirana,C0001,Albania
+U01619,Polytechnic University Of Turin,C0075,Italy
+U01620,Polytechnic University Of Valencia,C0150,Spain
+U01621,Pompeu Fabra University,C0150,Spain
+U01622,Pondicherry University,C0067,India
+U01623,Pontifical Catholic University Of Argentina,C0005,Argentina
+U01624,Pontifical Catholic University Of Minas Gerais,C0020,Brazil
+U01625,Pontifical Catholic University Of Peru,C0129,Peru
+U01626,Pontifical Catholic University Of Rio De Janeiro Pucrio,C0020,Brazil
+U01627,Pontifical Catholic University Of Rio Grande Do Sul Pucrs,C0020,Brazil
+U01628,Pontifical Catholic University Of Valparaãâso,C0031,Chile
+U01629,Pontifical Javeriana University,C0034,Colombia
+U01630,Pontificia Universidad Catolica Madre Y Maestra,C0043,Dominican Republic
+U01631,Pontificia Universidad Catã³Lica Argentina,C0005,Argentina
+U01632,Pontificia Universidad Catã³Lica De Chile Uc,C0031,Chile
+U01633,Pontificia Universidad Catã³Lica De Valparaãso,C0031,Chile
+U01634,Pontificia Universidad Catã³Lica Del Ecuador Puce,C0044,Ecuador
+U01635,Pontificia Universidad Catã³Lica Del Perãº,C0129,Peru
+U01636,Pontificia Universidad Catãâ³Lica De Chile,C0031,Chile
+U01637,Pontificia Universidad Catãâ³Lica Del Ecuador,C0044,Ecuador
+U01638,Pontificia Universidad Javeriana,C0034,Colombia
+U01639,Pontificia Universidade Catã³Lica Do Campinas Puc Campinas,C0020,Brazil
+U01640,Pontifãcia Universidade Catã³Lica De Minas Gerais Â Puc Minas,C0020,Brazil
+U01641,Pontifãcia Universidade Catã³Lica De São Paulo,C0020,Brazil
+U01642,Pontifãcia Universidade Catã³Lica Do Paranã,C0020,Brazil
+U01643,Pontifãcia Universidade Catã³Lica Do Rio De Janeiro,C0020,Brazil
+U01644,Pontifãcia Universidade Catã³Lica Do Rio Grande Do Sul Pucrs,C0020,Brazil
+U01645,Pontifãâcia Universidade Catãâ³Lica Do Paranãâ,C0020,Brazil
+U01646,Port Said University,C0045,Egypt
+U01647,Portland State University,C0171,United States
+U01648,Poznan University Of Life Sciences,C0131,Poland
+U01649,Poznan University Of Medical Sciences,C0131,Poland
+U01650,Poznan University Of Technology,C0131,Poland
+U01651,Poznaã Â University Of Life Sciences,C0131,Poland
+U01652,Prague University Of Economics And Business,C0041,Czech Republic
+U01653,Prefectural University Of Hiroshima,C0077,Japan
+U01654,Presbyterian University Ghana,C0055,Ghana
+U01655,Presidency University,C0067,India
+U01656,Prince Mohammad Bin Fahd University,C0140,Saudi Arabia
+U01657,Prince Of Songkla University,C0161,Thailand
+U01658,Prince Sattam Bin Abdulaziz University,C0140,Saudi Arabia
+U01659,Prince Sultan University,C0140,Saudi Arabia
+U01660,Prince Sultan University Psu,C0140,Saudi Arabia
+U01661,Princess Nourah Bint Abdulrahman University,C0140,Saudi Arabia
+U01662,Princess Sumaya University For Technology,C0078,Jordan
+U01663,Princeton University,C0171,United States
+U01664,Privolzhsky Research Medical University,C0137,Russian Federation
+U01665,Prydniprovska State Academy Of Civil Engineering And Architecture,C0168,Ukraine
+U01666,Psg College Of Technology,C0067,India
+U01667,Pskov State University,C0137,Russian Federation
+U01668,Public University Of Navarre,C0150,Spain
+U01669,Puccampinas,C0020,Brazil
+U01670,Pukyong National University,C0149,South Korea
+U01671,Purdue University,C0171,United States
+U01672,Purdue University West Lafayette,C0171,United States
+U01673,Pusan National University,C0149,South Korea
+U01674,Qassim University,C0140,Saudi Arabia
+U01675,Qatar University,C0134,Qatar
+U01676,Qazvin University Of Medical Sciences,C0069,Iran
+U01677,Qingdao University,C0032,China
+U01678,Qom University Of Medical Sciences,C0069,Iran
+U01679,Quaideawam University Of Engineering Science And Technology Quest,C0123,Pakistan
+U01680,Quaidiazam University,C0123,Pakistan
+U01681,Queen Arwa University,C0180,Yemen
+U01682,Queen Margaret University,C0170,United Kingdom
+U01683,Queen Margaret University Edinburgh,C0170,United Kingdom
+U01684,Queen Mary University Of London,C0170,United Kingdom
+U01685,Queens University At Kingston,C0029,Canada
+U01686,Queens University Belfast,C0170,United Kingdom
+U01687,Queensland University Of Technology,C0008,Australia
+U01688,Queensland University Of Technology Qut,C0008,Australia
+U01689,Queenãââs University,C0029,Canada
+U01690,Queenãââs University Belfast,C0170,United Kingdom
+U01691,R V College Of Engineering,C0067,India
+U01692,Radboud University,C0116,Netherlands
+U01693,Radboud University Nijmegen,C0116,Netherlands
+U01694,Rajamangala University Of Technology Isan,C0161,Thailand
+U01695,Rajamangala University Of Technology Thanyaburi Rmutt,C0161,Thailand
+U01696,Rajshahi University,C0012,Bangladesh
+U01697,Ravensbourne,C0170,United Kingdom
+U01698,Rawalpindi Medical University,C0123,Pakistan
+U01699,Razi University,C0069,Iran
+U01700,Rcsi University Of Medicine And Health Sciences,C0073,Ireland
+U01701,Recep Tayyip Erdoãâan University,C0164,Turkey
+U01702,Reichman University,C0074,Israel
+U01703,Renmin Peoples University Of China,C0033,China (Mainland)
+U01704,Rennes School Of Business,C0052,France
+U01705,Rensselaer Polytechnic Institute,C0171,United States
+U01706,Reshetnev Siberian State University Of Science And Technology,C0137,Russian Federation
+U01707,Reva University,C0067,India
+U01708,Reykjavãâk University,C0066,Iceland
+U01709,Rheinische Friedrichwilhelmsuniversitãt Bonn,C0054,Germany
+U01710,Rhodes University,C0148,South Africa
+U01711,Rice University,C0171,United States
+U01712,Riga Stradins University,C0088,Latvia
+U01713,Riga Stradiã Âã Â University,C0088,Latvia
+U01714,Riga Technical University,C0088,Latvia
+U01715,Rikkyo University,C0077,Japan
+U01716,Riphah International University,C0123,Pakistan
+U01717,Ritsumeikan Asia Pacific University,C0077,Japan
+U01718,Ritsumeikan Asia Pacific University Apu,C0077,Japan
+U01719,Ritsumeikan University,C0077,Japan
+U01720,Rmit University,C0008,Australia
+U01721,Robert Gordon University,C0170,United Kingdom
+U01722,Rochester Institute Of Technology,C0171,United States
+U01723,Rochester Institute Of Technology Rit,C0171,United States
+U01724,Rose Bruford College,C0170,United Kingdom
+U01725,Roskilde University,C0042,Denmark
+U01726,Rostov State University Of Economics,C0137,Russian Federation
+U01727,Rovira I Virgili University,C0150,Spain
+U01728,Rowan University,C0171,United States
+U01729,Royal Academy Of Dramatic Art Rada,C0170,United Kingdom
+U01730,Royal Academy Of Music,C0170,United Kingdom
+U01731,Royal Agricultural University,C0170,United Kingdom
+U01732,Royal Central School Of Speech And Drama University Of London,C0170,United Kingdom
+U01733,Royal College Of Academics,C0095,Luxembourg
+U01734,Royal College Of Art,C0170,United Kingdom
+U01735,Royal College Of Music,C0170,United Kingdom
+U01736,Royal Conservatoire Of Scotland,C0170,United Kingdom
+U01737,Royal Holloway University Of London,C0170,United Kingdom
+U01738,Royal Northern College Of Music,C0170,United Kingdom
+U01739,Royal Veterinary College,C0170,United Kingdom
+U01740,Rudn University,C0136,Russia
+U01741,Ruhr University Bochum,C0054,Germany
+U01742,Ruhruniversitãt Bochum,C0054,Germany
+U01743,Ruprechtkarlsuniversitãt Heidelberg,C0054,Germany
+U01744,Rush University,C0171,United States
+U01745,Russian Biotechnological University Biotech,C0137,Russian Federation
+U01746,Russian Presidential Academy Of National Economy And Public Administration,C0136,Russia
+U01747,Russian State Agrarian University Moscow Timiryazev Agricultural Academy,C0136,Russia
+U01748,Russian State Agrarian University Ãââ Moscow Timiryazev Agricultural Academy,C0137,Russian Federation
+U01749,Russian State University For The Humanities,C0136,Russia
+U01750,Russian University Of State For Social Russ,C0137,Russian Federation
+U01751,Rutgers University Ãââ New Brunswick,C0171,United States
+U01752,Rutgers Universityânew Brunswick,C0171,United States
+U01753,Rutgers Universityânewark,C0171,United States
+U01754,Rwth Aachen University,C0054,Germany
+U01755,Ryazan State Medical University,C0137,Russian Federation
+U01756,Ryukoku University,C0077,Japan
+U01757,Rzeszãâ³W University Of Technology,C0131,Poland
+U01758,Sabanci University,C0164,Turkey
+U01759,Sabancãâ University,C0164,Turkey
+U01760,Saga University,C0077,Japan
+U01761,Sahand University Of Technology,C0069,Iran
+U01762,Saint Joseph University Of Beirut Usj,C0089,Lebanon
+U01763,Saint Louis University,C0171,United States
+U01764,Saint Petersburg Electrotechnical University Etuleti,C0136,Russia
+U01765,Saint Petersburg State Pediatric Medical University,C0137,Russian Federation
+U01766,Saint Petersburg State University,C0136,Russia
+U01767,Saint Thomas University Colombia,C0034,Colombia
+U01768,Saintpetersburg Mining University,C0136,Russia
+U01769,Saints Cyril And Methodius University In Skopje,C0119,North Macedonia
+U01770,Saitama Medical University,C0077,Japan
+U01771,Saitama University,C0077,Japan
+U01772,Sakarya University,C0164,Turkey
+U01773,Saken Seifullin Kazakh Agrotechnical University,C0079,Kazakhstan
+U01774,Sakon Nakhon Rajabhat University,C0161,Thailand
+U01775,Salahaddin University,C0072,Iraq
+U01776,Salem University,C0118,Nigeria
+U01777,Samara National Research University Samara University,C0136,Russia
+U01778,Samara State Medical University,C0137,Russian Federation
+U01779,Samara State Technical University,C0137,Russian Federation
+U01780,Samarkand State Institute Of Foreign Languages,C0174,Uzbekistan
+U01781,Samarkand State Medical University,C0174,Uzbekistan
+U01782,Samarkand State University,C0174,Uzbekistan
+U01783,Samsun University,C0164,Turkey
+U01784,Samuel Adegboyega University,C0118,Nigeria
+U01785,San Diego State University,C0171,United States
+U01786,San Francisco State University,C0171,United States
+U01787,San Sebastiãân University,C0031,Chile
+U01788,Santãââanna School Of Advanced Studies Ãââ Pisa,C0075,Italy
+U01789,Sapienza University Of Rome,C0075,Italy
+U01790,Sapporo Medical University,C0077,Japan
+U01791,Saratov State Medical University,C0137,Russian Federation
+U01792,Sarsen Amanzholov East Kazakhstan University,C0079,Kazakhstan
+U01793,Sastra University,C0067,India
+U01794,Satbayev University,C0079,Kazakhstan
+U01795,Sathyabama Institute Of Science And Technology,C0067,India
+U01796,Sathyabama Institute Of Science And Technology Deemed To Be University,C0067,India
+U01797,Satya Wacana Christian University,C0068,Indonesia
+U01798,Saudi Electronic University,C0140,Saudi Arabia
+U01799,Saveetha Institute Of Medical And Technical Sciences,C0067,India
+U01800,Saveetha Institute Of Medical And Technical Sciences Deemed To Be University,C0067,India
+U01801,Savitribai Phule Pune University,C0067,India
+U01802,Sbs Swiss Business School,C0156,Switzerland
+U01803,School Of Higher Commercial Studies Ehec Algiers,C0002,Algeria
+U01804,Sciences Po,C0052,France
+U01805,Scuola Normale Superiore Di Pisa,C0075,Italy
+U01806,Sd Asfendiyarov Kazakh National Medical University,C0079,Kazakhstan
+U01807,Seattle University,C0171,United States
+U01808,Sebha University,C0090,Libya
+U01809,Sechenov University,C0136,Russia
+U01810,Sefako Makgatho Health Sciences University,C0148,South Africa
+U01811,Seisa Dohto University,C0077,Japan
+U01812,Sejong University,C0149,South Korea
+U01813,Selãâuk University,C0164,Turkey
+U01814,Semmelweis University,C0065,Hungary
+U01815,Semnan University,C0069,Iran
+U01816,Semnan University Of Medical Sciences And Health Services,C0069,Iran
+U01817,Senshu University,C0077,Japan
+U01818,Seoul National University,C0149,South Korea
+U01819,Seoul National University Of Science And Technology,C0149,South Korea
+U01820,Seoul National University Of Science And Technology Seoultech,C0149,South Korea
+U01821,Seyitnazar Seydi Turkmen State Pedagogical Institute,C0165,Turkmenistan
+U01822,Sgh Warsaw School Of Economics,C0131,Poland
+U01823,Shah Abdul Latif University Khairpur,C0123,Pakistan
+U01824,Shahed University,C0069,Iran
+U01825,Shaheed Benazir Bhutto Women University Peshawar,C0123,Pakistan
+U01826,Shaheed Mohtarma Benazir Bhutto Medical University,C0123,Pakistan
+U01827,Shaheed Zulfiqar Ali Bhutto Medical University,C0123,Pakistan
+U01828,Shahid Bahonar University Of Kerman,C0069,Iran
+U01829,Shahid Beheshti University,C0069,Iran
+U01830,Shahid Beheshti University Of Medical Sciences,C0069,Iran
+U01831,Shahid Beheshti University Sbu,C0071,"Iran, Islamic Republic Of"
+U01832,Shahid Rajaee Teacher Training University,C0069,Iran
+U01833,Shahid Sadoughi University Of Medical Sciences,C0069,Iran
+U01834,Shahjalal University Of Science And Technology,C0012,Bangladesh
+U01835,Shahrekord University,C0069,Iran
+U01836,Shahrekord University Of Medical Sciences,C0069,Iran
+U01837,Shahrood University Of Technology,C0069,Iran
+U01838,Shandong University,C0033,China (Mainland)
+U01839,Shanghai International Studies University,C0033,China (Mainland)
+U01840,Shanghai Jiao Tong University,C0033,China (Mainland)
+U01841,Shanghai Maritime University,C0032,China
+U01842,Shanghai Normal University,C0033,China (Mainland)
+U01843,Shanghai University,C0033,China (Mainland)
+U01844,Shanghai University Of Finance And Economics,C0033,China (Mainland)
+U01845,Shantou University,C0032,China
+U01846,Sharif University Of Technology,C0071,"Iran, Islamic Republic Of"
+U01847,Sheffield Hallam University,C0170,United Kingdom
+U01848,Shenzhen University,C0033,China (Mainland)
+U01849,Shibaura Institute Of Technology,C0077,Japan
+U01850,Shiga University Of Medical Science,C0077,Japan
+U01851,Shimane University,C0077,Japan
+U01852,Shinshu University,C0077,Japan
+U01853,Shiraz University,C0071,"Iran, Islamic Republic Of"
+U01854,Shiraz University Of Medical Sciences,C0069,Iran
+U01855,Shiraz University Of Technology,C0069,Iran
+U01856,Shizuoka University,C0077,Japan
+U01857,Shonan Institute Of Technology,C0077,Japan
+U01858,Shoolini University Of Biotechnology And Management Sciences,C0067,India
+U01859,Showa University,C0077,Japan
+U01860,Shri Mata Vaishno Devi University,C0067,India
+U01861,Siberian Federal University,C0137,Russian Federation
+U01862,Siberian Federal University Sibfu,C0136,Russia
+U01863,Siberian State Medical University,C0137,Russian Federation
+U01864,Sichuan University,C0033,China (Mainland)
+U01865,Sichuan University Of Science And Engineering,C0032,China
+U01866,Sidi Mohamed Ben Abdellah University,C0111,Morocco
+U01867,Sikkim Manipal University,C0067,India
+U01868,Siksha O Anusandhan Deemed To Be University,C0067,India
+U01869,Siksha Ãââoãââ Anusandhan,C0067,India
+U01870,Silesian University In Opava,C0041,Czech Republic
+U01871,Silesian University Of Technology,C0131,Poland
+U01872,Silpakorn University,C0161,Thailand
+U01873,Simad University,C0147,Somalia
+U01874,Simon Fraser University,C0029,Canada
+U01875,Simãâ³N Bolãâvar University,C0175,Venezuela
+U01876,Simãâ³N Bolãâvar University Colombia,C0034,Colombia
+U01877,Singapore Management University,C0144,Singapore
+U01878,Singapore University Of Technology And Design,C0144,Singapore
+U01879,Sir Syed University Of Engineering And Technology,C0123,Pakistan
+U01880,Sivas Cumhuriyet University,C0164,Turkey
+U01881,Skolkovo Institute Of Science And Technology Skoltech,C0137,Russian Federation
+U01882,Slovak University Of Agriculture In Nitra,C0145,Slovakia
+U01883,Slovak University Of Technology In Bratislava,C0145,Slovakia
+U01884,Soas University Of London,C0170,United Kingdom
+U01885,Sofia University,C0024,Bulgaria
+U01886,Sofia University St Kliment Ohridski,C0024,Bulgaria
+U01887,Sogang University,C0149,South Korea
+U01888,Sohag University,C0045,Egypt
+U01889,Sohar University,C0122,Oman
+U01890,Sokoto State University,C0118,Nigeria
+U01891,Solent University Southampton,C0170,United Kingdom
+U01892,Soochow University,C0033,China (Mainland)
+U01893,Soochow University China,C0032,China
+U01894,Soochow University Taiwan,C0158,Taiwan
+U01895,Sookmyung Womens University,C0149,South Korea
+U01896,Soonchunhyang University,C0149,South Korea
+U01897,Soongsil University,C0149,South Korea
+U01898,Sophia University,C0077,Japan
+U01899,Soran University,C0072,Iraq
+U01900,Sorbonne University,C0052,France
+U01901,South China Normal University,C0032,China
+U01902,South China University Of Technology,C0033,China (Mainland)
+U01903,South Ural State University,C0137,Russian Federation
+U01904,South Ural State University National Research University,C0136,Russia
+U01905,South Valley University,C0045,Egypt
+U01906,Southeast University,C0033,China (Mainland)
+U01907,Southern Cross University,C0008,Australia
+U01908,Southern Federal University,C0136,Russia
+U01909,Southern Illinois University Carbondale,C0171,United States
+U01910,Southern Medical University,C0032,China
+U01911,Southern Methodist University,C0171,United States
+U01912,Southern Technical University,C0072,Iraq
+U01913,Southern University Of Science And Technology,C0033,China (Mainland)
+U01914,Southern University Of Science And Technology Sustech,C0032,China
+U01915,Southwest Jiaotong University,,
+U01916,Southwest Petroleum University,C0032,China
+U01917,Southwest State University,C0137,Russian Federation
+U01918,Southwest University,C0033,China (Mainland)
+U01919,Southwestern University Of Finance And Economics,C0032,China
+U01920,Sr University,C0067,India
+U01921,Sri Balaji Vidyapeeth,C0067,India
+U01922,Sri Lanka Institute Of Information Technology,C0151,Sri Lanka
+U01923,Sri Padmavati Mahila Visvavidyalayam Womens University,C0067,India
+U01924,Sri Venkateswara University,C0067,India
+U01925,Srinakharinwirot University,C0161,Thailand
+U01926,Srm Institute Of Science And Technology,C0067,India
+U01927,Sruc Scotlandãââs Rural College,C0170,United Kingdom
+U01928,St Georgeãââs University Of London,C0170,United Kingdom
+U01929,St Louis University,C0171,United States
+U01930,St Lukeãââs International University,C0077,Japan
+U01931,St Marianna University School Of Medicine,C0077,Japan
+U01932,St Maryãââs University College Belfast,C0170,United Kingdom
+U01933,St Maryãââs University Twickenham,C0170,United Kingdom
+U01934,St Petersburg Electrotechnical University Leti,C0137,Russian Federation
+U01935,Staffordshire University,C0170,United Kingdom
+U01936,Stamford University Bangladesh,C0012,Bangladesh
+U01937,Stanford University,C0171,United States
+U01938,State Energy Institute Of Turkmenistan,C0165,Turkmenistan
+U01939,State University Of Bahia,C0020,Brazil
+U01940,State University Of Malang,C0068,Indonesia
+U01941,State University Of Ponta Grossa,C0020,Brazil
+U01942,State University Of Santa Cruz,C0020,Brazil
+U01943,Stavropol State Agrarian University,C0137,Russian Federation
+U01944,Stefan Cel Mare University Of Suceava,C0135,Romania
+U01945,Stellenbosch University,C0148,South Africa
+U01946,Stevens Institute Of Technology,C0171,United States
+U01947,Stockholm University,C0155,Sweden
+U01948,Stony Brook University,C0171,United States
+U01949,Stony Brook University State University Of New York,C0171,United States
+U01950,Stranmillis University College,C0170,United Kingdom
+U01951,Suez Canal University,C0045,Egypt
+U01952,Suez University,C0045,Egypt
+U01953,Sugiyama Jogakuen University,C0077,Japan
+U01954,Sukkur Iba University,C0123,Pakistan
+U01955,Sulaimani Polytechnic University,C0072,Iraq
+U01956,Suleyman Demirel University,C0164,Turkey
+U01957,Suleyman Demirel University Kazakhstan,C0079,Kazakhstan
+U01958,Sultan Qaboos University,C0122,Oman
+U01959,Sumy State University,C0168,Ukraine
+U01960,Sun Yatsen University,C0033,China (Mainland)
+U01961,Sungkyunkwan University Skku,C0149,South Korea
+U01962,Sungkyunkwan Universityskku,C0149,South Korea
+U01963,Sungshin Womens University,C0149,South Korea
+U01964,Sunway University,C0101,Malaysia
+U01965,Suny Binghamton University,C0171,United States
+U01966,Suny University At Albany,C0171,United States
+U01967,Suranaree University Of Technology,C0161,Thailand
+U01968,Suratthani Rajabhat University,C0161,Thailand
+U01969,Swansea University,C0170,United Kingdom
+U01970,Swarthmore College,C0171,United States
+U01971,Swedish University Of Agricultural Sciences,C0155,Sweden
+U01972,Swinburne University Of Technology,C0008,Australia
+U01973,Swps University Of Social Sciences And Humanities,C0131,Poland
+U01974,Symbiosis International Deemed University,C0067,India
+U01975,Symbiosis International University,C0067,India
+U01976,Syracuse University,C0171,United States
+U01977,Szãchenyi Istvãn University,C0065,Hungary
+U01978,Szãâchenyi Istvãân University,C0065,Hungary
+U01979,Sãâ¼Leyman Demirel University,C0164,Turkey
+U01980,T C Demiroãâlu Bilim University,C0164,Turkey
+U01981,Tabriz University Of Medical Sciences,C0069,Iran
+U01982,Tafila Technical University,C0078,Jordan
+U01983,Taibah University,C0140,Saudi Arabia
+U01984,Taif University,C0140,Saudi Arabia
+U01985,Taipei Medical University,C0158,Taiwan
+U01986,Taipei Medical University Tmu,C0158,Taiwan
+U01987,Takushoku University,C0077,Japan
+U01988,Tallinn University,C0048,Estonia
+U01989,Tallinn University Of Technology,C0048,Estonia
+U01990,Tallinn University Of Technology Taltech,C0048,Estonia
+U01991,Tama Art University,C0077,Japan
+U01992,Tamil Nadu Agricultural University,C0067,India
+U01993,Tamkang University,C0158,Taiwan
+U01994,Tampere University,C0051,Finland
+U01995,Tanta University,C0045,Egypt
+U01996,Taras Shevchenko National University Of Kyiv,C0168,Ukraine
+U01997,Tarlac Agricultural University,C0130,Philippines
+U01998,Tarsus University,C0164,Turkey
+U01999,Tashkent Institute Of Chemical Technology,C0174,Uzbekistan
+U02000,Tashkent Institute Of Finance,C0174,Uzbekistan
+U02001,Tashkent Institute Of Irrigation And Agricultural Mechanisation,C0174,Uzbekistan
+U02002,Tashkent Institute Of Irrigation And Agricultural Mechanization Engineers National Research University Tiiamenru,C0174,Uzbekistan
+U02003,Tashkent Institute Of Textile And Light Industry,C0174,Uzbekistan
+U02004,Tashkent Medical Academy,C0174,Uzbekistan
+U02005,Tashkent Metropolitan University,C0174,Uzbekistan
+U02006,Tashkent Pediatric Medical Institute,C0174,Uzbekistan
+U02007,Tashkent Pharmaceutical Institute,C0174,Uzbekistan
+U02008,Tashkent State Agrarian University,C0174,Uzbekistan
+U02009,Tashkent State Dental Institute,C0174,Uzbekistan
+U02010,Tashkent State Pedagogical University Named After Nizami,C0174,Uzbekistan
+U02011,Tashkent State Technical University,C0174,Uzbekistan
+U02012,Tashkent State Transport University,C0174,Uzbekistan
+U02013,Tashkent State University Of Economics,C0174,Uzbekistan
+U02014,Tashkent State University Of Law,C0174,Uzbekistan
+U02015,Tashkent State University Of Oriental Studies,C0174,Uzbekistan
+U02016,Tashkent University Of Information Technologies,C0174,Uzbekistan
+U02017,Tata Institute Of Fundamental Research,C0067,India
+U02018,Tatung University,C0158,Taiwan
+U02019,Taylors University,C0101,Malaysia
+U02020,Teacher Education College Of Setif,C0002,Algeria
+U02021,Technical University Of Berlin,C0054,Germany
+U02022,Technical University Of Cartagena,C0150,Spain
+U02023,Technical University Of Clujnapoca,C0135,Romania
+U02024,Technical University Of Crete,C0056,Greece
+U02025,Technical University Of Darmstadt,C0054,Germany
+U02026,Technical University Of Denmark,C0042,Denmark
+U02027,Technical University Of Kosice,C0145,Slovakia
+U02028,Technical University Of Koã Âice,C0145,Slovakia
+U02029,Technical University Of Liberec,C0041,Czech Republic
+U02030,Technical University Of Loja,C0044,Ecuador
+U02031,Technical University Of Lublin,C0131,Poland
+U02032,Technical University Of Madrid,C0150,Spain
+U02033,Technical University Of Moldova,C0108,Moldova
+U02034,Technical University Of Munich,C0054,Germany
+U02035,Technical University Of Sofia,C0024,Bulgaria
+U02036,Technion Israel Institute Of Technology,C0074,Israel
+U02037,Technische Universitãt Bergakademie Freiberg,C0054,Germany
+U02038,Technische Universitãt Berlin Tu Berlin,C0054,Germany
+U02039,Technische Universitãt Braunschweig,C0054,Germany
+U02040,Technische Universitãt Dresden,C0054,Germany
+U02041,Technische Universitãt Kaiserslautern,C0054,Germany
+U02042,Technische Universitãt Wien,C0009,Austria
+U02043,Technological University Dublin,C0073,Ireland
+U02044,Technological University Of Pereira,C0034,Colombia
+U02045,Tecmilenio University,C0106,Mexico
+U02046,Tecnolã³Gico De Costa Rica Tec,C0036,Costa Rica
+U02047,Tecnolã³Gico De Monterrey,C0106,Mexico
+U02048,Tecnolãâ³Gico De Costa Rica,C0036,Costa Rica
+U02049,Teerthanker Mahaveer University,C0067,India
+U02050,Teesside University,C0170,United Kingdom
+U02051,Tehran University Of Medical Sciences,C0069,Iran
+U02052,Teikyo Heisei University,C0077,Japan
+U02053,Teikyo University,C0077,Japan
+U02054,Tel Aviv University,C0074,Israel
+U02055,Telkom University,C0068,Indonesia
+U02056,Temple University,C0171,United States
+U02057,Temuco Catholic University,C0031,Chile
+U02058,Tenri University,C0077,Japan
+U02059,Termez Institute Of Engineering And Technology,C0174,Uzbekistan
+U02060,Termez State University,C0174,Uzbekistan
+U02061,Termiz Institute Of Agrotechnology And Innovative Development,C0174,Uzbekistan
+U02062,Texas Am University,C0171,United States
+U02063,Texas State University,C0171,United States
+U02064,Texas Tech University,C0171,United States
+U02065,Tezpur University,C0067,India
+U02066,Thammasat University,C0161,Thailand
+U02067,Thapar Institute Of Engineering And Technology,C0067,India
+U02068,Thapar Institute Of Engineering Technology,C0067,India
+U02069,The American University In Cairo,C0045,Egypt
+U02070,The Australian National University,C0008,Australia
+U02071,The British University In Dubai,C0169,United Arab Emirates
+U02072,The British University In Egypt,C0045,Egypt
+U02073,The Catholic University Of America,C0171,United States
+U02074,The Catholic University Of Korea,C0149,South Korea
+U02075,The Chinese University Of Hong Kong Cuhk,C0063,Hong Kong Sar
+U02076,The Gheorghe Asachi Technical University Of Iasi,C0135,Romania
+U02077,The Government Sadiq College Women University Bahawalpur,C0123,Pakistan
+U02078,The Graduate University For Advanced Studies Sokendai,C0077,Japan
+U02079,The Hashemite University,C0078,Jordan
+U02080,The Hebrew University Of Jerusalem,C0074,Israel
+U02081,The Herzen State Pedagogical University Of Russia,C0136,Russia
+U02082,The Hong Kong Polytechnic University,C0063,Hong Kong Sar
+U02083,The Hong Kong University Of Science And Technology,C0063,Hong Kong Sar
+U02084,The Islamia University Of Bahawalpur,C0123,Pakistan
+U02085,The Islamic University,C0072,Iraq
+U02086,The Jikei University School Of Medicine,C0077,Japan
+U02087,The John Paul Ii Catholic University Of Lublin,C0131,Poland
+U02088,The Josip Juraj Strossmayer University Of Osijek,C0038,Croatia
+U02089,The Lnm Institute Of Information Technology,C0067,India
+U02090,The London School Of Economics And Political Science Lse,C0170,United Kingdom
+U02091,The National Research University Belgorod State University,C0136,Russia
+U02092,The National University Of Ostroh Academy,C0168,Ukraine
+U02093,The National University Of Science And Technology Misis,C0136,Russia
+U02094,The New School,C0171,United States
+U02095,The Ohio State University,C0171,United States
+U02096,The Open University,C0170,United Kingdom
+U02097,The University Of Adelaide,C0008,Australia
+U02098,The University Of Agriculture Peshawar,C0123,Pakistan
+U02099,The University Of Aizu,C0077,Japan
+U02100,The University Of Alabama,C0171,United States
+U02101,The University Of Arizona,C0171,United States
+U02102,The University Of Auckland,C0117,New Zealand
+U02103,The University Of Chicago,C0171,United States
+U02104,The University Of Edinburgh,C0170,United Kingdom
+U02105,The University Of Electrocommunications,C0077,Japan
+U02106,The University Of Exeter,C0170,United Kingdom
+U02107,The University Of Georgia,C0171,United States
+U02108,The University Of Hong Kong,C0063,Hong Kong Sar
+U02109,The University Of Jordan,C0078,Jordan
+U02110,The University Of Lahore,C0123,Pakistan
+U02111,The University Of Manchester,C0170,United Kingdom
+U02112,The University Of Melbourne,C0008,Australia
+U02113,The University Of New South Wales Unsw Sydney,C0008,Australia
+U02114,The University Of Newcastle Australia Uon,C0008,Australia
+U02115,The University Of Northampton,C0170,United Kingdom
+U02116,The University Of Notre Dame Australia,C0008,Australia
+U02117,The University Of Queensland,C0008,Australia
+U02118,The University Of Sheffield,C0170,United Kingdom
+U02119,The University Of Shiga Prefecture,C0077,Japan
+U02120,The University Of Sydney,C0008,Australia
+U02121,The University Of Tennessee Knoxville,C0171,United States
+U02122,The University Of Tennesseeknoxville,C0171,United States
+U02123,The University Of Texas At Arlington,C0171,United States
+U02124,The University Of Texas At San Antonio,C0171,United States
+U02125,The University Of The West Indies,C0076,Jamaica
+U02126,The University Of Tokyo,C0077,Japan
+U02127,The University Of Tulsa,C0171,United States
+U02128,The University Of Warwick,C0170,United Kingdom
+U02129,The University Of Western Australia,C0008,Australia
+U02130,The Women University Multan,C0123,Pakistan
+U02131,The World Islamic Sciences And Education University Wise,C0078,Jordan
+U02132,Thiagarajar College Of Engineering,C0067,India
+U02133,Thomas Adewumi University,C0118,Nigeria
+U02134,Tianjin University,C0033,China (Mainland)
+U02135,Tikrit University,C0072,Iraq
+U02136,Tilburg University,C0116,Netherlands
+U02137,Tishk International University,C0072,Iraq
+U02138,Tissemsilt University,C0002,Algeria
+U02139,Tobb University Of Economics And Technology,C0164,Turkey
+U02140,Toho University,C0077,Japan
+U02141,Tohoku Gakuin University,C0077,Japan
+U02142,Tohoku University,C0077,Japan
+U02143,Tokai University,C0077,Japan
+U02144,Tokat Gaziosmanpaã Âa University,C0164,Turkey
+U02145,Tokushima University,C0077,Japan
+U02146,Tokyo City University,C0077,Japan
+U02147,Tokyo Denki University,C0077,Japan
+U02148,Tokyo Institute Of Technology,C0077,Japan
+U02149,Tokyo Institute Of Technology Tokyo Tech,C0077,Japan
+U02150,Tokyo Medical And Dental University Tmdu,C0077,Japan
+U02151,Tokyo Medical University,C0077,Japan
+U02152,Tokyo Metropolitan University,C0077,Japan
+U02153,Tokyo University Of Agriculture,C0077,Japan
+U02154,Tokyo University Of Agriculture And Technology,C0077,Japan
+U02155,Tokyo University Of Foreign Studies,C0077,Japan
+U02156,Tokyo University Of Marine Science And Technology,C0077,Japan
+U02157,Tokyo University Of Pharmacy And Life Sciences,C0077,Japan
+U02158,Tokyo University Of Science,C0077,Japan
+U02159,Tokyo University Of Technology,C0077,Japan
+U02160,Tomas Bata University In Zlin,C0041,Czech Republic
+U02161,Tomas Bata University In Zlãân,C0041,Czech Republic
+U02162,Tomsk Polytechnic University,C0137,Russian Federation
+U02163,Tomsk State Pedagogical University,C0137,Russian Federation
+U02164,Tomsk State University,C0136,Russia
+U02165,Tomsk State University Of Control Systems And Radioelectronics,C0137,Russian Federation
+U02166,Ton Duc Thang University,C0177,Vietnam
+U02167,Tongji University,C0033,China (Mainland)
+U02168,Toraighyrov University,C0079,Kazakhstan
+U02169,Toronto Metropolitan University,C0029,Canada
+U02170,Tottori University,C0077,Japan
+U02171,Toyama Prefectural University,C0077,Japan
+U02172,Toyo University,C0077,Japan
+U02173,Toyohashi University Of Technology Tut,C0077,Japan
+U02174,Toyota Technological Institute,C0077,Japan
+U02175,Transilvania University Of Brasov,C0135,Romania
+U02176,Transilvania University Of Braãâov,C0135,Romania
+U02177,Tribhuvan University,C0115,Nepal
+U02178,Trinity College Dublin,C0073,Ireland
+U02179,Trinity College Dublin The University Of Dublin,C0073,Ireland
+U02180,Trinity Laban Conservatoire Of Music And Dance,C0170,United Kingdom
+U02181,Tshwane University Of Technology,C0148,South Africa
+U02182,Tsinghua University,C0033,China (Mainland)
+U02183,Tu Braunschweig,C0054,Germany
+U02184,Tu Dortmund University,C0054,Germany
+U02185,Tu Dresden,C0054,Germany
+U02186,Tu Wien,C0009,Austria
+U02187,Tufts University,C0171,United States
+U02188,Tula State University,C0137,Russian Federation
+U02189,Tulane University,C0171,United States
+U02190,Tunghai University,C0158,Taiwan
+U02191,Turanastana University,C0079,Kazakhstan
+U02192,Turin Polytechnic University In Tashkent,C0174,Uzbekistan
+U02193,Turkmen State Architecture And Construction Institute,C0165,Turkmenistan
+U02194,Turkmen State Institute Of Economics And Management,C0165,Turkmenistan
+U02195,Tver State Technical University,C0137,Russian Federation
+U02196,Tzu Chi University,C0158,Taiwan
+U02197,Ubon Ratchathani University,C0161,Thailand
+U02198,Ubt,C0083,Kosovo
+U02199,Ucl,C0170,United Kingdom
+U02200,Ucsi University,C0101,Malaysia
+U02201,Udayana University,C0068,Indonesia
+U02202,Uees Espiritu Santo University,C0044,Ecuador
+U02203,Ufa State Petroleum Technological University,C0137,Russian Federation
+U02204,Ufa University Of Science And Technology,C0137,Russian Federation
+U02205,Uin Sulthan Thaha Saifuddin Jambi,C0068,Indonesia
+U02206,Uit The Arctic University Of Norway,C0121,Norway
+U02207,Ulm University,C0054,Germany
+U02208,Ulsan National Institute Of Science And Technology Unist,C0149,South Korea
+U02209,Ulster University,C0170,United Kingdom
+U02210,Ulyanovsk State Technical University,C0137,Russian Federation
+U02211,Ulyanovsk State University,C0137,Russian Federation
+U02212,Umaru Musa Yarãââadua University,C0118,Nigeria
+U02213,Umea University,C0155,Sweden
+U02214,Umeãâ University,C0155,Sweden
+U02215,Umm Alqura University,C0140,Saudi Arabia
+U02216,Unesc,C0020,Brazil
+U02217,Unesp,C0020,Brazil
+U02218,Unichristus,C0020,Brazil
+U02219,Unir Ãââ International University Of La Rioja,C0150,Spain
+U02220,Unisinos University,C0020,Brazil
+U02221,United Arab Emirates University,C0169,United Arab Emirates
+U02222,United International University,C0012,Bangladesh
+U02223,Universiapolis Ãââ Universitãâ Internationale Dãââagadir,C0111,Morocco
+U02224,Universidad Adolfo Ibããez,C0031,Chile
+U02225,Universidad Alberto Hurtado,C0031,Chile
+U02226,Universidad Andrãs Bello,C0031,Chile
+U02227,Universidad Andrãâs Bello Unab,C0031,Chile
+U02228,Universidad Anãhuac Mãxico,C0106,Mexico
+U02229,Universidad Austral,C0005,Argentina
+U02230,Universidad Austral De Chile,C0031,Chile
+U02231,Universidad Autonoma De Yucatan,C0106,Mexico
+U02232,Universidad Autã³Noma Chapingo,C0106,Mexico
+U02233,Universidad Autã³Noma De Aguascalientes,C0106,Mexico
+U02234,Universidad Autã³Noma De Baja California,C0106,Mexico
+U02235,Universidad Autã³Noma De Chile,C0031,Chile
+U02236,Universidad Autã³Noma De Guadalajara Uag,C0106,Mexico
+U02237,Universidad Autã³Noma De Madrid,C0150,Spain
+U02238,Universidad Autã³Noma De Nuevo Leã³N,C0106,Mexico
+U02239,Universidad Autã³Noma De Querãtaro Uaq,C0106,Mexico
+U02240,Universidad Autã³Noma De San Luis De Potosã,C0106,Mexico
+U02241,Universidad Autã³Noma Del Estado De Hidalgo Uaeh,C0106,Mexico
+U02242,Universidad Autã³Noma Del Estado De Morelos Uaem,C0106,Mexico
+U02243,Universidad Autã³Noma Del Estado De Mãxico Uaemex,C0106,Mexico
+U02244,Universidad Autã³Noma Metropolitana Uam,C0106,Mexico
+U02245,Universidad Autãâ³Noma Chapingo,C0106,Mexico
+U02246,Universidad Autãâ³Noma De Chile,C0031,Chile
+U02247,Universidad Autãâ³Noma De Ciudad Juãârez,C0106,Mexico
+U02248,Universidad Autãâ³Noma De Coahuila,C0106,Mexico
+U02249,Universidad Autãâ³Noma De Nuevo Leãâ³N Uanl,C0106,Mexico
+U02250,Universidad Autãâ³Noma De Querãâtaro,C0106,Mexico
+U02251,Universidad Autãâ³Noma De Yucatãân,C0106,Mexico
+U02252,Universidad Autãâ³Noma Del Estado De Hidalgo,C0106,Mexico
+U02253,Universidad Autãâ³Noma Del Estado De Mexico Uaemex,C0106,Mexico
+U02254,Universidad Autãâ³Noma Del Estado De Morelos,C0106,Mexico
+U02255,Universidad Bernardo Ohiggins,C0031,Chile
+U02256,Universidad Camilo Josãâ Cela,C0150,Spain
+U02257,Universidad Carlos Iii De Madrid Uc3M,C0150,Spain
+U02258,Universidad Catã³Lica Andres Bello,C0175,Venezuela
+U02259,Universidad Catã³Lica Boliviana San Pablo,C0017,Bolivia
+U02260,Universidad Catã³Lica De Colombia,C0034,Colombia
+U02261,Universidad Catã³Lica De La Santãsima Concepciã³N Ucsc,C0031,Chile
+U02262,Universidad Catã³Lica De Santiago De Guayaquil,C0044,Ecuador
+U02263,Universidad Catã³Lica De Temuco,C0031,Chile
+U02264,Universidad Catã³Lica Del Norte,C0031,Chile
+U02265,Universidad Catã³Lica Del Uruguay Ucu,C0173,Uruguay
+U02266,Universidad Catãâ³Lica De Colombia,C0034,Colombia
+U02267,Universidad Catãâ³Lica De Cuenca,C0044,Ecuador
+U02268,Universidad Catãâ³Lica De La Santãâsima Concepciãâ³N,C0031,Chile
+U02269,Universidad Catãâ³Lica Del Maule,C0031,Chile
+U02270,Universidad Catãâ³Lica San Antonio De Murcia Ucam,C0150,Spain
+U02271,Universidad Catãâ³Lica San Pablo,C0129,Peru
+U02272,Universidad Central De Chile,C0031,Chile
+U02273,Universidad Central De Venezuela,C0175,Venezuela
+U02274,Universidad Central Del Ecuador,C0044,Ecuador
+U02275,Universidad Central Marta Abreu De Las Villas,C0039,Cuba
+U02276,Universidad Cientãâfica Del Sur,C0129,Peru
+U02277,Universidad Cãâsar Vallejo,C0129,Peru
+U02278,Universidad De Alcalã,C0150,Spain
+U02279,Universidad De Antioquia,C0034,Colombia
+U02280,Universidad De Belgrano,C0005,Argentina
+U02281,Universidad De Buenos Aires Uba,C0005,Argentina
+U02282,Universidad De Caldas,C0034,Colombia
+U02283,Universidad De Carabobo,C0175,Venezuela
+U02284,Universidad De Cartagena,C0034,Colombia
+U02285,Universidad De Castillala Mancha,C0150,Spain
+U02286,Universidad De Chile,C0031,Chile
+U02287,Universidad De Concepciã³N,C0031,Chile
+U02288,Universidad De Costa Rica,C0036,Costa Rica
+U02289,Universidad De Cuenca,C0044,Ecuador
+U02290,Universidad De Cã³Rdoba Colombia,C0034,Colombia
+U02291,Universidad De Cã³Rdoba Espaãa,C0150,Spain
+U02292,Universidad De Guadalajara Udg,C0106,Mexico
+U02293,Universidad De Guanajuato,C0106,Mexico
+U02294,Universidad De La Frontera Ufro,C0031,Chile
+U02295,Universidad De La Habana,C0039,Cuba
+U02296,Universidad De La Repãºblica Udelar,C0173,Uruguay
+U02297,Universidad De La Sabana,C0034,Colombia
+U02298,Universidad De La Salle,C0034,Colombia
+U02299,Universidad De La Serena,C0031,Chile
+U02300,Universidad De Las Amãricas Puebla Udlap,C0106,Mexico
+U02301,Universidad De Las Amãricas Udla Ecuador,C0044,Ecuador
+U02302,Universidad De Las Fuerzas Armadas Espe Ex Escuela Politãcnica Del Ejãrcito,C0044,Ecuador
+U02303,Universidad De Las Fuerzas Armadas Ãââ Espe,C0044,Ecuador
+U02304,Universidad De Leã³N,C0150,Spain
+U02305,Universidad De Lima,C0129,Peru
+U02306,Universidad De Los Andes,C0034,Colombia
+U02307,Universidad De Los Andes Chile,C0031,Chile
+U02308,Universidad De Los Andes Ula Mãrida,C0175,Venezuela
+U02309,Universidad De Medellãn,C0034,Colombia
+U02310,Universidad De Monterrey Udem,C0106,Mexico
+U02311,Universidad De Montevideo Um,C0173,Uruguay
+U02312,Universidad De Oriente Santiago De Cuba,C0039,Cuba
+U02313,Universidad De Oviedo,C0150,Spain
+U02314,Universidad De Palermo Up,C0005,Argentina
+U02315,Universidad De Pamplona,C0034,Colombia
+U02316,Universidad De Panama,C0127,Panama
+U02317,Universidad De Piura,C0129,Peru
+U02318,Universidad De Puerto Rico,C0133,Puerto Rico
+U02319,Universidad De San Andrãs Udesa,C0005,Argentina
+U02320,Universidad De San Carlos De Guatemala Usac,C0059,Guatemala
+U02321,Universidad De Santander Udes,C0034,Colombia
+U02322,Universidad De Santiago De Chile Usach,C0031,Chile
+U02323,Universidad De Sevilla,C0150,Spain
+U02324,Universidad De Sonora,C0106,Mexico
+U02325,Universidad De Talca,C0031,Chile
+U02326,Universidad De Tarapaca,C0031,Chile
+U02327,Universidad De Valladolid,C0150,Spain
+U02328,Universidad De Valparaãso Uv,C0031,Chile
+U02329,Universidad De Zaragoza,C0150,Spain
+U02330,Universidad Del Bãobão,C0031,Chile
+U02331,Universidad Del Cauca,C0034,Colombia
+U02332,Universidad Del Desarrollo Udd,C0031,Chile
+U02333,Universidad Del Magdalena,C0034,Colombia
+U02334,Universidad Del Norte,C0034,Colombia
+U02335,Universidad Del Pacãfico,C0129,Peru
+U02336,Universidad Del Pacãâfico,C0129,Peru
+U02337,Universidad Del Pacãâfico Ecuador,C0044,Ecuador
+U02338,Universidad Del Rosario,C0034,Colombia
+U02339,Universidad Del Salvador,C0005,Argentina
+U02340,Universidad Del Sinãâº,C0034,Colombia
+U02341,Universidad Del Valle,C0034,Colombia
+U02342,Universidad Del Valle De Mexico Uvm,C0106,Mexico
+U02343,Universidad Del Zulia,C0175,Venezuela
+U02344,Universidad Diego Portales Udp,C0031,Chile
+U02345,Universidad Eafit,C0034,Colombia
+U02346,Universidad Externado De Colombia,C0034,Colombia
+U02347,Universidad Iberoamericana Ibero,C0106,Mexico
+U02348,Universidad Icesi,C0034,Colombia
+U02349,Universidad Industrial De Santander Uis,C0034,Colombia
+U02350,Universidad Internacional Del Ecuador,C0044,Ecuador
+U02351,Universidad La Salle Ulsa,C0106,Mexico
+U02352,Universidad Latinoamericana De Ciencia Y Tecnologãa Costa Rica Ulacit,C0036,Costa Rica
+U02353,Universidad Loyola,C0150,Spain
+U02354,Universidad Manuela Beltrãân,C0034,Colombia
+U02355,Universidad Mayor,C0031,Chile
+U02356,Universidad Mayor De San Andrãs Umsa,C0017,Bolivia
+U02357,Universidad Mayor De San Simãâ³N,C0017,Bolivia
+U02358,Universidad Metropolitana,C0175,Venezuela
+U02359,Universidad Michoacana De San Nicolãs De Hidalgo,C0106,Mexico
+U02360,Universidad Michoacana De San Nicolãâs De Hidalgo,C0106,Mexico
+U02361,Universidad Monteãâvila,C0175,Venezuela
+U02362,Universidad Nacional Abierta Y A Distancia Unad,C0034,Colombia
+U02363,Universidad Nacional Agraria La Molina,C0129,Peru
+U02364,Universidad Nacional Autã³Noma De Honduras Unah,C0061,Honduras
+U02365,Universidad Nacional Autã³Noma De Mãxico Unam,C0106,Mexico
+U02366,Universidad Nacional Costa Rica,C0036,Costa Rica
+U02367,Universidad Nacional De Asunciãâ³N,C0128,Paraguay
+U02368,Universidad Nacional De Chimborazo,C0044,Ecuador
+U02369,Universidad Nacional De Colombia,C0034,Colombia
+U02370,Universidad Nacional De Cuyo,C0005,Argentina
+U02371,Universidad Nacional De Cã³Rdoba Unc,C0005,Argentina
+U02372,Universidad Nacional De Ingenierãa Peru,C0129,Peru
+U02373,Universidad Nacional De Itapãâºa,C0128,Paraguay
+U02374,Universidad Nacional De La Asunciã³N,C0128,Paraguay
+U02375,Universidad Nacional De La Plata Unlp,C0005,Argentina
+U02376,Universidad Nacional De Mar Del Plata,C0005,Argentina
+U02377,Universidad Nacional De Quilmes,C0005,Argentina
+U02378,Universidad Nacional De Rafaela Unraf,C0005,Argentina
+U02379,Universidad Nacional De Rosario Unr,C0005,Argentina
+U02380,Universidad Nacional De Rão Cuarto Unrc,C0005,Argentina
+U02381,Universidad Nacional De San Luis,C0005,Argentina
+U02382,Universidad Nacional De San Martãn Unsam,C0005,Argentina
+U02383,Universidad Nacional De Tucumãn,C0005,Argentina
+U02384,Universidad Nacional Del Centro De La Provincia De Buenos Aires Unicen,C0005,Argentina
+U02385,Universidad Nacional Del Comahue,C0005,Argentina
+U02386,Universidad Nacional Del Litoral,C0005,Argentina
+U02387,Universidad Nacional Del Sur,C0005,Argentina
+U02388,Universidad Nacional Mayor De San Marcos,C0129,Peru
+U02389,Universidad Nur,C0017,Bolivia
+U02390,Universidad Ort Uruguay,C0173,Uruguay
+U02391,Universidad Panamericana Up,C0106,Mexico
+U02392,Universidad Peruana Cayetano Heredia,C0129,Peru
+U02393,Universidad Peruana Cayetano Heredia Upch,C0129,Peru
+U02394,Universidad Peruana De Ciencias Aplicadas,C0129,Peru
+U02395,Universidad Peruana De Ciencias Aplicadas Upc,C0129,Peru
+U02396,Universidad Politecnica Salesiana,C0044,Ecuador
+U02397,Universidad Politãcnica De Madrid Upm,C0150,Spain
+U02398,Universidad Politãâcnica Salesiana,C0044,Ecuador
+U02399,Universidad Pontificia Bolivariana,C0034,Colombia
+U02400,Universidad Pontificia Bolivariana Upb,C0034,Colombia
+U02401,Universidad Pontificia Comillas,C0150,Spain
+U02402,Universidad Popular Autã³Noma Del Estado De Puebla Upaep,C0106,Mexico
+U02403,Universidad Popular Autãâ³Noma Del Estado De Puebla,C0106,Mexico
+U02404,Universidad Rey Juan Carlos,C0150,Spain
+U02405,Universidad San Francisco De Quito,C0044,Ecuador
+U02406,Universidad San Francisco De Quito Usfq,C0044,Ecuador
+U02407,Universidad San Ignacio De Loyola,C0129,Peru
+U02408,Universidad Santo Tomãâs,C0031,Chile
+U02409,Universidad Simã³N Bolãvar Usb,C0175,Venezuela
+U02410,Universidad Tecnica Particular De Loja Utpl,C0044,Ecuador
+U02411,Universidad Tecnolã³Gica De Bolãvar,C0034,Colombia
+U02412,Universidad Tecnolã³Gica De La Habana Josã Antonio Echeverrãa Cujae,C0039,Cuba
+U02413,Universidad Tecnolã³Gica De Panamã Utp,C0127,Panama
+U02414,Universidad Tecnolã³Gica De Pereira,C0034,Colombia
+U02415,Universidad Tecnolã³Gica Nacional Utn,C0005,Argentina
+U02416,Universidad Tecnolãâ³Gica De Bolãâvar,C0034,Colombia
+U02417,Universidad Tecnolãâ³Gica De Santiago Utesa,C0043,Dominican Republic
+U02418,Universidad Torcuato Di Tella,C0005,Argentina
+U02419,Universidad Tãcnica Federico Santa Marãa Usm,C0031,Chile
+U02420,Universidad Tãâcnica De Manabãâ,C0044,Ecuador
+U02421,Universidad Ute,C0044,Ecuador
+U02422,Universidad Veracruzana,C0106,Mexico
+U02423,Universidade Catã³Lica Portuguesa Ucp,C0132,Portugal
+U02424,Universidade Da Coruãa,C0150,Spain
+U02425,Universidade De Brasãlia,C0020,Brazil
+U02426,Universidade De Santiago De Compostela,C0150,Spain
+U02427,Universidade De São Paulo,C0020,Brazil
+U02428,Universidade De Vigo,C0150,Spain
+U02429,Universidade Do Estado De Santa Catarina,C0020,Brazil
+U02430,Universidade Do Estado Do Rio De Janeiro Uerj,C0020,Brazil
+U02431,Universidade Eduardo Mondlane,C0112,Mozambique
+U02432,Universidade Estadual De Campinas Unicamp,C0020,Brazil
+U02433,Universidade Estadual De Goiãâs,C0020,Brazil
+U02434,Universidade Estadual De Londrina,C0020,Brazil
+U02435,Universidade Estadual De Maringãâ,C0020,Brazil
+U02436,Universidade Estadual Do Maranhãâo,C0020,Brazil
+U02437,Universidade Estadual Do Norte Do Paranãâ Uenp,C0020,Brazil
+U02438,Universidade Estadual Do Norte Fluminense Darcy Ribeiro,C0020,Brazil
+U02439,Universidade Estadual Do Oeste Do Paranãâ Unioeste,C0020,Brazil
+U02440,Universidade Estadual Paulista Unesp,C0020,Brazil
+U02441,Universidade Federal Da Bahia,C0020,Brazil
+U02442,Universidade Federal Da Paraãba,C0020,Brazil
+U02443,Universidade Federal De Ciãâªncias Da Saãâºde De Porto Alegre Ufcspa,C0020,Brazil
+U02444,Universidade Federal De Goiãs,C0020,Brazil
+U02445,Universidade Federal De Juiz De Fora,C0020,Brazil
+U02446,Universidade Federal De Juiz De Fora Ufjf,C0020,Brazil
+U02447,Universidade Federal De Minas Gerais,C0020,Brazil
+U02448,Universidade Federal De Ouro Preto Ufop,C0020,Brazil
+U02449,Universidade Federal De Pelotas,C0020,Brazil
+U02450,Universidade Federal De Pernambuco Ufpe,C0020,Brazil
+U02451,Universidade Federal De Santa Catarina,C0020,Brazil
+U02452,Universidade Federal De Santa Maria,C0020,Brazil
+U02453,Universidade Federal De Sergipe,C0020,Brazil
+U02454,Universidade Federal De São Carlos Ufscar,C0020,Brazil
+U02455,Universidade Federal De São Paulo,C0020,Brazil
+U02456,Universidade Federal De Sãâo Paulo Unifesp,C0020,Brazil
+U02457,Universidade Federal De Uberlãndia,C0020,Brazil
+U02458,Universidade Federal De Viãosa Ufv,C0020,Brazil
+U02459,Universidade Federal Do Abc Ufabc,C0020,Brazil
+U02460,Universidade Federal Do Cearã Ufc,C0020,Brazil
+U02461,Universidade Federal Do Cearãâ Ufc,C0020,Brazil
+U02462,Universidade Federal Do Estado Do Rio De Janeiro Unirio,C0020,Brazil
+U02463,Universidade Federal Do Maranhãâo Ufma,C0020,Brazil
+U02464,Universidade Federal Do Paranã Ufpr,C0020,Brazil
+U02465,Universidade Federal Do Paranãâ Ufpr,C0020,Brazil
+U02466,Universidade Federal Do Parã Ufpa,C0020,Brazil
+U02467,Universidade Federal Do Rio De Janeiro,C0020,Brazil
+U02468,Universidade Federal Do Rio Grande Do Norte,C0020,Brazil
+U02469,Universidade Federal Do Rio Grande Do Sul,C0020,Brazil
+U02470,Universidade Federal Do Triãângulo Mineiro,C0020,Brazil
+U02471,Universidade Federal Do Vale Do Sãâo Francisco,C0020,Brazil
+U02472,Universidade Federal Fluminense,C0020,Brazil
+U02473,Universidade Federal Rural Do Semiarido,C0020,Brazil
+U02474,Universidade Lusãâ³Fona,C0132,Portugal
+U02475,Universidade Nova De Lisboa,C0132,Portugal
+U02476,Universidade Nove De Julho Uninove,C0020,Brazil
+U02477,Universidade Presbiteriana Mackenzie,C0020,Brazil
+U02478,Universidade Rainha Njinga A Mbande Urnm,C0004,Angola
+U02479,Universidade Tecnolãâ³Gica Federal Do Paranãâ Utfpr,C0020,Brazil
+U02480,Universita Degli Studi Di Ferrara,C0075,Italy
+U02481,Universita Degli Studi G Dannunzio Chieti Pescara,C0075,Italy
+U02482,Universita Iulm,C0075,Italy
+U02483,Universita Politecnica Delle Marche,C0075,Italy
+U02484,Universitas Ahmad Dahlan,C0068,Indonesia
+U02485,Universitas Airlangga,C0068,Indonesia
+U02486,Universitas Andalas,C0068,Indonesia
+U02487,Universitas Brawijaya,C0068,Indonesia
+U02488,Universitas Gadjah Mada,C0068,Indonesia
+U02489,Universitas Hasanuddin,C0068,Indonesia
+U02490,Universitas Indonesia,C0068,Indonesia
+U02491,Universitas Islam Indonesia,C0068,Indonesia
+U02492,Universitas Islam Sultan Agung,C0068,Indonesia
+U02493,Universitas Kristen Petra,C0068,Indonesia
+U02494,Universitas Mercu Buana,C0068,Indonesia
+U02495,Universitas Muhammadiyah Surakarta,C0068,Indonesia
+U02496,Universitas Muhammadiyah Yogyakarta,C0068,Indonesia
+U02497,Universitas Negeri Surabaya,C0068,Indonesia
+U02498,Universitas Padjadjaran,C0068,Indonesia
+U02499,Universitas Pendidikan Indonesia,C0068,Indonesia
+U02500,Universitas Sebelas Maret,C0068,Indonesia
+U02501,Universitas Sriwijaya,C0068,Indonesia
+U02502,Universitas Sumatera Utara,C0068,Indonesia
+U02503,Universitas Syiah Kuala,C0068,Indonesia
+U02504,Universitat Autã²Noma De Barcelona,C0150,Spain
+U02505,Universitat De Barcelona,C0150,Spain
+U02506,Universitat De Lleida,C0150,Spain
+U02507,Universitat De Valencia,C0150,Spain
+U02508,Universitat Internacional De Catalunya,C0150,Spain
+U02509,Universitat Politãcnica De Catalunya Â Barcelonatech Upc,C0150,Spain
+U02510,Universitat Politãcnica De Valãncia,C0150,Spain
+U02511,Universitat Politãâcnica De Catalunya,C0150,Spain
+U02512,Universitat Pompeu Fabra Barcelona,C0150,Spain
+U02513,Universitat Ramon Llull,C0150,Spain
+U02514,Universitat Rovira I Virgili,C0150,Spain
+U02515,Universitatea De Vest Din Timisoara West University Of Timisoara,C0135,Romania
+U02516,Universite Libre De Bruxelles,C0014,Belgium
+U02517,Universiti Brunei Darussalam,C0023,Brunei Darussalam
+U02518,Universiti Brunei Darussalam Ubd,C0022,Brunei
+U02519,Universiti Kebangsaan Malaysia,C0101,Malaysia
+U02520,Universiti Kebangsaan Malaysia Ukm,C0101,Malaysia
+U02521,Universiti Kuala Lumpur,C0101,Malaysia
+U02522,Universiti Kuala Lumpur Unikl,C0101,Malaysia
+U02523,Universiti Malaya Um,C0101,Malaysia
+U02524,Universiti Malaysia Kelantan,C0101,Malaysia
+U02525,Universiti Malaysia Pahang,C0101,Malaysia
+U02526,Universiti Malaysia Perlis,C0101,Malaysia
+U02527,Universiti Malaysia Sabah Ums,C0101,Malaysia
+U02528,Universiti Malaysia Sarawak Unimas,C0101,Malaysia
+U02529,Universiti Malaysia Terengganu Umt,C0101,Malaysia
+U02530,Universiti Pendidikan Sultan Idris,C0101,Malaysia
+U02531,Universiti Pendidikan Sultan Idris Upsi,C0101,Malaysia
+U02532,Universiti Putra Malaysia,C0101,Malaysia
+U02533,Universiti Putra Malaysia Upm,C0101,Malaysia
+U02534,Universiti Sains Islam Malaysia,C0101,Malaysia
+U02535,Universiti Sains Malaysia,C0101,Malaysia
+U02536,Universiti Sains Malaysia Usm,C0101,Malaysia
+U02537,Universiti Sultan Zainal Abidin,C0101,Malaysia
+U02538,Universiti Teknikal Malaysia Melaka,C0101,Malaysia
+U02539,Universiti Teknologi Brunei,C0022,Brunei
+U02540,Universiti Teknologi Malaysia,C0101,Malaysia
+U02541,Universiti Teknologi Mara,C0101,Malaysia
+U02542,Universiti Teknologi Mara Uitm,C0101,Malaysia
+U02543,Universiti Teknologi Petronas,C0101,Malaysia
+U02544,Universiti Teknologi Petronas Utp,C0101,Malaysia
+U02545,Universiti Tenaga Nasional Uniten,C0101,Malaysia
+U02546,Universiti Tun Hussein Onn Malaysia Uthm,C0101,Malaysia
+U02547,Universiti Tun Hussein Onn University Of Malaysia Uthm,C0101,Malaysia
+U02548,Universiti Tunku Abdul Rahman Utar,C0101,Malaysia
+U02549,Universiti Utara Malaysia,C0101,Malaysia
+U02550,Universiti Utara Malaysia Uum,C0101,Malaysia
+U02551,University Abdelhamid Ibn Badis Mostaganem,C0002,Algeria
+U02552,University At Albany Suny,C0171,United States
+U02553,University At Buffalo,C0171,United States
+U02554,University At Buffalo Suny,C0171,United States
+U02555,University Center Ali Kafi Tindouf,C0002,Algeria
+U02556,University Center Morsli Abdellah Of Tipaza,C0002,Algeria
+U02557,University Center Of Aflou,C0002,Algeria
+U02558,University Center Of Barika,C0002,Algeria
+U02559,University Center Of Illizi,C0002,Algeria
+U02560,University Centre Of Maghnia,C0002,Algeria
+U02561,University Centre Of Nour Bachir Elbayadh,C0002,Algeria
+U02562,University College Cork,C0073,Ireland
+U02563,University College Dublin,C0073,Ireland
+U02564,University College Of Osteopathy,C0170,United Kingdom
+U02565,University Duesseldorf,C0054,Germany
+U02566,University For Development Studies,C0055,Ghana
+U02567,University For The Creative Arts,C0170,United Kingdom
+U02568,University Mohamed Boudiaf Of Mãââsila,C0002,Algeria
+U02569,University Of A Coruãâa,C0150,Spain
+U02570,University Of Aberdeen,C0170,United Kingdom
+U02571,University Of Abou Bekr Belkaãâd Tlemcen,C0002,Algeria
+U02572,University Of Adelaide,C0008,Australia
+U02573,University Of Agriculture Faisalabad,C0123,Pakistan
+U02574,University Of Agronomic Sciences And Veterinary Medicine Of Bucharest,C0135,Romania
+U02575,University Of Ahmed Draia,C0002,Algeria
+U02576,University Of Alabama Birmingham,C0171,United States
+U02577,University Of Alaska Fairbanks,C0171,United States
+U02578,University Of Alberta,C0029,Canada
+U02579,University Of Alcalãâ,C0150,Spain
+U02580,University Of Algarve,C0132,Portugal
+U02581,University Of Algiers 1,C0002,Algeria
+U02582,University Of Algiers 3,C0002,Algeria
+U02583,University Of Alhamdaniya,C0072,Iraq
+U02584,University Of Alicante,C0150,Spain
+U02585,University Of Alkafeel,C0072,Iraq
+U02586,University Of Almerãâa,C0150,Spain
+U02587,University Of Alqadisiyah,C0072,Iraq
+U02588,University Of Amsterdam,C0116,Netherlands
+U02589,University Of Anbar,C0072,Iraq
+U02590,University Of Antioquia,C0034,Colombia
+U02591,University Of Antofagasta,C0031,Chile
+U02592,University Of Antwerp,C0014,Belgium
+U02593,University Of Applied Sciences And Arts Of Western Switzerland,C0156,Switzerland
+U02594,University Of Arizona,C0171,United States
+U02595,University Of Arkansas,C0171,United States
+U02596,University Of Arkansas Fayetteville,C0171,United States
+U02597,University Of Auckland,C0117,New Zealand
+U02598,University Of Aveiro,C0132,Portugal
+U02599,University Of Babylon,C0072,Iraq
+U02600,University Of Baghdad,C0072,Iraq
+U02601,University Of Bahrain,C0011,Bahrain
+U02602,University Of Balochistan,C0123,Pakistan
+U02603,University Of Baltistan Skardu,C0123,Pakistan
+U02604,University Of Barcelona,C0150,Spain
+U02605,University Of Bari,C0075,Italy
+U02606,University Of Bari Aldo Moro,C0075,Italy
+U02607,University Of Basel,C0156,Switzerland
+U02608,University Of Basrah,C0072,Iraq
+U02609,University Of Bath,C0170,United Kingdom
+U02610,University Of Batna 1,C0002,Algeria
+U02611,University Of Batna 2,C0002,Algeria
+U02612,University Of Bayreuth,C0054,Germany
+U02613,University Of Bedfordshire,C0170,United Kingdom
+U02614,University Of Beira Interior,C0132,Portugal
+U02615,University Of Belgrade,C0142,Serbia
+U02616,University Of Benghazi,C0090,Libya
+U02617,University Of Benin,C0118,Nigeria
+U02618,University Of Bergamo,C0075,Italy
+U02619,University Of Bergen,C0121,Norway
+U02620,University Of Bern,C0156,Switzerland
+U02621,University Of Bialystok,C0131,Poland
+U02622,University Of Birjand,C0069,Iran
+U02623,University Of Birmingham,C0170,United Kingdom
+U02624,University Of Bisha,C0140,Saudi Arabia
+U02625,University Of Biskra,C0002,Algeria
+U02626,University Of Bogotãâ Jorge Tadeo Lozano,C0034,Colombia
+U02627,University Of Bologna,C0075,Italy
+U02628,University Of Bolton,C0170,United Kingdom
+U02629,University Of Bonn,C0054,Germany
+U02630,University Of Bordeaux,C0052,France
+U02631,University Of Botswana,C0019,Botswana
+U02632,University Of Bradford,C0170,United Kingdom
+U02633,University Of Brasãâlia,C0020,Brazil
+U02634,University Of Brawijaya,C0068,Indonesia
+U02635,University Of Bremen,C0054,Germany
+U02636,University Of Brescia,C0075,Italy
+U02637,University Of Brighton,C0170,United Kingdom
+U02638,University Of Bristol,C0170,United Kingdom
+U02639,University Of British Columbia,C0029,Canada
+U02640,University Of Bucharest,C0135,Romania
+U02641,University Of Burgos,C0150,Spain
+U02642,University Of Bãâjaãâa,C0002,Algeria
+U02643,University Of Bãâobãâo,C0031,Chile
+U02644,University Of Cadiz,C0150,Spain
+U02645,University Of Calabria,C0075,Italy
+U02646,University Of Calcutta,C0067,India
+U02647,University Of Caldas,C0034,Colombia
+U02648,University Of Calgary,C0029,Canada
+U02649,University Of California Berkeley,C0171,United States
+U02650,University Of California Berkeley Ucb,C0171,United States
+U02651,University Of California Davis,C0171,United States
+U02652,University Of California Irvine,C0171,United States
+U02653,University Of California Los Angeles,C0171,United States
+U02654,University Of California Los Angeles Ucla,C0171,United States
+U02655,University Of California Merced,C0171,United States
+U02656,University Of California Riverside,C0171,United States
+U02657,University Of California San Diego,C0171,United States
+U02658,University Of California San Diego Ucsd,C0171,United States
+U02659,University Of California Santa Barbara,C0171,United States
+U02660,University Of California Santa Barbara Ucsb,C0171,United States
+U02661,University Of California Santa Cruz,C0171,United States
+U02662,University Of Cambridge,C0170,United Kingdom
+U02663,University Of Camerino Unicam,C0075,Italy
+U02664,University Of Campania Luigi Vanvitelli,C0075,Italy
+U02665,University Of Campinas,C0020,Brazil
+U02666,University Of Canberra,C0008,Australia
+U02667,University Of Canterbury,C0117,New Zealand
+U02668,University Of Canterbury Te Whare Wananga O Waitaha,C0117,New Zealand
+U02669,University Of Cape Coast,C0055,Ghana
+U02670,University Of Cape Town,C0148,South Africa
+U02671,University Of Carthage,C0163,Tunisia
+U02672,University Of Castillala Mancha,C0150,Spain
+U02673,University Of Catania,C0075,Italy
+U02674,University Of Caxias Do Sul,C0020,Brazil
+U02675,University Of Celaya,C0106,Mexico
+U02676,University Of Central Florida,C0171,United States
+U02677,University Of Central Lancashire,C0170,United Kingdom
+U02678,University Of Central Oklahoma,C0171,United States
+U02679,University Of Central Punjab,C0123,Pakistan
+U02680,University Of Chemistry And Technology Prague,C0041,Czech Republic
+U02681,University Of Chester,C0170,United Kingdom
+U02682,University Of Chicago,C0171,United States
+U02683,University Of Chichester,C0170,United Kingdom
+U02684,University Of Chile,C0031,Chile
+U02685,University Of Cincinnati,C0171,United States
+U02686,University Of Civil Protection,C0013,Belarus
+U02687,University Of Clermont Auvergne,C0052,France
+U02688,University Of Coimbra,C0132,Portugal
+U02689,University Of Colima,C0106,Mexico
+U02690,University Of Cologne,C0054,Germany
+U02691,University Of Colombo,C0151,Sri Lanka
+U02692,University Of Colorado Boulder,C0171,United States
+U02693,University Of Colorado Colorado Springs,C0171,United States
+U02694,University Of Colorado Denver,C0171,United States
+U02695,University Of Colorado Denveranschutz Medical Campus,C0171,United States
+U02696,University Of Concepciãâ³N,C0031,Chile
+U02697,University Of Connecticut,C0171,United States
+U02698,University Of Constantine 3,C0002,Algeria
+U02699,University Of Copenhagen,C0042,Denmark
+U02700,University Of Costa Rica,C0036,Costa Rica
+U02701,University Of Craiova,C0135,Romania
+U02702,University Of Crete,C0056,Greece
+U02703,University Of Cumbria,C0170,United Kingdom
+U02704,University Of Cyberjaya,C0101,Malaysia
+U02705,University Of Cyprus,C0040,Cyprus
+U02706,University Of Cyprus Ucy,C0040,Cyprus
+U02707,University Of Cãâte Dãââazur,C0052,France
+U02708,University Of Cãâ³Rdoba,C0150,Spain
+U02709,University Of Dar Es Salaam,C0160,Tanzania
+U02710,University Of Dayton,C0171,United States
+U02711,University Of Debrecen,C0065,Hungary
+U02712,University Of Delaware,C0171,United States
+U02713,University Of Delhi,C0067,India
+U02714,University Of Denver,C0171,United States
+U02715,University Of Derby,C0170,United Kingdom
+U02716,University Of Desarrollo,C0031,Chile
+U02717,University Of Deusto,C0150,Spain
+U02718,University Of Dhaka,C0012,Bangladesh
+U02719,University Of Diyala,C0072,Iraq
+U02720,University Of Djilali Bounaama Khemis Miliana,C0002,Algeria
+U02721,University Of Dubai,C0169,United Arab Emirates
+U02722,University Of Duhok,C0072,Iraq
+U02723,University Of Duisburgessen,C0054,Germany
+U02724,University Of Dundee,C0170,United Kingdom
+U02725,University Of East Anglia,C0170,United Kingdom
+U02726,University Of East Anglia Uea,C0170,United Kingdom
+U02727,University Of East London,C0170,United Kingdom
+U02728,University Of Eastern Finland,C0051,Finland
+U02729,University Of Eastern Philippines,C0130,Philippines
+U02730,University Of Economics Ãââ Varna,C0024,Bulgaria
+U02731,University Of Edinburgh,C0170,United Kingdom
+U02732,University Of Education Lahore,C0123,Pakistan
+U02733,University Of El Oued,C0002,Algeria
+U02734,University Of Electronic Science And Technology Of China,C0033,China (Mainland)
+U02735,University Of Engineering And Technology Mardan,C0123,Pakistan
+U02736,University Of Engineering And Technology Peshawar,C0123,Pakistan
+U02737,University Of Engineering And Technology Taxila,C0123,Pakistan
+U02738,University Of Engineering Technology Uet Lahore,C0123,Pakistan
+U02739,University Of Erlangennuremberg,C0054,Germany
+U02740,University Of Essex,C0170,United Kingdom
+U02741,University Of Exeter,C0170,United Kingdom
+U02742,University Of Extremadura,C0150,Spain
+U02743,University Of Ferrara,C0075,Italy
+U02744,University Of Florence,C0075,Italy
+U02745,University Of Florida,C0171,United States
+U02746,University Of Foggia,C0075,Italy
+U02747,University Of Fort Hare,C0148,South Africa
+U02748,University Of Fortaleza Unifor,C0020,Brazil
+U02749,University Of Franca,C0020,Brazil
+U02750,University Of Franchecomtãâ,C0052,France
+U02751,University Of Freiburg,C0054,Germany
+U02752,University Of Fribourg,C0156,Switzerland
+U02753,University Of Fukui,C0077,Japan
+U02754,University Of Gafsa,C0163,Tunisia
+U02755,University Of Galway,C0073,Ireland
+U02756,University Of Garmian,C0072,Iraq
+U02757,University Of Gdansk,C0131,Poland
+U02758,University Of Gdaã Âsk,C0131,Poland
+U02759,University Of Geneva,C0156,Switzerland
+U02760,University Of Genoa,C0075,Italy
+U02761,University Of Georgia,C0171,United States
+U02762,University Of Ghana,C0055,Ghana
+U02763,University Of Ghardaia,C0002,Algeria
+U02764,University Of Girona,C0150,Spain
+U02765,University Of Glasgow,C0170,United Kingdom
+U02766,University Of Gloucestershire,C0170,United Kingdom
+U02767,University Of Gothenburg,C0155,Sweden
+U02768,University Of Granada,C0150,Spain
+U02769,University Of Graz,C0009,Austria
+U02770,University Of Greenwich,C0170,United Kingdom
+U02771,University Of Greifswald,C0054,Germany
+U02772,University Of Groningen,C0116,Netherlands
+U02773,University Of Guadalajara,C0106,Mexico
+U02774,University Of Guanajuato,C0106,Mexico
+U02775,University Of Guelph,C0029,Canada
+U02776,University Of Guilan,C0069,Iran
+U02777,University Of Gujrat,C0123,Pakistan
+U02778,University Of Gãttingen,C0054,Germany
+U02779,University Of Gãâttingen,C0054,Germany
+U02780,University Of Hafr Al Batin,C0140,Saudi Arabia
+U02781,University Of Haifa,C0074,Israel
+U02782,University Of Hail,C0140,Saudi Arabia
+U02783,University Of Hamburg,C0054,Germany
+U02784,University Of Havana,C0039,Cuba
+U02785,University Of Hawaii At Manoa,C0171,United States
+U02786,University Of Hawaiãââi At Mãânoa,C0171,United States
+U02787,University Of Health And Allied Sciences,C0055,Ghana
+U02788,University Of Health Sciences Lahore,C0123,Pakistan
+U02789,University Of Health Sciences Turkey,C0164,Turkey
+U02790,University Of Helsinki,C0051,Finland
+U02791,University Of Hertfordshire,C0170,United Kingdom
+U02792,University Of Hohenheim,C0054,Germany
+U02793,University Of Home Economics Lahore,C0123,Pakistan
+U02794,University Of Hong Kong,C0062,Hong Kong
+U02795,University Of Hormozgan,C0069,Iran
+U02796,University Of Houston,C0171,United States
+U02797,University Of Hradec Kralove,C0041,Czech Republic
+U02798,University Of Hradec Krãâlovãâ,C0041,Czech Republic
+U02799,University Of Huddersfield,C0170,United Kingdom
+U02800,University Of Hull,C0170,United Kingdom
+U02801,University Of Human Development,C0072,Iraq
+U02802,University Of Hyderabad,C0067,India
+U02803,University Of Hyogo,C0077,Japan
+U02804,University Of Ibadan,C0118,Nigeria
+U02805,University Of Iceland,C0066,Iceland
+U02806,University Of Idaho,C0171,United States
+U02807,University Of Illinois At Chicago Uic,C0171,United States
+U02808,University Of Illinois At Urbanachampaign,C0171,United States
+U02809,University Of Illinois Chicago,C0171,United States
+U02810,University Of Ilorin,C0118,Nigeria
+U02811,University Of Indonesia,C0068,Indonesia
+U02812,University Of Innsbruck,C0009,Austria
+U02813,University Of Insubria,C0075,Italy
+U02814,University Of International Business And Economics,C0033,China (Mainland)
+U02815,University Of Ioannina,C0056,Greece
+U02816,University Of Iowa,C0171,United States
+U02817,University Of Isfahan,C0069,Iran
+U02818,University Of Jaãân,C0150,Spain
+U02819,University Of Jeddah,C0140,Saudi Arabia
+U02820,University Of Jendouba,C0163,Tunisia
+U02821,University Of Jijel,C0002,Algeria
+U02822,University Of Johannesburg,C0148,South Africa
+U02823,University Of Jordan,C0078,Jordan
+U02824,University Of Jos,C0118,Nigeria
+U02825,University Of Jyvãskylã,C0051,Finland
+U02826,University Of Jyvãâskylãâ,C0051,Finland
+U02827,University Of Kabianga,C0080,Kenya
+U02828,University Of Kaiserslautern,C0054,Germany
+U02829,University Of Kansas,C0171,United States
+U02830,University Of Karachi,C0123,Pakistan
+U02831,University Of Kashan,C0069,Iran
+U02832,University Of Kelaniya,C0151,Sri Lanka
+U02833,University Of Kent,C0170,United Kingdom
+U02834,University Of Kentucky,C0171,United States
+U02835,University Of Kerbala,C0072,Iraq
+U02836,University Of Khartoum,C0154,Sudan
+U02837,University Of Kiel,C0054,Germany
+U02838,University Of Kirkuk,C0072,Iraq
+U02839,University Of Klagenfurt,C0009,Austria
+U02840,University Of Konstanz,C0054,Germany
+U02841,University Of Kragujevac,C0142,Serbia
+U02842,University Of Kufa,C0072,Iraq
+U02843,University Of Kurdistan,C0069,Iran
+U02844,University Of Kwazulunatal,C0148,South Africa
+U02845,University Of La Costa,C0034,Colombia
+U02846,University Of La Frontera,C0031,Chile
+U02847,University Of La Laguna,C0150,Spain
+U02848,University Of La Sabana,C0034,Colombia
+U02849,University Of La Serena,C0031,Chile
+U02850,University Of Laghouat,C0002,Algeria
+U02851,University Of Lagos,C0118,Nigeria
+U02852,University Of Lahore,C0123,Pakistan
+U02853,University Of Lampung,C0068,Indonesia
+U02854,University Of Las Amãâricas Udla,C0044,Ecuador
+U02855,University Of Las Palmas De Gran Canaria,C0150,Spain
+U02856,University Of Latvia,C0088,Latvia
+U02857,University Of Lausanne,C0156,Switzerland
+U02858,University Of Leeds,C0170,United Kingdom
+U02859,University Of Leicester,C0170,United Kingdom
+U02860,University Of Leoben,C0009,Austria
+U02861,University Of Lethbridge,C0029,Canada
+U02862,University Of Leãâ³N,C0150,Spain
+U02863,University Of Liberal Arts Bangladesh,C0012,Bangladesh
+U02864,University Of Life Sciences In Lublin,C0131,Poland
+U02865,University Of Lille,C0052,France
+U02866,University Of Limerick,C0073,Ireland
+U02867,University Of Lincoln,C0170,United Kingdom
+U02868,University Of Lisbon,C0132,Portugal
+U02869,University Of Liverpool,C0170,United Kingdom
+U02870,University Of Liãâge,C0014,Belgium
+U02871,University Of Ljubljana,C0146,Slovenia
+U02872,University Of Lleida,C0150,Spain
+U02873,University Of Lodz,C0131,Poland
+U02874,University Of Lorraine,C0052,France
+U02875,University Of Los Lagos,C0031,Chile
+U02876,University Of Louisville,C0171,United States
+U02877,University Of Lucknow,C0067,India
+U02878,University Of Luxembourg,C0095,Luxembourg
+U02879,University Of Lãââaquila,C0075,Italy
+U02880,University Of Macau,C0098,Macau Sar
+U02881,University Of Macerata Unimc,C0075,Italy
+U02882,University Of Magallanes,C0031,Chile
+U02883,University Of Malaga,C0150,Spain
+U02884,University Of Malakand,C0123,Pakistan
+U02885,University Of Malaya,C0101,Malaysia
+U02886,University Of Malta,C0103,Malta
+U02887,University Of Management And Technology,C0123,Pakistan
+U02888,University Of Manchester,C0170,United Kingdom
+U02889,University Of Manitoba,C0029,Canada
+U02890,University Of Mannheim,C0054,Germany
+U02891,University Of Manouba,C0163,Tunisia
+U02892,University Of Maragheh,C0069,Iran
+U02893,University Of Marburg,C0054,Germany
+U02894,University Of Maribor,C0146,Slovenia
+U02895,University Of Marrakech Cadi Ayyad,C0111,Morocco
+U02896,University Of Maryland Baltimore County,C0171,United States
+U02897,University Of Maryland College Park,C0171,United States
+U02898,University Of Mascara,C0002,Algeria
+U02899,University Of Massachusetts,C0171,United States
+U02900,University Of Massachusetts Amherst,C0171,United States
+U02901,University Of Massachusetts Boston,C0171,United States
+U02902,University Of Mataram,C0068,Indonesia
+U02903,University Of Mauritius,C0105,Mauritius
+U02904,University Of Mazandaran,C0069,Iran
+U02905,University Of Medea,C0002,Algeria
+U02906,University Of Medellãân,C0034,Colombia
+U02907,University Of Medicine And Pharmacy Carol Davila,C0135,Romania
+U02908,University Of Medicine And Pharmacy Of Craiova,C0135,Romania
+U02909,University Of Melbourne,C0008,Australia
+U02910,University Of Memphis,C0171,United States
+U02911,University Of Messina,C0075,Italy
+U02912,University Of Messina Unime,C0075,Italy
+U02913,University Of Miami,C0171,United States
+U02914,University Of Michiganann Arbor,C0171,United States
+U02915,University Of Milan,C0075,Italy
+U02916,University Of Milanbicocca,C0075,Italy
+U02917,University Of Milanobicocca,C0075,Italy
+U02918,University Of Minho,C0132,Portugal
+U02919,University Of Minnesota,C0171,United States
+U02920,University Of Minnesota Twin Cities,C0171,United States
+U02921,University Of Misan,C0072,Iraq
+U02922,University Of Miskolc,C0065,Hungary
+U02923,University Of Mississippi,C0171,United States
+U02924,University Of Missouri Columbia,C0171,United States
+U02925,University Of Missouri Kansas City,C0171,United States
+U02926,University Of Missouri Saint Louis,C0171,United States
+U02927,University Of Missourist Louis,C0171,United States
+U02928,University Of Miyazaki,C0077,Japan
+U02929,University Of Modena And Reggio Emilia,C0075,Italy
+U02930,University Of Mohaghegh Ardabili,C0069,Iran
+U02931,University Of Mohamed Lamine Debaghin Setif 2,C0002,Algeria
+U02932,University Of Monastir,C0163,Tunisia
+U02933,University Of Mons,C0014,Belgium
+U02934,University Of Montana Missoula,C0171,United States
+U02935,University Of Montenegro,C0110,Montenegro
+U02936,University Of Monterrey,C0106,Mexico
+U02937,University Of Montreal,C0029,Canada
+U02938,University Of Mostar,C0018,Bosnia And Herzegovina
+U02939,University Of Mosul,C0072,Iraq
+U02940,University Of Mumbai,C0067,India
+U02941,University Of Murcia,C0150,Spain
+U02942,University Of Mysore,C0067,India
+U02943,University Of Mãâ¼Nster,C0054,Germany
+U02944,University Of Nairobi,C0080,Kenya
+U02945,University Of Namibia,C0114,Namibia
+U02946,University Of Namur,C0014,Belgium
+U02947,University Of Naples Federico Ii,C0075,Italy
+U02948,University Of Naples Parthenope,C0075,Italy
+U02949,University Of Navarra,C0150,Spain
+U02950,University Of Nebraska Lincoln,C0171,United States
+U02951,University Of Nebraska Medical Center,C0171,United States
+U02952,University Of Nebraskalincoln,C0171,United States
+U02953,University Of Neuchãâtel,C0156,Switzerland
+U02954,University Of Nevada Las Vegas,C0171,United States
+U02955,University Of New Brunswick,C0029,Canada
+U02956,University Of New Brunswick Unb,C0029,Canada
+U02957,University Of New England Australia,C0008,Australia
+U02958,University Of New Hampshire,C0171,United States
+U02959,University Of New Mexico,C0171,United States
+U02960,University Of New Mexico Main Campus,C0171,United States
+U02961,University Of Newcastle,C0008,Australia
+U02962,University Of Nicosia,C0040,Cyprus
+U02963,University Of Nigeria Nsukka,C0118,Nigeria
+U02964,University Of Niigata Prefecture,C0077,Japan
+U02965,University Of Niâ,C0142,Serbia
+U02966,University Of North Carolina At Chapel Hill,C0171,United States
+U02967,University Of North Carolina At Charlotte,C0171,United States
+U02968,University Of North Carolina At Greensboro,C0171,United States
+U02969,University Of North Carolina Chapel Hill,C0171,United States
+U02970,University Of North Carolina Wilmington,C0171,United States
+U02971,University Of North Texas,C0171,United States
+U02972,University Of Northampton,C0170,United Kingdom
+U02973,University Of Northern British Columbia Unbc,C0029,Canada
+U02974,University Of Notre Dame,C0171,United States
+U02975,University Of Nottingham,C0170,United Kingdom
+U02976,University Of Nova Gorica,C0146,Slovenia
+U02977,University Of Novi Sad,C0142,Serbia
+U02978,University Of Occupational And Environmental Health Japan,C0077,Japan
+U02979,University Of Okara,C0123,Pakistan
+U02980,University Of Oklahoma,C0171,United States
+U02981,University Of Oradea,C0135,Romania
+U02982,University Of Oregon,C0171,United States
+U02983,University Of Oslo,C0121,Norway
+U02984,University Of Ostrava,C0041,Czech Republic
+U02985,University Of Otago,C0117,New Zealand
+U02986,University Of Ottawa,C0029,Canada
+U02987,University Of Oulu,C0051,Finland
+U02988,University Of Oum El Bouaghi,C0002,Algeria
+U02989,University Of Oviedo,C0150,Spain
+U02990,University Of Oxford,C0170,United Kingdom
+U02991,University Of Padua,C0075,Italy
+U02992,University Of Palermo,C0075,Italy
+U02993,University Of Pannonia,C0065,Hungary
+U02994,University Of Pardubice,C0041,Czech Republic
+U02995,University Of Parma,C0075,Italy
+U02996,University Of Passau,C0054,Germany
+U02997,University Of Passo Fundo Upf,C0020,Brazil
+U02998,University Of Patras,C0056,Greece
+U02999,University Of Pau And Pays De Lãââadour,C0052,France
+U03000,University Of Pavia,C0075,Italy
+U03001,University Of Pecs,C0065,Hungary
+U03002,University Of Pennsylvania,C0171,United States
+U03003,University Of Peradeniya,C0151,Sri Lanka
+U03004,University Of Pernambuco,C0020,Brazil
+U03005,University Of Perugia,C0075,Italy
+U03006,University Of Peshawar,C0123,Pakistan
+U03007,University Of Petra,C0078,Jordan
+U03008,University Of Petroleum And Energy Studies Upes,C0067,India
+U03009,University Of Phayao,C0161,Thailand
+U03010,University Of Pisa,C0075,Italy
+U03011,University Of Pittsburgh,C0171,United States
+U03012,University Of Pittsburghpittsburgh Campus,C0171,United States
+U03013,University Of Plymouth,C0170,United Kingdom
+U03014,University Of Poonch Rawalakot,C0123,Pakistan
+U03015,University Of Port Harcourt,C0118,Nigeria
+U03016,University Of Porto,C0132,Portugal
+U03017,University Of Portsmouth,C0170,United Kingdom
+U03018,University Of Potsdam,C0054,Germany
+U03019,University Of Pretoria,C0148,South Africa
+U03020,University Of Primorska,C0146,Slovenia
+U03021,University Of Prishtina,C0083,Kosovo
+U03022,University Of Professional Studies Accra,C0055,Ghana
+U03023,University Of Puerto Rico,C0133,Puerto Rico
+U03024,University Of Puthisastra,C0027,Cambodia
+U03025,University Of Pãâcs,C0065,Hungary
+U03026,University Of Qom,C0069,Iran
+U03027,University Of Rajshahi,C0012,Bangladesh
+U03028,University Of Reading,C0170,United Kingdom
+U03029,University Of Regina,C0029,Canada
+U03030,University Of Rennes 1,C0052,France
+U03031,University Of Rhode Island,C0171,United States
+U03032,University Of Rijeka,C0038,Croatia
+U03033,University Of Rochester,C0171,United States
+U03034,University Of Roehampton,C0170,United Kingdom
+U03035,University Of Rome Ii Ãââ Tor Vergata,C0075,Italy
+U03036,University Of Rome Iii,C0075,Italy
+U03037,University Of Rome Tor Vergata,C0075,Italy
+U03038,University Of Rzeszã³W,C0131,Poland
+U03039,University Of Sadat City,C0045,Egypt
+U03040,University Of Saida,C0002,Algeria
+U03041,University Of Saint Joseph,C0096,Macao
+U03042,University Of Salamanca,C0150,Spain
+U03043,University Of Salento,C0075,Italy
+U03044,University Of Salerno,C0075,Italy
+U03045,University Of Salford,C0170,United Kingdom
+U03046,University Of San Carlos,C0130,Philippines
+U03047,University Of San Diego,C0171,United States
+U03048,University Of San Francisco,C0171,United States
+U03049,University Of San Martãân De Porres,C0129,Peru
+U03050,University Of Sannio,C0075,Italy
+U03051,University Of Santander,C0034,Colombia
+U03052,University Of Santiago Chile Usach,C0031,Chile
+U03053,University Of Santiago De Compostela,C0150,Spain
+U03054,University Of Santo Tomas,C0130,Philippines
+U03055,University Of Sarajevo,C0018,Bosnia And Herzegovina
+U03056,University Of Sargodha,C0123,Pakistan
+U03057,University Of Saskatchewan,C0029,Canada
+U03058,University Of Sassari,C0075,Italy
+U03059,University Of Science And Technology Beijing,C0033,China (Mainland)
+U03060,University Of Science And Technology Of China,C0033,China (Mainland)
+U03061,University Of Science And Technology Of Oran Mohamedboudiaf,C0002,Algeria
+U03062,University Of Science And Technology Of Southern Philippines Ustp,C0130,Philippines
+U03063,University Of Sciences And Technology Houari Boumediene,C0002,Algeria
+U03064,University Of Seoul,C0149,South Korea
+U03065,University Of Seville,C0150,Spain
+U03066,University Of Sfax,C0163,Tunisia
+U03067,University Of Shanghai For Science And Technology,C0032,China
+U03068,University Of Sharjah,C0169,United Arab Emirates
+U03069,University Of Sheffield,C0170,United Kingdom
+U03070,University Of Shizuoka,C0077,Japan
+U03071,University Of Siegen,C0054,Germany
+U03072,University Of Siena,C0075,Italy
+U03073,University Of Silesia In Katowice,C0131,Poland
+U03074,University Of Sistan And Baluchestan,C0069,Iran
+U03075,University Of Social Welfare And Rehabilitation Sciences,C0069,Iran
+U03076,University Of Sonora,C0106,Mexico
+U03077,University Of Sopron,C0065,Hungary
+U03078,University Of Souk Ahras,C0002,Algeria
+U03079,University Of Sousse,C0163,Tunisia
+U03080,University Of South Africa,C0148,South Africa
+U03081,University Of South Alabama Usa,C0171,United States
+U03082,University Of South Australia,C0008,Australia
+U03083,University Of South Bohemia,C0041,Czech Republic
+U03084,University Of South Bohemia In Ãâeskãâ Budãâjovice,C0041,Czech Republic
+U03085,University Of South Carolina,C0171,United States
+U03086,University Of South Carolinacolumbia,C0171,United States
+U03087,University Of South China,C0032,China
+U03088,University Of South Dakota,C0171,United States
+U03089,University Of South Florida,C0171,United States
+U03090,University Of South Santa Catarina Unisul,C0020,Brazil
+U03091,University Of South Wales,C0170,United Kingdom
+U03092,University Of Southampton,C0170,United Kingdom
+U03093,University Of Southern California,C0171,United States
+U03094,University Of Southern Denmark,C0042,Denmark
+U03095,University Of Southern Denmark Sdu,C0042,Denmark
+U03096,University Of Southern Queensland,C0008,Australia
+U03097,University Of Split,C0038,Croatia
+U03098,University Of Sri Jayewardenepura,C0151,Sri Lanka
+U03099,University Of St Andrews,C0170,United Kingdom
+U03100,University Of St Gallen,C0156,Switzerland
+U03101,University Of Stavanger,C0121,Norway
+U03102,University Of Stirling,C0170,United Kingdom
+U03103,University Of Strasbourg,C0052,France
+U03104,University Of Strathclyde,C0170,United Kingdom
+U03105,University Of Stuttgart,C0054,Germany
+U03106,University Of Suffolk,C0170,United Kingdom
+U03107,University Of Sufism And Modern Sciences Usms,C0123,Pakistan
+U03108,University Of Sunderland,C0170,United Kingdom
+U03109,University Of Surrey,C0170,United Kingdom
+U03110,University Of Sussex,C0170,United Kingdom
+U03111,University Of Swabi,C0123,Pakistan
+U03112,University Of Szeged,C0065,Hungary
+U03113,University Of Sãâo Paulo,C0020,Brazil
+U03114,University Of Tabriz,C0071,"Iran, Islamic Republic Of"
+U03115,University Of Tabuk,C0140,Saudi Arabia
+U03116,University Of Taipei,C0158,Taiwan
+U03117,University Of Talca,C0031,Chile
+U03118,University Of Tamanghasset,C0002,Algeria
+U03119,University Of Tarapacãâ,C0031,Chile
+U03120,University Of Tartu,C0048,Estonia
+U03121,University Of Tasmania,C0008,Australia
+U03122,University Of Technology Iraq,C0072,Iraq
+U03123,University Of Technology Nowshera,C0123,Pakistan
+U03124,University Of Technology Of Compiãâgne,C0052,France
+U03125,University Of Technology Of Troyes,C0052,France
+U03126,University Of Technology Sydney,C0008,Australia
+U03127,University Of Tehran,C0071,"Iran, Islamic Republic Of"
+U03128,University Of Telafer,C0072,Iraq
+U03129,University Of Texas At Arlington,C0171,United States
+U03130,University Of Texas At Austin,C0171,United States
+U03131,University Of Texas At Dallas,C0171,United States
+U03132,University Of Texas At El Paso,C0171,United States
+U03133,University Of Texas At San Antonio,C0171,United States
+U03134,University Of Texas Dallas,C0171,United States
+U03135,University Of Texas El Paso,C0171,United States
+U03136,University Of Texas Rio Grande Valley,C0171,United States
+U03137,University Of The Aegean,C0056,Greece
+U03138,University Of The Andes Chile,C0031,Chile
+U03139,University Of The Andes Colombia,C0034,Colombia
+U03140,University Of The Andes Venezuela,C0175,Venezuela
+U03141,University Of The Arts London,C0170,United Kingdom
+U03142,University Of The Balearic Islands,C0150,Spain
+U03143,University Of The Basque Country,C0150,Spain
+U03144,University Of The Free State,C0148,South Africa
+U03145,University Of The Highlands And Islands,C0170,United Kingdom
+U03146,University Of The North Colombia,C0034,Colombia
+U03147,University Of The Pacific,C0171,United States
+U03148,University Of The Peloponnese,C0056,Greece
+U03149,University Of The Philippines,C0130,Philippines
+U03150,University Of The Punjab,C0123,Pakistan
+U03151,University Of The Ryukyus,C0077,Japan
+U03152,University Of The South Pacific,C0050,Fiji
+U03153,University Of The Sunshine Coast,C0008,Australia
+U03154,University Of The Thai Chamber Of Commerce,C0161,Thailand
+U03155,University Of The West Of England,C0170,United Kingdom
+U03156,University Of The West Of Scotland,C0170,United Kingdom
+U03157,University Of The Western Cape,C0148,South Africa
+U03158,University Of The Witwatersrand,C0148,South Africa
+U03159,University Of Thessaly,C0056,Greece
+U03160,University Of Thiqar,C0072,Iraq
+U03161,University Of Toledo,C0171,United States
+U03162,University Of Toronto,C0029,Canada
+U03163,University Of Tours,C0052,France
+U03164,University Of Toyama,C0077,Japan
+U03165,University Of Trento,C0075,Italy
+U03166,University Of Trieste,C0075,Italy
+U03167,University Of Tripoli,C0090,Libya
+U03168,University Of Tromsã The Arctic University Of Norway,C0121,Norway
+U03169,University Of Trãâsosmontes And Alto Douro,C0132,Portugal
+U03170,University Of Tsukuba,C0077,Japan
+U03171,University Of Tulsa,C0171,United States
+U03172,University Of Tunis,C0163,Tunisia
+U03173,University Of Tunis El Manar,C0163,Tunisia
+U03174,University Of Turin,C0075,Italy
+U03175,University Of Turku,C0051,Finland
+U03176,University Of Tuscia,C0075,Italy
+U03177,University Of Twente,C0116,Netherlands
+U03178,University Of Tyumen,C0136,Russia
+U03179,University Of Tãâ¼Bingen,C0054,Germany
+U03180,University Of Udine,C0075,Italy
+U03181,University Of Ulsan,C0149,South Korea
+U03182,University Of Urbino Carlo Bo,C0075,Italy
+U03183,University Of Utah,C0171,United States
+U03184,University Of Uyo,C0118,Nigeria
+U03185,University Of Vaasa,C0051,Finland
+U03186,University Of Vale Do Itajaãâ,C0020,Brazil
+U03187,University Of Valencia,C0150,Spain
+U03188,University Of Valladolid,C0150,Spain
+U03189,University Of Valparaãâso,C0031,Chile
+U03190,University Of Venda,C0148,South Africa
+U03191,University Of Vermont,C0171,United States
+U03192,University Of Veterinary And Animal Sciences Lahore,C0123,Pakistan
+U03193,University Of Veterinary Medicine And Pharmacy In Koã Âice,C0145,Slovakia
+U03194,University Of Vic Ãââ Central University Of Catalonia,C0150,Spain
+U03195,University Of Victoria,C0029,Canada
+U03196,University Of Victoria Uvic,C0029,Canada
+U03197,University Of Vienna,C0009,Austria
+U03198,University Of Vigo,C0150,Spain
+U03199,University Of Virginia,C0171,United States
+U03200,University Of Virginia Main Campus,C0171,United States
+U03201,University Of Waikato,C0117,New Zealand
+U03202,University Of Wales Trinity Saint David,C0170,United Kingdom
+U03203,University Of Warith Alanbiyaa,C0072,Iraq
+U03204,University Of Warmia And Mazury In Olsztyn,C0131,Poland
+U03205,University Of Warsaw,C0131,Poland
+U03206,University Of Warwick,C0170,United Kingdom
+U03207,University Of Washington,C0171,United States
+U03208,University Of Waterloo,C0029,Canada
+U03209,University Of West Attica,C0056,Greece
+U03210,University Of West Bohemia,C0041,Czech Republic
+U03211,University Of West London,C0170,United Kingdom
+U03212,University Of Western Macedonia,C0056,Greece
+U03213,University Of Westminster,C0170,United Kingdom
+U03214,University Of Winchester,C0170,United Kingdom
+U03215,University Of Windsor,C0029,Canada
+U03216,University Of Wisconsin Milwaukee,C0171,United States
+U03217,University Of Wisconsinmadison,C0171,United States
+U03218,University Of Wisconsinmilwaukee,C0171,United States
+U03219,University Of Witwatersrand,C0148,South Africa
+U03220,University Of Wollongong,C0008,Australia
+U03221,University Of Wolverhampton,C0170,United Kingdom
+U03222,University Of Worcester,C0170,United Kingdom
+U03223,University Of Wroclaw,C0131,Poland
+U03224,University Of Wrocã Âaw,C0131,Poland
+U03225,University Of Wuppertal,C0054,Germany
+U03226,University Of Wyoming,C0171,United States
+U03227,University Of Wãâ¼Rzburg,C0054,Germany
+U03228,University Of Yamanashi,C0077,Japan
+U03229,University Of York,C0170,United Kingdom
+U03230,University Of Zagreb,C0038,Croatia
+U03231,University Of Zambia,C0181,Zambia
+U03232,University Of Zanjan,C0069,Iran
+U03233,University Of Zaragoza,C0150,Spain
+U03234,University Of Zimbabwe,C0182,Zimbabwe
+U03235,University Of Zurich,C0156,Switzerland
+U03236,University Of Âilina,C0145,Slovakia
+U03237,University Of Ã Â½Ilina,C0145,Slovakia
+U03238,University Of Ã Âãâ³Dã Âº,C0131,Poland
+U03239,University Paris 2 Panthãonassas,C0052,France
+U03240,University Politehnica Of Bucharest,C0135,Romania
+U03241,University Politehnica Of Timisoara Upt,C0135,Romania
+U03242,University Rey Juan Carlos,C0150,Spain
+U03243,University Ulm,C0054,Germany
+U03244,Universitã Catholique De Louvain Uclouvain,C0014,Belgium
+U03245,Universitã Claude Bernard Lyon 1,C0052,France
+U03246,Universitã Cãte Dazur,C0052,France
+U03247,Universitã De Caen Normandie,C0052,France
+U03248,Universitã De Franchecomtã,C0052,France
+U03249,Universitã De Fribourg,C0156,Switzerland
+U03250,Universitã De Lille,C0052,France
+U03251,Universitã De Limoges,C0052,France
+U03252,Universitã De Liãge,C0014,Belgium
+U03253,Universitã De Lorraine,C0052,France
+U03254,Universitã De Montpellier,C0052,France
+U03255,Universitã De Montrãal,C0029,Canada
+U03256,Universitã De Nantes,C0052,France
+U03257,Universitã De Poitiers,C0052,France
+U03258,Universitã De Rennes 1 University Of Rennes,C0052,France
+U03259,Universitã De Sfax,C0163,Tunisia
+U03260,Universitã De Sherbrooke,C0029,Canada
+U03261,Universitã De Sousse,C0163,Tunisia
+U03262,Universitã De Strasbourg,C0052,France
+U03263,Universitã De Toulouse Iile Mirail,C0052,France
+U03264,Universitã De Tunis,C0163,Tunisia
+U03265,Universitã De Tunis El Manar,C0163,Tunisia
+U03266,Universitã Degli Studi Della Tuscia University Of Tuscia,C0075,Italy
+U03267,Universitã Degli Studi Di Bergamo,C0075,Italy
+U03268,Universitã Degli Studi Di Pavia,C0075,Italy
+U03269,Universitã Degli Studi Di Perugia,C0075,Italy
+U03270,Universitã Degli Studi Di Udine,C0075,Italy
+U03271,Universitã Degli Studi Roma Tre,C0075,Italy
+U03272,Universitã Del Salento,C0075,Italy
+U03273,Universitã Du Quãbec,C0029,Canada
+U03274,Universitã Grenoble Alpes,C0052,France
+U03275,Universitã Jean Moulin Lyon 3,C0052,France
+U03276,Universitã Laval,C0029,Canada
+U03277,Universitã Lumiãre Lyon 2,C0052,France
+U03278,Universitã Mohammed V De Rabat,C0111,Morocco
+U03279,Universitã Paris 1 Panthãonsorbonne,C0052,France
+U03280,Universitã Paris Citã,C0052,France
+U03281,Universitã Parisnanterre,C0052,France
+U03282,Universitã Parissaclay,C0052,France
+U03283,Universitã Paul Sabatier Toulouse Iii,C0052,France
+U03284,Universitã Psl,C0052,France
+U03285,Universitã Sorbonne Paris Nord,C0052,France
+U03286,Universitã Toulouse 1 Capitole,C0052,France
+U03287,Universitã Vitasalute San Raffaele,C0075,Italy
+U03288,Universitã Â Cattolica Del Sacro Cuore,C0075,Italy
+U03289,Universitã Â Di Padova,C0075,Italy
+U03290,Universitãt Bremen,C0054,Germany
+U03291,Universitãt Des Saarlandes,C0054,Germany
+U03292,Universitãt Duisburgessen,C0054,Germany
+U03293,Universitãt Hamburg,C0054,Germany
+U03294,Universitãt Innsbruck,C0009,Austria
+U03295,Universitãt Jena,C0054,Germany
+U03296,Universitãt Konstanz,C0054,Germany
+U03297,Universitãt Leipzig,C0054,Germany
+U03298,Universitãt Mannheim,C0054,Germany
+U03299,Universitãt Potsdam,C0054,Germany
+U03300,Universitãt Regensburg,C0054,Germany
+U03301,Universitãt Rostock,C0054,Germany
+U03302,Universitãt Siegen,C0054,Germany
+U03303,Universitãt Stuttgart,C0054,Germany
+U03304,Universitãâ 8 Mai 1945 Guelma,C0002,Algeria
+U03305,Universitãâ Bourgogne Franchecomtãâ Ubfc,C0052,France
+U03306,Universitãâ Catholique De Louvain,C0014,Belgium
+U03307,Universitãâ Chouaãâb Doukkali,C0111,Morocco
+U03308,Universitãâ De Bretagne Occidentale,C0052,France
+U03309,Universitãâ De Gabãâs,C0163,Tunisia
+U03310,Universitãâ De Poitiers,C0052,France
+U03311,Universitãâ De Skikda,C0002,Algeria
+U03312,Universitãâ Della Svizzera Italiana,C0156,Switzerland
+U03313,Universitãâ Djillali Liabãâs De Sidi Belabbãâs,C0002,Algeria
+U03314,Universitãâ Du Littoral Cãâte Dãââopale,C0052,France
+U03315,Universitãâ Du Quãâbec,C0029,Canada
+U03316,Universitãâ Dãââain Tãâmouchent,C0002,Algeria
+U03317,Universitãâ Dãââoran 2 Mohamed Ben Ahmed,C0002,Algeria
+U03318,Universitãâ Frãâres Mentouri Constantine 1,C0002,Algeria
+U03319,Universitãâ Grenoble Alpes,C0052,France
+U03320,Universitãâ Hassan 1Er,C0111,Morocco
+U03321,Universitãâ Hassan Ii De Casablanca,C0111,Morocco
+U03322,Universitãâ Kasdi Merbah Ouargla,C0002,Algeria
+U03323,Universitãâ Laval,C0029,Canada
+U03324,Universitãâ Libre De Bruxelles,C0014,Belgium
+U03325,Universitãâ Mohamed El Bachir El Ibrahimi De Bordj Bou Arrãâridj,C0002,Algeria
+U03326,Universitãâ Mohammed Premier,C0111,Morocco
+U03327,Universitãâ Mouloud Mammeri De Tiziouzou,C0002,Algeria
+U03328,Universitãâ Paris Citãâ,C0052,France
+U03329,Universitãâ Parissaclay,C0052,France
+U03330,Universitãâ Polytechnique Hautsdefrance,C0052,France
+U03331,Universitãâ Saintjoseph De Beyrouth,C0089,Lebanon
+U03332,Universitãâ Sorbonne Nouvelle,C0052,France
+U03333,Universitãâ Sultan Moulay Slimane,C0111,Morocco
+U03334,Universitãât Heidelberg,C0054,Germany
+U03335,Unnoba,C0005,Argentina
+U03336,Unsw Sydney,C0008,Australia
+U03337,Upes,C0067,India
+U03338,Uppsala University,C0155,Sweden
+U03339,Ural Federal University,C0137,Russian Federation
+U03340,Ural Federal University Urfu,C0136,Russia
+U03341,Ural State Medical University,C0137,Russian Federation
+U03342,Ural State University Of Economics,C0137,Russian Federation
+U03343,Urgench State University,C0174,Uzbekistan
+U03344,Urmia University,C0069,Iran
+U03345,Urmia University Of Medical Sciences,C0069,Iran
+U03346,Urmia University Of Technology,C0069,Iran
+U03347,Uruk University,C0072,Iraq
+U03348,Usamv Clujnapoca,C0135,Romania
+U03349,Usi Universitã Della Svizzera Italiana,C0156,Switzerland
+U03350,Usmanu Danfodiyo University Sokoto,C0118,Nigeria
+U03351,Utah State University,C0171,United States
+U03352,Utrecht University,C0116,Netherlands
+U03353,Utsunomiya University,C0077,Japan
+U03354,Uzbek State University Of Physical Culture And Sport,C0174,Uzbekistan
+U03355,Uzbekistan State University Of World Languages,C0174,Uzbekistan
+U03356,Uzhhorod National University,C0168,Ukraine
+U03357,Uã Âak University,C0164,Turkey
+U03358,V N Karazin Kharkiv National University,C0168,Ukraine
+U03359,Valahia University Of Targoviste,C0135,Romania
+U03360,Van Yãâ¼Zãâ¼Ncãâ¼ Yil University,C0164,Turkey
+U03361,Vancouver Island University,C0029,Canada
+U03362,Vanderbilt University,C0171,United States
+U03363,Varendra University,C0012,Bangladesh
+U03364,Varna University Of Management,C0024,Bulgaria
+U03365,Vasyl Stefanyk Precarpathian National University,C0168,Ukraine
+U03366,Vellore Institute Of Technology Vit,C0067,India
+U03367,Veltech University,C0067,India
+U03368,Veritas University Abuja,C0118,Nigeria
+U03369,Verona University,C0075,Italy
+U03370,Vi Vernadsky Crimean Federal University Vernadsky Cfu,C0168,Ukraine
+U03371,Victoria University,C0008,Australia
+U03372,Victoria University Of Wellington,C0117,New Zealand
+U03373,Viet Nam National University Ho Chi Minh City Vnuhcm,C0177,Vietnam
+U03374,Vietnam National University Hanoi,C0177,Vietnam
+U03375,Vietnam National University Ho Chi Minh City,C0177,Vietnam
+U03376,Vignanãââs Foundation For Science Technology And Research,C0067,India
+U03377,Vila Velha University,C0020,Brazil
+U03378,Vilnius Gediminas Technical University,C0092,Lithuania
+U03379,Vilnius Gediminas Technical University Vilnius Tech,C0092,Lithuania
+U03380,Vilnius University,C0092,Lithuania
+U03381,Vinayaka Missionãââs Research Foundation,C0067,India
+U03382,Virginia Commonwealth University,C0171,United States
+U03383,Virginia Polytechnic Institute And State University,C0171,United States
+U03384,Virtual University Of Tunis,C0163,Tunisia
+U03385,Visayas State University,C0130,Philippines
+U03386,Visvesvaraya National Institute Of Technology Nagpur,C0067,India
+U03387,Visvesvaraya Technological University,C0067,India
+U03388,Vit University,C0067,India
+U03389,Vitasalute San Raffaele University,C0075,Italy
+U03390,Vn Karazin Kharkiv National University,C0168,Ukraine
+U03391,Volgograd State Medical University,C0137,Russian Federation
+U03392,Volgograd State Technical University,C0137,Russian Federation
+U03393,Volgograd State University,C0137,Russian Federation
+U03394,Voronezh State Technical University,C0137,Russian Federation
+U03395,Voronezh State University,C0136,Russia
+U03396,Vrije Universiteit Amsterdam,C0116,Netherlands
+U03397,Vrije Universiteit Brussel,C0014,Belgium
+U03398,Vrije Universiteit Brussel Vub,C0014,Belgium
+U03399,Vsb Technical University Of Ostrava,C0041,Czech Republic
+U03400,Vytautas Magnus University,C0092,Lithuania
+U03401,Wageningen University Research,C0116,Netherlands
+U03402,Wakayama Medical University,C0077,Japan
+U03403,Wake Forest University,C0171,United States
+U03404,Walailak University,C0161,Thailand
+U03405,Warsaw University Of Life Sciences Â Sggw Wulssggw,C0131,Poland
+U03406,Warsaw University Of Life Sciences Ãââ Sggw,C0131,Poland
+U03407,Warsaw University Of Technology,C0131,Poland
+U03408,Waseda University,C0077,Japan
+U03409,Washington State University,C0171,United States
+U03410,Washington University In St Louis,C0171,United States
+U03411,Wasit University,C0072,Iraq
+U03412,Wayne State University,C0171,United States
+U03413,Wenzhou Medical University,C0032,China
+U03414,Wenzhou University,C0032,China
+U03415,West Ukrainian National University,C0168,Ukraine
+U03416,West University Of Timiã Âoara,C0135,Romania
+U03417,West Virginia University,C0171,United States
+U03418,Westcliff University,C0171,United States
+U03419,Western Caspian University,C0010,Azerbaijan
+U03420,Western Michigan University,C0171,United States
+U03421,Western Sydney University,C0008,Australia
+U03422,Western University,C0029,Canada
+U03423,Western Washington University,C0171,United States
+U03424,Westfãlische Wilhelmsuniversitãt Mã¼Nster,C0054,Germany
+U03425,Whu Beisheim,C0054,Germany
+U03426,William Mary,C0171,United States
+U03427,Women University Mardan,C0123,Pakistan
+U03428,Worcester Polytechnic Institute,C0171,United States
+U03429,World University Of Bangladesh Wub,C0012,Bangladesh
+U03430,Wrexham Glyndwr University,C0170,United Kingdom
+U03431,Writtle University College,C0170,United Kingdom
+U03432,Wroclaw Medical University,C0131,Poland
+U03433,Wroclaw University Of Science And Technology Wrust,C0131,Poland
+U03434,Wrocã Âaw University Of Environmental And Life Sciences,C0131,Poland
+U03435,Wrocã Âaw University Of Science And Technology,C0131,Poland
+U03436,Wsb Academy,C0131,Poland
+U03437,Wuhan Textile University,C0032,China
+U03438,Wuhan University,C0033,China (Mainland)
+U03439,Wuhan University Of Technology,C0033,China (Mainland)
+U03440,Xiamen University,C0033,China (Mainland)
+U03441,Xian Jiaotong Liverpool University,C0033,China (Mainland)
+U03442,Xiangtan University,C0032,China
+U03443,Xidian University,C0032,China
+U03444,Xiâan Jiaotong University,C0033,China (Mainland)
+U03445,Xiãââan Jiaotong University,C0032,China
+U03446,Xiãââan Jiaotongliverpool University,C0032,China
+U03447,Xuzhou Medical University,C0032,China
+U03448,Yagshigeldi Kakayev International University Of Oil And Gas,C0165,Turkmenistan
+U03449,Yale University,C0171,United States
+U03450,Yamagata University,C0077,Japan
+U03451,Yamaguchi Prefectural University,C0077,Japan
+U03452,Yamaguchi University,C0077,Japan
+U03453,Yangzhou University,C0032,China
+U03454,Yanka Kupala State University Of Grodno,C0013,Belarus
+U03455,Yanshan University,C0032,China
+U03456,Yarmouk University,C0078,Jordan
+U03457,Yasouj University,C0069,Iran
+U03458,Yazd University,C0069,Iran
+U03459,Yaã Âar University,C0164,Turkey
+U03460,Yeditepe University,C0164,Turkey
+U03461,Yerevan State University,C0006,Armenia
+U03462,Yeshiva University,C0171,United States
+U03463,Yeungnam University,C0149,South Korea
+U03464,Yildiz Technical University,C0164,Turkey
+U03465,Yogyakarta State University,C0068,Indonesia
+U03466,Yokohama City University,C0077,Japan
+U03467,Yokohama National University,C0077,Japan
+U03468,Yonsei University,C0149,South Korea
+U03469,Yonsei University Seoul Campus,C0149,South Korea
+U03470,York St John University,C0170,United Kingdom
+U03471,York University,C0029,Canada
+U03472,Youngsan University,C0149,South Korea
+U03473,Yuan Ze University,C0158,Taiwan
+U03474,Yuriy Fedkovych Chernivtsi National University,C0168,Ukraine
+U03475,Yusuf Maitama Sule University Kano,C0118,Nigeria
+U03476,Yãâldãâz Technical University,C0164,Turkey
+U03477,Zagazig University,C0045,Egypt
+U03478,Zanjan University Of Medical Sciences,C0069,Iran
+U03479,Zarqa University,C0078,Jordan
+U03480,Zayed University,C0169,United Arab Emirates
+U03481,Zewail City Of Science And Technology,C0045,Egypt
+U03482,Zhaw Zurich University Of Applied Sciences,C0156,Switzerland
+U03483,Zhejiang Chinese Medical University,C0032,China
+U03484,Zhejiang Gongshang University,C0032,China
+U03485,Zhejiang Normal University,C0032,China
+U03486,Zhejiang University,C0033,China (Mainland)
+U03487,Zhejiang University Of Finance And Economics,C0032,China
+U03488,Zhejiang University Of Technology,C0032,China
+U03489,Zhengzhou University,C0033,China (Mainland)
+U03490,Zhetysu University,C0079,Kazakhstan
+U03491,Zhytomyr Polytechnic State University,C0168,Ukraine
+U03492,Ziane Achour University Of Djelfa,C0002,Algeria
+U03493,Ziauddin University,C0123,Pakistan
+U03494,Zonguldak Bãâ¼Lent Ecevit University,C0164,Turkey
+U03495,Zã¼Rcher Hochschule Winterthur,C0156,Switzerland
+U03496,Ã Âtefan Cel Mare University Of Suceava,C0135,Romania
+U03497,Ãbuda University,C0065,Hungary
+U03498,Ãcole Normale Supãrieure De Lyon,C0052,France
+U03499,Ãâ Bo Akademi University,C0051,Finland
+U03500,Ãâankãârãâ Karatekin University,C0164,Turkey
+U03501,Ãâaãâ University,C0164,Turkey
+U03502,Ãâbuda University,C0065,Hungary
+U03503,Ãâcole Centrale De Lyon,C0052,France
+U03504,Ãâcole Des Mines De Saintãâtienne,C0052,France
+U03505,Ãâcole Des Ponts Paristech,C0052,France
+U03506,Ãâcole National Polytechnique De Constantine,C0002,Algeria
+U03507,Ãâcole Nationale Des Travaux Publics De Lãâtat Entpe,C0052,France
+U03508,Ãâcole Nationale Polytechnique,C0002,Algeria
+U03509,Ãâcole Nationale Polytechnique Dãââoran Maurice Audin,C0002,Algeria
+U03510,Ãâcole Nationale Supãârieure Agronomique,C0002,Algeria
+U03511,Ãâcole Nationale Supãârieure Agronomique Algiers,C0002,Algeria
+U03512,Ãâcole Nationale Supãârieure De Biotechnologie Taoufik Khaznadar Ensb,C0002,Algeria
+U03513,Ãâcole Nationale Supãârieure De Management Kolãâa,C0002,Algeria
+U03514,Ãâcole Nationale Supãârieure Des Sciences De La Mer Et De Lãââamãânagement Du Littoral Enssmal,C0002,Algeria
+U03515,Ãâcole Nationale Supãârieure Dãââinformatique Esi,C0002,Algeria
+U03516,Ãâcole Nationale Supãârieure Vãâtãârinaire Dãââalger,C0002,Algeria
+U03517,Ãâcole Normale Supãârieure De Bouzarãâah,C0002,Algeria
+U03518,Ãâcole Normale Supãârieure De Bãâchar,C0002,Algeria
+U03519,Ãâcole Normale Supãârieure De Kouba,C0002,Algeria
+U03520,Ãâcole Normale Supãârieure De Laghouat,C0002,Algeria
+U03521,Ãâcole Normale Supãârieure De Lyon,C0052,France
+U03522,Ãâcole Normale Supãârieure Dãââoran,C0002,Algeria
+U03523,Ãâcole Normale Supãârieure El Katiba Assia Djebar Constantine Ensc,C0002,Algeria
+U03524,Ãâcole Polytechnique Dãââarchitecture Et Dãââurbanisme,C0002,Algeria
+U03525,Ãâcole Polytechnique Fãâdãârale De Lausanne,C0156,Switzerland
+U03526,Ãâcole Supãârieure De Comptabilitãâ Et De Finances De Constantine,C0002,Algeria
+U03527,Ãâcole Supãârieure En Informatique 8 Mai 1945 De Sidibelabbãâs,C0002,Algeria
+U03528,Ãâcole Supãârieure En Sciences Appliquãâes De Tlemcen,C0002,Algeria
+U03529,Ãâcole Supãârieure En Sciences Biologiques Dãââoran Essbo,C0002,Algeria
+U03530,Ãâcole Supãârieure En Sciences Et Technologies De Lãââinformatique Et Du Numãârique Estin,C0002,Algeria
+U03531,Ãârebro University,C0155,Sweden
+U03532,Ãâskãâ¼Dar University,C0164,Turkey
+U03533,Ãââshahid Chamran University Of Ahvaz,C0069,Iran
+U03534,Ãââwellspring University,C0118,Nigeria
