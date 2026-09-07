@@ -1,0 +1,61 @@
+# ==============================
+# EduVision Git Ignore
+# ==============================
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ==============================
+# RAW DATASETS
+# ==============================
+
+# Do NOT upload original raw datasets
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.xls
+
+# ==============================
+# Temporary files
+# ==============================
+
+*.tmp
+*.temp
+*.log
+
+# ==============================
+# IDE files
+# ==============================
+
+.vscode/
+.idea/
+
+# ==============================
+# OS files
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Environment / secrets
+# ==============================
+
+.env
+.env.*
+
+# ==============================
+# Tableau temporary files
+# ==============================
+
+*.twb~
