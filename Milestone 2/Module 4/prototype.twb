@@ -1,0 +1,3031 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='dim_country (eduvision_final_dataset2)' inline='true' name='federated.1bp4s4g1tk74w31e9dnrs1f2raws' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='eduvision_final_dataset2' name='excel-direct.02w8fbw0awnk451gu1via1avpm4s'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/hasin/Documents/eduvision_final_dataset2.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation type='collection'>
+          <relation connection='excel-direct.02w8fbw0awnk451gu1via1avpm4s' name='dim_country' table='[dim_country$]' type='table'>
+            <columns gridOrigin='A1:B137:no:A1:B137:0' header='yes' outcome='6'>
+              <column datatype='string' name='country_id' ordinal='0' />
+              <column datatype='string' name='country_name' ordinal='1' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.02w8fbw0awnk451gu1via1avpm4s' name='dim_university' table='[dim_university$]' type='table'>
+            <columns gridOrigin='A1:K4709:no:A1:K4709:0' header='yes' outcome='6'>
+              <column datatype='string' name='university_id' ordinal='0' />
+              <column datatype='string' name='display_name' ordinal='1' />
+              <column datatype='string' name='region' ordinal='2' />
+              <column datatype='string' name='qs_name' ordinal='3' />
+              <column datatype='string' name='the_name' ordinal='4' />
+              <column datatype='string' name='wur_name' ordinal='5' />
+              <column datatype='boolean' name='in_qs' ordinal='6' />
+              <column datatype='boolean' name='in_the' ordinal='7' />
+              <column datatype='boolean' name='in_wur' ordinal='8' />
+              <column datatype='string' name='country_id' ordinal='9' />
+              <column datatype='string' name='country_name' ordinal='10' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.02w8fbw0awnk451gu1via1avpm4s' name='fact_research' table='[fact_research$]' type='table'>
+            <columns gridOrigin='A1:G6410:no:A1:G6410:0' header='yes' outcome='6'>
+              <column datatype='string' name='university_id' ordinal='0' />
+              <column datatype='integer' name='year' ordinal='1' />
+              <column datatype='string' name='source' ordinal='2' />
+              <column datatype='real' name='research_score' ordinal='3' />
+              <column datatype='real' name='citation_score' ordinal='4' />
+              <column datatype='real' name='research_impact' ordinal='5' />
+              <column datatype='real' name='research_productivity_index' ordinal='6' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.02w8fbw0awnk451gu1via1avpm4s' name='fact_student' table='[fact_student$]' type='table'>
+            <columns gridOrigin='A1:J6410:no:A1:J6410:0' header='yes' outcome='6'>
+              <column datatype='string' name='university_id' ordinal='0' />
+              <column datatype='integer' name='year' ordinal='1' />
+              <column datatype='string' name='source' ordinal='2' />
+              <column datatype='integer' name='total_students' ordinal='3' />
+              <column datatype='real' name='students_per_staff' ordinal='4' />
+              <column datatype='integer' name='international_student_percentage' ordinal='5' />
+              <column datatype='boolean' name='international_student_is_true_percentage' ordinal='6' />
+              <column datatype='real' name='international_student_score_qs' ordinal='7' />
+              <column datatype='real' name='faculty_student_score_qs' ordinal='8' />
+              <column datatype='real' name='faculty_student_ratio' ordinal='9' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.02w8fbw0awnk451gu1via1avpm4s' name='fact_university_performance' table='[fact_university_performance$]' type='table'>
+            <columns gridOrigin='A1:H6410:no:A1:H6410:0' header='yes' outcome='6'>
+              <column datatype='string' name='university_id' ordinal='0' />
+              <column datatype='integer' name='year' ordinal='1' />
+              <column datatype='string' name='source' ordinal='2' />
+              <column datatype='real' name='global_rank' ordinal='3' />
+              <column datatype='real' name='overall_score' ordinal='4' />
+              <column datatype='real' name='academic_reputation' ordinal='5' />
+              <column datatype='real' name='employer_reputation' ordinal='6' />
+              <column datatype='real' name='global_ranking_score' ordinal='7' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.02w8fbw0awnk451gu1via1avpm4s' name='fact_country_education' table='[fact_country_education$]' type='table'>
+            <columns gridOrigin='A1:G120:no:A1:G120:0' header='yes' outcome='6'>
+              <column datatype='string' name='country_id' ordinal='0' />
+              <column datatype='string' name='country_name' ordinal='1' />
+              <column datatype='real' name='adult_literacy_rate_pct' ordinal='2' />
+              <column datatype='real' name='govt_expenditure_pct_gdp' ordinal='3' />
+              <column datatype='real' name='govt_expenditure_pct_govt_spending' ordinal='4' />
+              <column datatype='real' name='primary_enrollment_ratio_pct' ordinal='5' />
+              <column datatype='real' name='tertiary_enrollment_ratio_pct' ordinal='6' />
+            </columns>
+          </relation>
+        </relation>
+        <cols>
+          <map key='[academic_reputation]' value='[fact_university_performance].[academic_reputation]' />
+          <map key='[adult_literacy_rate_pct]' value='[fact_country_education].[adult_literacy_rate_pct]' />
+          <map key='[citation_score]' value='[fact_research].[citation_score]' />
+          <map key='[country_id (dim!university)]' value='[dim_university].[country_id]' />
+          <map key='[country_id (fact!country!education)]' value='[fact_country_education].[country_id]' />
+          <map key='[country_id]' value='[dim_country].[country_id]' />
+          <map key='[country_name (dim!university)]' value='[dim_university].[country_name]' />
+          <map key='[country_name (fact!country!education)]' value='[fact_country_education].[country_name]' />
+          <map key='[country_name]' value='[dim_country].[country_name]' />
+          <map key='[display_name]' value='[dim_university].[display_name]' />
+          <map key='[employer_reputation]' value='[fact_university_performance].[employer_reputation]' />
+          <map key='[faculty_student_ratio]' value='[fact_student].[faculty_student_ratio]' />
+          <map key='[faculty_student_score_qs]' value='[fact_student].[faculty_student_score_qs]' />
+          <map key='[global_rank]' value='[fact_university_performance].[global_rank]' />
+          <map key='[global_ranking_score]' value='[fact_university_performance].[global_ranking_score]' />
+          <map key='[govt_expenditure_pct_gdp]' value='[fact_country_education].[govt_expenditure_pct_gdp]' />
+          <map key='[govt_expenditure_pct_govt_spending]' value='[fact_country_education].[govt_expenditure_pct_govt_spending]' />
+          <map key='[in_qs]' value='[dim_university].[in_qs]' />
+          <map key='[in_the]' value='[dim_university].[in_the]' />
+          <map key='[in_wur]' value='[dim_university].[in_wur]' />
+          <map key='[international_student_is_true_percentage]' value='[fact_student].[international_student_is_true_percentage]' />
+          <map key='[international_student_percentage]' value='[fact_student].[international_student_percentage]' />
+          <map key='[international_student_score_qs]' value='[fact_student].[international_student_score_qs]' />
+          <map key='[overall_score]' value='[fact_university_performance].[overall_score]' />
+          <map key='[primary_enrollment_ratio_pct]' value='[fact_country_education].[primary_enrollment_ratio_pct]' />
+          <map key='[qs_name]' value='[dim_university].[qs_name]' />
+          <map key='[region]' value='[dim_university].[region]' />
+          <map key='[research_impact]' value='[fact_research].[research_impact]' />
+          <map key='[research_productivity_index]' value='[fact_research].[research_productivity_index]' />
+          <map key='[research_score]' value='[fact_research].[research_score]' />
+          <map key='[source (fact!student)]' value='[fact_student].[source]' />
+          <map key='[source (fact!university!performance)]' value='[fact_university_performance].[source]' />
+          <map key='[source]' value='[fact_research].[source]' />
+          <map key='[students_per_staff]' value='[fact_student].[students_per_staff]' />
+          <map key='[tertiary_enrollment_ratio_pct]' value='[fact_country_education].[tertiary_enrollment_ratio_pct]' />
+          <map key='[the_name]' value='[dim_university].[the_name]' />
+          <map key='[total_students]' value='[fact_student].[total_students]' />
+          <map key='[university_id (fact!research)]' value='[fact_research].[university_id]' />
+          <map key='[university_id (fact!student)]' value='[fact_student].[university_id]' />
+          <map key='[university_id (fact!university!performance)]' value='[fact_university_performance].[university_id]' />
+          <map key='[university_id]' value='[dim_university].[university_id]' />
+          <map key='[wur_name]' value='[dim_university].[wur_name]' />
+          <map key='[year (fact!student)]' value='[fact_student].[year]' />
+          <map key='[year (fact!university!performance)]' value='[fact_university_performance].[year]' />
+          <map key='[year]' value='[fact_research].[year]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[dim_country]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B137:no:A1:B137:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[dim_university]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K4709:no:A1:K4709:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[fact_research]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:G6410:no:A1:G6410:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[fact_student]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J6410:no:A1:J6410:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[fact_university_performance]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H6410:no:A1:H6410:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[fact_country_education]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:G120:no:A1:G120:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[country_id]</local-name>
+            <parent-name>[dim_country]</parent-name>
+            <remote-alias>country_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[dim!country_54B8D5A123E94B37AA321345B6D3A67A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[country_name]</local-name>
+            <parent-name>[dim_country]</parent-name>
+            <remote-alias>country_name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[dim!country_54B8D5A123E94B37AA321345B6D3A67A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>university_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[university_id]</local-name>
+            <parent-name>[dim_university]</parent-name>
+            <remote-alias>university_id</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>display_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[display_name]</local-name>
+            <parent-name>[dim_university]</parent-name>
+            <remote-alias>display_name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[region]</local-name>
+            <parent-name>[dim_university]</parent-name>
+            <remote-alias>region</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qs_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[qs_name]</local-name>
+            <parent-name>[dim_university]</parent-name>
+            <remote-alias>qs_name</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>the_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[the_name]</local-name>
+            <parent-name>[dim_university]</parent-name>
+            <remote-alias>the_name</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wur_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[wur_name]</local-name>
+            <parent-name>[dim_university]</parent-name>
+            <remote-alias>wur_name</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>in_qs</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[in_qs]</local-name>
+            <parent-name>[dim_university]</parent-name>
+            <remote-alias>in_qs</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <object-id>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>in_the</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[in_the]</local-name>
+            <parent-name>[dim_university]</parent-name>
+            <remote-alias>in_the</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <object-id>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>in_wur</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[in_wur]</local-name>
+            <parent-name>[dim_university]</parent-name>
+            <remote-alias>in_wur</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <object-id>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[country_id (dim!university)]</local-name>
+            <parent-name>[dim_university]</parent-name>
+            <remote-alias>country_id</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[country_name (dim!university)]</local-name>
+            <parent-name>[dim_university]</parent-name>
+            <remote-alias>country_name</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>university_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[university_id (fact!research)]</local-name>
+            <parent-name>[fact_research]</parent-name>
+            <remote-alias>university_id</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[fact!research_EFA9B781003F488DA199CFC7FFF026EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[fact_research]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[fact!research_EFA9B781003F488DA199CFC7FFF026EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>source</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[source]</local-name>
+            <parent-name>[fact_research]</parent-name>
+            <remote-alias>source</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[fact!research_EFA9B781003F488DA199CFC7FFF026EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>research_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[research_score]</local-name>
+            <parent-name>[fact_research]</parent-name>
+            <remote-alias>research_score</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[fact!research_EFA9B781003F488DA199CFC7FFF026EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>citation_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[citation_score]</local-name>
+            <parent-name>[fact_research]</parent-name>
+            <remote-alias>citation_score</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[fact!research_EFA9B781003F488DA199CFC7FFF026EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>research_impact</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[research_impact]</local-name>
+            <parent-name>[fact_research]</parent-name>
+            <remote-alias>research_impact</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[fact!research_EFA9B781003F488DA199CFC7FFF026EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>research_productivity_index</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[research_productivity_index]</local-name>
+            <parent-name>[fact_research]</parent-name>
+            <remote-alias>research_productivity_index</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[fact!research_EFA9B781003F488DA199CFC7FFF026EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>university_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[university_id (fact!student)]</local-name>
+            <parent-name>[fact_student]</parent-name>
+            <remote-alias>university_id</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year (fact!student)]</local-name>
+            <parent-name>[fact_student]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>source</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[source (fact!student)]</local-name>
+            <parent-name>[fact_student]</parent-name>
+            <remote-alias>source</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_students</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_students]</local-name>
+            <parent-name>[fact_student]</parent-name>
+            <remote-alias>total_students</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>students_per_staff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[students_per_staff]</local-name>
+            <parent-name>[fact_student]</parent-name>
+            <remote-alias>students_per_staff</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>international_student_percentage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[international_student_percentage]</local-name>
+            <parent-name>[fact_student]</parent-name>
+            <remote-alias>international_student_percentage</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>international_student_is_true_percentage</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[international_student_is_true_percentage]</local-name>
+            <parent-name>[fact_student]</parent-name>
+            <remote-alias>international_student_is_true_percentage</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <object-id>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>international_student_score_qs</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[international_student_score_qs]</local-name>
+            <parent-name>[fact_student]</parent-name>
+            <remote-alias>international_student_score_qs</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>faculty_student_score_qs</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[faculty_student_score_qs]</local-name>
+            <parent-name>[fact_student]</parent-name>
+            <remote-alias>faculty_student_score_qs</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>faculty_student_ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[faculty_student_ratio]</local-name>
+            <parent-name>[fact_student]</parent-name>
+            <remote-alias>faculty_student_ratio</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>university_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[university_id (fact!university!performance)]</local-name>
+            <parent-name>[fact_university_performance]</parent-name>
+            <remote-alias>university_id</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year (fact!university!performance)]</local-name>
+            <parent-name>[fact_university_performance]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>source</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[source (fact!university!performance)]</local-name>
+            <parent-name>[fact_university_performance]</parent-name>
+            <remote-alias>source</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>global_rank</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[global_rank]</local-name>
+            <parent-name>[fact_university_performance]</parent-name>
+            <remote-alias>global_rank</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>overall_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[overall_score]</local-name>
+            <parent-name>[fact_university_performance]</parent-name>
+            <remote-alias>overall_score</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>academic_reputation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[academic_reputation]</local-name>
+            <parent-name>[fact_university_performance]</parent-name>
+            <remote-alias>academic_reputation</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>employer_reputation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[employer_reputation]</local-name>
+            <parent-name>[fact_university_performance]</parent-name>
+            <remote-alias>employer_reputation</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>global_ranking_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[global_ranking_score]</local-name>
+            <parent-name>[fact_university_performance]</parent-name>
+            <remote-alias>global_ranking_score</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[country_id (fact!country!education)]</local-name>
+            <parent-name>[fact_country_education]</parent-name>
+            <remote-alias>country_id</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[country_name (fact!country!education)]</local-name>
+            <parent-name>[fact_country_education]</parent-name>
+            <remote-alias>country_name</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>adult_literacy_rate_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[adult_literacy_rate_pct]</local-name>
+            <parent-name>[fact_country_education]</parent-name>
+            <remote-alias>adult_literacy_rate_pct</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>govt_expenditure_pct_gdp</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[govt_expenditure_pct_gdp]</local-name>
+            <parent-name>[fact_country_education]</parent-name>
+            <remote-alias>govt_expenditure_pct_gdp</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>govt_expenditure_pct_govt_spending</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[govt_expenditure_pct_govt_spending]</local-name>
+            <parent-name>[fact_country_education]</parent-name>
+            <remote-alias>govt_expenditure_pct_govt_spending</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>primary_enrollment_ratio_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[primary_enrollment_ratio_pct]</local-name>
+            <parent-name>[fact_country_education]</parent-name>
+            <remote-alias>primary_enrollment_ratio_pct</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tertiary_enrollment_ratio_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tertiary_enrollment_ratio_pct]</local-name>
+            <parent-name>[fact_country_education]</parent-name>
+            <remote-alias>tertiary_enrollment_ratio_pct</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='dim_country' datatype='table' name='[__tableau_internal_object_id__].[dim!country_54B8D5A123E94B37AA321345B6D3A67A]' role='measure' type='quantitative' />
+      <column caption='dim_university' datatype='table' name='[__tableau_internal_object_id__].[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]' role='measure' type='quantitative' />
+      <column caption='fact_country_education' datatype='table' name='[__tableau_internal_object_id__].[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]' role='measure' type='quantitative' />
+      <column caption='fact_research' datatype='table' name='[__tableau_internal_object_id__].[fact!research_EFA9B781003F488DA199CFC7FFF026EA]' role='measure' type='quantitative' />
+      <column caption='fact_student' datatype='table' name='[__tableau_internal_object_id__].[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]' role='measure' type='quantitative' />
+      <column caption='fact_university_performance' datatype='table' name='[__tableau_internal_object_id__].[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]' role='measure' type='quantitative' />
+      <column caption='Academic Reputation' datatype='real' name='[academic_reputation]' role='measure' type='quantitative' />
+      <column caption='Adult Literacy Rate Pct' datatype='real' name='[adult_literacy_rate_pct]' role='measure' type='quantitative' />
+      <column caption='Citation Score' datatype='real' name='[citation_score]' role='measure' type='quantitative' />
+      <column caption='Country Id (Dim!University)' datatype='string' name='[country_id (dim!university)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Country Id (Fact!Country!Education)' datatype='string' name='[country_id (fact!country!education)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Country Id' datatype='string' name='[country_id]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Country Name (Dim!University)' datatype='string' name='[country_name (dim!university)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Country Name (Fact!Country!Education)' datatype='string' name='[country_name (fact!country!education)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Country Name' datatype='string' name='[country_name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Display Name' datatype='string' name='[display_name]' role='dimension' type='nominal' />
+      <column caption='Employer Reputation' datatype='real' name='[employer_reputation]' role='measure' type='quantitative' />
+      <column caption='Faculty Student Ratio' datatype='real' name='[faculty_student_ratio]' role='measure' type='quantitative' />
+      <column caption='Faculty Student Score Qs' datatype='real' name='[faculty_student_score_qs]' role='measure' type='quantitative' />
+      <column caption='Global Rank' datatype='real' name='[global_rank]' role='measure' type='quantitative' />
+      <column caption='Global Ranking Score' datatype='real' name='[global_ranking_score]' role='measure' type='quantitative' />
+      <column caption='Govt Expenditure Pct Gdp' datatype='real' name='[govt_expenditure_pct_gdp]' role='measure' type='quantitative' />
+      <column caption='Govt Expenditure Pct Govt Spending' datatype='real' name='[govt_expenditure_pct_govt_spending]' role='measure' type='quantitative' />
+      <column caption='In Qs' datatype='boolean' name='[in_qs]' role='dimension' type='nominal' />
+      <column caption='In The' datatype='boolean' name='[in_the]' role='dimension' type='nominal' />
+      <column caption='In Wur' datatype='boolean' name='[in_wur]' role='dimension' type='nominal' />
+      <column caption='International Student Is True Percentage' datatype='boolean' name='[international_student_is_true_percentage]' role='dimension' type='nominal' />
+      <column caption='International Student Percentage' datatype='integer' name='[international_student_percentage]' role='measure' type='quantitative' />
+      <column caption='International Student Score Qs' datatype='real' name='[international_student_score_qs]' role='measure' type='quantitative' />
+      <column caption='Overall Score' datatype='real' name='[overall_score]' role='measure' type='quantitative' />
+      <column caption='Primary Enrollment Ratio Pct' datatype='real' name='[primary_enrollment_ratio_pct]' role='measure' type='quantitative' />
+      <column caption='Qs Name' datatype='string' name='[qs_name]' role='dimension' type='nominal' />
+      <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+      <column caption='Research Impact' datatype='real' name='[research_impact]' role='measure' type='quantitative' />
+      <column caption='Research Productivity Index' datatype='real' name='[research_productivity_index]' role='measure' type='quantitative' />
+      <column caption='Research Score' datatype='real' name='[research_score]' role='measure' type='quantitative' />
+      <column caption='Source (Fact!Student)' datatype='string' name='[source (fact!student)]' role='dimension' type='nominal' />
+      <column caption='Source (Fact!University!Performance)' datatype='string' name='[source (fact!university!performance)]' role='dimension' type='nominal' />
+      <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+      <column caption='Students Per Staff' datatype='real' name='[students_per_staff]' role='measure' type='quantitative' />
+      <column caption='Tertiary Enrollment Ratio Pct' datatype='real' name='[tertiary_enrollment_ratio_pct]' role='measure' type='quantitative' />
+      <column caption='The Name' datatype='string' name='[the_name]' role='dimension' type='nominal' />
+      <column caption='Total Students' datatype='integer' name='[total_students]' role='measure' type='quantitative' />
+      <column caption='University Id (Fact!Research)' datatype='string' name='[university_id (fact!research)]' role='dimension' type='nominal' />
+      <column caption='University Id (Fact!Student)' datatype='string' name='[university_id (fact!student)]' role='dimension' type='nominal' />
+      <column caption='University Id (Fact!University!Performance)' datatype='string' name='[university_id (fact!university!performance)]' role='dimension' type='nominal' />
+      <column caption='University Id' datatype='string' name='[university_id]' role='dimension' type='nominal' />
+      <column caption='Wur Name' datatype='string' name='[wur_name]' role='dimension' type='nominal' />
+      <column caption='Year (Fact!Student)' datatype='integer' name='[year (fact!student)]' role='dimension' type='quantitative' />
+      <column caption='Year (Fact!University!Performance)' datatype='integer' name='[year (fact!university!performance)]' role='dimension' type='quantitative' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/hasin/AppData/Local/Temp/TableauTemp/#TableauTemp_1pf34070nuvw2010z8tu51fkodm7.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/11/2026 06:06:26 PM' username='tableau_internal_user'>
+          <relation type='collection'>
+            <relation name='dim!country_54B8D5A123E94B37AA321345B6D3A67A' table='[Extract].[dim!country_54B8D5A123E94B37AA321345B6D3A67A]' type='table' />
+            <relation name='dim!university_C062B864C11C4FFEAD2900D5E12EC74B' table='[Extract].[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]' type='table' />
+            <relation name='fact!research_EFA9B781003F488DA199CFC7FFF026EA' table='[Extract].[fact!research_EFA9B781003F488DA199CFC7FFF026EA]' type='table' />
+            <relation name='fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5' table='[Extract].[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]' type='table' />
+            <relation name='fact!university!performance_866A3F42089C41519DA63BBFC6A727C9' table='[Extract].[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]' type='table' />
+            <relation name='fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD' table='[Extract].[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]' type='table' />
+          </relation>
+          <cols>
+            <map key='[academic_reputation]' value='[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9].[academic_reputation]' />
+            <map key='[adult_literacy_rate_pct]' value='[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD].[adult_literacy_rate_pct]' />
+            <map key='[citation_score]' value='[fact!research_EFA9B781003F488DA199CFC7FFF026EA].[citation_score]' />
+            <map key='[country_id (dim!university)]' value='[dim!university_C062B864C11C4FFEAD2900D5E12EC74B].[country_id]' />
+            <map key='[country_id (fact!country!education)]' value='[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD].[country_id]' />
+            <map key='[country_id]' value='[dim!country_54B8D5A123E94B37AA321345B6D3A67A].[country_id]' />
+            <map key='[country_name (dim!university)]' value='[dim!university_C062B864C11C4FFEAD2900D5E12EC74B].[country_name]' />
+            <map key='[country_name (fact!country!education)]' value='[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD].[country_name]' />
+            <map key='[country_name]' value='[dim!country_54B8D5A123E94B37AA321345B6D3A67A].[country_name]' />
+            <map key='[display_name]' value='[dim!university_C062B864C11C4FFEAD2900D5E12EC74B].[display_name]' />
+            <map key='[employer_reputation]' value='[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9].[employer_reputation]' />
+            <map key='[faculty_student_ratio]' value='[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5].[faculty_student_ratio]' />
+            <map key='[faculty_student_score_qs]' value='[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5].[faculty_student_score_qs]' />
+            <map key='[global_rank]' value='[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9].[global_rank]' />
+            <map key='[global_ranking_score]' value='[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9].[global_ranking_score]' />
+            <map key='[govt_expenditure_pct_gdp]' value='[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD].[govt_expenditure_pct_gdp]' />
+            <map key='[govt_expenditure_pct_govt_spending]' value='[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD].[govt_expenditure_pct_govt_spending]' />
+            <map key='[in_qs]' value='[dim!university_C062B864C11C4FFEAD2900D5E12EC74B].[in_qs]' />
+            <map key='[in_the]' value='[dim!university_C062B864C11C4FFEAD2900D5E12EC74B].[in_the]' />
+            <map key='[in_wur]' value='[dim!university_C062B864C11C4FFEAD2900D5E12EC74B].[in_wur]' />
+            <map key='[international_student_is_true_percentage]' value='[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5].[international_student_is_true_percentage]' />
+            <map key='[international_student_percentage]' value='[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5].[international_student_percentage]' />
+            <map key='[international_student_score_qs]' value='[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5].[international_student_score_qs]' />
+            <map key='[overall_score]' value='[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9].[overall_score]' />
+            <map key='[primary_enrollment_ratio_pct]' value='[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD].[primary_enrollment_ratio_pct]' />
+            <map key='[qs_name]' value='[dim!university_C062B864C11C4FFEAD2900D5E12EC74B].[qs_name]' />
+            <map key='[region]' value='[dim!university_C062B864C11C4FFEAD2900D5E12EC74B].[region]' />
+            <map key='[research_impact]' value='[fact!research_EFA9B781003F488DA199CFC7FFF026EA].[research_impact]' />
+            <map key='[research_productivity_index]' value='[fact!research_EFA9B781003F488DA199CFC7FFF026EA].[research_productivity_index]' />
+            <map key='[research_score]' value='[fact!research_EFA9B781003F488DA199CFC7FFF026EA].[research_score]' />
+            <map key='[source (fact!student)]' value='[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5].[source]' />
+            <map key='[source (fact!university!performance)]' value='[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9].[source]' />
+            <map key='[source]' value='[fact!research_EFA9B781003F488DA199CFC7FFF026EA].[source]' />
+            <map key='[students_per_staff]' value='[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5].[students_per_staff]' />
+            <map key='[tertiary_enrollment_ratio_pct]' value='[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD].[tertiary_enrollment_ratio_pct]' />
+            <map key='[the_name]' value='[dim!university_C062B864C11C4FFEAD2900D5E12EC74B].[the_name]' />
+            <map key='[total_students]' value='[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5].[total_students]' />
+            <map key='[university_id (fact!research)]' value='[fact!research_EFA9B781003F488DA199CFC7FFF026EA].[university_id]' />
+            <map key='[university_id (fact!student)]' value='[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5].[university_id]' />
+            <map key='[university_id (fact!university!performance)]' value='[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9].[university_id]' />
+            <map key='[university_id]' value='[dim!university_C062B864C11C4FFEAD2900D5E12EC74B].[university_id]' />
+            <map key='[wur_name]' value='[dim!university_C062B864C11C4FFEAD2900D5E12EC74B].[wur_name]' />
+            <map key='[year (fact!student)]' value='[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5].[year]' />
+            <map key='[year (fact!university!performance)]' value='[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9].[year]' />
+            <map key='[year]' value='[fact!research_EFA9B781003F488DA199CFC7FFF026EA].[year]' />
+          </cols>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>country_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[country_id]</local-name>
+              <parent-name>[dim!country_54B8D5A123E94B37AA321345B6D3A67A]</parent-name>
+              <remote-alias>country_id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>dim_country</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>136</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[dim!country_54B8D5A123E94B37AA321345B6D3A67A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>country_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[country_name]</local-name>
+              <parent-name>[dim!country_54B8D5A123E94B37AA321345B6D3A67A]</parent-name>
+              <remote-alias>country_name</remote-alias>
+              <ordinal>1</ordinal>
+              <family>dim_country</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>136</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[dim!country_54B8D5A123E94B37AA321345B6D3A67A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>university_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[university_id]</local-name>
+              <parent-name>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</parent-name>
+              <remote-alias>university_id</remote-alias>
+              <ordinal>2</ordinal>
+              <family>dim_university</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4708</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>display_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[display_name]</local-name>
+              <parent-name>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</parent-name>
+              <remote-alias>display_name</remote-alias>
+              <ordinal>3</ordinal>
+              <family>dim_university</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2227</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[region]</local-name>
+              <parent-name>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</parent-name>
+              <remote-alias>region</remote-alias>
+              <ordinal>4</ordinal>
+              <family>dim_university</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>qs_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[qs_name]</local-name>
+              <parent-name>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</parent-name>
+              <remote-alias>qs_name</remote-alias>
+              <ordinal>5</ordinal>
+              <family>dim_university</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2320</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>the_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[the_name]</local-name>
+              <parent-name>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</parent-name>
+              <remote-alias>the_name</remote-alias>
+              <ordinal>6</ordinal>
+              <family>dim_university</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3303</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>wur_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[wur_name]</local-name>
+              <parent-name>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</parent-name>
+              <remote-alias>wur_name</remote-alias>
+              <ordinal>7</ordinal>
+              <family>dim_university</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3037</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>in_qs</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[in_qs]</local-name>
+              <parent-name>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</parent-name>
+              <remote-alias>in_qs</remote-alias>
+              <ordinal>8</ordinal>
+              <family>dim_university</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>in_the</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[in_the]</local-name>
+              <parent-name>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</parent-name>
+              <remote-alias>in_the</remote-alias>
+              <ordinal>9</ordinal>
+              <family>dim_university</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>in_wur</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[in_wur]</local-name>
+              <parent-name>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</parent-name>
+              <remote-alias>in_wur</remote-alias>
+              <ordinal>10</ordinal>
+              <family>dim_university</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>country_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[country_id (dim!university)]</local-name>
+              <parent-name>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</parent-name>
+              <remote-alias>country_id</remote-alias>
+              <ordinal>11</ordinal>
+              <family>dim_university</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>134</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>country_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[country_name (dim!university)]</local-name>
+              <parent-name>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</parent-name>
+              <remote-alias>country_name</remote-alias>
+              <ordinal>12</ordinal>
+              <family>dim_university</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>134</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>university_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[university_id (fact!research)]</local-name>
+              <parent-name>[fact!research_EFA9B781003F488DA199CFC7FFF026EA]</parent-name>
+              <remote-alias>university_id</remote-alias>
+              <ordinal>13</ordinal>
+              <family>fact_research</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2671</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[fact!research_EFA9B781003F488DA199CFC7FFF026EA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[year]</local-name>
+              <parent-name>[fact!research_EFA9B781003F488DA199CFC7FFF026EA]</parent-name>
+              <remote-alias>year</remote-alias>
+              <ordinal>14</ordinal>
+              <family>fact_research</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!research_EFA9B781003F488DA199CFC7FFF026EA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>source</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[source]</local-name>
+              <parent-name>[fact!research_EFA9B781003F488DA199CFC7FFF026EA]</parent-name>
+              <remote-alias>source</remote-alias>
+              <ordinal>15</ordinal>
+              <family>fact_research</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[fact!research_EFA9B781003F488DA199CFC7FFF026EA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>research_score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[research_score]</local-name>
+              <parent-name>[fact!research_EFA9B781003F488DA199CFC7FFF026EA]</parent-name>
+              <remote-alias>research_score</remote-alias>
+              <ordinal>16</ordinal>
+              <family>fact_research</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>529</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!research_EFA9B781003F488DA199CFC7FFF026EA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>citation_score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[citation_score]</local-name>
+              <parent-name>[fact!research_EFA9B781003F488DA199CFC7FFF026EA]</parent-name>
+              <remote-alias>citation_score</remote-alias>
+              <ordinal>17</ordinal>
+              <family>fact_research</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1063</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!research_EFA9B781003F488DA199CFC7FFF026EA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>research_impact</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[research_impact]</local-name>
+              <parent-name>[fact!research_EFA9B781003F488DA199CFC7FFF026EA]</parent-name>
+              <remote-alias>research_impact</remote-alias>
+              <ordinal>18</ordinal>
+              <family>fact_research</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1130</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!research_EFA9B781003F488DA199CFC7FFF026EA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>research_productivity_index</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[research_productivity_index]</local-name>
+              <parent-name>[fact!research_EFA9B781003F488DA199CFC7FFF026EA]</parent-name>
+              <remote-alias>research_productivity_index</remote-alias>
+              <ordinal>19</ordinal>
+              <family>fact_research</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1043</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!research_EFA9B781003F488DA199CFC7FFF026EA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>university_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[university_id (fact!student)]</local-name>
+              <parent-name>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</parent-name>
+              <remote-alias>university_id</remote-alias>
+              <ordinal>20</ordinal>
+              <family>fact_student</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2818</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[year (fact!student)]</local-name>
+              <parent-name>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</parent-name>
+              <remote-alias>year</remote-alias>
+              <ordinal>21</ordinal>
+              <family>fact_student</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>source</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[source (fact!student)]</local-name>
+              <parent-name>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</parent-name>
+              <remote-alias>source</remote-alias>
+              <ordinal>22</ordinal>
+              <family>fact_student</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_students</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_students]</local-name>
+              <parent-name>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</parent-name>
+              <remote-alias>total_students</remote-alias>
+              <ordinal>23</ordinal>
+              <family>fact_student</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3452</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>students_per_staff</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[students_per_staff]</local-name>
+              <parent-name>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</parent-name>
+              <remote-alias>students_per_staff</remote-alias>
+              <ordinal>24</ordinal>
+              <family>fact_student</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>509</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>international_student_percentage</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[international_student_percentage]</local-name>
+              <parent-name>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</parent-name>
+              <remote-alias>international_student_percentage</remote-alias>
+              <ordinal>25</ordinal>
+              <family>fact_student</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>85</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>international_student_is_true_percentage</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[international_student_is_true_percentage]</local-name>
+              <parent-name>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</parent-name>
+              <remote-alias>international_student_is_true_percentage</remote-alias>
+              <ordinal>26</ordinal>
+              <family>fact_student</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>international_student_score_qs</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[international_student_score_qs]</local-name>
+              <parent-name>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</parent-name>
+              <remote-alias>international_student_score_qs</remote-alias>
+              <ordinal>27</ordinal>
+              <family>fact_student</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>371</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>faculty_student_score_qs</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[faculty_student_score_qs]</local-name>
+              <parent-name>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</parent-name>
+              <remote-alias>faculty_student_score_qs</remote-alias>
+              <ordinal>28</ordinal>
+              <family>fact_student</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>444</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>faculty_student_ratio</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[faculty_student_ratio]</local-name>
+              <parent-name>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</parent-name>
+              <remote-alias>faculty_student_ratio</remote-alias>
+              <ordinal>29</ordinal>
+              <family>fact_student</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>509</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>university_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[university_id (fact!university!performance)]</local-name>
+              <parent-name>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</parent-name>
+              <remote-alias>university_id</remote-alias>
+              <ordinal>30</ordinal>
+              <family>fact_university_performance</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2863</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[year (fact!university!performance)]</local-name>
+              <parent-name>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</parent-name>
+              <remote-alias>year</remote-alias>
+              <ordinal>31</ordinal>
+              <family>fact_university_performance</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>source</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[source (fact!university!performance)]</local-name>
+              <parent-name>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</parent-name>
+              <remote-alias>source</remote-alias>
+              <ordinal>32</ordinal>
+              <family>fact_university_performance</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>global_rank</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[global_rank]</local-name>
+              <parent-name>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</parent-name>
+              <remote-alias>global_rank</remote-alias>
+              <ordinal>33</ordinal>
+              <family>fact_university_performance</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>368</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>overall_score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[overall_score]</local-name>
+              <parent-name>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</parent-name>
+              <remote-alias>overall_score</remote-alias>
+              <ordinal>34</ordinal>
+              <family>fact_university_performance</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>367</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>academic_reputation</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[academic_reputation]</local-name>
+              <parent-name>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</parent-name>
+              <remote-alias>academic_reputation</remote-alias>
+              <ordinal>35</ordinal>
+              <family>fact_university_performance</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>372</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>employer_reputation</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[employer_reputation]</local-name>
+              <parent-name>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</parent-name>
+              <remote-alias>employer_reputation</remote-alias>
+              <ordinal>36</ordinal>
+              <family>fact_university_performance</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>383</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>global_ranking_score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[global_ranking_score]</local-name>
+              <parent-name>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</parent-name>
+              <remote-alias>global_ranking_score</remote-alias>
+              <ordinal>37</ordinal>
+              <family>fact_university_performance</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>492</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>country_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[country_id (fact!country!education)]</local-name>
+              <parent-name>[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]</parent-name>
+              <remote-alias>country_id</remote-alias>
+              <ordinal>38</ordinal>
+              <family>fact_country_education</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>119</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>country_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[country_name (fact!country!education)]</local-name>
+              <parent-name>[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]</parent-name>
+              <remote-alias>country_name</remote-alias>
+              <ordinal>39</ordinal>
+              <family>fact_country_education</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>119</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>adult_literacy_rate_pct</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[adult_literacy_rate_pct]</local-name>
+              <parent-name>[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]</parent-name>
+              <remote-alias>adult_literacy_rate_pct</remote-alias>
+              <ordinal>40</ordinal>
+              <family>fact_country_education</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>97</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>govt_expenditure_pct_gdp</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[govt_expenditure_pct_gdp]</local-name>
+              <parent-name>[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]</parent-name>
+              <remote-alias>govt_expenditure_pct_gdp</remote-alias>
+              <ordinal>41</ordinal>
+              <family>fact_country_education</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>117</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>govt_expenditure_pct_govt_spending</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[govt_expenditure_pct_govt_spending]</local-name>
+              <parent-name>[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]</parent-name>
+              <remote-alias>govt_expenditure_pct_govt_spending</remote-alias>
+              <ordinal>42</ordinal>
+              <family>fact_country_education</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>112</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>primary_enrollment_ratio_pct</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[primary_enrollment_ratio_pct]</local-name>
+              <parent-name>[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]</parent-name>
+              <remote-alias>primary_enrollment_ratio_pct</remote-alias>
+              <ordinal>43</ordinal>
+              <family>fact_country_education</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>117</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>tertiary_enrollment_ratio_pct</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[tertiary_enrollment_ratio_pct]</local-name>
+              <parent-name>[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]</parent-name>
+              <remote-alias>tertiary_enrollment_ratio_pct</remote-alias>
+              <ordinal>44</ordinal>
+              <family>fact_country_education</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>119</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='dim_country' id='dim!country_54B8D5A123E94B37AA321345B6D3A67A'>
+            <properties context=''>
+              <relation connection='excel-direct.02w8fbw0awnk451gu1via1avpm4s' name='dim_country' table='[dim_country$]' type='table'>
+                <columns gridOrigin='A1:B137:no:A1:B137:0' header='yes' outcome='6'>
+                  <column datatype='string' name='country_id' ordinal='0' />
+                  <column datatype='string' name='country_name' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='dim!country_54B8D5A123E94B37AA321345B6D3A67A' table='[Extract].[dim!country_54B8D5A123E94B37AA321345B6D3A67A]' type='table' />
+            </properties>
+          </object>
+          <object caption='dim_university' id='dim!university_C062B864C11C4FFEAD2900D5E12EC74B'>
+            <properties context=''>
+              <relation connection='excel-direct.02w8fbw0awnk451gu1via1avpm4s' name='dim_university' table='[dim_university$]' type='table'>
+                <columns gridOrigin='A1:K4709:no:A1:K4709:0' header='yes' outcome='6'>
+                  <column datatype='string' name='university_id' ordinal='0' />
+                  <column datatype='string' name='display_name' ordinal='1' />
+                  <column datatype='string' name='region' ordinal='2' />
+                  <column datatype='string' name='qs_name' ordinal='3' />
+                  <column datatype='string' name='the_name' ordinal='4' />
+                  <column datatype='string' name='wur_name' ordinal='5' />
+                  <column datatype='boolean' name='in_qs' ordinal='6' />
+                  <column datatype='boolean' name='in_the' ordinal='7' />
+                  <column datatype='boolean' name='in_wur' ordinal='8' />
+                  <column datatype='string' name='country_id' ordinal='9' />
+                  <column datatype='string' name='country_name' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='dim!university_C062B864C11C4FFEAD2900D5E12EC74B' table='[Extract].[dim!university_C062B864C11C4FFEAD2900D5E12EC74B]' type='table' />
+            </properties>
+          </object>
+          <object caption='fact_country_education' id='fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD'>
+            <properties context=''>
+              <relation connection='excel-direct.02w8fbw0awnk451gu1via1avpm4s' name='fact_country_education' table='[fact_country_education$]' type='table'>
+                <columns gridOrigin='A1:G120:no:A1:G120:0' header='yes' outcome='6'>
+                  <column datatype='string' name='country_id' ordinal='0' />
+                  <column datatype='string' name='country_name' ordinal='1' />
+                  <column datatype='real' name='adult_literacy_rate_pct' ordinal='2' />
+                  <column datatype='real' name='govt_expenditure_pct_gdp' ordinal='3' />
+                  <column datatype='real' name='govt_expenditure_pct_govt_spending' ordinal='4' />
+                  <column datatype='real' name='primary_enrollment_ratio_pct' ordinal='5' />
+                  <column datatype='real' name='tertiary_enrollment_ratio_pct' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD' table='[Extract].[fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD]' type='table' />
+            </properties>
+          </object>
+          <object caption='fact_research' id='fact!research_EFA9B781003F488DA199CFC7FFF026EA'>
+            <properties context=''>
+              <relation connection='excel-direct.02w8fbw0awnk451gu1via1avpm4s' name='fact_research' table='[fact_research$]' type='table'>
+                <columns gridOrigin='A1:G6410:no:A1:G6410:0' header='yes' outcome='6'>
+                  <column datatype='string' name='university_id' ordinal='0' />
+                  <column datatype='integer' name='year' ordinal='1' />
+                  <column datatype='string' name='source' ordinal='2' />
+                  <column datatype='real' name='research_score' ordinal='3' />
+                  <column datatype='real' name='citation_score' ordinal='4' />
+                  <column datatype='real' name='research_impact' ordinal='5' />
+                  <column datatype='real' name='research_productivity_index' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='fact!research_EFA9B781003F488DA199CFC7FFF026EA' table='[Extract].[fact!research_EFA9B781003F488DA199CFC7FFF026EA]' type='table' />
+            </properties>
+          </object>
+          <object caption='fact_student' id='fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5'>
+            <properties context=''>
+              <relation connection='excel-direct.02w8fbw0awnk451gu1via1avpm4s' name='fact_student' table='[fact_student$]' type='table'>
+                <columns gridOrigin='A1:J6410:no:A1:J6410:0' header='yes' outcome='6'>
+                  <column datatype='string' name='university_id' ordinal='0' />
+                  <column datatype='integer' name='year' ordinal='1' />
+                  <column datatype='string' name='source' ordinal='2' />
+                  <column datatype='integer' name='total_students' ordinal='3' />
+                  <column datatype='real' name='students_per_staff' ordinal='4' />
+                  <column datatype='integer' name='international_student_percentage' ordinal='5' />
+                  <column datatype='boolean' name='international_student_is_true_percentage' ordinal='6' />
+                  <column datatype='real' name='international_student_score_qs' ordinal='7' />
+                  <column datatype='real' name='faculty_student_score_qs' ordinal='8' />
+                  <column datatype='real' name='faculty_student_ratio' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5' table='[Extract].[fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5]' type='table' />
+            </properties>
+          </object>
+          <object caption='fact_university_performance' id='fact!university!performance_866A3F42089C41519DA63BBFC6A727C9'>
+            <properties context=''>
+              <relation connection='excel-direct.02w8fbw0awnk451gu1via1avpm4s' name='fact_university_performance' table='[fact_university_performance$]' type='table'>
+                <columns gridOrigin='A1:H6410:no:A1:H6410:0' header='yes' outcome='6'>
+                  <column datatype='string' name='university_id' ordinal='0' />
+                  <column datatype='integer' name='year' ordinal='1' />
+                  <column datatype='string' name='source' ordinal='2' />
+                  <column datatype='real' name='global_rank' ordinal='3' />
+                  <column datatype='real' name='overall_score' ordinal='4' />
+                  <column datatype='real' name='academic_reputation' ordinal='5' />
+                  <column datatype='real' name='employer_reputation' ordinal='6' />
+                  <column datatype='real' name='global_ranking_score' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='fact!university!performance_866A3F42089C41519DA63BBFC6A727C9' table='[Extract].[fact!university!performance_866A3F42089C41519DA63BBFC6A727C9]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[country_id]' />
+              <expression op='[country_id (dim!university)]' />
+            </expression>
+            <first-end-point object-id='dim!country_54B8D5A123E94B37AA321345B6D3A67A' />
+            <second-end-point object-id='dim!university_C062B864C11C4FFEAD2900D5E12EC74B' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[country_id]' />
+              <expression op='[country_id (fact!country!education)]' />
+            </expression>
+            <first-end-point object-id='dim!country_54B8D5A123E94B37AA321345B6D3A67A' />
+            <second-end-point object-id='fact!country!education_C646FF7E97574C86A85973CE1C3E1EDD' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[university_id]' />
+              <expression op='[university_id (fact!research)]' />
+            </expression>
+            <first-end-point object-id='dim!university_C062B864C11C4FFEAD2900D5E12EC74B' />
+            <second-end-point object-id='fact!research_EFA9B781003F488DA199CFC7FFF026EA' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[university_id]' />
+              <expression op='[university_id (fact!student)]' />
+            </expression>
+            <first-end-point object-id='dim!university_C062B864C11C4FFEAD2900D5E12EC74B' />
+            <second-end-point object-id='fact!student_4F59CE27C7584C7A98D014CAD2C7F7A5' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[university_id]' />
+              <expression op='[university_id (fact!university!performance)]' />
+            </expression>
+            <first-end-point object-id='dim!university_C062B864C11C4FFEAD2900D5E12EC74B' />
+            <second-end-point object-id='fact!university!performance_866A3F42089C41519DA63BBFC6A727C9' />
+          </relationship>
+        </relationships>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='KPI - Academic Reputation'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dim_country (eduvision_final_dataset2)' name='federated.1bp4s4g1tk74w31e9dnrs1f2raws' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bp4s4g1tk74w31e9dnrs1f2raws'>
+            <column caption='Academic Reputation' datatype='real' name='[academic_reputation]' role='measure' type='quantitative' />
+            <column-instance column='[academic_reputation]' derivation='Avg' name='[avg:academic_reputation:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[source]' derivation='None' name='[none:source:nk]' pivot='key' type='nominal' />
+            <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]'>
+            <groupfilter function='member' level='[none:source:nk]' member='&quot;QS_2025&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[avg:academic_reputation:qk]' value='n#,##0.0;-#,##0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[avg:academic_reputation:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{D28963C5-BF14-4C3E-A402-55F504692FF8}' />
+    </worksheet>
+    <worksheet name='KPI - Faculty Student Ratio'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dim_country (eduvision_final_dataset2)' name='federated.1bp4s4g1tk74w31e9dnrs1f2raws' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bp4s4g1tk74w31e9dnrs1f2raws'>
+            <column-instance column='[faculty_student_ratio]' derivation='Avg' name='[avg:faculty_student_ratio:qk]' pivot='key' type='quantitative' />
+            <column caption='Faculty Student Ratio' datatype='real' name='[faculty_student_ratio]' role='measure' type='quantitative' />
+            <column-instance column='[source]' derivation='None' name='[none:source:nk]' pivot='key' type='nominal' />
+            <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:source:nk]' member='&quot;THE_2024&quot;' />
+              <groupfilter function='member' level='[none:source:nk]' member='&quot;WUR_2023&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[avg:faculty_student_ratio:qk]' value='n#,##0.0;-#,##0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[avg:faculty_student_ratio:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A352EB06-AFE9-491A-AA53-E48BFC0918D8}' />
+    </worksheet>
+    <worksheet name='KPI - Global Ranking'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dim_country (eduvision_final_dataset2)' name='federated.1bp4s4g1tk74w31e9dnrs1f2raws' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bp4s4g1tk74w31e9dnrs1f2raws'>
+            <column-instance column='[global_ranking_score]' derivation='Avg' name='[avg:global_ranking_score:qk]' pivot='key' type='quantitative' />
+            <column caption='Global Ranking Score' datatype='real' name='[global_ranking_score]' role='measure' type='quantitative' />
+            <column-instance column='[source]' derivation='None' name='[none:source:nk]' pivot='key' type='nominal' />
+            <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]'>
+            <groupfilter function='member' level='[none:source:nk]' member='&quot;QS_2025&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[avg:global_ranking_score:qk]' value='n#,##0.0;-#,##0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[avg:global_ranking_score:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{303A8789-08A2-4B8B-AB28-ADC7EE4BB627}' />
+    </worksheet>
+    <worksheet name='KPI - International Students'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dim_country (eduvision_final_dataset2)' name='federated.1bp4s4g1tk74w31e9dnrs1f2raws' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bp4s4g1tk74w31e9dnrs1f2raws'>
+            <column-instance column='[international_student_percentage]' derivation='Avg' name='[avg:international_student_percentage:qk]' pivot='key' type='quantitative' />
+            <column caption='International Student Percentage' datatype='integer' name='[international_student_percentage]' role='measure' type='quantitative' />
+            <column-instance column='[source]' derivation='None' name='[none:source:nk]' pivot='key' type='nominal' />
+            <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:source:nk]' member='&quot;THE_2024&quot;' />
+              <groupfilter function='member' level='[none:source:nk]' member='&quot;WUR_2023&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[avg:international_student_percentage:qk]' value='n#,##0.0;-#,##0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[avg:international_student_percentage:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{8AEA8D5E-9DC6-448A-9984-07FAD109457B}' />
+    </worksheet>
+    <worksheet name='KPI - Overall Score'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dim_country (eduvision_final_dataset2)' name='federated.1bp4s4g1tk74w31e9dnrs1f2raws' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bp4s4g1tk74w31e9dnrs1f2raws'>
+            <column-instance column='[overall_score]' derivation='Avg' name='[avg:overall_score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[source]' derivation='None' name='[none:source:nk]' pivot='key' type='nominal' />
+            <column caption='Overall Score' datatype='real' name='[overall_score]' role='measure' type='quantitative' />
+            <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]'>
+            <groupfilter function='member' level='[none:source:nk]' member='&quot;QS_2025&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[avg:overall_score:qk]' value='n#,##0.0;-#,##0.0' />
+            <format attr='height' value='23' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[avg:overall_score:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{679E5521-B034-4C4F-BD88-3BA18AAC9C35}' />
+    </worksheet>
+    <worksheet name='KPI - Research Impact'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dim_country (eduvision_final_dataset2)' name='federated.1bp4s4g1tk74w31e9dnrs1f2raws' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bp4s4g1tk74w31e9dnrs1f2raws'>
+            <column-instance column='[research_impact]' derivation='Avg' name='[avg:research_impact:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[source]' derivation='None' name='[none:source:nk]' pivot='key' type='nominal' />
+            <column caption='Research Impact' datatype='real' name='[research_impact]' role='measure' type='quantitative' />
+            <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:source:nk]' member='&quot;THE_2024&quot;' />
+              <groupfilter function='member' level='[none:source:nk]' member='&quot;WUR_2023&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[avg:research_impact:qk]' value='n#,##0.0;-#,##0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[avg:research_impact:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{6B256E90-1E51-4880-BB32-B6D5528B240D}' />
+    </worksheet>
+    <worksheet name='KPI-Average Rank'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dim_country (eduvision_final_dataset2)' name='federated.1bp4s4g1tk74w31e9dnrs1f2raws' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bp4s4g1tk74w31e9dnrs1f2raws'>
+            <column-instance column='[global_rank]' derivation='Avg' name='[avg:global_rank:qk]' pivot='key' type='quantitative' />
+            <column caption='Global Rank' datatype='real' name='[global_rank]' role='measure' type='quantitative' />
+            <column-instance column='[source]' derivation='None' name='[none:source:nk]' pivot='key' type='nominal' />
+            <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]'>
+            <groupfilter function='member' level='[none:source:nk]' member='&quot;QS_2025&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[avg:global_rank:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[avg:global_rank:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{02376F3A-FE34-4E80-ACDC-6437507F67F2}' />
+    </worksheet>
+    <worksheet name='KPI-Total Universities'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dim_country (eduvision_final_dataset2)' name='federated.1bp4s4g1tk74w31e9dnrs1f2raws' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bp4s4g1tk74w31e9dnrs1f2raws'>
+            <column-instance column='[university_id]' derivation='CountD' name='[ctd:university_id:qk]' pivot='key' type='quantitative' />
+            <column caption='University Id' datatype='string' name='[university_id]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' value='97' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[ctd:university_id:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{8B8EDEBD-B81E-4FF1-98DB-BC98F2FA1DF2}' />
+    </worksheet>
+    <worksheet name='Top Universities 2025'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dim_country (eduvision_final_dataset2)' name='federated.1bp4s4g1tk74w31e9dnrs1f2raws' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bp4s4g1tk74w31e9dnrs1f2raws'>
+            <column-instance column='[global_ranking_score]' derivation='Avg' name='[avg:global_ranking_score:qk]' pivot='key' type='quantitative' />
+            <column caption='Display Name' datatype='string' name='[display_name]' role='dimension' type='nominal' />
+            <column caption='Global Rank' datatype='real' name='[global_rank]' role='measure' type='quantitative' />
+            <column caption='Global Ranking Score' datatype='real' name='[global_ranking_score]' role='measure' type='quantitative' />
+            <column-instance column='[display_name]' derivation='None' name='[none:display_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[global_rank]' derivation='None' name='[none:global_rank:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[source]' derivation='None' name='[none:source:nk]' pivot='key' type='nominal' />
+            <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:global_rank:qk]' included-values='in-range'>
+            <min>1.0</min>
+            <max>10.0</max>
+          </filter>
+          <filter class='categorical' column='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]'>
+            <groupfilter function='member' level='[none:source:nk]' member='&quot;QS_2025&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:display_name:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[avg:global_ranking_score:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]</column>
+            <column>[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:global_rank:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:display_name:nk]' value='36' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:display_name:nk]</rows>
+        <cols>[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[avg:global_ranking_score:qk]</cols>
+      </table>
+      <simple-id uuid='{0C1D0029-28CE-4910-A056-4582D6C16AB5}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='900' maxwidth='1700' minheight='560' minwidth='420' sizing-mode='range' />
+      <datasources>
+        <datasource caption='dim_country (eduvision_final_dataset2)' name='federated.1bp4s4g1tk74w31e9dnrs1f2raws' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1bp4s4g1tk74w31e9dnrs1f2raws'>
+        <column caption='Global Rank' datatype='real' name='[global_rank]' role='measure' type='quantitative' />
+        <column-instance column='[global_rank]' derivation='None' name='[none:global_rank:qk]' pivot='key' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98222' id='10' param='horz' type-v2='layout-flow' w='98984' x='508' y='889'>
+            <zone h='98222' id='3' param='vert' type-v2='layout-flow' w='88825' x='508' y='889'>
+              <zone fixed-size='99' h='11889' id='5' is-fixed='true' name='KPI - Overall Score' w='88825' x='508' y='889'>
+                <layout-cache type-h='fixed' type-w='cell' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone fixed-size='114' h='13556' id='6' is-fixed='true' name='KPI - Global Ranking' w='88825' x='508' y='12778'>
+                <layout-cache type-h='fixed' type-w='cell' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='17222' id='7' name='KPI-Total Universities' w='88825' x='508' y='26334'>
+                <layout-cache fixed-size-h='147' type-h='fixed' type-w='cell' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='55555' id='8' name='Top Universities 2025' w='88825' x='508' y='43556'>
+                <layout-cache fixed-size-h='601' minwidth='260' type-h='fixed' type-w='scalable' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98222' id='9' is-fixed='true' param='vert' type-v2='layout-flow' w='10159' x='89333' y='889'>
+              <zone h='8111' id='11' name='Top Universities 2025' param='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:global_rank:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='10159' x='89333' y='889'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='750' minheight='750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='12' param='vert' type-v2='layout-flow' w='98984' x='508' y='889'>
+                <zone fixed-size='99' h='11889' id='5' is-fixed='true' name='KPI - Overall Score' w='88825' x='508' y='889'>
+                  <layout-cache type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='114' h='13556' id='6' is-fixed='true' name='KPI - Global Ranking' w='88825' x='508' y='12778'>
+                  <layout-cache type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='147' h='17222' id='7' is-fixed='true' name='KPI-Total Universities' w='88825' x='508' y='26334'>
+                  <layout-cache type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8111' id='11' name='Top Universities 2025' param='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:global_rank:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='10159' x='89333' y='889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='55555' id='8' is-fixed='true' name='Top Universities 2025' w='88825' x='508' y='43556'>
+                  <layout-cache minwidth='260' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{33D7D9BA-1E6B-4241-8594-2A2CBA00E74E}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='KPI - Global Ranking'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B22EF3D1-20B7-429B-BF34-CECD98C9E6FF}' />
+    </window>
+    <window class='worksheet' name='KPI - Overall Score'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5C9B830D-DC4B-4DA3-8EBF-1814B787970B}' />
+    </window>
+    <window class='worksheet' name='KPI - Academic Reputation'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4C06CF18-F7C3-42F0-9A6D-62EEA8BB36F5}' />
+    </window>
+    <window class='worksheet' name='KPI - Research Impact'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5DD1E9F3-D940-469E-B234-D6554D2A4138}' />
+    </window>
+    <window class='worksheet' name='KPI - Faculty Student Ratio'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{CA8B7E69-7AF1-482A-8267-FD4571B3F9D8}' />
+    </window>
+    <window class='worksheet' name='KPI - International Students'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B0A86291-C8B7-4094-AEC2-4C996E27DC57}' />
+    </window>
+    <window class='worksheet' name='Top Universities 2025'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:global_rank:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:display_name:nk]</field>
+            <field>[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:global_rank:qk]</field>
+            <field>[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B02F3A18-5213-489F-96C0-5514E7A39DB4}' />
+    </window>
+    <window class='worksheet' name='KPI-Total Universities'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:university_id:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{DE78A7BE-C910-46C4-A2DA-96E0A48A4BCC}' />
+    </window>
+    <window class='worksheet' name='KPI-Average Rank'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1bp4s4g1tk74w31e9dnrs1f2raws].[none:source:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='4' />
+      </viewpoint>
+      <simple-id uuid='{B3A18954-E686-4F17-A902-D2457F171090}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='KPI - Global Ranking'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='KPI - Overall Score'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='KPI-Total Universities'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Top Universities 2025' />
+      </viewpoints>
+      <active id='5' />
+      <simple-id uuid='{000938D3-0B21-48E3-A724-DD7B10199AA3}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='25' name='KPI - Academic Reputation' width='64'>
+      iVBORw0KGgoAAAANSUhEUgAAAEAAAAAZCAYAAACB6CjhAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAC70lEQVRYhe1YMUjrUBQ9kdIKBqW1myJSioWCi7ODg6ODDoJUJ0Gh4KSuutguItGlioIF
+      C5WObo6BgG7iIBVSyJAiBqqNFKuR1rzrIAb66//f8v/n5WPPeM599x4O711CBCIifGN08DbA
+      G+0AeBvgjXYAvA3wRjsA3gZ4ox0AbwO80Q6AtwHe+PYBeHgb+MDj4yPS6TRkWUatVsPOzg6G
+      hoYc/eXlBQcHBzg5OQEATE5OYnFxEZ2dnT/teXt7i1wuB0VRUKvVIIoiZmZmMDExAa/X+15E
+      LoCmaTQ9PU25XI4qlQrZtk2xWIyurq6IiMi2bUomk5RIJMiyLLIsixKJBCWTSbJt+9Oe1WqV
+      1tfX6fT0lKrVKhERlUolWl1dJUmSnHOuCODu7o7K5XIDt7+/T4eHh0REVCgUKB6Pk2majm6a
+      JsXjcSoUCi3N0nWdVlZWnFBcsQOCwSACgUADV6lUHE7TNITDYfj9fkf3+/0Ih8PQNK2lWYZh
+      gDEGj+f99bsigB/BGEM+n8fo6CgAoFgsIhQKNdWFQiEUi8Uv9azX61AUBXt7e5ifn4fP5wPg
+      oiX4gefnZ2xtbWFzcxPBYNDhRVFsqhVFEaVS6Zf9jo+PkclkYJomxsbGIElS4237w+f713B5
+      eUlTU1N0cXHRpGWzWUqlUk18KpWibDbb0hxd12lhYYEMwyAil+yAh4cH7O7uYm1tDSMjI016
+      JBKBqqqwLMvhLMuCqqqIRCItzert7YXX63VujisCyOfz6O7uxvDw8Kd6NBqFIAiQZdnhZFmG
+      IAiIRqMAgNfXV5yfn8MwDACArutQFAWMsYZe19fXqNfrGBwcBAAIRPz/CqfTaRwdHaGrq6uB
+      n5ubQywWAwDc3NxgeXnZ2Qv39/eQJAn9/f0AgKenJywtLWF2dhbj4+Mol8vY3t7G2dkZ+vr6
+      MDAwAFVV4fF4sLGx4XxkuSKAr4IxBtM0AQCBQAAdHb+/wB9nGGPw+Xzo6elp0P+rAP4F3gDj
+      qKMXayspYgAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='25' name='KPI - Faculty Student Ratio' width='64'>
+      iVBORw0KGgoAAAANSUhEUgAAAEAAAAAZCAYAAACB6CjhAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACKUlEQVRYhe2YQYtxURzGf3ObzEKSkhoNi0nKTlJTyk5NzfgGLC0kNWJlMSsLSmo+gIUm
+      ShYW8xWUZGkjkiwUMSlN1+LS9S6mple8mTfv26Hx253zPz33uc/5n3PrXqzX6zU/GEm0AdGc
+      AxBtQDTnAEQbEM05ANEGRHMOQLQB0ZwDEG1ANOcARBv4HVVVaTQaJBKJrVq/3ycSieD1enl8
+      fOT19RVFUb6l+/HxQTabpVwub9UuD3b9D1BVlU6nQzqdRlEUlsvlRn04HJLJZAiHwzidTmRZ
+      JpVKUSgUCIVCSNLufVwsFhSLRd7e3ri6ukKv12+tOYoOeH9/J5/Pk0wmeXl52TJarVZ5eHjA
+      5XIhSRI6nY5YLEaz2WQ4HP5Rt1qtAlCpVLi/v9+55ig6wGQykcvlAJhMJlv1+XzO7e3txpzZ
+      bOb6+pper4fVat2pGwwG9z77KDpgH4qiMB6Pt+YtFgu9Xu8g7ZMIwO/3k8/nabfbwOed0e12
+      abVaB2sfxRHYx93dHZVK5WssSRJ2ux2z2YzNZjtI+yQ6YBfT6ZTBYPAzAlgulxvffEVRKJVK
+      uN1ubm5uAFitVtTrdUaj0V9pXxzDX+FarUY6nQY+z/d8PsdgMOBwOEilUozHY+LxOEajEZPJ
+      RLvdxuPx8PT0hEajAUCWZaLRKIFAAJ/Px2Kx4Pn5+evekGUZAK1WC0AymcTr9R5HAN9BVVVm
+      sxmqqqLVar9e5FBOJoD/xS9oGM99yRw5EgAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='25' name='KPI - Global Ranking' width='64'>
+      iVBORw0KGgoAAAANSUhEUgAAAEAAAAAZCAYAAACB6CjhAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAC60lEQVRYhe1YP0jrehg991LbDiXin0UFcdLJpeCWtXURwUGRppPgUFd1VJHMFadKEN2E
+      TskouAgZXEQdpEIFhwxtMKJpawM1sTlvkFfoqw/xwiW93J7xnN/v+w6HfF9CfpAk/mL8DNpA
+      0OgFELSBoNELIGgDQaMXQNAGgkYvgKANBI1eAEEbCBp/fQChoA38i9fXVxwfH+P8/Byu62J/
+      fx+Tk5MtvVwuI5fL4fr6GgAQj8extraG0dHR/61ZLpeRz+eh6zpc10UsFsPy8jLm5uYQDoc/
+      DrEL8PDwwMXFRebzeVarVTabTaZSKd7e3pIkS6USJUmiqqp0XZeu61JVVUqSxFKp9GnNer3O
+      7e1tnp6esl6vkyQty+LGxgb39vbYbDZJkl0RwNPTE5+fn9s4RVF4dHREktQ0jdlstuNeNpul
+      pmnf6mUYBtfX11uhdMUOGB4exuDgYBtXrVZbnCAIcBwHvu+3dN/34TgOBEH4Vi/TNOH7PkKh
+      j+nvigD+C9/3USgUIIoiAEAURZCEoiio1Wqo1WpQFAUkW2e+gud50HUdBwcHWFlZQSQS+RB+
+      6Zn9jXAch7u7u3x8fGzjbdtmJpNhIpFgIpFgJpOhbdtf1js5OeHs7CxnZma4ubnZMWpdE8DN
+      zQ0XFhZ4dXXVocmy/Omsa5pGWZa/1ccwDK6urtI0TZJdsgNs20Yul8PW1hbi8XiH3mg0EI1G
+      O/hoNIpGo/GtXkNDQwiHw7AsC0CX7IBCoQBBEDA9Pf2pLooiVFVFpVJpcZVKBaqqtnbA+/s7
+      Li4uYJomAMAwDOi63rY4AeDu7g6e52FiYgJAl3wI3d/f4/LyEvPz8218Op1GKpVCMpmEZVlY
+      WlrC1NQUAKBYLCKdTiOZTAIA3t7ecHh4CEmSMDIyglgshrOzM+zs7GBsbAzj4+MoFosIhUKQ
+      Zbn19vhB/jm/xT3Pg23bAICBgQH09fV9ecf3fby8vMD3fUQiEfT397fpf1QAvwP/AB1miNiq
+      kUIWAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='25' name='KPI - International Students' width='64'>
+      iVBORw0KGgoAAAANSUhEUgAAAEAAAAAZCAYAAACB6CjhAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACTElEQVRYhe2YQUsqURiGn8xVLgLJwCiCsFXbVoq/wFZtIwjCjeBG6Ae0qL2bwHIluPYX
+      uJCiVm7cCEMMyRAKQujUkZqa+Vpc7sBw9VJc7j0M12d3Xr4X3nmH8w3MgogI/zER3QF0My9A
+      dwDdzAvQHUA38wJ0B9DNvADdAXQzL0B3AN3MC9Ad4KuYpkmhUCCbzZLL5ajVajiO81uP4zjU
+      ajVyuRzZbJZCoYBpmsEhCQGWZUk+n5d2uy2u64pt23JyciKVSkVc153qcV1XLi8v5fz8XJRS
+      4rqutFotOTw8FMuy/LlQFFAul6XRaAS0x8dHOT4+ll6vN9XT6/WkWCzKaDQK6JVKRcrlsn8O
+      xRUYj8dsbW0FtLW1NZLJJPf391M9o9GIRCLB8vJyQM9kMpimyWQyAUKyAxzHYTAY/KJvbGzM
+      LGBxcZHhcIhSKqAnEgls2+bl5QUISQF7e3tUq1W63S4AnudhGAadTmemZ3t7m2g0SrVa5fX1
+      FQDbtrm+vvYfHgjHEpzF2dmZNJvNb3kMw5BSqSRKKREJyQ6YxnA45OHhgVQq9S3f3d0dm5ub
+      LC0tASG5Au/v74FvvuM41Ot1dnd3WV9fB+Dj44Pb21v6/b4/N5lM8DzPPxuGwc3NDfv7+74W
+      /Qf5/xjLsiiVSqysrLC6ukq32yWdTnN0dEQk8uMdvr29cXV1xcHBAclkEoCLiwtarRY7Ozs8
+      Pz8zGAw4PT31SwNYEAnHb3HP83h6esLzPGKxGLFY7Es+pRRKKSKRCPF43C/sJ6Ep4G/xCXY6
+      lL79KNijAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='25' name='KPI - Overall Score' width='64'>
+      iVBORw0KGgoAAAANSUhEUgAAAEAAAAAZCAYAAACB6CjhAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACy0lEQVRYhe2YP0jrUBTGfylVE9vBSgl0cCn1DwURHZx06OAiHZwVCoLtkFEcBDc7m02H
+      umhAoVsHcQ04uDiIi1ohSykKxdiiSCuG2zfIC69Yn24J2A8y5Jx7Tj4+zjn33kjtdrvNL0bA
+      awJeoyeA1wS8Rk8Arwl4jZ4AXhPwGj0BvCbgNXoCeE3Aa/x6AYJeE/gL0zQxTdN9HxgYIJPJ
+      MDIyAkCr1aJQKFAqlQBYWloil8shy/KP8tfrdba2tlAUhXw+z+DgIOAjAS4vL5mammJ+ft61
+      RSIRAIQQ6LpOu93m9PQUgJ2dHXRdZ3Nzk0Dg/4UshODw8JBoNIpt2/x7AfZFCziOg23bjI6O
+      oqqq+/T19QFgWRbVahVN05BlGVmW0TSNarWKZVnf5r+6uuL+/p50Oo0kSR0+Xwjw+vrKy8sL
+      0Wi0q9+yLBKJhFsR8FEdiUTiWwGen58xDIO1tbWu7eIbASRJotVqUavVeHp66vBXKhXi8fin
+      uHg8TqVS+TKvEIJiscjk5CRjY2Nd1/hiBgSDQWKxGAcHBziOQ7lcZnV1lcXFRbe/w+Hwp7hw
+      OEytVvsy7/X1Nbe3t2xvb3+5RvLrL7FCoQBALpfj+PiYRqOBpmkda/b29hgaGmJ5eflTfLFY
+      xDAMpqenXREbjQZ3d3fMzMywsLBAKpXyRwV0g+M4bs+Oj49jGAbNZhNFUQBoNpuUy2UymUzX
+      +HQ6TSqV6rDd3NxwdHRENptFVVXAJzOgVCpxdnaGEMK1XVxcMDc3B0AymUSSpI5zgmmaSJJE
+      MpkEPgQ7Pz/n4eEBgFAo1LGjqKpKJBKhv78fVVUJhUKAT2bA7Owsu7u75PN5JiYmsG2bbDbr
+      Di5FUdjY2GB9fZ2TkxMAHh8f0XXdrYi3tzf29/dZWVkhFov9+Nu+mgHv7+/U63UCgUDXLVEI
+      4e4Qw8PD3x6AfgJfCeAF/gADMwZBV+geDgAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='25' name='KPI - Research Impact' width='64'>
+      iVBORw0KGgoAAAANSUhEUgAAAEAAAAAZCAYAAACB6CjhAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACkElEQVRYhe2YP0jrUBjFf9YSnfwDUXBycuguDh2EQgfd7CAOBRdBEJwcHESKgpPFDl06
+      ODhLp4IUoSBKQaSzf0DEqgXbqEMDdkjT9HuDPB95NjyndwP2QJbvfjn35Nz7nSE9IiL8YARU
+      C1CNrgGqBahG1wDVAlSja4BqAarRNUC1ANXoGqBagGr8eAOCqgUA2LbN2dkZ2WyWSqUCQCaT
+      YXx8HIDDw0Ourq46vhuJRIhEIh3X2u02pVKJg4MDKpUKmqYRi8VYWFigv7//o0l8gNPTU9na
+      2pKHhwdxHEeazabMz89LuVwWEZF6vS6GYbiearUq6+vrksvlPHmTyaSsrq7K9fW1OI4jpmlK
+      KpWS7e1tsW1bRER8YUAn7O3tSaFQ8Fy/ubmRlZUVMU3Ts+f29lYcx3HVDMOQpaUlMQxDRER8
+      mwG1Wu3PNf0L7XabbDZLNBplYGDAk2NiYoJAwP2J7+/vaJpGX18f4NMQfH19Rdd1pqamOq7f
+      3d1Rq9U8Z98L9XqdZDLJ9PQ0g4ODgE9CEODt7Y21tTUeHx8JBoMUCoUvpwcfp5/P5wmHwwwP
+      D3+b/+Ligt3dXeLxOLFY7LPeI+LPX2KZTIbe3l6Wl5dd9XQ6zdDQEIuLi//kaDab7OzsALCx
+      sdFxpHw5AvAxv/f3967a09MTl5eXzM7Ofovj6OiIVqvF5uamZ574woB8Ps/Ly4urdnJyQjgc
+      dtWOj4+ZnJxkZGTkC0er1eL8/JxqtQqAZVkUi0Xm5ubQNM1zb19kwO+rblkWoVAI27YJhULM
+      zMx89jw/P1MqlUgkEh05LMtif3+feDzO2NgYpmlSLpdJJBJfskTXdVKpFLqu+ysDGo0GjUYD
+      gNHR0f+yp68MUIFflCietLbht48AAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='25' name='KPI-Average Rank' width='64'>
+      iVBORw0KGgoAAAANSUhEUgAAAEAAAAAZCAYAAACB6CjhAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAChElEQVRYhe2YPUjrUBiGH0tJ1ZRKsYagIE7ioINu4g8IFhy66yz+DAoO4uQgtLo4uIo4
+      2aK0iyh0cszm4lhrtkSIoPiD6GLxHAexEHqvXi4XTrz2gSzvd87He16Sk5M0SCklP5iQagOq
+      qQeg2oBq6gGoNqCaegCqDaimHoBqA6qpB6DagGp+fABh1QZ+xeXlJbu7uzV6LBZjbm6OWCzm
+      0+/v71ldXaWpqYlMJkNzczMAnueRz+exLIuXlxei0ShTU1OkUik0TQMCGoBpmiwuLvo027bJ
+      5XI1Y4UQ7O3tkUgkuL295ePj9vn5mZ2dHQYHB5mfn0fXdW5ubtjc3MRxHJaWlgiFQiC/Aa+v
+      rzKdTsvj4+Oa2tnZmVxZWZGnp6dyYWFBPj09fdrLcRy5vLxcHfct9gDbtvE8j5GREZ/++PhI
+      NptlZmaGxsbGP+p1dXWFEIJw+P3mD3wAQggODw9JJpPE43GfXigU6Ovro7u7+8s+lUoFy7LY
+      3t5menqaSCQCfIMAXNfFdV1GR0d9eqlUolwuMzk5+en8g4MDJiYmGBoaolgssrW1RW9vb7Xe
+      IGVwf4m5rsv6+jobGxu0tbVV9UKhQDabpb+//30jAx4eHrBtm4GBAZLJJGNjY5/2TKfTmKYZ
+      zLfAB0dHRwwPD/sWD5BKpWoWeH5+zv7+PrOzsxiG8duera2taJrG9fU1pmkG9xHwPI9yucz4
+      +HhNTdd1DMPwXfF4HE3TMAwDXddxHAfLshBC+OaWSiUqlQpdXV1AQM8BAMVikZ6eHtrb2/9q
+      fjQa5eTkhLW1NTo6Oujs7OTi4oJwOEwmk6kepgK9B/wLhBDc3d0hhCASidDS0uKr//cBfMUb
+      kiPHqHZvCGQAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='25' name='KPI-Total Universities' width='64'>
+      iVBORw0KGgoAAAANSUhEUgAAAEAAAAAZCAYAAACB6CjhAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAD70lEQVRYhe2YO0grWxSGvxMmOWJCxke0sBALFUEUBMuIjRYaCxHUQkklKXwgqAgWWogv
+      BK0Ei4BFqhQigo9CCwlaS0CCjxHEKIqg4sR3IrNvce4ZneNVjlyOUxx/2MUs/rXnX//eaw3M
+      NyGE4C+GxWwBZuPLALMFmI0vA8wWYDa+DDBbgNn4MsBsAWbjywCzBZiNv94A6bNfuLCwwPT0
+      NH19fZSVlf0n5+joCL/f/yrudDrx+Xw4nU4Atra2GB8fZ39/n9zcXHp7eykqKtL5mqaxvLxM
+      IBDg5uYGh8OB1+uluroai+XfsxefiIODA9He3i5aWlrE6urqm7x4PC7Ozs4Ma319Xfh8PqGq
+      qhBCiN3dXdHY2Cg2NzeFEEJsbm6KxsZGsbu7q+/j9/tFR0eHODw8FEIIcXh4KDo6OoTf79c5
+      n9YC8XicmZkZ6uvrSU9Pf5drtVrJzMzUl8vlYm1tDY/Ho5/+7OwsDQ0NlJSUAFBSUkJDQwOz
+      s7MAqKpKOBymp6eH7OxsALKzs+np6SEcDqOqKvCJM2BlZQWHw4Hb7f5w7t7eHicnJ3rLXF9f
+      c35+TmlpqYFXWlrK+fk519fXWK1WbDYbd3d3Bs7d3R02mw2r1Qp8kgHHx8esrKzQ3Nz83Hu/
+      CU3TmJubo7KyktTUVADu7+/RNA1Zlg1cWZbRNI37+3uSk5Pxer1MTEwQiURIJBJEIhEmJibw
+      er0kJycDnzAEn56eCAQC1NTUkJWV9eH8aDRKNBrF5/MZ4klJSUiSUb4kSSQlJenPxcXF1NXV
+      0dnZic1mIx6P093dTXFx8XPOhxV9AJeXl7S2tpKWlsbDwwMbGxsARCIRLi4uCIfDhqn+K6LR
+      KCMjIwwPD+NyuZ5FSxJXV1eoqordbtfjqqpydXWFJEkoisLk5CRjY2NUVVUZOG1tbXR1dZGX
+      l/dnDUhJSWFqagpN0wzx0dFR3G435eXlOByON/Pn5+dxu91kZGQY4k6nE1mWURTFcKsURUGW
+      ZZxOJ6enp1gsllct9zMWj8d/PP/fIt+DxWLB5XIZJnpmZibfv39HlmVcLpcucHt7G0VR9NyT
+      kxN2dnaoqKh4ta8kSXg8HoLBILFYDIBYLEYwGMTj8SBJEjk5OSQSCUKhkH4AmqYRCoVIJBLk
+      5OT82OtPGvC7iMVijIyMUF9fT15eHgCLi4sUFBS8OTfcbjeKotDU1ERhYSGRSITa2lr9K2O3
+      2+nv72dgYICZmRny8/PZ29tDlmUGBwf11vkmhPm/xUOhEEtLSwwNDWGz2T6Ue3t7y+3tLXa7
+      3TAPXkJVVR4fH/Wb9xKm34CnpyfW19dpaWn5cPHAu4X/xK9Fv8Q/d7At7SLXsHIAAAAASUVO
+      RK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
