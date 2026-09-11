@@ -256,7 +256,5 @@ eduvision_real/
 │   ├── raw/                    # 7 real source files (Stage 1 output)
 │   ├── processed/              # clean_*.csv, dim_university.csv, fact_*.csv
 │   └── warehouse/              # eduvision_real.db, .xlsx, *.csv (BI-ready)
-├── docs/
-│   └── BI_CONNECTION_GUIDE.md
 └── README.md                   # this file
 ```
