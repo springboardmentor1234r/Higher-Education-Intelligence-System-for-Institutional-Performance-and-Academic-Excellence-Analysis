@@ -1,0 +1,1005 @@
+Country Name,Country Code,Indicator Code,year,value,country_clean,indicator_name,country_id
+Grenada,GRD,SE.ADT.LITR.ZS,1970,97.7944717407227,grenada,adult_literacy_rate_pct,
+St. Vincent and the Grenadines,VCT,SE.ADT.LITR.ZS,1970,95.6321563720703,st. vincent and the grenadines,adult_literacy_rate_pct,
+Singapore,SGP,SE.TER.ENRR,1970,6.47805976867676,singapore,tertiary_enrollment_ratio_pct,C106
+Barbados,BRB,SE.ADT.LITR.ZS,1970,99.2680816650391,barbados,adult_literacy_rate_pct,
+Somalia,SOM,SE.XPD.TOTL.GD.ZS,1973,1.27727997303009,somalia,govt_expenditure_pct_gdp,C109
+Nigeria,NGA,SE.XPD.TOTL.GD.ZS,1975,3.0636899471283,nigeria,govt_expenditure_pct_gdp,C084
+Papua New Guinea,PNG,SE.XPD.TOTL.GD.ZS,1977,7.38970994949341,papua new guinea,govt_expenditure_pct_gdp,
+American Samoa,ASM,SE.ADT.LITR.ZS,1980,97.3441619873047,american samoa,adult_literacy_rate_pct,
+Israel,ISR,SE.ADT.LITR.ZS,1983,91.7514114379883,israel,adult_literacy_rate_pct,C053
+Andorra,AND,SE.PRM.ENRR,1983,114.375617980957,andorra,primary_enrollment_ratio_pct,
+Haiti,HTI,SE.TER.ENRR,1986,1.02658998966217,haiti,tertiary_enrollment_ratio_pct,
+Somalia,SOM,SE.TER.ENRR,1987,2.78397011756897,somalia,tertiary_enrollment_ratio_pct,C109
+Iraq,IRQ,SE.XPD.TOTL.GD.ZS,1989,3.55150008201599,iraq,govt_expenditure_pct_gdp,C051
+Trinidad and Tobago,TTO,SE.ADT.LITR.ZS,1990,96.9385528564453,trinidad and tobago,adult_literacy_rate_pct,
+St. Vincent and the Grenadines,VCT,SE.TER.ENRR,1990,6.17193984985352,st. vincent and the grenadines,tertiary_enrollment_ratio_pct,
+Guam,GUM,SE.ADT.LITR.ZS,1990,99.3691482543945,guam,adult_literacy_rate_pct,
+Slovenia,SVN,SE.ADT.LITR.ZS,1991,99.5245208740234,slovenia,adult_literacy_rate_pct,C108
+Belize,BLZ,SE.ADT.LITR.ZS,1991,70.2984237670898,belize,adult_literacy_rate_pct,
+Haiti,HTI,SE.XPD.TOTL.GD.ZS,1991,1.07398998737335,haiti,govt_expenditure_pct_gdp,
+United Arab Emirates,ARE,SE.TER.ENRR,1993,6.11316013336182,united arab emirates,tertiary_enrollment_ratio_pct,C127
+Dominica,DMA,SE.TER.ENRR,1993,7.22495985031128,dominica,tertiary_enrollment_ratio_pct,
+Libya,LBY,SE.ADT.LITR.ZS,1994,76.5052032470703,libya,adult_literacy_rate_pct,C065
+"Yemen, Rep.",YEM,SE.ADT.LITR.ZS,1994,37.0900001525879,"yemen, rep.",adult_literacy_rate_pct,
+Poland,POL,SE.ADT.LITR.ZS,1994,99.4023666381835,poland,adult_literacy_rate_pct,C096
+Hungary,HUN,SE.ADT.LITR.ZS,1994,98.9820709228516,hungary,adult_literacy_rate_pct,C046
+Myanmar,MMR,SE.XPD.TOTL.GD.ZS,1995,1.20190000534058,myanmar,govt_expenditure_pct_gdp,
+Turkmenistan,TKM,SE.ADT.LITR.ZS,1995,98.7783203125,turkmenistan,adult_literacy_rate_pct,C123
+"Bahamas, The",BHS,SE.TER.ENRR,1995,15.0530300140381,"bahamas, the",tertiary_enrollment_ratio_pct,
+New Caledonia,NCL,SE.ADT.LITR.ZS,1996,96.1379165649414,new caledonia,adult_literacy_rate_pct,
+Tuvalu,TUV,SE.XPD.TOTL.GD.ZS,1997,3730833.5,tuvalu,govt_expenditure_pct_gdp,
+United Arab Emirates,ARE,SE.XPD.TOTL.GD.ZS,1997,1.11103999614716,united arab emirates,govt_expenditure_pct_gdp,C127
+United Arab Emirates,ARE,SE.XPD.TOTL.GB.ZS,1997,5.02372980117798,united arab emirates,govt_expenditure_pct_govt_spending,C127
+Oman,OMN,SE.TER.ENRR,1998,7.78105020523071,oman,tertiary_enrollment_ratio_pct,C088
+Equatorial Guinea,GNQ,SE.XPD.TOTL.GD.ZS,1998,2.18485999107361,equatorial guinea,govt_expenditure_pct_gdp,
+Equatorial Guinea,GNQ,SE.XPD.TOTL.GB.ZS,1998,5.24813985824584,equatorial guinea,govt_expenditure_pct_govt_spending,
+Haiti,HTI,SE.PRM.ENRR,1998,111.877838134766,haiti,primary_enrollment_ratio_pct,
+Jamaica,JAM,SE.ADT.LITR.ZS,1999,79.92012,jamaica,adult_literacy_rate_pct,C055
+Jordan,JOR,SE.XPD.TOTL.GB.ZS,1999,14.1837100982666,jordan,govt_expenditure_pct_govt_spending,C057
+Jordan,JOR,SE.XPD.TOTL.GD.ZS,1999,4.94513988494873,jordan,govt_expenditure_pct_gdp,C057
+Libya,LBY,SE.XPD.TOTL.GB.ZS,1999,8.1387300491333,libya,govt_expenditure_pct_govt_spending,C065
+Libya,LBY,SE.XPD.TOTL.GD.ZS,1999,2.26416993141174,libya,govt_expenditure_pct_gdp,C065
+Papua New Guinea,PNG,SE.TER.ENRR,1999,1.89424002170563,papua new guinea,tertiary_enrollment_ratio_pct,
+Vanuatu,VUT,SE.ADT.LITR.ZS,1999,74.0,vanuatu,adult_literacy_rate_pct,
+Solomon Islands,SLB,SE.ADT.LITR.ZS,1999,76.6,solomon islands,adult_literacy_rate_pct,
+China,CHN,SE.XPD.TOTL.GB.ZS,1999,12.6315603256226,china,govt_expenditure_pct_govt_spending,C023
+China,CHN,SE.XPD.TOTL.GD.ZS,1999,1.88730001449585,china,govt_expenditure_pct_gdp,C023
+Dominica,DMA,SE.XPD.TOTL.GD.ZS,1999,4.99183988571166,dominica,govt_expenditure_pct_gdp,
+Dominica,DMA,SE.XPD.TOTL.GB.ZS,1999,11.4196195602416,dominica,govt_expenditure_pct_govt_spending,
+"Micronesia, Fed. Sts.",FSM,SE.TER.ENRR,2000,14.1218595504761,"micronesia, fed. sts.",tertiary_enrollment_ratio_pct,
+Papua New Guinea,PNG,SE.ADT.LITR.ZS,2000,57.34326,papua new guinea,adult_literacy_rate_pct,
+Tajikistan,TJK,SE.ADT.LITR.ZS,2000,99.45068,tajikistan,adult_literacy_rate_pct,
+Samoa,WSM,SE.TER.ENRR,2000,7.56237983703613,samoa,tertiary_enrollment_ratio_pct,
+"Bahamas, The",BHS,SE.XPD.TOTL.GB.ZS,2000,18.9228096008301,"bahamas, the",govt_expenditure_pct_govt_spending,
+"Bahamas, The",BHS,SE.XPD.TOTL.GD.ZS,2000,2.84998989105225,"bahamas, the",govt_expenditure_pct_gdp,
+Canada,CAN,SE.TER.ENRR,2000,58.8835906982422,canada,tertiary_enrollment_ratio_pct,C021
+Equatorial Guinea,GNQ,SE.ADT.LITR.ZS,2000,88.3083,equatorial guinea,adult_literacy_rate_pct,
+Equatorial Guinea,GNQ,SE.TER.ENRR,2000,3.23475003242493,equatorial guinea,tertiary_enrollment_ratio_pct,
+Kiribati,KIR,SE.XPD.TOTL.GB.ZS,2001,11.5161399841309,kiribati,govt_expenditure_pct_govt_spending,
+Kiribati,KIR,SE.XPD.TOTL.GD.ZS,2001,11.9881200790405,kiribati,govt_expenditure_pct_gdp,
+Antigua and Barbuda,ATG,SE.ADT.LITR.ZS,2001,98.95,antigua and barbuda,adult_literacy_rate_pct,
+Nicaragua,NIC,SE.TER.ENRR,2002,17.7303199768066,nicaragua,tertiary_enrollment_ratio_pct,
+Palau,PLW,SE.XPD.TOTL.GB.ZS,2002,15.3434400558472,palau,govt_expenditure_pct_govt_spending,
+Palau,PLW,SE.XPD.TOTL.GD.ZS,2002,7.50749015808105,palau,govt_expenditure_pct_gdp,
+"Macedonia, FYR",MKD,SE.ADT.LITR.ZS,2002,96.12893,"macedonia, fyr",adult_literacy_rate_pct,
+"Macedonia, FYR",MKD,SE.XPD.TOTL.GB.ZS,2002,8.64087963104248,"macedonia, fyr",govt_expenditure_pct_govt_spending,
+"Macedonia, FYR",MKD,SE.XPD.TOTL.GD.ZS,2002,3.2948100566864,"macedonia, fyr",govt_expenditure_pct_gdp,
+Sierra Leone,SLE,SE.TER.ENRR,2002,2.17271995544434,sierra leone,tertiary_enrollment_ratio_pct,
+Suriname,SUR,SE.TER.ENRR,2002,12.6515598297119,suriname,tertiary_enrollment_ratio_pct,
+Bosnia and Herzegovina,BIH,SE.TER.ENRR,2002,22.1083106994629,bosnia and herzegovina,tertiary_enrollment_ratio_pct,C014
+Libya,LBY,SE.TER.ENRR,2003,61.1371307373047,libya,tertiary_enrollment_ratio_pct,C065
+Marshall Islands,MHL,SE.XPD.TOTL.GB.ZS,2003,22.5087509155273,marshall islands,govt_expenditure_pct_govt_spending,
+Marshall Islands,MHL,SE.XPD.TOTL.GD.ZS,2003,12.239990234375,marshall islands,govt_expenditure_pct_gdp,
+Tonga,TON,SE.TER.ENRR,2003,6.34859991073608,tonga,tertiary_enrollment_ratio_pct,
+Trinidad and Tobago,TTO,SE.XPD.TOTL.GB.ZS,2003,13.3358497619629,trinidad and tobago,govt_expenditure_pct_govt_spending,
+Trinidad and Tobago,TTO,SE.XPD.TOTL.GD.ZS,2003,3.13660001754761,trinidad and tobago,govt_expenditure_pct_gdp,
+Botswana,BWA,SE.ADT.LITR.ZS,2003,81.18871,botswana,adult_literacy_rate_pct,C015
+Grenada,GRD,SE.XPD.TOTL.GD.ZS,2003,3.92673993110657,grenada,govt_expenditure_pct_gdp,
+Grenada,GRD,SE.XPD.TOTL.GB.ZS,2003,10.8089895248413,grenada,govt_expenditure_pct_govt_spending,
+Gabon,GAB,SE.TER.ENRR,2003,8.43540000915527,gabon,tertiary_enrollment_ratio_pct,
+Tonga,TON,SE.XPD.TOTL.GB.ZS,2004,18.1025295257568,tonga,govt_expenditure_pct_govt_spending,
+Tonga,TON,SE.XPD.TOTL.GD.ZS,2004,3.90804004669189,tonga,govt_expenditure_pct_gdp,
+Trinidad and Tobago,TTO,SE.TER.ENRR,2004,11.9511699676514,trinidad and tobago,tertiary_enrollment_ratio_pct,
+Syrian Arab Republic,SYR,SE.ADT.LITR.ZS,2004,80.84452,syrian arab republic,adult_literacy_rate_pct,C117
+Vanuatu,VUT,SE.TER.ENRR,2004,4.74440002441406,vanuatu,tertiary_enrollment_ratio_pct,
+Jamaica,JAM,SE.PRM.ENRR,2004,97.2451400756835,jamaica,primary_enrollment_ratio_pct,C055
+Nicaragua,NIC,SE.ADT.LITR.ZS,2005,78.00298,nicaragua,adult_literacy_rate_pct,
+United Arab Emirates,ARE,SE.ADT.LITR.ZS,2005,90.03385,united arab emirates,adult_literacy_rate_pct,C127
+Greece,GRC,SE.XPD.TOTL.GB.ZS,2005,8.70020961761475,greece,govt_expenditure_pct_govt_spending,C042
+Greece,GRC,SE.XPD.TOTL.GD.ZS,2005,3.96878004074097,greece,govt_expenditure_pct_gdp,C042
+Fiji,FJI,SE.TER.ENRR,2005,16.1371002197266,fiji,tertiary_enrollment_ratio_pct,C036
+Iraq,IRQ,SE.TER.ENRR,2005,16.0573692321777,iraq,tertiary_enrollment_ratio_pct,C051
+Kuwait,KWT,SE.XPD.TOTL.GB.ZS,2006,13.3700103759766,kuwait,govt_expenditure_pct_govt_spending,C061
+Kuwait,KWT,SE.XPD.TOTL.GD.ZS,2006,3.76001000404358,kuwait,govt_expenditure_pct_gdp,C061
+Libya,LBY,SE.PRM.ENRR,2006,114.539558410645,libya,primary_enrollment_ratio_pct,C065
+Guinea-Bissau,GNB,SE.TER.ENRR,2006,2.50136995315552,guinea-bissau,tertiary_enrollment_ratio_pct,
+Haiti,HTI,SE.ADT.LITR.ZS,2006,48.68502,haiti,adult_literacy_rate_pct,
+Eritrea,ERI,SE.XPD.TOTL.GB.ZS,2006,5.16806983947754,eritrea,govt_expenditure_pct_govt_spending,
+Eritrea,ERI,SE.XPD.TOTL.GD.ZS,2006,2.12700009346008,eritrea,govt_expenditure_pct_gdp,
+Mauritania,MRT,SE.ADT.LITR.ZS,2007,45.50378,mauritania,adult_literacy_rate_pct,
+Iraq,IRQ,SE.PRM.ENRR,2007,108.121803283691,iraq,primary_enrollment_ratio_pct,C051
+Liberia,LBR,SE.ADT.LITR.ZS,2007,42.94108,liberia,adult_literacy_rate_pct,
+St. Lucia,LCA,SE.PRM.ENRR,2007,100.295951843262,st. lucia,primary_enrollment_ratio_pct,
+Somalia,SOM,SE.PRM.ENRR,2007,29.2021007537842,somalia,primary_enrollment_ratio_pct,C109
+Bolivia,BOL,SE.TER.ENRR,2007,38.3905715942383,bolivia,tertiary_enrollment_ratio_pct,C013
+Ethiopia,ETH,SE.ADT.LITR.ZS,2007,38.99598,ethiopia,adult_literacy_rate_pct,C035
+Cayman Islands,CYM,SE.ADT.LITR.ZS,2007,98.86782,cayman islands,adult_literacy_rate_pct,
+Dominican Republic,DOM,SE.XPD.TOTL.GB.ZS,2007,12.5778799057007,dominican republic,govt_expenditure_pct_govt_spending,C031
+Dominican Republic,DOM,SE.XPD.TOTL.GD.ZS,2007,2.04456996917725,dominican republic,govt_expenditure_pct_gdp,C031
+Namibia,NAM,SE.TER.ENRR,2008,9.33008003234863,namibia,tertiary_enrollment_ratio_pct,C080
+Nigeria,NGA,SE.ADT.LITR.ZS,2008,51.07766,nigeria,adult_literacy_rate_pct,C084
+Lesotho,LSO,SE.XPD.TOTL.GB.ZS,2008,24.6975498199463,lesotho,govt_expenditure_pct_govt_spending,
+Lesotho,LSO,SE.XPD.TOTL.GD.ZS,2008,11.3611402511597,lesotho,govt_expenditure_pct_gdp,
+"Korea, Dem. People’s Rep.",PRK,SE.ADT.LITR.ZS,2008,99.99819,"korea, dem. people’s rep.",adult_literacy_rate_pct,
+"Yemen, Rep.",YEM,SE.XPD.TOTL.GB.ZS,2008,12.489239692688,"yemen, rep.",govt_expenditure_pct_govt_spending,
+"Yemen, Rep.",YEM,SE.XPD.TOTL.GD.ZS,2008,5.14742994308472,"yemen, rep.",govt_expenditure_pct_gdp,
+Zambia,ZMB,SE.XPD.TOTL.GB.ZS,2008,5.65180015563965,zambia,govt_expenditure_pct_govt_spending,C135
+Zambia,ZMB,SE.XPD.TOTL.GD.ZS,2008,1.0997200012207,zambia,govt_expenditure_pct_gdp,C135
+Samoa,WSM,SE.XPD.TOTL.GB.ZS,2008,16.06422996521,samoa,govt_expenditure_pct_govt_spending,
+Samoa,WSM,SE.XPD.TOTL.GD.ZS,2008,5.14420986175537,samoa,govt_expenditure_pct_gdp,
+Saudi Arabia,SAU,SE.XPD.TOTL.GB.ZS,2008,19.2574195861816,saudi arabia,govt_expenditure_pct_govt_spending,C103
+Saudi Arabia,SAU,SE.XPD.TOTL.GD.ZS,2008,5.13580989837646,saudi arabia,govt_expenditure_pct_gdp,C103
+Sudan,SDN,SE.ADT.LITR.ZS,2008,53.51738,sudan,adult_literacy_rate_pct,C114
+South Sudan,SSD,SE.ADT.LITR.ZS,2008,26.83128,south sudan,adult_literacy_rate_pct,
+Algeria,DZA,SE.XPD.TOTL.GD.ZS,2008,4.35424995422363,algeria,govt_expenditure_pct_gdp,C002
+Algeria,DZA,SE.ADT.LITR.ZS,2008,75.13605,algeria,adult_literacy_rate_pct,C002
+Algeria,DZA,SE.XPD.TOTL.GB.ZS,2008,11.4294099807739,algeria,govt_expenditure_pct_govt_spending,C002
+"Egypt, Arab Rep.",EGY,SE.XPD.TOTL.GB.ZS,2008,10.5064496994019,"egypt, arab rep.",govt_expenditure_pct_govt_spending,
+"Egypt, Arab Rep.",EGY,SE.XPD.TOTL.GD.ZS,2008,3.75872993469238,"egypt, arab rep.",govt_expenditure_pct_gdp,
+Eritrea,ERI,SE.ADT.LITR.ZS,2008,64.66297,eritrea,adult_literacy_rate_pct,
+Morocco,MAR,SE.XPD.TOTL.GB.ZS,2009,17.2952899932861,morocco,govt_expenditure_pct_govt_spending,C078
+Morocco,MAR,SE.XPD.TOTL.GD.ZS,2009,5.26403999328613,morocco,govt_expenditure_pct_gdp,C078
+Mozambique,MOZ,SE.ADT.LITR.ZS,2009,50.58381,mozambique,adult_literacy_rate_pct,C079
+Philippines,PHL,SE.XPD.TOTL.GD.ZS,2009,2.65167999267578,philippines,govt_expenditure_pct_gdp,C095
+Philippines,PHL,SE.XPD.TOTL.GB.ZS,2009,13.2111597061157,philippines,govt_expenditure_pct_govt_spending,C095
+Kenya,KEN,SE.TER.ENRR,2009,4.04682016372681,kenya,tertiary_enrollment_ratio_pct,C059
+Kyrgyz Republic,KGZ,SE.ADT.LITR.ZS,2009,99.24343,kyrgyz republic,adult_literacy_rate_pct,
+Lebanon,LBN,SE.ADT.LITR.ZS,2009,91.18419,lebanon,adult_literacy_rate_pct,C064
+Syrian Arab Republic,SYR,SE.XPD.TOTL.GB.ZS,2009,19.1840496063232,syrian arab republic,govt_expenditure_pct_govt_spending,C117
+Syrian Arab Republic,SYR,SE.XPD.TOTL.GD.ZS,2009,5.13013982772827,syrian arab republic,govt_expenditure_pct_gdp,C117
+"Venezuela, RB",VEN,SE.XPD.TOTL.GB.ZS,2009,20.6635799407958,"venezuela, rb",govt_expenditure_pct_govt_spending,
+"Venezuela, RB",VEN,SE.XPD.TOTL.GD.ZS,2009,6.87723016738892,"venezuela, rb",govt_expenditure_pct_gdp,
+"Venezuela, RB",VEN,SE.TER.ENRR,2009,76.9795913696289,"venezuela, rb",tertiary_enrollment_ratio_pct,
+Vietnam,VNM,SE.ADT.LITR.ZS,2009,93.52045,vietnam,adult_literacy_rate_pct,C133
+Sudan,SDN,SE.XPD.TOTL.GB.ZS,2009,10.7707004547119,sudan,govt_expenditure_pct_govt_spending,C114
+Sudan,SDN,SE.XPD.TOTL.GD.ZS,2009,2.22459006309509,sudan,govt_expenditure_pct_gdp,C114
+Belarus,BLR,SE.ADT.LITR.ZS,2009,99.61706,belarus,adult_literacy_rate_pct,C011
+Botswana,BWA,SE.XPD.TOTL.GB.ZS,2009,20.4773998260498,botswana,govt_expenditure_pct_govt_spending,C015
+Botswana,BWA,SE.XPD.TOTL.GD.ZS,2009,9.63292026519775,botswana,govt_expenditure_pct_gdp,C015
+Antigua and Barbuda,ATG,SE.XPD.TOTL.GB.ZS,2009,6.91661977767944,antigua and barbuda,govt_expenditure_pct_govt_spending,
+Antigua and Barbuda,ATG,SE.XPD.TOTL.GD.ZS,2009,2.55447006225586,antigua and barbuda,govt_expenditure_pct_gdp,
+Cambodia,KHM,SE.ADT.LITR.ZS,2009,73.90003,cambodia,adult_literacy_rate_pct,C020
+Namibia,NAM,SE.XPD.TOTL.GD.ZS,2010,8.34961032867432,namibia,govt_expenditure_pct_gdp,C080
+Namibia,NAM,SE.XPD.TOTL.GB.ZS,2010,26.1932506561279,namibia,govt_expenditure_pct_govt_spending,C080
+Montenegro,MNE,SE.TER.ENRR,2010,55.3445892333984,montenegro,tertiary_enrollment_ratio_pct,C077
+Mongolia,MNG,SE.ADT.LITR.ZS,2010,98.257,mongolia,adult_literacy_rate_pct,C076
+Paraguay,PRY,SE.TER.ENRR,2010,35.0808486938477,paraguay,tertiary_enrollment_ratio_pct,C093
+Peru,PER,SE.TER.ENRR,2010,40.5127906799316,peru,tertiary_enrollment_ratio_pct,C094
+Panama,PAN,SE.ADT.LITR.ZS,2010,94.09412,panama,adult_literacy_rate_pct,C092
+Nicaragua,NIC,SE.XPD.TOTL.GB.ZS,2010,22.7536697387695,nicaragua,govt_expenditure_pct_govt_spending,
+Nicaragua,NIC,SE.XPD.TOTL.GD.ZS,2010,4.48548984527588,nicaragua,govt_expenditure_pct_gdp,
+Nicaragua,NIC,SE.PRM.ENRR,2010,123.259178161621,nicaragua,primary_enrollment_ratio_pct,
+Kazakhstan,KAZ,SE.ADT.LITR.ZS,2010,99.78163,kazakhstan,adult_literacy_rate_pct,C058
+Malaysia,MYS,SE.ADT.LITR.ZS,2010,93.11789,malaysia,adult_literacy_rate_pct,C071
+Timor-Leste,TLS,SE.ADT.LITR.ZS,2010,58.30898,timor-leste,adult_literacy_rate_pct,
+Timor-Leste,TLS,SE.TER.ENRR,2010,18.1497097015381,timor-leste,tertiary_enrollment_ratio_pct,
+Trinidad and Tobago,TTO,SE.PRM.ENRR,2010,106.160293579102,trinidad and tobago,primary_enrollment_ratio_pct,
+Zambia,ZMB,SE.ADT.LITR.ZS,2010,83.00767,zambia,adult_literacy_rate_pct,C135
+Seychelles,SYC,SE.ADT.LITR.ZS,2010,93.95423,seychelles,adult_literacy_rate_pct,
+Russian Federation,RUS,SE.ADT.LITR.ZS,2010,99.68427,russia,adult_literacy_rate_pct,C101
+Puerto Rico,PRI,SE.ADT.LITR.ZS,2010,91.96523,puerto rico,adult_literacy_rate_pct,C098
+St. Vincent and the Grenadines,VCT,SE.XPD.TOTL.GB.ZS,2010,15.4856300354004,st. vincent and the grenadines,govt_expenditure_pct_govt_spending,
+St. Vincent and the Grenadines,VCT,SE.XPD.TOTL.GD.ZS,2010,5.08522987365723,st. vincent and the grenadines,govt_expenditure_pct_gdp,
+Swaziland,SWZ,SE.ADT.LITR.ZS,2010,83.09829,swaziland,adult_literacy_rate_pct,
+Sri Lanka,LKA,SE.ADT.LITR.ZS,2010,91.18136,sri lanka,adult_literacy_rate_pct,C113
+Solomon Islands,SLB,SE.XPD.TOTL.GB.ZS,2010,17.4784908294678,solomon islands,govt_expenditure_pct_govt_spending,
+Solomon Islands,SLB,SE.XPD.TOTL.GD.ZS,2010,10.0010795593262,solomon islands,govt_expenditure_pct_gdp,
+"Bahamas, The",BHS,SE.PRM.ENRR,2010,107.897750854492,"bahamas, the",primary_enrollment_ratio_pct,
+Bahrain,BHR,SE.ADT.LITR.ZS,2010,94.55679,bahrain,adult_literacy_rate_pct,C009
+Aruba,ABW,SE.ADT.LITR.ZS,2010,96.82264,aruba,adult_literacy_rate_pct,
+Angola,AGO,SE.XPD.TOTL.GB.ZS,2010,8.68476963043213,angola,govt_expenditure_pct_govt_spending,C003
+Angola,AGO,SE.XPD.TOTL.GD.ZS,2010,3.47622990608215,angola,govt_expenditure_pct_gdp,C003
+Ghana,GHA,SE.ADT.LITR.ZS,2010,71.49707,ghana,adult_literacy_rate_pct,C041
+Guinea-Bissau,GNB,SE.PRM.ENRR,2010,113.654983520508,guinea-bissau,primary_enrollment_ratio_pct,
+China,CHN,SE.ADT.LITR.ZS,2010,95.12448,china,adult_literacy_rate_pct,C023
+"Congo, Rep.",COG,SE.XPD.TOTL.GB.ZS,2010,29.0183906555176,"congo, rep.",govt_expenditure_pct_govt_spending,
+"Congo, Rep.",COG,SE.XPD.TOTL.GD.ZS,2010,6.2178897857666,"congo, rep.",govt_expenditure_pct_gdp,
+Cameroon,CMR,SE.ADT.LITR.ZS,2010,71.29051,cameroon,adult_literacy_rate_pct,
+Central African Republic,CAF,SE.ADT.LITR.ZS,2010,36.75261,central african republic,adult_literacy_rate_pct,
+Djibouti,DJI,SE.XPD.TOTL.GB.ZS,2010,12.3283996582031,djibouti,govt_expenditure_pct_govt_spending,
+Djibouti,DJI,SE.XPD.TOTL.GD.ZS,2010,4.48079013824463,djibouti,govt_expenditure_pct_gdp,
+Cuba,CUB,SE.XPD.TOTL.GD.ZS,2010,12.83726978302,cuba,govt_expenditure_pct_gdp,C027
+Mongolia,MNG,SE.XPD.TOTL.GB.ZS,2011,12.1508502960205,mongolia,govt_expenditure_pct_govt_spending,C076
+Mongolia,MNG,SE.XPD.TOTL.GD.ZS,2011,4.59987020492554,mongolia,govt_expenditure_pct_gdp,C076
+Montenegro,MNE,SE.ADT.LITR.ZS,2011,98.44221,montenegro,adult_literacy_rate_pct,C077
+Malta,MLT,SE.ADT.LITR.ZS,2011,93.30736,malta,adult_literacy_rate_pct,C072
+Marshall Islands,MHL,SE.ADT.LITR.ZS,2011,98.26508,marshall islands,adult_literacy_rate_pct,
+Panama,PAN,SE.XPD.TOTL.GB.ZS,2011,13.0197200775146,panama,govt_expenditure_pct_govt_spending,C092
+Panama,PAN,SE.XPD.TOTL.GD.ZS,2011,3.18772006034851,panama,govt_expenditure_pct_gdp,C092
+Nigeria,NGA,SE.TER.ENRR,2011,10.0709495544434,nigeria,tertiary_enrollment_ratio_pct,C084
+Namibia,NAM,SE.ADT.LITR.ZS,2011,88.27463,namibia,adult_literacy_rate_pct,C080
+Nepal,NPL,SE.ADT.LITR.ZS,2011,59.62725,nepal,adult_literacy_rate_pct,C081
+Lao PDR,LAO,SE.ADT.LITR.ZS,2011,58.28794,lao pdr,adult_literacy_rate_pct,
+Italy,ITA,SE.ADT.LITR.ZS,2011,98.84828,italy,adult_literacy_rate_pct,C054
+Malawi,MWI,SE.TER.ENRR,2011,0.797730028629302,malawi,tertiary_enrollment_ratio_pct,C070
+Latvia,LVA,SE.ADT.LITR.ZS,2011,99.8959,latvia,adult_literacy_rate_pct,C063
+Liechtenstein,LIE,SE.XPD.TOTL.GD.ZS,2011,2.55604004859924,liechtenstein,govt_expenditure_pct_gdp,
+Lithuania,LTU,SE.ADT.LITR.ZS,2011,99.8156,lithuania,adult_literacy_rate_pct,C066
+Tonga,TON,SE.ADT.LITR.ZS,2011,99.38553,tonga,adult_literacy_rate_pct,
+"Yemen, Rep.",YEM,SE.TER.ENRR,2011,9.97459983825684,"yemen, rep.",tertiary_enrollment_ratio_pct,
+Uruguay,URY,SE.XPD.TOTL.GD.ZS,2011,4.35693979263306,uruguay,govt_expenditure_pct_gdp,C130
+Uruguay,URY,SE.XPD.TOTL.GB.ZS,2011,14.9258899688721,uruguay,govt_expenditure_pct_govt_spending,C130
+Samoa,WSM,SE.ADT.LITR.ZS,2011,98.97326,samoa,adult_literacy_rate_pct,
+San Marino,SMR,SE.XPD.TOTL.GB.ZS,2011,10.64035987854,san marino,govt_expenditure_pct_govt_spending,
+San Marino,SMR,SE.XPD.TOTL.GD.ZS,2011,2.38372993469238,san marino,govt_expenditure_pct_gdp,
+Portugal,PRT,SE.ADT.LITR.ZS,2011,94.47705,portugal,adult_literacy_rate_pct,C097
+Romania,ROU,SE.ADT.LITR.ZS,2011,98.60429,romania,adult_literacy_rate_pct,C100
+Seychelles,SYC,SE.XPD.TOTL.GB.ZS,2011,10.3864097595215,seychelles,govt_expenditure_pct_govt_spending,
+Seychelles,SYC,SE.XPD.TOTL.GD.ZS,2011,3.60644006729126,seychelles,govt_expenditure_pct_gdp,
+Barbados,BRB,SE.TER.ENRR,2011,65.4322280883789,barbados,tertiary_enrollment_ratio_pct,
+Armenia,ARM,SE.ADT.LITR.ZS,2011,99.74441,armenia,adult_literacy_rate_pct,C005
+Brunei Darussalam,BRN,SE.ADT.LITR.ZS,2011,96.08556,brunei darussalam,adult_literacy_rate_pct,C018
+Bulgaria,BGR,SE.ADT.LITR.ZS,2011,98.35245,bulgaria,adult_literacy_rate_pct,C019
+Angola,AGO,SE.PRM.ENRR,2011,128.704147338867,angola,primary_enrollment_ratio_pct,C003
+Afghanistan,AFG,SE.ADT.LITR.ZS,2011,31.74112,afghanistan,adult_literacy_rate_pct,
+Gabon,GAB,SE.PRM.ENRR,2011,141.993423461914,gabon,primary_enrollment_ratio_pct,
+Estonia,EST,SE.ADT.LITR.ZS,2011,99.88579,estonia,adult_literacy_rate_pct,C034
+India,IND,SE.ADT.LITR.ZS,2011,69.30256,india,adult_literacy_rate_pct,C048
+Greece,GRC,SE.ADT.LITR.ZS,2011,97.12875,greece,adult_literacy_rate_pct,C042
+Canada,CAN,SE.XPD.TOTL.GB.ZS,2011,12.2191400527954,canada,govt_expenditure_pct_govt_spending,C021
+Canada,CAN,SE.XPD.TOTL.GD.ZS,2011,5.28121995925903,canada,govt_expenditure_pct_gdp,C021
+Central African Republic,CAF,SE.XPD.TOTL.GB.ZS,2011,7.8254599571228,central african republic,govt_expenditure_pct_govt_spending,
+Central African Republic,CAF,SE.XPD.TOTL.GD.ZS,2011,1.22393000125885,central african republic,govt_expenditure_pct_gdp,
+"Congo, Rep.",COG,SE.ADT.LITR.ZS,2011,79.31117,"congo, rep.",adult_literacy_rate_pct,
+Djibouti,DJI,SE.TER.ENRR,2011,4.98506021499634,djibouti,tertiary_enrollment_ratio_pct,
+Costa Rica,CRI,SE.ADT.LITR.ZS,2011,97.40658,costa rica,adult_literacy_rate_pct,C025
+Croatia,HRV,SE.ADT.LITR.ZS,2011,99.12536,croatia,adult_literacy_rate_pct,C026
+Cyprus,CYP,SE.ADT.LITR.ZS,2011,98.67843,cyprus,adult_literacy_rate_pct,C028
+Morocco,MAR,SE.ADT.LITR.ZS,2012,69.42539,morocco,adult_literacy_rate_pct,C078
+Myanmar,MMR,SE.TER.ENRR,2012,13.528169631958,myanmar,tertiary_enrollment_ratio_pct,
+Moldova,MDA,SE.ADT.LITR.ZS,2012,99.13831,moldova,adult_literacy_rate_pct,C075
+Papua New Guinea,PNG,SE.PRM.ENRR,2012,114.735412597656,papua new guinea,primary_enrollment_ratio_pct,
+Paraguay,PRY,SE.XPD.TOTL.GB.ZS,2012,19.6342296600342,paraguay,govt_expenditure_pct_govt_spending,C093
+Paraguay,PRY,SE.XPD.TOTL.GD.ZS,2012,4.95539999008179,paraguay,govt_expenditure_pct_gdp,C093
+Paraguay,PRY,SE.PRM.ENRR,2012,105.986167907715,paraguay,primary_enrollment_ratio_pct,C093
+Marshall Islands,MHL,SE.TER.ENRR,2012,42.8617515563965,marshall islands,tertiary_enrollment_ratio_pct,
+Netherlands,NLD,SE.TER.ENRR,2012,78.5010681152344,netherlands,tertiary_enrollment_ratio_pct,C082
+Niger,NER,SE.ADT.LITR.ZS,2012,15.4567,niger,adult_literacy_rate_pct,
+Niger,NER,SE.TER.ENRR,2012,1.71458995342255,niger,tertiary_enrollment_ratio_pct,
+Jordan,JOR,SE.ADT.LITR.ZS,2012,97.89032,jordan,adult_literacy_rate_pct,C057
+Madagascar,MDG,SE.ADT.LITR.ZS,2012,71.57262,madagascar,adult_literacy_rate_pct,
+Mali,MLI,SE.TER.ENRR,2012,6.87478017807007,mali,tertiary_enrollment_ratio_pct,
+Liberia,LBR,SE.XPD.TOTL.GB.ZS,2012,8.1017599105835,liberia,govt_expenditure_pct_govt_spending,
+Liberia,LBR,SE.XPD.TOTL.GD.ZS,2012,2.75756001472473,liberia,govt_expenditure_pct_gdp,
+Liberia,LBR,SE.TER.ENRR,2012,11.6385698318481,liberia,tertiary_enrollment_ratio_pct,
+Luxembourg,LUX,SE.TER.ENRR,2012,19.4074096679688,luxembourg,tertiary_enrollment_ratio_pct,C067
+Tunisia,TUN,SE.XPD.TOTL.GD.ZS,2012,6.25036001205444,tunisia,govt_expenditure_pct_gdp,C121
+Tunisia,TUN,SE.XPD.TOTL.GB.ZS,2012,20.6460704803467,tunisia,govt_expenditure_pct_govt_spending,C121
+Turkmenistan,TKM,SE.XPD.TOTL.GB.ZS,2012,20.7955093383789,turkmenistan,govt_expenditure_pct_govt_spending,C123
+Uganda,UGA,SE.ADT.LITR.ZS,2012,70.19822,uganda,adult_literacy_rate_pct,C125
+Zambia,ZMB,SE.TER.ENRR,2012,3.98141002655029,zambia,tertiary_enrollment_ratio_pct,C135
+Turkmenistan,TKM,SE.XPD.TOTL.GD.ZS,2012,3.05590009689331,turkmenistan,govt_expenditure_pct_gdp,C123
+Ukraine,UKR,SE.ADT.LITR.ZS,2012,99.97435,ukraine,adult_literacy_rate_pct,C126
+Suriname,SUR,SE.ADT.LITR.ZS,2012,92.86866,suriname,adult_literacy_rate_pct,
+San Marino,SMR,SE.PRM.ENRR,2012,93.3017196655273,san marino,primary_enrollment_ratio_pct,
+San Marino,SMR,SE.TER.ENRR,2012,59.8489990234375,san marino,tertiary_enrollment_ratio_pct,
+Sao Tome and Principe,STP,SE.ADT.LITR.ZS,2012,90.1431,sao tome and principe,adult_literacy_rate_pct,
+Russian Federation,RUS,SE.XPD.TOTL.GB.ZS,2012,11.1467599868774,russia,govt_expenditure_pct_govt_spending,C101
+Russian Federation,RUS,SE.XPD.TOTL.GD.ZS,2012,3.86133003234863,russia,govt_expenditure_pct_gdp,C101
+Rwanda,RWA,SE.ADT.LITR.ZS,2012,68.33103,rwanda,adult_literacy_rate_pct,C102
+Antigua and Barbuda,ATG,SE.TER.ENRR,2012,23.4862403869629,antigua and barbuda,tertiary_enrollment_ratio_pct,
+Benin,BEN,SE.ADT.LITR.ZS,2012,32.94882,benin,adult_literacy_rate_pct,
+Bhutan,BTN,SE.ADT.LITR.ZS,2012,57.0336,bhutan,adult_literacy_rate_pct,
+Albania,ALB,SE.ADT.LITR.ZS,2012,97.24697,albania,adult_literacy_rate_pct,C001
+Georgia,GEO,SE.XPD.TOTL.GB.ZS,2012,6.70775985717773,georgia,govt_expenditure_pct_govt_spending,C039
+Georgia,GEO,SE.XPD.TOTL.GD.ZS,2012,1.98330998420715,georgia,govt_expenditure_pct_gdp,C039
+"Gambia, The",GMB,SE.TER.ENRR,2012,3.1042799949646,"gambia, the",tertiary_enrollment_ratio_pct,
+Gabon,GAB,SE.ADT.LITR.ZS,2012,82.2838,gabon,adult_literacy_rate_pct,
+Guyana,GUY,SE.XPD.TOTL.GB.ZS,2012,10.26060962677,guyana,govt_expenditure_pct_govt_spending,
+Guyana,GUY,SE.XPD.TOTL.GD.ZS,2012,3.19215989112854,guyana,govt_expenditure_pct_gdp,
+Guyana,GUY,SE.PRM.ENRR,2012,85.4383697509766,guyana,primary_enrollment_ratio_pct,
+Guyana,GUY,SE.TER.ENRR,2012,12.4806203842163,guyana,tertiary_enrollment_ratio_pct,
+Comoros,COM,SE.ADT.LITR.ZS,2012,49.19614,comoros,adult_literacy_rate_pct,
+"Congo, Rep.",COG,SE.PRM.ENRR,2012,110.888458251953,"congo, rep.",primary_enrollment_ratio_pct,
+Central African Republic,CAF,SE.PRM.ENRR,2012,93.4557266235352,central african republic,primary_enrollment_ratio_pct,
+Central African Republic,CAF,SE.TER.ENRR,2012,2.77415990829468,central african republic,tertiary_enrollment_ratio_pct,
+Cuba,CUB,SE.ADT.LITR.ZS,2012,99.75253,cuba,adult_literacy_rate_pct,C027
+Malta,MLT,SE.XPD.TOTL.GB.ZS,2013,18.7576503753662,malta,govt_expenditure_pct_govt_spending,C072
+Malta,MLT,SE.XPD.TOTL.GD.ZS,2013,7.84899997711182,malta,govt_expenditure_pct_gdp,C072
+Mozambique,MOZ,SE.XPD.TOTL.GB.ZS,2013,19.0328807830811,mozambique,govt_expenditure_pct_govt_spending,C079
+Mauritania,MRT,SE.XPD.TOTL.GB.ZS,2013,11.405369758606,mauritania,govt_expenditure_pct_govt_spending,
+Mauritania,MRT,SE.XPD.TOTL.GD.ZS,2013,2.93011999130249,mauritania,govt_expenditure_pct_gdp,
+Oman,OMN,SE.XPD.TOTL.GD.ZS,2013,4.96038007736206,oman,govt_expenditure_pct_gdp,C088
+Palau,PLW,SE.TER.ENRR,2013,61.8638000488281,palau,tertiary_enrollment_ratio_pct,
+Panama,PAN,SE.TER.ENRR,2013,38.7393493652344,panama,tertiary_enrollment_ratio_pct,C092
+Oman,OMN,SE.XPD.TOTL.GB.ZS,2013,11.0801801681519,oman,govt_expenditure_pct_govt_spending,C088
+Norway,NOR,SE.XPD.TOTL.GD.ZS,2013,7.37329006195068,norway,govt_expenditure_pct_gdp,C087
+Namibia,NAM,SE.PRM.ENRR,2013,111.428108215332,namibia,primary_enrollment_ratio_pct,C080
+Mozambique,MOZ,SE.XPD.TOTL.GD.ZS,2013,6.48322010040283,mozambique,govt_expenditure_pct_gdp,C079
+Norway,NOR,SE.XPD.TOTL.GB.ZS,2013,17.0261192321777,norway,govt_expenditure_pct_govt_spending,C087
+Nigeria,NGA,SE.PRM.ENRR,2013,93.6748886108398,nigeria,primary_enrollment_ratio_pct,C084
+Iraq,IRQ,SE.ADT.LITR.ZS,2013,43.68328,iraq,adult_literacy_rate_pct,C051
+Ireland,IRL,SE.XPD.TOTL.GB.ZS,2013,13.4530601501465,ireland,govt_expenditure_pct_govt_spending,C052
+Ireland,IRL,SE.XPD.TOTL.GD.ZS,2013,5.3245701789856,ireland,govt_expenditure_pct_gdp,C052
+Lithuania,LTU,SE.XPD.TOTL.GB.ZS,2013,13.2880201339722,lithuania,govt_expenditure_pct_govt_spending,C066
+Lithuania,LTU,SE.XPD.TOTL.GD.ZS,2013,4.61250019073486,lithuania,govt_expenditure_pct_gdp,C066
+Madagascar,MDG,SE.XPD.TOTL.GB.ZS,2013,13.9893798828125,madagascar,govt_expenditure_pct_govt_spending,
+Madagascar,MDG,SE.XPD.TOTL.GD.ZS,2013,2.08204007148743,madagascar,govt_expenditure_pct_gdp,
+Kuwait,KWT,SE.TER.ENRR,2013,27.0270500183105,kuwait,tertiary_enrollment_ratio_pct,C061
+Lebanon,LBN,SE.XPD.TOTL.GB.ZS,2013,8.57551956176758,lebanon,govt_expenditure_pct_govt_spending,C064
+Lebanon,LBN,SE.XPD.TOTL.GD.ZS,2013,2.57119011878967,lebanon,govt_expenditure_pct_gdp,C064
+Philippines,PHL,SE.ADT.LITR.ZS,2013,96.398,philippines,adult_literacy_rate_pct,C095
+Turkey,TUR,SE.XPD.TOTL.GB.ZS,2013,12.4304399490356,turkey,govt_expenditure_pct_govt_spending,C122
+Turkey,TUR,SE.XPD.TOTL.GD.ZS,2013,4.76626014709473,turkey,govt_expenditure_pct_gdp,C122
+Thailand,THA,SE.XPD.TOTL.GD.ZS,2013,4.12887001037598,thailand,govt_expenditure_pct_gdp,C120
+Swaziland,SWZ,SE.TER.ENRR,2013,5.32887983322144,swaziland,tertiary_enrollment_ratio_pct,
+Syrian Arab Republic,SYR,SE.PRM.ENRR,2013,80.1008834838867,syrian arab republic,primary_enrollment_ratio_pct,C117
+Tanzania,TZA,SE.TER.ENRR,2013,3.64732003211975,tanzania,tertiary_enrollment_ratio_pct,C119
+Thailand,THA,SE.XPD.TOTL.GB.ZS,2013,18.860200881958,thailand,govt_expenditure_pct_govt_spending,C120
+Uganda,UGA,SE.PRM.ENRR,2013,109.88646697998,uganda,primary_enrollment_ratio_pct,C125
+Vietnam,VNM,SE.XPD.TOTL.GB.ZS,2013,18.5330791473389,vietnam,govt_expenditure_pct_govt_spending,C133
+Vietnam,VNM,SE.XPD.TOTL.GD.ZS,2013,5.65873003005981,vietnam,govt_expenditure_pct_gdp,C133
+"Yemen, Rep.",YEM,SE.PRM.ENRR,2013,97.4879608154297,"yemen, rep.",primary_enrollment_ratio_pct,
+Zambia,ZMB,SE.PRM.ENRR,2013,103.652976989746,zambia,primary_enrollment_ratio_pct,C135
+Zimbabwe,ZWE,SE.PRM.ENRR,2013,99.937858581543,zimbabwe,primary_enrollment_ratio_pct,C136
+Sudan,SDN,SE.PRM.ENRR,2013,70.4017486572266,sudan,primary_enrollment_ratio_pct,C114
+Saudi Arabia,SAU,SE.ADT.LITR.ZS,2013,94.42634,saudi arabia,adult_literacy_rate_pct,C103
+Senegal,SEN,SE.ADT.LITR.ZS,2013,42.8175,senegal,adult_literacy_rate_pct,C104
+Puerto Rico,PRI,SE.XPD.TOTL.GD.ZS,2013,6.39076995849609,puerto rico,govt_expenditure_pct_gdp,C098
+Puerto Rico,PRI,SE.XPD.TOTL.GB.ZS,2013,21.5827407836914,puerto rico,govt_expenditure_pct_govt_spending,C098
+Philippines,PHL,SE.PRM.ENRR,2013,116.818870544434,philippines,primary_enrollment_ratio_pct,C095
+Sierra Leone,SLE,SE.ADT.LITR.ZS,2013,32.42617,sierra leone,adult_literacy_rate_pct,
+Singapore,SGP,SE.XPD.TOTL.GB.ZS,2013,19.9586601257324,singapore,govt_expenditure_pct_govt_spending,C106
+Singapore,SGP,SE.XPD.TOTL.GD.ZS,2013,2.91579008102416,singapore,govt_expenditure_pct_gdp,C106
+Slovenia,SVN,SE.XPD.TOTL.GB.ZS,2013,9.99503993988037,slovenia,govt_expenditure_pct_govt_spending,C108
+Slovenia,SVN,SE.XPD.TOTL.GD.ZS,2013,5.48658990859985,slovenia,govt_expenditure_pct_gdp,C108
+Iceland,ISL,SE.XPD.TOTL.GB.ZS,2013,17.6694202423096,iceland,govt_expenditure_pct_govt_spending,C047
+India,IND,SE.XPD.TOTL.GB.ZS,2013,14.0909595489502,india,govt_expenditure_pct_govt_spending,C048
+Bangladesh,BGD,SE.XPD.TOTL.GB.ZS,2013,13.8228197097778,bangladesh,govt_expenditure_pct_govt_spending,C010
+Bhutan,BTN,SE.TER.ENRR,2013,10.9269304275513,bhutan,tertiary_enrollment_ratio_pct,
+Bosnia and Herzegovina,BIH,SE.ADT.LITR.ZS,2013,96.99177,bosnia and herzegovina,adult_literacy_rate_pct,C014
+Brazil,BRA,SE.XPD.TOTL.GB.ZS,2013,15.9743204116821,brazil,govt_expenditure_pct_govt_spending,C016
+Brazil,BRA,SE.XPD.TOTL.GD.ZS,2013,5.99394989013672,brazil,govt_expenditure_pct_gdp,C016
+Bulgaria,BGR,SE.XPD.TOTL.GB.ZS,2013,11.4398002624512,bulgaria,govt_expenditure_pct_govt_spending,C019
+Benin,BEN,SE.TER.ENRR,2013,15.3627796173096,benin,tertiary_enrollment_ratio_pct,
+Bulgaria,BGR,SE.XPD.TOTL.GD.ZS,2013,4.06197023391724,bulgaria,govt_expenditure_pct_gdp,C019
+Albania,ALB,SE.XPD.TOTL.GB.ZS,2013,12.1239099502563,albania,govt_expenditure_pct_govt_spending,C001
+India,IND,SE.XPD.TOTL.GD.ZS,2013,3.84236001968384,india,govt_expenditure_pct_gdp,C048
+Albania,ALB,SE.XPD.TOTL.GD.ZS,2013,3.53943991661072,albania,govt_expenditure_pct_gdp,C001
+France,FRA,SE.XPD.TOTL.GB.ZS,2013,9.66187953948975,france,govt_expenditure_pct_govt_spending,C038
+France,FRA,SE.XPD.TOTL.GD.ZS,2013,5.49299001693726,france,govt_expenditure_pct_gdp,C038
+"Gambia, The",GMB,SE.ADT.LITR.ZS,2013,41.95005,"gambia, the",adult_literacy_rate_pct,
+"Gambia, The",GMB,SE.XPD.TOTL.GB.ZS,2013,10.2758302688599,"gambia, the",govt_expenditure_pct_govt_spending,
+"Gambia, The",GMB,SE.XPD.TOTL.GD.ZS,2013,2.76770997047424,"gambia, the",govt_expenditure_pct_gdp,
+Fiji,FJI,SE.XPD.TOTL.GD.ZS,2013,3.88288998603821,fiji,govt_expenditure_pct_gdp,C036
+Fiji,FJI,SE.XPD.TOTL.GB.ZS,2013,14.0324697494507,fiji,govt_expenditure_pct_govt_spending,C036
+Ethiopia,ETH,SE.XPD.TOTL.GB.ZS,2013,27.0210990905762,ethiopia,govt_expenditure_pct_govt_spending,C035
+Ecuador,ECU,SE.TER.ENRR,2013,40.4808616638184,ecuador,tertiary_enrollment_ratio_pct,C032
+"Egypt, Arab Rep.",EGY,SE.ADT.LITR.ZS,2013,75.06073,"egypt, arab rep.",adult_literacy_rate_pct,
+Ethiopia,ETH,SE.XPD.TOTL.GD.ZS,2013,4.50051021575928,ethiopia,govt_expenditure_pct_gdp,C035
+Honduras,HND,SE.XPD.TOTL.GB.ZS,2013,19.2305107116699,honduras,govt_expenditure_pct_govt_spending,C044
+Honduras,HND,SE.XPD.TOTL.GD.ZS,2013,5.86775016784667,honduras,govt_expenditure_pct_gdp,C044
+Iceland,ISL,SE.XPD.TOTL.GD.ZS,2013,7.8058500289917,iceland,govt_expenditure_pct_gdp,C047
+Iceland,ISL,SE.PRM.ENRR,2013,99.131950378418,iceland,primary_enrollment_ratio_pct,C047
+Iceland,ISL,SE.TER.ENRR,2013,81.260368347168,iceland,tertiary_enrollment_ratio_pct,C047
+Guinea-Bissau,GNB,SE.XPD.TOTL.GD.ZS,2013,2.17313003540039,guinea-bissau,govt_expenditure_pct_gdp,
+Guinea-Bissau,GNB,SE.XPD.TOTL.GB.ZS,2013,16.1913795471191,guinea-bissau,govt_expenditure_pct_govt_spending,
+Chad,TCD,SE.XPD.TOTL.GD.ZS,2013,2.84970998764038,chad,govt_expenditure_pct_gdp,
+Chad,TCD,SE.PRM.ENRR,2013,101.404067993164,chad,primary_enrollment_ratio_pct,
+Chile,CHL,SE.ADT.LITR.ZS,2013,96.26706,chile,adult_literacy_rate_pct,C022
+Chad,TCD,SE.XPD.TOTL.GB.ZS,2013,12.4614601135254,chad,govt_expenditure_pct_govt_spending,
+Canada,CAN,SE.PRM.ENRR,2013,100.572311401367,canada,primary_enrollment_ratio_pct,C021
+Cameroon,CMR,SE.XPD.TOTL.GD.ZS,2013,3.02990007400513,cameroon,govt_expenditure_pct_gdp,
+Burundi,BDI,SE.XPD.TOTL.GB.ZS,2013,17.2432594299316,burundi,govt_expenditure_pct_govt_spending,
+Burundi,BDI,SE.XPD.TOTL.GD.ZS,2013,5.41641998291016,burundi,govt_expenditure_pct_gdp,
+Cabo Verde,CPV,SE.XPD.TOTL.GB.ZS,2013,14.9777402877808,cabo verde,govt_expenditure_pct_govt_spending,
+Cabo Verde,CPV,SE.XPD.TOTL.GD.ZS,2013,4.99245023727416,cabo verde,govt_expenditure_pct_gdp,
+Cameroon,CMR,SE.XPD.TOTL.GB.ZS,2013,13.8249502182007,cameroon,govt_expenditure_pct_govt_spending,
+"Congo, Dem. Rep.",COD,SE.XPD.TOTL.GD.ZS,2013,2.2453498840332,"congo, dem. rep.",govt_expenditure_pct_gdp,
+Curacao,CUW,SE.TER.ENRR,2013,20.3126392364502,curacao,tertiary_enrollment_ratio_pct,
+Czech Republic,CZE,SE.XPD.TOTL.GB.ZS,2013,9.60243988037109,czechia,govt_expenditure_pct_govt_spending,C029
+Czech Republic,CZE,SE.XPD.TOTL.GD.ZS,2013,4.08901977539063,czechia,govt_expenditure_pct_gdp,C029
+Denmark,DNK,SE.XPD.TOTL.GB.ZS,2013,15.2298698425293,denmark,govt_expenditure_pct_govt_spending,C030
+"Congo, Dem. Rep.",COD,SE.XPD.TOTL.GB.ZS,2013,16.915620803833,"congo, dem. rep.",govt_expenditure_pct_govt_spending,
+Curacao,CUW,SE.PRM.ENRR,2013,175.244186401367,curacao,primary_enrollment_ratio_pct,
+Curacao,CUW,SE.XPD.TOTL.GD.ZS,2013,4.93095016479492,curacao,govt_expenditure_pct_gdp,
+Denmark,DNK,SE.XPD.TOTL.GD.ZS,2013,8.62710952758789,denmark,govt_expenditure_pct_gdp,C030
+"Congo, Dem. Rep.",COD,SE.TER.ENRR,2013,6.64075994491577,"congo, dem. rep.",tertiary_enrollment_ratio_pct,
+"Congo, Rep.",COG,SE.TER.ENRR,2013,9.71879959106445,"congo, rep.",tertiary_enrollment_ratio_pct,
+Croatia,HRV,SE.XPD.TOTL.GB.ZS,2013,9.60241031646729,croatia,govt_expenditure_pct_govt_spending,C026
+Croatia,HRV,SE.XPD.TOTL.GD.ZS,2013,4.58160018920898,croatia,govt_expenditure_pct_gdp,C026
+Moldova,MDA,SE.XPD.TOTL.GB.ZS,2014,18.765100479126,moldova,govt_expenditure_pct_govt_spending,C075
+Moldova,MDA,SE.XPD.TOTL.GD.ZS,2014,7.46784019470215,moldova,govt_expenditure_pct_gdp,C075
+Monaco,MCO,SE.XPD.TOTL.GB.ZS,2014,5.00886011123657,monaco,govt_expenditure_pct_govt_spending,
+Mali,MLI,SE.XPD.TOTL.GB.ZS,2014,18.2242603302002,mali,govt_expenditure_pct_govt_spending,
+Monaco,MCO,SE.XPD.TOTL.GD.ZS,2014,1.02195000648499,monaco,govt_expenditure_pct_gdp,
+Mexico,MEX,SE.XPD.TOTL.GD.ZS,2014,5.31347990036011,mexico,govt_expenditure_pct_gdp,C074
+Mexico,MEX,SE.PRM.ENRR,2014,103.389198303223,mexico,primary_enrollment_ratio_pct,C074
+Mexico,MEX,SE.XPD.TOTL.GB.ZS,2014,19.0701808929443,mexico,govt_expenditure_pct_govt_spending,C074
+Maldives,MDV,SE.TER.ENRR,2014,16.2273807525635,maldives,tertiary_enrollment_ratio_pct,
+Mali,MLI,SE.XPD.TOTL.GD.ZS,2014,3.73928999900818,mali,govt_expenditure_pct_gdp,
+Myanmar,MMR,SE.PRM.ENRR,2014,99.6582870483398,myanmar,primary_enrollment_ratio_pct,
+Mexico,MEX,SE.TER.ENRR,2014,29.9409008026123,mexico,tertiary_enrollment_ratio_pct,C074
+Panama,PAN,SE.PRM.ENRR,2014,102.223518371582,panama,primary_enrollment_ratio_pct,C092
+Philippines,PHL,SE.TER.ENRR,2014,35.7533302307129,philippines,tertiary_enrollment_ratio_pct,C095
+Poland,POL,SE.XPD.TOTL.GB.ZS,2014,11.6497898101807,poland,govt_expenditure_pct_govt_spending,C096
+Poland,POL,SE.XPD.TOTL.GD.ZS,2014,4.91174983978271,poland,govt_expenditure_pct_gdp,C096
+Nauru,NRU,SE.PRM.ENRR,2014,104.990020751953,nauru,primary_enrollment_ratio_pct,
+Pakistan,PAK,SE.ADT.LITR.ZS,2014,56.97715,pakistan,adult_literacy_rate_pct,C089
+Netherlands,NLD,SE.XPD.TOTL.GB.ZS,2014,11.9731702804565,netherlands,govt_expenditure_pct_govt_spending,C082
+Netherlands,NLD,SE.XPD.TOTL.GD.ZS,2014,5.52937984466553,netherlands,govt_expenditure_pct_gdp,C082
+Niger,NER,SE.XPD.TOTL.GB.ZS,2014,21.6615009307861,niger,govt_expenditure_pct_govt_spending,
+Niger,NER,SE.XPD.TOTL.GD.ZS,2014,6.70941019058228,niger,govt_expenditure_pct_gdp,
+Lao PDR,LAO,SE.XPD.TOTL.GD.ZS,2014,3.32011008262634,lao pdr,govt_expenditure_pct_gdp,
+Kyrgyz Republic,KGZ,SE.XPD.TOTL.GD.ZS,2014,5.52737998962402,kyrgyz republic,govt_expenditure_pct_gdp,
+Kyrgyz Republic,KGZ,SE.XPD.TOTL.GB.ZS,2014,16.1117706298828,kyrgyz republic,govt_expenditure_pct_govt_spending,
+Kuwait,KWT,SE.PRM.ENRR,2014,102.68350982666,kuwait,primary_enrollment_ratio_pct,C061
+Kenya,KEN,SE.ADT.LITR.ZS,2014,78.73304,kenya,adult_literacy_rate_pct,C059
+Jordan,JOR,SE.PRM.ENRR,2014,97.3428726196289,jordan,primary_enrollment_ratio_pct,C057
+Japan,JPN,SE.TER.ENRR,2014,63.3625907897949,japan,tertiary_enrollment_ratio_pct,C056
+Japan,JPN,SE.PRM.ENRR,2014,101.224647521973,japan,primary_enrollment_ratio_pct,C056
+Japan,JPN,SE.XPD.TOTL.GD.ZS,2014,3.59184002876282,japan,govt_expenditure_pct_gdp,C056
+Poland,POL,SE.PRM.ENRR,2014,100.571517944336,poland,primary_enrollment_ratio_pct,C096
+Israel,ISR,SE.XPD.TOTL.GB.ZS,2014,14.2821702957153,israel,govt_expenditure_pct_govt_spending,C053
+Israel,ISR,SE.XPD.TOTL.GD.ZS,2014,5.75726985931396,israel,govt_expenditure_pct_gdp,C053
+Italy,ITA,SE.XPD.TOTL.GD.ZS,2014,4.07985019683838,italy,govt_expenditure_pct_gdp,C054
+Japan,JPN,SE.XPD.TOTL.GB.ZS,2014,9.28670024871826,japan,govt_expenditure_pct_govt_spending,C056
+Italy,ITA,SE.XPD.TOTL.GB.ZS,2014,8.00615978240967,italy,govt_expenditure_pct_govt_spending,C054
+Maldives,MDV,SE.ADT.LITR.ZS,2014,98.61012,maldives,adult_literacy_rate_pct,
+Lao PDR,LAO,SE.XPD.TOTL.GB.ZS,2014,12.1898803710938,lao pdr,govt_expenditure_pct_govt_spending,
+Madagascar,MDG,SE.TER.ENRR,2014,4.77555990219116,madagascar,tertiary_enrollment_ratio_pct,
+"Macao SAR, China",MAC,SE.XPD.TOTL.GD.ZS,2014,2.02779006958008,"macao sar, china",govt_expenditure_pct_gdp,
+"Macao SAR, China",MAC,SE.XPD.TOTL.GB.ZS,2014,13.3920698165894,"macao sar, china",govt_expenditure_pct_govt_spending,
+Luxembourg,LUX,SE.PRM.ENRR,2014,97.1300888061523,luxembourg,primary_enrollment_ratio_pct,C067
+Luxembourg,LUX,SE.XPD.TOTL.GD.ZS,2014,4.08387994766235,luxembourg,govt_expenditure_pct_gdp,C067
+Latvia,LVA,SE.XPD.TOTL.GB.ZS,2014,13.9645500183105,latvia,govt_expenditure_pct_govt_spending,C063
+Latvia,LVA,SE.XPD.TOTL.GD.ZS,2014,5.28524017333984,latvia,govt_expenditure_pct_gdp,C063
+Latvia,LVA,SE.TER.ENRR,2014,67.0397262573242,latvia,tertiary_enrollment_ratio_pct,C063
+Lesotho,LSO,SE.ADT.LITR.ZS,2014,76.6352,lesotho,adult_literacy_rate_pct,
+Lesotho,LSO,SE.TER.ENRR,2014,9.84220027923583,lesotho,tertiary_enrollment_ratio_pct,
+Lithuania,LTU,SE.TER.ENRR,2014,68.5314102172852,lithuania,tertiary_enrollment_ratio_pct,C066
+Luxembourg,LUX,SE.XPD.TOTL.GB.ZS,2014,9.62924957275391,luxembourg,govt_expenditure_pct_govt_spending,C067
+Poland,POL,SE.TER.ENRR,2014,68.1136169433594,poland,tertiary_enrollment_ratio_pct,C096
+Portugal,PRT,SE.XPD.TOTL.GD.ZS,2014,5.1255898475647,portugal,govt_expenditure_pct_gdp,C097
+Turkmenistan,TKM,SE.TER.ENRR,2014,7.98443984985352,turkmenistan,tertiary_enrollment_ratio_pct,C123
+Turkmenistan,TKM,SE.PRM.ENRR,2014,89.3672027587891,turkmenistan,primary_enrollment_ratio_pct,C123
+Tunisia,TUN,SE.ADT.LITR.ZS,2014,79.03643,tunisia,adult_literacy_rate_pct,C121
+Tonga,TON,SE.PRM.ENRR,2014,108.074096679688,tonga,primary_enrollment_ratio_pct,
+Timor-Leste,TLS,SE.XPD.TOTL.GD.ZS,2014,7.77500009536743,timor-leste,govt_expenditure_pct_gdp,
+Timor-Leste,TLS,SE.XPD.TOTL.GB.ZS,2014,8.00384998321533,timor-leste,govt_expenditure_pct_govt_spending,
+Sweden,SWE,SE.XPD.TOTL.GB.ZS,2014,14.9390897750854,sweden,govt_expenditure_pct_govt_spending,C115
+Sweden,SWE,SE.XPD.TOTL.GD.ZS,2014,7.67508983612061,sweden,govt_expenditure_pct_gdp,C115
+Switzerland,CHE,SE.XPD.TOTL.GB.ZS,2014,15.5263204574585,switzerland,govt_expenditure_pct_govt_spending,C116
+Switzerland,CHE,SE.XPD.TOTL.GD.ZS,2014,5.09607982635498,switzerland,govt_expenditure_pct_gdp,C116
+Tanzania,TZA,SE.XPD.TOTL.GB.ZS,2014,17.2971000671387,tanzania,govt_expenditure_pct_govt_spending,C119
+Tanzania,TZA,SE.XPD.TOTL.GD.ZS,2014,3.47914004325867,tanzania,govt_expenditure_pct_gdp,C119
+Swaziland,SWZ,SE.PRM.ENRR,2014,112.765808105469,swaziland,primary_enrollment_ratio_pct,
+Uganda,UGA,SE.XPD.TOTL.GB.ZS,2014,11.7049102783203,uganda,govt_expenditure_pct_govt_spending,C125
+Uganda,UGA,SE.TER.ENRR,2014,4.76081991195679,uganda,tertiary_enrollment_ratio_pct,C125
+Zimbabwe,ZWE,SE.XPD.TOTL.GD.ZS,2014,8.42932987213135,zimbabwe,govt_expenditure_pct_gdp,C136
+Zimbabwe,ZWE,SE.XPD.TOTL.GB.ZS,2014,30.0076198577881,zimbabwe,govt_expenditure_pct_govt_spending,C136
+Zimbabwe,ZWE,SE.ADT.LITR.ZS,2014,88.69342,zimbabwe,adult_literacy_rate_pct,C136
+Uruguay,URY,SE.PRM.ENRR,2014,108.554718017578,uruguay,primary_enrollment_ratio_pct,C130
+Ukraine,UKR,SE.XPD.TOTL.GB.ZS,2014,13.1213502883911,ukraine,govt_expenditure_pct_govt_spending,C126
+Ukraine,UKR,SE.XPD.TOTL.GD.ZS,2014,5.8635401725769,ukraine,govt_expenditure_pct_gdp,C126
+Ukraine,UKR,SE.PRM.ENRR,2014,103.914710998535,ukraine,primary_enrollment_ratio_pct,C126
+Ukraine,UKR,SE.TER.ENRR,2014,82.3050308227539,ukraine,tertiary_enrollment_ratio_pct,C126
+Uganda,UGA,SE.XPD.TOTL.GD.ZS,2014,2.21387004852295,uganda,govt_expenditure_pct_gdp,C125
+United Kingdom,GBR,SE.TER.ENRR,2014,56.4767684936523,united kingdom,tertiary_enrollment_ratio_pct,C128
+United States,USA,SE.XPD.TOTL.GB.ZS,2014,14.5481996536255,united states,govt_expenditure_pct_govt_spending,C129
+United States,USA,SE.XPD.TOTL.GD.ZS,2014,5.38078022003174,united states,govt_expenditure_pct_gdp,C129
+United Kingdom,GBR,SE.PRM.ENRR,2014,108.240211486816,united kingdom,primary_enrollment_ratio_pct,C128
+Portugal,PRT,SE.XPD.TOTL.GB.ZS,2014,9.88801002502441,portugal,govt_expenditure_pct_govt_spending,C097
+Swaziland,SWZ,SE.XPD.TOTL.GD.ZS,2014,7.04999017715454,swaziland,govt_expenditure_pct_gdp,
+Serbia,SRB,SE.XPD.TOTL.GD.ZS,2014,4.17860984802246,serbia,govt_expenditure_pct_gdp,C105
+Serbia,SRB,SE.XPD.TOTL.GB.ZS,2014,9.10161018371582,serbia,govt_expenditure_pct_govt_spending,C105
+Senegal,SEN,SE.XPD.TOTL.GD.ZS,2014,7.39620018005371,senegal,govt_expenditure_pct_gdp,C104
+Senegal,SEN,SE.XPD.TOTL.GB.ZS,2014,24.7624702453613,senegal,govt_expenditure_pct_govt_spending,C104
+Sao Tome and Principe,STP,SE.XPD.TOTL.GD.ZS,2014,3.7568199634552,sao tome and principe,govt_expenditure_pct_gdp,
+Sao Tome and Principe,STP,SE.XPD.TOTL.GB.ZS,2014,12.3226003646851,sao tome and principe,govt_expenditure_pct_govt_spending,
+Puerto Rico,PRI,SE.PRM.ENRR,2014,89.7483215332031,puerto rico,primary_enrollment_ratio_pct,C098
+Puerto Rico,PRI,SE.TER.ENRR,2014,84.3837814331055,puerto rico,tertiary_enrollment_ratio_pct,C098
+Qatar,QAT,SE.ADT.LITR.ZS,2014,97.74669,qatar,adult_literacy_rate_pct,C099
+Qatar,QAT,SE.XPD.TOTL.GB.ZS,2014,12.7431497573853,qatar,govt_expenditure_pct_govt_spending,C099
+Qatar,QAT,SE.XPD.TOTL.GD.ZS,2014,3.60718989372253,qatar,govt_expenditure_pct_gdp,C099
+Romania,ROU,SE.XPD.TOTL.GB.ZS,2014,9.23571968078613,romania,govt_expenditure_pct_govt_spending,C100
+Romania,ROU,SE.XPD.TOTL.GD.ZS,2014,3.12917995452881,romania,govt_expenditure_pct_gdp,C100
+Swaziland,SWZ,SE.XPD.TOTL.GB.ZS,2014,24.9452209472656,swaziland,govt_expenditure_pct_govt_spending,
+Sierra Leone,SLE,SE.XPD.TOTL.GD.ZS,2014,2.66166996955872,sierra leone,govt_expenditure_pct_gdp,
+Sudan,SDN,SE.TER.ENRR,2014,16.3206100463867,sudan,tertiary_enrollment_ratio_pct,C114
+Spain,ESP,SE.XPD.TOTL.GD.ZS,2014,4.270929813385,spain,govt_expenditure_pct_gdp,C112
+Spain,ESP,SE.XPD.TOTL.GB.ZS,2014,9.59261035919189,spain,govt_expenditure_pct_govt_spending,C112
+Slovak Republic,SVK,SE.XPD.TOTL.GB.ZS,2014,10.160120010376,slovak republic,govt_expenditure_pct_govt_spending,
+Slovak Republic,SVK,SE.XPD.TOTL.GD.ZS,2014,4.23856019973755,slovak republic,govt_expenditure_pct_gdp,
+Slovak Republic,SVK,SE.TER.ENRR,2014,52.923511505127,slovak republic,tertiary_enrollment_ratio_pct,
+Slovenia,SVN,SE.PRM.ENRR,2014,99.3035736083984,slovenia,primary_enrollment_ratio_pct,C108
+Sierra Leone,SLE,SE.XPD.TOTL.GB.ZS,2014,15.091739654541,sierra leone,govt_expenditure_pct_govt_spending,
+Slovenia,SVN,SE.TER.ENRR,2014,82.9264297485352,slovenia,tertiary_enrollment_ratio_pct,C108
+South Africa,ZAF,SE.XPD.TOTL.GB.ZS,2014,19.1303405761719,south africa,govt_expenditure_pct_govt_spending,C110
+South Africa,ZAF,SE.XPD.TOTL.GD.ZS,2014,6.02955007553101,south africa,govt_expenditure_pct_gdp,C110
+South Africa,ZAF,SE.PRM.ENRR,2014,99.7231063842773,south africa,primary_enrollment_ratio_pct,C110
+South Africa,ZAF,SE.TER.ENRR,2014,19.3750705718994,south africa,tertiary_enrollment_ratio_pct,C110
+Austria,AUT,SE.XPD.TOTL.GD.ZS,2014,5.49954986572266,austria,govt_expenditure_pct_gdp,C007
+Austria,AUT,SE.XPD.TOTL.GB.ZS,2014,10.4832096099854,austria,govt_expenditure_pct_govt_spending,C007
+Australia,AUS,SE.TER.ENRR,2014,90.3065032958984,australia,tertiary_enrollment_ratio_pct,C006
+Australia,AUS,SE.XPD.TOTL.GD.ZS,2014,5.22533988952637,australia,govt_expenditure_pct_gdp,C006
+Australia,AUS,SE.XPD.TOTL.GB.ZS,2014,13.9000997543335,australia,govt_expenditure_pct_govt_spending,C006
+Aruba,ABW,SE.PRM.ENRR,2014,117.31803894043,aruba,primary_enrollment_ratio_pct,
+Aruba,ABW,SE.XPD.TOTL.GD.ZS,2014,6.16293001174927,aruba,govt_expenditure_pct_gdp,
+Aruba,ABW,SE.XPD.TOTL.GB.ZS,2014,19.612720489502,aruba,govt_expenditure_pct_govt_spending,
+Argentina,ARG,SE.TER.ENRR,2014,82.9173889160156,argentina,tertiary_enrollment_ratio_pct,C004
+Afghanistan,AFG,SE.TER.ENRR,2014,8.66279983520508,afghanistan,tertiary_enrollment_ratio_pct,
+Azerbaijan,AZE,SE.XPD.TOTL.GB.ZS,2014,7.37547016143799,azerbaijan,govt_expenditure_pct_govt_spending,C008
+Angola,AGO,SE.ADT.LITR.ZS,2014,66.03011,angola,adult_literacy_rate_pct,C003
+Argentina,ARG,SE.XPD.TOTL.GB.ZS,2014,14.7170600891113,argentina,govt_expenditure_pct_govt_spending,C004
+Argentina,ARG,SE.XPD.TOTL.GD.ZS,2014,5.32548999786377,argentina,govt_expenditure_pct_gdp,C004
+Argentina,ARG,SE.PRM.ENRR,2014,109.988891601563,argentina,primary_enrollment_ratio_pct,C004
+Azerbaijan,AZE,SE.XPD.TOTL.GD.ZS,2014,2.63466000556946,azerbaijan,govt_expenditure_pct_gdp,C008
+Bolivia,BOL,SE.XPD.TOTL.GD.ZS,2014,7.28545999526978,bolivia,govt_expenditure_pct_gdp,C013
+Bolivia,BOL,SE.XPD.TOTL.GB.ZS,2014,16.8421001434326,bolivia,govt_expenditure_pct_govt_spending,C013
+Belize,BLZ,SE.XPD.TOTL.GD.ZS,2014,6.42583990097046,belize,govt_expenditure_pct_gdp,
+Belize,BLZ,SE.XPD.TOTL.GB.ZS,2014,20.9155406951904,belize,govt_expenditure_pct_govt_spending,
+Bangladesh,BGD,SE.TER.ENRR,2014,13.4407997131348,bangladesh,tertiary_enrollment_ratio_pct,C010
+Barbados,BRB,SE.XPD.TOTL.GB.ZS,2014,14.1647396087646,barbados,govt_expenditure_pct_govt_spending,
+Barbados,BRB,SE.XPD.TOTL.GD.ZS,2014,6.57329988479614,barbados,govt_expenditure_pct_gdp,
+Belgium,BEL,SE.XPD.TOTL.GB.ZS,2014,11.9723901748657,belgium,govt_expenditure_pct_govt_spending,C012
+Belgium,BEL,SE.XPD.TOTL.GD.ZS,2014,6.58514022827148,belgium,govt_expenditure_pct_gdp,C012
+Barbados,BRB,SE.PRM.ENRR,2014,93.6272811889648,barbados,primary_enrollment_ratio_pct,
+Latin America & Caribbean (excluding high income),LAC,SE.TER.ENRR,2014,43.3020515441895,latin america & caribbean (excluding high income),tertiary_enrollment_ratio_pct,
+Latin America & Caribbean (excluding high income),LAC,SE.PRM.ENRR,2014,108.638519287109,latin america & caribbean (excluding high income),primary_enrollment_ratio_pct,
+Latin America & Caribbean (excluding high income),LAC,SE.ADT.LITR.ZS,2014,92.4479904174805,latin america & caribbean (excluding high income),adult_literacy_rate_pct,
+Latin America & Caribbean,LCN,SE.TER.ENRR,2014,44.6640701293945,latin america & caribbean,tertiary_enrollment_ratio_pct,
+Latin America & Caribbean,LCN,SE.PRM.ENRR,2014,108.353050231934,latin america & caribbean,primary_enrollment_ratio_pct,
+Latin America & Caribbean,LCN,SE.ADT.LITR.ZS,2014,92.6243133544922,latin america & caribbean,adult_literacy_rate_pct,
+Heavily indebted poor countries (HIPC),HPC,SE.TER.ENRR,2014,8.12129020690918,heavily indebted poor countries (hipc),tertiary_enrollment_ratio_pct,
+Heavily indebted poor countries (HIPC),HPC,SE.PRM.ENRR,2014,101.730392456055,heavily indebted poor countries (hipc),primary_enrollment_ratio_pct,
+Heavily indebted poor countries (HIPC),HPC,SE.ADT.LITR.ZS,2014,57.8371658325195,heavily indebted poor countries (hipc),adult_literacy_rate_pct,
+European Union,EUU,SE.TER.ENRR,2014,67.7147674560547,european union,tertiary_enrollment_ratio_pct,
+European Union,EUU,SE.PRM.ENRR,2014,104.102920532227,european union,primary_enrollment_ratio_pct,
+Europe & Central Asia (excluding high income),ECA,SE.TER.ENRR,2014,62.0665817260742,europe & central asia (excluding high income),tertiary_enrollment_ratio_pct,
+Europe & Central Asia (excluding high income),ECA,SE.PRM.ENRR,2014,101.798202514648,europe & central asia (excluding high income),primary_enrollment_ratio_pct,
+Europe & Central Asia (excluding high income),ECA,SE.ADT.LITR.ZS,2014,98.7996368408203,europe & central asia (excluding high income),adult_literacy_rate_pct,
+Europe & Central Asia,ECS,SE.TER.ENRR,2014,65.0807266235352,europe & central asia,tertiary_enrollment_ratio_pct,
+Arab World,ARB,SE.ADT.LITR.ZS,2014,77.3645858764648,arab world,adult_literacy_rate_pct,
+Arab World,ARB,SE.PRM.ENRR,2014,97.0270767211914,arab world,primary_enrollment_ratio_pct,
+Arab World,ARB,SE.TER.ENRR,2014,28.1749591827393,arab world,tertiary_enrollment_ratio_pct,
+East Asia & Pacific,EAS,SE.ADT.LITR.ZS,2014,95.1082229614258,east asia & pacific,adult_literacy_rate_pct,
+East Asia & Pacific,EAS,SE.PRM.ENRR,2014,105.420959472656,east asia & pacific,primary_enrollment_ratio_pct,
+Least developed countries: UN classification,LDC,SE.ADT.LITR.ZS,2014,60.5682334899902,least developed countries: un classification,adult_literacy_rate_pct,
+East Asia & Pacific,EAS,SE.TER.ENRR,2014,39.1477203369141,east asia & pacific,tertiary_enrollment_ratio_pct,
+East Asia & Pacific (excluding high income),EAP,SE.PRM.ENRR,2014,105.684776306152,east asia & pacific (excluding high income),primary_enrollment_ratio_pct,
+East Asia & Pacific (excluding high income),EAP,SE.TER.ENRR,2014,36.4703216552734,east asia & pacific (excluding high income),tertiary_enrollment_ratio_pct,
+Euro area,EMU,SE.PRM.ENRR,2014,103.731369018555,euro area,primary_enrollment_ratio_pct,
+Euro area,EMU,SE.TER.ENRR,2014,71.0014877319336,euro area,tertiary_enrollment_ratio_pct,
+Europe & Central Asia,ECS,SE.ADT.LITR.ZS,2014,98.9975891113281,europe & central asia,adult_literacy_rate_pct,
+Europe & Central Asia,ECS,SE.PRM.ENRR,2014,103.273910522461,europe & central asia,primary_enrollment_ratio_pct,
+East Asia & Pacific (excluding high income),EAP,SE.ADT.LITR.ZS,2014,94.7516708374023,east asia & pacific (excluding high income),adult_literacy_rate_pct,
+World,WLD,SE.ADT.LITR.ZS,2014,85.3133850097656,world,adult_literacy_rate_pct,
+Least developed countries: UN classification,LDC,SE.PRM.ENRR,2014,103.936920166016,least developed countries: un classification,primary_enrollment_ratio_pct,
+Low & middle income,LMY,SE.ADT.LITR.ZS,2014,82.3050842285156,low & middle income,adult_literacy_rate_pct,
+Upper middle income,UMC,SE.ADT.LITR.ZS,2014,94.2689895629883,upper middle income,adult_literacy_rate_pct,
+Sub-Saharan Africa (excluding high income),SSA,SE.TER.ENRR,2014,8.59366035461426,sub-saharan africa (excluding high income),tertiary_enrollment_ratio_pct,
+Sub-Saharan Africa (excluding high income),SSA,SE.PRM.ENRR,2014,98.4264831542969,sub-saharan africa (excluding high income),primary_enrollment_ratio_pct,
+Sub-Saharan Africa (excluding high income),SSA,SE.ADT.LITR.ZS,2014,60.8757553100586,sub-saharan africa (excluding high income),adult_literacy_rate_pct,
+Sub-Saharan Africa,SSF,SE.TER.ENRR,2014,8.59348011016846,sub-saharan africa,tertiary_enrollment_ratio_pct,
+Sub-Saharan Africa,SSF,SE.PRM.ENRR,2014,98.4267807006836,sub-saharan africa,primary_enrollment_ratio_pct,
+Sub-Saharan Africa,SSF,SE.ADT.LITR.ZS,2014,60.8805465698242,sub-saharan africa,adult_literacy_rate_pct,
+South Asia,SAS,SE.TER.ENRR,2014,20.8386402130127,south asia,tertiary_enrollment_ratio_pct,
+South Asia,SAS,SE.PRM.ENRR,2014,109.077423095703,south asia,primary_enrollment_ratio_pct,
+South Asia,SAS,SE.ADT.LITR.ZS,2014,66.6911773681641,south asia,adult_literacy_rate_pct,
+OECD members,OED,SE.TER.ENRR,2014,70.0029907226563,oecd members,tertiary_enrollment_ratio_pct,
+OECD members,OED,SE.PRM.ENRR,2014,102.488639831543,oecd members,primary_enrollment_ratio_pct,
+North America,NAC,SE.TER.ENRR,2014,84.0323181152344,north america,tertiary_enrollment_ratio_pct,
+North America,NAC,SE.PRM.ENRR,2014,99.6154632568359,north america,primary_enrollment_ratio_pct,
+Low & middle income,LMY,SE.PRM.ENRR,2014,104.855941772461,low & middle income,primary_enrollment_ratio_pct,
+Low & middle income,LMY,SE.TER.ENRR,2014,29.0408000946045,low & middle income,tertiary_enrollment_ratio_pct,
+Low income,LIC,SE.ADT.LITR.ZS,2014,56.5740547180176,low income,adult_literacy_rate_pct,
+Lower middle income,LMC,SE.ADT.LITR.ZS,2014,73.9100799560547,lower middle income,adult_literacy_rate_pct,
+Least developed countries: UN classification,LDC,SE.TER.ENRR,2014,9.05949020385742,least developed countries: un classification,tertiary_enrollment_ratio_pct,
+Middle East & North Africa,MEA,SE.ADT.LITR.ZS,2014,80.7500152587891,middle east & north africa,adult_literacy_rate_pct,
+Middle East & North Africa,MEA,SE.PRM.ENRR,2014,105.260597229004,middle east & north africa,primary_enrollment_ratio_pct,
+Middle East & North Africa,MEA,SE.TER.ENRR,2014,37.916130065918,middle east & north africa,tertiary_enrollment_ratio_pct,
+Middle East & North Africa (excluding high income),MNA,SE.ADT.LITR.ZS,2014,78.4388122558594,middle east & north africa (excluding high income),adult_literacy_rate_pct,
+Middle East & North Africa (excluding high income),MNA,SE.PRM.ENRR,2014,105.013107299805,middle east & north africa (excluding high income),primary_enrollment_ratio_pct,
+Middle income,MIC,SE.ADT.LITR.ZS,2014,84.3886795043945,middle income,adult_literacy_rate_pct,
+Botswana,BWA,SE.PRM.ENRR,2014,107.630493164063,botswana,primary_enrollment_ratio_pct,C015
+Middle East & North Africa (excluding high income),MNA,SE.TER.ENRR,2014,36.4227485656738,middle east & north africa (excluding high income),tertiary_enrollment_ratio_pct,
+Brazil,BRA,SE.ADT.LITR.ZS,2014,91.72943,brazil,adult_literacy_rate_pct,C016
+Ghana,GHA,SE.XPD.TOTL.GB.ZS,2014,21.0173606872559,ghana,govt_expenditure_pct_govt_spending,C041
+Germany,DEU,SE.XPD.TOTL.GD.ZS,2014,4.95218992233276,germany,govt_expenditure_pct_gdp,C040
+Germany,DEU,SE.XPD.TOTL.GB.ZS,2014,11.1387395858765,germany,govt_expenditure_pct_govt_spending,C040
+Georgia,GEO,SE.ADT.LITR.ZS,2014,99.58619,georgia,adult_literacy_rate_pct,C039
+Gabon,GAB,SE.XPD.TOTL.GD.ZS,2014,2.66616988182068,gabon,govt_expenditure_pct_gdp,
+Gabon,GAB,SE.XPD.TOTL.GB.ZS,2014,11.3690299987793,gabon,govt_expenditure_pct_govt_spending,
+France,FRA,SE.TER.ENRR,2014,64.3904724121094,france,tertiary_enrollment_ratio_pct,C038
+France,FRA,SE.PRM.ENRR,2014,105.358360290527,france,primary_enrollment_ratio_pct,C038
+Finland,FIN,SE.XPD.TOTL.GD.ZS,2014,7.16809988021851,finland,govt_expenditure_pct_gdp,C037
+Finland,FIN,SE.XPD.TOTL.GB.ZS,2014,12.323450088501,finland,govt_expenditure_pct_govt_spending,C037
+"Egypt, Arab Rep.",EGY,SE.PRM.ENRR,2014,103.929733276367,"egypt, arab rep.",primary_enrollment_ratio_pct,
+Ghana,GHA,SE.XPD.TOTL.GD.ZS,2014,6.17854976654053,ghana,govt_expenditure_pct_gdp,C041
+Estonia,EST,SE.XPD.TOTL.GB.ZS,2014,14.2622604370117,estonia,govt_expenditure_pct_govt_spending,C034
+Estonia,EST,SE.XPD.TOTL.GD.ZS,2014,5.48163986206055,estonia,govt_expenditure_pct_gdp,C034
+Ethiopia,ETH,SE.TER.ENRR,2014,8.12604045867919,ethiopia,tertiary_enrollment_ratio_pct,C035
+Eritrea,ERI,SE.TER.ENRR,2014,2.56538009643555,eritrea,tertiary_enrollment_ratio_pct,
+Greece,GRC,SE.PRM.ENRR,2014,97.620018005371,greece,primary_enrollment_ratio_pct,C042
+"Iran, Islamic Rep.",IRN,SE.ADT.LITR.ZS,2014,84.70524,"iran, islamic rep.",adult_literacy_rate_pct,
+Hungary,HUN,SE.XPD.TOTL.GD.ZS,2014,4.65934991836548,hungary,govt_expenditure_pct_gdp,C046
+Hungary,HUN,SE.XPD.TOTL.GB.ZS,2014,9.41304969787598,hungary,govt_expenditure_pct_govt_spending,C046
+Greece,GRC,SE.TER.ENRR,2014,113.871788024902,greece,tertiary_enrollment_ratio_pct,C042
+Guatemala,GTM,SE.ADT.LITR.ZS,2014,81.2859,guatemala,adult_literacy_rate_pct,C043
+Guinea,GIN,SE.XPD.TOTL.GB.ZS,2014,11.9895095825195,guinea,govt_expenditure_pct_govt_spending,
+Guinea,GIN,SE.PRM.ENRR,2014,91.2581787109375,guinea,primary_enrollment_ratio_pct,
+Guinea,GIN,SE.TER.ENRR,2014,10.8493299484253,guinea,tertiary_enrollment_ratio_pct,
+Guinea-Bissau,GNB,SE.ADT.LITR.ZS,2014,45.58116,guinea-bissau,adult_literacy_rate_pct,
+Guyana,GUY,SE.ADT.LITR.ZS,2014,85.63973,guyana,adult_literacy_rate_pct,
+Guinea,GIN,SE.XPD.TOTL.GD.ZS,2014,3.20816993713379,guinea,govt_expenditure_pct_gdp,
+Guinea,GIN,SE.ADT.LITR.ZS,2014,32.00386,guinea,adult_literacy_rate_pct,
+Chad,TCD,SE.TER.ENRR,2014,3.44538998603821,chad,tertiary_enrollment_ratio_pct,
+Cambodia,KHM,SE.XPD.TOTL.GD.ZS,2014,1.90197002887726,cambodia,govt_expenditure_pct_gdp,C020
+Cambodia,KHM,SE.XPD.TOTL.GB.ZS,2014,9.09352970123291,cambodia,govt_expenditure_pct_govt_spending,C020
+Burundi,BDI,SE.TER.ENRR,2014,4.96606016159058,burundi,tertiary_enrollment_ratio_pct,
+Brunei Darussalam,BRN,SE.XPD.TOTL.GB.ZS,2014,9.98591041564941,brunei darussalam,govt_expenditure_pct_govt_spending,C018
+Burkina Faso,BFA,SE.ADT.LITR.ZS,2014,34.5994,burkina faso,adult_literacy_rate_pct,
+Burundi,BDI,SE.ADT.LITR.ZS,2014,61.56973,burundi,adult_literacy_rate_pct,
+Cyprus,CYP,SE.XPD.TOTL.GB.ZS,2014,15.5337800979614,cyprus,govt_expenditure_pct_govt_spending,C028
+Cyprus,CYP,SE.XPD.TOTL.GD.ZS,2014,6.1383900642395,cyprus,govt_expenditure_pct_gdp,C028
+Comoros,COM,SE.PRM.ENRR,2014,103.170150756836,comoros,primary_enrollment_ratio_pct,
+Comoros,COM,SE.TER.ENRR,2014,8.9284200668335,comoros,tertiary_enrollment_ratio_pct,
+"Congo, Dem. Rep.",COD,SE.PRM.ENRR,2014,106.973091125488,"congo, dem. rep.",primary_enrollment_ratio_pct,
+Cote d'Ivoire,CIV,SE.ADT.LITR.ZS,2014,43.90842,cote d'ivoire,adult_literacy_rate_pct,
+Mozambique,MOZ,SE.TER.ENRR,2015,6.3905200958252,mozambique,tertiary_enrollment_ratio_pct,C079
+Nepal,NPL,SE.XPD.TOTL.GD.ZS,2015,3.71216011047363,nepal,govt_expenditure_pct_gdp,C081
+Nepal,NPL,SE.XPD.TOTL.GB.ZS,2015,17.10791015625,nepal,govt_expenditure_pct_govt_spending,C081
+Nepal,NPL,SE.TER.ENRR,2015,14.9399499893188,nepal,tertiary_enrollment_ratio_pct,C081
+Netherlands,NLD,SE.PRM.ENRR,2015,104.701721191406,netherlands,primary_enrollment_ratio_pct,C082
+Mozambique,MOZ,SE.PRM.ENRR,2015,105.801940917969,mozambique,primary_enrollment_ratio_pct,C079
+Moldova,MDA,SE.TER.ENRR,2015,41.2134819030762,moldova,tertiary_enrollment_ratio_pct,C075
+Morocco,MAR,SE.PRM.ENRR,2015,114.706146240234,morocco,primary_enrollment_ratio_pct,C078
+Montenegro,MNE,SE.PRM.ENRR,2015,94.3067169189453,montenegro,primary_enrollment_ratio_pct,C077
+Mongolia,MNG,SE.TER.ENRR,2015,68.5670166015625,mongolia,tertiary_enrollment_ratio_pct,C076
+Mongolia,MNG,SE.PRM.ENRR,2015,100.89608001709,mongolia,primary_enrollment_ratio_pct,C076
+Moldova,MDA,SE.PRM.ENRR,2015,92.4127807617188,moldova,primary_enrollment_ratio_pct,C075
+"Micronesia, Fed. Sts.",FSM,SE.PRM.ENRR,2015,95.5217666625977,"micronesia, fed. sts.",primary_enrollment_ratio_pct,
+Mexico,MEX,SE.ADT.LITR.ZS,2015,94.47228,mexico,adult_literacy_rate_pct,C074
+"Micronesia, Fed. Sts.",FSM,SE.XPD.TOTL.GD.ZS,2015,12.4677495956421,"micronesia, fed. sts.",govt_expenditure_pct_gdp,
+"Micronesia, Fed. Sts.",FSM,SE.XPD.TOTL.GB.ZS,2015,20.6683197021484,"micronesia, fed. sts.",govt_expenditure_pct_govt_spending,
+Morocco,MAR,SE.TER.ENRR,2015,28.1435794830322,morocco,tertiary_enrollment_ratio_pct,C078
+New Zealand,NZL,SE.XPD.TOTL.GB.ZS,2015,17.9912109375,new zealand,govt_expenditure_pct_govt_spending,C083
+New Zealand,NZL,SE.PRM.ENRR,2015,99.3609008789063,new zealand,primary_enrollment_ratio_pct,C083
+Qatar,QAT,SE.PRM.ENRR,2015,102.997619628906,qatar,primary_enrollment_ratio_pct,C099
+Qatar,QAT,SE.TER.ENRR,2015,14.5180797576904,qatar,tertiary_enrollment_ratio_pct,C099
+Mauritius,MUS,SE.TER.ENRR,2015,36.6675682067871,mauritius,tertiary_enrollment_ratio_pct,C073
+Portugal,PRT,SE.TER.ENRR,2015,61.8741912841797,portugal,tertiary_enrollment_ratio_pct,C097
+Portugal,PRT,SE.PRM.ENRR,2015,107.369911193848,portugal,primary_enrollment_ratio_pct,C097
+Peru,PER,SE.PRM.ENRR,2015,101.695167541504,peru,primary_enrollment_ratio_pct,C094
+Peru,PER,SE.XPD.TOTL.GD.ZS,2015,3.97865009307861,peru,govt_expenditure_pct_gdp,C094
+Peru,PER,SE.XPD.TOTL.GB.ZS,2015,17.5981903076172,peru,govt_expenditure_pct_govt_spending,C094
+Paraguay,PRY,SE.ADT.LITR.ZS,2015,95.0727,paraguay,adult_literacy_rate_pct,C093
+New Zealand,NZL,SE.XPD.TOTL.GD.ZS,2015,6.36888980865479,new zealand,govt_expenditure_pct_gdp,C083
+Palau,PLW,SE.ADT.LITR.ZS,2015,96.59374,palau,adult_literacy_rate_pct,
+Pakistan,PAK,SE.PRM.ENRR,2015,92.7095413208008,pakistan,primary_enrollment_ratio_pct,C089
+Pakistan,PAK,SE.XPD.TOTL.GD.ZS,2015,2.6467399597168,pakistan,govt_expenditure_pct_gdp,C089
+Pakistan,PAK,SE.XPD.TOTL.GB.ZS,2015,13.1872797012329,pakistan,govt_expenditure_pct_govt_spending,C089
+Oman,OMN,SE.PRM.ENRR,2015,109.281021118164,oman,primary_enrollment_ratio_pct,C088
+Oman,OMN,SE.ADT.LITR.ZS,2015,93.03861,oman,adult_literacy_rate_pct,C088
+Norway,NOR,SE.TER.ENRR,2015,76.6963806152344,norway,tertiary_enrollment_ratio_pct,C087
+Norway,NOR,SE.PRM.ENRR,2015,100.420921325684,norway,primary_enrollment_ratio_pct,C087
+Niger,NER,SE.PRM.ENRR,2015,72.4993515014648,niger,primary_enrollment_ratio_pct,
+New Zealand,NZL,SE.TER.ENRR,2015,83.9313201904297,new zealand,tertiary_enrollment_ratio_pct,C083
+Pakistan,PAK,SE.TER.ENRR,2015,9.92739009857178,pakistan,tertiary_enrollment_ratio_pct,C089
+Mauritius,MUS,SE.PRM.ENRR,2015,103.036361694336,mauritius,primary_enrollment_ratio_pct,C073
+Latvia,LVA,SE.PRM.ENRR,2015,99.6652374267578,latvia,primary_enrollment_ratio_pct,C063
+Mauritius,MUS,SE.XPD.TOTL.GB.ZS,2015,19.017599105835,mauritius,govt_expenditure_pct_govt_spending,C073
+Liechtenstein,LIE,SE.TER.ENRR,2015,33.5420417785645,liechtenstein,tertiary_enrollment_ratio_pct,
+Liechtenstein,LIE,SE.PRM.ENRR,2015,105.665420532227,liechtenstein,primary_enrollment_ratio_pct,
+Liberia,LBR,SE.PRM.ENRR,2015,93.9163284301758,liberia,primary_enrollment_ratio_pct,
+Lesotho,LSO,SE.PRM.ENRR,2015,105.520278930664,lesotho,primary_enrollment_ratio_pct,
+Lebanon,LBN,SE.TER.ENRR,2015,38.4847717285156,lebanon,tertiary_enrollment_ratio_pct,C064
+Lebanon,LBN,SE.PRM.ENRR,2015,92.4138488769531,lebanon,primary_enrollment_ratio_pct,C064
+Lao PDR,LAO,SE.TER.ENRR,2015,16.9058990478516,lao pdr,tertiary_enrollment_ratio_pct,
+Lao PDR,LAO,SE.PRM.ENRR,2015,111.345809936523,lao pdr,primary_enrollment_ratio_pct,
+Kyrgyz Republic,KGZ,SE.TER.ENRR,2015,46.9014511108398,kyrgyz republic,tertiary_enrollment_ratio_pct,
+Kyrgyz Republic,KGZ,SE.PRM.ENRR,2015,107.358581542969,kyrgyz republic,primary_enrollment_ratio_pct,
+Kuwait,KWT,SE.ADT.LITR.ZS,2015,95.68545,kuwait,adult_literacy_rate_pct,C061
+"Korea, Rep.",KOR,SE.TER.ENRR,2015,93.1791381835938,"korea, rep.",tertiary_enrollment_ratio_pct,
+"Korea, Rep.",KOR,SE.PRM.ENRR,2015,99.0090637207031,"korea, rep.",primary_enrollment_ratio_pct,
+"Korea, Rep.",KOR,SE.XPD.TOTL.GD.ZS,2015,5.05211019515991,"korea, rep.",govt_expenditure_pct_gdp,
+"Korea, Dem. People’s Rep.",PRK,SE.TER.ENRR,2015,28.059440612793,"korea, dem. people’s rep.",tertiary_enrollment_ratio_pct,
+"Korea, Dem. People’s Rep.",PRK,SE.PRM.ENRR,2015,76.8337783813477,"korea, dem. people’s rep.",primary_enrollment_ratio_pct,
+Kiribati,KIR,SE.PRM.ENRR,2015,104.463409423828,kiribati,primary_enrollment_ratio_pct,
+Romania,ROU,SE.PRM.ENRR,2015,89.7830581665039,romania,primary_enrollment_ratio_pct,C100
+Kenya,KEN,SE.PRM.ENRR,2015,108.973930358887,kenya,primary_enrollment_ratio_pct,C059
+Lithuania,LTU,SE.PRM.ENRR,2015,103.439102172852,lithuania,primary_enrollment_ratio_pct,C066
+"Macao SAR, China",MAC,SE.PRM.ENRR,2015,100.389106750488,"macao sar, china",primary_enrollment_ratio_pct,
+"Macao SAR, China",MAC,SE.TER.ENRR,2015,75.5988464355469,"macao sar, china",tertiary_enrollment_ratio_pct,
+"Macedonia, FYR",MKD,SE.PRM.ENRR,2015,93.2184982299805,"macedonia, fyr",primary_enrollment_ratio_pct,
+Mauritius,MUS,SE.ADT.LITR.ZS,2015,92.7076,mauritius,adult_literacy_rate_pct,C073
+Mauritania,MRT,SE.PRM.ENRR,2015,102.452171325684,mauritania,primary_enrollment_ratio_pct,
+Marshall Islands,MHL,SE.PRM.ENRR,2015,93.3998565673828,marshall islands,primary_enrollment_ratio_pct,
+Malta,MLT,SE.TER.ENRR,2015,47.4218711853027,malta,tertiary_enrollment_ratio_pct,C072
+Malta,MLT,SE.PRM.ENRR,2015,103.414390563965,malta,primary_enrollment_ratio_pct,C072
+Mali,MLI,SE.PRM.ENRR,2015,75.7903518676758,mali,primary_enrollment_ratio_pct,
+Mali,MLI,SE.ADT.LITR.ZS,2015,33.06889,mali,adult_literacy_rate_pct,
+Maldives,MDV,SE.XPD.TOTL.GD.ZS,2015,5.22350978851318,maldives,govt_expenditure_pct_gdp,
+Mauritius,MUS,SE.XPD.TOTL.GD.ZS,2015,4.88538980484009,mauritius,govt_expenditure_pct_gdp,C073
+Maldives,MDV,SE.XPD.TOTL.GB.ZS,2015,12.8763103485107,maldives,govt_expenditure_pct_govt_spending,
+Malaysia,MYS,SE.PRM.ENRR,2015,101.792053222656,malaysia,primary_enrollment_ratio_pct,C071
+Malaysia,MYS,SE.XPD.TOTL.GD.ZS,2015,4.96636009216309,malaysia,govt_expenditure_pct_gdp,C071
+Malaysia,MYS,SE.XPD.TOTL.GB.ZS,2015,19.724250793457,malaysia,govt_expenditure_pct_govt_spending,C071
+Malawi,MWI,SE.PRM.ENRR,2015,145.465774536133,malawi,primary_enrollment_ratio_pct,C070
+Malawi,MWI,SE.XPD.TOTL.GD.ZS,2015,5.60798978805541,malawi,govt_expenditure_pct_gdp,C070
+Malawi,MWI,SE.XPD.TOTL.GB.ZS,2015,21.5515804290771,malawi,govt_expenditure_pct_govt_spending,C070
+Malawi,MWI,SE.ADT.LITR.ZS,2015,62.14354,malawi,adult_literacy_rate_pct,C070
+Madagascar,MDG,SE.PRM.ENRR,2015,148.894454956055,madagascar,primary_enrollment_ratio_pct,
+"Macedonia, FYR",MKD,SE.TER.ENRR,2015,42.0633506774902,"macedonia, fyr",tertiary_enrollment_ratio_pct,
+Malaysia,MYS,SE.TER.ENRR,2015,26.074089050293,malaysia,tertiary_enrollment_ratio_pct,C071
+Romania,ROU,SE.TER.ENRR,2015,53.2202186584473,romania,tertiary_enrollment_ratio_pct,C100
+Tuvalu,TUV,SE.PRM.ENRR,2015,103.621170043945,tuvalu,primary_enrollment_ratio_pct,
+Russian Federation,RUS,SE.TER.ENRR,2015,80.3940811157227,russia,tertiary_enrollment_ratio_pct,C101
+Turks and Caicos Islands,TCA,SE.XPD.TOTL.GD.ZS,2015,3.26528000831604,turks and caicos islands,govt_expenditure_pct_gdp,C124
+Turkey,TUR,SE.TER.ENRR,2015,94.7322998046875,turkey,tertiary_enrollment_ratio_pct,C122
+Turkey,TUR,SE.PRM.ENRR,2015,102.489669799805,turkey,primary_enrollment_ratio_pct,C122
+Turkey,TUR,SE.ADT.LITR.ZS,2015,95.60142,turkey,adult_literacy_rate_pct,C122
+Tunisia,TUN,SE.TER.ENRR,2015,34.6065788269042,tunisia,tertiary_enrollment_ratio_pct,C121
+Tunisia,TUN,SE.PRM.ENRR,2015,114.174476623535,tunisia,primary_enrollment_ratio_pct,C121
+Togo,TGO,SE.TER.ENRR,2015,10.6259603500366,togo,tertiary_enrollment_ratio_pct,
+Togo,TGO,SE.PRM.ENRR,2015,121.799652099609,togo,primary_enrollment_ratio_pct,
+Togo,TGO,SE.XPD.TOTL.GD.ZS,2015,5.21789979934692,togo,govt_expenditure_pct_gdp,
+Togo,TGO,SE.XPD.TOTL.GB.ZS,2015,17.9854698181152,togo,govt_expenditure_pct_govt_spending,
+Togo,TGO,SE.ADT.LITR.ZS,2015,63.74562,togo,adult_literacy_rate_pct,
+Timor-Leste,TLS,SE.PRM.ENRR,2015,136.843200683594,timor-leste,primary_enrollment_ratio_pct,
+Thailand,THA,SE.TER.ENRR,2015,48.8574409484863,thailand,tertiary_enrollment_ratio_pct,C120
+Thailand,THA,SE.PRM.ENRR,2015,102.729461669922,thailand,primary_enrollment_ratio_pct,C120
+Thailand,THA,SE.ADT.LITR.ZS,2015,92.86831,thailand,adult_literacy_rate_pct,C120
+Tanzania,TZA,SE.PRM.ENRR,2015,81.7060165405273,tanzania,primary_enrollment_ratio_pct,C119
+Tanzania,TZA,SE.ADT.LITR.ZS,2015,77.88723,tanzania,adult_literacy_rate_pct,C119
+United Arab Emirates,ARE,SE.PRM.ENRR,2015,116.345840454102,united arab emirates,primary_enrollment_ratio_pct,C127
+Tajikistan,TJK,SE.XPD.TOTL.GD.ZS,2015,5.23215007781982,tajikistan,govt_expenditure_pct_gdp,
+United Kingdom,GBR,SE.XPD.TOTL.GB.ZS,2015,13.8802404403687,united kingdom,govt_expenditure_pct_govt_spending,C128
+United States,USA,SE.PRM.ENRR,2015,100.147041320801,united states,primary_enrollment_ratio_pct,C129
+Kenya,KEN,SE.XPD.TOTL.GD.ZS,2015,5.2739200592041,kenya,govt_expenditure_pct_gdp,C059
+Zimbabwe,ZWE,SE.TER.ENRR,2015,8.43327045440674,zimbabwe,tertiary_enrollment_ratio_pct,C136
+West Bank and Gaza,PSE,SE.TER.ENRR,2015,44.2832183837891,west bank and gaza,tertiary_enrollment_ratio_pct,
+West Bank and Gaza,PSE,SE.PRM.ENRR,2015,94.3291320800781,west bank and gaza,primary_enrollment_ratio_pct,
+West Bank and Gaza,PSE,SE.XPD.TOTL.GD.ZS,2015,1.32231998443604,west bank and gaza,govt_expenditure_pct_gdp,
+Vietnam,VNM,SE.TER.ENRR,2015,28.8356494903564,vietnam,tertiary_enrollment_ratio_pct,C133
+Vietnam,VNM,SE.PRM.ENRR,2015,108.876678466797,vietnam,primary_enrollment_ratio_pct,C133
+"Venezuela, RB",VEN,SE.PRM.ENRR,2015,99.9998321533203,"venezuela, rb",primary_enrollment_ratio_pct,
+Vanuatu,VUT,SE.PRM.ENRR,2015,119.705497741699,vanuatu,primary_enrollment_ratio_pct,
+Vanuatu,VUT,SE.XPD.TOTL.GD.ZS,2015,5.54987001419067,vanuatu,govt_expenditure_pct_gdp,
+Vanuatu,VUT,SE.XPD.TOTL.GB.ZS,2015,22.2984600067139,vanuatu,govt_expenditure_pct_govt_spending,
+Uzbekistan,UZB,SE.ADT.LITR.ZS,2015,99.98383,uzbekistan,adult_literacy_rate_pct,C131
+Uruguay,URY,SE.TER.ENRR,2015,55.5662689208984,uruguay,tertiary_enrollment_ratio_pct,C130
+Uruguay,URY,SE.ADT.LITR.ZS,2015,98.52387,uruguay,adult_literacy_rate_pct,C130
+United States,USA,SE.TER.ENRR,2015,85.7957763671875,united states,tertiary_enrollment_ratio_pct,C129
+United Kingdom,GBR,SE.XPD.TOTL.GD.ZS,2015,5.68426990509033,united kingdom,govt_expenditure_pct_gdp,C128
+Russian Federation,RUS,SE.PRM.ENRR,2015,100.521110534668,russia,primary_enrollment_ratio_pct,C101
+Tajikistan,TJK,SE.XPD.TOTL.GB.ZS,2015,16.2764091491699,tajikistan,govt_expenditure_pct_govt_spending,
+Switzerland,CHE,SE.TER.ENRR,2015,57.672191619873,switzerland,tertiary_enrollment_ratio_pct,C116
+Solomon Islands,SLB,SE.PRM.ENRR,2015,114.322692871094,solomon islands,primary_enrollment_ratio_pct,
+Slovak Republic,SVK,SE.PRM.ENRR,2015,99.7320709228516,slovak republic,primary_enrollment_ratio_pct,
+Sierra Leone,SLE,SE.PRM.ENRR,2015,127.598937988281,sierra leone,primary_enrollment_ratio_pct,
+Seychelles,SYC,SE.TER.ENRR,2015,14.256199836731,seychelles,tertiary_enrollment_ratio_pct,
+Seychelles,SYC,SE.PRM.ENRR,2015,102.291122436523,seychelles,primary_enrollment_ratio_pct,
+Serbia,SRB,SE.TER.ENRR,2015,58.2876892089844,serbia,tertiary_enrollment_ratio_pct,C105
+Serbia,SRB,SE.PRM.ENRR,2015,101.342918395996,serbia,primary_enrollment_ratio_pct,C105
+Senegal,SEN,SE.TER.ENRR,2015,10.3866596221924,senegal,tertiary_enrollment_ratio_pct,C104
+Senegal,SEN,SE.PRM.ENRR,2015,82.1719436645508,senegal,primary_enrollment_ratio_pct,C104
+Saudi Arabia,SAU,SE.TER.ENRR,2015,63.066219329834,saudi arabia,tertiary_enrollment_ratio_pct,C103
+Saudi Arabia,SAU,SE.PRM.ENRR,2015,109.47802734375,saudi arabia,primary_enrollment_ratio_pct,C103
+Sao Tome and Principe,STP,SE.TER.ENRR,2015,13.4060297012329,sao tome and principe,tertiary_enrollment_ratio_pct,
+Samoa,WSM,SE.PRM.ENRR,2015,106.731147766113,samoa,primary_enrollment_ratio_pct,
+Rwanda,RWA,SE.PRM.ENRR,2015,132.550064086914,rwanda,primary_enrollment_ratio_pct,C102
+Rwanda,RWA,SE.XPD.TOTL.GB.ZS,2015,12.4876403808594,rwanda,govt_expenditure_pct_govt_spending,C102
+South Africa,ZAF,SE.ADT.LITR.ZS,2015,94.36792,south africa,adult_literacy_rate_pct,C110
+Syrian Arab Republic,SYR,SE.TER.ENRR,2015,44.0486183166504,syrian arab republic,tertiary_enrollment_ratio_pct,C117
+South Sudan,SSD,SE.XPD.TOTL.GB.ZS,2015,2.56324005126953,south sudan,govt_expenditure_pct_govt_spending,
+South Sudan,SSD,SE.PRM.ENRR,2015,64.1399383544922,south sudan,primary_enrollment_ratio_pct,
+Switzerland,CHE,SE.PRM.ENRR,2015,103.915130615234,switzerland,primary_enrollment_ratio_pct,C116
+Sweden,SWE,SE.TER.ENRR,2015,62.3007698059082,sweden,tertiary_enrollment_ratio_pct,C115
+Sweden,SWE,SE.PRM.ENRR,2015,123.019187927246,sweden,primary_enrollment_ratio_pct,C115
+Suriname,SUR,SE.PRM.ENRR,2015,122.811721801758,suriname,primary_enrollment_ratio_pct,
+St. Vincent and the Grenadines,VCT,SE.PRM.ENRR,2015,104.521278381348,st. vincent and the grenadines,primary_enrollment_ratio_pct,
+St. Lucia,LCA,SE.TER.ENRR,2015,16.76589012146,st. lucia,tertiary_enrollment_ratio_pct,
+St. Lucia,LCA,SE.XPD.TOTL.GD.ZS,2015,4.89715003967285,st. lucia,govt_expenditure_pct_gdp,
+St. Lucia,LCA,SE.XPD.TOTL.GB.ZS,2015,16.5271606445313,st. lucia,govt_expenditure_pct_govt_spending,
+St. Kitts and Nevis,KNA,SE.TER.ENRR,2015,79.5645294189453,st. kitts and nevis,tertiary_enrollment_ratio_pct,
+St. Kitts and Nevis,KNA,SE.PRM.ENRR,2015,82.5056610107422,st. kitts and nevis,primary_enrollment_ratio_pct,
+St. Kitts and Nevis,KNA,SE.XPD.TOTL.GD.ZS,2015,2.78424000740051,st. kitts and nevis,govt_expenditure_pct_gdp,
+St. Kitts and Nevis,KNA,SE.XPD.TOTL.GB.ZS,2015,8.79691028594971,st. kitts and nevis,govt_expenditure_pct_govt_spending,
+Sri Lanka,LKA,SE.TER.ENRR,2015,19.7966194152832,sri lanka,tertiary_enrollment_ratio_pct,C113
+Sri Lanka,LKA,SE.PRM.ENRR,2015,101.676696777344,sri lanka,primary_enrollment_ratio_pct,C113
+Sri Lanka,LKA,SE.XPD.TOTL.GD.ZS,2015,2.17912006378174,sri lanka,govt_expenditure_pct_gdp,C113
+Sri Lanka,LKA,SE.XPD.TOTL.GB.ZS,2015,10.9502601623535,sri lanka,govt_expenditure_pct_govt_spending,C113
+Spain,ESP,SE.TER.ENRR,2015,89.6701431274414,spain,tertiary_enrollment_ratio_pct,C112
+Spain,ESP,SE.PRM.ENRR,2015,105.026321411133,spain,primary_enrollment_ratio_pct,C112
+Kenya,KEN,SE.XPD.TOTL.GB.ZS,2015,16.4687805175781,kenya,govt_expenditure_pct_govt_spending,C059
+British Virgin Islands,VGB,SE.XPD.TOTL.GD.ZS,2015,6.64192008972167,british virgin islands,govt_expenditure_pct_gdp,
+British Virgin Islands,VGB,SE.TER.ENRR,2015,41.6414909362792,british virgin islands,tertiary_enrollment_ratio_pct,
+British Virgin Islands,VGB,SE.PRM.ENRR,2015,98.9684600830078,british virgin islands,primary_enrollment_ratio_pct,
+Brazil,BRA,SE.TER.ENRR,2015,50.6049194335938,brazil,tertiary_enrollment_ratio_pct,C016
+Brazil,BRA,SE.PRM.ENRR,2015,115.340789794922,brazil,primary_enrollment_ratio_pct,C016
+Bolivia,BOL,SE.PRM.ENRR,2015,97.1380386352539,bolivia,primary_enrollment_ratio_pct,C013
+Bolivia,BOL,SE.ADT.LITR.ZS,2015,92.45508,bolivia,adult_literacy_rate_pct,C013
+Bhutan,BTN,SE.XPD.TOTL.GD.ZS,2015,7.36169004440308,bhutan,govt_expenditure_pct_gdp,
+Brunei Darussalam,BRN,SE.PRM.ENRR,2015,108.137702941895,brunei darussalam,primary_enrollment_ratio_pct,C018
+Bhutan,BTN,SE.XPD.TOTL.GB.ZS,2015,25.5244808197021,bhutan,govt_expenditure_pct_govt_spending,
+Bermuda,BMU,SE.PRM.ENRR,2015,90.3485794067383,bermuda,primary_enrollment_ratio_pct,
+Bermuda,BMU,SE.XPD.TOTL.GD.ZS,2015,1.7043000459671,bermuda,govt_expenditure_pct_gdp,
+Bermuda,BMU,SE.XPD.TOTL.GB.ZS,2015,9.01879978179932,bermuda,govt_expenditure_pct_govt_spending,
+Benin,BEN,SE.PRM.ENRR,2015,128.983352661133,benin,primary_enrollment_ratio_pct,
+Benin,BEN,SE.XPD.TOTL.GD.ZS,2015,4.35980987548828,benin,govt_expenditure_pct_gdp,
+Benin,BEN,SE.XPD.TOTL.GB.ZS,2015,17.4795207977295,benin,govt_expenditure_pct_govt_spending,
+Belize,BLZ,SE.TER.ENRR,2015,23.2903499603271,belize,tertiary_enrollment_ratio_pct,
+Belize,BLZ,SE.PRM.ENRR,2015,113.138511657715,belize,primary_enrollment_ratio_pct,
+Bermuda,BMU,SE.TER.ENRR,2015,24.3006992340088,bermuda,tertiary_enrollment_ratio_pct,
+Brunei Darussalam,BRN,SE.TER.ENRR,2015,30.8447799682617,brunei darussalam,tertiary_enrollment_ratio_pct,C018
+Bulgaria,BGR,SE.PRM.ENRR,2015,97.2181777954102,bulgaria,primary_enrollment_ratio_pct,C019
+Bulgaria,BGR,SE.TER.ENRR,2015,73.934196472168,bulgaria,tertiary_enrollment_ratio_pct,C019
+Colombia,COL,SE.ADT.LITR.ZS,2015,94.24505,colombia,adult_literacy_rate_pct,C024
+China,CHN,SE.TER.ENRR,2015,43.3917694091797,china,tertiary_enrollment_ratio_pct,C023
+China,CHN,SE.PRM.ENRR,2015,104.125129699707,china,primary_enrollment_ratio_pct,C023
+Chile,CHL,SE.TER.ENRR,2015,88.577293395996,chile,tertiary_enrollment_ratio_pct,C022
+Chile,CHL,SE.PRM.ENRR,2015,101.643730163574,chile,primary_enrollment_ratio_pct,C022
+Chile,CHL,SE.XPD.TOTL.GD.ZS,2015,4.92324018478394,chile,govt_expenditure_pct_gdp,C022
+Chile,CHL,SE.XPD.TOTL.GB.ZS,2015,18.9029693603516,chile,govt_expenditure_pct_govt_spending,C022
+Cameroon,CMR,SE.TER.ENRR,2015,17.4778995513916,cameroon,tertiary_enrollment_ratio_pct,
+Cameroon,CMR,SE.PRM.ENRR,2015,117.133857727051,cameroon,primary_enrollment_ratio_pct,
+Cambodia,KHM,SE.TER.ENRR,2015,13.0882596969604,cambodia,tertiary_enrollment_ratio_pct,C020
+Cambodia,KHM,SE.PRM.ENRR,2015,116.657127380371,cambodia,primary_enrollment_ratio_pct,C020
+Cabo Verde,CPV,SE.TER.ENRR,2015,21.707820892334,cabo verde,tertiary_enrollment_ratio_pct,
+Cabo Verde,CPV,SE.PRM.ENRR,2015,109.887901306152,cabo verde,primary_enrollment_ratio_pct,
+Cabo Verde,CPV,SE.ADT.LITR.ZS,2015,86.79029,cabo verde,adult_literacy_rate_pct,
+Burundi,BDI,SE.PRM.ENRR,2015,123.781791687012,burundi,primary_enrollment_ratio_pct,
+Burkina Faso,BFA,SE.XPD.TOTL.GD.ZS,2015,4.06224012374878,burkina faso,govt_expenditure_pct_gdp,
+Burkina Faso,BFA,SE.XPD.TOTL.GB.ZS,2015,18.0290603637695,burkina faso,govt_expenditure_pct_govt_spending,
+Belgium,BEL,SE.TER.ENRR,2015,75.0368270874023,belgium,tertiary_enrollment_ratio_pct,C012
+Belgium,BEL,SE.PRM.ENRR,2015,104.192977905273,belgium,primary_enrollment_ratio_pct,C012
+Belarus,BLR,SE.TER.ENRR,2015,87.9407424926758,belarus,tertiary_enrollment_ratio_pct,C011
+Belarus,BLR,SE.PRM.ENRR,2015,101.341621398926,belarus,primary_enrollment_ratio_pct,C011
+Algeria,DZA,SE.TER.ENRR,2015,36.9222793579102,algeria,tertiary_enrollment_ratio_pct,C002
+Algeria,DZA,SE.PRM.ENRR,2015,116.154441833496,algeria,primary_enrollment_ratio_pct,C002
+Albania,ALB,SE.TER.ENRR,2015,58.1099510192871,albania,tertiary_enrollment_ratio_pct,C001
+Albania,ALB,SE.PRM.ENRR,2015,113.699798583984,albania,primary_enrollment_ratio_pct,C001
+Afghanistan,AFG,SE.PRM.ENRR,2015,111.877082824707,afghanistan,primary_enrollment_ratio_pct,
+Afghanistan,AFG,SE.XPD.TOTL.GD.ZS,2015,3.31753993034363,afghanistan,govt_expenditure_pct_gdp,
+Afghanistan,AFG,SE.XPD.TOTL.GB.ZS,2015,12.5089998245239,afghanistan,govt_expenditure_pct_govt_spending,
+World,WLD,SE.TER.ENRR,2015,35.6925582885742,world,tertiary_enrollment_ratio_pct,
+World,WLD,SE.PRM.ENRR,2015,104.296676635742,world,primary_enrollment_ratio_pct,
+Upper middle income,UMC,SE.TER.ENRR,2015,46.9158592224121,upper middle income,tertiary_enrollment_ratio_pct,
+Upper middle income,UMC,SE.PRM.ENRR,2015,105.775108337402,upper middle income,primary_enrollment_ratio_pct,
+Middle income,MIC,SE.TER.ENRR,2015,33.2736396789551,middle income,tertiary_enrollment_ratio_pct,
+Middle income,MIC,SE.PRM.ENRR,2015,104.852508544922,middle income,primary_enrollment_ratio_pct,
+Lower middle income,LMC,SE.TER.ENRR,2015,23.1234607696533,lower middle income,tertiary_enrollment_ratio_pct,
+Lower middle income,LMC,SE.PRM.ENRR,2015,104.279373168945,lower middle income,primary_enrollment_ratio_pct,
+Low income,LIC,SE.TER.ENRR,2015,7.62687015533447,low income,tertiary_enrollment_ratio_pct,
+Low income,LIC,SE.PRM.ENRR,2015,102.756126403809,low income,primary_enrollment_ratio_pct,
+High income,HIC,SE.TER.ENRR,2015,73.7469177246094,high income,tertiary_enrollment_ratio_pct,
+High income,HIC,SE.PRM.ENRR,2015,102.610298156738,high income,primary_enrollment_ratio_pct,
+Colombia,COL,SE.XPD.TOTL.GB.ZS,2015,15.0461196899414,colombia,govt_expenditure_pct_govt_spending,C024
+Andorra,AND,SE.XPD.TOTL.GD.ZS,2015,3.25367999076843,andorra,govt_expenditure_pct_gdp,
+Antigua and Barbuda,ATG,SE.PRM.ENRR,2015,97.0528717041016,antigua and barbuda,primary_enrollment_ratio_pct,
+Belarus,BLR,SE.XPD.TOTL.GD.ZS,2015,4.94764995574951,belarus,govt_expenditure_pct_gdp,C011
+Belarus,BLR,SE.XPD.TOTL.GB.ZS,2015,11.1952104568481,belarus,govt_expenditure_pct_govt_spending,C011
+Bangladesh,BGD,SE.PRM.ENRR,2015,120.433059692383,bangladesh,primary_enrollment_ratio_pct,C010
+Bahrain,BHR,SE.TER.ENRR,2015,43.2632293701172,bahrain,tertiary_enrollment_ratio_pct,C009
+Bahrain,BHR,SE.PRM.ENRR,2015,101.171173095703,bahrain,primary_enrollment_ratio_pct,C009
+Bahrain,BHR,SE.XPD.TOTL.GD.ZS,2015,2.66808009147644,bahrain,govt_expenditure_pct_gdp,C009
+Bahrain,BHR,SE.XPD.TOTL.GB.ZS,2015,7.66079998016357,bahrain,govt_expenditure_pct_govt_spending,C009
+Azerbaijan,AZE,SE.TER.ENRR,2015,25.4832000732422,azerbaijan,tertiary_enrollment_ratio_pct,C008
+Azerbaijan,AZE,SE.PRM.ENRR,2015,106.601486206055,azerbaijan,primary_enrollment_ratio_pct,C008
+Austria,AUT,SE.TER.ENRR,2015,81.5405120849609,austria,tertiary_enrollment_ratio_pct,C007
+Austria,AUT,SE.PRM.ENRR,2015,102.970161437988,austria,primary_enrollment_ratio_pct,C007
+Australia,AUS,SE.PRM.ENRR,2015,102.207817077637,australia,primary_enrollment_ratio_pct,C006
+Aruba,ABW,SE.TER.ENRR,2015,15.2737798690796,aruba,tertiary_enrollment_ratio_pct,
+Armenia,ARM,SE.TER.ENRR,2015,44.3095016479492,armenia,tertiary_enrollment_ratio_pct,C005
+Armenia,ARM,SE.PRM.ENRR,2015,98.4666213989258,armenia,primary_enrollment_ratio_pct,C005
+Armenia,ARM,SE.XPD.TOTL.GD.ZS,2015,2.81350994110107,armenia,govt_expenditure_pct_gdp,C005
+Armenia,ARM,SE.XPD.TOTL.GB.ZS,2015,10.6563596725464,armenia,govt_expenditure_pct_govt_spending,C005
+Argentina,ARG,SE.ADT.LITR.ZS,2015,98.09,argentina,adult_literacy_rate_pct,C004
+Angola,AGO,SE.TER.ENRR,2015,9.30801963806152,angola,tertiary_enrollment_ratio_pct,C003
+Colombia,COL,SE.XPD.TOTL.GD.ZS,2015,4.49099016189575,colombia,govt_expenditure_pct_gdp,C024
+Burkina Faso,BFA,SE.PRM.ENRR,2015,87.9926300048828,burkina faso,primary_enrollment_ratio_pct,
+Colombia,COL,SE.TER.ENRR,2015,55.6572685241699,colombia,tertiary_enrollment_ratio_pct,C024
+Hungary,HUN,SE.TER.ENRR,2015,50.8622016906738,hungary,tertiary_enrollment_ratio_pct,C046
+Colombia,COL,SE.PRM.ENRR,2015,113.562721252441,colombia,primary_enrollment_ratio_pct,C024
+"Hong Kong SAR, China",HKG,SE.TER.ENRR,2015,68.475456237793,"hong kong sar, china",tertiary_enrollment_ratio_pct,
+"Hong Kong SAR, China",HKG,SE.XPD.TOTL.GD.ZS,2015,3.26212000846863,"hong kong sar, china",govt_expenditure_pct_gdp,
+"Hong Kong SAR, China",HKG,SE.XPD.TOTL.GB.ZS,2015,18.608570098877,"hong kong sar, china",govt_expenditure_pct_govt_spending,
+Honduras,HND,SE.TER.ENRR,2015,22.0593700408936,honduras,tertiary_enrollment_ratio_pct,C044
+Honduras,HND,SE.PRM.ENRR,2015,110.713768005371,honduras,primary_enrollment_ratio_pct,C044
+Guatemala,GTM,SE.TER.ENRR,2015,21.846809387207,guatemala,tertiary_enrollment_ratio_pct,C043
+Guatemala,GTM,SE.PRM.ENRR,2015,101.791412353516,guatemala,primary_enrollment_ratio_pct,C043
+Guatemala,GTM,SE.XPD.TOTL.GD.ZS,2015,2.95595002174377,guatemala,govt_expenditure_pct_gdp,C043
+Guatemala,GTM,SE.XPD.TOTL.GB.ZS,2015,24.0855007171631,guatemala,govt_expenditure_pct_govt_spending,C043
+Grenada,GRD,SE.TER.ENRR,2015,91.1477432250977,grenada,tertiary_enrollment_ratio_pct,
+Grenada,GRD,SE.PRM.ENRR,2015,104.86701965332,grenada,primary_enrollment_ratio_pct,
+Greenland,GRL,SE.ADT.LITR.ZS,2015,100.0,greenland,adult_literacy_rate_pct,
+Ghana,GHA,SE.TER.ENRR,2015,16.2305107116699,ghana,tertiary_enrollment_ratio_pct,C041
+Germany,DEU,SE.TER.ENRR,2015,68.2655868530273,germany,tertiary_enrollment_ratio_pct,C040
+Germany,DEU,SE.PRM.ENRR,2015,104.969528198242,germany,primary_enrollment_ratio_pct,C040
+India,IND,SE.PRM.ENRR,2015,108.600616455078,india,primary_enrollment_ratio_pct,C048
+Georgia,GEO,SE.TER.ENRR,2015,43.4195289611816,georgia,tertiary_enrollment_ratio_pct,C039
+India,IND,SE.TER.ENRR,2015,26.8748798370361,india,tertiary_enrollment_ratio_pct,C048
+Indonesia,IDN,SE.XPD.TOTL.GB.ZS,2015,20.5176296234131,indonesia,govt_expenditure_pct_govt_spending,C049
+Kazakhstan,KAZ,SE.XPD.TOTL.GD.ZS,2015,2.78749990463257,kazakhstan,govt_expenditure_pct_gdp,C058
+Kazakhstan,KAZ,SE.XPD.TOTL.GB.ZS,2015,11.8872003555298,kazakhstan,govt_expenditure_pct_govt_spending,C058
+Jordan,JOR,SE.TER.ENRR,2015,44.8695182800292,jordan,tertiary_enrollment_ratio_pct,C057
+Jamaica,JAM,SE.TER.ENRR,2015,27.2202701568604,jamaica,tertiary_enrollment_ratio_pct,C055
+Jamaica,JAM,SE.XPD.TOTL.GD.ZS,2015,5.46195983886719,jamaica,govt_expenditure_pct_gdp,C055
+Jamaica,JAM,SE.XPD.TOTL.GB.ZS,2015,20.0514793395996,jamaica,govt_expenditure_pct_govt_spending,C055
+Italy,ITA,SE.TER.ENRR,2015,62.4960708618164,italy,tertiary_enrollment_ratio_pct,C054
+Italy,ITA,SE.PRM.ENRR,2015,101.037353515625,italy,primary_enrollment_ratio_pct,C054
+Israel,ISR,SE.TER.ENRR,2015,64.7467803955078,israel,tertiary_enrollment_ratio_pct,C053
+Israel,ISR,SE.PRM.ENRR,2015,104.776382446289,israel,primary_enrollment_ratio_pct,C053
+Ireland,IRL,SE.TER.ENRR,2015,83.7777862548828,ireland,tertiary_enrollment_ratio_pct,C052
+Ireland,IRL,SE.PRM.ENRR,2015,101.428001403809,ireland,primary_enrollment_ratio_pct,C052
+"Iran, Islamic Rep.",IRN,SE.TER.ENRR,2015,71.8811416625977,"iran, islamic rep.",tertiary_enrollment_ratio_pct,
+"Iran, Islamic Rep.",IRN,SE.PRM.ENRR,2015,108.916007995605,"iran, islamic rep.",primary_enrollment_ratio_pct,
+"Iran, Islamic Rep.",IRN,SE.XPD.TOTL.GD.ZS,2015,2.92898988723755,"iran, islamic rep.",govt_expenditure_pct_gdp,
+"Iran, Islamic Rep.",IRN,SE.XPD.TOTL.GB.ZS,2015,18.5687503814697,"iran, islamic rep.",govt_expenditure_pct_govt_spending,
+Indonesia,IDN,SE.TER.ENRR,2015,24.254940032959,indonesia,tertiary_enrollment_ratio_pct,C049
+Indonesia,IDN,SE.PRM.ENRR,2015,105.852752685547,indonesia,primary_enrollment_ratio_pct,C049
+Indonesia,IDN,SE.XPD.TOTL.GD.ZS,2015,3.59180998802185,indonesia,govt_expenditure_pct_gdp,C049
+Georgia,GEO,SE.PRM.ENRR,2015,116.784652709961,georgia,primary_enrollment_ratio_pct,C039
+Hungary,HUN,SE.PRM.ENRR,2015,101.616149902344,hungary,primary_enrollment_ratio_pct,C046
+Finland,FIN,SE.TER.ENRR,2015,87.2897033691406,finland,tertiary_enrollment_ratio_pct,C037
+Denmark,DNK,SE.PRM.ENRR,2015,101.516006469727,denmark,primary_enrollment_ratio_pct,C030
+Czech Republic,CZE,SE.TER.ENRR,2015,64.9667129516602,czechia,tertiary_enrollment_ratio_pct,C029
+Czech Republic,CZE,SE.PRM.ENRR,2015,99.7469635009766,czechia,primary_enrollment_ratio_pct,C029
+Cyprus,CYP,SE.TER.ENRR,2015,60.1012306213379,cyprus,tertiary_enrollment_ratio_pct,C028
+Cyprus,CYP,SE.PRM.ENRR,2015,99.3001174926758,cyprus,primary_enrollment_ratio_pct,C028
+Cuba,CUB,SE.TER.ENRR,2015,36.2803993225098,cuba,tertiary_enrollment_ratio_pct,C027
+Cuba,CUB,SE.PRM.ENRR,2015,97.550926208496,cuba,primary_enrollment_ratio_pct,C027
+Croatia,HRV,SE.TER.ENRR,2015,69.052490234375,croatia,tertiary_enrollment_ratio_pct,C026
+Croatia,HRV,SE.PRM.ENRR,2015,97.9641494750977,croatia,primary_enrollment_ratio_pct,C026
+Cote d'Ivoire,CIV,SE.TER.ENRR,2015,9.15526962280273,cote d'ivoire,tertiary_enrollment_ratio_pct,
+Cote d'Ivoire,CIV,SE.PRM.ENRR,2015,93.634521484375,cote d'ivoire,primary_enrollment_ratio_pct,
+Cote d'Ivoire,CIV,SE.XPD.TOTL.GD.ZS,2015,5.03422021865845,cote d'ivoire,govt_expenditure_pct_gdp,
+Cote d'Ivoire,CIV,SE.XPD.TOTL.GB.ZS,2015,21.1732196807861,cote d'ivoire,govt_expenditure_pct_govt_spending,
+Costa Rica,CRI,SE.TER.ENRR,2015,53.6296615600586,costa rica,tertiary_enrollment_ratio_pct,C025
+Costa Rica,CRI,SE.PRM.ENRR,2015,109.817657470703,costa rica,primary_enrollment_ratio_pct,C025
+Costa Rica,CRI,SE.XPD.TOTL.GD.ZS,2015,7.17601013183594,costa rica,govt_expenditure_pct_gdp,C025
+Costa Rica,CRI,SE.XPD.TOTL.GB.ZS,2015,23.3804302215576,costa rica,govt_expenditure_pct_govt_spending,C025
+Comoros,COM,SE.XPD.TOTL.GB.ZS,2015,15.3246603012085,comoros,govt_expenditure_pct_govt_spending,
+Denmark,DNK,SE.TER.ENRR,2015,82.7869720458984,denmark,tertiary_enrollment_ratio_pct,C030
+Comoros,COM,SE.XPD.TOTL.GD.ZS,2015,4.34328985214233,comoros,govt_expenditure_pct_gdp,
+Dominican Republic,DOM,SE.ADT.LITR.ZS,2015,91.99121,dominican republic,adult_literacy_rate_pct,C031
+Dominica,DMA,SE.PRM.ENRR,2015,116.012321472168,dominica,primary_enrollment_ratio_pct,
+Fiji,FJI,SE.PRM.ENRR,2015,105.544822692871,fiji,primary_enrollment_ratio_pct,C036
+Ethiopia,ETH,SE.PRM.ENRR,2015,102.122062683105,ethiopia,primary_enrollment_ratio_pct,C035
+Estonia,EST,SE.TER.ENRR,2015,69.5504302978516,estonia,tertiary_enrollment_ratio_pct,C034
+Estonia,EST,SE.PRM.ENRR,2015,98.4112091064453,estonia,primary_enrollment_ratio_pct,C034
+Eritrea,ERI,SE.PRM.ENRR,2015,49.6370697021484,eritrea,primary_enrollment_ratio_pct,
+Equatorial Guinea,GNQ,SE.PRM.ENRR,2015,79.1203231811523,equatorial guinea,primary_enrollment_ratio_pct,
+El Salvador,SLV,SE.TER.ENRR,2015,29.1310997009277,el salvador,tertiary_enrollment_ratio_pct,
+El Salvador,SLV,SE.PRM.ENRR,2015,109.179130554199,el salvador,primary_enrollment_ratio_pct,
+Finland,FIN,SE.PRM.ENRR,2015,101.533729553223,finland,primary_enrollment_ratio_pct,C037
+El Salvador,SLV,SE.XPD.TOTL.GB.ZS,2015,16.6015605926514,el salvador,govt_expenditure_pct_govt_spending,
+El Salvador,SLV,SE.XPD.TOTL.GD.ZS,2015,3.54505991935729,el salvador,govt_expenditure_pct_gdp,
+Dominican Republic,DOM,SE.TER.ENRR,2015,50.1163902282715,dominican republic,tertiary_enrollment_ratio_pct,C031
+Ecuador,ECU,SE.XPD.TOTL.GB.ZS,2015,12.787859916687,ecuador,govt_expenditure_pct_govt_spending,C032
+Dominican Republic,DOM,SE.PRM.ENRR,2015,103.490539550781,dominican republic,primary_enrollment_ratio_pct,C031
+"Egypt, Arab Rep.",EGY,SE.TER.ENRR,2015,36.2285385131836,"egypt, arab rep.",tertiary_enrollment_ratio_pct,
+El Salvador,SLV,SE.ADT.LITR.ZS,2015,87.96985,el salvador,adult_literacy_rate_pct,
+Ecuador,ECU,SE.XPD.TOTL.GD.ZS,2015,4.96322011947632,ecuador,govt_expenditure_pct_gdp,C032
+Rwanda,RWA,SE.TER.ENRR,2016,7.95872020721436,rwanda,tertiary_enrollment_ratio_pct,C102
+Myanmar,MMR,SE.ADT.LITR.ZS,2016,75.5512,myanmar,adult_literacy_rate_pct,
+Nepal,NPL,SE.PRM.ENRR,2016,135.86213684082,nepal,primary_enrollment_ratio_pct,C081
+Palau,PLW,SE.PRM.ENRR,2016,99.6418304443359,palau,primary_enrollment_ratio_pct,
+Peru,PER,SE.ADT.LITR.ZS,2016,94.17367,peru,adult_literacy_rate_pct,C094
+Rwanda,RWA,SE.XPD.TOTL.GD.ZS,2016,3.61734008789063,rwanda,govt_expenditure_pct_gdp,C102
+Mauritania,MRT,SE.TER.ENRR,2016,5.3434100151062,mauritania,tertiary_enrollment_ratio_pct,
+Spain,ESP,SE.ADT.LITR.ZS,2016,98.25051,spain,adult_literacy_rate_pct,C112
+Serbia,SRB,SE.ADT.LITR.ZS,2016,98.84151,serbia,adult_literacy_rate_pct,C105
+Singapore,SGP,SE.ADT.LITR.ZS,2016,97.04959,singapore,adult_literacy_rate_pct,C106
+South Sudan,SSD,SE.XPD.TOTL.GD.ZS,2016,1.81094002723694,south sudan,govt_expenditure_pct_gdp,
+Tajikistan,TJK,SE.PRM.ENRR,2016,100.468292236328,tajikistan,primary_enrollment_ratio_pct,
+Tajikistan,TJK,SE.TER.ENRR,2016,28.8948802947998,tajikistan,tertiary_enrollment_ratio_pct,
+Uzbekistan,UZB,SE.PRM.ENRR,2016,104.397750854492,uzbekistan,primary_enrollment_ratio_pct,C131
+Uzbekistan,UZB,SE.TER.ENRR,2016,9.0930004119873,uzbekistan,tertiary_enrollment_ratio_pct,C131
+Maldives,MDV,SE.PRM.ENRR,2016,97.9177780151367,maldives,primary_enrollment_ratio_pct,
+Sao Tome and Principe,STP,SE.PRM.ENRR,2016,114.956253051758,sao tome and principe,primary_enrollment_ratio_pct,
+"Macao SAR, China",MAC,SE.ADT.LITR.ZS,2016,96.53849,"macao sar, china",adult_literacy_rate_pct,
+Chad,TCD,SE.ADT.LITR.ZS,2016,22.31155,chad,adult_literacy_rate_pct,
+Kazakhstan,KAZ,SE.PRM.ENRR,2016,108.959716796875,kazakhstan,primary_enrollment_ratio_pct,C058
+"Venezuela, RB",VEN,SE.ADT.LITR.ZS,2016,97.12709,"venezuela, rb",adult_literacy_rate_pct,
+Andorra,AND,SE.ADT.LITR.ZS,2016,100.0,andorra,adult_literacy_rate_pct,
+Azerbaijan,AZE,SE.ADT.LITR.ZS,2016,99.79006,azerbaijan,adult_literacy_rate_pct,C008
+Bangladesh,BGD,SE.ADT.LITR.ZS,2016,72.75872,bangladesh,adult_literacy_rate_pct,C010
+Bangladesh,BGD,SE.XPD.TOTL.GD.ZS,2016,1.92633998394012,bangladesh,govt_expenditure_pct_gdp,C010
+Bhutan,BTN,SE.PRM.ENRR,2016,96.7488098144531,bhutan,primary_enrollment_ratio_pct,
+Botswana,BWA,SE.TER.ENRR,2016,23.4330101013184,botswana,tertiary_enrollment_ratio_pct,C015
+Brunei Darussalam,BRN,SE.XPD.TOTL.GD.ZS,2016,4.42540979385375,brunei darussalam,govt_expenditure_pct_gdp,C018
+Burkina Faso,BFA,SE.TER.ENRR,2016,5.56218004226685,burkina faso,tertiary_enrollment_ratio_pct,
+"Congo, Dem. Rep.",COD,SE.ADT.LITR.ZS,2016,77.04268,"congo, dem. rep.",adult_literacy_rate_pct,
+Djibouti,DJI,SE.PRM.ENRR,2016,64.8373718261719,djibouti,primary_enrollment_ratio_pct,
+Ecuador,ECU,SE.ADT.LITR.ZS,2016,94.35023,ecuador,adult_literacy_rate_pct,C032
+Ecuador,ECU,SE.PRM.ENRR,2016,107.622817993164,ecuador,primary_enrollment_ratio_pct,C032
+"Gambia, The",GMB,SE.PRM.ENRR,2016,93.4370193481445,"gambia, the",primary_enrollment_ratio_pct,
+Ghana,GHA,SE.PRM.ENRR,2016,108.001403808594,ghana,primary_enrollment_ratio_pct,C041
+Honduras,HND,SE.ADT.LITR.ZS,2016,88.98748,honduras,adult_literacy_rate_pct,C044
+Indonesia,IDN,SE.ADT.LITR.ZS,2016,95.37697,indonesia,adult_literacy_rate_pct,C049
+Kazakhstan,KAZ,SE.TER.ENRR,2016,46.2638206481934,kazakhstan,tertiary_enrollment_ratio_pct,C058
+West Bank and Gaza,PSE,SE.ADT.LITR.ZS,2016,96.93023,west bank and gaza,adult_literacy_rate_pct,
