@@ -1,0 +1,13 @@
+check,passed,detail
+No duplicate university_id,True,
+No duplicate country_id,True,
+Every university has a country_id (post-merge),True,97.1% populated
+university_name standardized (no leading/trailing whitespace in display_name),True,
+Ranking fields are numeric,True,
+KPI values are numeric (global_ranking_score),True,
+Every zero-value global_ranking_score is a genuine minimum score (not a missing-value fill),True,"11 exact-zero rows, all backed by a real overall_score_source_native value"
+Every country_id maps to exactly one country_name,True,
+Year identified on every fact row,True,
+fact_country_education has no duplicate country_id,True,
+All World Bank indicator columns are numeric,True,
+No World Bank indicator silently filled with 0 for a country with no data,True,checks for any country row that is all-zero across every indicator (a real fill artifact would look like this)

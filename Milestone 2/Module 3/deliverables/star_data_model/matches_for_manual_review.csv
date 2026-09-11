@@ -1,0 +1,147 @@
+qs_name,country,the_name,similarity,match_type,quality,pair,wur_name
+The University of Melbourne,australia,University of Melbourne,92.0,Fuzzy,Review,QS<->THE,
+The University of Hong Kong,hong kong,University of Hong Kong,92.0,Fuzzy,Review,QS<->THE,
+University of Chicago,united states,The University of Chicago,91.30434782608697,Fuzzy,Review,QS<->THE,
+The University of Edinburgh,united kingdom,University of Edinburgh,92.0,Fuzzy,Review,QS<->THE,
+The Australian National University,australia,Australian National University,93.75,Fuzzy,Review,QS<->THE,
+The University of Manchester,united kingdom,University of Manchester,92.3076923076923,Fuzzy,Review,QS<->THE,
+The Chinese University of Hong Kong (CUHK),hong kong,Chinese University of Hong Kong,93.93939393939394,Fuzzy,Review,QS<->THE,
+KAIST - Korea Advanced Institute of Science & Technology,south korea,Korea Advanced Institute of Science and Technology (KAIST),90.19607843137256,Fuzzy,Review,QS<->THE,
+The Hong Kong Polytechnic University,hong kong,Hong Kong Polytechnic University,94.11764705882352,Fuzzy,Review,QS<->THE,
+The University of Auckland,new zealand,University of Auckland,91.66666666666666,Fuzzy,Review,QS<->THE,
+The University of Warwick,united kingdom,University of Warwick,91.30434782608697,Fuzzy,Review,QS<->THE,
+The University of Adelaide,australia,University of Adelaide,91.66666666666666,Fuzzy,Review,QS<->THE,
+"KIT, Karlsruhe Institute of Technology",germany,Karlsruhe Institute of Technology,94.28571428571428,Fuzzy,Review,QS<->THE,
+The University of Sheffield,united kingdom,University of Sheffield,92.0,Fuzzy,Review,QS<->THE,
+The University of Exeter,united kingdom,University of Exeter,90.9090909090909,Fuzzy,Review,QS<->THE,
+The Ohio State University,united states,Ohio State University (Main campus),91.30434782608697,Fuzzy,Review,QS<->THE,
+Indian Institute of Technology Madras (IITM),india,Indian Institute of Technology Mandi,93.15068493150685,Fuzzy,Review,QS<->THE,
+Gadjah Mada University,indonesia,Universitas Gadjah Mada,93.33333333333333,Fuzzy,Review,QS<->THE,
+Indian Institute of Technology Kanpur (IITK),india,Indian Institute of Technology Mandi,90.41095890410959,Fuzzy,Review,QS<->THE,
+Universitat Pompeu Fabra (Barcelona),spain,Pompeu Fabra University,93.61702127659575,Fuzzy,Review,QS<->THE,
+University of Witwatersrand,south africa,University of the Witwatersrand,93.10344827586206,Fuzzy,Review,QS<->THE,
+The Hebrew University of Jerusalem,israel,Hebrew University of Jerusalem,93.75,Fuzzy,Review,QS<->THE,
+The University of Arizona,united states,University of Arizona,91.30434782608697,Fuzzy,Review,QS<->THE,
+Airlangga University,indonesia,Universitas Airlangga,92.6829268292683,Fuzzy,Review,QS<->THE,
+Indian Institute of Technology Roorkee (IITR),india,Indian Institute of Technology Ropar,91.89189189189189,Fuzzy,Review,QS<->THE,
+National University of Sciences And Technology (NUST) Islamabad,pakistan,National University of Sciences and Technology,90.19607843137256,Fuzzy,Review,QS<->THE,
+University of Jordan,jordan,The University of Jordan,90.9090909090909,Fuzzy,Review,QS<->THE,
+Ruhr-Universität Bochum,germany,Ruhr University Bochum,90.9090909090909,Fuzzy,Review,QS<->THE,
+USI - Università della Svizzera italiana,switzerland,Università della Svizzera italiana,94.44444444444444,Fuzzy,Review,QS<->THE,
+The American University in Cairo,egypt,American University in Cairo,93.33333333333333,Fuzzy,Review,QS<->THE,
+Bogaziçi University,turkey,Boğaziçi University,94.73684210526316,Fuzzy,Review,QS<->THE,
+Umea University,sweden,Umeå University,93.33333333333333,Fuzzy,Review,QS<->THE,
+Johannes Gutenberg Universität Mainz,germany,Johannes Gutenberg University of Mainz,91.89189189189189,Fuzzy,Review,QS<->THE,
+Sabanci University,turkey,Sabancı University,94.44444444444444,Fuzzy,Review,QS<->THE,
+Ural Federal University - UrFU,russia,Ural Federal University,90.19607843137256,Fuzzy,Review,QS<->THE,
+MGIMO University,russia,ITMO University,90.32258064516128,Fuzzy,Review,QS<->THE,
+Management and Science University,malaysia,Management & Science University (MSU),93.5483870967742,Fuzzy,Review,QS<->THE,
+The University of Georgia,united states,University of Georgia,91.30434782608697,Fuzzy,Review,QS<->THE,
+Universiti Teknologi MARA - UiTM,malaysia,Universiti Teknologi MARA,90.9090909090909,Fuzzy,Review,QS<->THE,
+University of Texas Dallas,united states,University of Texas at Dallas,94.54545454545455,Fuzzy,Review,QS<->THE,
+Paris Lodron University of Salzburg,austria,Paris Lodron Universität Salzburg,91.17647058823529,Fuzzy,Review,QS<->THE,
+Oregon State University,united states,Morgan State University,91.30434782608697,Fuzzy,Review,QS<->THE,
+Indian Institute of Technology Hyderabad,india,Indian Institute of Technology (Indian School of Mines) Dhanbad,92.3076923076923,Fuzzy,Review,QS<->THE,
+University of New Brunswick,canada,University of New Brunswick UNB,93.10344827586206,Fuzzy,Review,QS<->THE,
+The National University of Science and Technology MISIS,russia,National University of Science and Technology (MISiS),90.0,Fuzzy,Review,QS<->THE,
+Universitat Rovira i Virgili,spain,Rovira i Virgili University,94.54545454545455,Fuzzy,Review,QS<->THE,
+University of Pecs,hungary,University of Pécs,94.44444444444444,Fuzzy,Review,QS<->THE,
+Universitas Brawijaya,indonesia,Universitas Sriwijaya,90.47619047619048,Fuzzy,Review,QS<->THE,
+Applied Science Private University - Jordan,jordan,Applied Science Private University,90.66666666666666,Fuzzy,Review,QS<->THE,
+Université de Nantes,france,Nantes Université,91.89189189189189,Fuzzy,Review,QS<->THE,
+Yildiz Technical University,turkey,Yıldız Technical University,92.5925925925926,Fuzzy,Review,QS<->THE,
+Catania University,italy,University of Catania,92.3076923076923,Fuzzy,Review,QS<->THE,
+Imam Mohammad Ibn Saud Islamic University  IMSIU,saudi arabia,Imam Mohammad Ibn Saud Islamic University,93.18181818181819,Fuzzy,Review,QS<->THE,
+D. Serikbayev East Kazakhstan state technical university,kazakhstan,D. Serikbayev East Kazakhstan Technical University,94.23076923076923,Fuzzy,Review,QS<->THE,
+Riga Stradins University,latvia,Riga Stradiņš University,91.66666666666666,Fuzzy,Review,QS<->THE,
+St. Louis University,united states,Saint Louis University,92.6829268292683,Fuzzy,Review,QS<->THE,
+The University of Lahore,pakistan,University of Lahore,90.9090909090909,Fuzzy,Review,QS<->THE,
+"Siberian Federal University, SibFU",russia,Siberian Federal University,90.0,Fuzzy,Review,QS<->THE,
+Tecnológico de Costa Rica -TEC,costa rica,Tecnológico de Costa Rica,92.5925925925926,Fuzzy,Review,QS<->THE,
+The University of Northampton,united kingdom,University of Northampton,92.5925925925926,Fuzzy,Review,QS<->THE,
+The University of Texas at Arlington,united states,University of Texas at Arlington,94.11764705882352,Fuzzy,Review,QS<->THE,
+Universidad Diego Portales (UDP),chile,Diego Portales University,90.19607843137256,Fuzzy,Review,QS<->THE,
+Universidad Rey Juan Carlos,spain,University Rey Juan Carlos,90.56603773584906,Fuzzy,Review,QS<->THE,
+Universidade Federal do Paraná - UFPR,brazil,Universidade Federal do Paraná (UFPR),92.3076923076923,Fuzzy,Review,QS<->THE,
+Universidade Federal Fluminense,brazil,Fluminense Federal University,90.0,Fuzzy,Review,QS<->THE,
+Universitas Hasanuddin,indonesia,Hasanuddin University,93.02325581395348,Fuzzy,Review,QS<->THE,
+University of Hradec Kralove,czechia,University of Hradec Králové,92.85714285714286,Fuzzy,Review,QS<->THE,
+University of Texas at San Antonio,united states,The University of Texas at San Antonio,94.44444444444444,Fuzzy,Review,QS<->THE,
+University of Texas El Paso,united states,University of Texas at El Paso,94.73684210526316,Fuzzy,Review,QS<->THE,
+University of Tulsa,united states,The University of Tulsa,90.47619047619048,Fuzzy,Review,QS<->THE,
+Ataturk University,turkey,Atatürk University,94.44444444444444,Fuzzy,Review,QS<->THE,
+British University in Egypt,egypt,The British University in Egypt,93.10344827586206,Fuzzy,Review,QS<->THE,
+Miami University,united states,University of Miami,91.42857142857143,Fuzzy,Review,QS<->THE,
+Rajshahi University,bangladesh,University of Rajshahi,92.6829268292683,Fuzzy,Review,QS<->THE,
+"The ""Gheorghe Asachi"" Technical University of Iasi",romania,Gheorghe Asachi Technical University of Iaşi,93.47826086956522,Fuzzy,Review,QS<->THE,
+Universidad Industrial de Santander - UIS,colombia,Universidad Industrial de Santander (UIS),94.5945945945946,Fuzzy,Review,QS<->THE,
+University of South Alabama (USA),united states,The University of Alabama,92.3076923076923,Fuzzy,Review,QS<->THE,
+University POLITEHNICA of Bucharest,romania,Polytechnic University of Bucharest,94.28571428571428,Fuzzy,Review,QS<->THE,
+California State University - Los Angeles,united states,"University of California, Los Angeles",90.66666666666666,Fuzzy,Review,QS<->THE,
+Universidad Autonoma de Yucatan,mexico,Universidad Autónoma de Yucatán,93.5483870967742,Fuzzy,Review,QS<->THE,
+Universidad Bernardo O'Higgins,chile,Bernardo O’Higgins University,91.22807017543859,Fuzzy,Review,QS<->THE,
+Universidad Católica de La Santísima Concepción - UCSC,chile,Universidad Católica de la Santísima Concepción,94.94949494949495,Fuzzy,Review,QS<->THE,
+The University of Melbourne,australia,,92.0,Fuzzy,Review,QS<->WUR2023,University of Melbourne
+University of Chicago,united states,,91.30434782608697,Fuzzy,Review,QS<->WUR2023,The University of Chicago
+The University of Edinburgh,united kingdom,,92.0,Fuzzy,Review,QS<->WUR2023,University of Edinburgh
+The Australian National University,australia,,93.75,Fuzzy,Review,QS<->WUR2023,Australian National University
+The University of Queensland,australia,,91.80327868852459,Fuzzy,Review,QS<->WUR2023,University of Southern Queensland
+KAIST - Korea Advanced Institute of Science & Technology,south korea,,90.19607843137256,Fuzzy,Review,QS<->WUR2023,Korea Advanced Institute of Science and Technology (KAIST)
+The University of Auckland,new zealand,,91.66666666666666,Fuzzy,Review,QS<->WUR2023,University of Auckland
+"KIT, Karlsruhe Institute of Technology",germany,,94.28571428571428,Fuzzy,Review,QS<->WUR2023,Karlsruhe Institute of Technology
+University of Science and Technology of China,china,,93.47826086956522,Fuzzy,Review,QS<->WUR2023,East China University of Science and Technology
+The University of Exeter,united kingdom,,90.9090909090909,Fuzzy,Review,QS<->WUR2023,University of Exeter
+The Ohio State University,united states,,91.30434782608697,Fuzzy,Review,QS<->WUR2023,Ohio State University (Main campus)
+Indian Institute of Technology Madras (IITM),india,,93.15068493150685,Fuzzy,Review,QS<->WUR2023,Indian Institute of Technology Mandi
+Gadjah Mada University,indonesia,,93.33333333333333,Fuzzy,Review,QS<->WUR2023,Universitas Gadjah Mada
+Indian Institute of Technology Kanpur (IITK),india,,90.41095890410959,Fuzzy,Review,QS<->WUR2023,Indian Institute of Technology Mandi
+Universitat Pompeu Fabra (Barcelona),spain,,93.61702127659575,Fuzzy,Review,QS<->WUR2023,Pompeu Fabra University
+The Hebrew University of Jerusalem,israel,,93.75,Fuzzy,Review,QS<->WUR2023,Hebrew University of Jerusalem
+The University of Arizona,united states,,91.30434782608697,Fuzzy,Review,QS<->WUR2023,University of Arizona
+Indian Institute of Technology Roorkee (IITR),india,,91.89189189189189,Fuzzy,Review,QS<->WUR2023,Indian Institute of Technology Ropar
+National University of Sciences And Technology (NUST) Islamabad,pakistan,,90.19607843137256,Fuzzy,Review,QS<->WUR2023,National University of Sciences and Technology
+University of Jordan,jordan,,90.9090909090909,Fuzzy,Review,QS<->WUR2023,The University of Jordan
+Ruhr-Universität Bochum,germany,,90.9090909090909,Fuzzy,Review,QS<->WUR2023,Ruhr University Bochum
+USI - Università della Svizzera italiana,switzerland,,94.44444444444444,Fuzzy,Review,QS<->WUR2023,Università della Svizzera italiana
+The American University in Cairo,egypt,,93.33333333333333,Fuzzy,Review,QS<->WUR2023,American University in Cairo
+Bogaziçi University,turkey,,94.73684210526316,Fuzzy,Review,QS<->WUR2023,Boğaziçi University
+Umea University,sweden,,93.33333333333333,Fuzzy,Review,QS<->WUR2023,Umeå University
+Johannes Gutenberg Universität Mainz,germany,,91.89189189189189,Fuzzy,Review,QS<->WUR2023,Johannes Gutenberg University of Mainz
+Nanjing University of Science and Technology,china,,93.18181818181819,Fuzzy,Review,QS<->WUR2023,University of Science and Technology Beijing
+The University of Georgia,united states,,91.30434782608697,Fuzzy,Review,QS<->WUR2023,University of Georgia
+Universiti Teknologi MARA - UiTM,malaysia,,90.9090909090909,Fuzzy,Review,QS<->WUR2023,Universiti Teknologi MARA
+University of Texas Dallas,united states,,94.54545454545455,Fuzzy,Review,QS<->WUR2023,University of Texas at Dallas
+Oregon State University,united states,,91.30434782608697,Fuzzy,Review,QS<->WUR2023,Morgan State University
+Indian Institute of Technology Hyderabad,india,,92.3076923076923,Fuzzy,Review,QS<->WUR2023,Indian Institute of Technology (Indian School of Mines) Dhanbad
+University of New Brunswick,canada,,93.10344827586206,Fuzzy,Review,QS<->WUR2023,University of New Brunswick UNB
+Universitat Rovira i Virgili,spain,,94.54545454545455,Fuzzy,Review,QS<->WUR2023,Rovira i Virgili University
+University of Pecs,hungary,,94.44444444444444,Fuzzy,Review,QS<->WUR2023,University of Pécs
+Chonnam National University,south korea,,94.54545454545455,Fuzzy,Review,QS<->WUR2023,Chungnam National University
+Université de Nantes,france,,91.89189189189189,Fuzzy,Review,QS<->WUR2023,Nantes Université
+Catania University,italy,,92.3076923076923,Fuzzy,Review,QS<->WUR2023,University of Catania
+Imam Mohammad Ibn Saud Islamic University  IMSIU,saudi arabia,,93.18181818181819,Fuzzy,Review,QS<->WUR2023,Imam Mohammad Ibn Saud Islamic University
+Riga Stradins University,latvia,,91.66666666666666,Fuzzy,Review,QS<->WUR2023,Riga Stradiņš University
+St. Louis University,united states,,92.6829268292683,Fuzzy,Review,QS<->WUR2023,Saint Louis University
+The University of Lahore,pakistan,,90.9090909090909,Fuzzy,Review,QS<->WUR2023,University of Lahore
+Jiangnan University,china,,94.73684210526316,Fuzzy,Review,QS<->WUR2023,Jianghan University
+National Chung Cheng University,taiwan,,91.52542372881356,Fuzzy,Review,QS<->WUR2023,National Chengchi University
+Tecnológico de Costa Rica -TEC,costa rica,,92.5925925925926,Fuzzy,Review,QS<->WUR2023,Tecnológico de Costa Rica
+The University of Northampton,united kingdom,,92.5925925925926,Fuzzy,Review,QS<->WUR2023,University of Northampton
+Universidad Diego Portales (UDP),chile,,90.19607843137256,Fuzzy,Review,QS<->WUR2023,Diego Portales University
+Universidad Rey Juan Carlos,spain,,90.56603773584906,Fuzzy,Review,QS<->WUR2023,University Rey Juan Carlos
+Universidade Federal do Paraná - UFPR,brazil,,92.3076923076923,Fuzzy,Review,QS<->WUR2023,Universidade Federal do Paraná (UFPR)
+Universidade Federal Fluminense,brazil,,90.0,Fuzzy,Review,QS<->WUR2023,Fluminense Federal University
+Universitas Hasanuddin,indonesia,,93.02325581395348,Fuzzy,Review,QS<->WUR2023,Hasanuddin University
+University of Hradec Kralove,czechia,,92.85714285714286,Fuzzy,Review,QS<->WUR2023,University of Hradec Králové
+University of Texas El Paso,united states,,94.73684210526316,Fuzzy,Review,QS<->WUR2023,University of Texas at El Paso
+University of Tulsa,united states,,90.47619047619048,Fuzzy,Review,QS<->WUR2023,The University of Tulsa
+Ataturk University,turkey,,94.44444444444444,Fuzzy,Review,QS<->WUR2023,Atatürk University
+British University in Egypt,egypt,,93.10344827586206,Fuzzy,Review,QS<->WUR2023,The British University in Egypt
+Miami University,united states,,91.42857142857143,Fuzzy,Review,QS<->WUR2023,University of Miami
+"The ""Gheorghe Asachi"" Technical University of Iasi",romania,,93.47826086956522,Fuzzy,Review,QS<->WUR2023,Gheorghe Asachi Technical University of Iaşi
+Universidad Industrial de Santander - UIS,colombia,,94.5945945945946,Fuzzy,Review,QS<->WUR2023,Universidad Industrial de Santander (UIS)
+University of South Alabama (USA),united states,,92.3076923076923,Fuzzy,Review,QS<->WUR2023,The University of Alabama
+University POLITEHNICA of Bucharest,romania,,94.28571428571428,Fuzzy,Review,QS<->WUR2023,Polytechnic University of Bucharest
+California State University - Los Angeles,united states,,90.66666666666666,Fuzzy,Review,QS<->WUR2023,"University of California, Los Angeles"
+Universidad Autonoma de Yucatan,mexico,,93.5483870967742,Fuzzy,Review,QS<->WUR2023,Universidad Autónoma de Yucatán
+Universidad Bernardo O'Higgins,chile,,91.22807017543859,Fuzzy,Review,QS<->WUR2023,Bernardo O’Higgins University
