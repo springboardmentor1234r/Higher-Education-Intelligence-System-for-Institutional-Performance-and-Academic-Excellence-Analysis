@@ -4,53 +4,66 @@
 
 **EduVision_DV** is a higher education data analytics project focused on collecting, cleaning, standardizing, and transforming university ranking and education data into analysis-ready datasets for Tableau dashboard development.
 
-The project uses:
+The project integrates data from:
 
 - QS World University Rankings 2025
 - Times Higher Education World University Rankings 2024
 - World University Rankings 2023
 - World Bank Education Statistics
 
+The project follows a structured data pipeline from raw data collection through data cleaning, standardization, KPI engineering, validation, and dashboard planning.
+
 ---
 
-## Current Progress
+## Project Progress
 
 ### Milestone 1 — Data Collection & Preparation
-- Module 1 — University Data Collection 
-- Module 2 — Data Cleaning & Transformation 
+
+**Module 1 — Data Collection**
+- Collected university ranking and education datasets
+- Stored original datasets as raw files
+
+**Module 2 — Data Cleaning & Standardization**
+- Cleaned source datasets
+- Standardized university and country names
+- Created normalized dimension tables
+- Matched World Bank education data with university/country information
 
 ### Milestone 2 — KPI Engineering & Dashboard Planning
-- Module 3 — KPI Engineering & Validation 
-- Module 4 — Dashboard Planning & Prototyping *(In Progress)*
 
-Module 3 includes:
+**Module 3 — KPI Engineering & Validation**
+- Created star-schema fact and dimension tables
+- Engineered analytical KPIs
+- Created the final integrated dataset
+- Performed data validation
+- Generated the final Excel dataset
 
-- Star-schema fact tables
-- KPI engineering
-- Final Excel dataset
-- Data validation
-
-The engineered dataset contains university performance, research, student, and country-level education data.
+**Module 4 — Dashboard Planning & Prototyping**
+- Created dashboard storyboard
+- Created Tableau dashboard prototype
+- Dashboard development is currently in progress
 
 ---
 
-## Important: `working/` vs `Milestone` Folders
+## Working Version vs Milestone Folders
 
-The repository contains two versions of the project for different purposes.
+The repository contains both **milestone submission copies** and an **active working version**.
 
-### `Milestone 1/` and `Milestone 2/`
+### `Milestone 1/`
 
-These folders contain the **final submission files for each milestone**.
+Contains the files submitted for **Milestone 1 — Data Collection & Preparation**.
 
-> **These are frozen submission copies and must not be modified after submission.**
+### `Milestone 2/`
 
-They are organized according to the required deliverable structure.
+Contains the files submitted for **Milestone 2 — KPI Engineering & Dashboard Planning**.
 
 ### `working/`
 
-This folder contains the **active and directly runnable version of the project**.
+Contains the **active development version** of the project.
 
-It contains the complete directory structure required by the notebooks, including:
+All notebook execution and ongoing development should be performed inside `working/`.
+
+The `working/` directory contains:
 
 - Raw datasets
 - Cleaned datasets
@@ -58,21 +71,35 @@ It contains the complete directory structure required by the notebooks, includin
 - Documentation
 - Notebooks
 
-> **All development and notebook execution should be done from `working/`.**
+## Project Workflow
 
-### In short
+The complete data workflow is:
 
 ```text
-Milestone 1/ → Frozen Milestone 1 submission
-Milestone 2/ → Frozen Milestone 2 submission
-working/     → Active, runnable development version
-````
+Raw Data
+   ↓
+Data Loading
+   ↓
+Data Cleaning
+   ↓
+Data Standardization
+   ↓
+KPI Engineering
+   ↓
+Data Validation
+   ↓
+Final Dataset
+   ↓
+Dashboard Planning
+   ↓
+Tableau Dashboard Development
+```
 
 ---
 
 ## Running the Project
 
-Use the notebooks inside:
+The active notebooks are located in:
 
 ```text
 working/notebooks/
@@ -94,41 +121,56 @@ Run them in the following order:
 
 The notebooks use relative paths, so the `working/` directory structure should be preserved.
 
-The required raw datasets are located in:
+### Input Data
+
+Raw datasets are stored in:
 
 ```text
 working/data/raw/
 ```
 
-The processed datasets are generated under:
+### Processed Data
+
+Cleaned and standardized datasets are stored in:
 
 ```text
 working/data/cleaned/
 ```
 
-The final Excel dataset is generated under:
+### Final Dataset
+
+The final integrated Excel dataset is stored in:
 
 ```text
-working/data/final/
+working/data/final/eduvision_final_dataset.xlsx
 ```
 
 ---
 
-## Requirements
+## Data Model
 
-Python 3 with the following libraries:
+The project uses a star-schema structure for analytical reporting.
 
-* Pandas
-* NumPy
-* RapidFuzz
-* OpenPyXL
-* Jupyter Notebook
+The main tables include:
 
-Install using:
+```text
+dim_country
+dim_university
 
-```bash
-pip install pandas numpy rapidfuzz openpyxl jupyter
+fact_university_performance
+fact_research
+fact_student
+fact_country_education
 ```
+
+Additional matching information is maintained through:
+
+```text
+matches_for_manual_review.csv
+world_bank_matched.csv
+```
+
+These tables support KPI analysis and Tableau dashboard development.
 
 ---
 
@@ -137,15 +179,54 @@ pip install pandas numpy rapidfuzz openpyxl jupyter
 ```text
 EduVision_DV/
 │
-├── Milestone 1/       # Frozen submission files
+├── Milestone 1/
+│   ├── Milestone1_README.md
+│   ├── Module 1/
+│   │   ├── 01_data_loading.ipynb
+│   │   └── raw/
+│   │
+│   └── Module 2/
+│       ├── cleaned/
+│       └── notebooks/
+│           ├── 02_data_cleaning.ipynb
+│           └── 03_data_standardization.ipynb
 │
-├── Milestone 2/       # Frozen submission files
+├── Milestone 2/
+│   ├── Milestone2_README.md
+│   │
+│   ├── Module 3/
+│   │   ├── deliverables/
+│   │   │   ├── eduvision_final_dataset.xlsx
+│   │   │   └── star_data_model/
+│   │   │
+│   │   └── notebooks/
+│   │       ├── 04_kpi_engineering.ipynb
+│   │       └── 05_validation.ipynb
+│   │
+│   └── Module 4/
+│       ├── dashboard_storyboard.pdf
+│       └── prototype.twb
 │
-└── working/           # Active, runnable project
-    ├── data/
-    │   ├── raw/
-    │   ├── cleaned/
-    │   └── final/
-    ├── docs/
-    └── notebooks/
+├── working/
+│   ├── data/
+│   │   ├── raw/
+│   │   ├── cleaned/
+│   │   └── final/
+│   │
+│   ├── docs/
+│   │   ├── 01_dataset_validation_report.md
+│   │   ├── 02_matching_methodology.md
+│   │   └── 04_final_validation_checklist.csv
+│   │
+│   └── notebooks/
+│       ├── 01_data_loading.ipynb
+│       ├── 02_data_cleaning.ipynb
+│       ├── 03_data_standardization.ipynb
+│       ├── 04_kpi_engineering.ipynb
+│       └── 05_validation.ipynb
+│
+├── .gitignore
+├── LICENSE
+└── README.md
 ```
+
