@@ -1,0 +1,7 @@
+dataset,rows,columns,duplicate_rows,missing_cell_percent
+QS 2025 cleaned,1503,35,0,4.64
+THE 2024 cleaned,2673,38,0,9.70
+WUR 2023 cleaned,2312,24,0,13.66
+Country education cleaned,47136,6,0,5.35
+dim_university,3465,5,0,11.34
+dim_country,277,3,0,2.65

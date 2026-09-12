@@ -1,0 +1,18 @@
+Submitted by: Priyanjal Yadav
+
+EDUVISION_DV — WHAT TO SUBMIT
+
+The project is separated into:
+Milestone_1/
+Milestone_2/
+Milestone_3/
+Milestone_4/
+
+Use EduVision_DV_Milestone_Guide.pdf to understand what each folder contains.
+
+If the instructor asks for all milestone evidence, submit the corresponding folder(s).
+If they ask for the complete project, submit the whole EduVision_DV_MILESTONE_SUBMISSION.zip.
+
+Remaining manual items, only if specifically required:
+- Native Tableau .twbx
+- GitHub final push/commit

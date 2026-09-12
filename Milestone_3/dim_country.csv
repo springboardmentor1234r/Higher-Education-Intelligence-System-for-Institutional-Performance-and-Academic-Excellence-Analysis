@@ -1,0 +1,278 @@
+country_id,country_name,country_code
+C0001,afghanistan,AFG
+C0002,africa eastern and southern,AFE
+C0003,africa western and central,AFW
+C0004,albania,ALB
+C0005,algeria,DZA
+C0006,american samoa,ASM
+C0007,andorra,AND
+C0008,angola,AGO
+C0009,antigua and barbuda,ATG
+C0010,arab world,ARB
+C0011,argentina,ARG
+C0012,armenia,ARM
+C0013,aruba,ABW
+C0014,australia,AUS
+C0015,austria,AUT
+C0016,azerbaijan,AZE
+C0017,bahamas the,BHS
+C0018,bahrain,BHR
+C0019,bangladesh,BGD
+C0020,barbados,BRB
+C0021,belarus,BLR
+C0022,belgium,BEL
+C0023,belize,BLZ
+C0024,benin,BEN
+C0025,bermuda,BMU
+C0026,bhutan,BTN
+C0027,bolivia,BOL
+C0028,bosnia and herzegovina,BIH
+C0029,botswana,BWA
+C0030,brazil,BRA
+C0031,british virgin islands,VGB
+C0032,brunei darussalam,BRN
+C0033,bulgaria,BGR
+C0034,burkina faso,BFA
+C0035,burundi,BDI
+C0036,cabo verde,CPV
+C0037,cambodia,KHM
+C0038,cameroon,CMR
+C0039,canada,CAN
+C0040,caribbean small states,CSS
+C0041,cayman islands,CYM
+C0042,central african republic,CAF
+C0043,central europe and the baltics,CEB
+C0044,chad,TCD
+C0045,chile,CHL
+C0046,china,CHN
+C0047,colombia,COL
+C0048,comoros,COM
+C0049,congo dem rep,COD
+C0050,congo rep,COG
+C0051,costa rica,CRI
+C0052,cote divoire,CIV
+C0053,croatia,HRV
+C0054,cuba,CUB
+C0055,curacao,CUW
+C0056,cyprus,CYP
+C0057,czechia,CZE
+C0058,denmark,DNK
+C0059,djibouti,DJI
+C0060,dominica,DMA
+C0061,dominican republic,DOM
+C0062,earlydemographic dividend,EAR
+C0063,east asia pacific,EAS
+C0064,east asia pacific ida ibrd countries,TEA
+C0065,east asia pacific excluding high income,EAP
+C0066,ecuador,ECU
+C0067,egypt arab rep,EGY
+C0068,el salvador,SLV
+C0069,equatorial guinea,GNQ
+C0070,eritrea,ERI
+C0071,estonia,EST
+C0072,eswatini,SWZ
+C0073,ethiopia,ETH
+C0074,euro area,EMU
+C0075,europe central asia,ECS
+C0076,europe central asia ida ibrd countries,TEC
+C0077,europe central asia excluding high income,ECA
+C0078,european union,EUU
+C0079,fiji,FJI
+C0080,finland,FIN
+C0081,fragile and conflict affected situations,FCS
+C0082,france,FRA
+C0083,gabon,GAB
+C0084,gambia the,GMB
+C0085,georgia,GEO
+C0086,germany,DEU
+C0087,ghana,GHA
+C0088,gibraltar,GIB
+C0089,greece,GRC
+C0090,grenada,GRD
+C0091,guam,GUM
+C0092,guatemala,GTM
+C0093,guinea,GIN
+C0094,guineabissau,GNB
+C0095,guyana,GUY
+C0096,haiti,HTI
+C0097,heavily indebted poor countries hipc,HPC
+C0098,high income,HIC
+C0099,honduras,HND
+C0100,hong kong sar china,HKG
+C0101,hungary,HUN
+C0102,ibrd only,IBD
+C0103,ida ibrd total,IBT
+C0104,ida blend,IDB
+C0105,ida only,IDX
+C0106,ida total,IDA
+C0107,iceland,ISL
+C0108,india,IND
+C0109,indonesia,IDN
+C0110,iran islamic rep,IRN
+C0111,iraq,IRQ
+C0112,ireland,IRL
+C0113,israel,ISR
+C0114,italy,ITA
+C0115,jamaica,JAM
+C0116,japan,JPN
+C0117,jordan,JOR
+C0118,kazakhstan,KAZ
+C0119,kenya,KEN
+C0120,kiribati,KIR
+C0121,korea dem peoples rep,PRK
+C0122,korea rep,KOR
+C0123,kuwait,KWT
+C0124,kyrgyz republic,KGZ
+C0125,lao pdr,LAO
+C0126,latedemographic dividend,LTE
+C0127,latin america caribbean,LCN
+C0128,latin america caribbean excluding high income,LAC
+C0129,latin america the caribbean ida ibrd countries,TLA
+C0130,latvia,LVA
+C0131,least developed countries un classification,LDC
+C0132,lebanon,LBN
+C0133,lesotho,LSO
+C0134,liberia,LBR
+C0135,libya,LBY
+C0136,liechtenstein,LIE
+C0137,lithuania,LTU
+C0138,low middle income,LMY
+C0139,low income,LIC
+C0140,lower middle income,LMC
+C0141,luxembourg,LUX
+C0142,macao sar china,MAC
+C0143,madagascar,MDG
+C0144,malawi,MWI
+C0145,malaysia,MYS
+C0146,maldives,MDV
+C0147,mali,MLI
+C0148,malta,MLT
+C0149,marshall islands,MHL
+C0150,mauritania,MRT
+C0151,mauritius,MUS
+C0152,mexico,MEX
+C0153,micronesia fed sts,FSM
+C0154,middle east north africa,MEA
+C0155,middle east north africa ida ibrd countries,TMN
+C0156,middle east north africa excluding high income,MNA
+C0157,middle income,MIC
+C0158,moldova,MDA
+C0159,monaco,MCO
+C0160,mongolia,MNG
+C0161,montenegro,MNE
+C0162,morocco,MAR
+C0163,mozambique,MOZ
+C0164,myanmar,MMR
+C0165,namibia,NAM
+C0166,nauru,NRU
+C0167,nepal,NPL
+C0168,netherlands,NLD
+C0169,new caledonia,NCL
+C0170,new zealand,NZL
+C0171,nicaragua,NIC
+C0172,niger,NER
+C0173,nigeria,NGA
+C0174,north america,NAC
+C0175,north macedonia,MKD
+C0176,norway,NOR
+C0177,oecd members,OED
+C0178,oman,OMN
+C0179,other small states,OSS
+C0180,pacific island small states,PSS
+C0181,pakistan,PAK
+C0182,palau,PLW
+C0183,panama,PAN
+C0184,papua new guinea,PNG
+C0185,paraguay,PRY
+C0186,peru,PER
+C0187,philippines,PHL
+C0188,poland,POL
+C0189,portugal,PRT
+C0190,postdemographic dividend,PST
+C0191,predemographic dividend,PRE
+C0192,puerto rico,PRI
+C0193,qatar,QAT
+C0194,romania,ROU
+C0195,russian federation,RUS
+C0196,rwanda,RWA
+C0197,samoa,WSM
+C0198,san marino,SMR
+C0199,sao tome and principe,STP
+C0200,saudi arabia,SAU
+C0201,senegal,SEN
+C0202,serbia,SRB
+C0203,seychelles,SYC
+C0204,sierra leone,SLE
+C0205,singapore,SGP
+C0206,sint maarten dutch part,SXM
+C0207,slovak republic,SVK
+C0208,slovenia,SVN
+C0209,small states,SST
+C0210,solomon islands,SLB
+C0211,somalia,SOM
+C0212,south africa,ZAF
+C0213,south asia,SAS
+C0214,south asia ida ibrd,TSA
+C0215,south sudan,SSD
+C0216,spain,ESP
+C0217,sri lanka,LKA
+C0218,st kitts and nevis,KNA
+C0219,st lucia,LCA
+C0220,st vincent and the grenadines,VCT
+C0221,subsaharan africa,SSF
+C0222,subsaharan africa ida ibrd countries,TSS
+C0223,subsaharan africa excluding high income,SSA
+C0224,sudan,SDN
+C0225,suriname,SUR
+C0226,sweden,SWE
+C0227,switzerland,CHE
+C0228,syrian arab republic,SYR
+C0229,tajikistan,TJK
+C0230,tanzania,TZA
+C0231,thailand,THA
+C0232,timorleste,TLS
+C0233,togo,TGO
+C0234,tonga,TON
+C0235,trinidad and tobago,TTO
+C0236,tunisia,TUN
+C0237,turkiye,TUR
+C0238,turkmenistan,TKM
+C0239,turks and caicos islands,TCA
+C0240,tuvalu,TUV
+C0241,uganda,UGA
+C0242,ukraine,UKR
+C0243,united arab emirates,ARE
+C0244,united kingdom,GBR
+C0245,united states,USA
+C0246,upper middle income,UMC
+C0247,uruguay,URY
+C0248,uzbekistan,UZB
+C0249,vanuatu,VUT
+C0250,venezuela rb,VEN
+C0251,viet nam,VNM
+C0252,west bank and gaza,PSE
+C0253,world,WLD
+C0254,yemen rep,YEM
+C0255,zambia,ZMB
+C0256,zimbabwe,ZWE
+C0257,turkey,
+C0258,northern cyprus,
+C0259,iran,
+C0260,egypt,
+C0261,south korea,
+C0262,yemen,
+C0263,palestinian territory occupied,
+C0264,iran islamic republic of,
+C0265,venezuela,
+C0266,palestine,
+C0267,taiwan,
+C0268,china mainland,
+C0269,hong kong,
+C0270,hong kong sar,
+C0271,slovakia,
+C0272,kyrgyzstan,
+C0273,macau sar,
+C0274,,
+C0275,kosovo,
+C0276,brunei,
+C0277,macao,

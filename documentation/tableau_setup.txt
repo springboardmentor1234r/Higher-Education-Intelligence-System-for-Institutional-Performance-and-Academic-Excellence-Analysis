@@ -1,0 +1,7 @@
+TABLEAU SETUP
+1. Open Tableau Desktop.
+2. Connect to data/final/dim_university.csv.
+3. Add fact_university_performance.csv, fact_research.csv, fact_student.csv, dim_country.csv and fact_country_education.csv.
+4. Create relationships using university_id and country_id.
+5. Build the four dashboards from dashboard_plan.md.
+6. Add filters and dashboard navigation/actions.
