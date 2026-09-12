@@ -1,0 +1,20 @@
+Submitted by: Priyanjal Yadav
+
+EDUVISION_DV — FINAL SUBMISSION PACKAGE
+
+This package covers the analytical work for Milestones 1–4.
+
+M1: raw datasets, cleaned datasets, university_raw_data.csv, collection/cleaning/standardization scripts.
+M2: six-KPI dataset, university_final_dataset.xlsx, KPI engineering script, KPI definitions, storyboard.
+M3: four-dashboard interactive HTML presentation, Tableau-ready data model, dashboard plan.
+M4: validation report, documentation, README and final checklist.
+
+OPEN FIRST:
+1. EduVision_DV_Dashboard.html
+2. university_final_dataset.xlsx
+3. documentation/submission_checklist.md
+
+ONLY KNOWN UNCOMPLETED ITEM:
+A native Tableau .twbx file cannot be generated here because Tableau Desktop is not available in this execution environment. If your instructor requires a .twbx specifically, that file still has to be created/saved from Tableau Desktop.
+
+Also, if the course requires the final package to be pushed to the team's GitHub repository, that upload/commit remains a manual repository action.
