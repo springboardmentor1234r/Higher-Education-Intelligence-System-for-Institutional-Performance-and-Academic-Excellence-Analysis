@@ -1,0 +1,35 @@
+# Large datasets
+data/raw/EdStatsData.csv
+data/raw/EdStatsEXCEL.xlsx
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Large Excel files
+*BI_Workbook.xlsx
+*final_dataset.xlsx
+
+# Tableau files (optional if large)
+*.twbx
+*.hyper
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+# Large files
+data/raw/cwurData.csv
+data/warehouse/*.db
+data/warehouse/*.xlsx
+*final_dataset.xlsx

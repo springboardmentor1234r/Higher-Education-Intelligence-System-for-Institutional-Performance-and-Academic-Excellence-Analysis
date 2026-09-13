@@ -1,0 +1,3536 @@
+university_name,university_id
+massachusetts institute of technology mit,U0001
+imperial college london,U0002
+university of oxford,U0003
+harvard university,U0004
+university of cambridge,U0005
+stanford university,U0006
+eth zurich swiss federal institute of technology,U0007
+national university of singapore nus,U0008
+ucl,U0009
+california institute of technology caltech,U0010
+university of pennsylvania,U0011
+university of california berkeley ucb,U0012
+the university of melbourne,U0013
+peking university,U0014
+nanyang technological university singapore ntu,U0015
+cornell university,U0016
+the university of hong kong,U0017
+the university of sydney,U0018
+the university of new south wales unsw sydney,U0019
+tsinghua university,U0020
+university of chicago,U0021
+princeton university,U0022
+yale university,U0023
+université psl,U0024
+university of toronto,U0025
+epfl,U0026
+the university of edinburgh,U0027
+technical university of munich,U0028
+mcgill university,U0029
+the australian national university,U0030
+seoul national university,U0031
+johns hopkins university,U0032
+the university of tokyo,U0033
+columbia university,U0034
+the university of manchester,U0035
+the chinese university of hong kong cuhk,U0036
+monash university,U0037
+university of british columbia,U0038
+fudan university,U0039
+kings college london,U0040
+the university of queensland,U0041
+university of california los angeles ucla,U0042
+new york university nyu,U0043
+university of michiganann arbor,U0044
+shanghai jiao tong university,U0045
+institut polytechnique de paris,U0046
+the hong kong university of science and technology,U0047
+zhejiang university,U0048
+delft university of technology,U0049
+kyoto university,U0050
+northwestern university,U0051
+the london school of economics and political science lse,U0052
+kaist korea advanced institute of science technology,U0053
+university of bristol,U0054
+university of amsterdam,U0055
+yonsei university,U0056
+the hong kong polytechnic university,U0057
+carnegie mellon university,U0058
+ludwigmaximiliansuniversität münchen,U0059
+universiti malaya um,U0060
+duke university,U0061
+city university of hong kong,U0062
+ku leuven,U0063
+sorbonne university,U0064
+the university of auckland,U0065
+university of texas at austin,U0066
+korea university,U0067
+national taiwan university ntu,U0068
+the university of warwick,U0069
+university of illinois at urbanachampaign,U0070
+universidad de buenos aires uba,U0071
+university of california san diego ucsd,U0072
+université parissaclay,U0073
+kth royal institute of technology,U0074
+lund university,U0075
+university of washington,U0076
+the university of western australia,U0077
+university of glasgow,U0078
+brown university,U0079
+university of birmingham,U0080
+university of southampton,U0081
+the university of adelaide,U0082
+university of leeds,U0083
+ruprechtkarlsuniversität heidelberg,U0084
+tokyo institute of technology tokyo tech,U0085
+osaka university,U0086
+trinity college dublin the university of dublin,U0087
+university of technology sydney,U0088
+durham university,U0089
+pennsylvania state university,U0090
+purdue university,U0091
+universidade de são paulo,U0092
+pontificia universidad católica de chile uc,U0093
+lomonosov moscow state university,U0094
+universidad nacional autónoma de méxico unam,U0095
+university of alberta,U0096
+freie universitaet berlin,U0097
+pohang university of science and technology postech,U0098
+rwth aachen university,U0099
+university of copenhagen,U0100
+king fahd university of petroleum minerals,U0101
+kit karlsruhe institute of technology,U0102
+uppsala university,U0103
+university of st andrews,U0104
+the university of sheffield,U0105
+utrecht university,U0106
+tohoku university,U0107
+university of nottingham,U0108
+technical university of denmark,U0109
+university of zurich,U0110
+politecnico di milano,U0111
+boston university,U0112
+aalto university,U0113
+georgia institute of technology,U0114
+university of waterloo,U0115
+university of wisconsinmadison,U0116
+university of helsinki,U0117
+indian institute of technology bombay iitb,U0118
+university of oslo,U0119
+queen mary university of london,U0120
+western university,U0121
+qatar university,U0122
+rmit university,U0123
+sungkyunkwan universityskku,U0124
+university of southern california,U0125
+humboldtuniversität zu berlin,U0126
+university college dublin,U0127
+stockholm university,U0128
+newcastle university,U0129
+university of california davis,U0130
+university of basel,U0131
+sapienza university of rome,U0132
+alma mater studiorum university of bologna,U0133
+macquarie university,U0134
+university of science and technology of china,U0135
+eindhoven university of technology,U0136
+university of vienna,U0137
+universiti kebangsaan malaysia ukm,U0138
+chalmers university of technology,U0139
+universidad de chile,U0140
+lancaster university,U0141
+leiden university,U0142
+rice university,U0143
+aarhus university,U0144
+nanjing university,U0145
+universiti sains malaysia usm,U0146
+technische universität berlin tu berlin,U0147
+universiti putra malaysia upm,U0148
+king abdulaziz university kau,U0149
+indian institute of technology delhi iitd,U0150
+university of bath,U0151
+michigan state university,U0152
+nagoya university,U0153
+texas am university,U0154
+university of geneva,U0155
+university of north carolina chapel hill,U0156
+wageningen university research,U0157
+erasmus university rotterdam,U0158
+université de montréal,U0159
+university of groningen,U0160
+university of bern,U0161
+hanyang university,U0162
+alfarabi kazakh national university,U0163
+complutense university of madrid,U0164
+universitat de barcelona,U0165
+university of liverpool,U0166
+kyushu university,U0167
+university of wollongong,U0168
+ghent university,U0169
+the university of exeter,U0170
+university of cape town,U0171
+university of reading,U0172
+hokkaido university,U0173
+curtin university,U0174
+universitat autònoma de barcelona,U0175
+mcmaster university,U0176
+washington university in st louis,U0177
+university of california santa barbara ucsb,U0178
+the university of newcastle australia uon,U0179
+universidad de los andes,U0180
+universiti teknologi malaysia,U0181
+waseda university,U0182
+hamad bin khalifa university,U0183
+university of york,U0184
+tecnológico de monterrey,U0185
+cardiff university,U0186
+école normale supérieure de lyon,U0187
+keio university,U0188
+university of ottawa,U0189
+technische universität wien,U0190
+universität hamburg,U0191
+tongji university,U0192
+queens university at kingston,U0193
+university of gothenburg,U0194
+wuhan university,U0195
+emory university,U0196
+deakin university,U0197
+universidad autónoma de madrid,U0198
+university of calgary,U0199
+arizona state university,U0200
+king saud university,U0201
+american university of sharjah,U0202
+université catholique de louvain uclouvain,U0203
+university of minnesota twin cities,U0204
+ecole des ponts paristech,U0205
+queens university belfast,U0206
+universitas indonesia,U0207
+the ohio state university,U0208
+tel aviv university,U0209
+national tsing hua university,U0210
+indian institute of science,U0211
+albertludwigsuniversitaet freiburg,U0212
+queensland university of technology qut,U0213
+university of otago,U0214
+national cheng kung university ncku,U0215
+university of florida,U0216
+la trobe university,U0217
+university of maryland college park,U0218
+national yang ming chiao tung university,U0219
+universidad nacional de colombia,U0220
+vrije universiteit amsterdam,U0221
+eberhard karls universität tübingen,U0222
+indian institute of technology kharagpur iitkgp,U0223
+friedrichalexanderuniversität erlangennürnberg,U0224
+loughborough university,U0225
+university of lausanne,U0226
+indian institute of technology madras iitm,U0227
+rheinische friedrichwilhelmsuniversität bonn,U0228
+chulalongkorn university,U0229
+maastricht university,U0230
+universite libre de bruxelles,U0231
+universidade estadual de campinas unicamp,U0232
+university of twente,U0233
+technische universität dresden,U0234
+university of waikato,U0235
+università di padova,U0236
+university of aberdeen,U0237
+university of rochester,U0238
+gadjah mada university,U0239
+massey university,U0240
+politecnico di torino,U0241
+technical university of darmstadt,U0242
+dartmouth college,U0243
+victoria university of wellington,U0244
+university of macau,U0245
+charles university,U0246
+university of sussex,U0247
+vanderbilt university,U0248
+university of navarra,U0249
+american university of beirut aub,U0250
+taylors university,U0251
+harbin institute of technology,U0252
+hong kong baptist university,U0253
+university of göttingen,U0254
+griffith university,U0255
+bandung institute of technology itb,U0256
+heriotwatt university,U0257
+university of warsaw,U0258
+case western reserve university,U0259
+university of lisbon,U0260
+canadian university dubai,U0261
+university of canterbury te whare wananga o waitaha,U0262
+indian institute of technology kanpur iitk,U0263
+norwegian university of science and technology,U0264
+ucsi university,U0265
+universitat pompeu fabra barcelona,U0266
+university of antwerp,U0267
+university of witwatersrand,U0268
+tianjin university,U0269
+universiti teknologi petronas utp,U0270
+beijing normal university,U0271
+radboud university,U0272
+university college cork,U0273
+university of galway,U0274
+dalhousie university,U0275
+university of massachusetts amherst,U0276
+university of pittsburgh,U0277
+university of porto,U0278
+vrije universiteit brussel vub,U0279
+ulsan national institute of science and technology unist,U0280
+the hebrew university of jerusalem,U0281
+university of strathclyde,U0282
+université paris 1 panthéonsorbonne,U0283
+southern university of science and technology,U0284
+middle east technical university,U0285
+universidad carlos iii de madrid uc3m,U0286
+university of cologne,U0287
+university of leicester,U0288
+university of milan,U0289
+university of surrey,U0290
+swinburne university of technology,U0291
+university of bergen,U0292
+the university of arizona,U0293
+university of tasmania,U0294
+xian jiaotong university,U0295
+stellenbosch university,U0296
+university of virginia,U0297
+bauman moscow state technical university,U0298
+swansea university,U0299
+huazhong university of science and technology,U0300
+georgetown university,U0301
+beijing institute of technology,U0302
+université paris cité,U0303
+linköping university,U0304
+universidade federal do rio de janeiro,U0305
+aalborg university,U0306
+university of california irvine,U0307
+airlangga university,U0308
+goetheuniversity frankfurt am main,U0309
+universität innsbruck,U0310
+north carolina state university,U0311
+jagiellonian university,U0312
+university of johannesburg,U0313
+universität stuttgart,U0314
+quaidiazam university,U0315
+rudn university,U0316
+shandong university,U0317
+university of notre dame,U0318
+simon fraser university,U0319
+university of colorado boulder,U0320
+ln gumilyov eurasian national university enu,U0321
+national technical university of athens,U0322
+universidad politécnica de madrid upm,U0323
+university of miami,U0324
+university of southern denmark sdu,U0325
+daegu gyeongbuk institute of science and technology dgist,U0326
+istanbul technical university,U0327
+kyung hee university,U0328
+rutgers universitynew brunswick,U0329
+university of delhi,U0330
+sun yatsen university,U0331
+abu dhabi university,U0332
+university of east anglia uea,U0333
+université grenoble alpes,U0334
+indian institute of technology roorkee iitr,U0335
+flinders university,U0336
+lappeenrantalahti university of technology lut,U0337
+sichuan university,U0338
+university of the philippines,U0339
+university of saskatchewan,U0340
+university of south australia,U0341
+brunel university london,U0342
+sharif university of technology,U0343
+indian institute of technology guwahati iitg,U0344
+tufts university,U0345
+university of oulu,U0346
+tilburg university,U0347
+university of naples federico ii,U0348
+university of victoria uvic,U0349
+cairo university,U0350
+sciences po,U0351
+city university of london,U0352
+national university of sciences and technology nust islamabad,U0353
+university of pretoria,U0354
+indiana university bloomington,U0355
+university of coimbra,U0356
+university of luxembourg,U0357
+university of tartu,U0358
+gwangju institute of science and technology gist,U0359
+pontificia universidad católica del perú,U0360
+university of aveiro,U0361
+sultan qaboos university,U0362
+xiamen university,U0363
+york university,U0364
+saint petersburg state university,U0365
+university of illinois at chicago uic,U0366
+westfälische wilhelmsuniversität münster,U0367
+mahidol university,U0368
+university of jordan,U0369
+university of tehran,U0370
+george washington university,U0371
+lincoln university,U0372
+universitat politècnica de catalunya barcelonatech upc,U0373
+university of turin,U0374
+university of florence,U0375
+university of turku,U0376
+nankai university,U0377
+pontificia universidad javeriana,U0378
+university of tsukuba,U0379
+technische universität bergakademie freiberg,U0380
+university of kent,U0381
+university of pisa,U0382
+anna university,U0383
+western sydney university,U0384
+south china university of technology,U0385
+universiti brunei darussalam ubd,U0386
+belarusian state university,U0387
+universidade nova de lisboa,U0388
+università vitasalute san raffaele,U0389
+university of cyprus ucy,U0390
+virginia polytechnic institute and state university,U0391
+national taiwan university of science and technology taiwan tech,U0392
+national and kapodistrian university of athens,U0393
+university of california santa cruz,U0394
+university of rome tor vergata,U0395
+northeastern university,U0396
+ruhruniversität bochum,U0397
+sejong university,U0398
+université de liège,U0399
+university of southern queensland,U0400
+kazan volga region federal university,U0401
+koç university,U0402
+amirkabir university of technology,U0403
+university of canberra,U0404
+institut national des sciences appliquées de lyon insa,U0405
+satbayev university,U0406
+usi università della svizzera italiana,U0407
+birkbeck university of london,U0408
+masaryk university,U0409
+hse university,U0410
+the american university in cairo,U0411
+auckland university of technology aut,U0412
+graz university of technology,U0413
+yeshiva university,U0414
+concordia university,U0415
+oxford brookes university,U0416
+technion israel institute of technology,U0417
+university of dundee,U0418
+bogaziçi university,U0419
+czech technical university in prague,U0420
+dublin city university,U0421
+university of limerick,U0422
+aston university,U0423
+université laval,U0424
+national taipei university of technology,U0425
+ipb university aka bogor agricultural university,U0426
+leibniz university hannover,U0427
+juliusmaximiliansuniversität würzburg,U0428
+southeast university,U0429
+university of science and technology beijing,U0430
+central south university,U0431
+tomsk state university,U0432
+university of granada,U0433
+ajman university,U0434
+ie university,U0435
+iran university of science and technology,U0436
+murdoch university,U0437
+universitat politècnica de valència,U0438
+vilnius university,U0439
+singapore university of technology and design,U0440
+università degli studi di pavia,U0441
+colorado state university,U0442
+novosibirsk state university,U0443
+università cattolica del sacro cuore,U0444
+james cook university,U0445
+justusliebiguniversity giessen,U0446
+universitat de valencia,U0447
+dalian university of technology,U0448
+hunan university,U0449
+université de montpellier,U0450
+university of electronic science and technology of china,U0451
+beihang university former buaa,U0452
+national taiwan normal university,U0453
+university of kansas,U0454
+university of stirling,U0455
+moscow institute of physics and technology mipt moscow phystech,U0456
+umea university,U0457
+université de strasbourg,U0458
+university of guelph,U0459
+stony brook university state university of new york,U0460
+universidad de santiago de chile usach,U0461
+tampere university,U0462
+universidad de sevilla,U0463
+macau university of science and technology,U0464
+kobe university,U0465
+universität konstanz,U0466
+universitat ramon llull,U0467
+university at buffalo suny,U0468
+washington state university,U0469
+iowa state university,U0470
+bengurion university of the negev,U0471
+essex university of,U0472
+johannes kepler university linz,U0473
+bangor university,U0474
+hiroshima university,U0475
+universität potsdam,U0476
+university of sharjah,U0477
+bilkent university,U0478
+indian institute of technology indore iit indore,U0479
+royal holloway university of london,U0480
+aixmarseille university,U0481
+pontificia universidad católica argentina,U0482
+the university of tennessee knoxville,U0483
+china agricultural university,U0484
+american university of ras al khaimah aurak,U0485
+national sun yatsen university,U0486
+universität mannheim,U0487
+university of hawaii at manoa,U0488
+chongqing university,U0489
+chungang university cau,U0490
+isfahan university of technology,U0491
+shanghai university,U0492
+unesp,U0493
+university of jyväskylä,U0494
+central queensland university cquniversity australia,U0495
+duy tan university,U0496
+jilin university,U0497
+national research nuclear university mephi moscow engineering physics institute,U0498
+universidad de costa rica,U0499
+university of california riverside,U0500
+khalifa university of science and technology,U0501
+colorado school of mines,U0502
+east china normal university,U0503
+johannes gutenberg universität mainz,U0504
+university of huddersfield,U0505
+university of delaware,U0506
+university of trento,U0507
+aristotle university of thessaloniki,U0508
+shenzhen university,U0509
+soas university of london,U0510
+ewha womans university,U0511
+zhengzhou university,U0512
+imam abdulrahman bin faisal university iau formerly university of dammam,U0513
+prince mohammad bin fahd university,U0514
+university of milanobicocca,U0515
+ateneo de manila university,U0516
+edith cowan university,U0517
+inti international university,U0518
+kyungpook national university,U0519
+sabanci university,U0520
+university of hull,U0521
+ural federal university urfu,U0522
+zayed university,U0523
+pusan national university,U0524
+universidad austral,U0525
+universität jena,U0526
+missouri university of science and technology,U0527
+universität leipzig,U0528
+university of bayreuth,U0529
+warsaw university of technology,U0530
+coventry university,U0531
+indian institute of technology bhu varanasi,U0532
+university of bradford,U0533
+university of utah,U0534
+universidad nacional de la plata unlp,U0535
+lahore university of management sciences lums,U0536
+northumbria university at newcastle,U0537
+university of bordeaux,U0538
+university of eastern finland,U0539
+applied science university bahrain,U0540
+hitotsubashi university,U0541
+sunway university,U0542
+université de fribourg,U0543
+university of salamanca,U0544
+universidad de zaragoza,U0545
+universidad pontificia comillas,U0546
+northwestern polytechnical university,U0547
+tashkent institute of irrigation and agricultural mechanization engineers national research university tiiamenru,U0548
+university of genoa,U0549
+university of iceland,U0550
+university of windsor,U0551
+united arab emirates university,U0552
+university of tabriz,U0553
+hasselt university,U0554
+jordan university of science technology,U0555
+universiti utara malaysia uum,U0556
+university of dhaka,U0557
+university ulm,U0558
+peter the great st petersburg polytechnic university,U0559
+ulster university,U0560
+umm alqura university,U0561
+université claude bernard lyon 1,U0562
+universiti teknologi brunei,U0563
+eötvös loránd university,U0564
+nanjing university of science and technology,U0565
+university of connecticut,U0566
+chiang mai university,U0567
+lebanese university,U0568
+mgimo university,U0569
+university of chemistry and technology prague,U0570
+university of szeged,U0571
+university of the punjab,U0572
+florida state university,U0573
+florida international university,U0574
+university of debrecen,U0575
+national research tomsk polytechnic university,U0576
+sogang university,U0577
+southern cross university,U0578
+universidad adolfo ibáñez,U0579
+jawaharlal nehru university,U0580
+jinan university china,U0581
+management and science university,U0582
+politecnico di bari,U0583
+université paul sabatier toulouse iii,U0584
+institut teknologi sepuluh nopember its surabaya,U0585
+singapore management university,U0586
+bond university,U0587
+shoolini university of biotechnology and management sciences,U0588
+the university of georgia,U0589
+universiti teknologi mara uitm,U0590
+university of kwazulunatal,U0591
+ain shams university,U0592
+nottingham trent university,U0593
+universität bremen,U0594
+itmo university,U0595
+thammasat university,U0596
+universitas padjadjaran,U0597
+university of iowa,U0598
+university of ljubljana,U0599
+university of texas dallas,U0600
+ca foscari university of venice,U0601
+illinois institute of technology,U0602
+king khalid university,U0603
+kingston university london,U0604
+manchester metropolitan university mmu,U0605
+national chengchi university,U0606
+paris lodron university of salzburg,U0607
+rensselaer polytechnic institute,U0608
+universität des saarlandes,U0609
+university of crete,U0610
+university of hohenheim,U0611
+university of south carolina,U0612
+american university of the middle east,U0613
+asia pacific university of technology and innovation apu,U0614
+brno university of technology,U0615
+christianalbrechtsuniversity zu kiel,U0616
+eastern mediterranean university,U0617
+pontifícia universidade católica do rio de janeiro,U0618
+taipei medical university tmu,U0619
+university of klagenfurt,U0620
+university of minho,U0621
+abo akademi university,U0622
+american university in dubai,U0623
+auezov south kazakhstan university sku,U0624
+charles darwin university,U0625
+istanbul university,U0626
+renmin peoples university of china,U0627
+tallinn university of technology taltech,U0628
+universidad de alcalá,U0629
+universidad de palermo up,U0630
+university of south florida,U0631
+university of tromsø the arctic university of norway,U0632
+al ain university,U0633
+ajou university,U0634
+boston college,U0635
+chang gung university,U0636
+china university of petroleum,U0637
+far eastern federal university,U0638
+inha university,U0639
+savitribai phule pune university,U0640
+tulane university,U0641
+universidad de concepción,U0642
+university of portsmouth,U0643
+beirut arab university,U0644
+de la salle university,U0645
+east china university of science and technology,U0646
+hacettepe university,U0647
+lehigh university,U0648
+national central university,U0649
+oregon state university,U0650
+ritsumeikan university,U0651
+soochow university,U0652
+symbiosis international deemed university,U0653
+universiti tenaga nasional uniten,U0654
+university of missouri columbia,U0655
+university of the basque country,U0656
+hufs hankuk korea university of foreign studies,U0657
+palacký university olomouc,U0658
+universidade de santiago de compostela,U0659
+university of houston,U0660
+university of zagreb,U0661
+aberystwyth university,U0662
+city university of new york,U0663
+comenius university bratislava,U0664
+free university of bozenbolzano,U0665
+international islamic university malaysia iium,U0666
+iscte instituto universitario de lisboa,U0667
+memorial university of newfoundland,U0668
+national chung hsing university,U0669
+sofia university st kliment ohridski,U0670
+tokyo medical and dental university tmdu,U0671
+universidad de la república udelar,U0672
+university of manitoba,U0673
+university of plymouth,U0674
+abai kazakh national pedagogical university,U0675
+barilan university,U0676
+karlfranzensuniversitaet graz,U0677
+kazakh national agrarian university kaznau,U0678
+martinlutheruniversität hallewittenberg,U0679
+universidade federal de minas gerais,U0680
+university of haifa,U0681
+china university of mining and technology,U0682
+goldsmiths university of london,U0683
+indian institute of technology hyderabad,U0684
+jeonbuk national university,U0685
+prince sultan university,U0686
+princess nourah bint abdulrahman university,U0687
+temple university,U0688
+university of agriculture faisalabad,U0689
+university of new brunswick,U0690
+chandigarh university,U0691
+norwegian university of life sciences umb,U0692
+pakistan institute of engineering and applied sciences pieas,U0693
+shiraz university,U0694
+universidad central de venezuela,U0695
+universidad de la habana,U0696
+universidad panamericana up,U0697
+universidade federal de são paulo,U0698
+universidade federal do rio grande do sul,U0699
+university of brescia,U0700
+university of greenwich,U0701
+university of siena,U0702
+beijing university of chemical technology,U0703
+dongguk university,U0704
+lebanese american university,U0705
+national institute of technology tiruchirappalli,U0706
+stevens institute of technology,U0707
+taras shevchenko national university of kyiv,U0708
+university of nebraska lincoln,U0709
+university of oklahoma,U0710
+ahlia university,U0711
+american university,U0712
+comsats university islamabad,U0713
+czech university of life sciences in prague,U0714
+de montfort university,U0715
+lingnan university hong kong,U0716
+nanjing agricultural university,U0717
+plekhanov russian university of economics,U0718
+saint joseph university of beirut usj,U0719
+the national university of science and technology misis,U0720
+ton duc thang university,U0721
+université de franchecomté,U0722
+university of mumbai,U0723
+brandeis university,U0724
+budapest university of technology and economics,U0725
+diponegoro university,U0726
+drexel university,U0727
+effat university,U0728
+jadavpur university,U0729
+konkuk university,U0730
+lanzhou university,U0731
+middlesex university,U0732
+riga technical university,U0733
+université de lille,U0734
+université de rennes 1 university of rennes,U0735
+university of modena and reggio emilia,U0736
+university of trieste,U0737
+universitat rovira i virgili,U0738
+université côte dazur,U0739
+university of belgrade,U0740
+altai state university,U0741
+carleton university,U0742
+universidad católica andres bello,U0743
+universidad de montevideo um,U0744
+universität regensburg,U0745
+universiti malaysia pahang,U0746
+university of central florida,U0747
+university of the west of england,U0748
+university of westminster,U0749
+v n karazin kharkiv national university,U0750
+victoria university,U0751
+vytautas magnus university,U0752
+wake forest university,U0753
+instituto tecnológico autónomo de méxico itam,U0754
+kaunas university of technology,U0755
+technische universität braunschweig,U0756
+tokyo university of science,U0757
+universidade de brasília,U0758
+universita politecnica delle marche,U0759
+university of calcutta,U0760
+university of engineering technology uet lahore,U0761
+university of malta,U0762
+university of messina unime,U0763
+adam mickiewicz university poznan,U0764
+bangladesh university of engineering and technology,U0765
+king faisal university,U0766
+nanjing university of aeronautics and astronautics,U0767
+university of cincinnati,U0768
+university of colorado denver,U0769
+university of patras,U0770
+addis ababa university,U0771
+bournemouth university,U0772
+chiba university,U0773
+china university of geosciences,U0774
+colegio de méxico,U0775
+holy spirit university of kaslik,U0776
+universidad del rosario,U0777
+université de tunis el manar,U0778
+university of maryland baltimore county,U0779
+university of pecs,U0780
+verona university,U0781
+babesbolyai university,U0782
+kasetsart university,U0783
+national university of uzbekistan,U0784
+qassim university,U0785
+texas tech university,U0786
+the new school,U0787
+universidad de belgrano,U0788
+universidade federal de santa catarina,U0789
+university of latvia,U0790
+university of mons,U0791
+zürcher hochschule winterthur,U0792
+alfaisal university,U0793
+ivane javakhishvili tbilisi state university,U0794
+keele university,U0795
+new jersey institute of technology njit,U0796
+sechenov university,U0797
+universidad de antioquia,U0798
+university of kentucky,U0799
+university of new mexico,U0800
+vellore institute of technology vit,U0801
+wayne state university,U0802
+alahliyya amman university,U0803
+alexandria university,U0804
+ankara üniversitesi,U0805
+asia university taiwan,U0806
+beijing university of technology,U0807
+belarusian national technical university bntu,U0808
+birla institute of technology and science pilani,U0809
+edinburgh napier university,U0810
+gdansk university of technology,U0811
+huazhong agricultural university,U0812
+immanuel kant baltic federal university,U0813
+instituto politécnico nacional ipn,U0814
+jouf university,U0815
+khoja akhmet yassawi international kazakhturkish university,U0816
+kuwait university,U0817
+liverpool john moores university,U0818
+london south bank university,U0819
+maynooth university,U0820
+national technical university of ukraine igor sikorsky kyiv polytechnic institute,U0821
+ocean university of china,U0822
+philippsuniversität marburg,U0823
+pontificia universidad católica de valparaíso,U0824
+rutgers universitynewark,U0825
+syracuse university,U0826
+the catholic university of korea,U0827
+toronto metropolitan university,U0828
+tu dortmund university,U0829
+universidad anáhuac méxico,U0830
+universidad iberoamericana ibero,U0831
+universidad san francisco de quito usfq,U0832
+università degli studi di perugia,U0833
+universitas brawijaya,U0834
+universität duisburgessen,U0835
+universität rostock,U0836
+université de lorraine,U0837
+universiti tunku abdul rahman utar,U0838
+university of alaska fairbanks,U0839
+university of alicante,U0840
+university of baghdad,U0841
+university of bari,U0842
+university of brighton,U0843
+university of bucharest,U0844
+university of hyderabad,U0845
+university of oregon,U0846
+university of petroleum and energy studies upes,U0847
+university of salerno,U0848
+university of stavanger,U0849
+university of ulsan,U0850
+wuhan university of technology,U0851
+agh university of science and technology,U0852
+alquds university,U0853
+applied science private university jordan,U0854
+charles sturt university,U0855
+chonnam national university,U0856
+chungnam national university,U0857
+clarkson university,U0858
+cy cergy paris university,U0859
+donghua university,U0860
+georgia state university,U0861
+gulf university for science and technology,U0862
+jamia millia islamia,U0863
+kansas state university,U0864
+karaganda state technical university,U0865
+kyrgyz russian slavic university,U0866
+mendel university in brno,U0867
+nagasaki university,U0868
+northwest agriculture and forestry university,U0869
+northwest university,U0870
+okayama university,U0871
+oklahoma state university,U0872
+pavol jozef afárik university in koice,U0873
+poznan university of life sciences,U0874
+shahid beheshti university sbu,U0875
+swarthmore college,U0876
+technological university dublin,U0877
+thapar institute of engineering technology,U0878
+tokyo university of agriculture and technology,U0879
+universidad de valladolid,U0880
+universidad ort uruguay,U0881
+universita degli studi di ferrara,U0882
+université de nantes,U0883
+université de sherbrooke,U0884
+université du québec,U0885
+university at albany suny,U0886
+university duesseldorf,U0887
+university of dubai,U0888
+university of gdansk,U0889
+university of ghana,U0890
+university of hertfordshire,U0891
+university of lincoln,U0892
+university of mississippi,U0893
+university of palermo,U0894
+university of santo tomas,U0895
+university of south africa,U0896
+university of wroclaw,U0897
+vietnam national university hanoi,U0898
+vilnius gediminas technical university,U0899
+virginia commonwealth university,U0900
+yildiz technical university,U0901
+australian catholic university,U0902
+beijing jiaotong university,U0903
+beijing university of posts and telecommunications,U0904
+catania university,U0905
+future university in egypt,U0906
+gazi üniversitesi,U0907
+georgian technical university,U0908
+german jordanian university,U0909
+imam mohammad ibn saud islamic university imsiu,U0910
+kanazawa university,U0911
+karaganda buketov university,U0912
+kyrgyzturkish manas university,U0913
+louisiana state university,U0914
+makerere university,U0915
+manipal academy of higher education manipal karnataka india,U0916
+michigan technological university,U0917
+national research saratov state university,U0918
+nicolaus copernicus university,U0919
+north south university,U0920
+osaka metropolitan university,U0921
+princess sumaya university for technology,U0922
+ritsumeikan asia pacific university,U0923
+robert gordon university,U0924
+south ural state university national research university,U0925
+universidad católica del uruguay ucu,U0926
+universidad central marta abreu de las villas,U0927
+universidad eafit,U0928
+universidad externado de colombia,U0929
+universidad nacional de córdoba unc,U0930
+universidad nacional mayor de san marcos,U0931
+universidad pontificia bolivariana,U0932
+universidade católica portuguesa ucp,U0933
+universidade de vigo,U0934
+università degli studi della tuscia university of tuscia,U0935
+università degli studi roma tre,U0936
+university of alabama birmingham,U0937
+university of calabria,U0938
+university of east london,U0939
+university of hail,U0940
+university of lodz,U0941
+university of maribor,U0942
+university of murcia,U0943
+university of nairobi,U0944
+university of peshawar,U0945
+university of salford,U0946
+university paris 2 panthéonassas,U0947
+viet nam national university ho chi minh city vnuhcm,U0948
+worcester polytechnic institute,U0949
+wroclaw university of science and technology wrust,U0950
+yerevan state university,U0951
+yokohama city university,U0952
+almaty technological university,U0953
+athens university of economics and business,U0954
+auburn university,U0955
+baku state university,U0956
+bina nusantara university binus,U0957
+clark university,U0958
+clemson university,U0959
+d serikbayev east kazakhstan state technical university,U0960
+ferdowsi university of mashhad,U0961
+financial university under the government of the russian federation,U0962
+hallym university,U0963
+indian institute of technology bhubaneswar,U0964
+instituto tecnológico de buenos aires itba,U0965
+khon kaen university,U0966
+king mongkuts university of technology thonburi,U0967
+kumamoto university,U0968
+mansoura university,U0969
+niigata university,U0970
+northern borders university,U0971
+pontificia universidad católica del ecuador puce,U0972
+prince of songkla university,U0973
+queen margaret university edinburgh,U0974
+rhodes university,U0975
+riga stradins university,U0976
+sd asfendiyarov kazakh national medical university,U0977
+saveetha institute of medical and technical sciences deemed to be university,U0978
+sophia university,U0979
+southern federal university,U0980
+st louis university,U0981
+the university of alabama,U0982
+the university of lahore,U0983
+universidad autónoma metropolitana uam,U0984
+universidad de córdoba españa,U0985
+universidad de la sabana,U0986
+universidad de león,U0987
+universidad de los andes chile,U0988
+universidad de san andrés udesa,U0989
+universidad nacional de rosario unr,U0990
+universidad técnica federico santa maría usm,U0991
+universidad torcuato di tella,U0992
+université sorbonne paris nord,U0993
+université toulouse 1 capitole,U0994
+universiti pendidikan sultan idris upsi,U0995
+university of bahrain,U0996
+university of central lancashire,U0997
+university of colombo,U0998
+university of denver,U0999
+university of parma,U1000
+university of regina,U1001
+university of south bohemia,U1002
+university of the western cape,U1003
+yarmouk university,U1004
+yeungnam university,U1005
+alazhar university,U1006
+aligarh muslim university,U1007
+amity university,U1008
+amrita vishwa vidyapeetham,U1009
+annajah national university,U1010
+arab academy for science technology and maritime transport,U1011
+assiut university,U1012
+azerbaijan state oil and industry university,U1013
+azerbaijan state university of economics,U1014
+banaras hindu university,U1015
+baylor university,U1016
+bielefeld university,U1017
+binghamton university suny,U1018
+birmingham city university,U1019
+brac university,U1020
+brigham young university,U1021
+canterbury christ church university,U1022
+chang jung christian university,U1023
+chung yuan christian university,U1024
+chungbuk national university,U1025
+college of william and mary,U1026
+corvinus university of budapest,U1027
+cracow university of technology politechnika krakowska,U1028
+dankook university,U1029
+ege university,U1030
+escuela superior politécnica del litoral espol,U1031
+fordham university,U1032
+gebze technical university gtu,U1033
+george mason university,U1034
+gifu university,U1035
+glasgow caledonian university,U1036
+gunma university,U1037
+guru gobind singh indraprastha university,U1038
+harbin engineering university,U1039
+hohai university,U1040
+howard university,U1041
+hungarian university of agriculture and life sciences,U1042
+indiana universitypurdue university indianapolis,U1043
+international christian university,U1044
+international islamic university islamabad iiu,U1045
+islamic university of madinah,U1046
+iteso universidad jesuita de guadalajara,U1047
+jiangnan university,U1048
+kagoshima university,U1049
+kangwon national university,U1050
+kazakhbritish technical university,U1051
+kent state university,U1052
+kyushu institute of technology,U1053
+leeds beckett university,U1054
+lobachevsky university,U1055
+lodz university of technology,U1056
+london metropolitan university,U1057
+loyola university chicago,U1058
+lviv polytechnic national university,U1059
+marmara university,U1060
+mississippi state university,U1061
+multimedia university mmu,U1062
+mustansiriyah university,U1063
+mutah university,U1064
+mykolas romeris university,U1065
+nanjing normal university,U1066
+narxoz university,U1067
+national chung cheng university,U1068
+national technical university kharkiv polytechnic institute,U1069
+national university of kyivmohyla academy naukma,U1070
+njsc kimep university,U1071
+northern arizona university,U1072
+northwest university china,U1073
+op jindal global university,U1074
+ohio university,U1075
+panjab university,U1076
+paul valéry university montpellier,U1077
+pontifícia universidade católica de são paulo,U1078
+poznan university of technology,U1079
+rochester institute of technology rit,U1080
+russian presidential academy of national economy and public administration,U1081
+saint petersburg electrotechnical university etuleti,U1082
+saintpetersburg mining university,U1083
+samara national research university samara university,U1084
+san diego state university,U1085
+sheffield hallam university,U1086
+shinshu university,U1087
+siberian federal university sibfu,U1088
+silesian university of technology,U1089
+slovak university of agriculture in nitra,U1090
+slovak university of technology in bratislava,U1091
+sohar university,U1092
+soonchunhyang university,U1093
+southern methodist university,U1094
+southwest university,U1095
+srm institute of science and technology,U1096
+sumy state university,U1097
+sungshin womens university,U1098
+széchenyi istván university,U1099
+taibah university,U1100
+tallinn university,U1101
+technical university of kosice,U1102
+tecnológico de costa rica tec,U1103
+telkom university,U1104
+the hashemite university,U1105
+the university of northampton,U1106
+the university of texas at arlington,U1107
+tokushima university,U1108
+tokyo metropolitan university,U1109
+universidad andrés bello,U1110
+universidad austral de chile,U1111
+universidad autónoma chapingo,U1112
+universidad autónoma de nuevo león,U1113
+universidad autónoma del estado de méxico uaemex,U1114
+universidad de castillala mancha,U1115
+universidad de guadalajara udg,U1116
+universidad de la frontera ufro,U1117
+universidad de las américas puebla udlap,U1118
+universidad de lima,U1119
+universidad de los andes ula mérida,U1120
+universidad de oviedo,U1121
+universidad de puerto rico,U1122
+universidad de talca,U1123
+universidad del norte,U1124
+universidad del pacífico,U1125
+universidad del valle,U1126
+universidad diego portales udp,U1127
+universidad icesi,U1128
+universidad nacional de cuyo,U1129
+universidad nacional de la asunción,U1130
+universidad nacional de san luis,U1131
+universidad nacional del centro de la provincia de buenos aires unicen,U1132
+universidad peruana cayetano heredia upch,U1133
+universidad rey juan carlos,U1134
+universidad simón bolívar usb,U1135
+universidad tecnológica de panamá utp,U1136
+universidad tecnológica nacional utn,U1137
+universidade da coruña,U1138
+universidade federal de pernambuco ufpe,U1139
+universidade federal de são carlos ufscar,U1140
+universidade federal do paraná ufpr,U1141
+universidade federal fluminense,U1142
+universita degli studi g dannunzio chieti pescara,U1143
+università degli studi di udine,U1144
+università del salento,U1145
+universitas hasanuddin,U1146
+universitas sebelas maret,U1147
+universitat de lleida,U1148
+universität siegen,U1149
+université de caen normandie,U1150
+université de poitiers,U1151
+université de sfax,U1152
+université de sousse,U1153
+université de toulouse iile mirail,U1154
+université de tunis,U1155
+université lumière lyon 2,U1156
+université mohammed v de rabat,U1157
+université parisnanterre,U1158
+universiti malaysia sabah ums,U1159
+universiti malaysia sarawak unimas,U1160
+universiti malaysia terengganu umt,U1161
+universiti tun hussein onn university of malaysia uthm,U1162
+university of arkansas fayetteville,U1163
+university of derby,U1164
+university of deusto,U1165
+university of hradec kralove,U1166
+university of ibadan,U1167
+university of idaho,U1168
+university of ioannina,U1169
+university of karachi,U1170
+university of khartoum,U1171
+university of lagos,U1172
+university of louisville,U1173
+university of massachusetts boston,U1174
+university of missouri kansas city,U1175
+university of naples parthenope,U1176
+university of new england australia,U1177
+university of new hampshire,U1178
+university of north carolina at charlotte,U1179
+university of north texas,U1180
+university of novi sad,U1181
+university of rhode island,U1182
+university of sarajevo,U1183
+university of seoul,U1184
+university of tabuk,U1185
+university of texas at san antonio,U1186
+university of texas el paso,U1187
+university of the free state,U1188
+university of the sunshine coast,U1189
+university of toledo,U1190
+university of tulsa,U1191
+university of vermont,U1192
+university of warmia and mazury in olsztyn,U1193
+university of wolverhampton,U1194
+university of wyoming,U1195
+university of ilina,U1196
+utah state university,U1197
+vsb technical university of ostrava,U1198
+warsaw university of life sciences sggw wulssggw,U1199
+west virginia university,U1200
+xian jiaotong liverpool university,U1201
+yokohama national university,U1202
+albalqa applied university,U1203
+alexandru ioan cuza university,U1204
+anadolu university,U1205
+aoyama gakuin university,U1206
+ataturk university,U1207
+atma jaya catholic university jakarta,U1208
+bahauddin zakariya university,U1209
+beijing foreign studies university,U1210
+beijing university of chinese medicine,U1211
+belarusian state university of informatics and radioelectronics,U1212
+benemérita universidad autónoma de puebla,U1213
+birzeit university,U1214
+british university in egypt,U1215
+brock university,U1216
+central michigan university,U1217
+chaoyang university of technology,U1218
+china university of political science and law,U1219
+chitkara university,U1220
+chittagong university of engineering and technology,U1221
+cleveland state university,U1222
+cukurova university,U1223
+cuny the city college of new york,U1224
+daffodil international university,U1225
+damascus university,U1226
+dokuz eylül üniversitesi,U1227
+doshisha university,U1228
+erciyes üniversitesi,U1229
+escuela politécnica nacional,U1230
+feng chia university,U1231
+florida atlantic university boca raton,U1232
+fu jen catholic university,U1233
+fundación ceu san pablo,U1234
+german university in cairo,U1235
+hanoi university of science and technology,U1236
+harper adams university,U1237
+helwan university,U1238
+hongik university,U1239
+hue university,U1240
+instituto tecnológico de santo domingo intec,U1241
+istanbul aydin university,U1242
+istanbul bilgi üniversitesi,U1243
+ivan franko national university of lviv,U1244
+izmir institute of technology iztech,U1245
+jahangirnagar university,U1246
+jamia hamdard,U1247
+jeju national university,U1248
+kazakh ablai khan university of international relations and world languages,U1249
+kazan national research technological university,U1250
+kenyatta university,U1251
+kharkiv national university of radio electronics,U1252
+khulna university,U1253
+khulna university of engineering and technology,U1254
+kindai university kinki university,U1255
+king mongkuts institute of technology ladkrabang,U1256
+king mongkuts university of technology north bangkok,U1257
+kookmin university,U1258
+kwame nkrumah university of science and technology,U1259
+kyoto institute of technology,U1260
+kyrgyz state technical university,U1261
+marquette university,U1262
+meiji university,U1263
+mendeleev university of chemical technology,U1264
+miami university,U1265
+moscow pedagogical state university,U1266
+nagoya institute of technology nit,U1267
+national dong hwa university,U1268
+national research university moscow power engineering institute mpei,U1269
+national taipei university,U1270
+national taiwan ocean university,U1271
+novosibirsk state technical university,U1272
+óbuda university,U1273
+odessa ii mechnikov national university,U1274
+osmania university,U1275
+perm state national research university,U1276
+pondicherry university,U1277
+pontificia universidad catolica madre y maestra,U1278
+pontifícia universidade católica do rio grande do sul pucrs,U1279
+portland state university,U1280
+pukyong national university,U1281
+rajshahi university,U1282
+rikkyo university,U1283
+saitama university,U1284
+saken seifullin kazakh agrotechnical university,U1285
+san francisco state university,U1286
+sathyabama institute of science and technology deemed to be university,U1287
+seattle university,U1288
+seoul national university of science and technology,U1289
+shahjalal university of science and technology,U1290
+shanghai international studies university,U1291
+shanghai university of finance and economics,U1292
+siksha o anusandhan deemed to be university,U1293
+sookmyung womens university,U1294
+suez canal university,U1295
+suleyman demirel university,U1296
+suleyman demirel university kazakhstan,U1297
+suranaree university of technology,U1298
+tamkang university,U1299
+tanta university,U1300
+technical university of clujnapoca,U1301
+technical university of liberec,U1302
+technical university of lublin,U1303
+technische universität kaiserslautern,U1304
+the gheorghe asachi technical university of iasi,U1305
+the herzen state pedagogical university of russia,U1306
+the josip juraj strossmayer university of osijek,U1307
+the national research university belgorod state university,U1308
+tokai university,U1309
+tomas bata university in zlin,U1310
+toraighyrov university,U1311
+transilvania university of brasov,U1312
+tunghai university,U1313
+universidad autónoma de guadalajara uag,U1314
+universidad autónoma del estado de hidalgo uaeh,U1315
+universidad católica del norte,U1316
+universidad central del ecuador,U1317
+universidad de las américas udla ecuador,U1318
+universidad de monterrey udem,U1319
+universidad de oriente santiago de cuba,U1320
+universidad de panama,U1321
+universidad de piura,U1322
+universidad de san carlos de guatemala usac,U1323
+universidad de tarapaca,U1324
+universidad de valparaíso uv,U1325
+universidad del bíobío,U1326
+universidad del desarrollo udd,U1327
+universidad del salvador,U1328
+universidad del zulia,U1329
+universidad industrial de santander uis,U1330
+universidad la salle ulsa,U1331
+universidad latinoamericana de ciencia y tecnología costa rica ulacit,U1332
+universidad mayor de san andrés umsa,U1333
+universidad metropolitana,U1334
+universidad nacional agraria la molina,U1335
+universidad nacional autónoma de honduras unah,U1336
+universidad nacional de ingeniería peru,U1337
+universidad nacional de mar del plata,U1338
+universidad nacional de río cuarto unrc,U1339
+universidad nacional de san martín unsam,U1340
+universidad nacional del litoral,U1341
+universidad nacional del sur,U1342
+universidad nacional costa rica,U1343
+universidad peruana de ciencias aplicadas,U1344
+universidade do estado do rio de janeiro uerj,U1345
+universidade federal da bahia,U1346
+universidade federal de juiz de fora ufjf,U1347
+universidade federal de pelotas,U1348
+universidade federal de santa maria,U1349
+universidade federal de viçosa ufv,U1350
+universidade federal do ceará ufc,U1351
+universidade federal do rio grande do norte,U1352
+universidade presbiteriana mackenzie,U1353
+università degli studi di bergamo,U1354
+universitas islam indonesia,U1355
+universitas muhammadiyah yogyakarta,U1356
+universitas pendidikan indonesia,U1357
+universitas sumatera utara,U1358
+universitatea de vest din timisoara west university of timisoara,U1359
+université de limoges,U1360
+université jean moulin lyon 3,U1361
+universiti kuala lumpur unikl,U1362
+universiti malaysia perlis,U1363
+universiti teknikal malaysia melaka,U1364
+university of babylon,U1365
+university of basrah,U1366
+university of bialystok,U1367
+university of international business and economics,U1368
+university of kragujevac,U1369
+university of kufa,U1370
+university of memphis,U1371
+university of miskolc,U1372
+university of missouri saint louis,U1373
+university of ni,U1374
+university of north carolina at greensboro,U1375
+university of ostrava,U1376
+university of pannonia,U1377
+university of pardubice,U1378
+university of peradeniya,U1379
+university of primorska,U1380
+university of rijeka,U1381
+university of rzeszów,U1382
+university of san diego,U1383
+university of san francisco,U1384
+university of silesia in katowice,U1385
+university of south alabama usa,U1386
+university of split,U1387
+university of sri jayewardenepura,U1388
+university of the pacific,U1389
+university of tyumen,U1390
+university of west bohemia,U1391
+university of wisconsin milwaukee,U1392
+university politehnica of bucharest,U1393
+vancouver island university,U1394
+voronezh state university,U1395
+western michigan university,U1396
+yamaguchi university,U1397
+yogyakarta state university,U1398
+youngsan university,U1399
+yuan ze university,U1400
+zagazig university,U1401
+don state technical university,U1402
+akdeniz üniversitesi,U1403
+california polytechnic state university,U1404
+california state university los angeles,U1405
+california state university long beach,U1406
+católica de córdoba,U1407
+east west university,U1408
+fundación universidad de bogotájorge tadeo lozano,U1409
+humboldt state university,U1410
+illinois state university,U1411
+indian institute of information technology allahabad,U1412
+indiana state university,U1413
+international university of business agriculture and technology,U1414
+irkutsk state university,U1415
+korkyt ata kyzylorda university,U1416
+kwansei gakuin university,U1417
+lucian blaga university of sibiu,U1418
+mkh dulaty taraz regional university,U1419
+mirea russian technological university,U1420
+moscow city university,U1421
+naresuan university,U1422
+national university of life and environmental sciences of ukraine,U1423
+national university of modern languages numl islamabad,U1424
+nova southeastern university,U1425
+pontifícia universidade católica de minas gerais puc minas,U1426
+pontificia universidade católica do campinas puc campinas,U1427
+pontifícia universidade católica do paraná,U1428
+russian state agrarian university moscow timiryazev agricultural academy,U1429
+russian state university for the humanities,U1430
+sakarya university,U1431
+shanghai normal university,U1432
+shibaura institute of technology,U1433
+silpakorn university,U1434
+soochow university taiwan,U1435
+soongsil university,U1436
+stamford university bangladesh,U1437
+state university of malang,U1438
+stefan cel mare university of suceava,U1439
+the university of notre dame australia,U1440
+udayana university,U1441
+united international university,U1442
+universidad alberto hurtado,U1443
+universidad autónoma de aguascalientes,U1444
+universidad autónoma de baja california,U1445
+universidad autónoma de chile,U1446
+universidad autónoma de querétaro uaq,U1447
+universidad autónoma de san luis de potosí,U1448
+universidad autonoma de yucatan,U1449
+universidad autónoma del estado de morelos uaem,U1450
+universidad bernardo ohiggins,U1451
+universidad católica boliviana san pablo,U1452
+universidad católica de colombia,U1453
+universidad católica de la santísima concepción ucsc,U1454
+universidad católica de santiago de guayaquil,U1455
+universidad católica de temuco,U1456
+universidad central de chile,U1457
+universidad de caldas,U1458
+universidad de carabobo,U1459
+universidad de cartagena,U1460
+universidad de córdoba colombia,U1461
+universidad de cuenca,U1462
+universidad de guanajuato,U1463
+universidad de la salle,U1464
+universidad de la serena,U1465
+universidad de las fuerzas armadas espe ex escuela politécnica del ejército,U1466
+universidad de medellín,U1467
+universidad de santander udes,U1468
+universidad de sonora,U1469
+universidad del cauca,U1470
+universidad del valle de mexico uvm,U1471
+universidad michoacana de san nicolás de hidalgo,U1472
+universidad nacional de quilmes,U1473
+universidad nacional de tucumán,U1474
+universidad nacional del comahue,U1475
+universidad politecnica salesiana,U1476
+universidad popular autónoma del estado de puebla upaep,U1477
+universidad san ignacio de loyola,U1478
+universidad tecnica particular de loja utpl,U1479
+universidad tecnológica de bolívar,U1480
+universidad tecnológica de la habana josé antonio echeverría cujae,U1481
+universidad tecnológica de pereira,U1482
+universidad veracruzana,U1483
+universidade do estado de santa catarina,U1484
+universidade estadual de londrina,U1485
+universidade federal da paraíba,U1486
+universidade federal de goiás,U1487
+universidade federal de uberlândia,U1488
+universidade federal do estado do rio de janeiro unirio,U1489
+universidade federal do parà ufpa,U1490
+universitas andalas,U1491
+universitas kristen petra,U1492
+universitas muhammadiyah surakarta,U1493
+universiti sains islam malaysia,U1494
+university of central oklahoma,U1495
+university of craiova,U1496
+university of lampung,U1497
+university of mataram,U1498
+university of montana missoula,U1499
+university of oradea,U1500
+university of san carlos,U1501
+university politehnica of timisoara upt,U1502
+western washington university,U1503
+massachusetts institute of technology,U1504
+california institute of technology,U1505
+university of california berkeley,U1506
+eth zurich,U1507
+the university of chicago,U1508
+university of california los angeles,U1509
+national university of singapore,U1510
+new york university,U1511
+university of edinburgh,U1512
+nanyang technological university singapore,U1513
+ãcole polytechnique fãdãrale de lausanne,U1514
+university of california san diego,U1515
+university of hong kong,U1516
+university of melbourne,U1517
+kingâs college london,U1518
+lmu munich,U1519
+paris sciences et lettres â psl research university paris,U1520
+london school of economics and political science,U1521
+universitãt heidelberg,U1522
+karolinska institute,U1523
+university of manchester,U1524
+chinese university of hong kong,U1525
+universitã parissaclay,U1526
+australian national university,U1527
+university of california santa barbara,U1528
+university of north carolina at chapel hill,U1529
+yonsei university seoul campus,U1530
+korea advanced institute of science and technology kaist,U1531
+unsw sydney,U1532
+university of minnesota,U1533
+purdue university west lafayette,U1534
+hong kong polytechnic university,U1535
+humboldt university of berlin,U1536
+university of bonn,U1537
+charitã universitãtsmedizin berlin,U1538
+university of tã¼bingen,U1539
+ohio state university main campus,U1540
+free university of berlin,U1541
+university of sheffield,U1542
+university of warwick,U1543
+university of adelaide,U1544
+university of gãttingen,U1545
+university of montreal,U1546
+penn state main campus,U1547
+university of massachusetts,U1548
+university of freiburg,U1549
+trinity college dublin,U1550
+university of hamburg,U1551
+technical university of berlin,U1552
+karlsruhe institute of technology,U1553
+radboud university nijmegen,U1554
+university of pittsburghpittsburgh campus,U1555
+sungkyunkwan university skku,U1556
+university of auckland,U1557
+university of barcelona,U1558
+universitã paris citã,U1559
+university of arizona,U1560
+university of bologna,U1561
+tu dresden,U1562
+university of virginia main campus,U1563
+universitã catholique de louvain,U1564
+scuola normale superiore di pisa,U1565
+university of wã¼rzburg,U1566
+university of exeter,U1567
+arizona state university tempe,U1568
+university of mannheim,U1569
+tokyo institute of technology,U1570
+university of erlangennuremberg,U1571
+university of mã¼nster,U1572
+ulm university,U1573
+indiana university,U1574
+queensland university of technology,U1575
+autonomous university of barcelona,U1576
+friedrich schiller university jena,U1577
+goethe university frankfurt,U1578
+university of hawaiâi at mänoa,U1579
+university of illinois chicago,U1580
+king fahd university of petroleum and minerals,U1581
+universitã libre de bruxelles,U1582
+medical university of graz,U1583
+medical university of vienna,U1584
+moscow institute of physics and technology mipt,U1585
+university of newcastle,U1586
+northeastern university us,U1587
+university of padua,U1588
+pompeu fabra university,U1589
+university of potsdam,U1590
+queenâs university belfast,U1591
+rutgers university â new brunswick,U1592
+santâanna school of advanced studies â pisa,U1593
+university of são paulo,U1594
+southern university of science and technology sustech,U1595
+vrije universiteit brussel,U1596
+university of east anglia,U1597
+ãcole normale supãrieure de lyon,U1598
+heinrich heine university dã¼sseldorf,U1599
+humanitas university,U1600
+johannes gutenberg university of mainz,U1601
+khalifa university,U1602
+king abdulaziz university,U1603
+university of konstanz,U1604
+universitã laval,U1605
+linkãping university,U1606
+university of malaya,U1607
+medical university of innsbruck,U1608
+queenâs university,U1609
+rcsi university of medicine and health sciences,U1610
+ruhr university bochum,U1611
+semmelweis university,U1612
+university of southern denmark,U1613
+stony brook university,U1614
+university of stuttgart,U1615
+universitã della svizzera italiana,U1616
+tu wien,U1617
+vitasalute san raffaele university,U1618
+xiâan jiaotong university,U1619
+beihang university,U1620
+university of bremen,U1621
+university at buffalo,U1622
+catholic university of the sacred heart,U1623
+china medical university taiwan,U1624
+copenhagen business school,U1625
+university of essex,U1626
+universitã grenoble alpes,U1627
+hebrew university of jerusalem,U1628
+university of innsbruck,U1629
+university of kiel,U1630
+university of liãge,U1631
+montpellier university,U1632
+oregon health and science university,U1633
+university of pavia,U1634
+university of rome ii â tor vergata,U1635
+st georgeâs university of london,U1636
+swedish university of agricultural sciences,U1637
+universiti teknologi petronas,U1638
+the university of tennesseeknoxville,U1639
+university of the witwatersrand,U1640
+autonomous university of madrid,U1641
+university of campinas,U1642
+university of colorado denveranschutz medical campus,U1643
+university of georgia,U1644
+justus liebig university giessen,U1645
+koã university,U1646
+university of milanbicocca,U1647
+sabancä university,U1648
+university of st gallen,U1649
+southern medical university,U1650
+university of texas at dallas,U1651
+university of victoria,U1652
+auckland university of technology,U1653
+universiti brunei darussalam,U1654
+university of california merced,U1655
+campus biomedico university of rome,U1656
+university of catania,U1657
+centrale nantes,U1658
+chungang university,U1659
+claude bernard university lyon 1,U1660
+colorado state university fort collins,U1661
+constructor university bremen,U1662
+ãcole des ponts paristech,U1663
+federal university of toulouse midipyrãnães,U1664
+university of fribourg,U1665
+university of greifswald,U1666
+imam mohammad ibn saud islamic university,U1667
+imt atlantique,U1668
+institut agro,U1669
+johannes kepler university of linz,U1670
+university of jyvãskylã,U1671
+universiti kebangsaan malaysia,U1672
+university of marburg,U1673
+mizzou university of missouri,U1674
+national research nuclear university mephi,U1675
+university of nebraskalincoln,U1676
+university of neuchãtel,U1677
+new jersey institute of technology,U1678
+university of passau,U1679
+polytechnic university of turin,U1680
+pontificia universidad catã³lica de chile,U1681
+prince sultan university psu,U1682
+universitã du quãbec,U1683
+royal veterinary college,U1684
+universiti sains malaysia,U1685
+saint louis university,U1686
+university of south carolinacolumbia,U1687
+taipei medical university,U1688
+umeã university,U1689
+universiti utara malaysia,U1690
+university of vaasa,U1691
+ã bo akademi university,U1692
+american university of beirut,U1693
+anglia ruskin university aru,U1694
+university of lâaquila,U1695
+babol noshirvani university of technology,U1696
+brighton and sussex medical school,U1697
+caâ foscari university of venice,U1698
+university of canterbury,U1699
+central queensland university,U1700
+china university of petroleum beijing,U1701
+university of cãte dâazur,U1702
+university of cyprus,U1703
+ensta bretagne,U1704
+university of ferrara,U1705
+university of graz,U1706
+hamburg university of technology,U1707
+jinan university,U1708
+leuphana university of lã¼neburg,U1709
+mahatma gandhi university,U1710
+manchester metropolitan university,U1711
+university of messina,U1712
+nantes universitã,U1713
+national yunlin university of science and technology,U1714
+nazarbayev university,U1715
+university of nebraska medical center,U1716
+university of nicosia,U1717
+northumbria university,U1718
+nova university of lisbon,U1719
+polytechnic university of bari,U1720
+universiti putra malaysia,U1721
+rovira i virgili university,U1722
+rush university,U1723
+shiraz university of technology,U1724
+soochow university china,U1725
+tabriz university of medical sciences,U1726
+taif university,U1727
+the university of texas at san antonio,U1728
+tu braunschweig,U1729
+the university of tulsa,U1730
+uit the arctic university of norway,U1731
+university of valencia,U1732
+university of wuppertal,U1733
+yangzhou university,U1734
+abdul wali khan university mardan,U1735
+air university,U1736
+the university of aizu,U1737
+alagappa university,U1738
+amedeo avogadro university of eastern piedmont,U1739
+university of arkansas,U1740
+babol university of medical sciences,U1741
+university of bari aldo moro,U1742
+university of beira interior,U1743
+bharathiar university,U1744
+boäaziãi university,U1745
+university of campania luigi vanvitelli,U1746
+cankaya university,U1747
+university of cape coast,U1748
+capital medical university,U1749
+capital university of science and technology,U1750
+the catholic university of america,U1751
+university of cã³rdoba,U1752
+cyprus university of technology,U1753
+ãcole centrale de lyon,U1754
+ãcole des mines de saintãtienne,U1755
+ãcole nationale des travaux publics de lãtat entpe,U1756
+egyptjapan university of science and technology ejust,U1757
+university of engineering and technology taxila,U1758
+universidade estadual paulista unesp,U1759
+federal university of rio de janeiro,U1760
+federation university australia,U1761
+university of foggia,U1762
+gabriele dâannunzio university,U1763
+government college university faisalabad,U1764
+guangdong university of technology,U1765
+harokopio university of athens,U1766
+imam abdulrahman bin faisal university,U1767
+imam khomeini international university,U1768
+indian institute of technology guwahati,U1769
+indian institute of technology indian school of mines dhanbad,U1770
+indian institute of technology patna,U1771
+university of insubria,U1772
+international institute of information technology hyderabad,U1773
+iran university of medical sciences,U1774
+iscteuniversity institute of lisbon,U1775
+jamia hamdard university,U1776
+jiangsu university,U1777
+jãnkãping university,U1778
+the university of jordan,U1779
+juntendo university,U1780
+university of kaiserslautern,U1781
+university of kashan,U1782
+kashan university of medical sciences and health services,U1783
+kiit university,U1784
+king saud bin abdulaziz university for health sciences,U1785
+kurdistan university of medical sciences,U1786
+university of lille,U1787
+university of lorraine,U1788
+malaviya national institute of technology,U1789
+manipal academy of higher education,U1790
+marche polytechnic university,U1791
+mashhad university of medical sciences,U1792
+mazandaran university of medical sciences,U1793
+monterrey institute of technology,U1794
+university of namur,U1795
+nanjing forestry university,U1796
+nanjing tech university,U1797
+national institute of applied sciences of lyon insa lyon,U1798
+national university of sciences and technology,U1799
+national university of science and technology misis,U1800
+national institute of technology rourkela,U1801
+national institute of technology silchar,U1802
+near east university,U1803
+university of nevada las vegas,U1804
+university of new brunswick unb,U1805
+northeastern university china,U1806
+northern illinois university,U1807
+norwegian university of life sciences,U1808
+ohio university main campus,U1809
+old dominion university,U1810
+ontario tech university,U1811
+the open university,U1812
+open university of catalonia,U1813
+ãrebro university,U1814
+otto von guericke university of magdeburg,U1815
+parthenope university of naples,U1816
+universiti pendidikan sultan idris,U1817
+universitat politãcnica de catalunya,U1818
+polytechnic university of valencia,U1819
+prince sattam bin abdulaziz university,U1820
+qazvin university of medical sciences,U1821
+qingdao university,U1822
+reykjavãk university,U1823
+university of rome iii,U1824
+roskilde university,U1825
+university of salento,U1826
+university of sannio,U1827
+university of santiago de compostela,U1828
+university of sassari,U1829
+saveetha institute of medical and technical sciences,U1830
+shahid beheshti university of medical sciences,U1831
+university of siegen,U1832
+south china normal university,U1833
+south ural state university,U1834
+sruc scotlandâs rural college,U1835
+suny binghamton university,U1836
+tallinn university of technology,U1837
+tehran university of medical sciences,U1838
+university of texas at arlington,U1839
+thapar institute of engineering and technology,U1840
+university of tuscia,U1841
+university of udine,U1842
+paris lodron universitãt salzburg,U1843
+urmia university of medical sciences,U1844
+vit university,U1845
+university of the west of scotland,U1846
+william mary,U1847
+wroclaw medical university,U1848
+xiâan jiaotongliverpool university,U1849
+xidian university,U1850
+zhejiang normal university,U1851
+university of the aegean,U1852
+ahvaz jundishapur university of medical sciences ajums,U1853
+university of alcalã,U1854
+university of algarve,U1855
+american university in cairo,U1856
+university of the andes colombia,U1857
+arak university of medical sciences,U1858
+arts et mãtiers,U1859
+aswan university,U1860
+bahãeåehir university,U1861
+bahria university,U1862
+university of the balearic islands,U1863
+university of bergamo,U1864
+universitã de bretagne occidentale,U1865
+bucharest university of economic studies,U1866
+university of camerino unicam,U1867
+carlos iii university of madrid,U1868
+university of castillala mancha,U1869
+catholic university of portugal,U1870
+changsha university of science and technology,U1871
+chapman university,U1872
+institute of chemical technology,U1873
+chengdu university,U1874
+university of chile,U1875
+china university of petroleum east china,U1876
+university of clermont auvergne,U1877
+university of la costa,U1878
+covenant university,U1879
+czech university of life sciences prague czu,U1880
+damietta university,U1881
+delhi technological university,U1882
+eãtvãs lorãnd university,U1883
+federal university of minas gerais,U1884
+universidade federal de são paulo unifesp,U1885
+florida atlantic university,U1886
+florida institute of technology,U1887
+fuzhou university,U1888
+university of girona,U1889
+university of gloucestershire,U1890
+gorgan university of agricultural sciences and natural resources,U1891
+guangzhou university,U1892
+guangzhou medical university,U1893
+guilan university of medical sciences,U1894
+hazara university mansehra,U1895
+ilam university of medical sciences,U1896
+indian institute of science education and research pune,U1897
+indian institute of technology gandhinagar,U1898
+university of indonesia,U1899
+indraprastha institute of information technology delhi,U1900
+universitat internacional de catalunya,U1901
+international islamic university islamabad,U1902
+isfahan university of medical sciences,U1903
+islamia college peshawar,U1904
+university of jaãn,U1905
+jaume i university,U1906
+jawaharlal nehru technological university anantapur jntua,U1907
+jaypee university of information technology,U1908
+jazan university,U1909
+jordan university of science and technology,U1910
+jss academy of higher education and research,U1911
+kafrelsheikh university,U1912
+kalasalingam academy of research and education,U1913
+kaohsiung medical university,U1914
+kazan federal university,U1915
+king mongkutâs university of technology thonburi,U1916
+kingston university,U1917
+kn toosi university of technology,U1918
+kore university of enna,U1919
+university of kurdistan,U1920
+kyoto prefectural university of medicine,U1921
+university of lahore,U1922
+lahore university of management sciences,U1923
+lakehead university,U1924
+lithuanian university of health sciences,U1925
+university of lleida,U1926
+lovely professional university,U1927
+university of malakand,U1928
+university of management and technology,U1929
+medical university of lodz,U1930
+university of medicine and pharmacy carol davila,U1931
+university of mohaghegh ardabili,U1932
+montana state university,U1933
+nanjing university of information science and technology,U1934
+nanjing medical university,U1935
+national autonomous university of mexico,U1936
+new mexico state university main campus,U1937
+north china electric power university,U1938
+northeast normal university,U1939
+university of northern british columbia unbc,U1940
+university of oviedo,U1941
+ozyegin university,U1942
+pablo de olavide university,U1943
+palackã½ university olomouc,U1944
+panthãonsorbonne university â paris 1,U1945
+upes,U1946
+universitã de poitiers,U1947
+pontifical catholic university of rio de janeiro pucrio,U1948
+qom university of medical sciences,U1949
+reichman university,U1950
+university of rennes 1,U1951
+rochester institute of technology,U1952
+university of roehampton,U1953
+university of seville,U1954
+shahrekord university of medical sciences,U1955
+shantou university,U1956
+shiraz university of medical sciences,U1957
+shri mata vaishno devi university,U1958
+siksha âoâ anusandhan,U1959
+institute of space technology,U1960
+technical university of madrid,U1961
+university of technology iraq,U1962
+university of texas at el paso,U1963
+tokyo medical university,U1964
+tomsk polytechnic university,U1965
+university of tours,U1966
+university of trãsosmontes and alto douro,U1967
+university of tunis el manar,U1968
+urmia university,U1969
+university of veterinary and animal sciences lahore,U1970
+university of vic â central university of catalonia,U1971
+university of vigo,U1972
+wenzhou university,U1973
+wenzhou medical university,U1974
+yäldäz technical university,U1975
+university of zaragoza,U1976
+zhaw zurich university of applied sciences,U1977
+zhejiang gongshang university,U1978
+university of a coruãa,U1979
+adam mickiewicz university poznaå,U1980
+agh university of krakow,U1981
+aichi medical university,U1982
+akdeniz university,U1983
+university of almerãa,U1984
+university of applied sciences and arts of western switzerland,U1985
+universidad autã³noma de chile,U1986
+azarbaijan shahid madani university,U1987
+babeåbolyai university,U1988
+bangladesh agricultural university bau,U1989
+bartin university,U1990
+university of bedfordshire,U1991
+benha university,U1992
+benisuef university,U1993
+bowling green state university,U1994
+university of cadiz,U1995
+china pharmaceutical university,U1996
+comenius university in bratislava,U1997
+democritus university of thrace,U1998
+university of desarrollo,U1999
+diego portales university,U2000
+universitã djillali liabãs de sidi belabbãs,U2001
+dr br ambedkar national institute of technology jalandhar,U2002
+durban university of technology,U2003
+edge hill university,U2004
+university of engineering and technology peshawar,U2005
+european university of madrid,U2006
+university of extremadura,U2007
+fayoum university,U2008
+federal university of são carlos,U2009
+federal university of technology akure,U2010
+firat university,U2011
+florida agricultural and mechanical university,U2012
+university of franchecomtã,U2013
+fujian agriculture and forestry university,U2014
+fujita health university,U2015
+gauhati university,U2016
+gdaåsk university of technology,U2017
+gla university,U2018
+university of gujrat,U2019
+guru ghasidas vishwavidyalaya,U2020
+hakim sabzevari university,U2021
+hamamatsu university school of medicine,U2022
+huaqiao university,U2023
+icesi university,U2024
+ilmenau university of technology,U2025
+imt nord europe,U2026
+indian institute of science education and research kolkata,U2027
+indian institute of technology ropar,U2028
+indian institute of technology mandi,U2029
+university of isfahan,U2030
+the islamia university of bahawalpur,U2031
+istanbul universitycerrahpaåa,U2032
+iuliu haåieganu university of medicine and pharmacy clujnapoca,U2033
+university of jeddah,U2034
+jimma university,U2035
+kansai medical university,U2036
+karlstad university,U2037
+karnatak university dharwad,U2038
+kerman university of medical sciences,U2039
+kindai university,U2040
+kohat university of science and technology,U2041
+kurume university,U2042
+university of la laguna,U2043
+university of las palmas de gran canaria,U2044
+university of leoben,U2045
+university of leã³n,U2046
+lorestan university,U2047
+mae fah luang university,U2048
+maharishi markandeshwar university mmu,U2049
+university of malaga,U2050
+university of maragheh,U2051
+university of mazandaran,U2052
+medical university of bialystok,U2053
+medical university of gdaåsk,U2054
+medical university of warsaw,U2055
+mehran university of engineering and technology jamshoro pakistan,U2056
+miguel hernãndez university of elche,U2057
+ming chi university of technology,U2058
+minia university,U2059
+mirpur university of science and technology,U2060
+muhimbili university of health and allied sciences,U2061
+nagoya city university,U2062
+najran university,U2063
+national institute of technology warangal,U2064
+necmettin erbakan university,U2065
+nicolaus copernicus university in toruå,U2066
+nile university,U2067
+nippon medical school,U2068
+oakland university,U2069
+ãbuda university,U2070
+university of occupational and environmental health japan,U2071
+university of pãcs,U2072
+universidad peruana cayetano heredia,U2073
+pmas arid agriculture university rawalpindi,U2074
+pontifical catholic university of rio grande do sul pucrs,U2075
+poznan university of medical sciences,U2076
+public university of navarre,U2077
+university of rajshahi,U2078
+razi university,U2079
+riphah international university,U2080
+rowan university,U2081
+sahand university of technology,U2082
+universidad san francisco de quito,U2083
+university of sargodha,U2084
+semnan university,U2085
+university of sfax,U2086
+âshahid chamran university of ahvaz,U2087
+shahrekord university,U2088
+shahrood university of technology,U2089
+shanghai maritime university,U2090
+siberian federal university,U2091
+sidi mohamed ben abdellah university,U2092
+university of social welfare and rehabilitation sciences,U2093
+university of south bohemia in äeskã budäjovice,U2094
+university of south dakota,U2095
+university of the south pacific,U2096
+university of south wales,U2097
+staffordshire university,U2098
+suez university,U2099
+swps university of social sciences and humanities,U2100
+symbiosis international university,U2101
+technical university of cartagena,U2102
+university of technology of troyes,U2103
+teesside university,U2104
+texas state university,U2105
+tobb university of economics and technology,U2106
+toyohashi university of technology tut,U2107
+toyota technological institute,U2108
+ural federal university,U2109
+university of urbino carlo bo,U2110
+urmia university of technology,U2111
+usamv clujnapoca,U2112
+wakayama medical university,U2113
+the university of the west indies,U2114
+university of west london,U2115
+university of winchester,U2116
+university of wrocåaw,U2117
+yazd university,U2118
+zewail city of science and technology,U2119
+zhejiang university of finance and economics,U2120
+university of å½ilina,U2121
+acharya nagarjuna university,U2122
+adolfo ibããez university,U2123
+the university of agriculture peshawar,U2124
+universitas airlangga,U2125
+allameh tabataba âi university,U2126
+alnahrain university,U2127
+university of alqadisiyah,U2128
+university of the andes chile,U2129
+university of antofagasta,U2130
+university of antioquia,U2131
+ariel university,U2132
+atatã¼rk university,U2133
+atäläm university,U2134
+austral university of chile,U2135
+autonomous university of sinaloa,U2136
+banasthali university,U2137
+bayero university,U2138
+bezmiãlem vakif university,U2139
+binus university,U2140
+university of botswana,U2141
+botswana international university of science and technology biust,U2142
+instituto politãcnico de braganãa,U2143
+university of brasãlia,U2144
+the british university in egypt,U2145
+b s abdur rahman crescent institute of science and technology,U2146
+buali sina university,U2147
+university of burgos,U2148
+cardiff metropolitan university,U2149
+university of carthage,U2150
+universidad catã³lica san antonio de murcia ucam,U2151
+chang gung university of science and technology,U2152
+university of chester,U2153
+chosun university,U2154
+christ university bengaluru india,U2155
+chung shan medical university,U2156
+cochin university of science and technology,U2157
+university of concepciã³n,U2158
+university of costa rica,U2159
+del rosario university,U2160
+university of diyala,U2161
+dokuz eylã¼l university,U2162
+dow university of health sciences,U2163
+duzce university,U2164
+universidade eduardo mondlane,U2165
+university of education lahore,U2166
+ehime university,U2167
+the university of electrocommunications,U2168
+erciyes university,U2169
+escuela superior politãcnica del litoral,U2170
+universidade federal do abc ufabc,U2171
+universidade federal do cearã ufc,U2172
+federal university of espãrito santo,U2173
+federal university of goiãs,U2174
+federal university of lavras,U2175
+universidade federal do paranã ufpr,U2176
+federal university of pernambuco,U2177
+federal university of rio grande do norte ufrn,U2178
+federal university of santa maria,U2179
+federal university of uberlãndia,U2180
+federal university of viãosa,U2181
+federico santa marãa technical university,U2182
+ferhat abbas sãtif university 1,U2183
+university of la frontera,U2184
+universitas gadjah mada,U2185
+gazi university,U2186
+university of gdaåsk,U2187
+gebze technical university,U2188
+george emil palade university of medicine pharmacy science and technology of targu mures,U2189
+georgia southern university,U2190
+government college university lahore,U2191
+university of guilan,U2192
+guru jambheshwar university of science and technology,U2193
+gyeongsang national university,U2194
+halmstad university,U2195
+universitã hassan ii de casablanca,U2196
+universitã polytechnique hautsdefrance,U2197
+university of hormozgan,U2198
+university of hradec krãlovã,U2199
+hyogo medical university,U2200
+ibn tofaãl university,U2201
+ilam university,U2202
+ilia state university,U2203
+university of ilorin,U2204
+incheon national university,U2205
+indian institute of science education and research bhopal,U2206
+ipb university,U2207
+ishou university,U2208
+istanbul bilgi university,U2209
+istanbul medeniyet university,U2210
+izmir institute of technology,U2211
+jiangsu normal university,U2212
+the jikei university school of medicine,U2213
+the john paul ii catholic university of lublin,U2214
+kagawa university,U2215
+karabã¼k university,U2216
+karunya institute of technology and sciences,U2217
+kharazmi university,U2218
+kharkiv aviation institute,U2219
+kitasato university,U2220
+kl university,U2221
+kyushu institute of technology kyutech,U2222
+university of lethbridge,U2223
+universidad loyola,U2224
+lumiãre university lyon 2,U2225
+universidade lusã³fona,U2226
+manipal university jaipur,U2227
+university of manouba,U2228
+university of marrakech cadi ayyad,U2229
+university of mauritius,U2230
+medical university of lublin,U2231
+medical university of silesia in katowice,U2232
+medical university of sofia,U2233
+university of medicine and pharmacy of craiova,U2234
+metropolitan autonomous university,U2235
+mie university,U2236
+mohammed v university of rabat,U2237
+university of monastir,U2238
+morgan state university,U2239
+moscow aviation institute,U2240
+moscow power engineering institute,U2241
+multimedia university,U2242
+nagaoka university of technology,U2243
+nagoya institute of technology,U2244
+university of namibia,U2245
+national changhua university of education,U2246
+national chinyi university of technology,U2247
+national university of colombia,U2248
+national university of distance education uned,U2249
+national institute of technology srinagar,U2250
+national kaohsiung university of science and technology,U2251
+national research university of electronic technology miet,U2252
+national technical university of ukraine â igor sikorsky kyiv polytechnic institute,U2253
+university of nigeria nsukka,U2254
+ochanomizu university,U2255
+oles honchar dnipro national university,U2256
+opole university of technology,U2257
+paris nanterre university,U2258
+university of pau and pays de lâadour,U2259
+pavol jozef å afãrik university in koåice,U2260
+persian gulf university,U2261
+pirogov russian national research medical university,U2262
+polytechnic institute of porto,U2263
+pontifical catholic university of peru,U2264
+pontifical catholic university of valparaãso,U2265
+pontifical javeriana university,U2266
+pontifãcia universidade catã³lica do paranã,U2267
+port said university,U2268
+poznaå university of life sciences,U2269
+university of puerto rico,U2270
+university of qom,U2271
+university rey juan carlos,U2272
+universitã saintjoseph de beyrouth,U2273
+saitama medical university,U2274
+sapporo medical university,U2275
+sastra university,U2276
+sathyabama institute of science and technology,U2277
+selãuk university,U2278
+semnan university of medical sciences and health services,U2279
+seoul national university of science and technology seoultech,U2280
+university of la serena,U2281
+shahid bahonar university of kerman,U2282
+shahid sadoughi university of medical sciences,U2283
+university of shanghai for science and technology,U2284
+shiga university of medical science,U2285
+showa university,U2286
+universitã de skikda,U2287
+sohag university,U2288
+universitã sorbonne nouvelle,U2289
+university of sousse,U2290
+university of south china,U2291
+south valley university,U2292
+southwest petroleum university,U2293
+sri venkateswara university,U2294
+åtefan cel mare university of suceava,U2295
+st marianna university school of medicine,U2296
+st petersburg electrotechnical university leti,U2297
+universiti sultan zainal abidin,U2298
+university of sunderland,U2299
+universitas syiah kuala,U2300
+university of talca,U2301
+university of tarapacã,U2302
+technical university of crete,U2303
+technical university of koåice,U2304
+university of technology of compiãgne,U2305
+institut teknologi sepuluh nopember,U2306
+university of texas rio grande valley,U2307
+tezpur university,U2308
+thiagarajar college of engineering,U2309
+toho university,U2310
+tokyo university of marine science and technology,U2311
+tomas bata university in zlãn,U2312
+university of toyama,U2313
+transilvania university of braèov,U2314
+tribhuvan university,U2315
+university of tunis,U2316
+tzu chi university,U2317
+unir â international university of la rioja,U2318
+unisinos university,U2319
+universiti tun hussein onn malaysia uthm,U2320
+university of valladolid,U2321
+veltech university,U2322
+university of venda,U2323
+vilnius gediminas technical university vilnius tech,U2324
+visvesvaraya national institute of technology nagpur,U2325
+vn karazin kharkiv national university,U2326
+volgograd state university,U2327
+walailak university,U2328
+warsaw university of life sciences â sggw,U2329
+university of western macedonia,U2330
+west university of timiåoara,U2331
+wrocåaw university of environmental and life sciences,U2332
+wrocåaw university of science and technology,U2333
+wuhan textile university,U2334
+xiangtan university,U2335
+xuzhou medical university,U2336
+yamagata university,U2337
+university of yamanashi,U2338
+yasouj university,U2339
+yuriy fedkovych chernivtsi national university,U2340
+university of zambia,U2341
+university of zanjan,U2342
+zanjan university of medical sciences,U2343
+zhejiang chinese medical university,U2344
+university of zimbabwe,U2345
+universitã 8 mai 1945 guelma,U2346
+university abdelhamid ibn badis mostaganem,U2347
+abdelmalek essaãdi university,U2348
+university of abou bekr belkaãd tlemcen,U2349
+acäbadem university,U2350
+adelphi university,U2351
+afe babalola university,U2352
+akita university,U2353
+aksaray university,U2354
+alzahra university,U2355
+university of anbar,U2356
+university of the andes venezuela,U2357
+andhra university,U2358
+universidad andrãs bello unab,U2359
+ankara university,U2360
+ankara yildirim beyazit university,U2361
+annamalai university,U2362
+antonio narião university,U2363
+arak university,U2364
+universidad autã³noma de ciudad juãrez,U2365
+universidad autã³noma de coahuila,U2366
+universidad autã³noma del estado de hidalgo,U2367
+universidad autã³noma del estado de mexico uaemex,U2368
+universidad autã³noma del estado de morelos,U2369
+universidad autã³noma de nuevo leã³n uanl,U2370
+universidad autã³noma de querãtaro,U2371
+universidad autã³noma de yucatãn,U2372
+autonomous university of baja california,U2373
+badji mokhtar university â annaba,U2374
+baåkent university,U2375
+university of batna 2,U2376
+university of bãjaãa,U2377
+belgorod state national research university,U2378
+benemãrita universidad autã³noma de puebla,U2379
+university of benin,U2380
+bernardo oâhiggins university,U2381
+bharath institute of higher education and research,U2382
+bharati vidyapeeth university,U2383
+bialystok university of technology,U2384
+bilecik åeyh edebali university,U2385
+university of bãobão,U2386
+university of birjand,U2387
+university of biskra,U2388
+blida 1 university,U2389
+bolu abant izzet baysal university,U2390
+bozok university,U2391
+university of brawijaya,U2392
+burapha university,U2393
+bursa technical university,U2394
+bursa uludaä university,U2395
+university of caldas,U2396
+ãankärä karatekin university,U2397
+catholic university of brasãlia,U2398
+catholic university of the north,U2399
+universidad catã³lica del maule,U2400
+universidad catã³lica de la santãsima concepciã³n,U2401
+university of caxias do sul,U2402
+cearã state university,U2403
+manisa celal bayar university,U2404
+centro federal de educaãão tecnolã³gica celso suckow da fonseca cefetrj,U2405
+ces university,U2406
+college of charleston,U2407
+chelyabinsk state university,U2408
+chiba institute of technology,U2409
+chinese culture university,U2410
+universitã chouaãb doukkali,U2411
+chubu university,U2412
+chuo university,U2413
+university of colima,U2414
+comillas pontifical university,U2415
+communication university of china,U2416
+cracow university of technology,U2417
+damghan university,U2418
+university of dar es salaam,U2419
+university for development studies,U2420
+dicle university,U2421
+dokkyo medical university,U2422
+dumlupinar university,U2423
+dunarea de jos university of galati,U2424
+eafit university,U2425
+el bosque university,U2426
+erzincan binali yäldäräm university,U2427
+escuela politãcnica nacional,U2428
+eskiåehir osmangazi university,U2429
+universidade estadual do norte fluminense darcy ribeiro,U2430
+universidade estadual de maringã,U2431
+universidade estadual do oeste do paranã unioeste,U2432
+federal university of agriculture abeokuta,U2433
+universidade federal de ciãªncias da saãºde de porto alegre ufcspa,U2434
+federal university of itajubã,U2435
+universidade federal de juiz de fora,U2436
+universidade federal do maranhão ufma,U2437
+federal university of mato grosso do sul,U2438
+universidade federal de ouro preto ufop,U2439
+federal university of parã,U2440
+federal rural university of pernambuco,U2441
+universidade federal rural do semiarido,U2442
+universidade federal de sergipe,U2443
+fluminense federal university,U2444
+university of fortaleza unifor,U2445
+universitã frãres mentouri constantine 1,U2446
+universidad de las fuerzas armadas â espe,U2447
+university of fukui,U2448
+fukuoka university,U2449
+universitã de gabãs,U2450
+gaziantep university,U2451
+gheorghe asachi technical university of iaåi,U2452
+gitam university,U2453
+goa university,U2454
+grigore t popa university of medicine and pharmacy,U2455
+university of guadalajara,U2456
+university of guanajuato,U2457
+gubkin russian state university of oil and gas,U2458
+hasanuddin university,U2459
+universitã hassan 1er,U2460
+hassiba benbouali university of chlef,U2461
+university of havana,U2462
+hellenic open university,U2463
+herzen state pedagogical university of russia,U2464
+hindustan institute of technology and science,U2465
+hitit university,U2466
+hosei university,U2467
+university of hyogo,U2468
+ibaraki university,U2469
+industrial university of tyumen,U2470
+inãnã¼ university,U2471
+instituto politãcnico nacional ipn,U2472
+international hellenic university,U2473
+irkutsk national research technical university,U2474
+islamic university of indonesia,U2475
+istanbul aydän university,U2476
+istanbul medipol university,U2477
+ivanovo state university of chemistry and technology,U2478
+iwate university,U2479
+izmir university of economics,U2480
+jan evangelista purkynä university,U2481
+jan kochanowski university in kielce,U2482
+jean moulin university â lyon 3,U2483
+jember university,U2484
+jianghan university,U2485
+university of jijel,U2486
+kanagawa university,U2487
+kanazawa medical university,U2488
+kansai university,U2489
+karadeniz technical university,U2490
+universitã kasdi merbah ouargla,U2491
+kastamonu university,U2492
+kazan national research technical university,U2493
+kazan state medical university,U2494
+university of kelaniya,U2495
+kemerovo state university,U2496
+university of kerbala,U2497
+king mongkutâs institute of technology ladkrabang,U2498
+kirikkale university,U2499
+käråehir ahi evran university,U2500
+kocaeli university,U2501
+kochi university,U2502
+kochi university of technology,U2503
+kogakuin university,U2504
+universiti kuala lumpur,U2505
+kyoto sangyo university,U2506
+ladoke akintola university of technology,U2507
+university of laghouat,U2508
+lagos state university,U2509
+lahore college for women university lcwu,U2510
+latvia university of life sciences and technologies,U2511
+university of life sciences in lublin,U2512
+ln gumilyov eurasian national university,U2513
+lobachevsky state university of nizhni novgorod,U2514
+university of åã³dåº,U2515
+londrina state university,U2516
+university of los lagos,U2517
+university of lucknow,U2518
+university of macerata unimc,U2519
+mackenzie presbyterian university,U2520
+mahasarakham university,U2521
+universiti malaysia kelantan,U2522
+maria curieskåodowska university umcs,U2523
+university of mascara,U2524
+matej bel university,U2525
+universidad mayor,U2526
+meijo university,U2527
+mâhamed bougara university of boumerdãs,U2528
+middle technical university,U2529
+ming chuan university,U2530
+university of miyazaki,U2531
+university mohamed boudiaf of mâsila,U2532
+universitã mohammed premier,U2533
+university of montenegro,U2534
+moscow polytechnic university,U2535
+moscow state university of civil engineering,U2536
+university of mosul,U2537
+moulay ismail university,U2538
+universitã mouloud mammeri de tiziouzou,U2539
+muroran institute of technology,U2540
+university of mysore,U2541
+nara womenâs university,U2542
+national aviation university,U2543
+national chiayi university,U2544
+national chi nan university,U2545
+national university of cã³rdoba,U2546
+national university of costa rica,U2547
+national formosa university,U2548
+national ilan university,U2549
+national university of kaohsiung,U2550
+national university of medical sciences nums,U2551
+national university of san martãn,U2552
+national taichung university of science and technology,U2553
+national united university,U2554
+ned university of engineering and technology,U2555
+universitas negeri surabaya,U2556
+nizhny novgorod state technical university,U2557
+nnamdi azikiwe university,U2558
+northcaucasus federal university,U2559
+university of the north colombia,U2560
+northeastern federal university,U2561
+northern arctic federal university named after mv lomonosov,U2562
+northwestern state medical university named after ii mechnikov,U2563
+nosov magnitogorsk state technical university,U2564
+universidade nove de julho uninove,U2565
+nueva granada military university,U2566
+obafemi awolowo university,U2567
+ogarev mordovia state university,U2568
+oita university,U2569
+niäde ãmer halisdemir university,U2570
+omsk state technical university,U2571
+ondokuz mayis university,U2572
+oran 1 university,U2573
+ordu university,U2574
+osaka institute of technology,U2575
+osaka medical and pharmaceutical university,U2576
+ovidius university of constanèa,U2577
+pamukkale university,U2578
+pavlov first saint petersburg state medical university,U2579
+payame noor university,U2580
+pedagogical and technological university of colombia,U2581
+university of the peloponnese,U2582
+penza state university,U2583
+perm national research polytechnic university,U2584
+perm state university,U2585
+university of pernambuco,U2586
+universidad peruana de ciencias aplicadas upc,U2587
+university of phayao,U2588
+universidad politãcnica salesiana,U2589
+polytechnic university of bucharest,U2590
+polytechnic university of timiåoara,U2591
+pontifical catholic university of minas gerais,U2592
+universidad pontificia bolivariana upb,U2593
+pontificia universidad catã³lica del ecuador,U2594
+university of port harcourt,U2595
+prague university of economics and business,U2596
+university of prishtina,U2597
+privolzhsky research medical university,U2598
+psg college of technology,U2599
+recep tayyip erdoäan university,U2600
+reva university,U2601
+riga stradiåå university,U2602
+r v college of engineering,U2603
+ryukoku university,U2604
+university of the ryukyus,U2605
+rzeszã³w university of technology,U2606
+university of la sabana,U2607
+saga university,U2608
+samara state technical university,U2609
+san sebastiãn university,U2610
+university of santiago chile usach,U2611
+saratov state medical university,U2612
+university of sciences and technology houari boumediene,U2613
+university of science and technology of oran mohamedboudiaf,U2614
+sgh warsaw school of economics,U2615
+shahed university,U2616
+shimane university,U2617
+shizuoka university,U2618
+university of shizuoka,U2619
+reshetnev siberian state university of science and technology,U2620
+siberian state medical university,U2621
+sichuan university of science and engineering,U2622
+university of sistan and baluchestan,U2623
+sivas cumhuriyet university,U2624
+sofia university,U2625
+university of sonora,U2626
+southwest state university,U2627
+srinakharinwirot university,U2628
+universitas sriwijaya,U2629
+saints cyril and methodius university in skopje,U2630
+state university of bahia,U2631
+state university of ponta grossa,U2632
+state university of santa cruz,U2633
+sã¼leyman demirel university,U2634
+universitã sultan moulay slimane,U2635
+szãchenyi istvãn university,U2636
+tamil nadu agricultural university,U2637
+technical university of loja,U2638
+technical university of sofia,U2639
+technological university of pereira,U2640
+universidade tecnolã³gica federal do paranã utfpr,U2641
+teikyo university,U2642
+universiti teknologi mara,U2643
+temuco catholic university,U2644
+tokat gaziosmanpaåa university,U2645
+tokyo university of agriculture,U2646
+tokyo city university,U2647
+tokyo denki university,U2648
+tomsk state university of control systems and radioelectronics,U2649
+tottori university,U2650
+toyama prefectural university,U2651
+toyo university,U2652
+tula state university,U2653
+ufa university of science and technology,U2654
+ufa state petroleum technological university,U2655
+uåak university,U2656
+utsunomiya university,U2657
+uzhhorod national university,U2658
+university of valparaãso,U2659
+van yã¼zã¼ncã¼ yil university,U2660
+instituto politãcnico de viana do castelo,U2661
+vietnam national university ho chi minh city,U2662
+vignanâs foundation for science technology and research,U2663
+vi vernadsky crimean federal university vernadsky cfu,U2664
+volgograd state technical university,U2665
+voronezh state technical university,U2666
+university of west attica,U2667
+yanshan university,U2668
+yeditepe university,U2669
+zonguldak bã¼lent ecevit university,U2670
+abbes laghrour university of khenchala,U2671
+abbottabad university of science and technology,U2672
+abdelhafid boussouf university center of mila,U2673
+abdullah gã¼l university,U2674
+abertay university,U2675
+abia state university,U2676
+abrar university,U2677
+ada kent university,U2678
+adventist university of central africa,U2679
+aecc university college,U2680
+university center of aflou,U2681
+university of agronomic sciences and veterinary medicine of bucharest,U2682
+universitas ahmad dahlan,U2683
+university of ahmed draia,U2684
+aichi prefectural university,U2685
+universitã dâain tãmouchent,U2686
+ajeenkya dy patil university,U2687
+akhmet yassawi university,U2688
+akita prefectural university,U2689
+akli mohand oulhadj bouira university,U2690
+akwa ibom state university,U2691
+al akhawayn university,U2692
+al albayt university,U2693
+alayen university,U2694
+albaha university,U2695
+albayan university,U2696
+albaydha university,U2697
+alesraa university college,U2698
+alex ekwueme federal university ndufualike,U2699
+alfarabi university college,U2700
+alfurat alawsat technical university,U2701
+university of algiers 1,U2702
+algiers 2 university,U2703
+university of algiers 3,U2704
+university of alhamdaniya,U2705
+alhussein bin talal university,U2706
+alisher navoâi tashkent state university of uzbek language and literature,U2707
+aljanad university for science and technology,U2708
+university of alkafeel,U2709
+alkarkh university of science,U2710
+alkitab university,U2711
+almaarefa university,U2712
+almaarif university college,U2713
+almanara college for medical sciences,U2714
+almazov national medical research centre,U2715
+almustaqbal university,U2716
+almuthanna university,U2717
+alnisour university college,U2718
+alnoor university college,U2719
+alqalam university college,U2720
+alqasim green university,U2721
+alrafidain university college,U2722
+al safwa university college,U2723
+altänbaå university,U2724
+altoosi university college,U2725
+al turath university,U2726
+alzaytoonah university of jordan,U2727
+american university in the emirates aue,U2728
+american international university â bangladesh,U2729
+american university of madaba,U2730
+american university of ras al khaimah,U2731
+amity university chhattisgarh,U2732
+amity university gurugram,U2733
+amity university gwalior,U2734
+amity university rajasthan jaipur,U2735
+amity university mumbai,U2736
+anãhuac university,U2737
+andijan machinebuilding institute,U2738
+andijan state university,U2739
+andijan state medical institute,U2740
+andijan state pedagogical institute aspi,U2741
+andrãs bello catholic university ucab,U2742
+angloamerican university,U2743
+ankara science university,U2744
+applied science private university,U2745
+arab american university,U2746
+arabian gulf university,U2747
+arab open university,U2748
+arkän university of creative arts and design arucad,U2749
+armenian state pedagogical university,U2750
+arts university bournemouth,U2751
+university of the arts london,U2752
+arts university plymouth,U2753
+arturo prat university,U2754
+asahi university,U2755
+asfendiyarov kazakh national medical university,U2756
+ashikaga university,U2757
+ashur university college,U2758
+atyrau university,U2759
+audencia,U2760
+austral university,U2761
+autonomous university of chiapas,U2762
+azerbaijan university of architecture and construction,U2763
+babcock university,U2764
+bacha khan university charsadda,U2765
+badr university in cairo buc,U2766
+bakrie university,U2767
+university of balochistan,U2768
+balochistan university of information technology engineering and management sciences buitems,U2769
+university of baltistan skardu,U2770
+bandirma onyedi eylã¼l university,U2771
+bangabandhu sheikh mujibur rahman agricultural university,U2772
+barawa international university,U2773
+bashkir state medical university,U2774
+bath spa university,U2775
+university of batna 1,U2776
+bayburt university,U2777
+baze university,U2778
+belarusian state medical university,U2779
+bells university of technology,U2780
+university of benghazi,U2781
+benson idahosa university,U2782
+beykent university,U2783
+bilad alrafidain university college,U2784
+biruni university,U2785
+university of bisha,U2786
+bishop grosseteste university,U2787
+university of bogotã jorge tadeo lozano,U2788
+bohdan khmelnytsky national university of cherkasy,U2789
+university of bolton,U2790
+the british university in dubai,U2791
+buckinghamshire new university,U2792
+bukhara engineering technological institute,U2793
+bukhara state university,U2794
+bukhara state medical institute,U2795
+bukkyo university,U2796
+buriram rajabhat university,U2797
+ãaä university,U2798
+universidad camilo josã cela,U2799
+canadian international college cic â cairo,U2800
+catholic university of ãvila,U2801
+catholic university in erbil,U2802
+universidad catã³lica de colombia,U2803
+universidad catã³lica de cuenca,U2804
+universidad catã³lica san pablo,U2805
+caucasus international university,U2806
+cbs international business school,U2807
+cebu technological university,U2808
+cecos university of it and emerging sciences,U2809
+university of celaya,U2810
+university center ali kafi tindouf,U2811
+university center of illizi,U2812
+university center morsli abdellah of tipaza,U2813
+university center of barika,U2814
+central european university,U2815
+central luzon state university,U2816
+university of central punjab,U2817
+centro de estudios para la calidad educativa y la investigaciã³n cientãfica ceceic,U2818
+centro universitãrio cesuca,U2819
+centurion university of technology and management,U2820
+universidad cãsar vallejo,U2821
+cetys universidad,U2822
+charisma university,U2823
+chernihiv polytechnic national university,U2824
+chettinad academy of research and education,U2825
+university of chichester,U2826
+chinhoyi university of technology,U2827
+universidad cientãfica del sur,U2828
+cihan university â erbil,U2829
+cihan university sulaimaniya,U2830
+city university of science and information technology peshawar,U2831
+civil aviation academy,U2832
+university of civil protection,U2833
+conservatoire for dance and drama,U2834
+university of constantine 3,U2835
+courtauld institute of art,U2836
+cranfield university,U2837
+university for the creative arts,U2838
+university of cumbria,U2839
+university of cyberjaya,U2840
+cyprus health and social sciences university,U2841
+daffodil international university diu,U2842
+daneshpajoohan pishro higher education institute,U2843
+dawood university of engineering and technology,U2844
+debre tabor university,U2845
+delta university for science and technology,U2846
+delta state university abraka,U2847
+denau institute of entrepreneurship and pedagogy,U2848
+dhaka international university,U2849
+dha suffa university,U2850
+dhofar university,U2851
+university of djilali bounaama khemis miliana,U2852
+don bosco university,U2853
+donetsk national university of economics and trade named after mykhailo tuhanbaranovsky donnuet,U2854
+dovletmammet azadi turkmen national institute of world languages,U2855
+dr d y patil vidyapeeth pune,U2856
+dr mgr educational and research institute,U2857
+d serikbayev east kazakhstan technical university,U2858
+university of duhok,U2859
+dulaty university,U2860
+eae business school,U2861
+ean university,U2862
+university of eastern philippines,U2863
+ãcole nationale polytechnique,U2864
+ãcole nationale polytechnique dâoran maurice audin,U2865
+ãcole nationale supãrieure agronomique,U2866
+ãcole nationale supãrieure agronomique algiers,U2867
+ãcole nationale supãrieure de biotechnologie taoufik khaznadar ensb,U2868
+ãcole nationale supãrieure dâinformatique esi,U2869
+ãcole nationale supãrieure de management kolãa,U2870
+ãcole nationale supãrieure des sciences de la mer et de lâamãnagement du littoral enssmal,U2871
+ãcole nationale supãrieure vãtãrinaire dâalger,U2872
+ãcole national polytechnique de constantine,U2873
+ãcole normale supãrieure de bãchar,U2874
+ãcole normale supãrieure de bouzarãah,U2875
+ãcole normale supãrieure el katiba assia djebar constantine ensc,U2876
+ãcole normale supãrieure de kouba,U2877
+ãcole normale supãrieure de laghouat,U2878
+ãcole normale supãrieure dâoran,U2879
+ãcole polytechnique dâarchitecture et dâurbanisme,U2880
+ãcole supãrieure de comptabilitã et de finances de constantine,U2881
+ãcole supãrieure en informatique 8 mai 1945 de sidibelabbãs,U2882
+ãcole supãrieure en sciences appliquães de tlemcen,U2883
+ãcole supãrieure en sciences biologiques dâoran essbo,U2884
+ãcole supãrieure en sciences et technologies de lâinformatique et du numãrique estin,U2885
+university of economics â varna,U2886
+edo state university uzairue,U2887
+edwin clark university,U2888
+egerton university,U2889
+egyptian russian university,U2890
+elizade university,U2891
+university of el oued,U2892
+emir abdelkader university of islamic sciences,U2893
+institute of engineering technical and transport communications of turkmenistan,U2894
+escola superior de enfermagem do porto esep,U2895
+escuela superior politãcnica de chimborazo,U2896
+esic,U2897
+eskiåehir technical university,U2898
+universidade estadual do maranhão,U2899
+universidade estadual do norte do paranã uenp,U2900
+european university,U2901
+european university of armenia,U2902
+european university cyprus,U2903
+european university of tunis,U2904
+evangel university akaeze,U2905
+falmouth university,U2906
+federal university of kashere,U2907
+federal university of latin american integration unila,U2908
+federal university of paraãâba ufpb,U2909
+federal university of petroleum resources effurun,U2910
+federal university of technology minna,U2911
+federal university of technology owerri,U2912
+fergana medical institute of public health,U2913
+fergana polytechnic institute,U2914
+fergana state university,U2915
+finis terrae university,U2916
+forman christian college,U2917
+fountain university,U2918
+university of franca,U2919
+francisk skorina gomel state university,U2920
+fukushima university,U2921
+university of gafsa,U2922
+gangadhar meher university,U2923
+university of garmian,U2924
+general sir john kotelawala defence university,U2925
+university of ghardaia,U2926
+ghulam ishaq khan institute of engineering sciences and technology,U2927
+glasgow school of art,U2928
+gomel state medical university,U2929
+the government sadiq college women university bahawalpur,U2930
+government college women university faisalabad,U2931
+government college women university sialkot,U2932
+the graduate university for advanced studies sokendai,U2933
+graphic era university,U2934
+guildhall school of music and drama,U2935
+gulf college,U2936
+gulf medical university,U2937
+gulistan state university,U2938
+university of hafr al batin,U2939
+hagoromo university of international studies,U2940
+hakuoh university,U2941
+haliã university,U2942
+hãme university of applied sciences,U2943
+hanseo university,U2944
+hartpury university,U2945
+hawler medical university,U2946
+university of health sciences lahore,U2947
+university of health sciences turkey,U2948
+school of higher commercial studies ehec algiers,U2949
+higher national school of renewable energies environment and sustainable development,U2950
+higher school of management and digital economy hsmde,U2951
+higher school of agronomy â mostaganem esam,U2952
+higher school of management â tlemcen,U2953
+university of the highlands and islands,U2954
+hilla university college,U2955
+hiroshima international university,U2956
+hiroshima shudo university,U2957
+hiroshima institute of technology,U2958
+ho chi minh city open university,U2959
+hodeida university,U2960
+hokkaido university of science,U2961
+university of home economics lahore,U2962
+ho technical university,U2963
+hryhorii skovoroda university in pereiaslav,U2964
+university of human development,U2965
+hyogo university of teacher education,U2966
+ibn khaldoun university,U2967
+icfai university dehradun,U2968
+ifhe hyderabad,U2969
+ilma university,U2970
+imam alkadhum college ikc,U2971
+imt mines alãs,U2972
+independent university bangladesh,U2973
+indira gandhi delhi technical university for women,U2974
+information technology university of the punjab,U2975
+innopolis university,U2976
+institute of cancer research,U2977
+universidad internacional del ecuador,U2978
+international american university,U2979
+international engineering and technology university metu,U2980
+international university for the humanities and development,U2981
+international it university,U2982
+international university of rabat,U2983
+institute of international relations of the ministry of foreign affairs of turkmenistan,U2984
+interstate school of veterinary sciences and medicine,U2985
+ionian university,U2986
+ion mincu university of architecture and urbanism,U2987
+iqra university,U2988
+the islamic university,U2989
+islamic university of gaza,U2990
+universitas islam sultan agung,U2991
+isra university,U2992
+israel technological university,U2993
+istanbul arel university,U2994
+istanbul geliåim university,U2995
+istanbul kã¼ltã¼r university,U2996
+istanbul okan university,U2997
+iubat â international university of business agriculture and technology,U2998
+universita iulm,U2999
+ivano frankivsk national technical university of oil and gas,U3000
+jabir ibn hayyan medical university,U3001
+jadara university,U3002
+japan advanced institute of science and technology jaist,U3003
+japan university of economics,U3004
+jashore university of science and technology,U3005
+university of jendouba,U3006
+jizzakh polytechnic institute,U3007
+jizzakh state pedagogical university,U3008
+john von neumann university,U3009
+kabarak university,U3010
+kabardinobalkarian state university,U3011
+university of kabianga,U3012
+kadir has university,U3013
+kamianetspodñlskyi ivan ohiienko national university,U3014
+karaganda university of kazpotrebsoyuz,U3015
+karakalpak state university,U3016
+karshi engineering economics institute,U3017
+kazakh national pedagogical university abai,U3018
+kazakh national womenâs teacher training university,U3019
+kazakhstan medical university ksph,U3020
+kazan state power engineering university,U3021
+keisen university,U3022
+kharkiv university of humanities âpeopleâs ukrainian academyâ,U3023
+kharkiv national automobile and highway university,U3024
+kharkiv national university of internal affairs,U3025
+khazar university,U3026
+khulna university of engineering and technology kuet,U3027
+khwaja fareed university of engineering and information technology,U3028
+khyber medical university,U3029
+kimyo international university in tashkent,U3030
+king abdullah university of science and technology kaust,U3031
+king danylo university,U3032
+king edward medical university,U3033
+kinnaird college for women,U3034
+university of kirkuk,U3035
+kitami institute of technology,U3036
+kle technological university,U3037
+knowledge university,U3038
+kobe gakuin university,U3039
+kocaeli health and technology university,U3040
+kohsar university murree,U3041
+kokshetau state university,U3042
+kokugakuin university,U3043
+konan university,U3044
+konan womenâs university,U3045
+koya university,U3046
+kpr institute of engineering and technology,U3047
+kumasi technical university,U3048
+kursk state medical university,U3049
+kã¼tahya health sciences university,U3050
+kutaisi university,U3051
+kuwait college of science and technology kcst,U3052
+kyiv national economic university,U3053
+kyoai gakuen university,U3054
+kyoto koka womenâs university,U3055
+kyoto notre dame university,U3056
+k zhubanov aktobe regional university,U3057
+lahore leads university,U3058
+landmark university,U3059
+larbi tebessi university,U3060
+la salle university,U3061
+university of las amãricas udla,U3062
+leeds arts university,U3063
+leeds conservatoire,U3064
+leeds trinity university,U3065
+lesya ukrainka volyn national university,U3066
+liaquat university of medical and health sciences lumhs,U3067
+university of liberal arts bangladesh,U3068
+lincoln university college,U3069
+lira university,U3070
+universitã du littoral cãte dâopale,U3071
+liverpool hope university,U3072
+liverpool institute for performing arts,U3073
+liverpool school of tropical medicine,U3074
+the lnm institute of information technology,U3075
+london academy of music and dramatic art lamda,U3076
+london business school,U3077
+london school of hygiene and tropical medicine,U3078
+lviv state university of life safety,U3079
+university of magallanes,U3080
+universidad del magdalena,U3081
+university centre of maghnia,U3082
+mahatma jyotiba phule rohilkhand university,U3083
+malawi university of science and technology must,U3084
+management development institute mdi,U3085
+management science university msu,U3086
+universidad manuela beltrãn,U3087
+mapãºa university,U3088
+margulan university,U3089
+mariano marcos state university,U3090
+maritime university of szczecin,U3091
+m auezov south kazakhstan university,U3092
+universidad mayor de san simã³n,U3093
+university of medea,U3094
+university of medellãn,U3095
+medizinische hochschule hannover,U3096
+meikai university,U3097
+universitas mercu buana,U3098
+middle east university,U3099
+mindanao state university â iligan institute of technology,U3100
+minhaj university lahore,U3101
+university of misan,U3102
+misr university for science and technology,U3103
+mizoram university,U3104
+m kumarasamy college of engineering,U3105
+mns university of agriculture multan,U3106
+modern university for business and science,U3107
+universitã mohamed el bachir el ibrahimi de bordj bou arrãridj,U3108
+university of mohamed lamine debaghin setif 2,U3109
+monroe college,U3110
+university of monterrey,U3111
+russian biotechnological university biotech,U3112
+moscow state linguistic university,U3113
+moscow technical university of communications and informatics,U3114
+university of mostar,U3115
+muban chombueng rajabhat university,U3116
+mukogawa womenâs university,U3117
+mulungushi university,U3118
+musashino university,U3119
+universidad nacional abierta y a distancia unad,U3120
+universidad nacional de asunciã³n,U3121
+universidad nacional de chimborazo,U3122
+universidad nacional de itapãºa,U3123
+universidad nacional de rafaela unraf,U3124
+nagoya university of commerce business,U3125
+nakhchivan state university,U3126
+nakhon ratchasima rajabhat university,U3127
+namal university,U3128
+namangan engineering construction institute,U3129
+namangan institute of engineering and technology,U3130
+namangan state university,U3131
+nasarawa state university keffi,U3132
+national agrarian university la molina,U3133
+national university of computer and emerging sciences,U3134
+national film and television school,U3135
+national university of food technologies,U3136
+national university odessa law academy,U3137
+the national university of ostroh academy,U3138
+national polytechnic university of armenia,U3139
+national university of quilmes,U3140
+national school of artificial intelligence ensia,U3141
+national university of science and technology oman,U3142
+national university sudan,U3143
+national textile university,U3144
+national transport university,U3145
+national university of water and environmental engineering,U3146
+national university âyuri kondratyuk poltava polytechnicâ,U3147
+navoi state pedagogical institute,U3148
+netaji subhas university of technology,U3149
+newman university,U3150
+niger delta university,U3151
+nihon pharmaceutical university,U3152
+niigata university of health and welfare,U3153
+university of niigata prefecture,U3154
+ninevah university,U3155
+nitte deemed to be university,U3156
+university of northampton,U3157
+northeast ohio medical university,U3158
+northern border university,U3159
+northern technical university,U3160
+norwich university of the arts,U3161
+university centre of nour bachir elbayadh,U3162
+university of nova gorica,U3163
+novosibirsk state university of economics and management,U3164
+nueva ecija university of science and technology neust,U3165
+universidad nur,U3166
+october 6 university,U3167
+october university for modern sciences and arts msa,U3168
+odesa ii mechnikov national university,U3169
+oguz han engineering and technology university of turkmenistan,U3170
+university of okara,U3171
+omsk state agrarian university,U3172
+open christian university,U3173
+universitã dâoran 2 mohamed ben ahmed,U3174
+oran graduate school of economics,U3175
+orel state agrarian university named after nv parahin,U3176
+orel state university named after is turgenev,U3177
+ort uruguay university,U3178
+osol aldeen university college,U3179
+university college of osteopathy,U3180
+ostrogradsky national university of kremenchuk,U3181
+university of oum el bouaghi,U3182
+universidad del pacãfico,U3183
+universidad del pacãfico ecuador,U3184
+palestine polytechnic university,U3185
+palestine technical university â kadoorie,U3186
+universidad de pamplona,U3187
+panteion university of social and political sciences,U3188
+panthãonassas university paris 2,U3189
+pavlo tychyna uman state pedagogical university,U3190
+university of petra,U3191
+petre shotadze tbilisi medical academy,U3192
+petroleum university of technology,U3193
+petro mohyla black sea national university,U3194
+pharos university,U3195
+philadelphia university jordan,U3196
+plateau state university bokkos,U3197
+platov southrussian state polytechnic university npi,U3198
+plymouth marjon university,U3199
+polytechnic institute of setãºbal,U3200
+pontifical catholic university of argentina,U3201
+university of poonch rawalakot,U3202
+universidad popular autã³noma del estado de puebla,U3203
+prefectural university of hiroshima,U3204
+presbyterian university ghana,U3205
+presidency university,U3206
+university of professional studies accra,U3207
+prydniprovska state academy of civil engineering and architecture,U3208
+pskov state university,U3209
+puccampinas,U3210
+university of puthisastra,U3211
+quaideawam university of engineering science and technology quest,U3212
+queen arwa university,U3213
+queen margaret university,U3214
+universidade rainha njinga a mbande urnm,U3215
+rajamangala university of technology isan,U3216
+rajamangala university of technology thanyaburi rmutt,U3217
+rawalpindi medical university,U3218
+rennes school of business,U3219
+ritsumeikan asia pacific university apu,U3220
+rose bruford college,U3221
+rostov state university of economics,U3222
+royal agricultural university,U3223
+royal central school of speech and drama university of london,U3224
+royal college of academics,U3225
+royal college of art,U3226
+royal conservatoire of scotland,U3227
+royal academy of dramatic art rada,U3228
+royal college of music,U3229
+royal academy of music,U3230
+royal northern college of music,U3231
+russian state agrarian university â moscow timiryazev agricultural academy,U3232
+russian university of state for social russ,U3233
+ryazan state medical university,U3234
+university of sadat city,U3235
+university of saida,U3236
+university of saint joseph,U3237
+saint petersburg state pediatric medical university,U3238
+saint thomas university colombia,U3239
+sakon nakhon rajabhat university,U3240
+salahaddin university,U3241
+samara state medical university,U3242
+samarkand state university,U3243
+samarkand state institute of foreign languages,U3244
+samarkand state medical university,U3245
+samsun university,U3246
+university of san martãn de porres,U3247
+university of santander,U3248
+universidad santo tomãs,U3249
+sarsen amanzholov east kazakhstan university,U3250
+satya wacana christian university,U3251
+saudi electronic university,U3252
+sbs swiss business school,U3253
+university of science and technology of southern philippines ustp,U3254
+sebha university,U3255
+sefako makgatho health sciences university,U3256
+seisa dohto university,U3257
+senshu university,U3258
+seyitnazar seydi turkmen state pedagogical institute,U3259
+shah abdul latif university khairpur,U3260
+shaheed benazir bhutto women university peshawar,U3261
+shaheed mohtarma benazir bhutto medical university,U3262
+shaheed zulfiqar ali bhutto medical university,U3263
+the university of shiga prefecture,U3264
+shonan institute of technology,U3265
+silesian university in opava,U3266
+simad university,U3267
+simã³n bolãvar university colombia,U3268
+universidad del sinãº,U3269
+sir syed university of engineering and technology,U3270
+skolkovo institute of science and technology skoltech,U3271
+solent university southampton,U3272
+university of sopron,U3273
+university of souk ahras,U3274
+institute of southern punjab â multan,U3275
+southern technical university,U3276
+sri balaji vidyapeeth,U3277
+sri lanka institute of information technology,U3278
+state energy institute of turkmenistan,U3279
+stavropol state agrarian university,U3280
+st lukeâs international university,U3281
+st maryâs university college belfast,U3282
+st maryâs university twickenham,U3283
+stranmillis university college,U3284
+university of suffolk,U3285
+university of sufism and modern sciences usms,U3286
+sugiyama jogakuen university,U3287
+sukkur iba university,U3288
+university of swabi,U3289
+tafila technical university,U3290
+university of taipei,U3291
+takushoku university,U3292
+tama art university,U3293
+university of tamanghasset,U3294
+tarlac agricultural university,U3295
+tarsus university,U3296
+tashkent institute of chemical technology,U3297
+tashkent institute of finance,U3298
+tashkent university of information technologies,U3299
+tashkent institute of irrigation and agricultural mechanisation,U3300
+tashkent medical academy,U3301
+tashkent pediatric medical institute,U3302
+tashkent pharmaceutical institute,U3303
+tashkent state dental institute,U3304
+tashkent state university of economics,U3305
+tashkent state university of law,U3306
+tashkent state university of oriental studies,U3307
+tashkent state pedagogical university named after nizami,U3308
+tashkent state technical university,U3309
+tashkent state transport university,U3310
+tashkent institute of textile and light industry,U3311
+tata institute of fundamental research,U3312
+tatung university,U3313
+t c demiroälu bilim university,U3314
+teacher education college of setif,U3315
+technical university of moldova,U3316
+university of technology nowshera,U3317
+universidad tãcnica de manabã,U3318
+universidad tecnolã³gica de bolãvar,U3319
+universidad tecnolã³gica de santiago utesa,U3320
+tecnolã³gico de costa rica,U3321
+instituto tecnolã³gico metropolitano,U3322
+teerthanker mahaveer university,U3323
+teikyo heisei university,U3324
+institut teknologi nasional bandung itenas bandung,U3325
+university of telafer,U3326
+institute of telecommunications and informatics of turkmenistan,U3327
+tenri university,U3328
+termez state university,U3329
+termez institute of engineering and technology,U3330
+termiz institute of agrotechnology and innovative development,U3331
+university of the thai chamber of commerce,U3332
+university of thiqar,U3333
+thomas adewumi university,U3334
+tikrit university,U3335
+tishk international university,U3336
+tissemsilt university,U3337
+tohoku gakuin university,U3338
+tokyo university of foreign studies,U3339
+tokyo university of technology,U3340
+tomsk state pedagogical university,U3341
+trinity laban conservatoire of music and dance,U3342
+university of tripoli,U3343
+turanastana university,U3344
+turin polytechnic university in tashkent,U3345
+turkmen state architecture and construction institute,U3346
+turkmen state institute of economics and management,U3347
+tver state technical university,U3348
+ubon ratchathani university,U3349
+ubt,U3350
+uees espiritu santo university,U3351
+uin sulthan thaha saifuddin jambi,U3352
+ulyanovsk state university,U3353
+ulyanovsk state technical university,U3354
+unesc,U3355
+unichristus,U3356
+universiapolis â universitã internationale dâagadir,U3357
+ural state university of economics,U3358
+ural state medical university,U3359
+urgench state university,U3360
+uruk university,U3361
+universidad ute,U3362
+national university of uzbekistan named after mirzo ulugbek,U3363
+uzbekistan state university of world languages,U3364
+uzbek state university of physical culture and sport,U3365
+valahia university of targoviste,U3366
+university of vale do itajaã,U3367
+varendra university,U3368
+varna university of management,U3369
+vasyl stefanyk precarpathian national university,U3370
+veritas university abuja,U3371
+university of veterinary medicine and pharmacy in koåice,U3372
+vila velha university,U3373
+vinayaka missionâs research foundation,U3374
+visayas state university,U3375
+visvesvaraya technological university,U3376
+volgograd state medical university,U3377
+university of wales trinity saint david,U3378
+university of warith alanbiyaa,U3379
+wasit university,U3380
+westcliff university,U3381
+western caspian university,U3382
+west ukrainian national university,U3383
+whu beisheim,U3384
+women university mardan,U3385
+the women university multan,U3386
+university of worcester,U3387
+world university of bangladesh wub,U3388
+the world islamic sciences and education university wise,U3389
+wrexham glyndwr university,U3390
+writtle university college,U3391
+wsb academy,U3392
+yagshigeldi kakayev international university of oil and gas,U3393
+yamaguchi prefectural university,U3394
+yanka kupala state university of grodno,U3395
+yaåar university,U3396
+york st john university,U3397
+yusuf maitama sule university kano,U3398
+zarqa university,U3399
+zhetysu university,U3400
+zhytomyr polytechnic state university,U3401
+ziane achour university of djelfa,U3402
+ziauddin university,U3403
+university of duisburgessen,U3404
+golestan university of medical sciences,U3405
+university of new mexico main campus,U3406
+islamic azad university najafabad branch iaun,U3407
+kermanshah university of medical sciences,U3408
+southwestern university of finance and economics,U3409
+suny university at albany,U3410
+universitã bourgogne franchecomtã ubfc,U3411
+indian institute of technology indore,U3412
+majmaah university,U3413
+university of perugia,U3414
+university of strasbourg,U3415
+university of dayton,U3416
+university of missourist louis,U3417
+national institute of technology hamirpur,U3418
+shahid beheshti university,U3419
+southern illinois university carbondale,U3420
+university of thessaly,U3421
+university of wisconsinmilwaukee,U3422
+china university of geosciences beijing,U3423
+creighton university,U3424
+guangxi university,U3425
+hyogo college of medicine,U3426
+jiangxi university of finance and economics,U3427
+lusophone university of humanities and technologies,U3428
+menoufia university,U3429
+zhejiang university of technology,U3430
+university of colorado colorado springs,U3431
+university of fort hare,U3432
+fujian normal university,U3433
+grand valley state university,U3434
+university of north carolina wilmington,U3435
+shahid rajaee teacher training university,U3436
+southwest jiaotong university,U3437
+tshwane university of technology,U3438
+universidad autã³noma chapingo,U3439
+universidade federal do triãngulo mineiro,U3440
+universidade federal do vale do são francisco,U3441
+federal university of pelotas,U3442
+federal university of piauã,U3443
+federal university of the state of rio de janeiro unirio,U3444
+federal university of vales do jequitinhonha e mucuri,U3445
+universidad michoacana de san nicolãs de hidalgo,U3446
+university of passo fundo upf,U3447
+tokyo university of pharmacy and life sciences,U3448
+adamawa state university mubi,U3449
+aga khan university,U3450
+ahl al bayt university,U3451
+tashkent metropolitan university,U3452
+alfarahidi university,U3453
+american university of nigeria,U3454
+arab open university â kuwait,U3455
+arab open university lebanon,U3456
+augustine university,U3457
+balochistan university of engineering and technology khuzdar,U3458
+bamidele olumilua university of education science and technology ikereikiti,U3459
+basrah university college of science and technology,U3460
+bowen university,U3461
+centro universitãrio de jaguariãºna,U3462
+centro universitãrio max planck,U3463
+cãsar ritz colleges switzerland,U3464
+coal city university,U3465
+cross river university of technology,U3466
+cv raman global university,U3467
+deraya university,U3468
+dhonburi rajabhat university,U3469
+dijlah university,U3470
+doäuå university,U3471
+ebonyi state university,U3472
+academy of economic studies of moldova,U3473
+university of engineering and technology mardan,U3474
+universidade estadual de goiãs,U3475
+european university of valencia,U3476
+externado university of colombia,U3477
+federal university gashua,U3478
+federal university of lafia,U3479
+first technical university,U3480
+fukui prefectural university,U3481
+fundaãão oswaldo cruz,U3482
+fundaciã³n universitaria del ãrea andina,U3483
+greenwich university,U3484
+gregory university uturu,U3485
+university of health and allied sciences,U3486
+huachiew chalermprakiet university,U3487
+ignatius ajuru university of education,U3488
+jerash private university,U3489
+university of jos,U3490
+kampala international university,U3491
+karshi state university,U3492
+kermanshah university of technology,U3493
+khomein university of medical sciences,U3494
+kings university,U3495
+kobe city university of foreign studies,U3496
+konya technical university,U3497
+kto karatay university,U3498
+loei rajabhat university,U3499
+marian college kuttikkanam autonomous,U3500
+michael and cecilia ibru university,U3501
+michael okpara university of agriculture umudike,U3502
+mioti tech and business school,U3503
+universidad monteãvila,U3504
+nara institute of science and technology,U3505
+national university of mongolia,U3506
+nigerian police academy wudil,U3507
+novena university,U3508
+nursing school of coimbra,U3509
+olusegun agagu university of science and technology,U3510
+paris university of international education,U3511
+polytechnic university of tirana,U3512
+poltava vg korolenko national pedagogical university pnpu,U3513
+ravensbourne,U3514
+salem university,U3515
+samuel adegboyega university,U3516
+sikkim manipal university,U3517
+simã³n bolãvar university,U3518
+sokoto state university,U3519
+soran university,U3520
+university of south santa catarina unisul,U3521
+sr university,U3522
+sri padmavati mahila visvavidyalayam womens university,U3523
+sulaimani polytechnic university,U3524
+suratthani rajabhat university,U3525
+tashkent state agrarian university,U3526
+tecmilenio university,U3527
+umaru musa yarâadua university,U3528
+unnoba,U3529
+ãskã¼dar university,U3530
+usmanu danfodiyo university sokoto,U3531
+university of uyo,U3532
+virtual university of tunis,U3533
+âwellspring university,U3534
+nan,U3535
