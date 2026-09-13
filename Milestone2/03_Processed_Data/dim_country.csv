@@ -1,0 +1,242 @@
+country_id,country_code,country_name,region
+C001,ABW,Aruba,Latin America & Caribbean
+C002,AFG,Afghanistan,South Asia
+C003,AGO,Angola,Sub-Saharan Africa
+C004,ALB,Albania,Europe & Central Asia
+C005,AND,Andorra,Europe & Central Asia
+C006,ARB,Arab World,
+C007,ARE,United Arab Emirates,Middle East & North Africa
+C008,ARG,Argentina,Latin America & Caribbean
+C009,ARM,Armenia,Europe & Central Asia
+C010,ASM,American Samoa,East Asia & Pacific
+C011,ATG,Antigua and Barbuda,Latin America & Caribbean
+C012,AUS,Australia,East Asia & Pacific
+C013,AUT,Austria,Europe & Central Asia
+C014,AZE,Azerbaijan,Europe & Central Asia
+C015,BDI,Burundi,Sub-Saharan Africa
+C016,BEL,Belgium,Europe & Central Asia
+C017,BEN,Benin,Sub-Saharan Africa
+C018,BFA,Burkina Faso,Sub-Saharan Africa
+C019,BGD,Bangladesh,South Asia
+C020,BGR,Bulgaria,Europe & Central Asia
+C021,BHR,Bahrain,Middle East & North Africa
+C022,BHS,The Bahamas,Latin America & Caribbean
+C023,BIH,Bosnia and Herzegovina,Europe & Central Asia
+C024,BLR,Belarus,Europe & Central Asia
+C025,BLZ,Belize,Latin America & Caribbean
+C026,BMU,Bermuda,North America
+C027,BOL,Bolivia,Latin America & Caribbean
+C028,BRA,Brazil,Latin America & Caribbean
+C029,BRB,Barbados,Latin America & Caribbean
+C030,BRN,Brunei,East Asia & Pacific
+C031,BTN,Bhutan,South Asia
+C032,BWA,Botswana,Sub-Saharan Africa
+C033,CAF,Central African Republic,Sub-Saharan Africa
+C034,CAN,Canada,North America
+C035,CHE,Switzerland,Europe & Central Asia
+C036,CHI,Channel Islands,Europe & Central Asia
+C037,CHL,Chile,Latin America & Caribbean
+C038,CHN,China,East Asia & Pacific
+C039,CIV,Côte d'Ivoire,Sub-Saharan Africa
+C040,CMR,Cameroon,Sub-Saharan Africa
+C041,COD,Dem. Rep. Congo,Sub-Saharan Africa
+C042,COG,Congo,Sub-Saharan Africa
+C043,COL,Colombia,Latin America & Caribbean
+C044,COM,Comoros,Sub-Saharan Africa
+C045,CPV,Cabo Verde,Sub-Saharan Africa
+C046,CRI,Costa Rica,Latin America & Caribbean
+C047,CUB,Cuba,Latin America & Caribbean
+C048,CUW,Curaçao,Latin America & Caribbean
+C049,CYM,Cayman Islands,Latin America & Caribbean
+C050,CYP,Cyprus,Europe & Central Asia
+C051,CZE,Czech Republic,Europe & Central Asia
+C052,DEU,Germany,Europe & Central Asia
+C053,DJI,Djibouti,Middle East & North Africa
+C054,DMA,Dominica,Latin America & Caribbean
+C055,DNK,Denmark,Europe & Central Asia
+C056,DOM,Dominican Republic,Latin America & Caribbean
+C057,DZA,Algeria,Middle East & North Africa
+C058,EAP,East Asia & Pacific (developing only),
+C059,EAS,East Asia & Pacific (all income levels),
+C060,ECA,Europe & Central Asia (developing only),
+C061,ECS,Europe & Central Asia (all income levels),
+C062,ECU,Ecuador,Latin America & Caribbean
+C063,EGY,Egypt,Middle East & North Africa
+C064,EMU,Euro area,
+C065,ERI,Eritrea,Sub-Saharan Africa
+C066,ESP,Spain,Europe & Central Asia
+C067,EST,Estonia,Europe & Central Asia
+C068,ETH,Ethiopia,Sub-Saharan Africa
+C069,EUU,European Union,
+C070,FIN,Finland,Europe & Central Asia
+C071,FJI,Fiji,East Asia & Pacific
+C072,FRA,France,Europe & Central Asia
+C073,FRO,Faeroe Islands,Europe & Central Asia
+C074,FSM,Micronesia,East Asia & Pacific
+C075,GAB,Gabon,Sub-Saharan Africa
+C076,GBR,United Kingdom,Europe & Central Asia
+C077,GEO,Georgia,Europe & Central Asia
+C078,GHA,Ghana,Sub-Saharan Africa
+C079,GIB,Gibraltar,
+C080,GIN,Guinea,Sub-Saharan Africa
+C081,GMB,The Gambia,Sub-Saharan Africa
+C082,GNB,Guinea-Bissau,Sub-Saharan Africa
+C083,GNQ,Equatorial Guinea,Sub-Saharan Africa
+C084,GRC,Greece,Europe & Central Asia
+C085,GRD,Grenada,Latin America & Caribbean
+C086,GRL,Greenland,Europe & Central Asia
+C087,GTM,Guatemala,Latin America & Caribbean
+C088,GUM,Guam,East Asia & Pacific
+C089,GUY,Guyana,Latin America & Caribbean
+C090,HIC,High income,
+C091,HKG,"Hong Kong SAR, China",East Asia & Pacific
+C092,HND,Honduras,Latin America & Caribbean
+C093,HPC,Heavily indebted poor countries (HIPC),
+C094,HRV,Croatia,Europe & Central Asia
+C095,HTI,Haiti,Latin America & Caribbean
+C096,HUN,Hungary,Europe & Central Asia
+C097,IDN,Indonesia,East Asia & Pacific
+C098,IMN,Isle of Man,Europe & Central Asia
+C099,IND,India,South Asia
+C100,IRL,Ireland,Europe & Central Asia
+C101,IRN,Iran,Middle East & North Africa
+C102,IRQ,Iraq,Middle East & North Africa
+C103,ISL,Iceland,Europe & Central Asia
+C104,ISR,Israel,Middle East & North Africa
+C105,ITA,Italy,Europe & Central Asia
+C106,JAM,Jamaica,Latin America & Caribbean
+C107,JOR,Jordan,Middle East & North Africa
+C108,JPN,Japan,East Asia & Pacific
+C109,KAZ,Kazakhstan,Europe & Central Asia
+C110,KEN,Kenya,Sub-Saharan Africa
+C111,KGZ,Kyrgyz Republic,Europe & Central Asia
+C112,KHM,Cambodia,East Asia & Pacific
+C113,KIR,Kiribati,East Asia & Pacific
+C114,KNA,St. Kitts and Nevis,Latin America & Caribbean
+C115,KOR,Korea,East Asia & Pacific
+C116,KWT,Kuwait,Middle East & North Africa
+C117,LAC,Latin America & Caribbean (developing only),
+C118,LAO,Lao PDR,East Asia & Pacific
+C119,LBN,Lebanon,Middle East & North Africa
+C120,LBR,Liberia,Sub-Saharan Africa
+C121,LBY,Libya,Middle East & North Africa
+C122,LCA,St. Lucia,Latin America & Caribbean
+C123,LCN,Latin America & Caribbean (all income levels),
+C124,LDC,Least developed countries: UN classification,
+C125,LIC,Low income,
+C126,LIE,Liechtenstein,Europe & Central Asia
+C127,LKA,Sri Lanka,South Asia
+C128,LMC,Lower middle income,
+C129,LMY,Low & middle income,
+C130,LSO,Lesotho,Sub-Saharan Africa
+C131,LTU,Lithuania,Europe & Central Asia
+C132,LUX,Luxembourg,Europe & Central Asia
+C133,LVA,Latvia,Europe & Central Asia
+C134,MAC,"Macao SAR, China",East Asia & Pacific
+C135,MAF,St. Martin (French part),Latin America & Caribbean
+C136,MAR,Morocco,Middle East & North Africa
+C137,MCO,Monaco,Europe & Central Asia
+C138,MDA,Moldova,Europe & Central Asia
+C139,MDG,Madagascar,Sub-Saharan Africa
+C140,MDV,Maldives,South Asia
+C141,MEA,Middle East & North Africa (all income levels),
+C142,MEX,Mexico,Latin America & Caribbean
+C143,MHL,Marshall Islands,East Asia & Pacific
+C144,MIC,Middle income,
+C145,MKD,Macedonia,Europe & Central Asia
+C146,MLI,Mali,Sub-Saharan Africa
+C147,MLT,Malta,Middle East & North Africa
+C148,MMR,Myanmar,East Asia & Pacific
+C149,MNA,Middle East & North Africa (developing only),
+C150,MNE,Montenegro,Europe & Central Asia
+C151,MNG,Mongolia,East Asia & Pacific
+C152,MNP,Northern Mariana Islands,East Asia & Pacific
+C153,MOZ,Mozambique,Sub-Saharan Africa
+C154,MRT,Mauritania,Sub-Saharan Africa
+C155,MUS,Mauritius,Sub-Saharan Africa
+C156,MWI,Malawi,Sub-Saharan Africa
+C157,MYS,Malaysia,East Asia & Pacific
+C158,NAC,North America,
+C159,NAM,Namibia,Sub-Saharan Africa
+C160,NCL,New Caledonia,East Asia & Pacific
+C161,NER,Niger,Sub-Saharan Africa
+C162,NGA,Nigeria,Sub-Saharan Africa
+C163,NIC,Nicaragua,Latin America & Caribbean
+C164,NLD,Netherlands,Europe & Central Asia
+C165,NOR,Norway,Europe & Central Asia
+C166,NPL,Nepal,South Asia
+C167,NRU,Nauru,
+C168,NZL,New Zealand,East Asia & Pacific
+C169,OED,OECD members,
+C170,OMN,Oman,Middle East & North Africa
+C171,PAK,Pakistan,South Asia
+C172,PAN,Panama,Latin America & Caribbean
+C173,PER,Peru,Latin America & Caribbean
+C174,PHL,Philippines,East Asia & Pacific
+C175,PLW,Palau,East Asia & Pacific
+C176,PNG,Papua New Guinea,East Asia & Pacific
+C177,POL,Poland,Europe & Central Asia
+C178,PRI,Puerto Rico,Latin America & Caribbean
+C179,PRK,Dem. People's Rep. Korea,East Asia & Pacific
+C180,PRT,Portugal,Europe & Central Asia
+C181,PRY,Paraguay,Latin America & Caribbean
+C182,PSE,West Bank and Gaza,Middle East & North Africa
+C183,PYF,French Polynesia,East Asia & Pacific
+C184,QAT,Qatar,Middle East & North Africa
+C185,ROU,Romania,Europe & Central Asia
+C186,RUS,Russia,Europe & Central Asia
+C187,RWA,Rwanda,Sub-Saharan Africa
+C188,SAS,South Asia,
+C189,SAU,Saudi Arabia,Middle East & North Africa
+C190,SDN,Sudan,Sub-Saharan Africa
+C191,SEN,Senegal,Sub-Saharan Africa
+C192,SGP,Singapore,East Asia & Pacific
+C193,SLB,Solomon Islands,East Asia & Pacific
+C194,SLE,Sierra Leone,Sub-Saharan Africa
+C195,SLV,El Salvador,Latin America & Caribbean
+C196,SMR,San Marino,Europe & Central Asia
+C197,SOM,Somalia,Sub-Saharan Africa
+C198,SRB,Serbia,Europe & Central Asia
+C199,SSA,Sub-Saharan Africa (developing only),
+C200,SSD,South Sudan,Sub-Saharan Africa
+C201,SSF,Sub-Saharan Africa (all income levels),
+C202,STP,São Tomé and Principe,Sub-Saharan Africa
+C203,SUR,Suriname,Latin America & Caribbean
+C204,SVK,Slovak Republic,Europe & Central Asia
+C205,SVN,Slovenia,Europe & Central Asia
+C206,SWE,Sweden,Europe & Central Asia
+C207,SWZ,Swaziland,Sub-Saharan Africa
+C208,SXM,Sint Maarten (Dutch part),Latin America & Caribbean
+C209,SYC,Seychelles,Sub-Saharan Africa
+C210,SYR,Syrian Arab Republic,Middle East & North Africa
+C211,TCA,Turks and Caicos Islands,Latin America & Caribbean
+C212,TCD,Chad,Sub-Saharan Africa
+C213,TGO,Togo,Sub-Saharan Africa
+C214,THA,Thailand,East Asia & Pacific
+C215,TJK,Tajikistan,Europe & Central Asia
+C216,TKM,Turkmenistan,Europe & Central Asia
+C217,TLS,Timor-Leste,East Asia & Pacific
+C218,TON,Tonga,East Asia & Pacific
+C219,TTO,Trinidad and Tobago,Latin America & Caribbean
+C220,TUN,Tunisia,Middle East & North Africa
+C221,TUR,Turkey,Europe & Central Asia
+C222,TUV,Tuvalu,East Asia & Pacific
+C223,TZA,Tanzania,Sub-Saharan Africa
+C224,UGA,Uganda,Sub-Saharan Africa
+C225,UKR,Ukraine,Europe & Central Asia
+C226,UMC,Upper middle income,
+C227,URY,Uruguay,Latin America & Caribbean
+C228,USA,United States,North America
+C229,UZB,Uzbekistan,Europe & Central Asia
+C230,VCT,St. Vincent and the Grenadines,Latin America & Caribbean
+C231,VEN,Venezuela,Latin America & Caribbean
+C232,VIR,Virgin Islands,Latin America & Caribbean
+C233,VNM,Vietnam,East Asia & Pacific
+C234,VUT,Vanuatu,East Asia & Pacific
+C235,WLD,World,
+C236,WSM,Samoa,East Asia & Pacific
+C237,XKX,Kosovo,Europe & Central Asia
+C238,YEM,Yemen,Middle East & North Africa
+C239,ZAF,South Africa,Sub-Saharan Africa
+C240,ZMB,Zambia,Sub-Saharan Africa
+C241,ZWE,Zimbabwe,Sub-Saharan Africa

@@ -1,0 +1,5 @@
+Dataset,Rows,Columns,Duplicate_Rows,Status
+QS World University Rankings 2025,1503,28,0,PASS
+THE World University Rankings 2024,2673,29,0,PASS
+World University Rankings 2023,2311,13,0,PASS
+World Bank Tertiary Education,3038,51,0,PASS
