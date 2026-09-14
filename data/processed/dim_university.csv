@@ -1,0 +1,1374 @@
+university_id,university_name,country
+UNI_00001,National University of Córdoba,Argentina
+UNI_00002,National University of La Plata,Argentina
+UNI_00003,University of Buenos Aires,Argentina
+UNI_00004,National University of Rosario,Argentina
+UNI_00005,"University of Technology, Sydney",Australia
+UNI_00006,University of Tasmania,Australia
+UNI_00007,Griffith University,Australia
+UNI_00008,University of Wollongong,Australia
+UNI_00009,Australian National University,Australia
+UNI_00010,La Trobe University,Australia
+UNI_00011,Flinders University,Australia
+UNI_00012,Swinburne University of Technology,Australia
+UNI_00013,University of New England (Australia),Australia
+UNI_00014,The University of Queensland,Australia
+UNI_00015,Monash University,Australia
+UNI_00016,Deakin University,Australia
+UNI_00017,Curtin University,Australia
+UNI_00018,University of Newcastle,Australia
+UNI_00019,University of Western Australia,Australia
+UNI_00020,University of Adelaide,Australia
+UNI_00021,James Cook University,Australia
+UNI_00022,Queensland University of Technology,Australia
+UNI_00023,University of New South Wales,Australia
+UNI_00024,University of South Australia,Australia
+UNI_00025,University of Sydney,Australia
+UNI_00026,University of Melbourne,Australia
+UNI_00027,Macquarie University,Australia
+UNI_00028,Murdoch University,Australia
+UNI_00029,University of Southern Queensland,Australia
+UNI_00030,Western Sydney University,Australia
+UNI_00031,Charles Darwin University,Australia
+UNI_00032,Southern Cross University,Australia
+UNI_00033,University of Western Sydney,Australia
+UNI_00034,University of Canberra,Australia
+UNI_00035,RMIT University,Australia
+UNI_00036,Central Queensland University,Australia
+UNI_00037,Edith Cowan University,Australia
+UNI_00038,University of Vienna,Austria
+UNI_00039,Medical University of Vienna,Austria
+UNI_00040,Vienna University of Technology,Austria
+UNI_00041,Johannes Kepler University of Linz,Austria
+UNI_00042,University of Graz,Austria
+UNI_00043,Graz University of Technology,Austria
+UNI_00044,"University of Natural Resources and Life Sciences, Vienna",Austria
+UNI_00045,University of Innsbruck,Austria
+UNI_00046,Innsbruck Medical University,Austria
+UNI_00047,University of Veterinary Medicine Vienna,Austria
+UNI_00048,Medical University of Graz,Austria
+UNI_00049,University of Salzburg,Austria
+UNI_00050,University of Dhaka,Bangladesh
+UNI_00051,Belarusian State University,Belarus
+UNI_00052,University of Liège,Belgium
+UNI_00053,Université libre de Bruxelles,Belgium
+UNI_00054,University of Antwerp,Belgium
+UNI_00055,Vrije Universiteit Brussel,Belgium
+UNI_00056,KU Leuven,Belgium
+UNI_00057,Ghent University,Belgium
+UNI_00058,Université Catholique de Louvain,Belgium
+UNI_00059,Université de Namur,Belgium
+UNI_00060,Katholieke Universiteit Leuven,Belgium
+UNI_00061,University of Mons,Belgium
+UNI_00062,Hasselt University,Belgium
+UNI_00063,University of São Paulo,Brazil
+UNI_00064,Federal University of Paraná,Brazil
+UNI_00065,Federal University of Santa Maria,Brazil
+UNI_00066,University of Campinas,Brazil
+UNI_00067,State University of Campinas,Brazil
+UNI_00068,Federal University of São Carlos,Brazil
+UNI_00069,"UNESP, São Paulo State University",Brazil
+UNI_00070,Federal University of Rio de Janeiro,Brazil
+UNI_00071,Federal University of Santa Catarina,Brazil
+UNI_00072,University of Brasília,Brazil
+UNI_00073,Rio de Janeiro State University,Brazil
+UNI_00074,Federal University of Ceará,Brazil
+UNI_00075,Fluminense Federal University,Brazil
+UNI_00076,Federal University of Bahia,Brazil
+UNI_00077,Federal University of ABC,Brazil
+UNI_00078,Federal University of Rio Grande do Sul,Brazil
+UNI_00079,Federal University of Pernambuco,Brazil
+UNI_00080,Federal University of Paraná (UFPR),Brazil
+UNI_00081,Federal University of São Paulo,Brazil
+UNI_00082,Federal University of Viçosa,Brazil
+UNI_00083,São Paulo State University (UNESP),Brazil
+UNI_00084,Federal University of Lavras,Brazil
+UNI_00085,Rio de Janeiro State University (UERJ),Brazil
+UNI_00086,Federal University of Minas Gerais,Brazil
+UNI_00087,Pontifical Catholic University of Paraná,Brazil
+UNI_00088,Pontifical Catholic University of Rio de Janeiro (PUC-Rio),Brazil
+UNI_00089,Pontifical Catholic University of Rio Grande do Sul (PUCRS),Brazil
+UNI_00090,Sofia University,Bulgaria
+UNI_00091,University of Toronto,Canada
+UNI_00092,University of Saskatchewan,Canada
+UNI_00093,Memorial University of Newfoundland,Canada
+UNI_00094,University of Alberta,Canada
+UNI_00095,Université de Sherbrooke,Canada
+UNI_00096,Simon Fraser University,Canada
+UNI_00097,Laval University,Canada
+UNI_00098,University of Calgary,Canada
+UNI_00099,Queen’s University,Canada
+UNI_00100,University of British Columbia,Canada
+UNI_00101,University of Guelph,Canada
+UNI_00102,York University,Canada
+UNI_00103,University of Manitoba,Canada
+UNI_00104,McGill University,Canada
+UNI_00105,Trent University,Canada
+UNI_00106,University of Regina,Canada
+UNI_00107,University of Québec at Montreal,Canada
+UNI_00108,McMaster University,Canada
+UNI_00109,Western University (The University of Western Ontario),Canada
+UNI_00110,Dalhousie University,Canada
+UNI_00111,University of Ottawa,Canada
+UNI_00112,University of Sherbrooke,Canada
+UNI_00113,Université du Québec à Montréal,Canada
+UNI_00114,Concordia University,Canada
+UNI_00115,University of Montreal,Canada
+UNI_00116,University of Victoria,Canada
+UNI_00117,University of Windsor,Canada
+UNI_00118,University of Western Ontario,Canada
+UNI_00119,University of Waterloo,Canada
+UNI_00120,Carleton University,Canada
+UNI_00121,University of New Brunswick,Canada
+UNI_00122,Ryerson University,Canada
+UNI_00123,Brock University,Canada
+UNI_00124,Wilfrid Laurier University,Canada
+UNI_00125,École Polytechnique de Montréal,Canada
+UNI_00126,University of Lethbridge,Canada
+UNI_00127,"University of Santiago, Chile (USACH)",Chile
+UNI_00128,Federico Santa María Technical University,Chile
+UNI_00129,University of Chile,Chile
+UNI_00130,Pontifical Catholic University of Chile,Chile
+UNI_00131,Austral University of Chile,Chile
+UNI_00132,Pontifical Catholic University of Valparaíso,Chile
+UNI_00133,University of Concepción,Chile
+UNI_00134,Fudan University,China
+UNI_00135,Fourth Military Medical University,China
+UNI_00136,Sun Yat-sen University,China
+UNI_00137,University of Electronic Science and Technology of China,China
+UNI_00138,Fuzhou University,China
+UNI_00139,Donghua University,China
+UNI_00140,Tianjin University,China
+UNI_00141,University of Science and Technology Beijing,China
+UNI_00142,Beijing Jiaotong University,China
+UNI_00143,Shanghai University,China
+UNI_00144,Huazhong University of Science and Technology,China
+UNI_00145,Jiangnan University,China
+UNI_00146,Xi’an Jiaotong University,China
+UNI_00147,Xiamen University,China
+UNI_00148,Shanghai Normal University,China
+UNI_00149,Hunan Normal University,China
+UNI_00150,Jinan University,China
+UNI_00151,Tongji University,China
+UNI_00152,South China Agricultural University,China
+UNI_00153,China Pharmaceutical University,China
+UNI_00154,Nanjing University,China
+UNI_00155,Second Military Medical University,China
+UNI_00156,Xidian University,China
+UNI_00157,Tsinghua University,China
+UNI_00158,China University of Geosciences (Wuhan),China
+UNI_00159,East China Normal University,China
+UNI_00160,Zhejiang University of Technology,China
+UNI_00161,China Medical University (PRC),China
+UNI_00162,Peking University,China
+UNI_00163,South China University of Technology,China
+UNI_00164,Northwest University (China),China
+UNI_00165,Renmin University of China,China
+UNI_00166,Nanjing University of Technology,China
+UNI_00167,South China Normal University,China
+UNI_00168,China University of Petroleum (Beijing),China
+UNI_00169,Capital Medical University,China
+UNI_00170,Ocean University of China,China
+UNI_00171,Shanghai Jiao Tong University,China
+UNI_00172,Northeast Normal University,China
+UNI_00173,Nanjing University of Aeronautics and Astronautics,China
+UNI_00174,Southwest University,China
+UNI_00175,Northeastern University (China),China
+UNI_00176,Zhengzhou University,China
+UNI_00177,University of Science and Technology of China,China
+UNI_00178,Beijing Institute of Technology,China
+UNI_00179,Beijing University of Technology,China
+UNI_00180,China Agricultural University,China
+UNI_00181,Wuhan University of Technology,China
+UNI_00182,Beijing University of Chemical Technology,China
+UNI_00183,Soochow University (Suzhou),China
+UNI_00184,Chongqing University,China
+UNI_00185,Nanjing Medical University,China
+UNI_00186,Wuhan University,China
+UNI_00187,Shantou University,China
+UNI_00188,Yangzhou University,China
+UNI_00189,Zhejiang University,China
+UNI_00190,Northwestern Polytechnical University,China
+UNI_00191,Xiangtan University,China
+UNI_00192,Peking Union Medical College,China
+UNI_00193,Southern Medical University,China
+UNI_00194,Huazhong Agricultural University,China
+UNI_00195,Harbin Institute of Technology,China
+UNI_00196,Beihang University,China
+UNI_00197,East China University of Science and Technology,China
+UNI_00198,Dalian University of Technology,China
+UNI_00199,Jiangsu University,China
+UNI_00200,Soochow University,China
+UNI_00201,Nanjing Agricultural University,China
+UNI_00202,Third Military Medical University,China
+UNI_00203,Sichuan University,China
+UNI_00204,Nanjing University of Science and Technology,China
+UNI_00205,Central China Normal University,China
+UNI_00206,Southwest Jiaotong University,China
+UNI_00207,Nanjing Normal University,China
+UNI_00208,Southeast University,China
+UNI_00209,Central South University,China
+UNI_00210,Jilin University,China
+UNI_00211,Henan Normal University,China
+UNI_00212,Guangxi University,China
+UNI_00213,Beijing Normal University,China
+UNI_00214,Nankai University,China
+UNI_00215,Hunan University,China
+UNI_00216,Shandong University,China
+UNI_00217,Lanzhou University,China
+UNI_00218,Harbin Engineering University,China
+UNI_00219,Northwest A&F University,China
+UNI_00220,Shanxi University,China
+UNI_00221,Harbin Medical University,China
+UNI_00222,Zhejiang Normal University,China
+UNI_00223,Shaanxi Normal University,China
+UNI_00224,National University of Defense Technology,China
+UNI_00225,Yanbian University,China
+UNI_00226,Hefei University of Technology,China
+UNI_00227,Tianjin Medical University,China
+UNI_00228,Shenzhen University,China
+UNI_00229,"University of the Andes, Colombia",Colombia
+UNI_00230,University of Los Andes (Colombia),Colombia
+UNI_00231,University of Antioquia,Colombia
+UNI_00232,National University of Colombia,Colombia
+UNI_00233,University of Zagreb,Croatia
+UNI_00234,University of Cyprus,Cyprus
+UNI_00235,"University of Chemistry and Technology, Prague",Czech Republic
+UNI_00236,Brno University of Technology,Czech Republic
+UNI_00237,Czech Technical University in Prague,Czech Republic
+UNI_00238,Charles University in Prague,Czech Republic
+UNI_00239,Masaryk University,Czech Republic
+UNI_00240,VŠB - Technical University of Ostrava,Czech Republic
+UNI_00241,University of Pardubice,Czech Republic
+UNI_00242,University of West Bohemia,Czech Republic
+UNI_00243,"Palacký University, Olomouc",Czech Republic
+UNI_00244,Palacký University in Olomouc,Czech Republic
+UNI_00245,University of Southern Denmark,Denmark
+UNI_00246,University of Copenhagen,Denmark
+UNI_00247,Aalborg University,Denmark
+UNI_00248,Aarhus University,Denmark
+UNI_00249,Technical University of Denmark,Denmark
+UNI_00250,Copenhagen Business School,Denmark
+UNI_00251,Mansoura University,Egypt
+UNI_00252,Ain Shams University,Egypt
+UNI_00253,Alexandria University,Egypt
+UNI_00254,Cairo University,Egypt
+UNI_00255,Suez Canal University,Egypt
+UNI_00256,University of Tartu,Estonia
+UNI_00257,Tallinn University of Technology,Estonia
+UNI_00258,Aalto University,Finland
+UNI_00259,University of Oulu,Finland
+UNI_00260,University of Tampere,Finland
+UNI_00261,University of Jyväskylä,Finland
+UNI_00262,University of Turku,Finland
+UNI_00263,University of Helsinki,Finland
+UNI_00264,Tampere University of Technology,Finland
+UNI_00265,Lappeenranta University of Technology,Finland
+UNI_00266,Åbo Akademi University,Finland
+UNI_00267,University of Eastern Finland,Finland
+UNI_00268,Paris Diderot University - Paris 7,France
+UNI_00269,University of Burgundy,France
+UNI_00270,Montpellier University,France
+UNI_00271,Blaise Pascal University,France
+UNI_00272,École centrale de Lyon,France
+UNI_00273,Joseph Fourier University,France
+UNI_00274,École Polytechnique,France
+UNI_00275,Sorbonne University,France
+UNI_00276,Mines ParisTech,France
+UNI_00277,École Normale Supérieure de Lyon,France
+UNI_00278,University of Valenciennes and Hainaut-Cambresis,France
+UNI_00279,University of Picardie Jules Verne,France
+UNI_00280,Paris Dauphine University,France
+UNI_00281,École Normale Supérieure,France
+UNI_00282,Jean Monnet University,France
+UNI_00283,Versailles Saint-Quentin-en-Yvelines University,France
+UNI_00284,Paris-Est Créteil Val-de-Marne University,France
+UNI_00285,Claude Bernard University Lyon 1,France
+UNI_00286,University of Orléans,France
+UNI_00287,University of Pau and Pays de l'Adour,France
+UNI_00288,University of Paris-Sud,France
+UNI_00289,University of Poitiers,France
+UNI_00290,Institut Polytechnique de Paris,France
+UNI_00291,University of Lorraine,France
+UNI_00292,Pierre and Marie Curie University,France
+UNI_00293,Université Paris-Saclay,France
+UNI_00294,University of Maine (Le Mans),France
+UNI_00295,École Centrale Paris,France
+UNI_00296,University of Strasbourg,France
+UNI_00297,University of Caen Lower Normandy,France
+UNI_00298,University of Montpellier,France
+UNI_00299,Paris Descartes University,France
+UNI_00300,University of Rennes 1,France
+UNI_00301,Paul Sabatier University - Toulouse III,France
+UNI_00302,University of Rouen,France
+UNI_00303,University of Perpignan Via Domitia,France
+UNI_00304,University of Franche-Comté,France
+UNI_00305,University of Bordeaux II,France
+UNI_00306,Paris-Sud University,France
+UNI_00307,University of Paris North – Paris 13,France
+UNI_00308,Aix-Marseille University,France
+UNI_00309,University of Bordeaux I,France
+UNI_00310,University of Reims Champagne-Ardenne,France
+UNI_00311,Grenoble Institute of Technology,France
+UNI_00312,University of Cergy-Pontoise,France
+UNI_00313,University of Angers,France
+UNI_00314,University of Bordeaux,France
+UNI_00315,Institut national des sciences Appliquées de Lyon,France
+UNI_00316,University of Savoy,France
+UNI_00317,Paris Sciences et Lettres – PSL Research University Paris,France
+UNI_00318,University Lille 1: Sciences and Technologies,France
+UNI_00319,National Polytechnic Institute of Toulouse,France
+UNI_00320,École normale supérieure - Paris,France
+UNI_00321,University of Nantes,France
+UNI_00322,University of Montpellier 2,France
+UNI_00323,University of Montpellier 1,France
+UNI_00324,University of Nice Sophia Antipolis,France
+UNI_00325,University of Évry Val d'Essonne,France
+UNI_00326,Lille 1 University – Science and Technology,France
+UNI_00327,Paris-Sorbonne University – Paris 4,France
+UNI_00328,University of Paris 13,France
+UNI_00329,"Paul Valéry University, Montpellier III",France
+UNI_00330,"University François Rabelais, Tours",France
+UNI_00331,Lille 2 University – Health and Law,France
+UNI_00332,University of Western Brittany,France
+UNI_00333,Toulouse 1 Capitole University,France
+UNI_00334,Panthéon-Sorbonne University – Paris 1,France
+UNI_00335,National Institute of Applied Sciences of Lyon (INSA Lyon),France
+UNI_00336,École normale supérieure de Cachan,France
+UNI_00337,Lille 2 University of Health and Law,France
+UNI_00338,University of Duisburg-Essen,Germany
+UNI_00339,Otto-von-Guericke University Magdeburg,Germany
+UNI_00340,University of Oldenburg,Germany
+UNI_00341,Jacobs University Bremen,Germany
+UNI_00342,Leipzig University,Germany
+UNI_00343,Technical University of Berlin,Germany
+UNI_00344,University of Bremen,Germany
+UNI_00345,University of Stuttgart,Germany
+UNI_00346,University of Münster,Germany
+UNI_00347,University of Kiel,Germany
+UNI_00348,TU Dresden,Germany
+UNI_00349,University of Greifswald,Germany
+UNI_00350,University of Hamburg,Germany
+UNI_00351,Bielefeld University,Germany
+UNI_00352,Free University of Berlin,Germany
+UNI_00353,University of Cologne,Germany
+UNI_00354,Technical University of Dortmund,Germany
+UNI_00355,Johannes Gutenberg University of Mainz,Germany
+UNI_00356,Goethe University Frankfurt,Germany
+UNI_00357,University of Düsseldorf,Germany
+UNI_00358,Saarland University,Germany
+UNI_00359,University of Erlangen-Nuremberg,Germany
+UNI_00360,University of Bayreuth,Germany
+UNI_00361,University of Ulm,Germany
+UNI_00362,Ruhr University Bochum,Germany
+UNI_00363,Humboldt University of Berlin,Germany
+UNI_00364,RWTH Aachen University,Germany
+UNI_00365,University of Bonn,Germany
+UNI_00366,University of Würzburg,Germany
+UNI_00367,Braunschweig University of Technology,Germany
+UNI_00368,Darmstadt University of Technology,Germany
+UNI_00369,Justus Liebig University Giessen,Germany
+UNI_00370,University of Kaiserslautern,Germany
+UNI_00371,Karlsruhe Institute of Technology,Germany
+UNI_00372,University of Konstanz,Germany
+UNI_00373,LMU Munich,Germany
+UNI_00374,University of Regensburg,Germany
+UNI_00375,Technical University of Munich,Germany
+UNI_00376,Heidelberg University,Germany
+UNI_00377,University of Jena,Germany
+UNI_00378,Ulm University,Germany
+UNI_00379,University of Marburg,Germany
+UNI_00380,Technical University of Darmstadt,Germany
+UNI_00381,Dresden University of Technology,Germany
+UNI_00382,University of Freiburg,Germany
+UNI_00383,Julius-Maximilian's University of Würzburg,Germany
+UNI_00384,University of Hohenheim,Germany
+UNI_00385,University of Lübeck,Germany
+UNI_00386,University of Göttingen,Germany
+UNI_00387,University of Tübingen,Germany
+UNI_00388,Charité - Universitätsmedizin Berlin,Germany
+UNI_00389,University of Rostock,Germany
+UNI_00390,University of Augsburg,Germany
+UNI_00391,Albert Ludwig University of Freiburg,Germany
+UNI_00392,University of Mannheim,Germany
+UNI_00393,Ruprecht Karl University of Heidelberg,Germany
+UNI_00394,Ludwig Maximilian University of Munich,Germany
+UNI_00395,Bayreuth University,Germany
+UNI_00396,Hannover Medical School,Germany
+UNI_00397,Martin Luther University of Halle-Wittenberg,Germany
+UNI_00398,Leibniz University of Hanover,Germany
+UNI_00399,University of Potsdam,Germany
+UNI_00400,University of Hanover,Germany
+UNI_00401,Kaiserslautern University of Technology,Germany
+UNI_00402,Otto von Guericke University of Magdeburg,Germany
+UNI_00403,Chemnitz University of Technology,Germany
+UNI_00404,University of Osnabrück,Germany
+UNI_00405,University of Siegen,Germany
+UNI_00406,University of Ghana,Ghana
+UNI_00407,Aristotle University of Thessaloniki,Greece
+UNI_00408,Athens University of Economics and Business,Greece
+UNI_00409,National Technical University of Athens,Greece
+UNI_00410,University of Patras,Greece
+UNI_00411,University of Crete,Greece
+UNI_00412,University of Thessaly,Greece
+UNI_00413,National and Kapodistrian University of Athens,Greece
+UNI_00414,University of Ioannina,Greece
+UNI_00415,City University of Hong Kong,Hong Kong SAR
+UNI_00416,Hong Kong Polytechnic University,Hong Kong SAR
+UNI_00417,Chinese University of Hong Kong,Hong Kong SAR
+UNI_00418,Hong Kong University of Science and Technology,Hong Kong SAR
+UNI_00419,University of Hong Kong,Hong Kong SAR
+UNI_00420,Hong Kong Baptist University,Hong Kong SAR
+UNI_00421,Budapest University of Technology and Economics,Hungary
+UNI_00422,University of Pécs,Hungary
+UNI_00423,University of Szeged,Hungary
+UNI_00424,University of Debrecen,Hungary
+UNI_00425,Eötvös Loránd University,Hungary
+UNI_00426,Semmelweis University,Hungary
+UNI_00427,University of Iceland,Iceland
+UNI_00428,Tata Institute of Fundamental Research,India
+UNI_00429,University of Delhi,India
+UNI_00430,Panjab University,India
+UNI_00431,Indian Institute of Technology Kanpur,India
+UNI_00432,Indian Institute of Technology Roorkee,India
+UNI_00433,Andhra University,India
+UNI_00434,Amrita University,India
+UNI_00435,University of Hyderabad,India
+UNI_00436,Indian Institute of Technology Kharagpur,India
+UNI_00437,Indian Institute of Science,India
+UNI_00438,Aligarh Muslim University,India
+UNI_00439,Indian Institute of Technology Madras,India
+UNI_00440,Jadavpur University,India
+UNI_00441,"Birla Institute of Technology and Science, Pilani",India
+UNI_00442,Indian Institute of Technology Bombay,India
+UNI_00443,University of Calcutta,India
+UNI_00444,"All India Institute of Medical Sciences, New Delhi",India
+UNI_00445,Indian Institute of Technology Delhi,India
+UNI_00446,Banaras Hindu University,India
+UNI_00447,Indian Institute of Technology Guwahati,India
+UNI_00448,Savitribai Phule Pune University,India
+UNI_00449,Jawaharlal Nehru Centre for Advanced Scientific Research,India
+UNI_00450,University of Indonesia,Indonesia
+UNI_00451,Shiraz University,Iran
+UNI_00452,Isfahan University of Technology,Iran
+UNI_00453,University of Tehran,Iran
+UNI_00454,Iran University of Science and Technology,Iran
+UNI_00455,Sharif University of Technology,Iran
+UNI_00456,Tarbiat Modares University,Iran
+UNI_00457,Tehran University of Medical Sciences,Iran
+UNI_00458,Shahid Beheshti University,Iran
+UNI_00459,Amirkabir University of Technology,Iran
+UNI_00460,K.N. Toosi University of Technology,Iran
+UNI_00461,Shahid Beheshti University of Medical Sciences,Iran
+UNI_00462,University of Limerick,Republic of Ireland
+UNI_00463,Royal College of Surgeons in Ireland,Republic of Ireland
+UNI_00464,"National University of Ireland, Galway",Republic of Ireland
+UNI_00465,Dublin City University,Republic of Ireland
+UNI_00466,University College Cork,Republic of Ireland
+UNI_00467,"National University of Ireland, Maynooth",Republic of Ireland
+UNI_00468,"Trinity College, Dublin",Republic of Ireland
+UNI_00469,University College Dublin,Republic of Ireland
+UNI_00470,Weizmann Institute of Science,Israel
+UNI_00471,Tel Aviv University,Israel
+UNI_00472,Hebrew University of Jerusalem,Israel
+UNI_00473,Bar-Ilan University,Israel
+UNI_00474,Technion – Israel Institute of Technology,Israel
+UNI_00475,Ben-Gurion University of the Negev,Israel
+UNI_00476,University of Haifa,Israel
+UNI_00477,University of Bari Aldo Moro,Italy
+UNI_00478,University of Milan-Bicocca,Italy
+UNI_00479,Scuola Superiore Sant’Anna,Italy
+UNI_00480,University of Padua,Italy
+UNI_00481,University of Ferrara,Italy
+UNI_00482,Sapienza University of Rome,Italy
+UNI_00483,Ca’ Foscari University of Venice,Italy
+UNI_00484,Scuola Normale Superiore di Pisa,Italy
+UNI_00485,University of Florence,Italy
+UNI_00486,University of Trento,Italy
+UNI_00487,University of Trieste,Italy
+UNI_00488,University of Palermo,Italy
+UNI_00489,University of Modena and Reggio Emilia,Italy
+UNI_00490,Polytechnic University of Milan,Italy
+UNI_00491,Marche Polytechnic University,Italy
+UNI_00492,University of Milan,Italy
+UNI_00493,Magna Græcia University of Catanzaro,Italy
+UNI_00494,Polytechnic University of Turin,Italy
+UNI_00495,University of Rome III,Italy
+UNI_00496,University of Brescia,Italy
+UNI_00497,University of Naples Federico II,Italy
+UNI_00498,University of Salento,Italy
+UNI_00499,Verona University,Italy
+UNI_00500,University of Bologna,Italy
+UNI_00501,University of Catania,Italy
+UNI_00502,University of Turin,Italy
+UNI_00503,Catholic University of the Sacred Heart,Italy
+UNI_00504,University of Cagliari,Italy
+UNI_00505,University of Pisa,Italy
+UNI_00506,University of Salerno,Italy
+UNI_00507,University of Sassari,Italy
+UNI_00508,University of L'Aquila,Italy
+UNI_00509,University of Udine,Italy
+UNI_00510,University of Calabria,Italy
+UNI_00511,University of Insubria,Italy
+UNI_00512,University of Pavia,Italy
+UNI_00513,University of Parma,Italy
+UNI_00514,University of Rome II – Tor Vergata,Italy
+UNI_00515,Vita-Salute San Raffaele University,Italy
+UNI_00516,University of Siena,Italy
+UNI_00517,University of Genoa,Italy
+UNI_00518,"University of Eastern Piedmont Amedeo Avogadro""""",Italy
+UNI_00519,University of Urbino Carlo Bo,Italy
+UNI_00520,Roma Tre University,Italy
+UNI_00521,University of Camerino,Italy
+UNI_00522,International School for Advanced Studies,Italy
+UNI_00523,Second University of Naples,Italy
+UNI_00524,University of Perugia,Italy
+UNI_00525,University of Rome Tor Vergata,Italy
+UNI_00526,University of Messina,Italy
+UNI_00527,"G. d'Annunzio University, Chieti-Pescara",Italy
+UNI_00528,University of Verona,Italy
+UNI_00529,University of Basilicata,Italy
+UNI_00530,Nagoya University,Japan
+UNI_00531,Kagoshima University,Japan
+UNI_00532,University of the Ryukyus,Japan
+UNI_00533,Chiba University,Japan
+UNI_00534,Kanazawa University,Japan
+UNI_00535,Ehime University,Japan
+UNI_00536,Gifu University,Japan
+UNI_00537,Keio University,Japan
+UNI_00538,Gunma University,Japan
+UNI_00539,Hokkaido University,Japan
+UNI_00540,Ibaraki University,Japan
+UNI_00541,Kyushu University,Japan
+UNI_00542,Kyoto University,Japan
+UNI_00543,Ritsumeikan University,Japan
+UNI_00544,Osaka City University,Japan
+UNI_00545,Yokohama National University,Japan
+UNI_00546,Nagoya City University,Japan
+UNI_00547,Osaka Prefecture University,Japan
+UNI_00548,Yokohama City University,Japan
+UNI_00549,Sapporo Medical University,Japan
+UNI_00550,Shinshu University,Japan
+UNI_00551,Hirosaki University,Japan
+UNI_00552,Kindai University,Japan
+UNI_00553,University of Toyama,Japan
+UNI_00554,Yamagata University,Japan
+UNI_00555,University of Fukui,Japan
+UNI_00556,Kyoto Institute of Technology,Japan
+UNI_00557,Kobe University,Japan
+UNI_00558,Waseda University,Japan
+UNI_00559,Saitama Medical University,Japan
+UNI_00560,Nagasaki University,Japan
+UNI_00561,Tokyo Institute of Technology,Japan
+UNI_00562,University of Yamanashi,Japan
+UNI_00563,Niigata University,Japan
+UNI_00564,University of Tokyo,Japan
+UNI_00565,Hamamatsu University School of Medicine,Japan
+UNI_00566,Shizuoka University,Japan
+UNI_00567,Tokyo University of Agriculture and Technology,Japan
+UNI_00568,Yamaguchi University,Japan
+UNI_00569,Showa University,Japan
+UNI_00570,Tokyo Medical and Dental University,Japan
+UNI_00571,University of Tokushima,Japan
+UNI_00572,Tokai University,Japan
+UNI_00573,Osaka University,Japan
+UNI_00574,Tottori University,Japan
+UNI_00575,Kōchi University,Japan
+UNI_00576,Tokyo University of Science,Japan
+UNI_00577,University of Hyogo,Japan
+UNI_00578,Kumamoto University,Japan
+UNI_00579,Saitama University,Japan
+UNI_00580,Tohoku University,Japan
+UNI_00581,Nihon University,Japan
+UNI_00582,Shimane University,Japan
+UNI_00583,Toyohashi University of Technology,Japan
+UNI_00584,Jikei University School of Medicine,Japan
+UNI_00585,Kurume University,Japan
+UNI_00586,Graduate University for Advanced Studies,Japan
+UNI_00587,Tokyo University of Marine Science and Technology,Japan
+UNI_00588,Tokushima University,Japan
+UNI_00589,University of Tsukuba,Japan
+UNI_00590,Teikyo University,Japan
+UNI_00591,Fukuoka University,Japan
+UNI_00592,Kitasato University,Japan
+UNI_00593,Tokyo Metropolitan University,Japan
+UNI_00594,Kyoto Prefectural University of Medicine,Japan
+UNI_00595,Toho University,Japan
+UNI_00596,Mie University,Japan
+UNI_00597,Tokyo Women's Medical University,Japan
+UNI_00598,Saga University,Japan
+UNI_00599,Hiroshima University,Japan
+UNI_00600,Nara Institute of Science and Technology,Japan
+UNI_00601,Jichi Medical University,Japan
+UNI_00602,Okayama University,Japan
+UNI_00603,Kyushu Institute of Technology,Japan
+UNI_00604,Kinki University,Japan
+UNI_00605,Juntendo University,Japan
+UNI_00606,Nagoya Institute of Technology,Japan
+UNI_00607,University of Miyazaki,Japan
+UNI_00608,Sophia University,Japan
+UNI_00609,University of Electro-Communications,Japan
+UNI_00610,Tokyo Medical and Dental University (TMDU),Japan
+UNI_00611,Jordan University of Science and Technology,Jordan
+UNI_00612,University of Jordan,Jordan
+UNI_00613,University of Nairobi,Kenya
+UNI_00614,University of Latvia,Latvia
+UNI_00615,American University of Beirut,Lebanon
+UNI_00616,Vilnius University,Lithuania
+UNI_00617,University of Luxembourg,Luxembourg
+UNI_00618,University of Macau,Macau
+UNI_00619,Universiti Teknologi Malaysia,Malaysia
+UNI_00620,University of Malaya,Malaysia
+UNI_00621,"University of Science, Malaysia",Malaysia
+UNI_00622,Universiti Putra Malaysia,Malaysia
+UNI_00623,Universiti Kebangsaan Malaysia,Malaysia
+UNI_00624,"Putra University, Malaysia",Malaysia
+UNI_00625,Universiti Sains Malaysia,Malaysia
+UNI_00626,Universiti Teknologi MARA,Malaysia
+UNI_00627,National Autonomous University of Mexico,Mexico
+UNI_00628,Monterrey Institute of Technology and Higher Education,Mexico
+UNI_00629,National Polytechnic Institute,Mexico
+UNI_00630,University of Marrakech Cadi Ayyad,Morocco
+UNI_00631,Tilburg University,Netherlands
+UNI_00632,VU University Amsterdam,Netherlands
+UNI_00633,University of Twente,Netherlands
+UNI_00634,University of Groningen,Netherlands
+UNI_00635,University of Amsterdam,Netherlands
+UNI_00636,Leiden University,Netherlands
+UNI_00637,Eindhoven University of Technology,Netherlands
+UNI_00638,Radboud University Nijmegen,Netherlands
+UNI_00639,Utrecht University,Netherlands
+UNI_00640,Delft University of Technology,Netherlands
+UNI_00641,Wageningen University and Research Centre,Netherlands
+UNI_00642,Maastricht University,Netherlands
+UNI_00643,Erasmus University Rotterdam,Netherlands
+UNI_00644,Wageningen University and Research Center,Netherlands
+UNI_00645,Wageningen University & Research,Netherlands
+UNI_00646,University of Otago,New Zealand
+UNI_00647,University of Canterbury,New Zealand
+UNI_00648,University of Waikato,New Zealand
+UNI_00649,University of Auckland,New Zealand
+UNI_00650,Victoria University of Wellington,New Zealand
+UNI_00651,Massey University,New Zealand
+UNI_00652,Auckland University of Technology,New Zealand
+UNI_00653,University of Ibadan,Nigeria
+UNI_00654,UiT The Arctic University of Norway,Norway
+UNI_00655,University of Bergen,Norway
+UNI_00656,Norwegian University of Science and Technology,Norway
+UNI_00657,University of Oslo,Norway
+UNI_00658,Norwegian University of Life Sciences,Norway
+UNI_00659,University of Tromsø - The Arctic University of Norway,Norway
+UNI_00660,Sultan Qaboos University,Oman
+UNI_00661,Quaid-i-azam University,Pakistan
+UNI_00662,National University of Sciences and Technology,Pakistan
+UNI_00663,Adam Mickiewicz University in Poznań,Poland
+UNI_00664,Warsaw University of Technology,Poland
+UNI_00665,Jagiellonian University,Poland
+UNI_00666,AGH University of Science and Technology,Poland
+UNI_00667,Gdańsk University of Technology,Poland
+UNI_00668,University of Silesia,Poland
+UNI_00669,University of Silesia in Katowice,Poland
+UNI_00670,Adam Mickiewicz University,Poland
+UNI_00671,University of Wrocław,Poland
+UNI_00672,University of Warsaw,Poland
+UNI_00673,Nicolaus Copernicus University in Toruń,Poland
+UNI_00674,Wrocław University of Technology,Poland
+UNI_00675,University of Minho,Portugal
+UNI_00676,New University of Lisbon,Portugal
+UNI_00677,University of Lisbon,Portugal
+UNI_00678,University of Porto,Portugal
+UNI_00679,University of Coimbra,Portugal
+UNI_00680,Instituto Superior Técnico Lisboa,Portugal
+UNI_00681,Universidade Nova de Lisboa,Portugal
+UNI_00682,University of Aveiro,Portugal
+UNI_00683,University of the Algarve,Portugal
+UNI_00684,University of Puerto Rico at Mayagüez,Puerto Rico
+UNI_00685,Qatar University,Qatar
+UNI_00686,Dublin Institute of Technology,Republic of Ireland
+UNI_00687,West University of Timişoara,Romania
+UNI_00688,Alexandru Ioan Cuza University,Romania
+UNI_00689,Babeş-Bolyai University,Romania
+UNI_00690,University of Bucharest,Romania
+UNI_00691,Novosibirsk State University,Russia
+UNI_00692,Kazan Federal University,Russia
+UNI_00693,National University of Science and Technology (MISiS),Russia
+UNI_00694,Saint Petersburg State University,Russia
+UNI_00695,Tomsk Polytechnic University,Russia
+UNI_00696,Lomonosov Moscow State University,Russia
+UNI_00697,Moscow Institute of Physics and Technology,Russia
+UNI_00698,National Research Nuclear University MEPhI,Russia
+UNI_00699,Bauman Moscow State Technical University,Russia
+UNI_00700,Ural Federal University,Russia
+UNI_00701,Southern Federal University,Russia
+UNI_00702,Peter the Great St Petersburg Polytechnic University,Russia
+UNI_00703,Tomsk State University,Russia
+UNI_00704,King Abdullah University of Science and Technology,Saudi Arabia
+UNI_00705,King Abdulaziz University,Saudi Arabia
+UNI_00706,King Saud University,Saudi Arabia
+UNI_00707,King Fahd University of Petroleum and Minerals,Saudi Arabia
+UNI_00708,University of Belgrade,Serbia
+UNI_00709,"Nanyang Technological University, Singapore",Singapore
+UNI_00710,National University of Singapore,Singapore
+UNI_00711,Comenius University in Bratislava,Slovakia
+UNI_00712,Slovak University of Technology in Bratislava,Slovakia
+UNI_00713,University of Ljubljana,Slovenia
+UNI_00714,University of Maribor,Slovenia
+UNI_00715,University of KwaZulu-Natal,South Africa
+UNI_00716,University of Cape Town,South Africa
+UNI_00717,University of Pretoria,South Africa
+UNI_00718,University of the Witwatersrand,South Africa
+UNI_00719,University of South Africa,South Africa
+UNI_00720,Stellenbosch University,South Africa
+UNI_00721,Sejong University,South Korea
+UNI_00722,Sungkyunkwan University (SKKU),South Korea
+UNI_00723,Seoul National University,South Korea
+UNI_00724,Kyungpook National University,South Korea
+UNI_00725,Chungnam National University,South Korea
+UNI_00726,Korea Advanced Institute of Science and Technology (KAIST),South Korea
+UNI_00727,Inha University,South Korea
+UNI_00728,Yonsei University,South Korea
+UNI_00729,Sungkyunkwan University,South Korea
+UNI_00730,Hallym University,South Korea
+UNI_00731,Konkuk University,South Korea
+UNI_00732,Ajou University,South Korea
+UNI_00733,Ewha Womans University,South Korea
+UNI_00734,Dankook University,South Korea
+UNI_00735,Kyung Hee University,South Korea
+UNI_00736,Pusan National University,South Korea
+UNI_00737,Catholic University of Korea,South Korea
+UNI_00738,Hanyang University,South Korea
+UNI_00739,Sogang University,South Korea
+UNI_00740,Inje University,South Korea
+UNI_00741,Pohang University of Science and Technology,South Korea
+UNI_00742,Kangwon National University,South Korea
+UNI_00743,Korea University,South Korea
+UNI_00744,Chung-Ang University,South Korea
+UNI_00745,Gwangju Institute of Science and Technology,South Korea
+UNI_00746,Chungbuk National University,South Korea
+UNI_00747,Pukyong National University,South Korea
+UNI_00748,Ulsan National Institute of Science and Technology,South Korea
+UNI_00749,Chonbuk National University,South Korea
+UNI_00750,Yeungnam University,South Korea
+UNI_00751,University of Ulsan,South Korea
+UNI_00752,Dongguk University,South Korea
+UNI_00753,Chonnam National University,South Korea
+UNI_00754,Gachon University,South Korea
+UNI_00755,Gyeongsang National University,South Korea
+UNI_00756,University of Seoul,South Korea
+UNI_00757,Chosun University,South Korea
+UNI_00758,University of Rovira i Virgili,Spain
+UNI_00759,Autonomous University of Madrid,Spain
+UNI_00760,Pompeu Fabra University,Spain
+UNI_00761,University of Alcalá,Spain
+UNI_00762,University of Navarra,Spain
+UNI_00763,University of the Basque Country,Spain
+UNI_00764,Miguel Hernández University of Elche,Spain
+UNI_00765,University of Granada,Spain
+UNI_00766,Polytechnic University of Valencia,Spain
+UNI_00767,University of La Laguna,Spain
+UNI_00768,University of Seville,Spain
+UNI_00769,Carlos III University of Madrid,Spain
+UNI_00770,University of Valencia,Spain
+UNI_00771,University of Vigo,Spain
+UNI_00772,Polytechnic University of Catalonia,Spain
+UNI_00773,King Juan Carlos University,Spain
+UNI_00774,University of Santiago de Compostela,Spain
+UNI_00775,Public University of Navarre,Spain
+UNI_00776,University of Oviedo,Spain
+UNI_00777,University of Alicante,Spain
+UNI_00778,Jaume I University,Spain
+UNI_00779,University of Extremadura,Spain
+UNI_00780,University of Zaragoza,Spain
+UNI_00781,University of Murcia,Spain
+UNI_00782,University of Málaga,Spain
+UNI_00783,University of Girona,Spain
+UNI_00784,University of Jaén,Spain
+UNI_00785,University of Cantabria,Spain
+UNI_00786,University of Castilla–La Mancha,Spain
+UNI_00787,University of Barcelona,Spain
+UNI_00788,Technical University of Madrid,Spain
+UNI_00789,Autonomous University of Barcelona,Spain
+UNI_00790,University of Cádiz,Spain
+UNI_00791,University of Salamanca,Spain
+UNI_00792,Rovira i Virgili University,Spain
+UNI_00793,University of the Balearic Islands,Spain
+UNI_00794,University of Lleida,Spain
+UNI_00795,University of Córdoba (Spain),Spain
+UNI_00796,University of A Coruña,Spain
+UNI_00797,Complutense University of Madrid,Spain
+UNI_00798,University of Valladolid,Spain
+UNI_00799,University of Almería,Spain
+UNI_00800,University of Gothenburg,Sweden
+UNI_00801,Swedish University of Agricultural Sciences,Sweden
+UNI_00802,Chalmers University of Technology,Sweden
+UNI_00803,Umeå University,Sweden
+UNI_00804,Stockholm University,Sweden
+UNI_00805,Lund University,Sweden
+UNI_00806,Linköping University,Sweden
+UNI_00807,Karolinska Institute,Sweden
+UNI_00808,Royal Institute of Technology,Sweden
+UNI_00809,KTH Royal Institute of Technology,Sweden
+UNI_00810,Uppsala University,Sweden
+UNI_00811,Örebro University,Sweden
+UNI_00812,University of Basel,Switzerland
+UNI_00813,University of Lausanne,Switzerland
+UNI_00814,University of Geneva,Switzerland
+UNI_00815,University of Bern,Switzerland
+UNI_00816,Swiss Federal Institute of Technology in Lausanne,Switzerland
+UNI_00817,University of Zurich,Switzerland
+UNI_00818,University of St Gallen,Switzerland
+UNI_00819,ETH Zurich – Swiss Federal Institute of Technology Zurich,Switzerland
+UNI_00820,École Polytechnique Fédérale de Lausanne,Switzerland
+UNI_00821,University of Neuchâtel,Switzerland
+UNI_00822,Swiss Federal Institute of Technology in Zurich,Switzerland
+UNI_00823,University of Fribourg,Switzerland
+UNI_00824,ETH Zurich,Switzerland
+UNI_00825,National Central University,Taiwan
+UNI_00826,Fu Jen Catholic University,Taiwan
+UNI_00827,National Chengchi University,Taiwan
+UNI_00828,"China Medical University, Taiwan",Taiwan
+UNI_00829,National Tsing Hua University,Taiwan
+UNI_00830,National Chung Hsing University,Taiwan
+UNI_00831,Kaohsiung Medical University,Taiwan
+UNI_00832,Taipei Medical University,Taiwan
+UNI_00833,National Cheng Kung University,Taiwan
+UNI_00834,National Taiwan University of Science and Technology (Taiwan Tech),Taiwan
+UNI_00835,Chang Gung University,Taiwan
+UNI_00836,National Chung Cheng University,Taiwan
+UNI_00837,National Taipei University of Technology,Taiwan
+UNI_00838,National Chiao Tung University,Taiwan
+UNI_00839,National Taiwan Ocean University,Taiwan
+UNI_00840,National Sun Yat-sen University,Taiwan
+UNI_00841,Yuan Ze University,Taiwan
+UNI_00842,"Asia University, Taiwan",Taiwan
+UNI_00843,National Yang-Ming University,Taiwan
+UNI_00844,I-Shou University,Taiwan
+UNI_00845,National Taiwan University of Science and Technology,Taiwan
+UNI_00846,Feng Chia University,Taiwan
+UNI_00847,Chung Shan Medical University,Taiwan
+UNI_00848,National Dong Hwa University,Taiwan
+UNI_00849,Chung Yuan Christian University,Taiwan
+UNI_00850,Tamkang University,Taiwan
+UNI_00851,National Taiwan Normal University,Taiwan
+UNI_00852,National Taiwan University,Taiwan
+UNI_00853,Chiang Mai University,Thailand
+UNI_00854,Mahidol University,Thailand
+UNI_00855,King Mongkut’s University of Technology Thonburi,Thailand
+UNI_00856,Chulalongkorn University,Thailand
+UNI_00857,Khon Kaen University,Thailand
+UNI_00858,Prince of Songkla University,Thailand
+UNI_00859,Suranaree University of Technology,Thailand
+UNI_00860,Bilkent University,Turkey
+UNI_00861,Boğaziçi University,Turkey
+UNI_00862,Istanbul Technical University,Turkey
+UNI_00863,Gazi University,Turkey
+UNI_00864,Anadolu University,Turkey
+UNI_00865,Erciyes University,Turkey
+UNI_00866,Ege University,Turkey
+UNI_00867,Koç University,Turkey
+UNI_00868,Middle East Technical University,Turkey
+UNI_00869,Dokuz Eylül University,Turkey
+UNI_00870,Istanbul University,Turkey
+UNI_00871,Yıldız Technical University,Turkey
+UNI_00872,Ankara University,Turkey
+UNI_00873,Sabancı University,Turkey
+UNI_00874,Hacettepe University,Turkey
+UNI_00875,Makerere University,Uganda
+UNI_00876,V.N. Karazin Kharkiv National University,Ukraine
+UNI_00877,Taras Shevchenko National University of Kyiv,Ukraine
+UNI_00878,University of Hawai’i at Mānoa,United States
+UNI_00879,United Arab Emirates University,United Arab Emirates
+UNI_00880,American University of Sharjah,United Arab Emirates
+UNI_00881,Durham University,United Kingdom
+UNI_00882,University of Sussex,United Kingdom
+UNI_00883,London School of Economics,United Kingdom
+UNI_00884,London School of Economics and Political Science,United Kingdom
+UNI_00885,University of Portsmouth,United Kingdom
+UNI_00886,University of Oxford,United Kingdom
+UNI_00887,Oxford Brookes University,United Kingdom
+UNI_00888,University of Brighton,United Kingdom
+UNI_00889,University of Exeter,United Kingdom
+UNI_00890,University of Bristol,United Kingdom
+UNI_00891,University of Aberdeen,United Kingdom
+UNI_00892,University of Manchester,United Kingdom
+UNI_00893,London School of Hygiene & Tropical Medicine,United Kingdom
+UNI_00894,"Royal Holloway, University of London",United Kingdom
+UNI_00895,University of York,United Kingdom
+UNI_00896,Heriot-Watt University,United Kingdom
+UNI_00897,University of Hertfordshire,United Kingdom
+UNI_00898,University of Strathclyde,United Kingdom
+UNI_00899,University of Stirling,United Kingdom
+UNI_00900,Brunel University London,United Kingdom
+UNI_00901,University of Essex,United Kingdom
+UNI_00902,University of Southampton,United Kingdom
+UNI_00903,The Open University,United Kingdom
+UNI_00904,Queen’s University Belfast,United Kingdom
+UNI_00905,Sheffield Hallam University,United Kingdom
+UNI_00906,University of Reading,United Kingdom
+UNI_00907,Bangor University,United Kingdom
+UNI_00908,University of Bath,United Kingdom
+UNI_00909,King’s College London,United Kingdom
+UNI_00910,University of Cambridge,United Kingdom
+UNI_00911,University of Dundee,United Kingdom
+UNI_00912,University of Central Lancashire,United Kingdom
+UNI_00913,University of Leicester,United Kingdom
+UNI_00914,Cardiff University,United Kingdom
+UNI_00915,University College London,United Kingdom
+UNI_00916,University of Liverpool,United Kingdom
+UNI_00917,University of Leeds,United Kingdom
+UNI_00918,Aston University,United Kingdom
+UNI_00919,Loughborough University,United Kingdom
+UNI_00920,Liverpool John Moores University,United Kingdom
+UNI_00921,Manchester Metropolitan University,United Kingdom
+UNI_00922,University of Surrey,United Kingdom
+UNI_00923,University of the West of England,United Kingdom
+UNI_00924,Keele University,United Kingdom
+UNI_00925,Imperial College London,United Kingdom
+UNI_00926,University of Westminster,United Kingdom
+UNI_00927,University of Ulster,United Kingdom
+UNI_00928,University of Nottingham,United Kingdom
+UNI_00929,University of Sheffield,United Kingdom
+UNI_00930,University of Kent,United Kingdom
+UNI_00931,University of East Anglia,United Kingdom
+UNI_00932,University of Hull,United Kingdom
+UNI_00933,University of Bradford,United Kingdom
+UNI_00934,Aberystwyth University,United Kingdom
+UNI_00935,Coventry University,United Kingdom
+UNI_00936,Ulster University,United Kingdom
+UNI_00937,Open University (UK),United Kingdom
+UNI_00938,"Birkbeck, University of London",United Kingdom
+UNI_00939,University of Edinburgh,United Kingdom
+UNI_00940,"St George’s, University of London",United Kingdom
+UNI_00941,Newcastle University,United Kingdom
+UNI_00942,De Montfort University,United Kingdom
+UNI_00943,Plymouth University,United Kingdom
+UNI_00944,Queen Mary University of London,United Kingdom
+UNI_00945,Cranfield University,United Kingdom
+UNI_00946,University of Lincoln,United Kingdom
+UNI_00947,University of Glasgow,United Kingdom
+UNI_00948,Middlesex University,United Kingdom
+UNI_00949,Lancaster University,United Kingdom
+UNI_00950,Brunel University,United Kingdom
+UNI_00951,Swansea University,United Kingdom
+UNI_00952,Northumbria University,United Kingdom
+UNI_00953,University of Salford,United Kingdom
+UNI_00954,Nottingham Trent University,United Kingdom
+UNI_00955,University of Birmingham,United Kingdom
+UNI_00956,University of St Andrews,United Kingdom
+UNI_00957,Glasgow Caledonian University,United Kingdom
+UNI_00958,University of Greenwich,United Kingdom
+UNI_00959,University of Huddersfield,United Kingdom
+UNI_00960,University of Warwick,United Kingdom
+UNI_00961,Kingston University,United Kingdom
+UNI_00962,Royal Veterinary College,United Kingdom
+UNI_00963,City University London,United Kingdom
+UNI_00964,Bournemouth University,United Kingdom
+UNI_00965,UCL,United Kingdom
+UNI_00966,"University of Wales, Trinity Saint David",United Kingdom
+UNI_00967,"Royal Veterinary College, University of London",United Kingdom
+UNI_00968,University of North Carolina at Charlotte,United States
+UNI_00969,University of Alaska Fairbanks,United States
+UNI_00970,"University of California, Santa Barbara",United States
+UNI_00971,University of Oklahoma,United States
+UNI_00972,San Diego State University,United States
+UNI_00973,"University of California, Merced",United States
+UNI_00974,University of North Carolina at Chapel Hill,United States
+UNI_00975,Wright State University - Dayton,United States
+UNI_00976,The Catholic University of America,United States
+UNI_00977,Clarkson University,United States
+UNI_00978,Stony Brook University,United States
+UNI_00979,Montana State University,United States
+UNI_00980,Rochester Institute of Technology,United States
+UNI_00981,University of Texas at El Paso,United States
+UNI_00982,University of Washington,United States
+UNI_00983,North Dakota State University - Main Campus,United States
+UNI_00984,University of Utah,United States
+UNI_00985,Michigan Technological University,United States
+UNI_00986,Duke University,United States
+UNI_00987,Carnegie Mellon University,United States
+UNI_00988,New Mexico State University,United States
+UNI_00989,University of Pennsylvania,United States
+UNI_00990,"University of Maryland, Baltimore County",United States
+UNI_00991,University of South Alabama,United States
+UNI_00992,University of Medicine and Dentistry of New Jersey,United States
+UNI_00993,University of North Carolina at Greensboro,United States
+UNI_00994,Northwestern University,United States
+UNI_00995,San Francisco State University,United States
+UNI_00996,Georgia Institute of Technology,United States
+UNI_00997,University of Houston,United States
+UNI_00998,University of Nebraska-Lincoln,United States
+UNI_00999,Oklahoma State University,United States
+UNI_01000,Boston University,United States
+UNI_01001,North Carolina State University,United States
+UNI_01002,William & Mary,United States
+UNI_01003,University of Pittsburgh,United States
+UNI_01004,University of Notre Dame,United States
+UNI_01005,Creighton University,United States
+UNI_01006,Colorado State University,United States
+UNI_01007,University of Tulsa,United States
+UNI_01008,Kansas State University,United States
+UNI_01009,Florida Institute of Technology,United States
+UNI_01010,Emory University,United States
+UNI_01011,New York University,United States
+UNI_01012,University of Wisconsin,United States
+UNI_01013,Rice University,United States
+UNI_01014,University of Connecticut,United States
+UNI_01015,University of Wisconsin-Milwaukee,United States
+UNI_01016,Bowling Green State University,United States
+UNI_01017,"University of California, Irvine",United States
+UNI_01018,University of Idaho,United States
+UNI_01019,Vanderbilt University,United States
+UNI_01020,University of Massachusetts,United States
+UNI_01021,Brown University,United States
+UNI_01022,University of Minnesota,United States
+UNI_01023,Tufts University,United States
+UNI_01024,Old Dominion University,United States
+UNI_01025,New Jersey Institute of Technology,United States
+UNI_01026,University of Wyoming,United States
+UNI_01027,University of Oregon,United States
+UNI_01028,University of Toledo,United States
+UNI_01029,University of Texas at Arlington,United States
+UNI_01030,Portland State University,United States
+UNI_01031,University of Southern California,United States
+UNI_01032,"University of California, San Diego",United States
+UNI_01033,Temple University,United States
+UNI_01034,Southern Methodist University,United States
+UNI_01035,University of Virginia,United States
+UNI_01036,State University of New York Albany,United States
+UNI_01037,University of Illinois at Urbana-Champaign,United States
+UNI_01038,University of Vermont,United States
+UNI_01039,Washington University in St Louis,United States
+UNI_01040,Yeshiva University,United States
+UNI_01041,Washington State University,United States
+UNI_01042,"University of California, Santa Cruz",United States
+UNI_01043,University of Southern Mississippi,United States
+UNI_01044,Auburn University,United States
+UNI_01045,University of South Carolina,United States
+UNI_01046,University of Georgia,United States
+UNI_01047,Clemson University,United States
+UNI_01048,University of Massachusetts Boston,United States
+UNI_01049,University of Montana,United States
+UNI_01050,University of Colorado Boulder,United States
+UNI_01051,Oregon State University,United States
+UNI_01052,Georgia State University,United States
+UNI_01053,Texas Tech University,United States
+UNI_01054,Ohio State University,United States
+UNI_01055,Case Western Reserve University,United States
+UNI_01056,University of South Florida,United States
+UNI_01057,Columbia University,United States
+UNI_01058,University of Chicago,United States
+UNI_01059,Drexel University,United States
+UNI_01060,University of Memphis,United States
+UNI_01061,Northern Arizona University,United States
+UNI_01062,Indiana University,United States
+UNI_01063,Iowa State University,United States
+UNI_01064,American University,United States
+UNI_01065,Harvard University,United States
+UNI_01066,Pennsylvania State University,United States
+UNI_01067,University of South Dakota,United States
+UNI_01068,Colorado School of Mines,United States
+UNI_01069,University of Massachusetts Lowell,United States
+UNI_01070,"Binghamton University, State University of New York",United States
+UNI_01071,Medical College of Wisconsin,United States
+UNI_01072,Purdue University,United States
+UNI_01073,George Mason University,United States
+UNI_01074,"Rutgers, the State University of New Jersey",United States
+UNI_01075,Rensselaer Polytechnic Institute,United States
+UNI_01076,California Institute of Technology,United States
+UNI_01077,Brandeis University,United States
+UNI_01078,Georgia Health Sciences University,United States
+UNI_01079,University of Florida,United States
+UNI_01080,Massachusetts Institute of Technology,United States
+UNI_01081,Stanford University,United States
+UNI_01082,"University of Tennessee, Knoxville",United States
+UNI_01083,University of Arkansas,United States
+UNI_01084,Virginia Polytechnic Institute and State University,United States
+UNI_01085,University of San Francisco,United States
+UNI_01086,Wayne State University,United States
+UNI_01087,University of Wisconsin-Madison,United States
+UNI_01088,Michigan State University,United States
+UNI_01089,University of Miami,United States
+UNI_01090,University of Mississippi Medical Center,United States
+UNI_01091,University of Iowa,United States
+UNI_01092,"University of California, Davis",United States
+UNI_01093,Miami University,United States
+UNI_01094,East Carolina University,United States
+UNI_01095,University of Alabama in Huntsville,United States
+UNI_01096,Texas A&M University,United States
+UNI_01097,University of Kansas,United States
+UNI_01098,Medical University of South Carolina,United States
+UNI_01099,University of Kentucky,United States
+UNI_01100,"Queens College, City University of New York",United States
+UNI_01101,Howard University,United States
+UNI_01102,Florida International University,United States
+UNI_01103,University of Missouri–St. Louis,United States
+UNI_01104,University of Texas at San Antonio,United States
+UNI_01105,University of Texas at Austin,United States
+UNI_01106,"University of California, Riverside",United States
+UNI_01107,Louisiana State University,United States
+UNI_01108,Missouri University of Science and Technology,United States
+UNI_01109,Saint Louis University,United States
+UNI_01110,Northeastern University,United States
+UNI_01111,Yale University,United States
+UNI_01112,"Rutgers, The State University of New Jersey - Newark",United States
+UNI_01113,"University of California, Berkeley",United States
+UNI_01114,University of North Dakota,United States
+UNI_01115,Princeton University,United States
+UNI_01116,"University of California, Los Angeles",United States
+UNI_01117,Illinois Institute of Technology,United States
+UNI_01118,University of Texas at Dallas,United States
+UNI_01119,"University of North Texas, Denton",United States
+UNI_01120,University of New Mexico,United States
+UNI_01121,Johns Hopkins University,United States
+UNI_01122,Cornell University,United States
+UNI_01123,University of Arizona,United States
+UNI_01124,Florida Atlantic University,United States
+UNI_01125,George Washington University,United States
+UNI_01126,University of Missouri,United States
+UNI_01127,Hunter College,United States
+UNI_01128,Wake Forest University,United States
+UNI_01129,Syracuse University,United States
+UNI_01130,University of Michigan,United States
+UNI_01131,Georgetown University,United States
+UNI_01132,University of Cincinnati,United States
+UNI_01133,Marquette University,United States
+UNI_01134,"California State University, Long Beach",United States
+UNI_01135,Boston College,United States
+UNI_01136,"University of Maryland, College Park",United States
+UNI_01137,University of Delaware,United States
+UNI_01138,University of Rochester,United States
+UNI_01139,Tulane University,United States
+UNI_01140,Oregon Health and Science University,United States
+UNI_01141,Florida State University,United States
+UNI_01142,University of Michigan-Ann Arbor,United States
+UNI_01143,Lehigh University,United States
+UNI_01144,Rush University,United States
+UNI_01145,Oakland University,United States
+UNI_01146,University of Illinois at Chicago,United States
+UNI_01147,Arizona State University,United States
+UNI_01148,Ohio University,United States
+UNI_01149,Kent State University,United States
+UNI_01150,University at Buffalo,United States
+UNI_01151,University of Nebraska Medical Center,United States
+UNI_01152,Dartmouth College,United States
+UNI_01153,"University of Maine, Orono",United States
+UNI_01154,Western Michigan University,United States
+UNI_01155,"Pennsylvania State University, University Park",United States
+UNI_01156,"University of Minnesota, Twin Cities",United States
+UNI_01157,"Ohio State University, Columbus",United States
+UNI_01158,Rutgers University-New Brunswick,United States
+UNI_01159,University of Pittsburgh - Pittsburgh Campus,United States
+UNI_01160,"Purdue University, West Lafayette",United States
+UNI_01161,"University of California, San Francisco",United States
+UNI_01162,Rockefeller University,United States
+UNI_01163,University of Washington - Seattle,United States
+UNI_01164,"University of Nevada, Reno",United States
+UNI_01165,University of Hawaii at Manoa,United States
+UNI_01166,University of Nebraska Omaha,United States
+UNI_01167,Loyola University Chicago,United States
+UNI_01168,Baylor University,United States
+UNI_01169,Texas Tech University (TTU),United States
+UNI_01170,University of Akron,United States
+UNI_01171,University of Denver,United States
+UNI_01172,University of Arkansas - Fayetteville,United States
+UNI_01173,University of Arkansas for Medical Sciences,United States
+UNI_01174,University of Mississippi - Oxford Campus,United States
+UNI_01175,College of William and Mary,United States
+UNI_01176,Oklahoma State University–Stillwater,United States
+UNI_01177,"University at Albany, SUNY",United States
+UNI_01178,University of Alabama - Tuscaloosa,United States
+UNI_01179,University of Texas Medical Branch at Galveston,United States
+UNI_01180,University of Central Florida,United States
+UNI_01181,University of New Hampshire,United States
+UNI_01182,Brigham Young University,United States
+UNI_01183,Georgia Regents University,United States
+UNI_01184,West Virginia University,United States
+UNI_01185,Mississippi State University,United States
+UNI_01186,Louisiana Tech University,United States
+UNI_01187,State University of New York Upstate Medical University,United States
+UNI_01188,University of Rhode Island,United States
+UNI_01189,Loma Linda University,United States
+UNI_01190,"University of Nevada, Las Vegas",United States
+UNI_01191,Texas A&M Health Science Center,United States
+UNI_01192,New York Medical College,United States
+UNI_01193,SUNY Downstate Medical Center,United States
+UNI_01194,Utah State University,United States
+UNI_01195,University of Dayton,United States
+UNI_01196,Montana State University - Bozeman,United States
+UNI_01197,University of Missouri–Kansas City,United States
+UNI_01198,LSU Health Sciences Center New Orleans,United States
+UNI_01199,Southern Illinois University Carbondale,United States
+UNI_01200,Northern Illinois University,United States
+UNI_01201,University of Montana - Missoula,United States
+UNI_01202,Binghamton University,United States
+UNI_01203,University of New Orleans,United States
+UNI_01204,Albany Medical College,United States
+UNI_01205,University of Texas Southwestern Medical Center,United States
+UNI_01206,University of Oklahoma Health Sciences Center,United States
+UNI_01207,University of Oklahoma - Norman Campus,United States
+UNI_01208,Wesleyan University,United States
+UNI_01209,"Washington State University, Pullman",United States
+UNI_01210,Louisiana State University - Baton Rouge,United States
+UNI_01211,Icahn School of Medicine at Mount Sinai,United States
+UNI_01212,University of Alabama at Birmingham,United States
+UNI_01213,Oregon Health & Science University,United States
+UNI_01214,"University of Maryland, Baltimore",United States
+UNI_01215,University of Massachusetts Medical School,United States
+UNI_01216,Indiana University-Purdue University Indianapolis,United States
+UNI_01217,University of Colorado Denver,United States
+UNI_01218,University of Texas MD Anderson Cancer Center,United States
+UNI_01219,"Texas A&M University, College Station",United States
+UNI_01220,Indiana University - Bloomington,United States
+UNI_01221,Baylor College of Medicine,United States
+UNI_01222,University of South Florida - Tampa,United States
+UNI_01223,University of Missouri–Columbia,United States
+UNI_01224,Colorado State University - Fort Collins,United States
+UNI_01225,"University at Buffalo, The State University of New York",United States
+UNI_01226,City College of New York,United States
+UNI_01227,University of Louisville,United States
+UNI_01228,University of South Carolina - Columbia,United States
+UNI_01229,Virginia Commonwealth University,United States
+UNI_01230,University of Massachusetts Amherst,United States
+UNI_01231,University of Texas Health Science Center at San Antonio,United States
+UNI_01232,University of Texas Health Science Center at Houston,United States
+UNI_01233,Thomas Jefferson University,United States
+UNI_01234,Williams College,United States
+UNI_01235,University of the Republic (Uruguay),Uruguay
+UNI_01236,Massachusetts Institute of Technology (MIT),
+UNI_01237,"The Imperial College of Science, Technology and Medicine",
+UNI_01238,Swiss Federal Institute of Technology Zurich,
+UNI_01239,University of Colorado at Boulder,
+UNI_01240,The University of Texas Southwestern Medical Center at Dallas,
+UNI_01241,"Rutgers, The State University of New Jersey - New Brunswick",
+UNI_01242,Pierre and Marie Curie University - Paris 6,
+UNI_01243,University of Munich,
+UNI_01244,Technical University Munich,
+UNI_01245,University of Paris Sud (Paris 11),
+UNI_01246,Moscow State University,
+UNI_01247,University of Heidelberg,
+UNI_01248,University of Goettingen,
+UNI_01249,Ecole Normale Superieure - Paris,
+UNI_01250,University of Roma - La Sapienza,
+UNI_01251,Arizona State University - Tempe,
+UNI_01252,Catholic University of Leuven,
+UNI_01253,Catholic University of Louvain,
+UNI_01254,College of France,
+UNI_01255,Mayo Medical School,
+UNI_01256,North Carolina State University - Raleigh,
+UNI_01257,State University of New York at Stony Brook,
+UNI_01258,University Libre Bruxelles,
+UNI_01259,University of Frankfurt,
+UNI_01260,University of Muenster,
+UNI_01261,University of Sao Paulo,
+UNI_01262,University of Tuebingen,
+UNI_01263,University of Wuerzburg,
+UNI_01264,Erasmus University,
+UNI_01265,Joseph Fourier University (Grenoble 1),
+UNI_01266,Mount Sinai School of Medicine,
+UNI_01267,Swiss Federal Institute of Technology of Lausanne,
+UNI_01268,The University of Connecticut - Storrs,
+UNI_01269,University of Koeln,
+UNI_01270,University of Leipzig,
+UNI_01271,University of Mainz,
+UNI_01272,University of Paris Descartes (Paris 5),
+UNI_01273,University of Paris Diderot (Paris 7),
+UNI_01274,University of Wageningen,
+UNI_01275,Ecole Polytechnique,
+UNI_01276,Paul Sabatier University (Toulouse 3),
+UNI_01277,"Queen Mary, U. of London",
+UNI_01278,State University of New York at Albany,
+UNI_01279,State University of New York at Buffalo,
+UNI_01280,The University of New Mexico - Albuquerque,
+UNI_01281,Umea University,
+UNI_01282,University of Bochum,
+UNI_01283,University of Bordeaux 1,
+UNI_01284,University of Colorado Health Science Center,
+UNI_01285,University of Durham,
+UNI_01286,University of Genova,
+UNI_01287,University of Halle-Wittenberg,
+UNI_01288,University of Kansas - Lawrence,
+UNI_01289,University of Karlsruhe,
+UNI_01290,University of Liege,
+UNI_01291,University of Massachusetts Medical School - Worcester,
+UNI_01292,University of Medicine and Dentistry New Jersey,
+UNI_01293,Western University,
+UNI_01294,City University of New York City College,
+UNI_01295,Technical University Darmstadt,
+UNI_01296,Ecole National Superieure Mines - Paris,
+UNI_01297,Ecole Normale Superieure - Lyon,
+UNI_01298,Eotvos Lorand University,
+UNI_01299,Henri Poincare University (Nancy 1),
+UNI_01300,Indiana University-Purdue University at Indianapolis,
+UNI_01301,Industrial Physics and Chemistry Higher Educational Institution - Paris,
+UNI_01302,Korea Advanced Institute of Science and Technology,
+UNI_01303,Linkoping University,
+UNI_01304,London School of Hygiene and Tropical Medicine,
+UNI_01305,Polytechnic Institute of Milan,
+UNI_01306,"Royal Holloway, U. of London",
+UNI_01307,Scuola Normale Superiore - Pisa,
+UNI_01308,State University of New York Health Science Center at Brooklyn,
+UNI_01309,Stockholm School of Economics,
+UNI_01310,Technical University of Braunschweig,
+UNI_01311,University of Bielefeld,
+UNI_01312,University of Duesseldorf,
+UNI_01313,University of New Hampshire - Durham,
+UNI_01314,University of Oklahoma - Norman,
+UNI_01315,University of Paris Dauphine (Paris 9),
+UNI_01316,University of Roma - Tor Vergata,
+UNI_01317,University of the Mediterranean (Aix-Marseille 2),
+UNI_01318,Medical College of Georgia,
+UNI_01319,Medical University of Innsbruck,
+UNI_01320,Sao Paulo State University,
+UNI_01321,Swansea Univ,
+UNI_01322,The Royal Veterinary and Agricultural University,
+UNI_01323,The University of Connecticut Health Center,
+UNI_01324,University of Bari,
+UNI_01325,University of Giessen,
+UNI_01326,University of Jyvaskyla,
+UNI_01327,University of Maastricht,
+UNI_01328,University of Maine,
+UNI_01329,University of Mississippi,
+UNI_01330,University of Provence (Aix-Marseille 1),
+UNI_01331,University of Quebec,
+UNI_01332,University of Sevilla,
+UNI_01333,University of Tennessee Health Science Center,
+UNI_01334,University of Tromso,
+UNI_01335,University of Wroclaw,
+UNI_01336,Victor Segalen Bordeaux 2 University,
+UNI_01337,Vrije University Brussel,
+UNI_01338,University of Arkansas at Fayetteville,
+UNI_01339,Louisiana State University Health Sciences Center,
+UNI_01340,University of Arkansas at Little Rock,
+UNI_01341,University of New England,
+UNI_01342,Catholic University of Chile,
+UNI_01343,University of Hannover,
+UNI_01344,University of Kansas Medical Center,
+UNI_01345,University of Lille 1,
+UNI_01346,University of Colorado at Denver,
+UNI_01347,University of Dortmund,
+UNI_01348,Curtin University of Technology,
+UNI_01349,University of Pompeu Fabra,
+UNI_01350,University of Santiago Compostela,
+UNI_01351,King Fahd University of Petroleum & Minerals,
+UNI_01352,University of Versailles,
+UNI_01353,Karlsruhe Institute of Technology (KIT),
+UNI_01354,Beijing University of Aeronautics and Astronautics,
+UNI_01355,Federal University of Sao Paulo,
+UNI_01356,Swiss Federal Institute of Technology Lausanne,
+UNI_01357,University Paris Diderot - Paris 7,
+UNI_01358,Norwegian University of Science and Technology - NTNU,
+UNI_01359,ESPCI ParisTech,
+UNI_01360,SUNY at Albany,
+UNI_01361,UNESP,
+UNI_01362,Capital University of Medical Sciences,
+UNI_01363,University of Auvergne,
+UNI_01364,Université libre de Bruxelles (ULB),
+UNI_01365,Vrije Universiteit Brussel (VUB),
+UNI_01366,Toulouse School of Economics,
+UNI_01367,China Medical University,
+UNI_01368,Paris Dauphine University (Paris 9),
+UNI_01369,"The University of Newcastle, Australia",
+UNI_01370,University at Albany (State University of New York),
+UNI_01371,Universität Heidelberg,
+UNI_01372,UNSW Sydney,
+UNI_01373,Yonsei University (Seoul campus),
