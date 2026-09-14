@@ -228,28 +228,65 @@ Dashboard actions link the charts together: selecting a university row filters o
 
 ## 8. Repository Structure
 
+The repository is organized by milestone, each with its own Deliverables folder, plus one shared folder holding the final dimension and fact tables used by the Tableau workbook.
+
 ```
-/scripts    Python data collection, cleaning, and KPI engineering scripts
-/data       Raw, cleaned, Six KPIs, and University Final Dataset files
-/dashboard  The final packaged Tableau workbook (.twbx)
-/docs       Final Documentation, QA Checklist, and Dashboard Testing Report
+Higher-Education-Intelligence-System.../
+|-- README.md
+|-- LICENSE
+|-- .gitignore
+|
+|-- Dim_&_Fact_Datasets/                 Final dimension and fact tables (Tableau data source)
+|   |-- 01_University_Overview/          dim_country.xlsx, dim_university.xlsx, fact_university_overview.xlsx
+|   |-- 02_Research_Analytics/           dim_university.xlsx, fact_research_analytics.xlsx
+|   |-- 03_Student_Analytics/            dim_university.xlsx, fact_student_analytics.xlsx
+|   |-- 04_Country_Comparison/           dim_country.xlsx, dim_indicator.xlsx, fact_country_indicators.xlsx
+|   |-- split_qa_log.txt                 QA log from splitting the master pipeline output into dim/fact tables
+|
+|-- Milestone 01/                        Data Collection and Preparation
+|   |-- Script/                          data_collection.py, Executed Script/ (Colab notebook run as PDF)
+|   |-- Raw Datasets/                    01 to 04, one folder per dataset, source files as downloaded
+|   |-- Deliverables/
+|       |-- Module 1/                    data_collection.py, university_raw_data.csv/ (6 source files)
+|       |-- Module 2/                    script/education_cleaning.ipynb, university_cleaned.csv/ (4 cleaned files)
+|
+|-- Milestone 02/                        KPI Engineering and Dashboard Planning
+|   |-- KPIs Dataset/                    Six KPIs.xlsx
+|   |-- Deliverables/
+|       |-- Module 3/                    university_final_dataset.py, university_final_dataset.xlsx
+|       |-- Module 4/                    dashboard_storyboard.pdf, eduvision_prototype.mp4, eduvision_prototype.twbx
+|
+|-- Milestone 03/                        Dashboard Development
+|   |-- Deliverables/
+|       |-- Module 5/                    Tableau Dashboard Development.pdf, QS and THE Visualisation.pdf, eduvision_dashboard_v1.twbx
+|       |-- Module 6/                    EduVision DV.twbx, Sample.png
+|
+|-- Milestone 04/                        Testing and Delivery
+    |-- Deliverables/
+        |-- Module 7/                    Dashboard Testing Report.pdf, QA Checklist.pdf
+        |-- Module 8/                    EduVision DV.twbx, Final Documentation.pdf, GitHub Repository.md, Tableau Public.md
 ```
 
-| Folder | Key Files |
+| Location | What It Holds |
 |---|---|
-| **/scripts** | **data_collection.py**, **education_cleaning.ipynb**, **generate_education_kpis.py** |
-| **/data** | **university_raw_data.csv**, **university_cleaned.csv**, **Six KPIs.xlsx**, **University Final Dataset.xlsx** |
-| **/dashboard** | **EduVision_DV.twbx** |
-| **/docs** | **EduVision_DV_Final_Documentation.docx**, **EduVision_DV_QA_Checklist.docx**, **EduVision_DV_Dashboard_Testing_Report.docx** |
+| **Dim_&_Fact_Datasets/** | The final, cleaned dimension and fact tables, split by dashboard area, that the Tableau workbook connects to |
+| **Milestone 01/** | Raw data collection and cleaning: the collection script, the raw source files, and the cleaned output |
+| **Milestone 02/** | KPI engineering and the first clickable prototype: the Six KPIs dataset, the final dataset script, and the storyboard/prototype workbook |
+| **Milestone 03/** | Full dashboard build: the working workbook and supporting visualisation reference material |
+| **Milestone 04/** | Testing and final delivery: the QA Checklist, the Dashboard Testing Report, the Final Documentation, and the finished workbook, plus links to the GitHub repository and the published Tableau Public view |
+
+The final, presentation ready workbook is **Milestone 04/Deliverables/Module 8/EduVision DV.twbx**. Earlier **.twbx** files inside Milestone 02 and Milestone 03 are working prototypes kept for traceability, not the current version.
 
 ---
 
 ## 9. Getting Started
 
 1. Clone this repository.
-2. Open **dashboard/EduVision_DV.twbx** in Tableau Desktop (2021.1 or later recommended).
-3. Read **docs/EduVision_DV_Final_Documentation.docx** for a full guide to every dashboard and KPI.
-4. To re-run the pipeline yourself: run **scripts/data_collection.py**, then **scripts/education_cleaning.ipynb**, then **scripts/generate_education_kpis.py** in that order. The script will reproduce the exact row counts documented in Section 3.
+2. Open **Milestone 04/Deliverables/Module 8/EduVision DV.twbx** in Tableau Desktop (2021.1 or later recommended). This is the final workbook.
+3. Read **Milestone 04/Deliverables/Module 8/Final Documentation.pdf** for a full guide to every dashboard and KPI.
+4. To review testing results, see **Milestone 04/Deliverables/Module 7/QA Checklist.pdf** and **Dashboard Testing Report.pdf** in the same folder.
+5. To re-run the pipeline yourself: run **Milestone 01/Script/data_collection.py**, then **Milestone 01/Deliverables/Module 2/script/education_cleaning.ipynb**, then **Milestone 02/Deliverables/Module 3/university_final_dataset.py** in that order. This reproduces the exact row counts documented in Section 3 and writes the tables found in **Dim_&_Fact_Datasets/**.
+6. The published, browser viewable version of the dashboard is linked from **Milestone 04/Deliverables/Module 8/Tableau Public.md**.
 
 ---
 
@@ -268,10 +305,10 @@ Dashboard actions link the charts together: selecting a university row filters o
 
 ## 11. Testing and Quality Assurance
 
-- 20 dashboard interaction test cases executed across all 5 dashboards, all passed. Full log in **docs/EduVision_DV_Dashboard_Testing_Report.docx**.
+- 20 dashboard interaction test cases executed across all 5 dashboards, all passed. Full log in **Milestone 04/Deliverables/Module 7/Dashboard Testing Report.pdf**.
 - 1 defect found and resolved during testing: the EduVision DV home dashboard was rendering overlapping charts from multiple dashboards at once due to floating zones with no working visibility rule. Root cause, fix, and retest are documented in the Testing Report.
 - Referential integrity validated at every pipeline step: 0 invalid **university_id** values, 0 invalid **country_id** values, 0 duplicate rows, 0 fabricated values used to fill missing data.
-- Full checklist in **docs/EduVision_DV_QA_Checklist.docx**.
+- Full checklist in **Milestone 04/Deliverables/Module 7/QA Checklist.pdf**.
 
 ---
 
