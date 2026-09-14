@@ -4,6 +4,10 @@ A higher education analytics project that turns four public ranking and educatio
 
 ---
 
+![University Overview dashboard](Assets/UNIVERSITY_OVERVIEW.png)
+
+---
+
 ## Table of Contents
 
 1. [Project Overview](#1-project-overview)
@@ -207,6 +211,28 @@ KPIs are calculated in Python (pandas and numpy) during Steps 3 to 5 of the pipe
 | 5 | Country Comparison | Country level education indicators over time | Country Comparison (33,450 rows) |
 
 Because University Overview reads from the full 1,503 row master table while Research Analytics reads from the narrower 918 row KPI dataset, it is expected and correct that University Overview can show more universities than Research Analytics for the same filter selection. This is documented behavior, not a data error, see Section 12.
+
+### 6.1 Dashboard Screenshots
+
+**University Overview**
+
+![University Overview dashboard](Assets/UNIVERSITY_OVERVIEW.png)
+
+**Research Analytics**
+
+![Research Analytics dashboard](Assets/RESEARCH_ANALYTICS.png)
+
+**Student Analytics**
+
+![Student Analytics dashboard](Assets/STUDENT_ANALYTICS.png)
+
+**Country Comparison**
+
+![Country Comparison dashboard](Assets/COUNTRY_COMPARISON.png)
+
+**Info / About**
+
+![Info page](Assets/INFO.png)
 
 ---
 
