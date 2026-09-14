@@ -1,0 +1,21 @@
+university_id,university_name,country_name,the_rank_2023,the_rank_2024,the_rank_2023_numeric,the_rank_2024_numeric,rank_change,absolute_rank_change,rank_status
+U0154,texas a&m university,United States,181.0,118.0,181.0,118.0,63.0,63.0,Improved
+U1534,Purdue University West Lafayette,United States,127.0,86.0,127.0,86.0,41.0,41.0,Improved
+U0109,technical university of denmark,Denmark,166.0,126.0,166.0,126.0,40.0,40.0,Improved
+U0073,université paris-saclay,France,93.0,58.0,93.0,58.0,35.0,35.0,Improved
+U1544,Penn State (Main campus),United States,151.0,122.0,151.0,122.0,29.0,29.0,Improved
+U1547,Trinity College Dublin,Ireland,161.0,134.0,161.0,134.0,27.0,27.0,Improved
+U0089,durham university,United Kingdom,198.0,174.0,198.0,174.0,24.0,24.0,Improved
+U0046,institut polytechnique de paris,France,95.0,71.0,95.0,71.0,24.0,24.0,Improved
+U0145,nanjing university,China (Mainland),95.0,73.0,95.0,73.0,22.0,22.0,Improved
+U0049,delft university of technology,Netherlands,70.0,48.0,70.0,48.0,22.0,22.0,Improved
+U0238,university of rochester,United States,154.0,133.0,154.0,133.0,21.0,21.0,Improved
+U0216,university of florida,United States,151.0,132.0,151.0,132.0,19.0,19.0,Improved
+U0116,university of wisconsin-madison,United States,81.0,63.0,81.0,63.0,18.0,18.0,Improved
+U0062,city university of hong kong,Hong Kong SAR,99.0,82.0,99.0,82.0,17.0,17.0,Improved
+U0135,university of science and technology of china,China (Mainland),74.0,57.0,74.0,57.0,17.0,17.0,Improved
+U1533,University of Minnesota,United States,101.0,85.0,101.0,85.0,16.0,16.0,Improved
+U0064,sorbonne university,France,90.0,75.0,90.0,75.0,15.0,15.0,Improved
+U0098,pohang university of science and technology (postech),South Korea,163.0,149.0,163.0,149.0,14.0,14.0,Improved
+U0033,the university of tokyo,Japan,39.0,29.0,39.0,29.0,10.0,10.0,Improved
+U1541,University of Sheffield,United Kingdom,114.0,105.0,114.0,105.0,9.0,9.0,Improved

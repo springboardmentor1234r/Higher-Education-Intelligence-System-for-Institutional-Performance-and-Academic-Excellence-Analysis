@@ -1,0 +1,9 @@
+indicator,correlation_with_overall_score,valid_observations
+qs_academic_reputation_score,0.9014597054387841,600
+qs_employer_reputation_score,0.7772201695391768,600
+qs_employment_outcomes_score,0.6299946555184969,600
+qs_sustainability_score,0.5757150039157046,600
+qs_citations_per_faculty_score,0.4759578694130681,600
+qs_international_students_score,0.40448836909515146,598
+qs_international_faculty_score,0.35114445861048926,593
+qs_faculty_student_score,0.33286555690195746,600

@@ -1,0 +1,3531 @@
+university_id,university_name,the_rank_2023,the_rank_2023_numeric,the_2023_rank_type
+U0067,korea university,201.0,201.0,Banded
+U0104,university of st andrews,201.0,201.0,Banded
+U0107,tohoku university,201.0,201.0,Banded
+U0113,aalto university,201.0,201.0,Banded
+U0115,university of waterloo,201.0,201.0,Banded
+U0121,western university,201.0,201.0,Banded
+U0122,qatar university,201.0,201.0,Banded
+U0127,university college dublin,201.0,201.0,Banded
+U0132,sapienza university of rome,201.0,201.0,Banded
+U0136,eindhoven university of technology,201.0,201.0,Banded
+U0155,university of geneva,201.0,201.0,Banded
+U0168,university of wollongong,201.0,201.0,Banded
+U0174,curtin university,201.0,201.0,Banded
+U0194,university of gothenburg,201.0,201.0,Banded
+U0199,university of calgary,201.0,201.0,Banded
+U0209,tel aviv university,201.0,201.0,Banded
+U0245,university of macau,201.0,201.0,Banded
+U0247,university of sussex,201.0,201.0,Banded
+U0290,university of surrey,201.0,201.0,Banded
+U0292,university of bergen,201.0,201.0,Banded
+U0318,university of notre dame,201.0,201.0,Banded
+U0357,university of luxembourg,201.0,201.0,Banded
+U0358,university of tartu,201.0,201.0,Banded
+U0371,george washington university,201.0,201.0,Banded
+U0384,western sydney university,201.0,201.0,Banded
+U0418,university of dundee,201.0,201.0,Banded
+U0464,macau university of science and technology,201.0,201.0,Banded
+U0611,university of hohenheim,201.0,201.0,Banded
+U0631,university of south florida,201.0,201.0,Banded
+U1017,bielefeld university,201.0,201.0,Banded
+U1571,Queensland University of Technology,201.0,201.0,Banded
+U1577,King Fahd University of Petroleum and Minerals,201.0,201.0,Banded
+U1578,Université Libre de Bruxelles,201.0,201.0,Banded
+U1582,University of Newcastle,201.0,201.0,Banded
+U1584,University of Padua,201.0,201.0,Banded
+U1586,University of Potsdam,201.0,201.0,Banded
+U1588,Rutgers University – New Brunswick,201.0,201.0,Banded
+U1589,Sant’Anna School of Advanced Studies – Pisa,201.0,201.0,Banded
+U1590,University of São Paulo,201.0,201.0,Banded
+U1592,Vrije Universiteit Brussel,201.0,201.0,Banded
+U1593,University of East Anglia,201.0,201.0,Banded
+U1595,Humanitas University,201.0,201.0,Banded
+U1599,University of Konstanz,201.0,201.0,Banded
+U1601,Medical University of Innsbruck,201.0,201.0,Banded
+U1603,RCSI University of Medicine and Health Sciences,201.0,201.0,Banded
+U1605,Semmelweis University,201.0,201.0,Banded
+U1609,Università della Svizzera italiana,201.0,201.0,Banded
+U1611,Vita-Salute San Raffaele University,201.0,201.0,Banded
+U1628,"St George’s, University of London",201.0,201.0,Banded
+U0086,osaka university,251.0,251.0,Banded
+U0139,chalmers university of technology,251.0,251.0,Banded
+U0151,university of bath,251.0,251.0,Banded
+U0192,tongji university,251.0,251.0,Banded
+U0197,deakin university,251.0,251.0,Banded
+U0201,king saud university,251.0,251.0,Banded
+U0211,indian institute of science,251.0,251.0,Banded
+U0217,la trobe university,251.0,251.0,Banded
+U0233,university of twente,251.0,251.0,Banded
+U0249,university of navarra,251.0,251.0,Banded
+U0255,griffith university,251.0,251.0,Banded
+U0271,beijing normal university,251.0,251.0,Banded
+U0296,stellenbosch university,251.0,251.0,Banded
+U0299,swansea university,251.0,251.0,Banded
+U0304,linköping university,251.0,251.0,Banded
+U0306,aalborg university,251.0,251.0,Banded
+U0319,simon fraser university,251.0,251.0,Banded
+U0328,kyung hee university,251.0,251.0,Banded
+U0331,sun yat-sen university,251.0,251.0,Banded
+U0347,tilburg university,251.0,251.0,Banded
+U0391,virginia polytechnic institute and state university,251.0,251.0,Banded
+U0398,sejong university,251.0,251.0,Banded
+U0404,university of canberra,251.0,251.0,Banded
+U0424,université laval,251.0,251.0,Banded
+U0477,university of sharjah,251.0,251.0,Banded
+U0500,"university of california, riverside",251.0,251.0,Banded
+U0534,university of utah,251.0,251.0,Banded
+U0552,united arab emirates university,251.0,251.0,Banded
+U0587,bond university,251.0,251.0,Banded
+U0635,boston college,251.0,251.0,Banded
+U0772,bournemouth university,251.0,251.0,Banded
+U0902,australian catholic university,251.0,251.0,Banded
+U1574,Goethe University Frankfurt,251.0,251.0,Banded
+U1575,University of Hawai’i at Mānoa,251.0,251.0,Banded
+U1576,University of Illinois Chicago,251.0,251.0,Banded
+U1594,Heinrich Heine University Düsseldorf,251.0,251.0,Banded
+U1596,Johannes Gutenberg University of Mainz,251.0,251.0,Banded
+U1602,Queen’s University,251.0,251.0,Banded
+U1604,Ruhr University Bochum,251.0,251.0,Banded
+U1606,University of Southern Denmark,251.0,251.0,Banded
+U1616,"China Medical University, Taiwan",251.0,251.0,Banded
+U1617,Copenhagen Business School,251.0,251.0,Banded
+U1619,Hebrew University of Jerusalem,251.0,251.0,Banded
+U1621,University of Kiel,251.0,251.0,Banded
+U1624,Oregon Health and Science University,251.0,251.0,Banded
+U1625,University of Pavia,251.0,251.0,Banded
+U1632,University of the Witwatersrand,251.0,251.0,Banded
+U1648,Auckland University of Technology,251.0,251.0,Banded
+U1658,École des Ponts ParisTech,251.0,251.0,Banded
+U1690,Brighton and Sussex Medical School,251.0,251.0,Banded
+U3389,University of Duisburg-Essen,251.0,251.0,Banded
+U0111,politecnico di milano,301.0,301.0,Banded
+U0123,rmit university,301.0,301.0,Banded
+U0153,nagoya university,301.0,301.0,Banded
+U0187,école normale supérieure de lyon,301.0,301.0,Banded
+U0214,university of otago,301.0,301.0,Banded
+U0242,technical university of darmstadt,301.0,301.0,Banded
+U0273,university college cork,301.0,301.0,Banded
+U0274,university of galway,301.0,301.0,Banded
+U0275,dalhousie university,301.0,301.0,Banded
+U0289,university of milan,301.0,301.0,Banded
+U0291,swinburne university of technology,301.0,301.0,Banded
+U0294,university of tasmania,301.0,301.0,Banded
+U0332,abu dhabi university,301.0,301.0,Banded
+U0336,flinders university,301.0,301.0,Banded
+U0337,lappeenranta-lahti university of technology lut,301.0,301.0,Banded
+U0341,university of south australia,301.0,301.0,Banded
+U0346,university of oulu,301.0,301.0,Banded
+U0377,nankai university,301.0,301.0,Banded
+U0400,university of southern queensland,301.0,301.0,Banded
+U0462,tampere university,301.0,301.0,Banded
+U0481,aix-marseille university,301.0,301.0,Banded
+U0538,university of bordeaux,301.0,301.0,Banded
+U0554,hasselt university,301.0,301.0,Banded
+U0573,florida state university,301.0,301.0,Banded
+U0598,university of iowa,301.0,301.0,Banded
+U0688,temple university,301.0,301.0,Banded
+U0724,brandeis university,301.0,301.0,Banded
+U0727,drexel university,301.0,301.0,Banded
+U0793,alfaisal university,301.0,301.0,Banded
+U1034,george mason university,301.0,301.0,Banded
+U1566,Tokyo Institute of Technology,301.0,301.0,Banded
+U1607,Stony Brook University,301.0,301.0,Banded
+U1608,University of Stuttgart,301.0,301.0,Banded
+U1615,University at Buffalo,301.0,301.0,Banded
+U1618,University of Essex,301.0,301.0,Banded
+U1623,Montpellier University,301.0,301.0,Banded
+U1631,The University of Tennessee-Knoxville,301.0,301.0,Banded
+U1633,Autonomous University of Madrid,301.0,301.0,Banded
+U1635,University of Colorado Denver/Anschutz Medical Campus,301.0,301.0,Banded
+U1638,University of Milan-Bicocca,301.0,301.0,Banded
+U1642,University of St Gallen,301.0,301.0,Banded
+U1646,University of Victoria,301.0,301.0,Banded
+U1649,Universiti Brunei Darussalam,301.0,301.0,Banded
+U1650,"University of California, Merced",301.0,301.0,Banded
+U1678,Saint Louis University,301.0,301.0,Banded
+U1680,Taipei Medical University,301.0,301.0,Banded
+U1687,Anglia Ruskin University (ARU),301.0,301.0,Banded
+U1817,Reykjavík University,301.0,301.0,Banded
+U0225,loughborough university,351.0,351.0,Banded
+U0252,harbin institute of technology,351.0,351.0,Banded
+U0311,north carolina state university,351.0,351.0,Banded
+U0352,"city, university of london",351.0,351.0,Banded
+U0376,university of turku,351.0,351.0,Banded
+U0381,university of kent,351.0,351.0,Banded
+U0408,"birkbeck, university of london",351.0,351.0,Banded
+U0431,central south university,351.0,351.0,Banded
+U0445,james cook university,351.0,351.0,Banded
+U0455,university of stirling,351.0,351.0,Banded
+U0469,washington state university,351.0,351.0,Banded
+U0503,east china normal university,351.0,351.0,Banded
+U0506,university of delaware,351.0,351.0,Banded
+U0516,ateneo de manila university,351.0,351.0,Banded
+U0517,edith cowan university,351.0,351.0,Banded
+U0588,shoolini university of biotechnology and management sciences,351.0,351.0,Banded
+U0625,charles darwin university,351.0,351.0,Banded
+U0641,tulane university,351.0,351.0,Banded
+U0673,university of manitoba,351.0,351.0,Banded
+U0700,university of brescia,351.0,351.0,Banded
+U0753,wake forest university,351.0,351.0,Banded
+U0781,verona university,351.0,351.0,Banded
+U0940,university of hail,351.0,351.0,Banded
+U1041,howard university,351.0,351.0,Banded
+U1597,Khalifa University,351.0,351.0,Banded
+U1600,University of Malaya,351.0,351.0,Banded
+U1614,University of Bremen,351.0,351.0,Banded
+U1622,University of Liège,351.0,351.0,Banded
+U1626,University of Rome II – Tor Vergata,351.0,351.0,Banded
+U1627,"Royal Holloway, University of London",351.0,351.0,Banded
+U1629,Swedish University of Agricultural Sciences,351.0,351.0,Banded
+U1639,University of Naples Federico II,351.0,351.0,Banded
+U1645,University of Texas at Dallas,351.0,351.0,Banded
+U1647,"Asia University, Taiwan",351.0,351.0,Banded
+U1660,University of Greifswald,351.0,351.0,Banded
+U1661,Imam Mohammad Ibn Saud Islamic University,351.0,351.0,Banded
+U1662,IMT Atlantique,351.0,351.0,Banded
+U1676,Royal Veterinary College,351.0,351.0,Banded
+U1684,University of Vaasa,351.0,351.0,Banded
+U1686,American University of Beirut,351.0,351.0,Banded
+U1702,Leuphana University of Lüneburg,351.0,351.0,Banded
+U1716,Rush University,351.0,351.0,Banded
+U1741,University of Cape Coast,351.0,351.0,Banded
+U1779,Kurdistan University of Medical Sciences,351.0,351.0,Banded
+U1787,Mazandaran University of Medical Sciences,351.0,351.0,Banded
+U1842,Wroclaw Medical University,351.0,351.0,Banded
+U1864,Catholic University of Portugal,351.0,351.0,Banded
+U1904,JSS Academy of Higher Education and Research,351.0,351.0,Banded
+U3390,Golestan University of Medical Sciences,351.0,351.0,Banded
+U3391,University of New Mexico (Main campus),351.0,351.0,Banded
+U0162,hanyang university,401.0,401.0,Banded
+U0164,complutense university of madrid,401.0,401.0,Banded
+U0235,university of waikato,401.0,401.0,Banded
+U0244,victoria university of wellington,401.0,401.0,Banded
+U0264,norwegian university of science and technology,401.0,401.0,Banded
+U0269,tianjin university,401.0,401.0,Banded
+U0278,university of porto,401.0,401.0,Banded
+U0282,university of strathclyde,401.0,401.0,Banded
+U0315,quaid-i-azam university,401.0,401.0,Banded
+U0334,université grenoble alpes,401.0,401.0,Banded
+U0342,brunel university london,401.0,401.0,Banded
+U0343,sharif university of technology,401.0,401.0,Banded
+U0363,xiamen university,401.0,401.0,Banded
+U0364,york university,401.0,401.0,Banded
+U0372,lincoln university,401.0,401.0,Banded
+U0374,university of turin,401.0,401.0,Banded
+U0375,university of florence,401.0,401.0,Banded
+U0382,university of pisa,401.0,401.0,Banded
+U0385,south china university of technology,401.0,401.0,Banded
+U0393,national and kapodistrian university of athens,401.0,401.0,Banded
+U0402,koç university,401.0,401.0,Banded
+U0421,dublin city university,401.0,401.0,Banded
+U0423,aston university,401.0,401.0,Banded
+U0427,leibniz university hannover,401.0,401.0,Banded
+U0429,southeast university,401.0,401.0,Banded
+U0437,murdoch university,401.0,401.0,Banded
+U0449,hunan university,401.0,401.0,Banded
+U0451,university of electronic science and technology of china,401.0,401.0,Banded
+U0454,university of kansas,401.0,401.0,Banded
+U0470,iowa state university,401.0,401.0,Banded
+U0474,bangor university,401.0,401.0,Banded
+U0494,university of jyväskylä,401.0,401.0,Banded
+U0496,duy tan university,401.0,401.0,Banded
+U0502,colorado school of mines,401.0,401.0,Banded
+U0507,university of trento,401.0,401.0,Banded
+U0509,shenzhen university,401.0,401.0,Banded
+U0529,university of bayreuth,401.0,401.0,Banded
+U0549,university of genoa,401.0,401.0,Banded
+U0566,university of connecticut,401.0,401.0,Banded
+U0591,university of kwazulu-natal,401.0,401.0,Banded
+U0602,illinois institute of technology,401.0,401.0,Banded
+U0610,university of crete,401.0,401.0,Banded
+U0620,university of klagenfurt,401.0,401.0,Banded
+U0643,university of portsmouth,401.0,401.0,Banded
+U0665,free university of bozen-bolzano,401.0,401.0,Banded
+U0674,university of plymouth,401.0,401.0,Banded
+U0702,university of siena,401.0,401.0,Banded
+U0721,ton duc thang university,401.0,401.0,Banded
+U0732,middlesex university,401.0,401.0,Banded
+U0736,university of modena and reggio emilia,401.0,401.0,Banded
+U0748,university of the west of england,401.0,401.0,Banded
+U0810,edinburgh napier university,401.0,401.0,Banded
+U0818,liverpool john moores university,401.0,401.0,Banded
+U0820,maynooth university,401.0,401.0,Banded
+U0826,syracuse university,401.0,401.0,Banded
+U0839,university of alaska fairbanks,401.0,401.0,Banded
+U0861,georgia state university,401.0,401.0,Banded
+U0892,university of lincoln,401.0,401.0,Banded
+U0999,university of denver,401.0,401.0,Banded
+U1097,sumy state university,401.0,401.0,Banded
+U1167,university of ibadan,401.0,401.0,Banded
+U1172,university of lagos,401.0,401.0,Banded
+U1368,university of international business and economics,401.0,401.0,Banded
+U1425,nova southeastern university,401.0,401.0,Banded
+U1610,TU Wien,401.0,401.0,Banded
+U1620,University of Innsbruck,401.0,401.0,Banded
+U1630,Universiti Teknologi Petronas,401.0,401.0,Banded
+U1634,University of Campinas,401.0,401.0,Banded
+U1637,Justus Liebig University Giessen,401.0,401.0,Banded
+U1641,Sabancı University,401.0,401.0,Banded
+U1643,Southern Medical University,401.0,401.0,Banded
+U1652,University of Catania,401.0,401.0,Banded
+U1655,Claude Bernard University Lyon 1,401.0,401.0,Banded
+U1656,"Colorado State University, Fort Collins",401.0,401.0,Banded
+U1663,Institut Agro,401.0,401.0,Banded
+U1666,University of Marburg,401.0,401.0,Banded
+U1669,University of Nebraska-Lincoln,401.0,401.0,Banded
+U1672,University of Passau,401.0,401.0,Banded
+U1674,Pontificia Universidad Católica de Chile,401.0,401.0,Banded
+U1682,Umeå University,401.0,401.0,Banded
+U1683,Universiti Utara Malaysia,401.0,401.0,Banded
+U1689,Babol Noshirvani University of Technology,401.0,401.0,Banded
+U1696,University of Cyprus,401.0,401.0,Banded
+U1698,University of Ferrara,401.0,401.0,Banded
+U1703,Mahatma Gandhi University,401.0,401.0,Banded
+U1709,University of Nebraska Medical Center,401.0,401.0,Banded
+U1723,The University of Tulsa,401.0,401.0,Banded
+U1731,Alagappa University,401.0,401.0,Banded
+U1734,Babol University of Medical Sciences,401.0,401.0,Banded
+U1740,Cankaya University,401.0,401.0,Banded
+U1808,Örebro University,401.0,401.0,Banded
+U1815,Qazvin University of Medical Sciences,401.0,401.0,Banded
+U1829,SRUC (Scotland’s Rural College),401.0,401.0,Banded
+U1838,Urmia University of Medical Sciences,401.0,401.0,Banded
+U1841,William & Mary,401.0,401.0,Banded
+U1852,Arak University of Medical Sciences,401.0,401.0,Banded
+U1854,Aswan University,401.0,401.0,Banded
+U1902,Jazan University,401.0,401.0,Banded
+U1941,Qom University of Medical Sciences,401.0,401.0,Banded
+U2052,Muhimbili University of Health and Allied Sciences,401.0,401.0,Banded
+U2174,Ferhat Abbas Sétif University 1,401.0,401.0,Banded
+U0167,kyushu university,501.0,501.0,Banded
+U0173,hokkaido university,501.0,501.0,Banded
+U0210,national tsing hua university,501.0,501.0,Banded
+U0219,national yang ming chiao tung university,501.0,501.0,Banded
+U0246,charles university,501.0,501.0,Banded
+U0253,hong kong baptist university,501.0,501.0,Banded
+U0257,heriot-watt university,501.0,501.0,Banded
+U0260,university of lisbon,501.0,501.0,Banded
+U0285,middle east technical university,501.0,501.0,Banded
+U0302,beijing institute of technology,501.0,501.0,Banded
+U0340,university of saskatchewan,501.0,501.0,Banded
+U0351,sciences po,501.0,501.0,Banded
+U0359,gwangju institute of science and technology (gist),501.0,501.0,Banded
+U0379,university of tsukuba,501.0,501.0,Banded
+U0436,iran university of science and technology,501.0,501.0,Banded
+U0459,university of guelph,501.0,501.0,Banded
+U0467,universitat ramon llull,501.0,501.0,Banded
+U0510,soas university of london,501.0,501.0,Banded
+U0521,university of hull,501.0,501.0,Banded
+U0523,zayed university,501.0,501.0,Banded
+U0527,missouri university of science and technology,501.0,501.0,Banded
+U0533,university of bradford,501.0,501.0,Banded
+U0547,northwestern polytechnical university,501.0,501.0,Banded
+U0550,university of iceland,501.0,501.0,Banded
+U0574,florida international university,501.0,501.0,Banded
+U0593,nottingham trent university,501.0,501.0,Banded
+U0617,eastern mediterranean university,501.0,501.0,Banded
+U0662,aberystwyth university,501.0,501.0,Banded
+U0671,tokyo medical and dental university (tmdu),501.0,501.0,Banded
+U0683,"goldsmiths, university of london",501.0,501.0,Banded
+U0701,university of greenwich,501.0,501.0,Banded
+U0705,lebanese american university,501.0,501.0,Banded
+U0707,stevens institute of technology,501.0,501.0,Banded
+U0737,university of trieste,501.0,501.0,Banded
+U0751,victoria university,501.0,501.0,Banded
+U0791,university of mons,501.0,501.0,Banded
+U0795,keele university,501.0,501.0,Banded
+U0799,university of kentucky,501.0,501.0,Banded
+U0802,wayne state university,501.0,501.0,Banded
+U0829,tu dortmund university,501.0,501.0,Banded
+U0848,university of salerno,501.0,501.0,Banded
+U0849,university of stavanger,501.0,501.0,Banded
+U0863,jamia millia islamia,501.0,501.0,Banded
+U0900,virginia commonwealth university,501.0,501.0,Banded
+U1010,an-najah national university,501.0,501.0,Banded
+U1019,birmingham city university,501.0,501.0,Banded
+U1185,university of tabuk,501.0,501.0,Banded
+U1369,university of kragujevac,501.0,501.0,Banded
+U1379,university of peradeniya,501.0,501.0,Banded
+U1612,Xi’an Jiaotong University,501.0,501.0,Banded
+U1613,Beihang University,501.0,501.0,Banded
+U1644,Technion Israel Institute of Technology,501.0,501.0,Banded
+U1653,Centrale Nantes,501.0,501.0,Banded
+U1659,University of Fribourg,501.0,501.0,Banded
+U1664,Johannes Kepler University of Linz,501.0,501.0,Banded
+U1670,University of Neuchâtel,501.0,501.0,Banded
+U1679,University of South Carolina-Columbia,501.0,501.0,Banded
+U1688,University of L’Aquila,501.0,501.0,Banded
+U1695,University of Côte d’Azur,501.0,501.0,Banded
+U1705,University of Messina,501.0,501.0,Banded
+U1710,University of Nicosia,501.0,501.0,Banded
+U1711,Northumbria University,501.0,501.0,Banded
+U1717,Shiraz University of Technology,501.0,501.0,Banded
+U1724,UiT The Arctic University of Norway,501.0,501.0,Banded
+U1725,University of Valencia,501.0,501.0,Banded
+U1748,École des Mines de Saint-Étienne,501.0,501.0,Banded
+U1757,Government College University Faisalabad,501.0,501.0,Banded
+U1759,Harokopio University of Athens,501.0,501.0,Banded
+U1765,University of Insubria,501.0,501.0,Banded
+U1766,"International Institute of Information Technology, Hyderabad",501.0,501.0,Banded
+U1776,Kashan University of Medical Sciences and Health Services,501.0,501.0,Banded
+U1780,University of Lille,501.0,501.0,Banded
+U1807,Open University of Catalonia,501.0,501.0,Banded
+U1823,University of Sassari,501.0,501.0,Banded
+U1824,Saveetha Institute of Medical and Technical Sciences,501.0,501.0,Banded
+U1835,University of Tuscia,501.0,501.0,Banded
+U1836,University of Udine,501.0,501.0,Banded
+U1845,Zhejiang Normal University,501.0,501.0,Banded
+U1860,Bucharest University of Economic Studies,501.0,501.0,Banded
+U1865,Changsha University of Science and Technology,501.0,501.0,Banded
+U1875,Damietta University,501.0,501.0,Banded
+U1903,Jordan University of Science and Technology,501.0,501.0,Banded
+U1905,Kafrelsheikh University,501.0,501.0,Banded
+U1922,University of Management and Technology,501.0,501.0,Banded
+U1963,University of Vic – Central University of Catalonia,501.0,501.0,Banded
+U1994,Durban University of Technology,501.0,501.0,Banded
+U2019,Indian Institute of Technology Ropar,501.0,501.0,Banded
+U2026,Jimma University,501.0,501.0,Banded
+U2106,The University of the West Indies,501.0,501.0,Banded
+U2332,University of Zambia,501.0,501.0,Banded
+U3392,Federal University of Toulouse Midi-Pyrénées,501.0,501.0,Banded
+U3393,"Islamic Azad University, Najafabad Branch (IAUN)",501.0,501.0,Banded
+U3394,Constructor University Bremen,501.0,501.0,Banded
+U3395,Kermanshah University of Medical Sciences,501.0,501.0,Banded
+U3396,Southwestern University of Finance and Economics,501.0,501.0,Banded
+U3397,SUNY University at Albany,501.0,501.0,Banded
+U0202,american university of sharjah,601.0,601.0,Banded
+U0215,national cheng kung university (ncku),601.0,601.0,Banded
+U0240,massey university,601.0,601.0,Banded
+U0312,jagiellonian university,601.0,601.0,Banded
+U0313,university of johannesburg,601.0,601.0,Banded
+U0327,istanbul technical university,601.0,601.0,Banded
+U0356,university of coimbra,601.0,601.0,Banded
+U0362,sultan qaboos university,601.0,601.0,Banded
+U0392,national taiwan university of science and technology (taiwan tech),601.0,601.0,Banded
+U0403,amirkabir university of technology,601.0,601.0,Banded
+U0413,graz university of technology,601.0,601.0,Banded
+U0415,concordia university,601.0,601.0,Banded
+U0416,oxford brookes university,601.0,601.0,Banded
+U0422,university of limerick,601.0,601.0,Banded
+U0433,university of granada,601.0,601.0,Banded
+U0448,dalian university of technology,601.0,601.0,Banded
+U0471,ben-gurion university of the negev,601.0,601.0,Banded
+U0489,chongqing university,601.0,601.0,Banded
+U0492,shanghai university,601.0,601.0,Banded
+U0505,university of huddersfield,601.0,601.0,Banded
+U0512,zhengzhou university,601.0,601.0,Banded
+U0539,university of eastern finland,601.0,601.0,Banded
+U0557,university of dhaka,601.0,601.0,Banded
+U0564,eötvös loránd university,601.0,601.0,Banded
+U0578,southern cross university,601.0,601.0,Banded
+U0580,jawaharlal nehru university,601.0,601.0,Banded
+U0608,rensselaer polytechnic institute,601.0,601.0,Banded
+U0634,ajou university,601.0,601.0,Banded
+U0640,savitribai phule pune university,601.0,601.0,Banded
+U0644,beirut arab university,601.0,601.0,Banded
+U0647,hacettepe university,601.0,601.0,Banded
+U0648,lehigh university,601.0,601.0,Banded
+U0660,university of houston,601.0,601.0,Banded
+U0668,memorial university of newfoundland,601.0,601.0,Banded
+U0676,bar-ilan university,601.0,601.0,Banded
+U0681,university of haifa,601.0,601.0,Banded
+U0699,universidade federal do rio grande do sul,601.0,601.0,Banded
+U0712,american university,601.0,601.0,Banded
+U0713,comsats university islamabad,601.0,601.0,Banded
+U0715,de montfort university,601.0,601.0,Banded
+U0717,nanjing agricultural university,601.0,601.0,Banded
+U0730,konkuk university,601.0,601.0,Banded
+U0742,carleton university,601.0,601.0,Banded
+U0747,university of central florida,601.0,601.0,Banded
+U0771,addis ababa university,601.0,601.0,Banded
+U0779,"university of maryland, baltimore county",601.0,601.0,Banded
+U0815,jouf university,601.0,601.0,Banded
+U0819,london south bank university,601.0,601.0,Banded
+U0870,north-west university,601.0,601.0,Banded
+U0872,oklahoma state university,601.0,601.0,Banded
+U0885,université du québec,601.0,601.0,Banded
+U0891,university of hertfordshire,601.0,601.0,Banded
+U0914,louisiana state university,601.0,601.0,Banded
+U0920,north south university,601.0,601.0,Banded
+U0944,university of nairobi,601.0,601.0,Banded
+U0952,yokohama city university,601.0,601.0,Banded
+U0955,auburn university,601.0,601.0,Banded
+U0958,clark university,601.0,601.0,Banded
+U0969,mansoura university,601.0,601.0,Banded
+U0998,university of colombo,601.0,601.0,Banded
+U1000,university of parma,601.0,601.0,Banded
+U1001,university of regina,601.0,601.0,Banded
+U1015,banaras hindu university,601.0,601.0,Banded
+U1016,baylor university,601.0,601.0,Banded
+U1036,glasgow caledonian university,601.0,601.0,Banded
+U1059,lviv polytechnic national university,601.0,601.0,Banded
+U1085,san diego state university,601.0,601.0,Banded
+U1164,university of derby,601.0,601.0,Banded
+U1179,university of north carolina at charlotte,601.0,601.0,Banded
+U1189,university of the sunshine coast,601.0,601.0,Banded
+U1365,university of babylon,601.0,601.0,Banded
+U1636,University of Georgia,601.0,601.0,Banded
+U1654,Chung-Ang University,601.0,601.0,Banded
+U1665,Universiti Kebangsaan Malaysia,601.0,601.0,Banded
+U1667,Mizzou - University of Missouri,601.0,601.0,Banded
+U1671,New Jersey Institute of Technology,601.0,601.0,Banded
+U1673,Polytechnic University of Turin,601.0,601.0,Banded
+U1677,Universiti Sains Malaysia,601.0,601.0,Banded
+U1685,Åbo Akademi University,601.0,601.0,Banded
+U1691,Ca’ Foscari University of Venice,601.0,601.0,Banded
+U1692,University of Canterbury,601.0,601.0,Banded
+U1693,Central Queensland University,601.0,601.0,Banded
+U1697,ENSTA Bretagne,601.0,601.0,Banded
+U1699,University of Graz,601.0,601.0,Banded
+U1700,Hamburg University of Technology,601.0,601.0,Banded
+U1701,Jinan University,601.0,601.0,Banded
+U1704,Manchester Metropolitan University,601.0,601.0,Banded
+U1706,Nantes Université,601.0,601.0,Banded
+U1707,National Yunlin University of Science and Technology,601.0,601.0,Banded
+U1712,NOVA University of Lisbon,601.0,601.0,Banded
+U1713,Polytechnic University of Bari,601.0,601.0,Banded
+U1714,Universiti Putra Malaysia,601.0,601.0,Banded
+U1715,Rovira i Virgili University,601.0,601.0,Banded
+U1718,"Soochow University, China",601.0,601.0,Banded
+U1728,Abdul Wali Khan University Mardan,601.0,601.0,Banded
+U1732,Amedeo Avogadro University of Eastern Piedmont,601.0,601.0,Banded
+U1733,University of Arkansas,601.0,601.0,Banded
+U1735,University of Bari Aldo Moro,601.0,601.0,Banded
+U1739,University of Campania Luigi Vanvitelli,601.0,601.0,Banded
+U1742,Capital Medical University,601.0,601.0,Banded
+U1745,University of Córdoba,601.0,601.0,Banded
+U1746,Cyprus University of Technology,601.0,601.0,Banded
+U1751,"University of Engineering and Technology, Taxila",601.0,601.0,Banded
+U1754,Federation University Australia,601.0,601.0,Banded
+U1756,Gabriele d‘Annunzio University,601.0,601.0,Banded
+U1760,Imam Abdulrahman Bin Faisal University,601.0,601.0,Banded
+U1767,Iran University of Medical Sciences,601.0,601.0,Banded
+U1769,Jamia Hamdard University,601.0,601.0,Banded
+U1770,Jiangsu University,601.0,601.0,Banded
+U1771,Jönköping University,601.0,601.0,Banded
+U1772,The University of Jordan,601.0,601.0,Banded
+U1774,University of Kaiserslautern,601.0,601.0,Banded
+U1775,University of Kashan,601.0,601.0,Banded
+U1777,KIIT University,601.0,601.0,Banded
+U1778,King Saud bin Abdulaziz University for Health Sciences,601.0,601.0,Banded
+U1781,University of Lorraine,601.0,601.0,Banded
+U1785,Marche Polytechnic University,601.0,601.0,Banded
+U1786,Mashhad University of Medical Sciences,601.0,601.0,Banded
+U1796,National Institute of Technology Silchar,601.0,601.0,Banded
+U1797,Near East University,601.0,601.0,Banded
+U1798,"University of Nevada, Las Vegas",601.0,601.0,Banded
+U1799,University of New Brunswick UNB,601.0,601.0,Banded
+U1802,Norwegian University of Life Sciences,601.0,601.0,Banded
+U1805,Ontario Tech University,601.0,601.0,Banded
+U1806,The Open University,601.0,601.0,Banded
+U1814,Prince Sattam Bin Abdulaziz University,601.0,601.0,Banded
+U1816,Qingdao University,601.0,601.0,Banded
+U1821,University of Sannio,601.0,601.0,Banded
+U1822,University of Santiago de Compostela,601.0,601.0,Banded
+U1847,Ahvaz Jundishapur University of Medical Sciences (AJUMS),601.0,601.0,Banded
+U1855,Bahçeşehir University,601.0,601.0,Banded
+U1856,Bahria University,601.0,601.0,Banded
+U1861,University of Camerino (Unicam),601.0,601.0,Banded
+U1873,Covenant University,601.0,601.0,Banded
+U1876,Delhi Technological University,601.0,601.0,Banded
+U1878,Universidade Federal de São Paulo (UNIFESP),601.0,601.0,Banded
+U1885,Guangzhou University,601.0,601.0,Banded
+U1886,Guangzhou Medical University,601.0,601.0,Banded
+U1888,Hazara University Mansehra,601.0,601.0,Banded
+U1889,Ilam University of Medical Sciences,601.0,601.0,Banded
+U1893,Indraprastha Institute of Information Technology Delhi,601.0,601.0,Banded
+U1895,"International Islamic University, Islamabad",601.0,601.0,Banded
+U1906,Kalasalingam Academy of Research and Education,601.0,601.0,Banded
+U1912,Kore University of Enna,601.0,601.0,Banded
+U1913,University of Kurdistan,601.0,601.0,Banded
+U1916,Lahore University of Management Sciences,601.0,601.0,Banded
+U1921,University of Malakand,601.0,601.0,Banded
+U1923,Medical University of Lodz,601.0,601.0,Banded
+U1925,University of Mohaghegh Ardabili,601.0,601.0,Banded
+U1978,Azarbaijan Shahid Madani University,601.0,601.0,Banded
+U1983,Benha University,601.0,601.0,Banded
+U1999,Fayoum University,601.0,601.0,Banded
+U2015,Icesi University,601.0,601.0,Banded
+U2027,Kansai Medical University,601.0,601.0,Banded
+U2039,Maharishi Markandeshwar University (MMU),601.0,601.0,Banded
+U2049,Minia University,601.0,601.0,Banded
+U2063,"University of Occupational and Environmental Health, Japan",601.0,601.0,Banded
+U2065,Universidad Peruana Cayetano Heredia,601.0,601.0,Banded
+U2072,Riphah International University,601.0,601.0,Banded
+U2122,University of Antofagasta,601.0,601.0,Banded
+U2151,University of Costa Rica,601.0,601.0,Banded
+U2155,Dow University of Health Sciences,601.0,601.0,Banded
+U2157,Universidade Eduardo Mondlane,601.0,601.0,Banded
+U2236,University of Namibia,601.0,601.0,Banded
+U2590,Riga Stradiņš University,601.0,601.0,Banded
+U3398,Université Bourgogne Franche-Comté (UBFC),601.0,601.0,Banded
+U3399,University of Desarrollo,601.0,601.0,Banded
+U3400,Graphic Era University,601.0,601.0,Banded
+U3401,Indian Institute of Technology Indore,601.0,601.0,Banded
+U3402,Majmaah University,601.0,601.0,Banded
+U3403,University of Perugia,601.0,601.0,Banded
+U3404,University of Strasbourg,601.0,601.0,Banded
+U0188,keio university,801.0,801.0,Banded
+U0229,chulalongkorn university,801.0,801.0,Banded
+U0258,university of warsaw,801.0,801.0,Banded
+U0322,national technical university of athens,801.0,801.0,Banded
+U0339,university of the philippines,801.0,801.0,Banded
+U0350,cairo university,801.0,801.0,Banded
+U0354,university of pretoria,801.0,801.0,Banded
+U0361,university of aveiro,801.0,801.0,Banded
+U0368,mahidol university,801.0,801.0,Banded
+U0383,anna university,801.0,801.0,Banded
+U0409,masaryk university,801.0,801.0,Banded
+U0430,university of science and technology beijing,801.0,801.0,Banded
+U0439,vilnius university,801.0,801.0,Banded
+U0453,national taiwan normal university,801.0,801.0,Banded
+U0465,kobe university,801.0,801.0,Banded
+U0475,hiroshima university,801.0,801.0,Banded
+U0478,bilkent university,801.0,801.0,Banded
+U0486,national sun yat-sen university,801.0,801.0,Banded
+U0508,aristotle university of thessaloniki,801.0,801.0,Banded
+U0511,ewha womans university,801.0,801.0,Banded
+U0519,kyungpook national university,801.0,801.0,Banded
+U0531,coventry university,801.0,801.0,Banded
+U0542,sunway university,801.0,801.0,Banded
+U0544,university of salamanca,801.0,801.0,Banded
+U0572,university of the punjab,801.0,801.0,Banded
+U0599,university of ljubljana,801.0,801.0,Banded
+U0603,king khalid university,801.0,801.0,Banded
+U0621,university of minho,801.0,801.0,Banded
+U0654,universiti tenaga nasional (uniten),801.0,801.0,Banded
+U0656,university of the basque country,801.0,801.0,Banded
+U0687,princess nourah bint abdulrahman university,801.0,801.0,Banded
+U0689,"university of agriculture, faisalabad",801.0,801.0,Banded
+U0694,shiraz university,801.0,801.0,Banded
+U0740,university of belgrade,801.0,801.0,Banded
+U0746,universiti malaysia pahang,801.0,801.0,Banded
+U0762,university of malta,801.0,801.0,Banded
+U0766,king faisal university,801.0,801.0,Banded
+U0786,texas tech university,801.0,801.0,Banded
+U0787,the new school,801.0,801.0,Banded
+U0790,university of latvia,801.0,801.0,Banded
+U0804,alexandria university,801.0,801.0,Banded
+U0809,"birla institute of technology and science, pilani",801.0,801.0,Banded
+U0817,kuwait university,801.0,801.0,Banded
+U0828,toronto metropolitan university,801.0,801.0,Banded
+U0843,university of brighton,801.0,801.0,Banded
+U0859,cy cergy paris university,801.0,801.0,Banded
+U0860,donghua university,801.0,801.0,Banded
+U0864,kansas state university,801.0,801.0,Banded
+U0894,university of palermo,801.0,801.0,Banded
+U0915,makerere university,801.0,801.0,Banded
+U0938,university of calabria,801.0,801.0,Banded
+U0945,university of peshawar,801.0,801.0,Banded
+U0946,university of salford,801.0,801.0,Banded
+U0949,worcester polytechnic institute,801.0,801.0,Banded
+U0954,athens university of economics and business,801.0,801.0,Banded
+U0959,clemson university,801.0,801.0,Banded
+U0975,rhodes university,801.0,801.0,Banded
+U0982,the university of alabama,801.0,801.0,Banded
+U1005,yeungnam university,801.0,801.0,Banded
+U1006,al-azhar university,801.0,801.0,Banded
+U1007,aligarh muslim university,801.0,801.0,Banded
+U1054,leeds beckett university,801.0,801.0,Banded
+U1061,mississippi state university,801.0,801.0,Banded
+U1066,nanjing normal university,801.0,801.0,Banded
+U1076,panjab university,801.0,801.0,Banded
+U1086,sheffield hallam university,801.0,801.0,Banded
+U1100,taibah university,801.0,801.0,Banded
+U1165,university of deusto,801.0,801.0,Banded
+U1169,university of ioannina,801.0,801.0,Banded
+U1182,university of rhode island,801.0,801.0,Banded
+U1188,university of the free state,801.0,801.0,Banded
+U1195,university of wyoming,801.0,801.0,Banded
+U1203,al-balqa applied university,801.0,801.0,Banded
+U1262,marquette university,801.0,801.0,Banded
+U1295,suez canal university,801.0,801.0,Banded
+U1300,tanta university,801.0,801.0,Banded
+U1371,university of memphis,801.0,801.0,Banded
+U1375,university of north carolina at greensboro,801.0,801.0,Banded
+U1401,zagazig university,801.0,801.0,Banded
+U1446,universidad autónoma de chile,801.0,801.0,Banded
+U1694,"China University of Petroleum, Beijing",801.0,801.0,Banded
+U1727,Yangzhou University,801.0,801.0,Banded
+U1730,The University of Aizu,801.0,801.0,Banded
+U1736,University of Beira Interior,801.0,801.0,Banded
+U1737,Bharathiar University,801.0,801.0,Banded
+U1738,Boğaziçi University,801.0,801.0,Banded
+U1749,École Nationale des Travaux Publics de l'État (ENTPE),801.0,801.0,Banded
+U1755,University of Foggia,801.0,801.0,Banded
+U1758,Guangdong University of Technology,801.0,801.0,Banded
+U1764,Indian Institute of Technology Patna,801.0,801.0,Banded
+U1768,ISCTE-University Institute of Lisbon,801.0,801.0,Banded
+U1773,Juntendo University,801.0,801.0,Banded
+U1784,Manipal Academy of Higher Education,801.0,801.0,Banded
+U1788,Monterrey Institute of Technology,801.0,801.0,Banded
+U1789,University of Namur,801.0,801.0,Banded
+U1790,Nanjing Forestry University,801.0,801.0,Banded
+U1791,Nanjing Tech University,801.0,801.0,Banded
+U1792,National Institute of Applied Sciences of Lyon (INSA Lyon),801.0,801.0,Banded
+U1793,National University of Sciences and Technology,801.0,801.0,Banded
+U1800,"Northeastern University, China",801.0,801.0,Banded
+U1801,Northern Illinois University,801.0,801.0,Banded
+U1803,Ohio University (Main campus),801.0,801.0,Banded
+U1804,Old Dominion University,801.0,801.0,Banded
+U1810,Parthenope University of Naples,801.0,801.0,Banded
+U1811,Universiti Pendidikan Sultan Idris,801.0,801.0,Banded
+U1812,Universitat Politècnica de Catalunya,801.0,801.0,Banded
+U1813,Polytechnic University of Valencia,801.0,801.0,Banded
+U1818,University of Rome III,801.0,801.0,Banded
+U1819,Roskilde University,801.0,801.0,Banded
+U1820,University of Salento,801.0,801.0,Banded
+U1826,University of Siegen,801.0,801.0,Banded
+U1827,South China Normal University,801.0,801.0,Banded
+U1839,VIT University,801.0,801.0,Banded
+U1846,University of the Aegean,801.0,801.0,Banded
+U1848,University of Alcalá,801.0,801.0,Banded
+U1850,American University in Cairo,801.0,801.0,Banded
+U1857,University of the Balearic Islands,801.0,801.0,Banded
+U1858,University of Bergamo,801.0,801.0,Banded
+U1866,Chapman University,801.0,801.0,Banded
+U1867,Institute of Chemical Technology,801.0,801.0,Banded
+U1868,Chengdu University,801.0,801.0,Banded
+U1871,University of Clermont Auvergne,801.0,801.0,Banded
+U1877,Federal University of Minas Gerais,801.0,801.0,Banded
+U1879,Florida Atlantic University,801.0,801.0,Banded
+U1881,Fuzhou University,801.0,801.0,Banded
+U1882,University of Girona,801.0,801.0,Banded
+U1891,Indian Institute of Technology Gandhinagar,801.0,801.0,Banded
+U1894,Universitat Internacional de Catalunya,801.0,801.0,Banded
+U1898,University of Jaén,801.0,801.0,Banded
+U1909,King Mongkut’s University of Technology Thonburi,801.0,801.0,Banded
+U1910,Kingston University,801.0,801.0,Banded
+U1915,University of Lahore,801.0,801.0,Banded
+U1917,Lakehead University,801.0,801.0,Banded
+U1918,Lithuanian University of Health Sciences,801.0,801.0,Banded
+U1919,University of Lleida,801.0,801.0,Banded
+U1920,Lovely Professional University,801.0,801.0,Banded
+U1926,Montana State University,801.0,801.0,Banded
+U1927,Nanjing University of Information Science and Technology,801.0,801.0,Banded
+U1930,"National Institute of Technology, Tiruchirappalli",801.0,801.0,Banded
+U1931,New Mexico State University (Main campus),801.0,801.0,Banded
+U1933,Northeast Normal University,801.0,801.0,Banded
+U1934,University of Northern British Columbia (UNBC),801.0,801.0,Banded
+U1936,Ozyegin University,801.0,801.0,Banded
+U1937,Pablo de Olavide University,801.0,801.0,Banded
+U1938,Panthéon-Sorbonne University – Paris 1,801.0,801.0,Banded
+U1940,Pontifical Catholic University of Rio de Janeiro (PUC-Rio),801.0,801.0,Banded
+U1943,University of Rennes 1,801.0,801.0,Banded
+U1945,University of Roehampton,801.0,801.0,Banded
+U1948,Shantou University,801.0,801.0,Banded
+U1949,Shiraz University of Medical Sciences,801.0,801.0,Banded
+U1954,"University of Technology, Iraq",801.0,801.0,Banded
+U1955,University of Texas at El Paso,801.0,801.0,Banded
+U1966,Wenzhou Medical University,801.0,801.0,Banded
+U1977,University of Applied Sciences and Arts of Western Switzerland,801.0,801.0,Banded
+U1982,University of Bedfordshire,801.0,801.0,Banded
+U1984,Beni-Suef University,801.0,801.0,Banded
+U1991,Diego Portales University,801.0,801.0,Banded
+U1995,Edge Hill University,801.0,801.0,Banded
+U1996,"University of Engineering and Technology, Peshawar",801.0,801.0,Banded
+U2002,Firat University,801.0,801.0,Banded
+U2003,Florida Agricultural and Mechanical University,801.0,801.0,Banded
+U2006,Fujita Health University,801.0,801.0,Banded
+U2022,The Islamia University of Bahawalpur,801.0,801.0,Banded
+U2024,Iuliu Haţieganu University of Medicine and Pharmacy Cluj-Napoca,801.0,801.0,Banded
+U2028,Karlstad University,801.0,801.0,Banded
+U2030,Kerman University of Medical Sciences,801.0,801.0,Banded
+U2031,Kindai University,801.0,801.0,Banded
+U2033,Kurume University,801.0,801.0,Banded
+U2034,University of La Laguna,801.0,801.0,Banded
+U2038,Mae Fah Luang University,801.0,801.0,Banded
+U2044,Medical University of Gdańsk,801.0,801.0,Banded
+U2060,Nippon Medical School,801.0,801.0,Banded
+U2067,Pontifical Catholic University of Rio Grande do Sul (PUCRS),801.0,801.0,Banded
+U2086,University of South Bohemia in České Budějovice,801.0,801.0,Banded
+U2093,Symbiosis International University,801.0,801.0,Banded
+U2102,University of Urbino Carlo Bo,801.0,801.0,Banded
+U2108,University of Winchester,801.0,801.0,Banded
+U2111,Zewail City of Science and Technology,801.0,801.0,Banded
+U2112,Zhejiang University of Finance and Economics,801.0,801.0,Banded
+U2156,Duzce University,801.0,801.0,Banded
+U2201,Istanbul Medeniyet University,801.0,801.0,Banded
+U2212,KL University,801.0,801.0,Banded
+U2258,Pontifical Javeriana University,801.0,801.0,Banded
+U2272,University of La Serena,801.0,801.0,Banded
+U2306,Tribhuvan University,801.0,801.0,Banded
+U2432,Universidade Federal de Sergipe,801.0,801.0,Banded
+U3405,University of Dayton,801.0,801.0,Banded
+U3406,University of Missouri-St Louis,801.0,801.0,Banded
+U3407,National Institute of Technology Hamirpur,801.0,801.0,Banded
+U3408,Shahid Beheshti University,801.0,801.0,Banded
+U3409,Southern Illinois University Carbondale,801.0,801.0,Banded
+U3410,University of Thessaly,801.0,801.0,Banded
+U3411,University of Wisconsin-Milwaukee,801.0,801.0,Banded
+U0163,al-farabi kazakh national university,1001.0,1001.0,Banded
+U0182,waseda university,1001.0,1001.0,Banded
+U0330,university of delhi,1001.0,1001.0,Banded
+U0425,national taipei university of technology,1001.0,1001.0,Banded
+U0491,isfahan university of technology,1001.0,1001.0,Banded
+U0524,pusan national university,1001.0,1001.0,Banded
+U0567,chiang mai university,1001.0,1001.0,Banded
+U0568,lebanese university,1001.0,1001.0,Banded
+U0571,university of szeged,1001.0,1001.0,Banded
+U0575,university of debrecen,1001.0,1001.0,Banded
+U0577,sogang university,1001.0,1001.0,Banded
+U0592,ain shams university,1001.0,1001.0,Banded
+U0626,istanbul university,1001.0,1001.0,Banded
+U0636,chang gung university,1001.0,1001.0,Banded
+U0639,inha university,1001.0,1001.0,Banded
+U0646,east china university of science and technology,1001.0,1001.0,Banded
+U0649,national central university,1001.0,1001.0,Banded
+U0658,palacký university olomouc,1001.0,1001.0,Banded
+U0685,jeonbuk national university,1001.0,1001.0,Banded
+U0729,jadavpur university,1001.0,1001.0,Banded
+U0749,university of westminster,1001.0,1001.0,Banded
+U0760,university of calcutta,1001.0,1001.0,Banded
+U0761,university of engineering & technology (uet) lahore,1001.0,1001.0,Banded
+U0767,nanjing university of aeronautics and astronautics,1001.0,1001.0,Banded
+U0770,university of patras,1001.0,1001.0,Banded
+U0773,chiba university,1001.0,1001.0,Banded
+U0789,universidade federal de santa catarina,1001.0,1001.0,Banded
+U0838,universiti tunku abdul rahman (utar),1001.0,1001.0,Banded
+U0851,wuhan university of technology,1001.0,1001.0,Banded
+U0855,charles sturt university,1001.0,1001.0,Banded
+U0856,chonnam national university,1001.0,1001.0,Banded
+U0858,clarkson university,1001.0,1001.0,Banded
+U0871,okayama university,1001.0,1001.0,Banded
+U0877,technological university dublin,1001.0,1001.0,Banded
+U0890,university of ghana,1001.0,1001.0,Banded
+U0896,university of south africa,1001.0,1001.0,Banded
+U0898,"vietnam national university, hanoi",1001.0,1001.0,Banded
+U0903,beijing jiaotong university,1001.0,1001.0,Banded
+U0911,kanazawa university,1001.0,1001.0,Banded
+U0924,robert gordon university,1001.0,1001.0,Banded
+U0939,university of east london,1001.0,1001.0,Banded
+U0943,university of murcia,1001.0,1001.0,Banded
+U0961,ferdowsi university of mashhad,1001.0,1001.0,Banded
+U0964,indian institute of technology bhubaneswar,1001.0,1001.0,Banded
+U0968,kumamoto university,1001.0,1001.0,Banded
+U0970,niigata university,1001.0,1001.0,Banded
+U0997,university of central lancashire,1001.0,1001.0,Banded
+U1004,yarmouk university,1001.0,1001.0,Banded
+U1008,amity university,1001.0,1001.0,Banded
+U1012,assiut university,1001.0,1001.0,Banded
+U1048,jiangnan university,1001.0,1001.0,Banded
+U1101,tallinn university,1001.0,1001.0,Banded
+U1109,tokyo metropolitan university,1001.0,1001.0,Banded
+U1209,bahauddin zakariya university,1001.0,1001.0,Banded
+U1233,fu jen catholic university,1001.0,1001.0,Banded
+U1252,kharkiv national university of radio electronics,1001.0,1001.0,Banded
+U1259,kwame nkrumah university of science and technology,1001.0,1001.0,Banded
+U1271,national taiwan ocean university,1001.0,1001.0,Banded
+U1273,óbuda university,1001.0,1001.0,Banded
+U1277,pondicherry university,1001.0,1001.0,Banded
+U1280,portland state university,1001.0,1001.0,Banded
+U1283,rikkyo university,1001.0,1001.0,Banded
+U1363,universiti malaysia perlis,1001.0,1001.0,Banded
+U1387,university of split,1001.0,1001.0,Banded
+U1431,sakarya university,1001.0,1001.0,Banded
+U1747,École Centrale de Lyon,1001.0,1001.0,Banded
+U1752,Universidade Estadual Paulista (Unesp),1001.0,1001.0,Banded
+U1753,Federal University of Rio de Janeiro,1001.0,1001.0,Banded
+U1762,Indian Institute of Technology Guwahati,1001.0,1001.0,Banded
+U1763,Indian Institute of Technology (Indian School of Mines) Dhanbad,1001.0,1001.0,Banded
+U1795,National Institute of Technology Rourkela,1001.0,1001.0,Banded
+U1825,Shahid Beheshti University of Medical Sciences,1001.0,1001.0,Banded
+U1844,Xidian University,1001.0,1001.0,Banded
+U1849,University of Algarve,1001.0,1001.0,Banded
+U1851,"University of the Andes, Colombia",1001.0,1001.0,Banded
+U1853,Arts et Métiers,1001.0,1001.0,Banded
+U1862,Carlos III University of Madrid,1001.0,1001.0,Banded
+U1863,University of Castilla-La Mancha,1001.0,1001.0,Banded
+U1869,University of Chile,1001.0,1001.0,Banded
+U1874,Czech University of Life Sciences Prague (CZU),1001.0,1001.0,Banded
+U1880,Florida Institute of Technology,1001.0,1001.0,Banded
+U1890,"Indian Institute of Science Education and Research, Pune",1001.0,1001.0,Banded
+U1892,University of Indonesia,1001.0,1001.0,Banded
+U1896,Isfahan University of Medical Sciences,1001.0,1001.0,Banded
+U1899,Jaume I University,1001.0,1001.0,Banded
+U1907,Kaohsiung Medical University,1001.0,1001.0,Banded
+U1911,K.N. Toosi University of Technology,1001.0,1001.0,Banded
+U1914,Kyoto Prefectural University of Medicine,1001.0,1001.0,Banded
+U1928,Nanjing Medical University,1001.0,1001.0,Banded
+U1929,National Autonomous University of Mexico,1001.0,1001.0,Banded
+U1935,University of Oviedo,1001.0,1001.0,Banded
+U1942,Reichman University,1001.0,1001.0,Banded
+U1944,Rochester Institute of Technology,1001.0,1001.0,Banded
+U1946,University of Seville,1001.0,1001.0,Banded
+U1951,Siksha ‘O’ Anusandhan,1001.0,1001.0,Banded
+U1953,Technical University of Madrid,1001.0,1001.0,Banded
+U1956,Tokyo Medical University,1001.0,1001.0,Banded
+U1959,University of Trás-os-Montes and Alto Douro,1001.0,1001.0,Banded
+U1961,Urmia University,1001.0,1001.0,Banded
+U1962,"University of Veterinary and Animal Sciences, Lahore",1001.0,1001.0,Banded
+U1964,University of Vigo,1001.0,1001.0,Banded
+U1967,Yıldız Technical University,1001.0,1001.0,Banded
+U1968,University of Zaragoza,1001.0,1001.0,Banded
+U1970,Zhejiang Gongshang University,1001.0,1001.0,Banded
+U1971,University of A Coruña,1001.0,1001.0,Banded
+U1972,"Adam Mickiewicz University, Poznań",1001.0,1001.0,Banded
+U1976,University of Almería,1001.0,1001.0,Banded
+U1979,Babeş-Bolyai University,1001.0,1001.0,Banded
+U1985,Bowling Green State University,1001.0,1001.0,Banded
+U1987,China Pharmaceutical University,1001.0,1001.0,Banded
+U1988,Comenius University in Bratislava,1001.0,1001.0,Banded
+U1993,Dr B.R. Ambedkar National Institute of Technology Jalandhar,1001.0,1001.0,Banded
+U1997,European University of Madrid,1001.0,1001.0,Banded
+U1998,University of Extremadura,1001.0,1001.0,Banded
+U2001,Federal University of Technology Akure,1001.0,1001.0,Banded
+U2005,Fujian Agriculture and Forestry University,1001.0,1001.0,Banded
+U2010,University of Gujrat,1001.0,1001.0,Banded
+U2012,Hakim Sabzevari University,1001.0,1001.0,Banded
+U2013,Hamamatsu University School of Medicine,1001.0,1001.0,Banded
+U2014,Huaqiao University,1001.0,1001.0,Banded
+U2016,Ilmenau University of Technology,1001.0,1001.0,Banded
+U2017,IMT Nord Europe,1001.0,1001.0,Banded
+U2018,Indian Institute of Science Education and Research Kolkata,1001.0,1001.0,Banded
+U2020,Indian Institute of Technology Mandi,1001.0,1001.0,Banded
+U2023,Istanbul University-Cerrahpaşa,1001.0,1001.0,Banded
+U2025,University of Jeddah,1001.0,1001.0,Banded
+U2035,University of Las Palmas de Gran Canaria,1001.0,1001.0,Banded
+U2036,University of León,1001.0,1001.0,Banded
+U2037,Lorestan University,1001.0,1001.0,Banded
+U2041,University of Maragheh,1001.0,1001.0,Banded
+U2042,University of Mazandaran,1001.0,1001.0,Banded
+U2043,Medical University of Bialystok,1001.0,1001.0,Banded
+U2047,Miguel Hernández University of Elche,1001.0,1001.0,Banded
+U2057,Necmettin Erbakan University,1001.0,1001.0,Banded
+U2061,Northwest University,1001.0,1001.0,Banded
+U2062,Oakland University,1001.0,1001.0,Banded
+U2064,University of Pécs,1001.0,1001.0,Banded
+U2066,PMAS Arid Agriculture University Rawalpindi,1001.0,1001.0,Banded
+U2069,Public University of Navarre,1001.0,1001.0,Banded
+U2073,Rowan University,1001.0,1001.0,Banded
+U2074,Sahand University of Technology,1001.0,1001.0,Banded
+U2075,Universidad San Francisco de Quito,1001.0,1001.0,Banded
+U2076,University of Sargodha,1001.0,1001.0,Banded
+U2080,Shahrekord University,1001.0,1001.0,Banded
+U2081,Shahrood University of Technology,1001.0,1001.0,Banded
+U2082,Shanghai Maritime University,1001.0,1001.0,Banded
+U2084,Sidi Mohamed Ben Abdellah University,1001.0,1001.0,Banded
+U2085,University of Social Welfare and Rehabilitation Sciences,1001.0,1001.0,Banded
+U2087,University of South Dakota,1001.0,1001.0,Banded
+U2088,University of the South Pacific,1001.0,1001.0,Banded
+U2089,University of South Wales,1001.0,1001.0,Banded
+U2094,Technical University of Cartagena,1001.0,1001.0,Banded
+U2096,Teesside University,1001.0,1001.0,Banded
+U2100,Toyota Technological Institute,1001.0,1001.0,Banded
+U2113,University of Žilina,1001.0,1001.0,Banded
+U2126,Atılım University,1001.0,1001.0,Banded
+U2128,Autonomous University of Sinaloa,1001.0,1001.0,Banded
+U2130,Bayero University,1001.0,1001.0,Banded
+U2133,University of Botswana,1001.0,1001.0,Banded
+U2135,Instituto Politécnico de Bragança,1001.0,1001.0,Banded
+U2140,University of Burgos,1001.0,1001.0,Banded
+U2141,Cardiff Metropolitan University,1001.0,1001.0,Banded
+U2143,Universidad Católica San Antonio de Murcia (UCAM),1001.0,1001.0,Banded
+U2184,Guru Jambheshwar University of Science and Technology,1001.0,1001.0,Banded
+U2192,Ibn Tofaïl University,1001.0,1001.0,Banded
+U2194,Ilia State University,1001.0,1001.0,Banded
+U2203,Jiangsu Normal University,1001.0,1001.0,Banded
+U2204,The Jikei University School of Medicine,1001.0,1001.0,Banded
+U2219,University of Manouba,1001.0,1001.0,Banded
+U2220,University of Marrakech Cadi Ayyad,1001.0,1001.0,Banded
+U2221,University of Mauritius,1001.0,1001.0,Banded
+U2230,Morgan State University,1001.0,1001.0,Banded
+U2239,National University of Colombia,1001.0,1001.0,Banded
+U2252,Pavol Jozef Šafárik University in Košice,1001.0,1001.0,Banded
+U2255,Polytechnic Institute of Porto,1001.0,1001.0,Banded
+U2259,Port Said University,1001.0,1001.0,Banded
+U2261,University of Puerto Rico,1001.0,1001.0,Banded
+U2263,University Rey Juan Carlos,1001.0,1001.0,Banded
+U2270,Semnan University of Medical Sciences and Health Services,1001.0,1001.0,Banded
+U2279,Sohag University,1001.0,1001.0,Banded
+U2283,South Valley University,1001.0,1001.0,Banded
+U2286,Ştefan cel Mare University of Suceava,1001.0,1001.0,Banded
+U2287,St Marianna University School of Medicine,1001.0,1001.0,Banded
+U2290,University of Sunderland,1001.0,1001.0,Banded
+U2294,Technical University of Crete,1001.0,1001.0,Banded
+U2298,University of Texas Rio Grande Valley,1001.0,1001.0,Banded
+U2330,Yasouj University,1001.0,1001.0,Banded
+U2336,University of Zimbabwe,1001.0,1001.0,Banded
+U2347,University of Anbar,1001.0,1001.0,Banded
+U2434,University of Fortaleza (UNIFOR),1001.0,1001.0,Banded
+U3412,"China University of Geosciences, Beijing",1001.0,1001.0,Banded
+U3413,Creighton University,1001.0,1001.0,Banded
+U3414,Guangxi University,1001.0,1001.0,Banded
+U3415,Hyogo College of Medicine,1001.0,1001.0,Banded
+U3416,Jiangxi University of Finance and Economics,1001.0,1001.0,Banded
+U3417,University of Leoben,1001.0,1001.0,Banded
+U3418,Lusophone University of Humanities and Technologies,1001.0,1001.0,Banded
+U3419,Menoufia University,1001.0,1001.0,Banded
+U3420,SWPS University of Social Sciences and Humanities,1001.0,1001.0,Banded
+U3421,Zhejiang University of Technology,1001.0,1001.0,Banded
+U0256,bandung institute of technology (itb),1201.0,1201.0,Banded
+U0420,czech technical university in prague,1201.0,1201.0,Banded
+U0530,warsaw university of technology,1201.0,1201.0,Banded
+U0570,"university of chemistry and technology, prague",1201.0,1201.0,Banded
+U0596,thammasat university,1201.0,1201.0,Banded
+U0606,national chengchi university,1201.0,1201.0,Banded
+U0615,brno university of technology,1201.0,1201.0,Banded
+U0645,de la salle university,1201.0,1201.0,Banded
+U0651,ritsumeikan university,1201.0,1201.0,Banded
+U0661,university of zagreb,1201.0,1201.0,Banded
+U0669,national chung hsing university,1201.0,1201.0,Banded
+U0708,taras shevchenko national university of kyiv,1201.0,1201.0,Banded
+U0723,university of mumbai,1201.0,1201.0,Banded
+U0725,budapest university of technology and economics,1201.0,1201.0,Banded
+U0733,riga technical university,1201.0,1201.0,Banded
+U0752,vytautas magnus university,1201.0,1201.0,Banded
+U0755,kaunas university of technology,1201.0,1201.0,Banded
+U0757,tokyo university of science,1201.0,1201.0,Banded
+U0765,bangladesh university of engineering and technology,1201.0,1201.0,Banded
+U0785,qassim university,1201.0,1201.0,Banded
+U0827,the catholic university of korea,1201.0,1201.0,Banded
+U0840,university of alicante,1201.0,1201.0,Banded
+U0844,university of bucharest,1201.0,1201.0,Banded
+U0857,chungnam national university,1201.0,1201.0,Banded
+U0867,mendel university in brno,1201.0,1201.0,Banded
+U0868,nagasaki university,1201.0,1201.0,Banded
+U0879,tokyo university of agriculture and technology,1201.0,1201.0,Banded
+U0921,osaka metropolitan university,1201.0,1201.0,Banded
+U0942,university of maribor,1201.0,1201.0,Banded
+U0963,hallym university,1201.0,1201.0,Banded
+U0966,khon kaen university,1201.0,1201.0,Banded
+U0973,prince of songkla university,1201.0,1201.0,Banded
+U1011,"arab academy for science, technology and maritime transport",1201.0,1201.0,Banded
+U1022,canterbury christ church university,1201.0,1201.0,Banded
+U1024,chung yuan christian university,1201.0,1201.0,Banded
+U1025,chungbuk national university,1201.0,1201.0,Banded
+U1027,corvinus university of budapest,1201.0,1201.0,Banded
+U1030,ege university,1201.0,1201.0,Banded
+U1035,gifu university,1201.0,1201.0,Banded
+U1037,gunma university,1201.0,1201.0,Banded
+U1039,harbin engineering university,1201.0,1201.0,Banded
+U1042,hungarian university of agriculture and life sciences,1201.0,1201.0,Banded
+U1050,kangwon national university,1201.0,1201.0,Banded
+U1060,marmara university,1201.0,1201.0,Banded
+U1068,national chung cheng university,1201.0,1201.0,Banded
+U1079,poznan university of technology,1201.0,1201.0,Banded
+U1087,shinshu university,1201.0,1201.0,Banded
+U1089,silesian university of technology,1201.0,1201.0,Banded
+U1090,slovak university of agriculture in nitra,1201.0,1201.0,Banded
+U1093,soonchunhyang university,1201.0,1201.0,Banded
+U1096,srm institute of science and technology,1201.0,1201.0,Banded
+U1105,the hashemite university,1201.0,1201.0,Banded
+U1108,tokushima university,1201.0,1201.0,Banded
+U1147,universitas sebelas maret,1201.0,1201.0,Banded
+U1160,universiti malaysia sarawak (unimas),1201.0,1201.0,Banded
+U1161,universiti malaysia terengganu (umt),1201.0,1201.0,Banded
+U1184,university of seoul,1201.0,1201.0,Banded
+U1202,yokohama national university,1201.0,1201.0,Banded
+U1205,anadolu university,1201.0,1201.0,Banded
+U1235,german university in cairo,1201.0,1201.0,Banded
+U1238,helwan university,1201.0,1201.0,Banded
+U1244,ivan franko national university of lviv,1201.0,1201.0,Banded
+U1248,jeju national university,1201.0,1201.0,Banded
+U1257,king mongkut's university of technology north bangkok,1201.0,1201.0,Banded
+U1268,national dong hwa university,1201.0,1201.0,Banded
+U1275,osmania university,1201.0,1201.0,Banded
+U1298,suranaree university of technology,1201.0,1201.0,Banded
+U1299,tamkang university,1201.0,1201.0,Banded
+U1309,tokai university,1201.0,1201.0,Banded
+U1313,tunghai university,1201.0,1201.0,Banded
+U1345,universidade do estado do rio de janeiro (uerj),1201.0,1201.0,Banded
+U1346,universidade federal da bahia,1201.0,1201.0,Banded
+U1357,universitas pendidikan indonesia,1201.0,1201.0,Banded
+U1364,universiti teknikal malaysia melaka,1201.0,1201.0,Banded
+U1376,university of ostrava,1201.0,1201.0,Banded
+U1377,university of pannonia,1201.0,1201.0,Banded
+U1380,university of primorska,1201.0,1201.0,Banded
+U1391,university of west bohemia,1201.0,1201.0,Banded
+U1396,western michigan university,1201.0,1201.0,Banded
+U1400,yuan ze university,1201.0,1201.0,Banded
+U1428,pontifícia universidade católica do paraná,1201.0,1201.0,Banded
+U1433,shibaura institute of technology,1201.0,1201.0,Banded
+U1436,soongsil university,1201.0,1201.0,Banded
+U1438,state university of malang,1201.0,1201.0,Banded
+U1900,Jawaharlal Nehru Technological University Anantapur (JNTUA),1201.0,1201.0,Banded
+U1932,North China Electric Power University,1201.0,1201.0,Banded
+U1960,University of Tunis El Manar,1201.0,1201.0,Banded
+U1973,AGH University of Krakow,1201.0,1201.0,Banded
+U1974,Aichi Medical University,1201.0,1201.0,Banded
+U1975,Akdeniz University,1201.0,1201.0,Banded
+U1980,Bangladesh Agricultural University (BAU),1201.0,1201.0,Banded
+U1986,University of Cadiz,1201.0,1201.0,Banded
+U1989,Democritus University of Thrace,1201.0,1201.0,Banded
+U2000,Federal University of São Carlos,1201.0,1201.0,Banded
+U2008,Gdańsk University of Technology,1201.0,1201.0,Banded
+U2021,University of Isfahan,1201.0,1201.0,Banded
+U2040,University of Malaga,1201.0,1201.0,Banded
+U2048,Ming Chi University of Technology,1201.0,1201.0,Banded
+U2053,Nagoya City University,1201.0,1201.0,Banded
+U2058,Nicolaus Copernicus University in Toruń,1201.0,1201.0,Banded
+U2068,Poznan University of Medical Sciences,1201.0,1201.0,Banded
+U2077,Semnan University,1201.0,1201.0,Banded
+U2078,University of Sfax,1201.0,1201.0,Banded
+U2079,​Shahid Chamran University of Ahvaz,1201.0,1201.0,Banded
+U2090,Staffordshire University,1201.0,1201.0,Banded
+U2095,University of Technology of Troyes,1201.0,1201.0,Banded
+U2097,Texas State University,1201.0,1201.0,Banded
+U2098,TOBB University of Economics and Technology,1201.0,1201.0,Banded
+U2099,Toyohashi University of Technology (TUT),1201.0,1201.0,Banded
+U2104,USAMV Cluj-Napoca,1201.0,1201.0,Banded
+U2109,University of Wrocław,1201.0,1201.0,Banded
+U2110,Yazd University,1201.0,1201.0,Banded
+U2114,Acharya Nagarjuna University,1201.0,1201.0,Banded
+U2115,Adolfo Ibáñez University,1201.0,1201.0,Banded
+U2117,Universitas Airlangga,1201.0,1201.0,Banded
+U2121,"University of the Andes, Chile",1201.0,1201.0,Banded
+U2123,University of Antioquia,1201.0,1201.0,Banded
+U2124,Ariel University,1201.0,1201.0,Banded
+U2125,Atatürk University,1201.0,1201.0,Banded
+U2127,Austral University of Chile,1201.0,1201.0,Banded
+U2129,Banasthali University,1201.0,1201.0,Banded
+U2131,Bezmiâlem Vakif University,1201.0,1201.0,Banded
+U2132,BINUS University,1201.0,1201.0,Banded
+U2136,University of Brasília,1201.0,1201.0,Banded
+U2137,The British University in Egypt,1201.0,1201.0,Banded
+U2139,Bu-Ali Sina University,1201.0,1201.0,Banded
+U2142,University of Carthage,1201.0,1201.0,Banded
+U2144,Chang Gung University of Science and Technology,1201.0,1201.0,Banded
+U2145,University of Chester,1201.0,1201.0,Banded
+U2146,Chosun University,1201.0,1201.0,Banded
+U2149,Cochin University of Science and Technology,1201.0,1201.0,Banded
+U2150,University of Concepción,1201.0,1201.0,Banded
+U2152,Del Rosario University,1201.0,1201.0,Banded
+U2154,Dokuz Eylül University,1201.0,1201.0,Banded
+U2159,Ehime University,1201.0,1201.0,Banded
+U2160,The University of Electro-Communications,1201.0,1201.0,Banded
+U2161,Erciyes University,1201.0,1201.0,Banded
+U2162,Escuela Superior Politécnica del Litoral,1201.0,1201.0,Banded
+U2163,Universidade Federal do ABC (UFABC),1201.0,1201.0,Banded
+U2164,Federal University of Espírito Santo,1201.0,1201.0,Banded
+U2165,Federal University of Goiás,1201.0,1201.0,Banded
+U2166,Federal University of Lavras,1201.0,1201.0,Banded
+U2167,Universidade Federal do Paraná (UFPR),1201.0,1201.0,Banded
+U2169,Federal University of Rio Grande do Norte (UFRN),1201.0,1201.0,Banded
+U2170,Federal University of Santa Maria,1201.0,1201.0,Banded
+U2171,Federal University of Uberlândia,1201.0,1201.0,Banded
+U2172,Federal University of Viçosa,1201.0,1201.0,Banded
+U2173,Federico Santa María Technical University,1201.0,1201.0,Banded
+U2175,University of La Frontera,1201.0,1201.0,Banded
+U2176,Universitas Gadjah Mada,1201.0,1201.0,Banded
+U2177,Gazi University,1201.0,1201.0,Banded
+U2178,University of Gdańsk,1201.0,1201.0,Banded
+U2179,Gebze Technical University,1201.0,1201.0,Banded
+U2181,Georgia Southern University,1201.0,1201.0,Banded
+U2182,Government College University Lahore,1201.0,1201.0,Banded
+U2185,Gyeongsang National University,1201.0,1201.0,Banded
+U2187,Université Hassan II de Casablanca,1201.0,1201.0,Banded
+U2188,Université Polytechnique Hauts-de-France,1201.0,1201.0,Banded
+U2190,University of Hradec Králové,1201.0,1201.0,Banded
+U2195,University of Ilorin,1201.0,1201.0,Banded
+U2196,Incheon National University,1201.0,1201.0,Banded
+U2197,Indian Institute of Science Education and Research Bhopal,1201.0,1201.0,Banded
+U2198,IPB University,1201.0,1201.0,Banded
+U2205,The John Paul II Catholic University of Lublin,1201.0,1201.0,Banded
+U2206,Kagawa University,1201.0,1201.0,Banded
+U2207,Karabük University,1201.0,1201.0,Banded
+U2209,Kharazmi University,1201.0,1201.0,Banded
+U2211,Kitasato University,1201.0,1201.0,Banded
+U2213,Kyushu Institute of Technology (Kyutech),1201.0,1201.0,Banded
+U2214,University of Lethbridge,1201.0,1201.0,Banded
+U2216,"Lumière University, Lyon 2",1201.0,1201.0,Banded
+U2226,Metropolitan Autonomous University,1201.0,1201.0,Banded
+U2227,Mie University,1201.0,1201.0,Banded
+U2228,Mohammed V University of Rabat,1201.0,1201.0,Banded
+U2229,University of Monastir,1201.0,1201.0,Banded
+U2233,Multimedia University,1201.0,1201.0,Banded
+U2234,Nagaoka University of Technology,1201.0,1201.0,Banded
+U2238,National Chin-Yi University of Technology,1201.0,1201.0,Banded
+U2240,National University of Distance Education (UNED),1201.0,1201.0,Banded
+U2244,National Technical University Kharkiv Polytechnic Institute,1201.0,1201.0,Banded
+U2245,National Technical University of Ukraine – Igor Sikorsky Kyiv Polytechnic Institute,1201.0,1201.0,Banded
+U2246,University of Nigeria Nsukka,1201.0,1201.0,Banded
+U2248,Oles Honchar Dnipro National University,1201.0,1201.0,Banded
+U2249,Opole University of Technology,1201.0,1201.0,Banded
+U2250,Paris Nanterre University,1201.0,1201.0,Banded
+U2251,University of Pau and Pays de l’Adour,1201.0,1201.0,Banded
+U2253,Persian Gulf University,1201.0,1201.0,Banded
+U2256,Pontifical Catholic University of Peru,1201.0,1201.0,Banded
+U2257,Pontifical Catholic University of Valparaíso,1201.0,1201.0,Banded
+U2264,Université Saint-Joseph de Beyrouth,1201.0,1201.0,Banded
+U2265,Saitama Medical University,1201.0,1201.0,Banded
+U2266,Sapporo Medical University,1201.0,1201.0,Banded
+U2267,SASTRA University,1201.0,1201.0,Banded
+U2268,Sathyabama Institute of Science and Technology,1201.0,1201.0,Banded
+U2269,Selçuk University,1201.0,1201.0,Banded
+U2271,Seoul National University of Science and Technology (SeoulTech),1201.0,1201.0,Banded
+U2273,Shahid Bahonar University of Kerman,1201.0,1201.0,Banded
+U2275,University of Shanghai for Science and Technology,1201.0,1201.0,Banded
+U2276,Shiga University of Medical Science,1201.0,1201.0,Banded
+U2277,Showa University,1201.0,1201.0,Banded
+U2280,Université Sorbonne Nouvelle,1201.0,1201.0,Banded
+U2281,University of Sousse,1201.0,1201.0,Banded
+U2285,Sri Venkateswara University,1201.0,1201.0,Banded
+U2292,University of Talca,1201.0,1201.0,Banded
+U2293,University of Tarapacá,1201.0,1201.0,Banded
+U2295,Technical University of Košice,1201.0,1201.0,Banded
+U2296,University of Technology of Compiègne,1201.0,1201.0,Banded
+U2297,Institut Teknologi Sepuluh Nopember,1201.0,1201.0,Banded
+U2299,Tezpur University,1201.0,1201.0,Banded
+U2301,Toho University,1201.0,1201.0,Banded
+U2302,Tokyo University of Marine Science and Technology,1201.0,1201.0,Banded
+U2303,Tomas Bata University in Zlín,1201.0,1201.0,Banded
+U2304,University of Toyama,1201.0,1201.0,Banded
+U2305,Transilvania University of Brașov,1201.0,1201.0,Banded
+U2308,Tzu Chi University,1201.0,1201.0,Banded
+U2309,UNIR – International University of La Rioja,1201.0,1201.0,Banded
+U2310,Unisinos University,1201.0,1201.0,Banded
+U2311,Universiti Tun Hussein Onn Malaysia (UTHM),1201.0,1201.0,Banded
+U2312,University of Valladolid,1201.0,1201.0,Banded
+U2313,Veltech University,1201.0,1201.0,Banded
+U2314,University of Venda,1201.0,1201.0,Banded
+U2315,Vilnius Gediminas Technical University (Vilnius Tech),1201.0,1201.0,Banded
+U2316,"Visvesvaraya National Institute of Technology, Nagpur",1201.0,1201.0,Banded
+U2317,V.N. Karazin Kharkiv National University,1201.0,1201.0,Banded
+U2320,Warsaw University of Life Sciences – SGGW,1201.0,1201.0,Banded
+U2321,University of Western Macedonia,1201.0,1201.0,Banded
+U2323,Wrocław University of Environmental and Life Sciences,1201.0,1201.0,Banded
+U2325,Wuhan Textile University,1201.0,1201.0,Banded
+U2326,Xiangtan University,1201.0,1201.0,Banded
+U2327,Xuzhou Medical University,1201.0,1201.0,Banded
+U2328,Yamagata University,1201.0,1201.0,Banded
+U2329,University of Yamanashi,1201.0,1201.0,Banded
+U2331,Yuriy Fedkovych Chernivtsi National University,1201.0,1201.0,Banded
+U2333,University of Zanjan,1201.0,1201.0,Banded
+U2334,Zanjan University of Medical Sciences,1201.0,1201.0,Banded
+U2337,Université 8 Mai 1945 Guelma,1201.0,1201.0,Banded
+U2339,Abdelmalek Essaâdi University,1201.0,1201.0,Banded
+U2341,Acıbadem University,1201.0,1201.0,Banded
+U2349,Andhra University,1201.0,1201.0,Banded
+U2350,Universidad Andrés Bello (UNAB),1201.0,1201.0,Banded
+U2351,Ankara University,1201.0,1201.0,Banded
+U2355,Arak University,1201.0,1201.0,Banded
+U2370,University of Benin,1201.0,1201.0,Banded
+U2381,Bozok University,1201.0,1201.0,Banded
+U2389,Catholic University of the North,1201.0,1201.0,Banded
+U2401,Université Chouaïb Doukkali,1201.0,1201.0,Banded
+U2408,Damghan University,1201.0,1201.0,Banded
+U2416,El Bosque University,1201.0,1201.0,Banded
+U2439,Université de Gabès,1201.0,1201.0,Banded
+U2448,Hasanuddin University,1201.0,1201.0,Banded
+U2456,Hosei University,1201.0,1201.0,Banded
+U2462,International Hellenic University,1201.0,1201.0,Banded
+U2466,Istanbul Medipol University,1201.0,1201.0,Banded
+U2474,Jianghan University,1201.0,1201.0,Banded
+U2477,Kanazawa Medical University,1201.0,1201.0,Banded
+U2492,Kochi University of Technology,1201.0,1201.0,Banded
+U2494,Universiti Kuala Lumpur,1201.0,1201.0,Banded
+U2499,Lahore College for Women University (LCWU),1201.0,1201.0,Banded
+U2502,L.N. Gumilyov Eurasian National University,1201.0,1201.0,Banded
+U2504,Londrina State University,1201.0,1201.0,Banded
+U2506,University of Lucknow,1201.0,1201.0,Banded
+U2510,Universiti Malaysia Kelantan,1201.0,1201.0,Banded
+U2529,University of Mysore,1201.0,1201.0,Banded
+U2540,National University of San Martín,1201.0,1201.0,Banded
+U2548,"University of the North, Colombia",1201.0,1201.0,Banded
+U2555,Obafemi Awolowo University,1201.0,1201.0,Banded
+U2561,Oran 1 University,1201.0,1201.0,Banded
+U2593,University of the Ryukyus,1201.0,1201.0,Banded
+U2596,Saga University,1201.0,1201.0,Banded
+U2599,"University of Santiago, Chile (USACH)",1201.0,1201.0,Banded
+U2604,Shahed University,1201.0,1201.0,Banded
+U2613,Sofia University,1201.0,1201.0,Banded
+U2626,Technological University of Pereira,1201.0,1201.0,Banded
+U2629,Teikyo University,1201.0,1201.0,Banded
+U2632,Tokat Gaziosmanpaşa University,1201.0,1201.0,Banded
+U2650,"Vignan’s Foundation for Science, Technology and Research",1201.0,1201.0,Banded
+U3014,Khulna University of Engineering and Technology (KUET),1201.0,1201.0,Banded
+U3422,University of Colorado Colorado Springs,1201.0,1201.0,Banded
+U3423,University of Fort Hare,1201.0,1201.0,Banded
+U3424,Fujian Normal University,1201.0,1201.0,Banded
+U3425,Grand Valley State University,1201.0,1201.0,Banded
+U3426,University of North Carolina Wilmington,1201.0,1201.0,Banded
+U3427,Shahid Rajaee Teacher Training University,1201.0,1201.0,Banded
+U3428,Southwest Jiaotong University,1201.0,1201.0,Banded
+U3429,Tshwane University of Technology,1201.0,1201.0,Banded
+U0406,satbayev university,1501.0,1501.0,Banded
+U0597,universitas padjadjaran,1501.0,1501.0,Banded
+U0697,universidad panamericana (up),1501.0,1501.0,Banded
+U0726,diponegoro university,1501.0,1501.0,Banded
+U0783,kasetsart university,1501.0,1501.0,Banded
+U0794,ivane javakhishvili tbilisi state university,1501.0,1501.0,Banded
+U0814,instituto politécnico nacional (ipn),1501.0,1501.0,Banded
+U0841,university of baghdad,1501.0,1501.0,Banded
+U0931,universidad nacional mayor de san marcos,1501.0,1501.0,Banded
+U0956,baku state university,1501.0,1501.0,Banded
+U0979,sophia university,1501.0,1501.0,Banded
+U1049,kagoshima university,1501.0,1501.0,Banded
+U1056,lodz university of technology,1501.0,1501.0,Banded
+U1063,mustansiriyah university,1501.0,1501.0,Banded
+U1091,slovak university of technology in bratislava,1501.0,1501.0,Banded
+U1104,telkom university,1501.0,1501.0,Banded
+U1112,universidad autónoma chapingo,1501.0,1501.0,Banded
+U1159,universiti malaysia sabah (ums),1501.0,1501.0,Banded
+U1170,university of karachi,1501.0,1501.0,Banded
+U1181,university of novi sad,1501.0,1501.0,Banded
+U1193,university of warmia and mazury in olsztyn,1501.0,1501.0,Banded
+U1198,vsb - technical university of ostrava,1501.0,1501.0,Banded
+U1204,alexandru ioan cuza university,1501.0,1501.0,Banded
+U1206,aoyama gakuin university,1501.0,1501.0,Banded
+U1213,benemérita universidad autónoma de puebla,1501.0,1501.0,Banded
+U1218,chaoyang university of technology,1501.0,1501.0,Banded
+U1223,cukurova university,1501.0,1501.0,Banded
+U1228,doshisha university,1501.0,1501.0,Banded
+U1230,escuela politécnica nacional,1501.0,1501.0,Banded
+U1231,feng chia university,1501.0,1501.0,Banded
+U1236,hanoi university of science and technology,1501.0,1501.0,Banded
+U1240,hue university,1501.0,1501.0,Banded
+U1258,kookmin university,1501.0,1501.0,Banded
+U1260,kyoto institute of technology,1501.0,1501.0,Banded
+U1263,meiji university,1501.0,1501.0,Banded
+U1270,national taipei university,1501.0,1501.0,Banded
+U1284,saitama university,1501.0,1501.0,Banded
+U1301,technical university of cluj-napoca,1501.0,1501.0,Banded
+U1302,technical university of liberec,1501.0,1501.0,Banded
+U1341,universidad nacional del litoral,1501.0,1501.0,Banded
+U1351,universidade federal do ceará (ufc),1501.0,1501.0,Banded
+U1358,universitas sumatera utara,1501.0,1501.0,Banded
+U1366,university of basrah,1501.0,1501.0,Banded
+U1370,university of kufa,1501.0,1501.0,Banded
+U1372,university of miskolc,1501.0,1501.0,Banded
+U1378,university of pardubice,1501.0,1501.0,Banded
+U1381,university of rijeka,1501.0,1501.0,Banded
+U1385,university of silesia in katowice,1501.0,1501.0,Banded
+U1397,yamaguchi university,1501.0,1501.0,Banded
+U1417,kwansei gakuin university,1501.0,1501.0,Banded
+U1418,lucian blaga university of sibiu,1501.0,1501.0,Banded
+U1422,naresuan university,1501.0,1501.0,Banded
+U1434,silpakorn university,1501.0,1501.0,Banded
+U1472,universidad michoacana de san nicolás de hidalgo,1501.0,1501.0,Banded
+U1484,universidade do estado de santa catarina,1501.0,1501.0,Banded
+U1491,universitas andalas,1501.0,1501.0,Banded
+U1496,university of craiova,1501.0,1501.0,Banded
+U1500,university of oradea,1501.0,1501.0,Banded
+U2168,Federal University of Pernambuco,1501.0,1501.0,Banded
+U2180,"George Emil Palade University of Medicine, Pharmacy, Science, and Technology of Targu Mures",1501.0,1501.0,Banded
+U2199,I-Shou University,1501.0,1501.0,Banded
+U2202,Izmir Institute of Technology,1501.0,1501.0,Banded
+U2223,Medical University of Silesia in Katowice,1501.0,1501.0,Banded
+U2235,Nagoya Institute of Technology,1501.0,1501.0,Banded
+U2237,National Changhua University of Education,1501.0,1501.0,Banded
+U2242,National Kaohsiung University of Science and Technology,1501.0,1501.0,Banded
+U2247,Ochanomizu University,1501.0,1501.0,Banded
+U2307,University of Tunis,1501.0,1501.0,Banded
+U2319,Walailak University,1501.0,1501.0,Banded
+U2322,West University of Timişoara,1501.0,1501.0,Banded
+U2324,Wrocław University of Science and Technology,1501.0,1501.0,Banded
+U2340,University of Abou Bekr Belkaïd Tlemcen,1501.0,1501.0,Banded
+U2344,Akita University,1501.0,1501.0,Banded
+U2345,Aksaray University,1501.0,1501.0,Banded
+U2346,Alzahra University,1501.0,1501.0,Banded
+U2348,"University of the Andes, Venezuela",1501.0,1501.0,Banded
+U2353,Annamalai University,1501.0,1501.0,Banded
+U2356,Universidad Autónoma de Ciudad Juárez,1501.0,1501.0,Banded
+U2357,Universidad Autónoma de Coahuila,1501.0,1501.0,Banded
+U2358,Universidad Autónoma del Estado de Hidalgo,1501.0,1501.0,Banded
+U2359,Universidad Autónoma del Estado de Mexico (UAEMex),1501.0,1501.0,Banded
+U2360,Universidad Autónoma del Estado de Morelos,1501.0,1501.0,Banded
+U2361,Universidad Autónoma de Nuevo León (UANL),1501.0,1501.0,Banded
+U2362,Universidad Autónoma de Querétaro,1501.0,1501.0,Banded
+U2363,Universidad Autónoma de Yucatán,1501.0,1501.0,Banded
+U2364,Autonomous University of Baja California,1501.0,1501.0,Banded
+U2365,Badji Mokhtar University – Annaba,1501.0,1501.0,Banded
+U2366,Başkent University,1501.0,1501.0,Banded
+U2368,University of Béjaïa,1501.0,1501.0,Banded
+U2374,Bialystok University of Technology,1501.0,1501.0,Banded
+U2376,University of Bío-Bío,1501.0,1501.0,Banded
+U2378,University of Biskra,1501.0,1501.0,Banded
+U2379,Blida 1 University,1501.0,1501.0,Banded
+U2380,Bolu Abant Izzet Baysal University,1501.0,1501.0,Banded
+U2382,University of Brawijaya,1501.0,1501.0,Banded
+U2383,Burapha University,1501.0,1501.0,Banded
+U2385,Bursa Uludağ University,1501.0,1501.0,Banded
+U2388,Catholic University of Brasília,1501.0,1501.0,Banded
+U2392,University of Caxias do Sul,1501.0,1501.0,Banded
+U2393,Ceará State University,1501.0,1501.0,Banded
+U2394,Manisa Celal Bayar University,1501.0,1501.0,Banded
+U2399,Chiba Institute of Technology,1501.0,1501.0,Banded
+U2400,Chinese Culture University,1501.0,1501.0,Banded
+U2402,Chubu University,1501.0,1501.0,Banded
+U2403,Chuo University,1501.0,1501.0,Banded
+U2404,University of Colima,1501.0,1501.0,Banded
+U2405,Comillas Pontifical University,1501.0,1501.0,Banded
+U2406,Communication University of China,1501.0,1501.0,Banded
+U2407,Cracow University of Technology,1501.0,1501.0,Banded
+U2409,University of Dar es Salaam,1501.0,1501.0,Banded
+U2411,Dicle University,1501.0,1501.0,Banded
+U2412,Dokkyo Medical University,1501.0,1501.0,Banded
+U2413,Dumlupinar University,1501.0,1501.0,Banded
+U2414,Dunarea de Jos University of Galati,1501.0,1501.0,Banded
+U2415,EAFIT University,1501.0,1501.0,Banded
+U2417,Erzincan Binali Yıldırım University,1501.0,1501.0,Banded
+U2418,Eskişehir Osmangazi University,1501.0,1501.0,Banded
+U2419,Universidade Estadual do Norte Fluminense Darcy Ribeiro,1501.0,1501.0,Banded
+U2420,Universidade Estadual de Maringá,1501.0,1501.0,Banded
+U2421,Universidade Estadual do Oeste do Paraná (Unioeste),1501.0,1501.0,Banded
+U2422,"Federal University of Agriculture, Abeokuta",1501.0,1501.0,Banded
+U2423,Universidade Federal de Ciências da Saúde de Porto Alegre (UFCSPA),1501.0,1501.0,Banded
+U2424,Federal University of Itajubá,1501.0,1501.0,Banded
+U2425,Universidade Federal de Juiz de Fora,1501.0,1501.0,Banded
+U2426,Universidade Federal do Maranhão (UFMA),1501.0,1501.0,Banded
+U2427,Federal University of Mato Grosso do Sul,1501.0,1501.0,Banded
+U2428,Universidade Federal de Ouro Preto (UFOP),1501.0,1501.0,Banded
+U2429,Federal University of Pará,1501.0,1501.0,Banded
+U2430,Federal Rural University of Pernambuco,1501.0,1501.0,Banded
+U2431,Universidade Federal Rural do Semi-Arido,1501.0,1501.0,Banded
+U2433,Fluminense Federal University,1501.0,1501.0,Banded
+U2435,Université Frères Mentouri Constantine 1,1501.0,1501.0,Banded
+U2436,Universidad de las Fuerzas Armadas – ESPE,1501.0,1501.0,Banded
+U2437,University of Fukui,1501.0,1501.0,Banded
+U2438,Fukuoka University,1501.0,1501.0,Banded
+U2440,Gaziantep University,1501.0,1501.0,Banded
+U2441,Gheorghe Asachi Technical University of Iaşi,1501.0,1501.0,Banded
+U2442,GITAM University,1501.0,1501.0,Banded
+U2444,Grigore T. Popa University of Medicine and Pharmacy,1501.0,1501.0,Banded
+U2445,University of Guadalajara,1501.0,1501.0,Banded
+U2446,University of Guanajuato,1501.0,1501.0,Banded
+U2449,Université Hassan 1er,1501.0,1501.0,Banded
+U2451,University of Havana,1501.0,1501.0,Banded
+U2452,Hellenic Open University,1501.0,1501.0,Banded
+U2457,University of Hyogo,1501.0,1501.0,Banded
+U2458,Ibaraki University,1501.0,1501.0,Banded
+U2459,Universidad Industrial de Santander (UIS),1501.0,1501.0,Banded
+U2461,Inönü University,1501.0,1501.0,Banded
+U2464,Islamic University of Indonesia,1501.0,1501.0,Banded
+U2468,Iwate University,1501.0,1501.0,Banded
+U2470,Jan Evangelista Purkyně University,1501.0,1501.0,Banded
+U2472,Jean Moulin University – Lyon 3,1501.0,1501.0,Banded
+U2476,Kanagawa University,1501.0,1501.0,Banded
+U2478,Kansai University,1501.0,1501.0,Banded
+U2479,Karadeniz Technical University,1501.0,1501.0,Banded
+U2487,King Mongkut’s Institute of Technology Ladkrabang,1501.0,1501.0,Banded
+U2488,Kirikkale University,1501.0,1501.0,Banded
+U2490,Kocaeli University,1501.0,1501.0,Banded
+U2491,Kochi University,1501.0,1501.0,Banded
+U2493,Kogakuin University,1501.0,1501.0,Banded
+U2495,Kyoto Sangyo University,1501.0,1501.0,Banded
+U2496,Ladoke Akintola University of Technology,1501.0,1501.0,Banded
+U2500,Latvia University of Life Sciences and Technologies,1501.0,1501.0,Banded
+U2507,University of Macerata (UNIMC),1501.0,1501.0,Banded
+U2508,Mackenzie Presbyterian University,1501.0,1501.0,Banded
+U2509,Mahasarakham University,1501.0,1501.0,Banded
+U2511,Maria Curie-Skłodowska University (UMCS),1501.0,1501.0,Banded
+U2513,Matej Bel University,1501.0,1501.0,Banded
+U2515,Meijo University,1501.0,1501.0,Banded
+U2516,M’Hamed Bougara University of Boumerdès,1501.0,1501.0,Banded
+U2518,Ming Chuan University,1501.0,1501.0,Banded
+U2519,University of Miyazaki,1501.0,1501.0,Banded
+U2520,University Mohamed Boudiaf of M’Sila,1501.0,1501.0,Banded
+U2522,University of Montenegro,1501.0,1501.0,Banded
+U2525,University of Mosul,1501.0,1501.0,Banded
+U2527,Université Mouloud Mammeri de Tizi-Ouzou,1501.0,1501.0,Banded
+U2528,Muroran Institute of Technology,1501.0,1501.0,Banded
+U2532,National Chiayi University,1501.0,1501.0,Banded
+U2533,National Chi Nan University,1501.0,1501.0,Banded
+U2534,National University of Córdoba,1501.0,1501.0,Banded
+U2536,National Formosa University,1501.0,1501.0,Banded
+U2537,National Ilan University,1501.0,1501.0,Banded
+U2538,National University of Kaohsiung,1501.0,1501.0,Banded
+U2542,National United University,1501.0,1501.0,Banded
+U2546,Nnamdi Azikiwe University,1501.0,1501.0,Banded
+U2553,Universidade Nove de Julho (Uninove),1501.0,1501.0,Banded
+U2554,Nueva Granada Military University,1501.0,1501.0,Banded
+U2557,Oita University,1501.0,1501.0,Banded
+U2560,Ondokuz Mayis University,1501.0,1501.0,Banded
+U2563,Osaka Institute of Technology,1501.0,1501.0,Banded
+U2564,Osaka Medical and Pharmaceutical University,1501.0,1501.0,Banded
+U2565,Ovidius University of Constanța,1501.0,1501.0,Banded
+U2568,Payame Noor University,1501.0,1501.0,Banded
+U2569,Pedagogical and Technological University of Colombia,1501.0,1501.0,Banded
+U2574,University of Pernambuco,1501.0,1501.0,Banded
+U2577,Universidad Politécnica Salesiana,1501.0,1501.0,Banded
+U2578,Polytechnic University of Bucharest,1501.0,1501.0,Banded
+U2579,Polytechnic University of Timişoara,1501.0,1501.0,Banded
+U2580,Pontifical Catholic University of Minas Gerais,1501.0,1501.0,Banded
+U2581,Universidad Pontificia Bolivariana (UPB),1501.0,1501.0,Banded
+U2582,Pontificia Universidad Católica del Ecuador,1501.0,1501.0,Banded
+U2584,Prague University of Economics and Business,1501.0,1501.0,Banded
+U2587,PSG College of Technology,1501.0,1501.0,Banded
+U2588,Recep Tayyip Erdoğan University,1501.0,1501.0,Banded
+U2591,R V College of Engineering,1501.0,1501.0,Banded
+U2592,Ryukoku University,1501.0,1501.0,Banded
+U2594,Rzeszów University of Technology,1501.0,1501.0,Banded
+U2595,University of La Sabana,1501.0,1501.0,Banded
+U2598,San Sebastián University,1501.0,1501.0,Banded
+U2602,University of Science and Technology of Oran Mohamed-Boudiaf,1501.0,1501.0,Banded
+U2603,SGH Warsaw School of Economics,1501.0,1501.0,Banded
+U2605,Shimane University,1501.0,1501.0,Banded
+U2606,Shizuoka University,1501.0,1501.0,Banded
+U2607,University of Shizuoka,1501.0,1501.0,Banded
+U2610,Sichuan University of Science and Engineering,1501.0,1501.0,Banded
+U2611,University of Sistan and Baluchestan,1501.0,1501.0,Banded
+U2612,Sivas Cumhuriyet University,1501.0,1501.0,Banded
+U2614,University of Sonora,1501.0,1501.0,Banded
+U2616,Srinakharinwirot University,1501.0,1501.0,Banded
+U2620,State University of Ponta Grossa,1501.0,1501.0,Banded
+U2621,State University of Santa Cruz,1501.0,1501.0,Banded
+U2622,Süleyman Demirel University,1501.0,1501.0,Banded
+U2624,Tamil Nadu Agricultural University,1501.0,1501.0,Banded
+U2625,Technical University of Sofia,1501.0,1501.0,Banded
+U2628,Universidade Tecnológica Federal do Paraná (UTFPR),1501.0,1501.0,Banded
+U2630,Universiti Teknologi MARA,1501.0,1501.0,Banded
+U2631,Temuco Catholic University,1501.0,1501.0,Banded
+U2633,Tokyo University of Agriculture,1501.0,1501.0,Banded
+U2634,Tokyo City University,1501.0,1501.0,Banded
+U2635,Tokyo Denki University,1501.0,1501.0,Banded
+U2637,Tottori University,1501.0,1501.0,Banded
+U2639,Toyo University,1501.0,1501.0,Banded
+U2643,Uşak University,1501.0,1501.0,Banded
+U2644,Utsunomiya University,1501.0,1501.0,Banded
+U2646,University of Valparaíso,1501.0,1501.0,Banded
+U2647,Van Yüzüncü Yil University,1501.0,1501.0,Banded
+U2649,Vietnam National University (Ho Chi Minh City),1501.0,1501.0,Banded
+U2654,University of West Attica,1501.0,1501.0,Banded
+U2655,Yanshan University,1501.0,1501.0,Banded
+U2656,Yeditepe University,1501.0,1501.0,Banded
+U2658,Zonguldak Bülent Ecevit University,1501.0,1501.0,Banded
+U2897,Federal University of Paraí­ba (UFPB),1501.0,1501.0,Banded
+U3074,Mapúa University,1501.0,1501.0,Banded
+U3430,Universidade Federal do Triângulo Mineiro,1501.0,1501.0,Banded
+U3431,Universidade Federal do Vale do São Francisco,1501.0,1501.0,Banded
+U3432,Federal University of Pelotas,1501.0,1501.0,Banded
+U3433,Federal University of Piauí,1501.0,1501.0,Banded
+U3434,Federal University of the State of Rio de Janeiro (UNIRIO),1501.0,1501.0,Banded
+U3435,Federal University of Vales do Jequitinhonha e Mucuri,1501.0,1501.0,Banded
+U3436,University of Łódź,1501.0,1501.0,Banded
+U3437,University of Passo Fundo (UPF),1501.0,1501.0,Banded
+U3438,Technical University of Loja,1501.0,1501.0,Banded
+U3439,Tokyo University of Pharmacy and Life Sciences,1501.0,1501.0,Banded
+U0003,university of oxford,1.0,1.0,Exact
+U0004,harvard university,2.0,2.0,Exact
+U0005,university of cambridge,3.0,3.0,Exact
+U0006,stanford university,3.0,3.0,Exact
+U1504,Massachusetts Institute of Technology,5.0,5.0,Exact
+U1505,California Institute of Technology,6.0,6.0,Exact
+U0022,princeton university,7.0,7.0,Exact
+U1506,"University of California, Berkeley",8.0,8.0,Exact
+U0023,yale university,9.0,9.0,Exact
+U0002,imperial college london,10.0,10.0,Exact
+U0034,columbia university,11.0,11.0,Exact
+U1507,ETH Zurich,11.0,11.0,Exact
+U1508,The University of Chicago,13.0,13.0,Exact
+U0011,university of pennsylvania,14.0,14.0,Exact
+U0032,johns hopkins university,15.0,15.0,Exact
+U0020,tsinghua university,16.0,16.0,Exact
+U0014,peking university,17.0,17.0,Exact
+U0025,university of toronto,18.0,18.0,Exact
+U1510,National University of Singapore,19.0,19.0,Exact
+U0016,cornell university,20.0,20.0,Exact
+U1509,"University of California, Los Angeles",21.0,21.0,Exact
+U0009,ucl,22.0,22.0,Exact
+U0044,university of michigan-ann arbor,23.0,23.0,Exact
+U1511,New York University,24.0,24.0,Exact
+U0061,duke university,25.0,25.0,Exact
+U0051,northwestern university,26.0,26.0,Exact
+U0076,university of washington,26.0,26.0,Exact
+U0058,carnegie mellon university,28.0,28.0,Exact
+U1512,University of Edinburgh,29.0,29.0,Exact
+U0028,technical university of munich,30.0,30.0,Exact
+U1516,University of Hong Kong,31.0,31.0,Exact
+U1515,"University of California, San Diego",32.0,32.0,Exact
+U1519,LMU Munich,33.0,33.0,Exact
+U1517,University of Melbourne,34.0,34.0,Exact
+U1518,King’s College London,35.0,35.0,Exact
+U1513,"Nanyang Technological University, Singapore",36.0,36.0,Exact
+U1521,London School of Economics and Political Science,37.0,37.0,Exact
+U0114,georgia institute of technology,38.0,38.0,Exact
+U0033,the university of tokyo,39.0,39.0,Exact
+U0038,university of british columbia,40.0,40.0,Exact
+U1514,École Polytechnique Fédérale de Lausanne,41.0,41.0,Exact
+U0063,ku leuven,42.0,42.0,Exact
+U1522,Universität Heidelberg,43.0,43.0,Exact
+U0037,monash university,44.0,44.0,Exact
+U1525,Chinese University of Hong Kong,45.0,45.0,Exact
+U0029,mcgill university,46.0,46.0,Exact
+U1520,Paris Sciences et Lettres – PSL Research University Paris,47.0,47.0,Exact
+U0070,university of illinois at urbana-champaign,48.0,48.0,Exact
+U1523,Karolinska Institute,49.0,49.0,Exact
+U0066,university of texas at austin,50.0,50.0,Exact
+U0039,fudan university,51.0,51.0,Exact
+U0045,shanghai jiao tong university,52.0,52.0,Exact
+U0041,the university of queensland,53.0,53.0,Exact
+U0018,the university of sydney,54.0,54.0,Exact
+U1524,University of Manchester,54.0,54.0,Exact
+U0031,seoul national university,56.0,56.0,Exact
+U1527,Washington University in St Louis,57.0,57.0,Exact
+U0047,the hong kong university of science and technology,58.0,58.0,Exact
+U0157,wageningen university & research,59.0,59.0,Exact
+U0055,university of amsterdam,60.0,60.0,Exact
+U0079,brown university,61.0,61.0,Exact
+U1526,Australian National University,62.0,62.0,Exact
+U0130,"university of california, davis",63.0,63.0,Exact
+U1528,"University of California, Santa Barbara",64.0,64.0,Exact
+U0125,university of southern california,65.0,65.0,Exact
+U0106,utrecht university,66.0,66.0,Exact
+U0048,zhejiang university,67.0,67.0,Exact
+U0050,kyoto university,68.0,68.0,Exact
+U1529,University of North Carolina at Chapel Hill,69.0,69.0,Exact
+U0049,delft university of technology,70.0,70.0,Exact
+U0112,boston university,71.0,71.0,Exact
+U1532,UNSW Sydney,71.0,71.0,Exact
+U1537,Charité - Universitätsmedizin Berlin,73.0,73.0,Exact
+U0135,university of science and technology of china,74.0,74.0,Exact
+U0160,university of groningen,75.0,75.0,Exact
+U0054,university of bristol,76.0,76.0,Exact
+U0142,leiden university,77.0,77.0,Exact
+U1530,Yonsei University (Seoul campus),78.0,78.0,Exact
+U3387,Hong Kong Polytechnic University,79.0,79.0,Exact
+U0158,erasmus university rotterdam,80.0,80.0,Exact
+U0116,university of wisconsin-madison,81.0,81.0,Exact
+U0078,university of glasgow,82.0,82.0,Exact
+U0110,university of zurich,82.0,82.0,Exact
+U0196,emory university,82.0,82.0,Exact
+U0176,mcmaster university,85.0,85.0,Exact
+U1535,Humboldt University of Berlin,86.0,86.0,Exact
+U1538,University of Tübingen,86.0,86.0,Exact
+U1543,University of Adelaide,88.0,88.0,Exact
+U1536,University of Bonn,89.0,89.0,Exact
+U0064,sorbonne university,90.0,90.0,Exact
+U1531,Korea Advanced Institute of Science and Technology (KAIST),91.0,91.0,Exact
+U1540,Free University of Berlin,91.0,91.0,Exact
+U0073,université paris-saclay,93.0,93.0,Exact
+U0161,university of bern,94.0,94.0,Exact
+U0046,institut polytechnique de paris,95.0,95.0,Exact
+U0145,nanjing university,95.0,95.0,Exact
+U0307,"university of california, irvine",95.0,95.0,Exact
+U0248,vanderbilt university,98.0,98.0,Exact
+U0062,city university of hong kong,99.0,99.0,Exact
+U0099,rwth aachen university,99.0,99.0,Exact
+U0131,university of basel,101.0,101.0,Exact
+U1533,University of Minnesota,101.0,101.0,Exact
+U1598,King Abdulaziz University,101.0,101.0,Exact
+U0218,"university of maryland, college park",104.0,104.0,Exact
+U1542,University of Warwick,104.0,104.0,Exact
+U0152,michigan state university,106.0,106.0,Exact
+U0169,ghent university,107.0,107.0,Exact
+U0080,university of birmingham,108.0,108.0,Exact
+U0081,university of southampton,108.0,108.0,Exact
+U0117,university of helsinki,110.0,110.0,Exact
+U3388,University of Montreal,111.0,111.0,Exact
+U1539,Ohio State University (Main campus),112.0,112.0,Exact
+U1546,University of Freiburg,113.0,113.0,Exact
+U0100,university of copenhagen,114.0,114.0,Exact
+U0303,université paris cité,114.0,114.0,Exact
+U1541,University of Sheffield,114.0,114.0,Exact
+U0144,aarhus university,117.0,117.0,Exact
+U0096,university of alberta,118.0,118.0,Exact
+U0075,lund university,119.0,119.0,Exact
+U0254,university of göttingen,119.0,119.0,Exact
+U0221,vrije universiteit amsterdam,121.0,121.0,Exact
+U0141,lancaster university,122.0,122.0,Exact
+U0243,dartmouth college,123.0,123.0,Exact
+U0120,queen mary university of london,124.0,124.0,Exact
+U0137,university of vienna,124.0,124.0,Exact
+U0119,university of oslo,126.0,126.0,Exact
+U1534,Purdue University West Lafayette,127.0,127.0,Exact
+U0083,university of leeds,128.0,128.0,Exact
+U1548,University of Hamburg,128.0,128.0,Exact
+U0108,university of nottingham,130.0,130.0,Exact
+U0077,the university of western australia,131.0,131.0,Exact
+U0267,university of antwerp,131.0,131.0,Exact
+U0088,university of technology sydney,133.0,133.0,Exact
+U0259,case western reserve university,134.0,134.0,Exact
+U0226,university of lausanne,135.0,135.0,Exact
+U0301,georgetown university,136.0,136.0,Exact
+U0189,university of ottawa,137.0,137.0,Exact
+U1563,University of Exeter,137.0,137.0,Exact
+U0129,newcastle university,139.0,139.0,Exact
+U0184,university of york,139.0,139.0,Exact
+U1551,Radboud University Nijmegen,139.0,139.0,Exact
+U1554,University of Auckland,139.0,139.0,Exact
+U1562,University of Würzburg,139.0,139.0,Exact
+U1552,University of Pittsburgh-Pittsburgh campus,144.0,144.0,Exact
+U0230,maastricht university,145.0,145.0,Exact
+U0287,university of cologne,146.0,146.0,Exact
+U0143,rice university,147.0,147.0,Exact
+U0103,uppsala university,148.0,148.0,Exact
+U0320,university of colorado boulder,148.0,148.0,Exact
+U1569,Ulm University,148.0,148.0,Exact
+U0216,university of florida,151.0,151.0,Exact
+U0345,tufts university,151.0,151.0,Exact
+U1544,Penn State (Main campus),151.0,151.0,Exact
+U0238,university of rochester,154.0,154.0,Exact
+U0074,kth royal institute of technology,155.0,155.0,Exact
+U1549,Technical University of Berlin,156.0,156.0,Exact
+U1558,TU Dresden,156.0,156.0,Exact
+U1559,University of Virginia (Main campus),156.0,156.0,Exact
+U1564,Arizona State University (Tempe),156.0,156.0,Exact
+U0171,university of cape town,160.0,160.0,Exact
+U1547,Trinity College Dublin,161.0,161.0,Exact
+U1557,University of Bologna,161.0,161.0,Exact
+U0098,pohang university of science and technology (postech),163.0,163.0,Exact
+U0288,university of leicester,163.0,163.0,Exact
+U0109,technical university of denmark,166.0,166.0,Exact
+U1591,Southern University of Science and Technology (SUSTech),166.0,166.0,Exact
+U1579,Medical University of Graz,168.0,168.0,Exact
+U1583,"Northeastern University, US",168.0,168.0,Exact
+U1553,Sungkyunkwan University (SKKU),170.0,170.0,Exact
+U1560,Université Catholique de Louvain,170.0,170.0,Exact
+U1570,Indiana University,170.0,170.0,Exact
+U0195,wuhan university,173.0,173.0,Exact
+U0280,ulsan national institute of science and technology (unist),174.0,174.0,Exact
+U0134,macquarie university,175.0,175.0,Exact
+U0128,stockholm university,176.0,176.0,Exact
+U0166,university of liverpool,176.0,176.0,Exact
+U0300,huazhong university of science and technology,176.0,176.0,Exact
+U1565,University of Mannheim,179.0,179.0,Exact
+U1556,University of Arizona,180.0,180.0,Exact
+U0154,texas a&m university,181.0,181.0,Exact
+U1555,University of Barcelona,182.0,182.0,Exact
+U1561,Scuola Normale Superiore di Pisa,183.0,183.0,Exact
+U1572,Autonomous University of Barcelona,183.0,183.0,Exact
+U1568,University of Münster,185.0,185.0,Exact
+U1585,Pompeu Fabra University,186.0,186.0,Exact
+U0068,national taiwan university (ntu),187.0,187.0,Exact
+U0186,cardiff university,187.0,187.0,Exact
+U1550,Karlsruhe Institute of Technology,189.0,189.0,Exact
+U1573,Friedrich Schiller University Jena,189.0,189.0,Exact
+U1545,University of Massachusetts,191.0,191.0,Exact
+U0237,university of aberdeen,192.0,192.0,Exact
+U0394,"university of california, santa cruz",192.0,192.0,Exact
+U0324,university of miami,194.0,194.0,Exact
+U1580,Medical University of Vienna,194.0,194.0,Exact
+U0338,sichuan university,196.0,196.0,Exact
+U1567,University of Erlangen-Nuremberg,196.0,196.0,Exact
+U0089,durham university,198.0,198.0,Exact
+U0172,university of reading,198.0,198.0,Exact
+U1587,Queen’s University Belfast,198.0,198.0,Exact
+U0001,massachusetts institute of technology (mit),,,Missing
+U0007,eth zurich - swiss federal institute of technology,,,Missing
+U0008,national university of singapore (nus),,,Missing
+U0010,california institute of technology (caltech),,,Missing
+U0012,"university of california, berkeley (ucb)",,,Missing
+U0013,the university of melbourne,,,Missing
+U0015,"nanyang technological university, singapore (ntu)",,,Missing
+U0017,the university of hong kong,,,Missing
+U0019,the university of new south wales (unsw sydney),,,Missing
+U0021,university of chicago,,,Missing
+U0024,université psl,,,Missing
+U0026,epfl,,,Missing
+U0027,the university of edinburgh,,,Missing
+U0030,the australian national university,,,Missing
+U0035,the university of manchester,,,Missing
+U0036,the chinese university of hong kong (cuhk),,,Missing
+U0040,king's college london,,,Missing
+U0042,"university of california, los angeles (ucla)",,,Missing
+U0043,new york university (nyu),,,Missing
+U0052,the london school of economics and political science (lse),,,Missing
+U0053,kaist - korea advanced institute of science & technology,,,Missing
+U0056,yonsei university,,,Missing
+U0057,the hong kong polytechnic university,,,Missing
+U0059,ludwig-maximilians-universität münchen,,,Missing
+U0060,universiti malaya (um),,,Missing
+U0065,the university of auckland,,,Missing
+U0069,the university of warwick,,,Missing
+U0071,universidad de buenos aires (uba),,,Missing
+U0072,"university of california, san diego (ucsd)",,,Missing
+U0082,the university of adelaide,,,Missing
+U0084,ruprecht-karls-universität heidelberg,,,Missing
+U0085,tokyo institute of technology (tokyo tech),,,Missing
+U0087,"trinity college dublin, the university of dublin",,,Missing
+U0090,pennsylvania state university,,,Missing
+U0091,purdue university,,,Missing
+U0092,universidade de são paulo,,,Missing
+U0093,pontificia universidad católica de chile (uc),,,Missing
+U0094,lomonosov moscow state university,,,Missing
+U0095,universidad nacional autónoma de méxico (unam),,,Missing
+U0097,freie universitaet berlin,,,Missing
+U0101,king fahd university of petroleum & minerals,,,Missing
+U0102,"kit, karlsruhe institute of technology",,,Missing
+U0105,the university of sheffield,,,Missing
+U0118,indian institute of technology bombay (iitb),,,Missing
+U0124,sungkyunkwan university(skku),,,Missing
+U0126,humboldt-universität zu berlin,,,Missing
+U0133,alma mater studiorum - university of bologna,,,Missing
+U0138,universiti kebangsaan malaysia (ukm),,,Missing
+U0140,universidad de chile,,,Missing
+U0146,universiti sains malaysia (usm),,,Missing
+U0147,technische universität berlin (tu berlin),,,Missing
+U0148,universiti putra malaysia (upm),,,Missing
+U0149,king abdulaziz university (kau),,,Missing
+U0150,indian institute of technology delhi (iitd),,,Missing
+U0156,"university of north carolina, chapel hill",,,Missing
+U0159,université de montréal,,,Missing
+U0165,universitat de barcelona,,,Missing
+U0170,the university of exeter,,,Missing
+U0175,universitat autònoma de barcelona,,,Missing
+U0177,washington university in st. louis,,,Missing
+U0178,"university of california, santa barbara (ucsb)",,,Missing
+U0179,"the university of newcastle, australia (uon)",,,Missing
+U0180,universidad de los andes,,,Missing
+U0181,universiti teknologi malaysia,,,Missing
+U0183,hamad bin khalifa university,,,Missing
+U0185,tecnológico de monterrey,,,Missing
+U0190,technische universität wien,,,Missing
+U0191,universität hamburg,,,Missing
+U0193,queen's university at kingston,,,Missing
+U0198,universidad autónoma de madrid,,,Missing
+U0200,arizona state university,,,Missing
+U0203,université catholique de louvain (uclouvain),,,Missing
+U0204,university of minnesota twin cities,,,Missing
+U0205,ecole des ponts paristech,,,Missing
+U0206,queen's university belfast,,,Missing
+U0207,universitas indonesia,,,Missing
+U0208,the ohio state university,,,Missing
+U0212,albert-ludwigs-universitaet freiburg,,,Missing
+U0213,queensland university of technology (qut),,,Missing
+U0220,universidad nacional de colombia,,,Missing
+U0222,eberhard karls universität tübingen,,,Missing
+U0223,indian institute of technology kharagpur (iit-kgp),,,Missing
+U0224,friedrich-alexander-universität erlangen-nürnberg,,,Missing
+U0227,indian institute of technology madras (iitm),,,Missing
+U0228,rheinische friedrich-wilhelms-universität bonn,,,Missing
+U0231,universite libre de bruxelles,,,Missing
+U0232,universidade estadual de campinas (unicamp),,,Missing
+U0234,technische universität dresden,,,Missing
+U0236,università di padova,,,Missing
+U0239,gadjah mada university,,,Missing
+U0241,politecnico di torino,,,Missing
+U0250,american university of beirut (aub),,,Missing
+U0251,taylor's university,,,Missing
+U0261,canadian university dubai,,,Missing
+U0262,university of canterbury | te whare wananga o waitaha,,,Missing
+U0263,indian institute of technology kanpur (iitk),,,Missing
+U0265,ucsi university,,,Missing
+U0266,universitat pompeu fabra (barcelona),,,Missing
+U0268,university of witwatersrand,,,Missing
+U0270,universiti teknologi petronas (utp),,,Missing
+U0272,radboud university,,,Missing
+U0276,university of massachusetts amherst,,,Missing
+U0277,university of pittsburgh,,,Missing
+U0279,vrije universiteit brussel (vub),,,Missing
+U0281,the hebrew university of jerusalem,,,Missing
+U0283,université paris 1 panthéon-sorbonne,,,Missing
+U0284,southern university of science and technology,,,Missing
+U0286,universidad carlos iii de madrid (uc3m),,,Missing
+U0293,the university of arizona,,,Missing
+U0295,xian jiaotong university,,,Missing
+U0297,university of virginia,,,Missing
+U0298,bauman moscow state technical university,,,Missing
+U0305,universidade federal do rio de janeiro,,,Missing
+U0308,airlangga university,,,Missing
+U0309,goethe-university frankfurt am main,,,Missing
+U0310,universität innsbruck,,,Missing
+U0314,universität stuttgart,,,Missing
+U0316,rudn university,,,Missing
+U0317,shandong university,,,Missing
+U0321,l.n. gumilyov eurasian national university (enu),,,Missing
+U0323,universidad politécnica de madrid (upm),,,Missing
+U0325,university of southern denmark (sdu),,,Missing
+U0326,daegu gyeongbuk institute of science and technology (dgist),,,Missing
+U0329,rutgers universitynew brunswick,,,Missing
+U0333,university of east anglia (uea),,,Missing
+U0335,indian institute of technology roorkee (iitr),,,Missing
+U0344,indian institute of technology guwahati (iitg),,,Missing
+U0348,university of naples - federico ii,,,Missing
+U0349,university of victoria (uvic),,,Missing
+U0353,national university of sciences and technology (nust) islamabad,,,Missing
+U0355,indiana university bloomington,,,Missing
+U0360,pontificia universidad católica del perú,,,Missing
+U0365,saint petersburg state university,,,Missing
+U0366,university of illinois at chicago (uic),,,Missing
+U0367,westfälische wilhelms-universität münster,,,Missing
+U0369,university of jordan,,,Missing
+U0370,university of tehran,,,Missing
+U0373,universitat politècnica de catalunya · barcelonatech (upc),,,Missing
+U0378,pontificia universidad javeriana,,,Missing
+U0380,technische universität bergakademie freiberg,,,Missing
+U0386,universiti brunei darussalam (ubd),,,Missing
+U0387,belarusian state university,,,Missing
+U0388,universidade nova de lisboa,,,Missing
+U0389,università vita-salute san raffaele,,,Missing
+U0390,university of cyprus (ucy),,,Missing
+U0395,"university of rome ""tor vergata""",,,Missing
+U0396,northeastern university,,,Missing
+U0397,ruhr-universität bochum,,,Missing
+U0399,université de liège,,,Missing
+U0401,kazan (volga region) federal university,,,Missing
+U0405,institut national des sciences appliquées de lyon (insa),,,Missing
+U0407,usi - università della svizzera italiana,,,Missing
+U0410,hse university,,,Missing
+U0411,the american university in cairo,,,Missing
+U0412,auckland university of technology (aut),,,Missing
+U0414,yeshiva university,,,Missing
+U0417,technion - israel institute of technology,,,Missing
+U0419,bogaziçi university,,,Missing
+U0426,ipb university (a.k.a. bogor agricultural university),,,Missing
+U0428,julius-maximilians-universität würzburg,,,Missing
+U0432,tomsk state university,,,Missing
+U0434,ajman university,,,Missing
+U0435,ie university,,,Missing
+U0438,universitat politècnica de valència,,,Missing
+U0440,singapore university of technology and design,,,Missing
+U0441,università degli studi di pavia,,,Missing
+U0442,colorado state university,,,Missing
+U0443,novosibirsk state university,,,Missing
+U0444,università cattolica del sacro cuore,,,Missing
+U0446,justus-liebig-university giessen,,,Missing
+U0447,universitat de valencia,,,Missing
+U0450,université de montpellier,,,Missing
+U0452,beihang university (former buaa),,,Missing
+U0456,moscow institute of physics and technology (mipt / moscow phystech),,,Missing
+U0457,umea university,,,Missing
+U0458,université de strasbourg,,,Missing
+U0460,"stony brook university, state university of new york",,,Missing
+U0461,universidad de santiago de chile (usach),,,Missing
+U0463,universidad de sevilla,,,Missing
+U0466,universität konstanz,,,Missing
+U0468,university at buffalo suny,,,Missing
+U0472,"essex, university of",,,Missing
+U0473,johannes kepler university linz,,,Missing
+U0476,universität potsdam,,,Missing
+U0479,indian institute of technology indore (iit indore),,,Missing
+U0480,royal holloway university of london,,,Missing
+U0482,pontificia universidad católica argentina,,,Missing
+U0483,"the university of tennessee, knoxville",,,Missing
+U0484,china agricultural university,,,Missing
+U0485,american university of ras al khaimah ( aurak ),,,Missing
+U0487,universität mannheim,,,Missing
+U0488,university of hawai?i at manoa,,,Missing
+U0490,chung-ang university (cau),,,Missing
+U0493,unesp,,,Missing
+U0495,central queensland university (cquniversity australia),,,Missing
+U0497,jilin university,,,Missing
+U0498,national research nuclear university mephi (moscow engineering physics institute),,,Missing
+U0499,universidad de costa rica,,,Missing
+U0501,khalifa university of science and technology,,,Missing
+U0504,johannes gutenberg universität mainz,,,Missing
+U0513,imam abdulrahman bin faisal university (iau) (formerly university of dammam),,,Missing
+U0514,prince mohammad bin fahd university,,,Missing
+U0515,university of milano-bicocca,,,Missing
+U0518,inti international university,,,Missing
+U0520,sabanci university,,,Missing
+U0522,ural federal university - urfu,,,Missing
+U0525,universidad austral,,,Missing
+U0526,universität jena,,,Missing
+U0528,universität leipzig,,,Missing
+U0532,indian institute of technology (bhu) varanasi,,,Missing
+U0535,universidad nacional de la plata (unlp),,,Missing
+U0536,lahore university of management sciences (lums),,,Missing
+U0537,northumbria university at newcastle,,,Missing
+U0540,applied science university - bahrain,,,Missing
+U0541,hitotsubashi university,,,Missing
+U0543,université de fribourg,,,Missing
+U0545,universidad de zaragoza,,,Missing
+U0546,universidad pontificia comillas,,,Missing
+U0548,tashkent institute of irrigation and agricultural mechanization engineers - national research university (tiiame-nru),,,Missing
+U0551,university of windsor,,,Missing
+U0553,university of tabriz,,,Missing
+U0555,jordan university of science & technology,,,Missing
+U0556,universiti utara malaysia (uum),,,Missing
+U0558,university ulm,,,Missing
+U0559,peter the great st. petersburg polytechnic university,,,Missing
+U0560,ulster university,,,Missing
+U0561,umm al-qura university,,,Missing
+U0562,université claude bernard lyon 1,,,Missing
+U0563,universiti teknologi brunei,,,Missing
+U0565,nanjing university of science and technology,,,Missing
+U0569,mgimo university,,,Missing
+U0576,national research tomsk polytechnic university,,,Missing
+U0579,universidad adolfo ibáñez,,,Missing
+U0581,jinan university (china),,,Missing
+U0582,management and science university,,,Missing
+U0583,politecnico di bari,,,Missing
+U0584,université paul sabatier toulouse iii,,,Missing
+U0585,institut teknologi sepuluh nopember (its surabaya),,,Missing
+U0586,singapore management university,,,Missing
+U0589,the university of georgia,,,Missing
+U0590,universiti teknologi mara - uitm,,,Missing
+U0594,universität bremen,,,Missing
+U0595,itmo university,,,Missing
+U0600,university of texas dallas,,,Missing
+U0601,ca' foscari university of venice,,,Missing
+U0604,"kingston university, london",,,Missing
+U0605,manchester metropolitan university (mmu),,,Missing
+U0607,paris lodron university of salzburg,,,Missing
+U0609,universität des saarlandes,,,Missing
+U0612,university of south carolina,,,Missing
+U0613,american university of the middle east,,,Missing
+U0614,asia pacific university of technology and innovation (apu),,,Missing
+U0616,christian-albrechts-university zu kiel,,,Missing
+U0618,pontifícia universidade católica do rio de janeiro,,,Missing
+U0619,taipei medical university (tmu),,,Missing
+U0622,abo akademi university,,,Missing
+U0623,american university in dubai,,,Missing
+U0624,auezov south kazakhstan university (sku),,,Missing
+U0627,renmin (people's) university of china,,,Missing
+U0628,tallinn university of technology (taltech),,,Missing
+U0629,universidad de alcalá,,,Missing
+U0630,universidad de palermo (up),,,Missing
+U0632,university of tromsø the arctic university of norway,,,Missing
+U0633,al ain university,,,Missing
+U0637,china university of petroleum,,,Missing
+U0638,far eastern federal university,,,Missing
+U0642,universidad de concepción,,,Missing
+U0650,oregon state university,,,Missing
+U0652,soochow university,,,Missing
+U0653,symbiosis international (deemed university),,,Missing
+U0655,"university of missouri, columbia",,,Missing
+U0657,hufs - hankuk (korea) university of foreign studies,,,Missing
+U0659,universidade de santiago de compostela,,,Missing
+U0663,city university of new york,,,Missing
+U0664,comenius university bratislava,,,Missing
+U0666,international islamic university malaysia (iium),,,Missing
+U0667,iscte - instituto universitario de lisboa,,,Missing
+U0670,"sofia university ""st. kliment ohridski""",,,Missing
+U0672,universidad de la república (udelar),,,Missing
+U0675,abai kazakh national pedagogical university,,,Missing
+U0677,karl-franzens-universitaet graz,,,Missing
+U0678,kazakh national agrarian university kaznau,,,Missing
+U0679,martin-luther-universität halle-wittenberg,,,Missing
+U0680,universidade federal de minas gerais,,,Missing
+U0682,china university of mining and technology,,,Missing
+U0684,indian institute of technology hyderabad,,,Missing
+U0686,prince sultan university,,,Missing
+U0690,university of new brunswick,,,Missing
+U0691,chandigarh university,,,Missing
+U0692,norwegian university of life sciences (umb),,,Missing
+U0693,pakistan institute of engineering and applied sciences (pieas),,,Missing
+U0695,universidad central de venezuela,,,Missing
+U0696,universidad de la habana,,,Missing
+U0698,universidade federal de são paulo,,,Missing
+U0703,beijing university of chemical technology,,,Missing
+U0704,dongguk university,,,Missing
+U0706,national institute of technology tiruchirappalli,,,Missing
+U0709,university of nebraska - lincoln,,,Missing
+U0710,university of oklahoma,,,Missing
+U0711,ahlia university,,,Missing
+U0714,czech university of life sciences in prague,,,Missing
+U0716,"lingnan university, hong kong",,,Missing
+U0718,plekhanov russian university of economics,,,Missing
+U0719,saint joseph university of beirut (usj),,,Missing
+U0720,the national university of science and technology misis,,,Missing
+U0722,université de franche-comté,,,Missing
+U0728,effat university,,,Missing
+U0731,lanzhou university,,,Missing
+U0734,université de lille,,,Missing
+U0735,université de rennes 1 (university of rennes),,,Missing
+U0738,universitat rovira i virgili,,,Missing
+U0739,université côte d\'azur,,,Missing
+U0741,altai state university,,,Missing
+U0743,universidad católica andres bello,,,Missing
+U0744,universidad de montevideo (um),,,Missing
+U0745,universität regensburg,,,Missing
+U0750,v. n. karazin kharkiv national university,,,Missing
+U0754,instituto tecnológico autónomo de méxico (itam),,,Missing
+U0756,technische universität braunschweig,,,Missing
+U0758,universidade de brasília,,,Missing
+U0759,universita' politecnica delle marche,,,Missing
+U0763,university of messina (unime),,,Missing
+U0764,"adam mickiewicz university, poznan",,,Missing
+U0768,university of cincinnati,,,Missing
+U0769,"university of colorado, denver",,,Missing
+U0774,china university of geosciences,,,Missing
+U0775,colegio de méxico,,,Missing
+U0776,holy spirit university of kaslik,,,Missing
+U0777,universidad del rosario,,,Missing
+U0778,université de tunis el manar,,,Missing
+U0780,university of pecs,,,Missing
+U0782,babes-bolyai university,,,Missing
+U0784,national university of uzbekistan,,,Missing
+U0788,universidad de belgrano,,,Missing
+U0792,zürcher hochschule winterthur,,,Missing
+U0796,new jersey institute of technology (njit),,,Missing
+U0797,sechenov university,,,Missing
+U0798,universidad de antioquia,,,Missing
+U0800,university of new mexico,,,Missing
+U0801,vellore institute of technology (vit),,,Missing
+U0803,al-ahliyya amman university,,,Missing
+U0805,ankara üniversitesi,,,Missing
+U0806,asia university taiwan,,,Missing
+U0807,beijing university of technology,,,Missing
+U0808,belarusian national technical university (bntu),,,Missing
+U0811,gdansk university of technology,,,Missing
+U0812,huazhong agricultural university,,,Missing
+U0813,immanuel kant baltic federal university,,,Missing
+U0816,khoja akhmet yassawi international kazakh-turkish university,,,Missing
+U0821,"national technical university of ukraine ""igor sikorsky kyiv polytechnic institute""",,,Missing
+U0822,ocean university of china,,,Missing
+U0823,philipps-universität marburg,,,Missing
+U0824,pontificia universidad católica de valparaíso,,,Missing
+U0825,rutgers universitynewark,,,Missing
+U0830,universidad anáhuac méxico,,,Missing
+U0831,universidad iberoamericana ibero,,,Missing
+U0832,universidad san francisco de quito (usfq),,,Missing
+U0833,università degli studi di perugia,,,Missing
+U0834,universitas brawijaya,,,Missing
+U0835,universität duisburg-essen,,,Missing
+U0836,universität rostock,,,Missing
+U0837,université de lorraine,,,Missing
+U0842,university of bari,,,Missing
+U0845,university of hyderabad,,,Missing
+U0846,university of oregon,,,Missing
+U0847,university of petroleum and energy studies (upes),,,Missing
+U0850,university of ulsan,,,Missing
+U0852,agh university of science and technology,,,Missing
+U0853,al-quds university,,,Missing
+U0854,applied science private university - jordan,,,Missing
+U0862,gulf university for science and technology,,,Missing
+U0865,karaganda state technical university,,,Missing
+U0866,kyrgyz russian slavic university,,,Missing
+U0869,northwest agriculture and forestry university,,,Missing
+U0873,pavol jozef afárik university in koice,,,Missing
+U0874,poznan university of life sciences,,,Missing
+U0875,shahid beheshti university (sbu),,,Missing
+U0876,swarthmore college,,,Missing
+U0878,thapar institute of engineering & technology,,,Missing
+U0880,universidad de valladolid,,,Missing
+U0881,universidad ort uruguay,,,Missing
+U0882,universita' degli studi di ferrara,,,Missing
+U0883,université de nantes,,,Missing
+U0884,université de sherbrooke,,,Missing
+U0886,university at albany suny,,,Missing
+U0887,university duesseldorf,,,Missing
+U0888,university of dubai,,,Missing
+U0889,university of gdansk,,,Missing
+U0893,university of mississippi,,,Missing
+U0895,university of santo tomas,,,Missing
+U0897,university of wroclaw,,,Missing
+U0899,vilnius gediminas technical university,,,Missing
+U0901,yildiz technical university,,,Missing
+U0904,beijing university of posts and telecommunications,,,Missing
+U0905,catania university,,,Missing
+U0906,future university in egypt,,,Missing
+U0907,gazi üniversitesi,,,Missing
+U0908,georgian technical university,,,Missing
+U0909,german jordanian university,,,Missing
+U0910,imam mohammad ibn saud islamic university  imsiu,,,Missing
+U0912,karaganda buketov university,,,Missing
+U0913,kyrgyz-turkish manas university,,,Missing
+U0916,"manipal academy of higher education, manipal, karnataka, india",,,Missing
+U0917,michigan technological university,,,Missing
+U0918,national research saratov state university,,,Missing
+U0919,nicolaus copernicus university,,,Missing
+U0922,princess sumaya university for technology,,,Missing
+U0923,ritsumeikan asia pacific university,,,Missing
+U0925,south ural state university (national research university),,,Missing
+U0926,universidad católica del uruguay (ucu),,,Missing
+U0927,"universidad central ""marta abreu"" de las villas",,,Missing
+U0928,universidad eafit,,,Missing
+U0929,universidad externado de colombia,,,Missing
+U0930,universidad nacional de córdoba - unc,,,Missing
+U0932,universidad pontificia bolivariana,,,Missing
+U0933,universidade católica portuguesa - ucp,,,Missing
+U0934,universidade de vigo,,,Missing
+U0935,università degli studi della tuscia (university of tuscia),,,Missing
+U0936,università degli studi roma tre,,,Missing
+U0937,"university of alabama, birmingham",,,Missing
+U0941,university of lodz,,,Missing
+U0947,university paris 2 panthéon-assas,,,Missing
+U0948,viet nam national university ho chi minh city (vnu-hcm),,,Missing
+U0950,wroclaw university of science and technology (wrust),,,Missing
+U0951,yerevan state university,,,Missing
+U0953,almaty technological university,,,Missing
+U0957,bina nusantara university (binus),,,Missing
+U0960,d. serikbayev east kazakhstan state technical university,,,Missing
+U0962,financial university under the government of the russian federation,,,Missing
+U0965,instituto tecnológico de buenos aires (itba),,,Missing
+U0967,king mongkut's university of technology thonburi,,,Missing
+U0971,northern borders university,,,Missing
+U0972,pontificia universidad católica del ecuador (puce),,,Missing
+U0974,"queen margaret university , edinburgh",,,Missing
+U0976,riga stradins university,,,Missing
+U0977,s.d. asfendiyarov kazakh national medical university,,,Missing
+U0978,saveetha institute of medical and technical sciences (deemed to be university),,,Missing
+U0980,southern federal university,,,Missing
+U0981,st. louis university,,,Missing
+U0983,the university of lahore,,,Missing
+U0984,universidad autónoma metropolitana (uam),,,Missing
+U0985,universidad de córdoba - españa,,,Missing
+U0986,universidad de la sabana,,,Missing
+U0987,universidad de león,,,Missing
+U0988,universidad de los andes - chile,,,Missing
+U0989,universidad de san andrés - udesa,,,Missing
+U0990,universidad nacional de rosario (unr),,,Missing
+U0991,universidad técnica federico santa maría (usm),,,Missing
+U0992,universidad torcuato di tella,,,Missing
+U0993,université sorbonne paris nord,,,Missing
+U0994,université toulouse 1 capitole,,,Missing
+U0995,universiti pendidikan sultan idris (upsi),,,Missing
+U0996,university of bahrain,,,Missing
+U1002,university of south bohemia,,,Missing
+U1003,university of the western cape,,,Missing
+U1009,amrita vishwa vidyapeetham,,,Missing
+U1013,azerbaijan state oil and industry university,,,Missing
+U1014,azerbaijan state university of economics,,,Missing
+U1018,binghamton university suny,,,Missing
+U1020,brac university,,,Missing
+U1021,brigham young university,,,Missing
+U1023,chang jung christian university,,,Missing
+U1026,college of william and mary,,,Missing
+U1028,cracow university of technology (politechnika krakowska),,,Missing
+U1029,dankook university,,,Missing
+U1031,escuela superior politécnica del litoral (espol),,,Missing
+U1032,fordham university,,,Missing
+U1033,gebze technical university (gtu),,,Missing
+U1038,guru gobind singh indraprastha university,,,Missing
+U1040,hohai university,,,Missing
+U1043,indiana universitypurdue university indianapolis,,,Missing
+U1044,international christian university,,,Missing
+U1045,international islamic university islamabad (iiu),,,Missing
+U1046,islamic university of madinah,,,Missing
+U1047,"iteso, universidad jesuita de guadalajara",,,Missing
+U1051,kazakh-british technical university,,,Missing
+U1052,kent state university,,,Missing
+U1053,kyushu institute of technology,,,Missing
+U1055,lobachevsky university,,,Missing
+U1057,london metropolitan university,,,Missing
+U1058,loyola university chicago,,,Missing
+U1062,multimedia university (mmu),,,Missing
+U1064,mutah university,,,Missing
+U1065,mykolas romeris university,,,Missing
+U1067,narxoz university,,,Missing
+U1069,"national technical university ""kharkiv polytechnic institute""",,,Missing
+U1070,national university of kyiv-mohyla academy (naukma),,,Missing
+U1071,njsc kimep university,,,Missing
+U1072,northern arizona university,,,Missing
+U1073,northwest university (china),,,Missing
+U1074,o.p. jindal global university,,,Missing
+U1075,ohio university,,,Missing
+U1077,paul valéry university montpellier,,,Missing
+U1078,pontifícia universidade católica de são paulo,,,Missing
+U1080,rochester institute of technology (rit),,,Missing
+U1081,russian presidential academy of national economy and public administration,,,Missing
+U1082,saint petersburg electrotechnical university etu-leti,,,Missing
+U1083,saint-petersburg mining university,,,Missing
+U1084,samara national research university (samara university),,,Missing
+U1088,"siberian federal university, sibfu",,,Missing
+U1092,sohar university,,,Missing
+U1094,southern methodist university,,,Missing
+U1095,southwest university,,,Missing
+U1098,sungshin women's university,,,Missing
+U1099,széchenyi istván university,,,Missing
+U1102,technical university of kosice,,,Missing
+U1103,tecnológico de costa rica -tec,,,Missing
+U1106,the university of northampton,,,Missing
+U1107,the university of texas at arlington,,,Missing
+U1110,universidad andrés bello,,,Missing
+U1111,universidad austral de chile,,,Missing
+U1113,universidad autónoma de nuevo león,,,Missing
+U1114,universidad autónoma del estado de méxico (uaemex),,,Missing
+U1115,universidad de castilla-la mancha,,,Missing
+U1116,universidad de guadalajara (udg),,,Missing
+U1117,universidad de la frontera (ufro),,,Missing
+U1118,universidad de las américas puebla (udlap),,,Missing
+U1119,universidad de lima,,,Missing
+U1120,universidad de los andes - (ula) mérida,,,Missing
+U1121,universidad de oviedo,,,Missing
+U1122,universidad de puerto rico,,,Missing
+U1123,universidad de talca,,,Missing
+U1124,universidad del norte,,,Missing
+U1125,universidad del pacífico,,,Missing
+U1126,universidad del valle,,,Missing
+U1127,universidad diego portales (udp),,,Missing
+U1128,universidad icesi,,,Missing
+U1129,universidad nacional de cuyo,,,Missing
+U1130,universidad nacional de la asunción,,,Missing
+U1131,universidad nacional de san luis,,,Missing
+U1132,universidad nacional del centro de la provincia de buenos aires (unicen),,,Missing
+U1133,universidad peruana cayetano heredia (upch),,,Missing
+U1134,universidad rey juan carlos,,,Missing
+U1135,universidad simón bolívar (usb),,,Missing
+U1136,universidad tecnológica de panamá (utp),,,Missing
+U1137,universidad tecnológica nacional (utn),,,Missing
+U1138,universidade da coruña,,,Missing
+U1139,universidade federal de pernambuco (ufpe),,,Missing
+U1140,universidade federal de são carlos (ufscar),,,Missing
+U1141,universidade federal do paraná - ufpr,,,Missing
+U1142,universidade federal fluminense,,,Missing
+U1143,"universita' degli studi ""g. d'annunzio"" chieti pescara",,,Missing
+U1144,università degli studi di udine,,,Missing
+U1145,università del salento,,,Missing
+U1146,universitas hasanuddin,,,Missing
+U1148,universitat de lleida,,,Missing
+U1149,universität siegen,,,Missing
+U1150,université de caen normandie,,,Missing
+U1151,université de poitiers,,,Missing
+U1152,université de sfax,,,Missing
+U1153,université de sousse,,,Missing
+U1154,université de toulouse ii-le mirail,,,Missing
+U1155,université de tunis,,,Missing
+U1156,université lumière lyon 2,,,Missing
+U1157,université mohammed v de rabat,,,Missing
+U1158,université paris-nanterre,,,Missing
+U1162,universiti tun hussein onn university of malaysia (uthm),,,Missing
+U1163,university of arkansas fayetteville,,,Missing
+U1166,university of hradec kralove,,,Missing
+U1168,university of idaho,,,Missing
+U1171,university of khartoum,,,Missing
+U1173,university of louisville,,,Missing
+U1174,university of massachusetts boston,,,Missing
+U1175,"university of missouri, kansas city",,,Missing
+U1176,university of naples parthenope,,,Missing
+U1177,university of new england australia,,,Missing
+U1178,university of new hampshire,,,Missing
+U1180,university of north texas,,,Missing
+U1183,university of sarajevo,,,Missing
+U1186,university of texas at san antonio,,,Missing
+U1187,university of texas el paso,,,Missing
+U1190,university of toledo,,,Missing
+U1191,university of tulsa,,,Missing
+U1192,university of vermont,,,Missing
+U1194,university of wolverhampton,,,Missing
+U1196,university of ilina,,,Missing
+U1197,utah state university,,,Missing
+U1199,warsaw university of life sciences  sggw (wuls-sggw),,,Missing
+U1200,west virginia university,,,Missing
+U1201,xi'an jiaotong liverpool university,,,Missing
+U1207,ataturk university,,,Missing
+U1208,atma jaya catholic university jakarta,,,Missing
+U1210,beijing foreign studies university,,,Missing
+U1211,beijing university of chinese medicine,,,Missing
+U1212,belarusian state university of informatics and radioelectronics,,,Missing
+U1214,birzeit university,,,Missing
+U1215,british university in egypt,,,Missing
+U1216,brock university,,,Missing
+U1217,central michigan university,,,Missing
+U1219,china university of political science and law,,,Missing
+U1220,chitkara university,,,Missing
+U1221,chittagong university of engineering and technology,,,Missing
+U1222,cleveland state university,,,Missing
+U1224,cuny the city college of new york,,,Missing
+U1225,daffodil international university,,,Missing
+U1226,damascus university,,,Missing
+U1227,dokuz eylül üniversitesi,,,Missing
+U1229,erciyes üniversitesi,,,Missing
+U1232,florida atlantic university - boca raton,,,Missing
+U1234,fundación ceu san pablo,,,Missing
+U1237,harper adams university,,,Missing
+U1239,hongik university,,,Missing
+U1241,instituto tecnológico de santo domingo (intec),,,Missing
+U1242,istanbul aydin university,,,Missing
+U1243,istanbul bilgi üniversitesi,,,Missing
+U1245,izmir institute of technology (iztech),,,Missing
+U1246,jahangirnagar university,,,Missing
+U1247,jamia hamdard,,,Missing
+U1249,kazakh ablai khan university of international relations and world languages,,,Missing
+U1250,kazan national research technological university,,,Missing
+U1251,kenyatta university,,,Missing
+U1253,khulna university,,,Missing
+U1254,khulna university of engineering and technology,,,Missing
+U1255,kindai university (kinki university),,,Missing
+U1256,king mongkut\'s institute of technology ladkrabang,,,Missing
+U1261,kyrgyz state technical university,,,Missing
+U1264,mendeleev university of chemical technology,,,Missing
+U1265,miami university,,,Missing
+U1266,moscow pedagogical state university,,,Missing
+U1267,nagoya institute of technology (nit),,,Missing
+U1269,national research university moscow power engineering institute (mpei),,,Missing
+U1272,novosibirsk state technical university,,,Missing
+U1274,odessa i.i. mechnikov national university,,,Missing
+U1276,perm state national research university,,,Missing
+U1278,pontificia universidad catolica madre y maestra,,,Missing
+U1279,pontifícia universidade católica do rio grande do sul (pucrs),,,Missing
+U1281,pukyong national university,,,Missing
+U1282,rajshahi university,,,Missing
+U1285,saken seifullin kazakh agrotechnical university,,,Missing
+U1286,san francisco state university,,,Missing
+U1287,sathyabama institute of science and technology (deemed to be university),,,Missing
+U1288,seattle university,,,Missing
+U1289,seoul national university of science and technology,,,Missing
+U1290,shahjalal university of science and technology,,,Missing
+U1291,shanghai international studies university,,,Missing
+U1292,shanghai university of finance and economics,,,Missing
+U1293,siksha 'o' anusandhan (deemed to be university),,,Missing
+U1294,sookmyung women's university,,,Missing
+U1296,suleyman demirel university,,,Missing
+U1297,"suleyman demirel university, kazakhstan",,,Missing
+U1303,technical university of lublin,,,Missing
+U1304,technische universität kaiserslautern,,,Missing
+U1305,"the ""gheorghe asachi"" technical university of iasi",,,Missing
+U1306,the herzen state pedagogical university of russia,,,Missing
+U1307,the josip juraj strossmayer university of osijek,,,Missing
+U1308,"the national research university ""belgorod state university""",,,Missing
+U1310,tomas bata university in zlin,,,Missing
+U1311,toraighyrov university,,,Missing
+U1312,transilvania university of brasov,,,Missing
+U1314,universidad autónoma de guadalajara (uag),,,Missing
+U1315,universidad autónoma del estado de hidalgo (uaeh),,,Missing
+U1316,universidad católica del norte,,,Missing
+U1317,universidad central del ecuador,,,Missing
+U1318,universidad de las américas (udla) ecuador,,,Missing
+U1319,universidad de monterrey (udem),,,Missing
+U1320,universidad de oriente santiago de cuba,,,Missing
+U1321,universidad de panama,,,Missing
+U1322,universidad de piura,,,Missing
+U1323,universidad de san carlos de guatemala - usac,,,Missing
+U1324,universidad de tarapaca,,,Missing
+U1325,universidad de valparaíso (uv),,,Missing
+U1326,universidad del bío-bío,,,Missing
+U1327,universidad del desarrollo (udd),,,Missing
+U1328,universidad del salvador,,,Missing
+U1329,universidad del zulia,,,Missing
+U1330,universidad industrial de santander - uis,,,Missing
+U1331,universidad la salle (ulsa),,,Missing
+U1332,universidad latinoamericana de ciencia y tecnología costa rica (ulacit),,,Missing
+U1333,universidad mayor de san andrés (umsa),,,Missing
+U1334,universidad metropolitana,,,Missing
+U1335,universidad nacional agraria la molina,,,Missing
+U1336,universidad nacional autónoma de honduras (unah),,,Missing
+U1337,universidad nacional de ingeniería peru,,,Missing
+U1338,universidad nacional de mar del plata,,,Missing
+U1339,universidad nacional de río cuarto - unrc,,,Missing
+U1340,universidad nacional de san martín (unsam),,,Missing
+U1342,universidad nacional del sur,,,Missing
+U1343,"universidad nacional, costa rica",,,Missing
+U1344,universidad peruana de ciencias aplicadas,,,Missing
+U1347,universidade federal de juiz de fora- (ufjf),,,Missing
+U1348,universidade federal de pelotas,,,Missing
+U1349,universidade federal de santa maria,,,Missing
+U1350,universidade federal de viçosa (ufv),,,Missing
+U1352,universidade federal do rio grande do norte,,,Missing
+U1353,universidade presbiteriana mackenzie,,,Missing
+U1354,università degli studi di bergamo,,,Missing
+U1355,universitas islam indonesia,,,Missing
+U1356,universitas muhammadiyah yogyakarta,,,Missing
+U1359,universitatea de vest din timisoara / west university of timisoara,,,Missing
+U1360,université de limoges,,,Missing
+U1361,université jean moulin lyon 3,,,Missing
+U1362,universiti kuala lumpur (unikl),,,Missing
+U1367,university of bialystok,,,Missing
+U1373,university of missouri saint louis,,,Missing
+U1374,university of ni,,,Missing
+U1382,university of rzeszów,,,Missing
+U1383,university of san diego,,,Missing
+U1384,university of san francisco,,,Missing
+U1386,university of south alabama (usa),,,Missing
+U1388,university of sri jayewardenepura,,,Missing
+U1389,university of the pacific,,,Missing
+U1390,university of tyumen,,,Missing
+U1392,university of wisconsin milwaukee,,,Missing
+U1393,university politehnica of bucharest,,,Missing
+U1394,vancouver island university,,,Missing
+U1395,voronezh state university,,,Missing
+U1398,yogyakarta state university,,,Missing
+U1399,youngsan university,,,Missing
+U1402,don state technical university,,,Missing
+U1403,akdeniz üniversitesi,,,Missing
+U1404,california polytechnic state university,,,Missing
+U1405,california state university - los angeles,,,Missing
+U1406,"california state university, long beach",,,Missing
+U1407,católica de córdoba,,,Missing
+U1408,east west university,,,Missing
+U1409,fundación universidad de bogotá-jorge tadeo lozano,,,Missing
+U1410,humboldt state university,,,Missing
+U1411,illinois state university,,,Missing
+U1412,"indian institute of information technology, allahabad",,,Missing
+U1413,indiana state university,,,Missing
+U1414,international university of business agriculture and technology,,,Missing
+U1415,irkutsk state university,,,Missing
+U1416,korkyt ata kyzylorda university,,,Missing
+U1419,m.kh. dulaty taraz regional university,,,Missing
+U1420,mirea - russian technological university,,,Missing
+U1421,moscow city university,,,Missing
+U1423,national university of life and environmental sciences of ukraine,,,Missing
+U1424,"national university of modern languages (numl), islamabad",,,Missing
+U1426,pontifícia universidade católica de minas gerais  puc minas,,,Missing
+U1427,pontificia universidade católica do campinas - puc campinas,,,Missing
+U1429,russian state agrarian university - moscow timiryazev agricultural academy,,,Missing
+U1430,russian state university for the humanities,,,Missing
+U1432,shanghai normal university,,,Missing
+U1435,soochow university (taiwan),,,Missing
+U1437,stamford university bangladesh,,,Missing
+U1439,stefan cel mare university of suceava,,,Missing
+U1440,"the university of notre dame, australia",,,Missing
+U1441,udayana university,,,Missing
+U1442,united international university,,,Missing
+U1443,universidad alberto hurtado,,,Missing
+U1444,universidad autónoma de aguascalientes,,,Missing
+U1445,universidad autónoma de baja california,,,Missing
+U1447,universidad autónoma de querétaro (uaq),,,Missing
+U1448,universidad autónoma de san luis de potosí,,,Missing
+U1449,universidad autonoma de yucatan,,,Missing
+U1450,universidad autónoma del estado de morelos (uaem),,,Missing
+U1451,universidad bernardo o'higgins,,,Missing
+U1452,"universidad católica boliviana ""san pablo""",,,Missing
+U1453,universidad católica de colombia,,,Missing
+U1454,universidad católica de la santísima concepción - ucsc,,,Missing
+U1455,universidad católica de santiago de guayaquil,,,Missing
+U1456,universidad católica de temuco,,,Missing
+U1457,universidad central de chile,,,Missing
+U1458,universidad de caldas,,,Missing
+U1459,universidad de carabobo,,,Missing
+U1460,universidad de cartagena,,,Missing
+U1461,universidad de córdoba - colombia,,,Missing
+U1462,universidad de cuenca,,,Missing
+U1463,universidad de guanajuato,,,Missing
+U1464,universidad de la salle,,,Missing
+U1465,universidad de la serena,,,Missing
+U1466,universidad de las fuerzas armadas espe (ex - escuela politécnica del ejército),,,Missing
+U1467,universidad de medellín,,,Missing
+U1468,universidad de santander - udes,,,Missing
+U1469,universidad de sonora,,,Missing
+U1470,universidad del cauca,,,Missing
+U1471,universidad del valle de mexico (uvm),,,Missing
+U1473,universidad nacional de quilmes,,,Missing
+U1474,universidad nacional de tucumán,,,Missing
+U1475,universidad nacional del comahue,,,Missing
+U1476,universidad politecnica salesiana,,,Missing
+U1477,universidad popular autónoma del estado de puebla (upaep),,,Missing
+U1478,universidad san ignacio de loyola,,,Missing
+U1479,universidad tecnica particular de loja (utpl),,,Missing
+U1480,universidad tecnológica de bolívar,,,Missing
+U1481,"universidad tecnológica de la habana josé antonio echeverría, cujae",,,Missing
+U1482,universidad tecnológica de pereira,,,Missing
+U1483,universidad veracruzana,,,Missing
+U1485,universidade estadual de londrina,,,Missing
+U1486,universidade federal da paraíba,,,Missing
+U1487,universidade federal de goiás,,,Missing
+U1488,universidade federal de uberlândia,,,Missing
+U1489,universidade federal do estado do rio de janeiro - unirio,,,Missing
+U1490,universidade federal do parà - ufpa,,,Missing
+U1492,universitas kristen petra,,,Missing
+U1493,universitas muhammadiyah surakarta,,,Missing
+U1494,universiti sains islam malaysia,,,Missing
+U1495,university of central oklahoma,,,Missing
+U1497,university of lampung,,,Missing
+U1498,university of mataram,,,Missing
+U1499,university of montana missoula,,,Missing
+U1501,university of san carlos,,,Missing
+U1502,"university politehnica of timisoara, upt",,,Missing
+U1503,western washington university,,,Missing
+U1581,Moscow Institute of Physics and Technology (MIPT),,,Missing
+U1640,Peter the Great St Petersburg Polytechnic University,,,Missing
+U1651,Campus Bio-Medico University of Rome,,,Missing
+U1657,Constructor University,,,Missing
+U1668,National Research Nuclear University MEPhI,,,Missing
+U1675,Prince Sultan University (PSU),,,Missing
+U1681,University of Toulouse,,,Missing
+U1708,Nazarbayev University,,,Missing
+U1719,Tabriz University of Medical Sciences,,,Missing
+U1720,Taif University,,,Missing
+U1721,The University of Texas at San Antonio,,,Missing
+U1722,TU Braunschweig,,,Missing
+U1726,University of Wuppertal,,,Missing
+U1729,Air University,,,Missing
+U1743,Capital University of Science and Technology,,,Missing
+U1744,The Catholic University of America,,,Missing
+U1750,Egypt-Japan University of Science and Technology (E-JUST),,,Missing
+U1761,Imam Khomeini International University,,,Missing
+U1782,Malaviya National Institute of Technology,,,Missing
+U1783,Universiti Malaysia Pahang Al-Sultan Abdullah (UMPSA),,,Missing
+U1794,National University of Science and Technology (MISiS),,,Missing
+U1809,Otto von Guericke University of Magdeburg,,,Missing
+U1828,South Ural State University,,,Missing
+U1830,SUNY Binghamton University,,,Missing
+U1831,Tallinn University of Technology,,,Missing
+U1832,Tehran University of Medical Sciences,,,Missing
+U1833,University of Texas at Arlington,,,Missing
+U1834,Thapar Institute of Engineering and Technology,,,Missing
+U1837,Paris Lodron Universität Salzburg,,,Missing
+U1840,University of the West of Scotland,,,Missing
+U1843,Xi’an Jiaotong-Liverpool University,,,Missing
+U1859,Université de Bretagne Occidentale,,,Missing
+U1870,China University of Petroleum (East China),,,Missing
+U1872,University of la Costa,,,Missing
+U1883,University of Gloucestershire,,,Missing
+U1884,Gorgan University of Agricultural Sciences and Natural Resources,,,Missing
+U1887,Guilan University of Medical Sciences,,,Missing
+U1897,Islamia College Peshawar,,,Missing
+U1901,Jaypee University of Information Technology,,,Missing
+U1908,Kazan Federal University,,,Missing
+U1924,University of Medicine and Pharmacy Carol Davila,,,Missing
+U1939,UPES,,,Missing
+U1947,Shahrekord University of Medical Sciences,,,Missing
+U1950,Shri Mata Vaishno Devi University,,,Missing
+U1952,Institute of Space Technology,,,Missing
+U1957,Tomsk Polytechnic University,,,Missing
+U1958,University of Tours,,,Missing
+U1965,Wenzhou University,,,Missing
+U1969,ZHAW Zurich University of Applied Sciences,,,Missing
+U1981,Bartin University,,,Missing
+U1990,Universidad del Desarrollo,,,Missing
+U1992,Université Djillali Liabès de Sidi Bel-Abbès,,,Missing
+U2004,University of Franche-Comté,,,Missing
+U2007,Gauhati University,,,Missing
+U2009,GLA University,,,Missing
+U2011,Guru Ghasidas Vishwavidyalaya,,,Missing
+U2029,Karnatak University Dharwad,,,Missing
+U2032,Kohat University of Science and Technology,,,Missing
+U2045,Medical University of Warsaw,,,Missing
+U2046,"Mehran University of Engineering and Technology, Jamshoro, Pakistan",,,Missing
+U2050,Mirpur University of Science and Technology,,,Missing
+U2051,Montanuniversität Leoben,,,Missing
+U2054,Najran University,,,Missing
+U2055,National University of Computer and Emerging Sciences,,,Missing
+U2056,National Institute of Technology Warangal,,,Missing
+U2059,Nile University,,,Missing
+U2070,University of Rajshahi,,,Missing
+U2071,Razi University,,,Missing
+U2083,Siberian Federal University,,,Missing
+U2091,Suez University,,,Missing
+U2092,SWPS University,,,Missing
+U2101,Ural Federal University,,,Missing
+U2103,Urmia University of Technology,,,Missing
+U2105,Wakayama Medical University,,,Missing
+U2107,University of West London,,,Missing
+U2116,"The University of Agriculture, Peshawar",,,Missing
+U2118,Allameh Tabataba ’i University,,,Missing
+U2119,Al-Nahrain University,,,Missing
+U2120,University of Al-Qadisiyah,,,Missing
+U2134,Botswana International University of Science and Technology (BIUST),,,Missing
+U2138,B. S. Abdur Rahman Crescent Institute of Science and Technology,,,Missing
+U2147,Christ University,,,Missing
+U2148,Chung Shan Medical University,,,Missing
+U2153,University of Diyala,,,Missing
+U2158,"University of Education, Lahore",,,Missing
+U2183,University of Guilan,,,Missing
+U2186,Halmstad University,,,Missing
+U2189,University of Hormozgan,,,Missing
+U2191,Hyogo Medical University,,,Missing
+U2193,Ilam University,,,Missing
+U2200,Istanbul Bilgi University,,,Missing
+U2208,Karunya Institute of Technology and Sciences,,,Missing
+U2210,Kharkiv Aviation Institute,,,Missing
+U2215,Universidad Loyola,,,Missing
+U2217,Universidade Lusófona,,,Missing
+U2218,Manipal University Jaipur,,,Missing
+U2222,Medical University of Lublin,,,Missing
+U2224,Medical University of Sofia,,,Missing
+U2225,University of Medicine and Pharmacy of Craiova,,,Missing
+U2231,Moscow Aviation Institute,,,Missing
+U2232,Moscow Power Engineering Institute,,,Missing
+U2241,National Institute of Technology Srinagar,,,Missing
+U2243,National Research University of Electronic Technology (MIET),,,Missing
+U2254,Pirogov Russian National Research Medical University,,,Missing
+U2260,Poznań University of Life Sciences,,,Missing
+U2262,University of Qom,,,Missing
+U2274,Shahid Sadoughi University of Medical Sciences,,,Missing
+U2278,Université de Skikda,,,Missing
+U2282,University of South China,,,Missing
+U2284,Southwest Petroleum University,,,Missing
+U2288,St Petersburg Electrotechnical University (LETI),,,Missing
+U2289,Universiti Sultan Zainal Abidin,,,Missing
+U2291,Universitas Syiah Kuala,,,Missing
+U2300,Thiagarajar College of Engineering,,,Missing
+U2318,Volgograd State University,,,Missing
+U2335,Zhejiang Chinese Medical University,,,Missing
+U2338,University Abdelhamid Ibn Badis Mostaganem,,,Missing
+U2342,Adelphi University,,,Missing
+U2343,Afe Babalola University,,,Missing
+U2352,Ankara Yildirim Beyazit University,,,Missing
+U2354,Antonio Nariño University,,,Missing
+U2367,University of Batna 2,,,Missing
+U2369,Belgorod State National Research University,,,Missing
+U2371,Bernardo O’Higgins University,,,Missing
+U2372,Bharath Institute of Higher Education and Research,,,Missing
+U2373,Bharati Vidyapeeth University,,,Missing
+U2375,Bilecik Şeyh Edebali University,,,Missing
+U2377,University of Birjand,,,Missing
+U2384,Bursa Technical University,,,Missing
+U2386,University of Caldas,,,Missing
+U2387,Çankırı Karatekin University,,,Missing
+U2390,Universidad Católica del Maule,,,Missing
+U2391,Universidad Católica de la Santísima Concepción,,,Missing
+U2395,Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (CEFET-RJ),,,Missing
+U2396,CES University,,,Missing
+U2397,College of Charleston,,,Missing
+U2398,Chelyabinsk State University,,,Missing
+U2410,University for Development Studies,,,Missing
+U2443,Goa University,,,Missing
+U2447,Gubkin Russian State University of Oil and Gas,,,Missing
+U2450,Hassiba Benbouali University of Chlef,,,Missing
+U2453,Herzen State Pedagogical University of Russia,,,Missing
+U2454,Hindustan Institute of Technology and Science,,,Missing
+U2455,Hitit University,,,Missing
+U2460,Industrial University of Tyumen,,,Missing
+U2463,Irkutsk National Research Technical University,,,Missing
+U2465,Istanbul Aydın University,,,Missing
+U2467,Ivanovo State University of Chemistry and Technology,,,Missing
+U2469,Izmir University of Economics,,,Missing
+U2471,Jan Kochanowski University in Kielce,,,Missing
+U2473,Jember University,,,Missing
+U2475,University of Jijel,,,Missing
+U2480,Université Kasdi Merbah Ouargla,,,Missing
+U2481,Kastamonu University,,,Missing
+U2482,Kazan National Research Technical University,,,Missing
+U2483,Kazan State Medical University,,,Missing
+U2484,University of Kelaniya,,,Missing
+U2485,Kemerovo State University,,,Missing
+U2486,University of Kerbala,,,Missing
+U2489,Kırşehir Ahi Evran University,,,Missing
+U2497,University of Laghouat,,,Missing
+U2498,Lagos State University,,,Missing
+U2501,University of Life Sciences in Lublin,,,Missing
+U2503,Lobachevsky State University of Nizhni Novgorod,,,Missing
+U2505,University of Los Lagos,,,Missing
+U2512,University of Mascara,,,Missing
+U2514,Universidad Mayor,,,Missing
+U2517,Middle Technical University,,,Missing
+U2521,Université Mohammed Premier,,,Missing
+U2523,Moscow Polytechnic University,,,Missing
+U2524,Moscow State University of Civil Engineering,,,Missing
+U2526,Moulay Ismail University,,,Missing
+U2530,Nara Women’s University,,,Missing
+U2531,National Aviation University,,,Missing
+U2535,National University of Costa Rica,,,Missing
+U2539,National University of Medical Sciences (NUMS),,,Missing
+U2541,National Taichung University of Science and Technology,,,Missing
+U2543,NED University of Engineering and Technology,,,Missing
+U2544,Universitas Negeri Surabaya,,,Missing
+U2545,Nizhny Novgorod State Technical University,,,Missing
+U2547,North-Caucasus Federal University,,,Missing
+U2549,North-Eastern Federal University,,,Missing
+U2550,Northern (Arctic) Federal University named after M.V. Lomonosov,,,Missing
+U2551,North-Western State Medical University named after I.I. Mechnikov,,,Missing
+U2552,Nosov Magnitogorsk State Technical University,,,Missing
+U2556,Ogarev Mordovia State University,,,Missing
+U2558,Niğde Ömer Halisdemir University,,,Missing
+U2559,Omsk State Technical University,,,Missing
+U2562,Ordu University,,,Missing
+U2566,Pamukkale University,,,Missing
+U2567,Pavlov First Saint Petersburg State Medical University,,,Missing
+U2570,University of the Peloponnese,,,Missing
+U2571,Penza State University,,,Missing
+U2572,Perm National Research Polytechnic University,,,Missing
+U2573,Perm State University,,,Missing
+U2575,Universidad Peruana de Ciencias Aplicadas (UPC),,,Missing
+U2576,University of Phayao,,,Missing
+U2583,University of Port Harcourt,,,Missing
+U2585,University of Prishtina,,,Missing
+U2586,Privolzhsky Research Medical University,,,Missing
+U2589,REVA University,,,Missing
+U2597,Samara State Technical University,,,Missing
+U2600,Saratov State Medical University,,,Missing
+U2601,University of Sciences and Technology Houari Boumediene,,,Missing
+U2608,Reshetnev Siberian State University of Science and Technology,,,Missing
+U2609,Siberian State Medical University,,,Missing
+U2615,Southwest State University,,,Missing
+U2617,Universitas Sriwijaya,,,Missing
+U2618,Saints Cyril and Methodius University in Skopje,,,Missing
+U2619,State University of Bahia,,,Missing
+U2623,Université Sultan Moulay Slimane,,,Missing
+U2627,Universidad Técnica Particular de Loja,,,Missing
+U2636,Tomsk State University of Control Systems and Radioelectronics,,,Missing
+U2638,Toyama Prefectural University,,,Missing
+U2640,Tula State University,,,Missing
+U2641,Ufa University of Science and Technology,,,Missing
+U2642,Ufa State Petroleum Technological University,,,Missing
+U2645,Uzhhorod National University,,,Missing
+U2648,Instituto Politécnico de Viana do Castelo,,,Missing
+U2651,V.I. Vernadsky Crimean Federal University (Vernadsky CFU),,,Missing
+U2652,Volgograd State Technical University,,,Missing
+U2653,Voronezh State Technical University,,,Missing
+U2657,Universitas Negeri Yogyakarta,,,Missing
+U2659,Abbes Laghrour University of Khenchala,,,Missing
+U2660,Abbottabad University of Science and Technology,,,Missing
+U2661,Abdelhafid Boussouf University Center of Mila,,,Missing
+U2662,Abdullah Gül University,,,Missing
+U2663,Abertay University,,,Missing
+U2664,Abia State University,,,Missing
+U2665,Abrar University,,,Missing
+U2666,Ada Kent University,,,Missing
+U2667,Adventist University of Central Africa,,,Missing
+U2668,AECC University College,,,Missing
+U2669,University Center of Aflou,,,Missing
+U2670,University of Agronomic Sciences and Veterinary Medicine of Bucharest,,,Missing
+U2671,Universitas Ahmad Dahlan,,,Missing
+U2672,University of Ahmed Draia,,,Missing
+U2673,Aichi Prefectural University,,,Missing
+U2674,Université d’Ain Témouchent,,,Missing
+U2675,Ajeenkya DY Patil University,,,Missing
+U2676,Akhmet Yassawi University,,,Missing
+U2677,Akita Prefectural University,,,Missing
+U2678,Akli Mohand Oulhadj Bouira University,,,Missing
+U2679,Akwa Ibom State University,,,Missing
+U2680,Al Akhawayn University,,,Missing
+U2681,Al al-Bayt University,,,Missing
+U2682,Al-Ayen University,,,Missing
+U2683,Al-Baha University,,,Missing
+U2684,Al-Bayan University,,,Missing
+U2685,Albaydha University,,,Missing
+U2686,Al-Esraa University College,,,Missing
+U2687,Alex Ekwueme Federal University Ndufu-Alike,,,Missing
+U2688,Al-Farabi University College,,,Missing
+U2689,Al-Furat Al-Awsat Technical University,,,Missing
+U2690,University of Algiers 1,,,Missing
+U2691,Algiers 2 University,,,Missing
+U2692,University of Algiers 3,,,Missing
+U2693,University of Al-Hamdaniya,,,Missing
+U2694,Al-Hussein Bin Talal University,,,Missing
+U2695,Alisher Navo’i Tashkent State University of Uzbek Language and Literature,,,Missing
+U2696,Al-Janad University for Science and Technology,,,Missing
+U2697,University of Alkafeel,,,Missing
+U2698,Al-Karkh University of Science,,,Missing
+U2699,Al-Kitab University,,,Missing
+U2700,AlMaarefa University,,,Missing
+U2701,Al-Maarif University College,,,Missing
+U2702,Al-Manara College for Medical Sciences,,,Missing
+U2703,Almazov National Medical Research Centre,,,Missing
+U2704,Al-Mustaqbal University,,,Missing
+U2705,Al-Muthanna University,,,Missing
+U2706,Al-Nisour University College,,,Missing
+U2707,Al-Noor University College,,,Missing
+U2708,Al-Qalam University College,,,Missing
+U2709,Al-Qasim Green University,,,Missing
+U2710,Al-Rafidain University College,,,Missing
+U2711,Al Safwa University College,,,Missing
+U2712,Altınbaş University,,,Missing
+U2713,Altoosi University College,,,Missing
+U2714,Al Turath University,,,Missing
+U2715,Al-Zaytoonah University of Jordan,,,Missing
+U2716,American University in the Emirates (AUE),,,Missing
+U2717,American International University – Bangladesh,,,Missing
+U2718,American University of Madaba,,,Missing
+U2719,American University of Ras Al Khaimah,,,Missing
+U2720,"Amity University, Chhattisgarh",,,Missing
+U2721,"Amity University, Gurugram",,,Missing
+U2722,"Amity University, Gwalior",,,Missing
+U2723,"Amity University Rajasthan, Jaipur",,,Missing
+U2724,"Amity University, Mumbai",,,Missing
+U2725,Anáhuac University,,,Missing
+U2726,Andijan Machine-Building Institute,,,Missing
+U2727,Andijan State University,,,Missing
+U2728,Andijan State Medical Institute,,,Missing
+U2729,Andijan State Pedagogical Institute (ASPI),,,Missing
+U2730,Andrés Bello Catholic University (UCAB),,,Missing
+U2731,Anglo-American University,,,Missing
+U2732,Ankara Science University,,,Missing
+U2733,Applied Science Private University,,,Missing
+U2734,Arab American University,,,Missing
+U2735,Arabian Gulf University,,,Missing
+U2736,Arab Open University,,,Missing
+U2737,Arkin University of Creative Arts and Design (ARUCAD),,,Missing
+U2738,Armenian State Pedagogical University,,,Missing
+U2739,Arts University Bournemouth,,,Missing
+U2740,University of the Arts London,,,Missing
+U2741,Arts University Plymouth,,,Missing
+U2742,Arturo Prat University,,,Missing
+U2743,Asahi University,,,Missing
+U2744,Asfendiyarov Kazakh National Medical University,,,Missing
+U2745,Ashikaga University,,,Missing
+U2746,Ashur University,,,Missing
+U2747,Atyrau University,,,Missing
+U2748,Audencia,,,Missing
+U2749,Austral University,,,Missing
+U2750,Autonomous University of Chiapas,,,Missing
+U2751,Azerbaijan University of Architecture and Construction,,,Missing
+U2752,Babcock University,,,Missing
+U2753,"Bacha Khan University, Charsadda",,,Missing
+U2754,Badr University in Cairo (BUC),,,Missing
+U2755,Bakrie University,,,Missing
+U2756,University of Balochistan,,,Missing
+U2757,"Balochistan University of Information Technology, Engineering and Management Sciences (BUITEMS)",,,Missing
+U2758,"University of Baltistan, Skardu",,,Missing
+U2759,Bandirma Onyedi Eylül University,,,Missing
+U2760,Bangabandhu Sheikh Mujibur Rahman Agricultural University,,,Missing
+U2761,Barawa International University,,,Missing
+U2762,Bashkir State Medical University,,,Missing
+U2763,Bath Spa University,,,Missing
+U2764,University of Batna 1,,,Missing
+U2765,Bayburt University,,,Missing
+U2766,Baze University,,,Missing
+U2767,Belarusian State Medical University,,,Missing
+U2768,Bells University of Technology,,,Missing
+U2769,University of Benghazi,,,Missing
+U2770,Benson Idahosa University,,,Missing
+U2771,Beykent University,,,Missing
+U2772,Bilad Alrafidain University College,,,Missing
+U2773,Birmingham Newman University,,,Missing
+U2774,Biruni University,,,Missing
+U2775,University of Bisha,,,Missing
+U2776,Bishop Grosseteste University,,,Missing
+U2777,University of Bogotá Jorge Tadeo Lozano,,,Missing
+U2778,Bohdan Khmelnytsky National University of Cherkasy,,,Missing
+U2779,University of Bolton,,,Missing
+U2780,The British University in Dubai,,,Missing
+U2781,Buckinghamshire New University,,,Missing
+U2782,Bukhara Engineering Technological Institute,,,Missing
+U2783,Bukhara State University,,,Missing
+U2784,Bukhara State Medical Institute,,,Missing
+U2785,Bukkyo University,,,Missing
+U2786,Buriram Rajabhat University,,,Missing
+U2787,Çağ University,,,Missing
+U2788,Universidad Camilo José Cela,,,Missing
+U2789,Canadian International College (CIC) – Cairo,,,Missing
+U2790,Catholic University of Ávila,,,Missing
+U2791,Catholic University in Erbil,,,Missing
+U2792,Universidad Católica de Cuenca,,,Missing
+U2793,Universidad Católica San Pablo,,,Missing
+U2794,Caucasus International University,,,Missing
+U2795,CBS International Business School,,,Missing
+U2796,Cebu Technological University,,,Missing
+U2797,CECOS University of IT and Emerging Sciences,,,Missing
+U2798,University of Celaya,,,Missing
+U2799,University Center Ali Kafi Tindouf,,,Missing
+U2800,University Center of Illizi,,,Missing
+U2801,University Center Morsli Abdellah of Tipaza,,,Missing
+U2802,University Center of Barika,,,Missing
+U2803,Central European University,,,Missing
+U2804,Central Luzon State University,,,Missing
+U2805,University of Central Punjab,,,Missing
+U2806,Centro de Estudios para la Calidad Educativa y la Investigación Científica (CECEIC),,,Missing
+U2807,Centro Universitário Cesuca,,,Missing
+U2808,Centurion University of Technology and Management,,,Missing
+U2809,Universidad César Vallejo,,,Missing
+U2810,CETYS Universidad,,,Missing
+U2811,Charisma University,,,Missing
+U2812,Chernihiv Polytechnic National University,,,Missing
+U2813,Chettinad Academy of Research and Education,,,Missing
+U2814,University of Chichester,,,Missing
+U2815,Chinhoyi University of Technology,,,Missing
+U2816,Universidad Científica del Sur,,,Missing
+U2817,Cihan University – Erbil,,,Missing
+U2818,Cihan University Sulaimaniya,,,Missing
+U2819,"City University of Science and Information Technology, Peshawar",,,Missing
+U2820,Civil Aviation Academy,,,Missing
+U2821,University of Civil Protection,,,Missing
+U2822,Conservatoire for Dance and Drama,,,Missing
+U2823,University of Constantine 3,,,Missing
+U2824,Courtauld Institute of Art,,,Missing
+U2825,Cranfield University,,,Missing
+U2826,University for the Creative Arts,,,Missing
+U2827,University of Cumbria,,,Missing
+U2828,University of Cyberjaya,,,Missing
+U2829,Cyprus Health and Social Sciences University,,,Missing
+U2830,Daffodil International University (DIU),,,Missing
+U2831,Daneshpajoohan Pishro Higher Education Institute,,,Missing
+U2832,Dawood University of Engineering and Technology,,,Missing
+U2833,Debre Tabor University,,,Missing
+U2834,Delta University for Science and Technology,,,Missing
+U2835,"Delta State University, Abraka",,,Missing
+U2836,Denau Institute of Entrepreneurship and Pedagogy,,,Missing
+U2837,Dhaka International University,,,Missing
+U2838,DHA Suffa University,,,Missing
+U2839,Dhofar University,,,Missing
+U2840,University of Djilali Bounaama Khemis Miliana,,,Missing
+U2841,Don Bosco University,,,Missing
+U2842,Donetsk National University of Economics and Trade named after Mykhailo Tuhan-Baranovsky (DonNUET),,,Missing
+U2843,Dovletmammet Azadi Turkmen National Institute of World Languages,,,Missing
+U2844,"Dr D. Y. Patil Vidyapeeth, Pune",,,Missing
+U2845,Dr. M.G.R. Educational and Research Institute,,,Missing
+U2846,D. Serikbayev East Kazakhstan Technical University,,,Missing
+U2847,University of Duhok,,,Missing
+U2848,Dulaty University,,,Missing
+U2849,EAE Business School,,,Missing
+U2850,EAN University,,,Missing
+U2851,University of Eastern Philippines,,,Missing
+U2852,École Nationale Polytechnique,,,Missing
+U2853,École Nationale Polytechnique d’Oran Maurice Audin,,,Missing
+U2854,École Nationale Supérieure Agronomique,,,Missing
+U2855,"École Nationale Supérieure Agronomique, Algiers",,,Missing
+U2856,École Nationale Supérieure de Biotechnologie Taoufik Khaznadar (ENSB),,,Missing
+U2857,École Nationale Supérieure d’Informatique (ESI),,,Missing
+U2858,École Nationale Supérieure de Management Koléa,,,Missing
+U2859,École Nationale Supérieure des Sciences de la Mer et de l’Aménagement du Littoral (ENSSMAL),,,Missing
+U2860,École Nationale Supérieure Vétérinaire d’Alger,,,Missing
+U2861,École National Polytechnique de Constantine,,,Missing
+U2862,École Normale Supérieure de Béchar,,,Missing
+U2863,École Normale Supérieure de Bouzaréah,,,Missing
+U2864,École Normale Supérieure El Katiba Assia Djebar Constantine (ENSC),,,Missing
+U2865,École Normale Supérieure de Kouba,,,Missing
+U2866,École Normale Supérieure de Laghouat,,,Missing
+U2867,École Normale Supérieure d’Oran,,,Missing
+U2868,École Polytechnique d’Architecture et d’Urbanisme,,,Missing
+U2869,École Supérieure de Comptabilité et de Finances de Constantine,,,Missing
+U2870,École Supérieure en Informatique 8 Mai 1945 de Sidi-Bel-Abbès,,,Missing
+U2871,École Supérieure en Sciences Appliquées de Tlemcen,,,Missing
+U2872,École Supérieure en Sciences Biologiques d’Oran (ESSBO),,,Missing
+U2873,École Supérieure en Sciences et Technologies de l’Informatique et du Numérique (ESTIN),,,Missing
+U2874,University of Economics – Varna,,,Missing
+U2875,Edo State University Uzairue,,,Missing
+U2876,Edwin Clark University,,,Missing
+U2877,Egerton University,,,Missing
+U2878,Egyptian Russian University,,,Missing
+U2879,Elizade University,,,Missing
+U2880,University of El Oued,,,Missing
+U2881,Emir Abdelkader University of Islamic Sciences,,,Missing
+U2882,"Institute of Engineering, Technical and Transport Communications of Turkmenistan",,,Missing
+U2883,Escola Superior de Enfermagem do Porto (ESEP),,,Missing
+U2884,Escuela Superior Politécnica de Chimborazo,,,Missing
+U2885,ESIC University,,,Missing
+U2886,Eskişehir Technical University,,,Missing
+U2887,Universidade Estadual do Maranhão,,,Missing
+U2888,Universidade Estadual do Norte do Paraná (UENP),,,Missing
+U2889,European University,,,Missing
+U2890,European University of Armenia,,,Missing
+U2891,European University Cyprus,,,Missing
+U2892,European University of Tunis,,,Missing
+U2893,"Evangel University, Akaeze",,,Missing
+U2894,Falmouth University,,,Missing
+U2895,Federal University of Kashere,,,Missing
+U2896,Federal University of Latin American Integration (UNILA),,,Missing
+U2898,"Federal University of Petroleum Resources, Effurun",,,Missing
+U2899,"Federal University of Technology, Minna",,,Missing
+U2900,"Federal University of Technology, Owerri",,,Missing
+U2901,Fergana Medical Institute of Public Health,,,Missing
+U2902,Fergana Polytechnic Institute,,,Missing
+U2903,Fergana State University,,,Missing
+U2904,Finis Terrae University,,,Missing
+U2905,Forman Christian College,,,Missing
+U2906,Fountain University,,,Missing
+U2907,University of Franca,,,Missing
+U2908,Francisk Skorina Gomel State University,,,Missing
+U2909,Fukushima University,,,Missing
+U2910,University of Gafsa,,,Missing
+U2911,Gangadhar Meher University,,,Missing
+U2912,University of Garmian,,,Missing
+U2913,General Sir John Kotelawala Defence University,,,Missing
+U2914,University of Ghardaia,,,Missing
+U2915,Ghulam Ishaq Khan Institute of Engineering Sciences and Technology,,,Missing
+U2916,Glasgow School of Art,,,Missing
+U2917,Gomel State Medical University,,,Missing
+U2918,The Government Sadiq College Women University Bahawalpur,,,Missing
+U2919,Government College Women University Faisalabad,,,Missing
+U2920,"Government College Women University, Sialkot",,,Missing
+U2921,"The Graduate University for Advanced Studies, SOKENDAI",,,Missing
+U2922,Guildhall School of Music and Drama,,,Missing
+U2923,Gulf College,,,Missing
+U2924,Gulf Medical University,,,Missing
+U2925,Gulistan State University,,,Missing
+U2926,University of Hafr Al Batin,,,Missing
+U2927,Hagoromo University of International Studies,,,Missing
+U2928,Hakuoh University,,,Missing
+U2929,Haliç University,,,Missing
+U2930,Häme University of Applied Sciences,,,Missing
+U2931,Hanseo University,,,Missing
+U2932,Hartpury University,,,Missing
+U2933,Hawler Medical University,,,Missing
+U2934,University of Health Sciences Lahore,,,Missing
+U2935,"University of Health Sciences, Turkey",,,Missing
+U2936,School of Higher Commercial Studies (EHEC Algiers),,,Missing
+U2937,"Higher National School of Renewable Energies, Environment and Sustainable Development",,,Missing
+U2938,Higher School of Management and Digital Economy (HSMDE),,,Missing
+U2939,Higher School of Agronomy – Mostaganem (ESAM),,,Missing
+U2940,Higher School of Management – Tlemcen,,,Missing
+U2941,University of the Highlands and Islands,,,Missing
+U2942,Hilla University College,,,Missing
+U2943,Hiroshima International University,,,Missing
+U2944,Hiroshima Shudo University,,,Missing
+U2945,Hiroshima Institute of Technology,,,Missing
+U2946,Ho Chi Minh City Open University,,,Missing
+U2947,Hodeida University,,,Missing
+U2948,Hokkaido University of Science,,,Missing
+U2949,University of Home Economics Lahore,,,Missing
+U2950,Ho Technical University,,,Missing
+U2951,Hryhorii Skovoroda University in Pereiaslav,,,Missing
+U2952,University of Human Development,,,Missing
+U2953,Hyogo University of Teacher Education,,,Missing
+U2954,Ibn Khaldoun University,,,Missing
+U2955,"ICFAI University, Dehradun",,,Missing
+U2956,IFHE Hyderabad,,,Missing
+U2957,Ilma University,,,Missing
+U2958,Imam Al-Kadhum College (IKC),,,Missing
+U2959,IMT Mines Alès,,,Missing
+U2960,"Independent University, Bangladesh",,,Missing
+U2961,Indira Gandhi Delhi Technical University for Women,,,Missing
+U2962,Information Technology University of the Punjab,,,Missing
+U2963,Innopolis University,,,Missing
+U2964,Institute of Cancer Research,,,Missing
+U2965,Universidad Internacional del Ecuador,,,Missing
+U2966,International American University,,,Missing
+U2967,International Engineering and Technology University (METU),,,Missing
+U2968,International University for the Humanities and Development,,,Missing
+U2969,International IT University,,,Missing
+U2970,International University of Rabat,,,Missing
+U2971,Institute of International Relations of the Ministry of Foreign Affairs of Turkmenistan,,,Missing
+U2972,Inter-State School of Veterinary Sciences and Medicine,,,Missing
+U2973,Ionian University,,,Missing
+U2974,Ion Mincu University of Architecture and Urbanism,,,Missing
+U2975,Iqra University,,,Missing
+U2976,The Islamic University,,,Missing
+U2977,Islamic University of Gaza,,,Missing
+U2978,Universitas Islam Sultan Agung,,,Missing
+U2979,Isra University,,,Missing
+U2980,Israel Technological University,,,Missing
+U2981,Istanbul Arel University,,,Missing
+U2982,Istanbul Gelişim University,,,Missing
+U2983,Istanbul Kültür University,,,Missing
+U2984,Istanbul Okan University,,,Missing
+U2985,IUBAT – International University of Business Agriculture and Technology,,,Missing
+U2986,Universita IULM,,,Missing
+U2987,Ivano Frankivsk National Technical University of Oil and Gas,,,Missing
+U2988,Jabir ibn Hayyan Medical University,,,Missing
+U2989,Jadara University,,,Missing
+U2990,Japan Advanced Institute of Science and Technology (JAIST),,,Missing
+U2991,Japan University of Economics,,,Missing
+U2992,Jashore University of Science and Technology,,,Missing
+U2993,University of Jendouba,,,Missing
+U2994,Jizzakh Polytechnic Institute,,,Missing
+U2995,Jizzakh State Pedagogical University,,,Missing
+U2996,John von Neumann University,,,Missing
+U2997,Kabarak University,,,Missing
+U2998,Kabardino-Balkarian State University,,,Missing
+U2999,University of Kabianga,,,Missing
+U3000,Kadir Has University,,,Missing
+U3001,Kamianets-Podіlskyi Ivan Ohiienko National University,,,Missing
+U3002,Karaganda University of Kazpotrebsoyuz,,,Missing
+U3003,Karakalpak State University,,,Missing
+U3004,Karshi Engineering Economics Institute,,,Missing
+U3005,Kazakh National Pedagogical University Abai,,,Missing
+U3006,Kazakh National Women’s Teacher Training University,,,Missing
+U3007,Kazakhstan Medical University KSPH,,,Missing
+U3008,Kazan State Power Engineering University,,,Missing
+U3009,Keisen University,,,Missing
+U3010,Kharkiv University of Humanities “People’s Ukrainian Academy”,,,Missing
+U3011,Kharkiv National Automobile and Highway University,,,Missing
+U3012,Kharkiv National University of Internal Affairs,,,Missing
+U3013,Khazar University,,,Missing
+U3015,Khwaja Fareed University of Engineering and Information Technology,,,Missing
+U3016,Khyber Medical University,,,Missing
+U3017,Kimyo International University in Tashkent,,,Missing
+U3018,King Abdullah University of Science and Technology (KAUST),,,Missing
+U3019,King Danylo University,,,Missing
+U3020,King Edward Medical University,,,Missing
+U3021,Kinnaird College for Women,,,Missing
+U3022,University of Kirkuk,,,Missing
+U3023,Kitami Institute of Technology,,,Missing
+U3024,Knowledge University,,,Missing
+U3025,Kobe Gakuin University,,,Missing
+U3026,Kocaeli Health and Technology University,,,Missing
+U3027,Kohsar University Murree,,,Missing
+U3028,Kokshetau State University,,,Missing
+U3029,Kokugakuin University,,,Missing
+U3030,Konan University,,,Missing
+U3031,Konan Women’s University,,,Missing
+U3032,Koya University,,,Missing
+U3033,KPR Institute of Engineering and Technology,,,Missing
+U3034,Kumasi Technical University,,,Missing
+U3035,Kursk State Medical University,,,Missing
+U3036,Kütahya Health Sciences University,,,Missing
+U3037,Kutaisi University,,,Missing
+U3038,Kuwait College of Science and Technology (KCST),,,Missing
+U3039,Kyiv National Economic University,,,Missing
+U3040,Kyoai Gakuen University,,,Missing
+U3041,Kyoto Koka Women’s University,,,Missing
+U3042,Kyoto Notre Dame University,,,Missing
+U3043,K. Zhubanov Aktobe Regional University,,,Missing
+U3044,Lahore Leads University,,,Missing
+U3045,Landmark University,,,Missing
+U3046,Larbi Tebessi University,,,Missing
+U3047,La Salle University,,,Missing
+U3048,University of Las Américas (UDLA),,,Missing
+U3049,Leeds Arts University,,,Missing
+U3050,Leeds Conservatoire,,,Missing
+U3051,Leeds Trinity University,,,Missing
+U3052,Lesya Ukrainka Volyn National University,,,Missing
+U3053,Liaquat University of Medical and Health Sciences (LUMHS),,,Missing
+U3054,University of Liberal Arts Bangladesh,,,Missing
+U3055,Lincoln University College,,,Missing
+U3056,Lira University,,,Missing
+U3057,Université du Littoral Côte d’Opale,,,Missing
+U3058,Liverpool Hope University,,,Missing
+U3059,Liverpool Institute for Performing Arts,,,Missing
+U3060,Liverpool School of Tropical Medicine,,,Missing
+U3061,The LNM Institute of Information Technology,,,Missing
+U3062,London Academy of Music and Dramatic Art (LAMDA),,,Missing
+U3063,London Business School,,,Missing
+U3064,London School of Hygiene and Tropical Medicine,,,Missing
+U3065,Lviv State University of Life Safety,,,Missing
+U3066,University of Magallanes,,,Missing
+U3067,Universidad del Magdalena,,,Missing
+U3068,University Centre of Maghnia,,,Missing
+U3069,Mahatma Jyotiba Phule Rohilkhand University,,,Missing
+U3070,Malawi University of Science and Technology (MUST),,,Missing
+U3071,Management Development Institute (MDI),,,Missing
+U3072,Management & Science University (MSU),,,Missing
+U3073,Universidad Manuela Beltrán,,,Missing
+U3075,Margulan University,,,Missing
+U3076,Mariano Marcos State University,,,Missing
+U3077,Maritime University of Szczecin,,,Missing
+U3078,M. Auezov South Kazakhstan University,,,Missing
+U3079,Universidad Mayor de San Simón,,,Missing
+U3080,University of Medea,,,Missing
+U3081,University of Medellín,,,Missing
+U3082,Medizinische Hochschule Hannover,,,Missing
+U3083,Meikai University,,,Missing
+U3084,Universitas Mercu Buana,,,Missing
+U3085,Middle East University,,,Missing
+U3086,Mindanao State University – Iligan Institute of Technology,,,Missing
+U3087,Minhaj University Lahore,,,Missing
+U3088,University of Misan,,,Missing
+U3089,Misr University for Science and Technology,,,Missing
+U3090,Mizoram University,,,Missing
+U3091,M. Kumarasamy College of Engineering,,,Missing
+U3092,"MNS University of Agriculture, Multan",,,Missing
+U3093,Modern University for Business and Science,,,Missing
+U3094,Université Mohamed El Bachir El Ibrahimi de Bordj Bou Arréridj,,,Missing
+U3095,University of Mohamed Lamine Debaghin Setif 2,,,Missing
+U3096,Monroe College,,,Missing
+U3097,University of Monterrey,,,Missing
+U3098,Russian Biotechnological University (BIOTECH),,,Missing
+U3099,Moscow State Linguistic University,,,Missing
+U3100,Moscow Technical University of Communications and Informatics,,,Missing
+U3101,University of Mostar,,,Missing
+U3102,Muban Chombueng Rajabhat University,,,Missing
+U3103,Mukogawa Women’s University,,,Missing
+U3104,Mulungushi University,,,Missing
+U3105,Musashino University,,,Missing
+U3106,Universidad Nacional Abierta y a Distancia (UNAD),,,Missing
+U3107,Universidad Nacional de Asunción,,,Missing
+U3108,Universidad Nacional de Chimborazo,,,Missing
+U3109,Universidad Nacional de Itapúa,,,Missing
+U3110,Universidad Nacional de Rafaela (UNRaf),,,Missing
+U3111,Nagoya University of Commerce & Business,,,Missing
+U3112,Nakhchivan State University,,,Missing
+U3113,Nakhon Ratchasima Rajabhat University,,,Missing
+U3114,Namal University,,,Missing
+U3115,Namangan Engineering Construction Institute,,,Missing
+U3116,Namangan Institute of Engineering and Technology,,,Missing
+U3117,Namangan State University,,,Missing
+U3118,"Nasarawa State University, Keffi",,,Missing
+U3119,National Film and Television School,,,Missing
+U3120,National University of Food Technologies,,,Missing
+U3121,National University Odessa Law Academy,,,Missing
+U3122,The National University of Ostroh Academy,,,Missing
+U3123,National Polytechnic University of Armenia,,,Missing
+U3124,National University of Quilmes,,,Missing
+U3125,National School of Artificial Intelligence (ENSIA),,,Missing
+U3126,"National University of Science and Technology, Oman",,,Missing
+U3127,"National University, Sudan",,,Missing
+U3128,National Textile University,,,Missing
+U3129,National Transport University,,,Missing
+U3130,National University of Water and Environmental Engineering,,,Missing
+U3131,National University “Yuri Kondratyuk Poltava Polytechnic”,,,Missing
+U3132,Navoi State Pedagogical Institute,,,Missing
+U3133,Netaji Subhas University of Technology,,,Missing
+U3134,Niger Delta University,,,Missing
+U3135,Nihon Pharmaceutical University,,,Missing
+U3136,Niigata University of Health and Welfare,,,Missing
+U3137,University of Niigata Prefecture,,,Missing
+U3138,Ninevah University,,,Missing
+U3139,Nitte (Deemed to be University),,,Missing
+U3140,University of Northampton,,,Missing
+U3141,Northeast Ohio Medical University,,,Missing
+U3142,Northern Border University,,,Missing
+U3143,Northern Technical University,,,Missing
+U3144,Norwich University of the Arts,,,Missing
+U3145,University Centre of El-Bayadh,,,Missing
+U3146,University of Nova Gorica,,,Missing
+U3147,Novosibirsk State University of Economics and Management,,,Missing
+U3148,Nueva Ecija University of Science and Technology (NEUST),,,Missing
+U3149,Universidad Nur,,,Missing
+U3150,October 6 University,,,Missing
+U3151,October University for Modern Sciences and Arts (MSA),,,Missing
+U3152,Odesa I.I. Mechnikov National University,,,Missing
+U3153,Oguz Han Engineering and Technology University of Turkmenistan,,,Missing
+U3154,University of Okara,,,Missing
+U3155,Omsk State Agrarian University,,,Missing
+U3156,Open Christian University,,,Missing
+U3157,Université d’Oran 2 Mohamed Ben Ahmed,,,Missing
+U3158,Oran Graduate School of Economics,,,Missing
+U3159,Orel State Agrarian University named after N.V. Parahin,,,Missing
+U3160,Orel State University named after I.S. Turgenev,,,Missing
+U3161,ORT Uruguay University,,,Missing
+U3162,Osol Al-Deen University College,,,Missing
+U3163,University College of Osteopathy,,,Missing
+U3164,Ostrogradsky National University of Kremenchuk,,,Missing
+U3165,University of Oum El Bouaghi,,,Missing
+U3166,Universidad del Pacífico Ecuador,,,Missing
+U3167,Palestine Polytechnic University,,,Missing
+U3168,Palestine Technical University – Kadoorie,,,Missing
+U3169,Universidad de Pamplona,,,Missing
+U3170,Panteion University of Social and Political Sciences,,,Missing
+U3171,Panthéon-Assas University (Paris 2),,,Missing
+U3172,Pavlo Tychyna Uman State Pedagogical University,,,Missing
+U3173,University of Petra,,,Missing
+U3174,Petre Shotadze Tbilisi Medical Academy,,,Missing
+U3175,Petroleum University of Technology,,,Missing
+U3176,Petro Mohyla Black Sea National University,,,Missing
+U3177,Pharos University,,,Missing
+U3178,Philadelphia University (Jordan),,,Missing
+U3179,"Plateau State University, Bokkos",,,Missing
+U3180,Platov South-Russian State Polytechnic University (NPI),,,Missing
+U3181,Plymouth Marjon University,,,Missing
+U3182,Polytechnic Institute of Setúbal,,,Missing
+U3183,Pontifical Catholic University of Argentina,,,Missing
+U3184,University of Poonch Rawalakot,,,Missing
+U3185,Universidad Popular Autónoma del Estado de Puebla,,,Missing
+U3186,Prefectural University of Hiroshima,,,Missing
+U3187,"Presbyterian University, Ghana",,,Missing
+U3188,Presidency University,,,Missing
+U3189,"University of Professional Studies, Accra",,,Missing
+U3190,Prydniprovska State Academy of Civil Engineering and Architecture,,,Missing
+U3191,Pskov State University,,,Missing
+U3192,PUC-Campinas,,,Missing
+U3193,University of Puthisastra,,,Missing
+U3194,"Quaid-e-Awam University of Engineering, Science and Technology (QUEST)",,,Missing
+U3195,Queen Arwa University,,,Missing
+U3196,Queen Margaret University,,,Missing
+U3197,Universidade Rainha Njinga a Mbande (URNM),,,Missing
+U3198,Rajamangala University of Technology Isan,,,Missing
+U3199,Rajamangala University of Technology Thanyaburi (RMUTT),,,Missing
+U3200,Rawalpindi Medical University,,,Missing
+U3201,Rennes School of Business,,,Missing
+U3202,Ritsumeikan Asia Pacific University (APU),,,Missing
+U3203,Rose Bruford College,,,Missing
+U3204,Rostov State University of Economics,,,Missing
+U3205,Royal Agricultural University,,,Missing
+U3206,"Royal Central School of Speech and Drama, University of London",,,Missing
+U3207,Royal College of Academics,,,Missing
+U3208,Royal College of Art,,,Missing
+U3209,Royal Conservatoire of Scotland,,,Missing
+U3210,Royal Academy of Dramatic Art (RADA),,,Missing
+U3211,Royal Academy of Music,,,Missing
+U3212,Royal College of Music,,,Missing
+U3213,Royal Northern College of Music,,,Missing
+U3214,Russian State Agrarian University – Moscow Timiryazev Agricultural Academy,,,Missing
+U3215,Russian University of State for Social (RUSS),,,Missing
+U3216,Ryazan State Medical University,,,Missing
+U3217,University of Sadat City,,,Missing
+U3218,University of Saida,,,Missing
+U3219,University of Saint Joseph,,,Missing
+U3220,Saint Petersburg State Pediatric Medical University,,,Missing
+U3221,"Saint Thomas University, Colombia",,,Missing
+U3222,Sakon Nakhon Rajabhat University,,,Missing
+U3223,Salahaddin University–Erbil,,,Missing
+U3224,Samara State Medical University,,,Missing
+U3225,Samarkand State University,,,Missing
+U3226,Samarkand State Institute of Foreign Languages,,,Missing
+U3227,Samarkand State Medical University,,,Missing
+U3228,Samsun University,,,Missing
+U3229,University of San Martín de Porres,,,Missing
+U3230,University of Santander,,,Missing
+U3231,Universidad Santo Tomás,,,Missing
+U3232,Sarsen Amanzholov East Kazakhstan University,,,Missing
+U3233,Satya Wacana Christian University,,,Missing
+U3234,Saudi Electronic University,,,Missing
+U3235,SBS Swiss Business School,,,Missing
+U3236,University of Science and Technology of Southern Philippines (USTP),,,Missing
+U3237,SDU University,,,Missing
+U3238,Sebha University,,,Missing
+U3239,Sefako Makgatho Health Sciences University,,,Missing
+U3240,Seisa Dohto University,,,Missing
+U3241,Senshu University,,,Missing
+U3242,Seyitnazar Seydi Turkmen State Pedagogical Institute,,,Missing
+U3243,"Shah Abdul Latif University, Khairpur",,,Missing
+U3244,Shaheed Benazir Bhutto Women University Peshawar,,,Missing
+U3245,Shaheed Mohtarma Benazir Bhutto Medical University,,,Missing
+U3246,Shaheed Zulfiqar Ali Bhutto Medical University,,,Missing
+U3247,The University of Shiga Prefecture,,,Missing
+U3248,Shonan Institute of Technology,,,Missing
+U3249,Silesian University in Opava,,,Missing
+U3250,SIMAD University,,,Missing
+U3251,Simón Bolívar University (Colombia),,,Missing
+U3252,Universidad del Sinú,,,Missing
+U3253,Sir Syed University of Engineering and Technology,,,Missing
+U3254,Skolkovo Institute of Science and Technology (Skoltech),,,Missing
+U3255,"Solent University, Southampton",,,Missing
+U3256,"Soochow University, Taiwan",,,Missing
+U3257,University of Sopron,,,Missing
+U3258,University of Souk Ahras,,,Missing
+U3259,Institute of Southern Punjab – Multan,,,Missing
+U3260,Southern Technical University,,,Missing
+U3261,Sri Balaji Vidyapeeth,,,Missing
+U3262,Sri Lanka Institute of Information Technology,,,Missing
+U3263,State Energy Institute of Turkmenistan,,,Missing
+U3264,Stavropol State Agrarian University,,,Missing
+U3265,St Luke’s International University,,,Missing
+U3266,"St Mary’s University College, Belfast",,,Missing
+U3267,"St Mary’s University, Twickenham",,,Missing
+U3268,Stranmillis University College,,,Missing
+U3269,University of Suffolk,,,Missing
+U3270,University of Sufism and Modern Sciences (USMS),,,Missing
+U3271,Sugiyama Jogakuen University,,,Missing
+U3272,Sukkur IBA University,,,Missing
+U3273,University of Swabi,,,Missing
+U3274,Tafila Technical University,,,Missing
+U3275,University of Taipei,,,Missing
+U3276,Takushoku University,,,Missing
+U3277,Tama Art University,,,Missing
+U3278,University of Tamanghasset,,,Missing
+U3279,Tarlac Agricultural University,,,Missing
+U3280,Tarsus University,,,Missing
+U3281,Tashkent Institute of Chemical Technology,,,Missing
+U3282,Tashkent Institute of Finance,,,Missing
+U3283,Tashkent University of Information Technologies,,,Missing
+U3284,Tashkent Institute of Irrigation and Agricultural Mechanisation,,,Missing
+U3285,Tashkent Medical Academy,,,Missing
+U3286,Tashkent Pediatric Medical Institute,,,Missing
+U3287,Tashkent Pharmaceutical Institute,,,Missing
+U3288,Tashkent State Dental Institute,,,Missing
+U3289,Tashkent State University of Economics,,,Missing
+U3290,Tashkent State University of Law,,,Missing
+U3291,Tashkent State University of Oriental Studies,,,Missing
+U3292,Tashkent State Pedagogical University named after Nizami,,,Missing
+U3293,Tashkent State Technical University,,,Missing
+U3294,Tashkent State Transport University,,,Missing
+U3295,Tashkent Institute of Textile and Light Industry,,,Missing
+U3296,Tata Institute of Fundamental Research,,,Missing
+U3297,Tatung University,,,Missing
+U3298,T. C. Demiroğlu Bilim University,,,Missing
+U3299,Teacher Education College of Setif,,,Missing
+U3300,Technical University of Moldova,,,Missing
+U3301,University of Technology Nowshera,,,Missing
+U3302,Universidad Técnica de Manabí,,,Missing
+U3303,Universidad Tecnológica de Santiago (UTESA),,,Missing
+U3304,Tecnológico de Costa Rica,,,Missing
+U3305,Instituto Tecnológico Metropolitano,,,Missing
+U3306,Teerthanker Mahaveer University,,,Missing
+U3307,Teikyo Heisei University,,,Missing
+U3308,Institut Teknologi Nasional Bandung (ITENAS Bandung),,,Missing
+U3309,University of Telafer,,,Missing
+U3310,Institute of Telecommunications and Informatics of Turkmenistan,,,Missing
+U3311,Tenri University,,,Missing
+U3312,Termez State University,,,Missing
+U3313,Termez Institute of Engineering and Technology,,,Missing
+U3314,Termiz Institute of Agrotechnology and Innovative Development,,,Missing
+U3315,University of the Thai Chamber of Commerce,,,Missing
+U3316,University of Thi-Qar,,,Missing
+U3317,Thomas Adewumi University,,,Missing
+U3318,Tikrit University,,,Missing
+U3319,Tishk International University,,,Missing
+U3320,Tissemsilt University,,,Missing
+U3321,Tohoku Gakuin University,,,Missing
+U3322,Tokyo University of Foreign Studies,,,Missing
+U3323,Tokyo University of Technology,,,Missing
+U3324,Tomsk State Pedagogical University,,,Missing
+U3325,Trinity Laban Conservatoire of Music and Dance,,,Missing
+U3326,University of Tripoli,,,Missing
+U3327,Turan-Astana University,,,Missing
+U3328,Turin Polytechnic University in Tashkent,,,Missing
+U3329,Turkmen State Architecture and Construction Institute,,,Missing
+U3330,Turkmen State Institute of Economics and Management,,,Missing
+U3331,Tver State Technical University,,,Missing
+U3332,Ubon Ratchathani University,,,Missing
+U3333,UBT,,,Missing
+U3334,"UEES, Espiritu Santo University",,,Missing
+U3335,UIN Sulthan Thaha Saifuddin Jambi,,,Missing
+U3336,Ulyanovsk State University,,,Missing
+U3337,Ulyanovsk State Technical University,,,Missing
+U3338,UNESC,,,Missing
+U3339,Unichristus,,,Missing
+U3340,Universiapolis – Université Internationale d’Agadir,,,Missing
+U3341,Ural State University of Economics,,,Missing
+U3342,Ural State Medical University,,,Missing
+U3343,Urgench State University,,,Missing
+U3344,Uruk University,,,Missing
+U3345,Universidad UTE,,,Missing
+U3346,National University of Uzbekistan named after Mirzo Ulugbek,,,Missing
+U3347,Uzbekistan State University of World Languages,,,Missing
+U3348,Uzbek State University of Physical Culture and Sport,,,Missing
+U3349,Valahia University of Targoviste,,,Missing
+U3350,University of Vale do Itajaí,,,Missing
+U3351,Varendra University,,,Missing
+U3352,Varna University of Management,,,Missing
+U3353,Vasyl Stefanyk Precarpathian National University,,,Missing
+U3354,"Veritas University, Abuja",,,Missing
+U3355,University of Veterinary Medicine and Pharmacy in Košice,,,Missing
+U3356,Vila Velha University,,,Missing
+U3357,Vinayaka Mission’s Research Foundation,,,Missing
+U3358,Visayas State University,,,Missing
+U3359,Visvesvaraya Technological University,,,Missing
+U3360,Volgograd State Medical University,,,Missing
+U3361,University of Wales Trinity Saint David,,,Missing
+U3362,University of Warith Alanbiyaa,,,Missing
+U3363,Wasit University,,,Missing
+U3364,Westcliff University,,,Missing
+U3365,Western Caspian University,,,Missing
+U3366,West Ukrainian National University,,,Missing
+U3367,WHU: Beisheim,,,Missing
+U3368,Women University Mardan,,,Missing
+U3369,The Women University Multan,,,Missing
+U3370,University of Worcester,,,Missing
+U3371,World University of Bangladesh (WUB),,,Missing
+U3372,The World Islamic Sciences and Education University (WISE),,,Missing
+U3373,Wrexham Glyndwr University,,,Missing
+U3374,Writtle University College,,,Missing
+U3375,WSB Academy,,,Missing
+U3376,Yagshigeldi Kakayev International University of Oil and Gas,,,Missing
+U3377,Yamaguchi Prefectural University,,,Missing
+U3378,Yanka Kupala State University of Grodno,,,Missing
+U3379,Yaşar University,,,Missing
+U3380,York St John University,,,Missing
+U3381,"Yusuf Maitama Sule University, Kano",,,Missing
+U3382,Zarqa University,,,Missing
+U3383,Zhetysu University,,,Missing
+U3384,Zhytomyr Polytechnic State University,,,Missing
+U3385,Ziane Achour University of Djelfa,,,Missing
+U3386,Ziauddin University,,,Missing
+U3440,"Adamawa State University, Mubi",,,Missing
+U3441,Aga Khan University,,,Missing
+U3442,Ahl Al Bayt University,,,Missing
+U3443,Tashkent Metropolitan University,,,Missing
+U3444,Al-Farahidi University,,,Missing
+U3445,American University of Nigeria,,,Missing
+U3446,Arab Open University – Kuwait,,,Missing
+U3447,Arab Open University Lebanon,,,Missing
+U3448,Ashur University College,,,Missing
+U3449,Augustine University,,,Missing
+U3450,"Balochistan University of Engineering and Technology, Khuzdar",,,Missing
+U3451,"Bamidele Olumilua University of Education, Science and Technology, Ikere-Ikiti",,,Missing
+U3452,Basrah University College of Science and Technology,,,Missing
+U3453,Bowen University,,,Missing
+U3454,Centro Universitário de Jaguariúna,,,Missing
+U3455,Centro Universitário Max Planck,,,Missing
+U3456,César Ritz Colleges Switzerland,,,Missing
+U3457,Christ University Bengaluru India,,,Missing
+U3458,Coal City University,,,Missing
+U3459,Cross River University of Technology,,,Missing
+U3460,C.V. Raman Global University,,,Missing
+U3461,Deraya University,,,Missing
+U3462,Dhonburi Rajabhat University,,,Missing
+U3463,Dijlah University,,,Missing
+U3464,Doğuş University,,,Missing
+U3465,Ebonyi State University,,,Missing
+U3466,Academy of Economic Studies of Moldova,,,Missing
+U3467,"University of Engineering and Technology, Mardan",,,Missing
+U3468,ESIC,,,Missing
+U3469,Universidade Estadual de Goiás,,,Missing
+U3470,European University of Valencia,,,Missing
+U3471,Externado University of Colombia,,,Missing
+U3472,Federal University Gashua,,,Missing
+U3473,Federal University of Lafia,,,Missing
+U3474,First Technical University,,,Missing
+U3475,Fukui Prefectural University,,,Missing
+U3476,Fundação Oswaldo Cruz,,,Missing
+U3477,Fundación Universitaria del Área Andina,,,Missing
+U3478,Greenwich University,,,Missing
+U3479,Gregory University Uturu,,,Missing
+U3480,University of Health and Allied Sciences,,,Missing
+U3481,Huachiew Chalermprakiet University,,,Missing
+U3482,Ignatius Ajuru University of Education,,,Missing
+U3483,Jerash Private University,,,Missing
+U3484,University of Jos,,,Missing
+U3485,Kampala International University,,,Missing
+U3486,Karshi State University,,,Missing
+U3487,Kermanshah University of Technology,,,Missing
+U3488,Khomein University of Medical Sciences,,,Missing
+U3489,Kings University,,,Missing
+U3490,Kobe City University of Foreign Studies,,,Missing
+U3491,Konya Technical University,,,Missing
+U3492,KTO Karatay University,,,Missing
+U3493,Loei Rajabhat University,,,Missing
+U3494,Marian College Kuttikkanam (Autonomous),,,Missing
+U3495,Michael and Cecilia Ibru University,,,Missing
+U3496,"Michael Okpara University of Agriculture, Umudike",,,Missing
+U3497,MIOTI Tech and Business School,,,Missing
+U3498,Universidad Monteávila,,,Missing
+U3499,Nara Institute of Science and Technology,,,Missing
+U3500,National University of Mongolia,,,Missing
+U3501,Newman University,,,Missing
+U3502,"Nigerian Police Academy, Wudil",,,Missing
+U3503,Novena University,,,Missing
+U3504,Nursing School of Coimbra,,,Missing
+U3505,Olusegun Agagu University of Science and Technology,,,Missing
+U3506,Paris University of International Education,,,Missing
+U3507,Polytechnic University of Tirana,,,Missing
+U3508,Poltava V.G. Korolenko National Pedagogical University (PNPU),,,Missing
+U3509,Ravensbourne,,,Missing
+U3510,Salahaddin University,,,Missing
+U3511,Salem University,,,Missing
+U3512,Samuel Adegboyega University,,,Missing
+U3513,Sikkim Manipal University,,,Missing
+U3514,Simón Bolívar University,,,Missing
+U3515,Sokoto State University,,,Missing
+U3516,Soran University,,,Missing
+U3517,University of South Santa Catarina (Unisul),,,Missing
+U3518,SR University,,,Missing
+U3519,Sri Padmavati Mahila Visvavidyalayam (Women's University),,,Missing
+U3520,Sulaimani Polytechnic University,,,Missing
+U3521,Suratthani Rajabhat University,,,Missing
+U3522,Tashkent State Agrarian University,,,Missing
+U3523,Tecmilenio University,,,Missing
+U3524,Umaru Musa Yar’adua University,,,Missing
+U3525,UNNOBA,,,Missing
+U3526,Üsküdar University,,,Missing
+U3527,"Usmanu Danfodiyo University, Sokoto",,,Missing
+U3528,University of Uyo,,,Missing
+U3529,Virtual University of Tunis,,,Missing
+U3530,​Wellspring University,,,Missing

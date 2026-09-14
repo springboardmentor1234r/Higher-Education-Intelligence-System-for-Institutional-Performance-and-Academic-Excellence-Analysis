@@ -1,0 +1,10 @@
+university_id,university_name,country_name,wb_region,wb_income_group,the_rank_2023_num,the_rank_2024_num
+U0003,university of oxford,United Kingdom,Europe & Central Asia,High income: OECD,1.0,1.0
+U1507,ETH Zurich,Switzerland,Europe & Central Asia,High income: OECD,11.0,11.0
+U1508,The University of Chicago,United States,North America,High income: OECD,13.0,13.0
+U0032,johns hopkins university,United States,North America,High income: OECD,15.0,15.0
+U1510,National University of Singapore,Singapore,East Asia & Pacific,High income: nonOECD,19.0,19.0
+U0016,cornell university,United States,North America,High income: OECD,20.0,20.0
+U0009,ucl,United Kingdom,Europe & Central Asia,High income: OECD,22.0,22.0
+U0044,university of michigan-ann arbor,United States,North America,High income: OECD,23.0,23.0
+U0142,leiden university,Netherlands,Europe & Central Asia,High income: OECD,77.0,77.0

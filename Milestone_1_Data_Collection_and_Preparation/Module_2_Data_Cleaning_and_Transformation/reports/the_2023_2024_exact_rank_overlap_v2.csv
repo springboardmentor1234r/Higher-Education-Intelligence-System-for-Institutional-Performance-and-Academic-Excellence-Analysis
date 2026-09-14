@@ -1,0 +1,109 @@
+university_id,university_name,country_name,the_rank_2023,the_rank_2024,the_rank_2023_numeric,the_rank_2024_numeric,rank_change,absolute_rank_change,rank_status
+U0154,texas a&m university,United States,181.0,118.0,181.0,118.0,63.0,63.0,Improved
+U1534,Purdue University West Lafayette,United States,127.0,86.0,127.0,86.0,41.0,41.0,Improved
+U0109,technical university of denmark,Denmark,166.0,126.0,166.0,126.0,40.0,40.0,Improved
+U0073,université paris-saclay,France,93.0,58.0,93.0,58.0,35.0,35.0,Improved
+U1544,Penn State (Main campus),United States,151.0,122.0,151.0,122.0,29.0,29.0,Improved
+U1547,Trinity College Dublin,Ireland,161.0,134.0,161.0,134.0,27.0,27.0,Improved
+U0089,durham university,United Kingdom,198.0,174.0,198.0,174.0,24.0,24.0,Improved
+U0046,institut polytechnique de paris,France,95.0,71.0,95.0,71.0,24.0,24.0,Improved
+U0145,nanjing university,China (Mainland),95.0,73.0,95.0,73.0,22.0,22.0,Improved
+U0049,delft university of technology,Netherlands,70.0,48.0,70.0,48.0,22.0,22.0,Improved
+U0238,university of rochester,United States,154.0,133.0,154.0,133.0,21.0,21.0,Improved
+U0216,university of florida,United States,151.0,132.0,151.0,132.0,19.0,19.0,Improved
+U0116,university of wisconsin-madison,United States,81.0,63.0,81.0,63.0,18.0,18.0,Improved
+U0062,city university of hong kong,Hong Kong SAR,99.0,82.0,99.0,82.0,17.0,17.0,Improved
+U0135,university of science and technology of china,China (Mainland),74.0,57.0,74.0,57.0,17.0,17.0,Improved
+U1533,University of Minnesota,United States,101.0,85.0,101.0,85.0,16.0,16.0,Improved
+U0064,sorbonne university,France,90.0,75.0,90.0,75.0,15.0,15.0,Improved
+U0098,pohang university of science and technology (postech),South Korea,163.0,149.0,163.0,149.0,14.0,14.0,Improved
+U0033,the university of tokyo,Japan,39.0,29.0,39.0,29.0,10.0,10.0,Improved
+U1541,University of Sheffield,United Kingdom,114.0,105.0,114.0,105.0,9.0,9.0,Improved
+U0045,shanghai jiao tong university,China (Mainland),52.0,43.0,52.0,43.0,9.0,9.0,Improved
+U0099,rwth aachen university,Germany,99.0,90.0,99.0,90.0,9.0,9.0,Improved
+U1514,École Polytechnique Fédérale de Lausanne,Switzerland,41.0,33.0,41.0,33.0,8.0,8.0,Improved
+U1531,Korea Advanced Institute of Science and Technology (KAIST),South Korea,91.0,83.0,91.0,83.0,8.0,8.0,Improved
+U1520,Paris Sciences et Lettres – PSL Research University Paris,France,47.0,40.0,47.0,40.0,7.0,7.0,Improved
+U0039,fudan university,China (Mainland),51.0,44.0,51.0,44.0,7.0,7.0,Improved
+U0080,university of birmingham,United Kingdom,108.0,101.0,108.0,101.0,7.0,7.0,Improved
+U0070,university of illinois at urbana-champaign,United States,48.0,42.0,48.0,42.0,6.0,6.0,Improved
+U0058,carnegie mellon university,United States,28.0,24.0,28.0,24.0,4.0,4.0,Improved
+U0020,tsinghua university,China (Mainland),16.0,12.0,16.0,12.0,4.0,4.0,Improved
+U1513,"Nanyang Technological University, Singapore",Singapore,36.0,32.0,36.0,32.0,4.0,4.0,Improved
+U0130,"university of california, davis",United States,63.0,59.0,63.0,59.0,4.0,4.0,Improved
+U1509,"University of California, Los Angeles",United States,21.0,18.0,21.0,18.0,3.0,3.0,Improved
+U1524,University of Manchester,United Kingdom,54.0,51.0,54.0,51.0,3.0,3.0,Improved
+U0014,peking university,China (Mainland),17.0,14.0,17.0,14.0,3.0,3.0,Improved
+U0002,imperial college london,United Kingdom,10.0,8.0,10.0,8.0,2.0,2.0,Improved
+U0110,university of zurich,Switzerland,82.0,80.0,82.0,80.0,2.0,2.0,Improved
+U0114,georgia institute of technology,United States,38.0,36.0,38.0,36.0,2.0,2.0,Improved
+U1530,Yonsei University (Seoul campus),South Korea,78.0,76.0,78.0,76.0,2.0,2.0,Improved
+U1504,Massachusetts Institute of Technology,United States,5.0,3.0,5.0,3.0,2.0,2.0,Improved
+U0022,princeton university,United States,7.0,6.0,7.0,6.0,1.0,1.0,Improved
+U0076,university of washington,United States,26.0,25.0,26.0,25.0,1.0,1.0,Improved
+U0006,stanford university,United States,3.0,2.0,3.0,2.0,1.0,1.0,Improved
+U0016,cornell university,United States,20.0,20.0,20.0,20.0,0.0,0.0,Stable
+U1510,National University of Singapore,Singapore,19.0,19.0,19.0,19.0,0.0,0.0,Stable
+U0142,leiden university,Netherlands,77.0,77.0,77.0,77.0,0.0,0.0,Stable
+U1508,The University of Chicago,United States,13.0,13.0,13.0,13.0,0.0,0.0,Stable
+U1507,ETH Zurich,Switzerland,11.0,11.0,11.0,11.0,0.0,0.0,Stable
+U0032,johns hopkins university,United States,15.0,15.0,15.0,15.0,0.0,0.0,Stable
+U0044,university of michigan-ann arbor,United States,23.0,23.0,23.0,23.0,0.0,0.0,Stable
+U0003,university of oxford,United Kingdom,1.0,1.0,1.0,1.0,0.0,0.0,Stable
+U0009,ucl,United Kingdom,22.0,22.0,22.0,22.0,0.0,0.0,Stable
+U0061,duke university,United States,25.0,26.0,25.0,26.0,-1.0,1.0,Declined
+U0083,university of leeds,United Kingdom,128.0,129.0,128.0,129.0,-1.0,1.0,Declined
+U0055,university of amsterdam,Netherlands,60.0,61.0,60.0,61.0,-1.0,1.0,Declined
+U0023,yale university,United States,9.0,10.0,9.0,10.0,-1.0,1.0,Declined
+U1505,California Institute of Technology,United States,6.0,7.0,6.0,7.0,-1.0,1.0,Declined
+U0119,university of oslo,Norway,126.0,127.0,126.0,127.0,-1.0,1.0,Declined
+U1506,"University of California, Berkeley",United States,8.0,9.0,8.0,9.0,-1.0,1.0,Declined
+U0038,university of british columbia,Canada,40.0,41.0,40.0,41.0,-1.0,1.0,Declined
+U1523,Karolinska Institute,Sweden,49.0,50.0,49.0,50.0,-1.0,1.0,Declined
+U1515,"University of California, San Diego",United States,32.0,34.0,32.0,34.0,-2.0,2.0,Declined
+U0066,university of texas at austin,United States,50.0,52.0,50.0,52.0,-2.0,2.0,Declined
+U1536,University of Bonn,Germany,89.0,91.0,89.0,91.0,-2.0,2.0,Declined
+U0005,university of cambridge,United Kingdom,3.0,5.0,3.0,5.0,-2.0,2.0,Declined
+U0004,harvard university,United States,2.0,4.0,2.0,4.0,-2.0,2.0,Declined
+U0011,university of pennsylvania,United States,14.0,16.0,14.0,16.0,-2.0,2.0,Declined
+U0051,northwestern university,United States,26.0,28.0,26.0,28.0,-2.0,2.0,Declined
+U0025,university of toronto,Canada,18.0,21.0,18.0,21.0,-3.0,3.0,Declined
+U0029,mcgill university,Canada,46.0,49.0,46.0,49.0,-3.0,3.0,Declined
+U1529,University of North Carolina at Chapel Hill,United States,69.0,72.0,69.0,72.0,-3.0,3.0,Declined
+U1511,New York University,United States,24.0,27.0,24.0,27.0,-3.0,3.0,Declined
+U0186,cardiff university,United Kingdom,187.0,190.0,187.0,190.0,-3.0,3.0,Declined
+U1517,University of Melbourne,Australia,34.0,37.0,34.0,37.0,-3.0,3.0,Declined
+U0063,ku leuven,Belgium,42.0,45.0,42.0,45.0,-3.0,3.0,Declined
+U1516,University of Hong Kong,Hong Kong,31.0,35.0,31.0,35.0,-4.0,4.0,Declined
+U0160,university of groningen,Netherlands,75.0,79.0,75.0,79.0,-4.0,4.0,Declined
+U0221,vrije universiteit amsterdam,Netherlands,121.0,125.0,121.0,125.0,-4.0,4.0,Declined
+U1522,Universität Heidelberg,Germany,43.0,47.0,43.0,47.0,-4.0,4.0,Declined
+U1526,Australian National University,Australia,62.0,67.0,62.0,67.0,-5.0,5.0,Declined
+U1528,"University of California, Santa Barbara",United States,64.0,69.0,64.0,69.0,-5.0,5.0,Declined
+U0134,macquarie university,Australia,175.0,180.0,175.0,180.0,-5.0,5.0,Declined
+U0054,university of bristol,United Kingdom,76.0,81.0,76.0,81.0,-5.0,5.0,Declined
+U0018,the university of sydney,Australia,54.0,60.0,54.0,60.0,-6.0,6.0,Declined
+U0031,seoul national university,South Korea,56.0,62.0,56.0,62.0,-6.0,6.0,Declined
+U0034,columbia university,United States,11.0,17.0,11.0,17.0,-6.0,6.0,Declined
+U0171,university of cape town,South Africa,160.0,167.0,160.0,167.0,-7.0,7.0,Declined
+U0112,boston university,United States,71.0,78.0,71.0,78.0,-7.0,7.0,Declined
+U1525,Chinese University of Hong Kong,Hong Kong,45.0,53.0,45.0,53.0,-8.0,8.0,Declined
+U0184,university of york,United Kingdom,139.0,147.0,139.0,147.0,-8.0,8.0,Declined
+U0169,ghent university,Belgium,107.0,115.0,107.0,115.0,-8.0,8.0,Declined
+U0125,university of southern california,United States,65.0,74.0,65.0,74.0,-9.0,9.0,Declined
+U1521,London School of Economics and Political Science,United Kingdom,37.0,46.0,37.0,46.0,-9.0,9.0,Declined
+U1559,University of Virginia (Main campus),United States,156.0,166.0,156.0,166.0,-10.0,10.0,Declined
+U0037,monash university,Australia,44.0,54.0,44.0,54.0,-10.0,10.0,Declined
+U0218,"university of maryland, college park",United States,104.0,114.0,104.0,114.0,-10.0,10.0,Declined
+U1540,Free University of Berlin,Germany,91.0,102.0,91.0,102.0,-11.0,11.0,Declined
+U1527,Washington University in St Louis,United States,57.0,68.0,57.0,68.0,-11.0,11.0,Declined
+U0117,university of helsinki,Finland,110.0,121.0,110.0,121.0,-11.0,11.0,Declined
+U0120,queen mary university of london,United Kingdom,124.0,135.0,124.0,135.0,-11.0,11.0,Declined
+U1532,UNSW Sydney,Australia,71.0,84.0,71.0,84.0,-13.0,13.0,Declined
+U0287,university of cologne,Germany,146.0,160.0,146.0,160.0,-14.0,14.0,Declined
+U1546,University of Freiburg,Germany,113.0,128.0,113.0,128.0,-15.0,15.0,Declined
+U0088,university of technology sydney,Australia,133.0,148.0,133.0,148.0,-15.0,15.0,Declined
+U0041,the university of queensland,Australia,53.0,70.0,53.0,70.0,-17.0,17.0,Declined
+U1537,Charité - Universitätsmedizin Berlin,Germany,73.0,94.0,73.0,94.0,-21.0,21.0,Declined
+U1564,Arizona State University (Tempe),United States,156.0,182.0,156.0,182.0,-26.0,26.0,Declined
+U1570,Indiana University,United States,170.0,198.0,170.0,198.0,-28.0,28.0,Declined

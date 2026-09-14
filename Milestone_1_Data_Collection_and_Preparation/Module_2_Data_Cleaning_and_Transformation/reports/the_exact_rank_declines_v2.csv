@@ -1,0 +1,21 @@
+university_id,university_name,country_name,the_rank_2023,the_rank_2024,the_rank_2023_numeric,the_rank_2024_numeric,rank_change,absolute_rank_change,rank_status
+U1570,Indiana University,United States,170.0,198.0,170.0,198.0,-28.0,28.0,Declined
+U1564,Arizona State University (Tempe),United States,156.0,182.0,156.0,182.0,-26.0,26.0,Declined
+U1537,Charité - Universitätsmedizin Berlin,Germany,73.0,94.0,73.0,94.0,-21.0,21.0,Declined
+U0041,the university of queensland,Australia,53.0,70.0,53.0,70.0,-17.0,17.0,Declined
+U1546,University of Freiburg,Germany,113.0,128.0,113.0,128.0,-15.0,15.0,Declined
+U0088,university of technology sydney,Australia,133.0,148.0,133.0,148.0,-15.0,15.0,Declined
+U0287,university of cologne,Germany,146.0,160.0,146.0,160.0,-14.0,14.0,Declined
+U1532,UNSW Sydney,Australia,71.0,84.0,71.0,84.0,-13.0,13.0,Declined
+U0120,queen mary university of london,United Kingdom,124.0,135.0,124.0,135.0,-11.0,11.0,Declined
+U0117,university of helsinki,Finland,110.0,121.0,110.0,121.0,-11.0,11.0,Declined
+U1527,Washington University in St Louis,United States,57.0,68.0,57.0,68.0,-11.0,11.0,Declined
+U1540,Free University of Berlin,Germany,91.0,102.0,91.0,102.0,-11.0,11.0,Declined
+U1559,University of Virginia (Main campus),United States,156.0,166.0,156.0,166.0,-10.0,10.0,Declined
+U0037,monash university,Australia,44.0,54.0,44.0,54.0,-10.0,10.0,Declined
+U0218,"university of maryland, college park",United States,104.0,114.0,104.0,114.0,-10.0,10.0,Declined
+U0125,university of southern california,United States,65.0,74.0,65.0,74.0,-9.0,9.0,Declined
+U1521,London School of Economics and Political Science,United Kingdom,37.0,46.0,37.0,46.0,-9.0,9.0,Declined
+U0169,ghent university,Belgium,107.0,115.0,107.0,115.0,-8.0,8.0,Declined
+U1525,Chinese University of Hong Kong,Hong Kong,45.0,53.0,45.0,53.0,-8.0,8.0,Declined
+U0184,university of york,United Kingdom,139.0,147.0,139.0,147.0,-8.0,8.0,Declined

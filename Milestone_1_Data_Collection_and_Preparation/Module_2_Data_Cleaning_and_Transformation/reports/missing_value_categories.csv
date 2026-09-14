@@ -1,0 +1,54 @@
+column,missing_count,missing_percentage,missing_category
+the_rank_2024,3418,96.8271954674221,Very High Missingness
+qs_rank_2025,2930,83.0028328611898,Very High Missingness
+qs_overall_score,2930,83.0028328611898,Very High Missingness
+wb_youth_literacy_15_24_pct_2015,2923,82.80453257790367,Very High Missingness
+wb_tertiary_graduation_ratio_2015,2444,69.23512747875354,High Missingness
+wb_tertiary_pupil_teacher_ratio_2015,2228,63.11614730878187,High Missingness
+qs_international_faculty_score,2127,60.25495750708215,High Missingness
+qs_international_students_score,2085,59.06515580736544,High Missingness
+qs_sustainability_score,2046,57.960339943342774,High Missingness
+country_code,2027,57.422096317280456,High Missingness
+qs_faculty_student_score,2027,57.422096317280456,High Missingness
+qs_employment_outcomes_score,2027,57.422096317280456,High Missingness
+qs_academic_reputation_score,2027,57.422096317280456,High Missingness
+qs_employer_reputation_score,2027,57.422096317280456,High Missingness
+qs_citations_per_faculty_score,2027,57.422096317280456,High Missingness
+wb_tertiary_graduates_2015,1903,53.90934844192634,High Missingness
+the_rank_2023,1833,51.92634560906516,High Missingness
+the_international_outlook_score_2023,1809,51.24645892351275,High Missingness
+the_research_score_2023,1809,51.24645892351275,High Missingness
+the_overall_score_2023,1809,51.24645892351275,High Missingness
+the_industry_income_score_2023,1809,51.24645892351275,High Missingness
+the_teaching_score_2023,1809,51.24645892351275,High Missingness
+the_citations_score_2023,1809,51.24645892351275,High Missingness
+the_overall_score_2024,1624,46.005665722379604,Moderate Missingness
+the_industry_income_score_2024,1624,46.005665722379604,Moderate Missingness
+the_international_outlook_score_2024,1624,46.005665722379604,Moderate Missingness
+the_citations_score_2024,1624,46.005665722379604,Moderate Missingness
+the_teaching_score_2024,1624,46.005665722379604,Moderate Missingness
+the_research_score_2024,1624,46.005665722379604,Moderate Missingness
+the_international_students_pct_2023,1297,36.742209631728045,Moderate Missingness
+the_student_staff_ratio_2023,1297,36.742209631728045,Moderate Missingness
+the_female_percentage_2023,1297,36.742209631728045,Moderate Missingness
+wb_tertiary_enrollment_ratio_2015,1186,33.597733711048164,Moderate Missingness
+wb_female_tertiary_students_pct_2015,1103,31.246458923512748,Moderate Missingness
+the_international_students_pct_2024,859,24.3342776203966,Moderate Missingness
+the_female_percentage_2024,859,24.3342776203966,Moderate Missingness
+the_student_staff_ratio_2024,859,24.3342776203966,Moderate Missingness
+wb_2alpha_code,66,1.8696883852691217,Low Missingness
+wb_income_group,64,1.8130311614730876,Low Missingness
+wb_region,64,1.8130311614730876,Low Missingness
+wb_country_name,64,1.8130311614730876,Low Missingness
+wb_country_code,64,1.8130311614730876,Low Missingness
+wb_long_name,64,1.8130311614730876,Low Missingness
+university_id,0,0.0,Complete
+country_name_canonical,0,0.0,Complete
+qs_present,0,0.0,Complete
+university_name,0,0.0,Complete
+country_name,0,0.0,Complete
+the24_present,0,0.0,Complete
+worldbank_match_key,0,0.0,Complete
+the23_present,0,0.0,Complete
+worldbank_linked,0,0.0,Complete
+worldbank_education_2015_linked,0,0.0,Complete

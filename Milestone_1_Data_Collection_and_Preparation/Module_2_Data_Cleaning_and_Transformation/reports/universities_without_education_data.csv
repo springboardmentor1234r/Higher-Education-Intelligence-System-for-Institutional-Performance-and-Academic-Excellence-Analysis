@@ -1,0 +1,574 @@
+university_id,university_name,country_name,wb_country_code,wb_region,wb_income_group
+U0013,the university of melbourne,Australia,AUS,East Asia & Pacific,High income: OECD
+U0018,the university of sydney,Australia,AUS,East Asia & Pacific,High income: OECD
+U0019,the university of new south wales (unsw sydney),Australia,AUS,East Asia & Pacific,High income: OECD
+U0025,university of toronto,Canada,CAN,North America,High income: OECD
+U0029,mcgill university,Canada,CAN,North America,High income: OECD
+U0030,the australian national university,Australia,AUS,East Asia & Pacific,High income: OECD
+U0033,the university of tokyo,Japan,JPN,East Asia & Pacific,High income: OECD
+U0037,monash university,Australia,AUS,East Asia & Pacific,High income: OECD
+U0038,university of british columbia,Canada,CAN,North America,High income: OECD
+U0041,the university of queensland,Australia,AUS,East Asia & Pacific,High income: OECD
+U0050,kyoto university,Japan,JPN,East Asia & Pacific,High income: OECD
+U0068,national taiwan university (ntu),Taiwan,,,
+U0077,the university of western australia,Australia,AUS,East Asia & Pacific,High income: OECD
+U0082,the university of adelaide,Australia,AUS,East Asia & Pacific,High income: OECD
+U0085,tokyo institute of technology (tokyo tech),Japan,JPN,East Asia & Pacific,High income: OECD
+U0086,osaka university,Japan,JPN,East Asia & Pacific,High income: OECD
+U0088,university of technology sydney,Australia,AUS,East Asia & Pacific,High income: OECD
+U0096,university of alberta,Canada,CAN,North America,High income: OECD
+U0107,tohoku university,Japan,JPN,East Asia & Pacific,High income: OECD
+U0115,university of waterloo,Canada,CAN,North America,High income: OECD
+U0121,western university,Canada,CAN,North America,High income: OECD
+U0123,rmit university,Australia,AUS,East Asia & Pacific,High income: OECD
+U0134,macquarie university,Australia,AUS,East Asia & Pacific,High income: OECD
+U0153,nagoya university,Japan,JPN,East Asia & Pacific,High income: OECD
+U0159,université de montréal,Canada,CAN,North America,High income: OECD
+U0167,kyushu university,Japan,JPN,East Asia & Pacific,High income: OECD
+U0168,university of wollongong,Australia,AUS,East Asia & Pacific,High income: OECD
+U0173,hokkaido university,Japan,JPN,East Asia & Pacific,High income: OECD
+U0174,curtin university,Australia,AUS,East Asia & Pacific,High income: OECD
+U0176,mcmaster university,Canada,CAN,North America,High income: OECD
+U0179,"the university of newcastle, australia (uon)",Australia,AUS,East Asia & Pacific,High income: OECD
+U0182,waseda university,Japan,JPN,East Asia & Pacific,High income: OECD
+U0188,keio university,Japan,JPN,East Asia & Pacific,High income: OECD
+U0189,university of ottawa,Canada,CAN,North America,High income: OECD
+U0193,queen's university at kingston,Canada,CAN,North America,High income: OECD
+U0197,deakin university,Australia,AUS,East Asia & Pacific,High income: OECD
+U0199,university of calgary,Canada,CAN,North America,High income: OECD
+U0210,national tsing hua university,Taiwan,,,
+U0213,queensland university of technology (qut),Australia,AUS,East Asia & Pacific,High income: OECD
+U0215,national cheng kung university (ncku),Taiwan,,,
+U0217,la trobe university,Australia,AUS,East Asia & Pacific,High income: OECD
+U0219,national yang ming chiao tung university,Taiwan,,,
+U0255,griffith university,Australia,AUS,East Asia & Pacific,High income: OECD
+U0275,dalhousie university,Canada,CAN,North America,High income: OECD
+U0291,swinburne university of technology,Australia,AUS,East Asia & Pacific,High income: OECD
+U0294,university of tasmania,Australia,AUS,East Asia & Pacific,High income: OECD
+U0319,simon fraser university,Canada,CAN,North America,High income: OECD
+U0322,national technical university of athens,Greece,GRC,Europe & Central Asia,High income: OECD
+U0336,flinders university,Australia,AUS,East Asia & Pacific,High income: OECD
+U0339,university of the philippines,Philippines,PHL,East Asia & Pacific,Lower middle income
+U0340,university of saskatchewan,Canada,CAN,North America,High income: OECD
+U0341,university of south australia,Australia,AUS,East Asia & Pacific,High income: OECD
+U0349,university of victoria (uvic),Canada,CAN,North America,High income: OECD
+U0357,university of luxembourg,Luxembourg,LUX,Europe & Central Asia,High income: OECD
+U0364,york university,Canada,CAN,North America,High income: OECD
+U0379,university of tsukuba,Japan,JPN,East Asia & Pacific,High income: OECD
+U0384,western sydney university,Australia,AUS,East Asia & Pacific,High income: OECD
+U0392,national taiwan university of science and technology (taiwan tech),Taiwan,,,
+U0393,national and kapodistrian university of athens,Greece,GRC,Europe & Central Asia,High income: OECD
+U0400,university of southern queensland,Australia,AUS,East Asia & Pacific,High income: OECD
+U0404,university of canberra,Australia,AUS,East Asia & Pacific,High income: OECD
+U0415,concordia university,Canada,CAN,North America,High income: OECD
+U0424,université laval,Canada,CAN,North America,High income: OECD
+U0425,national taipei university of technology,Taiwan,,,
+U0437,murdoch university,Australia,AUS,East Asia & Pacific,High income: OECD
+U0445,james cook university,Australia,AUS,East Asia & Pacific,High income: OECD
+U0453,national taiwan normal university,Taiwan,,,
+U0459,university of guelph,Canada,CAN,North America,High income: OECD
+U0465,kobe university,Japan,JPN,East Asia & Pacific,High income: OECD
+U0475,hiroshima university,Japan,JPN,East Asia & Pacific,High income: OECD
+U0486,national sun yat-sen university,Taiwan,,,
+U0495,central queensland university (cquniversity australia),Australia,AUS,East Asia & Pacific,High income: OECD
+U0508,aristotle university of thessaloniki,Greece,GRC,Europe & Central Asia,High income: OECD
+U0516,ateneo de manila university,Philippines,PHL,East Asia & Pacific,Lower middle income
+U0517,edith cowan university,Australia,AUS,East Asia & Pacific,High income: OECD
+U0541,hitotsubashi university,Japan,JPN,East Asia & Pacific,High income: OECD
+U0550,university of iceland,Iceland,ISL,Europe & Central Asia,High income: OECD
+U0551,university of windsor,Canada,CAN,North America,High income: OECD
+U0557,university of dhaka,Bangladesh,BGD,South Asia,Low income
+U0578,southern cross university,Australia,AUS,East Asia & Pacific,High income: OECD
+U0587,bond university,Australia,AUS,East Asia & Pacific,High income: OECD
+U0606,national chengchi university,Taiwan,,,
+U0610,university of crete,Greece,GRC,Europe & Central Asia,High income: OECD
+U0617,eastern mediterranean university,Northern Cyprus,,,
+U0619,taipei medical university (tmu),Taiwan,,,
+U0625,charles darwin university,Australia,AUS,East Asia & Pacific,High income: OECD
+U0636,chang gung university,Taiwan,,,
+U0645,de la salle university,Philippines,PHL,East Asia & Pacific,Lower middle income
+U0649,national central university,Taiwan,,,
+U0651,ritsumeikan university,Japan,JPN,East Asia & Pacific,High income: OECD
+U0668,memorial university of newfoundland,Canada,CAN,North America,High income: OECD
+U0669,national chung hsing university,Taiwan,,,
+U0671,tokyo medical and dental university (tmdu),Japan,JPN,East Asia & Pacific,High income: OECD
+U0673,university of manitoba,Canada,CAN,North America,High income: OECD
+U0690,university of new brunswick,Canada,CAN,North America,High income: OECD
+U0742,carleton university,Canada,CAN,North America,High income: OECD
+U0751,victoria university,Australia,AUS,East Asia & Pacific,High income: OECD
+U0757,tokyo university of science,Japan,JPN,East Asia & Pacific,High income: OECD
+U0765,bangladesh university of engineering and technology,Bangladesh,BGD,South Asia,Low income
+U0770,university of patras,Greece,GRC,Europe & Central Asia,High income: OECD
+U0771,addis ababa university,Ethiopia,ETH,Sub-Saharan Africa,Low income
+U0773,chiba university,Japan,JPN,East Asia & Pacific,High income: OECD
+U0806,asia university taiwan,Taiwan,,,
+U0828,toronto metropolitan university,Canada,CAN,North America,High income: OECD
+U0841,university of baghdad,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U0855,charles sturt university,Australia,AUS,East Asia & Pacific,High income: OECD
+U0868,nagasaki university,Japan,JPN,East Asia & Pacific,High income: OECD
+U0871,okayama university,Japan,JPN,East Asia & Pacific,High income: OECD
+U0879,tokyo university of agriculture and technology,Japan,JPN,East Asia & Pacific,High income: OECD
+U0884,université de sherbrooke,Canada,CAN,North America,High income: OECD
+U0885,université du québec,Canada,CAN,North America,High income: OECD
+U0895,university of santo tomas,Philippines,PHL,East Asia & Pacific,Lower middle income
+U0902,australian catholic university,Australia,AUS,East Asia & Pacific,High income: OECD
+U0911,kanazawa university,Japan,JPN,East Asia & Pacific,High income: OECD
+U0915,makerere university,Uganda,UGA,Sub-Saharan Africa,Low income
+U0920,north south university,Bangladesh,BGD,South Asia,Low income
+U0921,osaka metropolitan university,Japan,JPN,East Asia & Pacific,High income: OECD
+U0923,ritsumeikan asia pacific university,Japan,JPN,East Asia & Pacific,High income: OECD
+U0944,university of nairobi,Kenya,KEN,Sub-Saharan Africa,Low income
+U0952,yokohama city university,Japan,JPN,East Asia & Pacific,High income: OECD
+U0954,athens university of economics and business,Greece,GRC,Europe & Central Asia,High income: OECD
+U0968,kumamoto university,Japan,JPN,East Asia & Pacific,High income: OECD
+U0970,niigata university,Japan,JPN,East Asia & Pacific,High income: OECD
+U0979,sophia university,Japan,JPN,East Asia & Pacific,High income: OECD
+U1001,university of regina,Canada,CAN,North America,High income: OECD
+U1020,brac university,Bangladesh,BGD,South Asia,Low income
+U1023,chang jung christian university,Taiwan,,,
+U1024,chung yuan christian university,Taiwan,,,
+U1035,gifu university,Japan,JPN,East Asia & Pacific,High income: OECD
+U1037,gunma university,Japan,JPN,East Asia & Pacific,High income: OECD
+U1044,international christian university,Japan,JPN,East Asia & Pacific,High income: OECD
+U1049,kagoshima university,Japan,JPN,East Asia & Pacific,High income: OECD
+U1053,kyushu institute of technology,Japan,JPN,East Asia & Pacific,High income: OECD
+U1063,mustansiriyah university,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U1068,national chung cheng university,Taiwan,,,
+U1087,shinshu university,Japan,JPN,East Asia & Pacific,High income: OECD
+U1108,tokushima university,Japan,JPN,East Asia & Pacific,High income: OECD
+U1109,tokyo metropolitan university,Japan,JPN,East Asia & Pacific,High income: OECD
+U1122,universidad de puerto rico,Puerto Rico,PRI,Latin America & Caribbean,High income: nonOECD
+U1136,universidad tecnológica de panamá (utp),Panama,PAN,Latin America & Caribbean,Upper middle income
+U1167,university of ibadan,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U1169,university of ioannina,Greece,GRC,Europe & Central Asia,High income: OECD
+U1171,university of khartoum,Sudan,SDN,Sub-Saharan Africa,Lower middle income
+U1172,university of lagos,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U1177,university of new england australia,Australia,AUS,East Asia & Pacific,High income: OECD
+U1189,university of the sunshine coast,Australia,AUS,East Asia & Pacific,High income: OECD
+U1202,yokohama national university,Japan,JPN,East Asia & Pacific,High income: OECD
+U1206,aoyama gakuin university,Japan,JPN,East Asia & Pacific,High income: OECD
+U1216,brock university,Canada,CAN,North America,High income: OECD
+U1218,chaoyang university of technology,Taiwan,,,
+U1221,chittagong university of engineering and technology,Bangladesh,BGD,South Asia,Low income
+U1225,daffodil international university,Bangladesh,BGD,South Asia,Low income
+U1228,doshisha university,Japan,JPN,East Asia & Pacific,High income: OECD
+U1231,feng chia university,Taiwan,,,
+U1233,fu jen catholic university,Taiwan,,,
+U1246,jahangirnagar university,Bangladesh,BGD,South Asia,Low income
+U1251,kenyatta university,Kenya,KEN,Sub-Saharan Africa,Low income
+U1253,khulna university,Bangladesh,BGD,South Asia,Low income
+U1254,khulna university of engineering and technology,Bangladesh,BGD,South Asia,Low income
+U1255,kindai university (kinki university),Japan,JPN,East Asia & Pacific,High income: OECD
+U1260,kyoto institute of technology,Japan,JPN,East Asia & Pacific,High income: OECD
+U1263,meiji university,Japan,JPN,East Asia & Pacific,High income: OECD
+U1267,nagoya institute of technology (nit),Japan,JPN,East Asia & Pacific,High income: OECD
+U1268,national dong hwa university,Taiwan,,,
+U1270,national taipei university,Taiwan,,,
+U1271,national taiwan ocean university,Taiwan,,,
+U1282,rajshahi university,Bangladesh,BGD,South Asia,Low income
+U1283,rikkyo university,Japan,JPN,East Asia & Pacific,High income: OECD
+U1284,saitama university,Japan,JPN,East Asia & Pacific,High income: OECD
+U1290,shahjalal university of science and technology,Bangladesh,BGD,South Asia,Low income
+U1299,tamkang university,Taiwan,,,
+U1309,tokai university,Japan,JPN,East Asia & Pacific,High income: OECD
+U1313,tunghai university,Taiwan,,,
+U1321,universidad de panama,Panama,PAN,Latin America & Caribbean,Upper middle income
+U1365,university of babylon,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U1366,university of basrah,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U1370,university of kufa,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U1394,vancouver island university,Canada,CAN,North America,High income: OECD
+U1397,yamaguchi university,Japan,JPN,East Asia & Pacific,High income: OECD
+U1400,yuan ze university,Taiwan,,,
+U1408,east west university,Bangladesh,BGD,South Asia,Low income
+U1414,international university of business agriculture and technology,Bangladesh,BGD,South Asia,Low income
+U1417,kwansei gakuin university,Japan,JPN,East Asia & Pacific,High income: OECD
+U1433,shibaura institute of technology,Japan,JPN,East Asia & Pacific,High income: OECD
+U1435,soochow university (taiwan),Taiwan,,,
+U1437,stamford university bangladesh,Bangladesh,BGD,South Asia,Low income
+U1440,"the university of notre dame, australia",Australia,AUS,East Asia & Pacific,High income: OECD
+U1442,united international university,Bangladesh,BGD,South Asia,Low income
+U1501,university of san carlos,Philippines,PHL,East Asia & Pacific,Lower middle income
+U1517,University of Melbourne,Australia,AUS,East Asia & Pacific,High income: OECD
+U1526,Australian National University,Australia,AUS,East Asia & Pacific,High income: OECD
+U1532,UNSW Sydney,Australia,AUS,East Asia & Pacific,High income: OECD
+U1543,University of Adelaide,Australia,AUS,East Asia & Pacific,High income: OECD
+U1566,Tokyo Institute of Technology,Japan,JPN,East Asia & Pacific,High income: OECD
+U1571,Queensland University of Technology,Australia,AUS,East Asia & Pacific,High income: OECD
+U1582,University of Newcastle,Australia,AUS,East Asia & Pacific,High income: OECD
+U1602,Queen’s University,Canada,CAN,North America,High income: OECD
+U1616,"China Medical University, Taiwan",Taiwan,,,
+U1646,University of Victoria,Canada,CAN,North America,High income: OECD
+U1647,"Asia University, Taiwan",Taiwan,,,
+U1680,Taipei Medical University,Taiwan,,,
+U1693,Central Queensland University,Australia,AUS,East Asia & Pacific,High income: OECD
+U1707,National Yunlin University of Science and Technology,Taiwan,,,
+U1730,The University of Aizu,Japan,JPN,East Asia & Pacific,High income: OECD
+U1754,Federation University Australia,Australia,AUS,East Asia & Pacific,High income: OECD
+U1759,Harokopio University of Athens,Greece,GRC,Europe & Central Asia,High income: OECD
+U1773,Juntendo University,Japan,JPN,East Asia & Pacific,High income: OECD
+U1797,Near East University,Northern Cyprus,,,
+U1799,University of New Brunswick UNB,Canada,CAN,North America,High income: OECD
+U1805,Ontario Tech University,Canada,CAN,North America,High income: OECD
+U1817,Reykjavík University,Iceland,ISL,Europe & Central Asia,High income: OECD
+U1846,University of the Aegean,Greece,GRC,Europe & Central Asia,High income: OECD
+U1873,Covenant University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U1907,Kaohsiung Medical University,Taiwan,,,
+U1914,Kyoto Prefectural University of Medicine,Japan,JPN,East Asia & Pacific,High income: OECD
+U1917,Lakehead University,Canada,CAN,North America,High income: OECD
+U1934,University of Northern British Columbia (UNBC),Canada,CAN,North America,High income: OECD
+U1954,"University of Technology, Iraq",Iraq,IRQ,Middle East & North Africa,Upper middle income
+U1956,Tokyo Medical University,Japan,JPN,East Asia & Pacific,High income: OECD
+U1974,Aichi Medical University,Japan,JPN,East Asia & Pacific,High income: OECD
+U1980,Bangladesh Agricultural University (BAU),Bangladesh,BGD,South Asia,Low income
+U1989,Democritus University of Thrace,Greece,GRC,Europe & Central Asia,High income: OECD
+U2001,Federal University of Technology Akure,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2006,Fujita Health University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2013,Hamamatsu University School of Medicine,Japan,JPN,East Asia & Pacific,High income: OECD
+U2026,Jimma University,Ethiopia,ETH,Sub-Saharan Africa,Low income
+U2027,Kansai Medical University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2031,Kindai University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2033,Kurume University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2048,Ming Chi University of Technology,Taiwan,,,
+U2053,Nagoya City University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2060,Nippon Medical School,Japan,JPN,East Asia & Pacific,High income: OECD
+U2063,"University of Occupational and Environmental Health, Japan",Japan,JPN,East Asia & Pacific,High income: OECD
+U2070,University of Rajshahi,Bangladesh,BGD,South Asia,Low income
+U2088,University of the South Pacific,Fiji,FJI,East Asia & Pacific,Upper middle income
+U2099,Toyohashi University of Technology (TUT),Japan,JPN,East Asia & Pacific,High income: OECD
+U2100,Toyota Technological Institute,Japan,JPN,East Asia & Pacific,High income: OECD
+U2105,Wakayama Medical University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2119,Al-Nahrain University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2120,University of Al-Qadisiyah,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2130,Bayero University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2144,Chang Gung University of Science and Technology,Taiwan,,,
+U2148,Chung Shan Medical University,Taiwan,,,
+U2153,University of Diyala,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2159,Ehime University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2160,The University of Electro-Communications,Japan,JPN,East Asia & Pacific,High income: OECD
+U2191,Hyogo Medical University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2195,University of Ilorin,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2199,I-Shou University,Taiwan,,,
+U2204,The Jikei University School of Medicine,Japan,JPN,East Asia & Pacific,High income: OECD
+U2206,Kagawa University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2211,Kitasato University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2213,Kyushu Institute of Technology (Kyutech),Japan,JPN,East Asia & Pacific,High income: OECD
+U2214,University of Lethbridge,Canada,CAN,North America,High income: OECD
+U2227,Mie University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2234,Nagaoka University of Technology,Japan,JPN,East Asia & Pacific,High income: OECD
+U2235,Nagoya Institute of Technology,Japan,JPN,East Asia & Pacific,High income: OECD
+U2236,University of Namibia,Namibia,NAM,Sub-Saharan Africa,Upper middle income
+U2237,National Changhua University of Education,Taiwan,,,
+U2238,National Chin-Yi University of Technology,Taiwan,,,
+U2242,National Kaohsiung University of Science and Technology,Taiwan,,,
+U2246,University of Nigeria Nsukka,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2247,Ochanomizu University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2261,University of Puerto Rico,Puerto Rico,PRI,Latin America & Caribbean,High income: nonOECD
+U2265,Saitama Medical University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2266,Sapporo Medical University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2276,Shiga University of Medical Science,Japan,JPN,East Asia & Pacific,High income: OECD
+U2277,Showa University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2287,St Marianna University School of Medicine,Japan,JPN,East Asia & Pacific,High income: OECD
+U2294,Technical University of Crete,Greece,GRC,Europe & Central Asia,High income: OECD
+U2301,Toho University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2302,Tokyo University of Marine Science and Technology,Japan,JPN,East Asia & Pacific,High income: OECD
+U2304,University of Toyama,Japan,JPN,East Asia & Pacific,High income: OECD
+U2308,Tzu Chi University,Taiwan,,,
+U2321,University of Western Macedonia,Greece,GRC,Europe & Central Asia,High income: OECD
+U2328,Yamagata University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2329,University of Yamanashi,Japan,JPN,East Asia & Pacific,High income: OECD
+U2332,University of Zambia,Zambia,ZMB,Sub-Saharan Africa,Lower middle income
+U2343,Afe Babalola University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2344,Akita University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2347,University of Anbar,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2370,University of Benin,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2399,Chiba Institute of Technology,Japan,JPN,East Asia & Pacific,High income: OECD
+U2400,Chinese Culture University,Taiwan,,,
+U2402,Chubu University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2403,Chuo University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2412,Dokkyo Medical University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2422,"Federal University of Agriculture, Abeokuta",Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2437,University of Fukui,Japan,JPN,East Asia & Pacific,High income: OECD
+U2438,Fukuoka University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2452,Hellenic Open University,Greece,GRC,Europe & Central Asia,High income: OECD
+U2456,Hosei University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2457,University of Hyogo,Japan,JPN,East Asia & Pacific,High income: OECD
+U2458,Ibaraki University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2462,International Hellenic University,Greece,GRC,Europe & Central Asia,High income: OECD
+U2468,Iwate University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2476,Kanagawa University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2477,Kanazawa Medical University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2478,Kansai University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2486,University of Kerbala,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2491,Kochi University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2492,Kochi University of Technology,Japan,JPN,East Asia & Pacific,High income: OECD
+U2493,Kogakuin University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2495,Kyoto Sangyo University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2496,Ladoke Akintola University of Technology,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2498,Lagos State University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2515,Meijo University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2517,Middle Technical University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2518,Ming Chuan University,Taiwan,,,
+U2519,University of Miyazaki,Japan,JPN,East Asia & Pacific,High income: OECD
+U2522,University of Montenegro,Montenegro,MNE,Europe & Central Asia,Upper middle income
+U2525,University of Mosul,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2528,Muroran Institute of Technology,Japan,JPN,East Asia & Pacific,High income: OECD
+U2530,Nara Women’s University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2532,National Chiayi University,Taiwan,,,
+U2533,National Chi Nan University,Taiwan,,,
+U2536,National Formosa University,Taiwan,,,
+U2537,National Ilan University,Taiwan,,,
+U2538,National University of Kaohsiung,Taiwan,,,
+U2541,National Taichung University of Science and Technology,Taiwan,,,
+U2542,National United University,Taiwan,,,
+U2546,Nnamdi Azikiwe University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2555,Obafemi Awolowo University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2557,Oita University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2563,Osaka Institute of Technology,Japan,JPN,East Asia & Pacific,High income: OECD
+U2564,Osaka Medical and Pharmaceutical University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2570,University of the Peloponnese,Greece,GRC,Europe & Central Asia,High income: OECD
+U2583,University of Port Harcourt,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2585,University of Prishtina,Kosovo,XKX,Europe & Central Asia,Lower middle income
+U2592,Ryukoku University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2593,University of the Ryukyus,Japan,JPN,East Asia & Pacific,High income: OECD
+U2596,Saga University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2605,Shimane University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2606,Shizuoka University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2607,University of Shizuoka,Japan,JPN,East Asia & Pacific,High income: OECD
+U2629,Teikyo University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2633,Tokyo University of Agriculture,Japan,JPN,East Asia & Pacific,High income: OECD
+U2634,Tokyo City University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2635,Tokyo Denki University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2637,Tottori University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2638,Toyama Prefectural University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2639,Toyo University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2644,Utsunomiya University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2654,University of West Attica,Greece,GRC,Europe & Central Asia,High income: OECD
+U2664,Abia State University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2665,Abrar University,Somalia,SOM,Sub-Saharan Africa,Low income
+U2666,Ada Kent University,Northern Cyprus,,,
+U2673,Aichi Prefectural University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2677,Akita Prefectural University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2679,Akwa Ibom State University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2682,Al-Ayen University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2684,Al-Bayan University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2685,Albaydha University,Yemen,YEM,Middle East & North Africa,Lower middle income
+U2686,Al-Esraa University College,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2687,Alex Ekwueme Federal University Ndufu-Alike,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2688,Al-Farabi University College,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2689,Al-Furat Al-Awsat Technical University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2693,University of Al-Hamdaniya,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2696,Al-Janad University for Science and Technology,Yemen,YEM,Middle East & North Africa,Lower middle income
+U2697,University of Alkafeel,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2698,Al-Karkh University of Science,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2699,Al-Kitab University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2701,Al-Maarif University College,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2702,Al-Manara College for Medical Sciences,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2704,Al-Mustaqbal University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2705,Al-Muthanna University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2706,Al-Nisour University College,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2707,Al-Noor University College,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2708,Al-Qalam University College,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2709,Al-Qasim Green University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2710,Al-Rafidain University College,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2711,Al Safwa University College,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2713,Altoosi University College,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2714,Al Turath University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2717,American International University – Bangladesh,Bangladesh,BGD,South Asia,Low income
+U2737,Arkin University of Creative Arts and Design (ARUCAD),Northern Cyprus,,,
+U2743,Asahi University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2745,Ashikaga University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2746,Ashur University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2752,Babcock University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2760,Bangabandhu Sheikh Mujibur Rahman Agricultural University,Bangladesh,BGD,South Asia,Low income
+U2761,Barawa International University,Somalia,SOM,Sub-Saharan Africa,Low income
+U2766,Baze University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2768,Bells University of Technology,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2769,University of Benghazi,Libya,LBY,Middle East & North Africa,Upper middle income
+U2770,Benson Idahosa University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2772,Bilad Alrafidain University College,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2785,Bukkyo University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2791,Catholic University in Erbil,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2796,Cebu Technological University,Philippines,PHL,East Asia & Pacific,Lower middle income
+U2804,Central Luzon State University,Philippines,PHL,East Asia & Pacific,Lower middle income
+U2817,Cihan University – Erbil,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2818,Cihan University Sulaimaniya,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2829,Cyprus Health and Social Sciences University,Northern Cyprus,,,
+U2830,Daffodil International University (DIU),Bangladesh,BGD,South Asia,Low income
+U2833,Debre Tabor University,Ethiopia,ETH,Sub-Saharan Africa,Low income
+U2835,"Delta State University, Abraka",Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2837,Dhaka International University,Bangladesh,BGD,South Asia,Low income
+U2843,Dovletmammet Azadi Turkmen National Institute of World Languages,Turkmenistan,TKM,Europe & Central Asia,Upper middle income
+U2847,University of Duhok,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2851,University of Eastern Philippines,Philippines,PHL,East Asia & Pacific,Lower middle income
+U2875,Edo State University Uzairue,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2876,Edwin Clark University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2877,Egerton University,Kenya,KEN,Sub-Saharan Africa,Low income
+U2879,Elizade University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2882,"Institute of Engineering, Technical and Transport Communications of Turkmenistan",Turkmenistan,TKM,Europe & Central Asia,Upper middle income
+U2893,"Evangel University, Akaeze",Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2895,Federal University of Kashere,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2898,"Federal University of Petroleum Resources, Effurun",Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2899,"Federal University of Technology, Minna",Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2900,"Federal University of Technology, Owerri",Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2906,Fountain University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U2909,Fukushima University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2912,University of Garmian,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2921,"The Graduate University for Advanced Studies, SOKENDAI",Japan,JPN,East Asia & Pacific,High income: OECD
+U2927,Hagoromo University of International Studies,Japan,JPN,East Asia & Pacific,High income: OECD
+U2928,Hakuoh University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2933,Hawler Medical University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2942,Hilla University College,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2943,Hiroshima International University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2944,Hiroshima Shudo University,Japan,JPN,East Asia & Pacific,High income: OECD
+U2945,Hiroshima Institute of Technology,Japan,JPN,East Asia & Pacific,High income: OECD
+U2947,Hodeida University,Yemen,YEM,Middle East & North Africa,Lower middle income
+U2948,Hokkaido University of Science,Japan,JPN,East Asia & Pacific,High income: OECD
+U2952,University of Human Development,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2953,Hyogo University of Teacher Education,Japan,JPN,East Asia & Pacific,High income: OECD
+U2958,Imam Al-Kadhum College (IKC),Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2960,"Independent University, Bangladesh",Bangladesh,BGD,South Asia,Low income
+U2968,International University for the Humanities and Development,Turkmenistan,TKM,Europe & Central Asia,Upper middle income
+U2971,Institute of International Relations of the Ministry of Foreign Affairs of Turkmenistan,Turkmenistan,TKM,Europe & Central Asia,Upper middle income
+U2973,Ionian University,Greece,GRC,Europe & Central Asia,High income: OECD
+U2976,The Islamic University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2985,IUBAT – International University of Business Agriculture and Technology,Bangladesh,BGD,South Asia,Low income
+U2988,Jabir ibn Hayyan Medical University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U2990,Japan Advanced Institute of Science and Technology (JAIST),Japan,JPN,East Asia & Pacific,High income: OECD
+U2991,Japan University of Economics,Japan,JPN,East Asia & Pacific,High income: OECD
+U2992,Jashore University of Science and Technology,Bangladesh,BGD,South Asia,Low income
+U2997,Kabarak University,Kenya,KEN,Sub-Saharan Africa,Low income
+U2999,University of Kabianga,Kenya,KEN,Sub-Saharan Africa,Low income
+U3009,Keisen University,Japan,JPN,East Asia & Pacific,High income: OECD
+U3014,Khulna University of Engineering and Technology (KUET),Bangladesh,BGD,South Asia,Low income
+U3022,University of Kirkuk,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3023,Kitami Institute of Technology,Japan,JPN,East Asia & Pacific,High income: OECD
+U3024,Knowledge University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3025,Kobe Gakuin University,Japan,JPN,East Asia & Pacific,High income: OECD
+U3029,Kokugakuin University,Japan,JPN,East Asia & Pacific,High income: OECD
+U3030,Konan University,Japan,JPN,East Asia & Pacific,High income: OECD
+U3031,Konan Women’s University,Japan,JPN,East Asia & Pacific,High income: OECD
+U3032,Koya University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3040,Kyoai Gakuen University,Japan,JPN,East Asia & Pacific,High income: OECD
+U3041,Kyoto Koka Women’s University,Japan,JPN,East Asia & Pacific,High income: OECD
+U3042,Kyoto Notre Dame University,Japan,JPN,East Asia & Pacific,High income: OECD
+U3045,Landmark University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3054,University of Liberal Arts Bangladesh,Bangladesh,BGD,South Asia,Low income
+U3056,Lira University,Uganda,UGA,Sub-Saharan Africa,Low income
+U3074,Mapúa University,Philippines,PHL,East Asia & Pacific,Lower middle income
+U3076,Mariano Marcos State University,Philippines,PHL,East Asia & Pacific,Lower middle income
+U3083,Meikai University,Japan,JPN,East Asia & Pacific,High income: OECD
+U3086,Mindanao State University – Iligan Institute of Technology,Philippines,PHL,East Asia & Pacific,Lower middle income
+U3088,University of Misan,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3103,Mukogawa Women’s University,Japan,JPN,East Asia & Pacific,High income: OECD
+U3104,Mulungushi University,Zambia,ZMB,Sub-Saharan Africa,Lower middle income
+U3105,Musashino University,Japan,JPN,East Asia & Pacific,High income: OECD
+U3111,Nagoya University of Commerce & Business,Japan,JPN,East Asia & Pacific,High income: OECD
+U3118,"Nasarawa State University, Keffi",Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3127,"National University, Sudan",Sudan,SDN,Sub-Saharan Africa,Lower middle income
+U3134,Niger Delta University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3135,Nihon Pharmaceutical University,Japan,JPN,East Asia & Pacific,High income: OECD
+U3136,Niigata University of Health and Welfare,Japan,JPN,East Asia & Pacific,High income: OECD
+U3137,University of Niigata Prefecture,Japan,JPN,East Asia & Pacific,High income: OECD
+U3138,Ninevah University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3143,Northern Technical University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3148,Nueva Ecija University of Science and Technology (NEUST),Philippines,PHL,East Asia & Pacific,Lower middle income
+U3153,Oguz Han Engineering and Technology University of Turkmenistan,Turkmenistan,TKM,Europe & Central Asia,Upper middle income
+U3162,Osol Al-Deen University College,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3170,Panteion University of Social and Political Sciences,Greece,GRC,Europe & Central Asia,High income: OECD
+U3179,"Plateau State University, Bokkos",Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3186,Prefectural University of Hiroshima,Japan,JPN,East Asia & Pacific,High income: OECD
+U3195,Queen Arwa University,Yemen,YEM,Middle East & North Africa,Lower middle income
+U3202,Ritsumeikan Asia Pacific University (APU),Japan,JPN,East Asia & Pacific,High income: OECD
+U3207,Royal College of Academics,Luxembourg,LUX,Europe & Central Asia,High income: OECD
+U3223,Salahaddin University–Erbil,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3236,University of Science and Technology of Southern Philippines (USTP),Philippines,PHL,East Asia & Pacific,Lower middle income
+U3238,Sebha University,Libya,LBY,Middle East & North Africa,Upper middle income
+U3240,Seisa Dohto University,Japan,JPN,East Asia & Pacific,High income: OECD
+U3241,Senshu University,Japan,JPN,East Asia & Pacific,High income: OECD
+U3242,Seyitnazar Seydi Turkmen State Pedagogical Institute,Turkmenistan,TKM,Europe & Central Asia,Upper middle income
+U3247,The University of Shiga Prefecture,Japan,JPN,East Asia & Pacific,High income: OECD
+U3248,Shonan Institute of Technology,Japan,JPN,East Asia & Pacific,High income: OECD
+U3250,SIMAD University,Somalia,SOM,Sub-Saharan Africa,Low income
+U3256,"Soochow University, Taiwan",Taiwan,,,
+U3260,Southern Technical University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3263,State Energy Institute of Turkmenistan,Turkmenistan,TKM,Europe & Central Asia,Upper middle income
+U3265,St Luke’s International University,Japan,JPN,East Asia & Pacific,High income: OECD
+U3271,Sugiyama Jogakuen University,Japan,JPN,East Asia & Pacific,High income: OECD
+U3275,University of Taipei,Taiwan,,,
+U3276,Takushoku University,Japan,JPN,East Asia & Pacific,High income: OECD
+U3277,Tama Art University,Japan,JPN,East Asia & Pacific,High income: OECD
+U3279,Tarlac Agricultural University,Philippines,PHL,East Asia & Pacific,Lower middle income
+U3297,Tatung University,Taiwan,,,
+U3307,Teikyo Heisei University,Japan,JPN,East Asia & Pacific,High income: OECD
+U3309,University of Telafer,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3310,Institute of Telecommunications and Informatics of Turkmenistan,Turkmenistan,TKM,Europe & Central Asia,Upper middle income
+U3311,Tenri University,Japan,JPN,East Asia & Pacific,High income: OECD
+U3316,University of Thi-Qar,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3317,Thomas Adewumi University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3318,Tikrit University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3319,Tishk International University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3321,Tohoku Gakuin University,Japan,JPN,East Asia & Pacific,High income: OECD
+U3322,Tokyo University of Foreign Studies,Japan,JPN,East Asia & Pacific,High income: OECD
+U3323,Tokyo University of Technology,Japan,JPN,East Asia & Pacific,High income: OECD
+U3326,University of Tripoli,Libya,LBY,Middle East & North Africa,Upper middle income
+U3329,Turkmen State Architecture and Construction Institute,Turkmenistan,TKM,Europe & Central Asia,Upper middle income
+U3330,Turkmen State Institute of Economics and Management,Turkmenistan,TKM,Europe & Central Asia,Upper middle income
+U3333,UBT,Unknown,,,
+U3344,Uruk University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3351,Varendra University,Bangladesh,BGD,South Asia,Low income
+U3354,"Veritas University, Abuja",Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3358,Visayas State University,Philippines,PHL,East Asia & Pacific,Lower middle income
+U3362,University of Warith Alanbiyaa,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3363,Wasit University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3371,World University of Bangladesh (WUB),Bangladesh,BGD,South Asia,Low income
+U3376,Yagshigeldi Kakayev International University of Oil and Gas,Turkmenistan,TKM,Europe & Central Asia,Upper middle income
+U3377,Yamaguchi Prefectural University,Japan,JPN,East Asia & Pacific,High income: OECD
+U3381,"Yusuf Maitama Sule University, Kano",Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3387,Hong Kong Polytechnic University,Unknown,,,
+U3388,University of Montreal,Unknown,,,
+U3394,Constructor University Bremen,Unknown,,,
+U3400,Graphic Era University,Unknown,,,
+U3410,University of Thessaly,Greece,GRC,Europe & Central Asia,High income: OECD
+U3415,Hyogo College of Medicine,Japan,JPN,East Asia & Pacific,High income: OECD
+U3428,Southwest Jiaotong University,Unknown,,,
+U3439,Tokyo University of Pharmacy and Life Sciences,Japan,JPN,East Asia & Pacific,High income: OECD
+U3440,"Adamawa State University, Mubi",Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3442,Ahl Al Bayt University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3444,Al-Farahidi University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3445,American University of Nigeria,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3448,Ashur University College,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3449,Augustine University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3451,"Bamidele Olumilua University of Education, Science and Technology, Ikere-Ikiti",Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3452,Basrah University College of Science and Technology,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3453,Bowen University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3458,Coal City University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3459,Cross River University of Technology,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3463,Dijlah University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3465,Ebonyi State University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3468,ESIC,Unknown,,,
+U3472,Federal University Gashua,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3473,Federal University of Lafia,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3474,First Technical University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3475,Fukui Prefectural University,Japan,JPN,East Asia & Pacific,High income: OECD
+U3479,Gregory University Uturu,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3482,Ignatius Ajuru University of Education,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3484,University of Jos,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3485,Kampala International University,Uganda,UGA,Sub-Saharan Africa,Low income
+U3489,Kings University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3490,Kobe City University of Foreign Studies,Japan,JPN,East Asia & Pacific,High income: OECD
+U3495,Michael and Cecilia Ibru University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3496,"Michael Okpara University of Agriculture, Umudike",Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3499,Nara Institute of Science and Technology,Japan,JPN,East Asia & Pacific,High income: OECD
+U3502,"Nigerian Police Academy, Wudil",Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3503,Novena University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3505,Olusegun Agagu University of Science and Technology,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3510,Salahaddin University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3511,Salem University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3512,Samuel Adegboyega University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3515,Sokoto State University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3516,Soran University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3520,Sulaimani Polytechnic University,Iraq,IRQ,Middle East & North Africa,Upper middle income
+U3524,Umaru Musa Yar’adua University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3527,"Usmanu Danfodiyo University, Sokoto",Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3528,University of Uyo,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+U3530,​Wellspring University,Nigeria,NGA,Sub-Saharan Africa,Lower middle income

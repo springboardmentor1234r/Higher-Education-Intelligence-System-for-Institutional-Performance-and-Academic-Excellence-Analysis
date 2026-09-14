@@ -1,0 +1,10 @@
+university_id,university_name,country_name,the_rank_2023,the_rank_2024,the_rank_2023_numeric,the_rank_2024_numeric,rank_change,absolute_rank_change,rank_status
+U0016,cornell university,United States,20.0,20.0,20.0,20.0,0.0,0.0,Stable
+U1510,National University of Singapore,Singapore,19.0,19.0,19.0,19.0,0.0,0.0,Stable
+U0142,leiden university,Netherlands,77.0,77.0,77.0,77.0,0.0,0.0,Stable
+U1508,The University of Chicago,United States,13.0,13.0,13.0,13.0,0.0,0.0,Stable
+U1507,ETH Zurich,Switzerland,11.0,11.0,11.0,11.0,0.0,0.0,Stable
+U0032,johns hopkins university,United States,15.0,15.0,15.0,15.0,0.0,0.0,Stable
+U0044,university of michigan-ann arbor,United States,23.0,23.0,23.0,23.0,0.0,0.0,Stable
+U0003,university of oxford,United Kingdom,1.0,1.0,1.0,1.0,0.0,0.0,Stable
+U0009,ucl,United Kingdom,22.0,22.0,22.0,22.0,0.0,0.0,Stable

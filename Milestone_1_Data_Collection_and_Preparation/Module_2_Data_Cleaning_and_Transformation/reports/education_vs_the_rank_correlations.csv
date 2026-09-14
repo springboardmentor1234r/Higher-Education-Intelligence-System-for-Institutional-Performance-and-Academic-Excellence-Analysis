@@ -1,0 +1,7 @@
+education_indicator,sample_size,pearson_correlation,spearman_correlation
+Tertiary Enrollment Ratio,73,-0.022025373762974396,-0.09917093139452506
+Tertiary Graduation Ratio,22,0.4350514064371807,0.4091773296394645
+Female Tertiary Students (%),79,-0.14278901627093132,-0.15362434985661538
+Tertiary Pupil-Teacher Ratio,18,0.21648783631842075,0.01193248782588643
+Youth Literacy Rate 15-24 (%),3,-0.9968497204840076,-0.8660254037844387
+Tertiary Graduates,31,-0.32898743620165266,-0.33630726039762815

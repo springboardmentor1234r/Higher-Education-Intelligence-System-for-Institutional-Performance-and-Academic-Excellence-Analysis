@@ -1,0 +1,723 @@
+university_id,university_name,country_name,qs_rank_2025,the_rank_2024,the_rank_2023
+U0002,imperial college london,United Kingdom,2.0,8.0,10.0
+U0003,university of oxford,United Kingdom,3.0,1.0,1.0
+U0004,harvard university,United States,4.0,4.0,2.0
+U0005,university of cambridge,United Kingdom,5.0,5.0,3.0
+U0006,stanford university,United States,6.0,2.0,3.0
+U0009,ucl,United Kingdom,9.0,22.0,22.0
+U0011,university of pennsylvania,United States,11.0,16.0,14.0
+U0014,peking university,China (Mainland),14.0,14.0,17.0
+U0016,cornell university,United States,16.0,20.0,20.0
+U0018,the university of sydney,Australia,18.0,60.0,54.0
+U0020,tsinghua university,China (Mainland),20.0,12.0,16.0
+U0022,princeton university,United States,22.0,6.0,7.0
+U0023,yale university,United States,23.0,10.0,9.0
+U0025,university of toronto,Canada,25.0,21.0,18.0
+U0028,technical university of munich,Germany,28.0,,30.0
+U0029,mcgill university,Canada,29.0,49.0,46.0
+U0031,seoul national university,South Korea,31.0,62.0,56.0
+U0032,johns hopkins university,United States,32.0,15.0,15.0
+U0033,the university of tokyo,Japan,32.0,29.0,39.0
+U0034,columbia university,United States,34.0,17.0,11.0
+U0037,monash university,Australia,37.0,54.0,44.0
+U0038,university of british columbia,Canada,38.0,41.0,40.0
+U0039,fudan university,China (Mainland),39.0,44.0,51.0
+U0041,the university of queensland,Australia,40.0,70.0,53.0
+U0044,university of michigan-ann arbor,United States,44.0,23.0,23.0
+U0045,shanghai jiao tong university,China (Mainland),45.0,43.0,52.0
+U0046,institut polytechnique de paris,France,46.0,71.0,95.0
+U0047,the hong kong university of science and technology,Hong Kong SAR,47.0,,58.0
+U0048,zhejiang university,China (Mainland),47.0,,67.0
+U0049,delft university of technology,Netherlands,49.0,48.0,70.0
+U0050,kyoto university,Japan,50.0,,68.0
+U0051,northwestern university,United States,50.0,28.0,26.0
+U0054,university of bristol,United Kingdom,54.0,81.0,76.0
+U0055,university of amsterdam,Netherlands,55.0,61.0,60.0
+U0058,carnegie mellon university,United States,58.0,24.0,28.0
+U0061,duke university,United States,61.0,26.0,25.0
+U0062,city university of hong kong,Hong Kong SAR,62.0,82.0,99.0
+U0063,ku leuven,Belgium,63.0,45.0,42.0
+U0064,sorbonne university,France,63.0,75.0,90.0
+U0066,university of texas at austin,United States,66.0,52.0,50.0
+U0067,korea university,South Korea,67.0,,201.0
+U0068,national taiwan university (ntu),Taiwan,68.0,,187.0
+U0070,university of illinois at urbana-champaign,United States,69.0,42.0,48.0
+U0073,université paris-saclay,France,73.0,58.0,93.0
+U0074,kth royal institute of technology,Sweden,74.0,,155.0
+U0075,lund university,Sweden,75.0,,119.0
+U0076,university of washington,United States,76.0,25.0,26.0
+U0077,the university of western australia,Australia,77.0,,131.0
+U0078,university of glasgow,United Kingdom,78.0,,82.0
+U0079,brown university,United States,79.0,,61.0
+U0080,university of birmingham,United Kingdom,80.0,101.0,108.0
+U0081,university of southampton,United Kingdom,80.0,,108.0
+U0083,university of leeds,United Kingdom,82.0,129.0,128.0
+U0086,osaka university,Japan,86.0,,251.0
+U0088,university of technology sydney,Australia,88.0,148.0,133.0
+U0089,durham university,United Kingdom,89.0,174.0,198.0
+U0096,university of alberta,Canada,96.0,,118.0
+U0098,pohang university of science and technology (postech),South Korea,98.0,149.0,163.0
+U0099,rwth aachen university,Germany,99.0,90.0,99.0
+U0100,university of copenhagen,Denmark,100.0,,114.0
+U0103,uppsala university,Sweden,103.0,,148.0
+U0104,university of st andrews,United Kingdom,104.0,,201.0
+U0107,tohoku university,Japan,107.0,,201.0
+U0108,university of nottingham,United Kingdom,108.0,,130.0
+U0109,technical university of denmark,Denmark,109.0,126.0,166.0
+U0110,university of zurich,Switzerland,109.0,80.0,82.0
+U0111,politecnico di milano,Italy,111.0,,301.0
+U0112,boston university,United States,108.0,78.0,71.0
+U0113,aalto university,Finland,113.0,,201.0
+U0114,georgia institute of technology,United States,114.0,36.0,38.0
+U0115,university of waterloo,Canada,115.0,,201.0
+U0116,university of wisconsin-madison,United States,116.0,63.0,81.0
+U0117,university of helsinki,Finland,117.0,121.0,110.0
+U0119,university of oslo,Norway,119.0,127.0,126.0
+U0120,queen mary university of london,United Kingdom,120.0,135.0,124.0
+U0121,western university,Canada,120.0,,201.0
+U0122,qatar university,Qatar,122.0,,201.0
+U0123,rmit university,Australia,123.0,,301.0
+U0125,university of southern california,United States,125.0,74.0,65.0
+U0127,university college dublin,Ireland,126.0,,201.0
+U0128,stockholm university,Sweden,128.0,,176.0
+U0129,newcastle university,United Kingdom,129.0,,139.0
+U0130,"university of california, davis",United States,130.0,59.0,63.0
+U0131,university of basel,Switzerland,131.0,,101.0
+U0132,sapienza university of rome,Italy,132.0,181.0,201.0
+U0134,macquarie university,Australia,133.0,180.0,175.0
+U0135,university of science and technology of china,China (Mainland),133.0,57.0,74.0
+U0136,eindhoven university of technology,Netherlands,136.0,,201.0
+U0137,university of vienna,Austria,137.0,,124.0
+U0139,chalmers university of technology,Sweden,139.0,189.0,251.0
+U0141,lancaster university,United Kingdom,141.0,,122.0
+U0142,leiden university,Netherlands,141.0,77.0,77.0
+U0143,rice university,United States,141.0,,147.0
+U0144,aarhus university,Denmark,144.0,,117.0
+U0145,nanjing university,China (Mainland),145.0,73.0,95.0
+U0151,university of bath,United Kingdom,150.0,,251.0
+U0152,michigan state university,United States,152.0,,106.0
+U0153,nagoya university,Japan,152.0,,301.0
+U0154,texas a&m university,United States,154.0,118.0,181.0
+U0155,university of geneva,Switzerland,155.0,183.0,201.0
+U0157,wageningen university & research,Netherlands,155.0,,59.0
+U0158,erasmus university rotterdam,Netherlands,158.0,,80.0
+U0160,university of groningen,Netherlands,159.0,79.0,75.0
+U0161,university of bern,Switzerland,161.0,,94.0
+U0162,hanyang university,South Korea,162.0,,401.0
+U0163,al-farabi kazakh national university,Kazakhstan,163.0,,1001.0
+U0164,complutense university of madrid,Spain,164.0,,401.0
+U0166,university of liverpool,United Kingdom,165.0,,176.0
+U0167,kyushu university,Japan,167.0,,501.0
+U0168,university of wollongong,Australia,167.0,,201.0
+U0169,ghent university,Belgium,169.0,115.0,107.0
+U0171,university of cape town,South Africa,171.0,167.0,160.0
+U0172,university of reading,United Kingdom,172.0,,198.0
+U0173,hokkaido university,Japan,173.0,,501.0
+U0174,curtin university,Australia,174.0,,201.0
+U0176,mcmaster university,Canada,176.0,,85.0
+U0181,universiti teknologi malaysia,Malaysia,181.0,,
+U0182,waseda university,Japan,181.0,,1001.0
+U0184,university of york,United Kingdom,184.0,147.0,139.0
+U0186,cardiff university,United Kingdom,186.0,190.0,187.0
+U0187,école normale supérieure de lyon,France,187.0,,301.0
+U0188,keio university,Japan,188.0,,801.0
+U0189,university of ottawa,Canada,189.0,,137.0
+U0192,tongji university,China (Mainland),192.0,,251.0
+U0194,university of gothenburg,Sweden,194.0,,201.0
+U0195,wuhan university,China (Mainland),194.0,,173.0
+U0196,emory university,United States,196.0,,82.0
+U0197,deakin university,Australia,197.0,,251.0
+U0199,university of calgary,Canada,198.0,,201.0
+U0201,king saud university,Saudi Arabia,200.0,,251.0
+U0202,american university of sharjah,United Arab Emirates,332.0,,601.0
+U0209,tel aviv university,Israel,209.0,,201.0
+U0210,national tsing hua university,Taiwan,210.0,,501.0
+U0211,indian institute of science,India,211.0,,251.0
+U0214,university of otago,New Zealand,214.0,,301.0
+U0215,national cheng kung university (ncku),Taiwan,215.0,,601.0
+U0216,university of florida,United States,215.0,132.0,151.0
+U0217,la trobe university,Australia,217.0,,251.0
+U0218,"university of maryland, college park",United States,218.0,114.0,104.0
+U0219,national yang ming chiao tung university,Taiwan,219.0,,501.0
+U0221,vrije universiteit amsterdam,Netherlands,221.0,125.0,121.0
+U0225,loughborough university,United Kingdom,224.0,,351.0
+U0226,university of lausanne,Switzerland,224.0,,135.0
+U0229,chulalongkorn university,Thailand,229.0,,801.0
+U0230,maastricht university,Netherlands,230.0,,145.0
+U0233,university of twente,Netherlands,233.0,184.0,251.0
+U0235,university of waikato,New Zealand,235.0,,401.0
+U0237,university of aberdeen,United Kingdom,236.0,,192.0
+U0238,university of rochester,United States,236.0,133.0,154.0
+U0240,massey university,New Zealand,239.0,,601.0
+U0242,technical university of darmstadt,Germany,241.0,,301.0
+U0243,dartmouth college,United States,243.0,,123.0
+U0244,victoria university of wellington,New Zealand,244.0,,401.0
+U0245,university of macau,Macau SAR,245.0,,201.0
+U0246,charles university,Czech Republic,246.0,,501.0
+U0247,university of sussex,United Kingdom,246.0,,201.0
+U0248,vanderbilt university,United States,248.0,,98.0
+U0249,university of navarra,Spain,249.0,,251.0
+U0252,harbin institute of technology,China (Mainland),252.0,,351.0
+U0253,hong kong baptist university,Hong Kong SAR,252.0,,501.0
+U0254,university of göttingen,Germany,252.0,,119.0
+U0255,griffith university,Australia,255.0,,251.0
+U0256,bandung institute of technology (itb),Indonesia,256.0,,1201.0
+U0257,heriot-watt university,United Kingdom,256.0,,501.0
+U0258,university of warsaw,Poland,258.0,,801.0
+U0259,case western reserve university,United States,259.0,,134.0
+U0260,university of lisbon,Portugal,260.0,,501.0
+U0264,norwegian university of science and technology,Norway,264.0,,401.0
+U0267,university of antwerp,Belgium,267.0,,131.0
+U0269,tianjin university,China (Mainland),269.0,,401.0
+U0271,beijing normal university,China (Mainland),271.0,,251.0
+U0273,university college cork,Ireland,273.0,,301.0
+U0274,university of galway,Ireland,273.0,,301.0
+U0275,dalhousie university,Canada,275.0,,301.0
+U0278,university of porto,Portugal,278.0,,401.0
+U0280,ulsan national institute of science and technology (unist),South Korea,280.0,,174.0
+U0282,university of strathclyde,United Kingdom,281.0,,401.0
+U0285,middle east technical university,Turkey,285.0,,501.0
+U0287,university of cologne,Germany,285.0,160.0,146.0
+U0288,university of leicester,United Kingdom,285.0,,163.0
+U0289,university of milan,Italy,285.0,,301.0
+U0290,university of surrey,United Kingdom,285.0,,201.0
+U0291,swinburne university of technology,Australia,291.0,,301.0
+U0292,university of bergen,Norway,291.0,,201.0
+U0294,university of tasmania,Australia,293.0,,301.0
+U0296,stellenbosch university,South Africa,296.0,,251.0
+U0299,swansea university,United Kingdom,298.0,,251.0
+U0300,huazhong university of science and technology,China (Mainland),300.0,,176.0
+U0301,georgetown university,United States,301.0,,136.0
+U0302,beijing institute of technology,China (Mainland),302.0,,501.0
+U0303,université paris cité,France,302.0,,114.0
+U0304,linköping university,Sweden,304.0,,251.0
+U0306,aalborg university,Denmark,306.0,,251.0
+U0307,"university of california, irvine",United States,307.0,,95.0
+U0311,north carolina state university,United States,311.0,,351.0
+U0312,jagiellonian university,Poland,312.0,,601.0
+U0313,university of johannesburg,South Africa,312.0,,601.0
+U0315,quaid-i-azam university,Pakistan,315.0,,401.0
+U0318,university of notre dame,United States,316.0,,201.0
+U0319,simon fraser university,Canada,319.0,,251.0
+U0320,university of colorado boulder,United States,320.0,,148.0
+U0322,national technical university of athens,Greece,321.0,,801.0
+U0324,university of miami,United States,324.0,,194.0
+U0327,istanbul technical university,Turkey,326.0,,601.0
+U0328,kyung hee university,South Korea,328.0,,251.0
+U0330,university of delhi,India,328.0,,1001.0
+U0331,sun yat-sen university,China (Mainland),331.0,,251.0
+U0332,abu dhabi university,United Arab Emirates,501.0,,301.0
+U0334,université grenoble alpes,France,334.0,,401.0
+U0336,flinders university,Australia,336.0,,301.0
+U0337,lappeenranta-lahti university of technology lut,Finland,336.0,,301.0
+U0338,sichuan university,China (Mainland),336.0,,196.0
+U0339,university of the philippines,Philippines,336.0,,801.0
+U0340,university of saskatchewan,Canada,340.0,,501.0
+U0341,university of south australia,Australia,340.0,,301.0
+U0342,brunel university london,United Kingdom,342.0,,401.0
+U0343,sharif university of technology,"Iran, Islamic Republic of",342.0,,401.0
+U0345,tufts university,United States,344.0,,151.0
+U0346,university of oulu,Finland,344.0,,301.0
+U0347,tilburg university,Netherlands,347.0,,251.0
+U0350,cairo university,Egypt,350.0,,801.0
+U0351,sciences po,France,350.0,,501.0
+U0352,"city, university of london",United Kingdom,352.0,,351.0
+U0354,university of pretoria,South Africa,354.0,,801.0
+U0356,university of coimbra,Portugal,355.0,,601.0
+U0357,university of luxembourg,Luxembourg,355.0,,201.0
+U0358,university of tartu,Estonia,358.0,,201.0
+U0359,gwangju institute of science and technology (gist),South Korea,359.0,,501.0
+U0361,university of aveiro,Portugal,359.0,,801.0
+U0362,sultan qaboos university,Oman,362.0,,601.0
+U0363,xiamen university,China (Mainland),362.0,,401.0
+U0364,york university,Canada,362.0,,401.0
+U0368,mahidol university,Thailand,368.0,,801.0
+U0370,university of tehran,"Iran, Islamic Republic of",368.0,,
+U0371,george washington university,United States,371.0,,201.0
+U0372,lincoln university,New Zealand,371.0,,401.0
+U0374,university of turin,Italy,371.0,,401.0
+U0375,university of florence,Italy,375.0,,401.0
+U0376,university of turku,Finland,375.0,,351.0
+U0377,nankai university,China (Mainland),377.0,,301.0
+U0379,university of tsukuba,Japan,377.0,,501.0
+U0381,university of kent,United Kingdom,380.0,,351.0
+U0382,university of pisa,Italy,382.0,,401.0
+U0383,anna university,India,383.0,,801.0
+U0384,western sydney university,Australia,384.0,,201.0
+U0385,south china university of technology,China (Mainland),385.0,,401.0
+U0391,virginia polytechnic institute and state university,United States,389.0,,251.0
+U0392,national taiwan university of science and technology (taiwan tech),Taiwan,392.0,,601.0
+U0393,national and kapodistrian university of athens,Greece,393.0,,401.0
+U0394,"university of california, santa cruz",United States,393.0,,192.0
+U0398,sejong university,South Korea,396.0,,251.0
+U0400,university of southern queensland,Australia,396.0,,301.0
+U0402,koç university,Turkey,401.0,,401.0
+U0403,amirkabir university of technology,"Iran, Islamic Republic of",403.0,,601.0
+U0404,university of canberra,Australia,403.0,,251.0
+U0406,satbayev university,Kazakhstan,405.0,,1501.0
+U0408,"birkbeck, university of london",United Kingdom,408.0,,351.0
+U0409,masaryk university,Czech Republic,408.0,,801.0
+U0413,graz university of technology,Austria,413.0,,601.0
+U0415,concordia university,Canada,415.0,,601.0
+U0416,oxford brookes university,United Kingdom,416.0,,601.0
+U0418,university of dundee,United Kingdom,418.0,,201.0
+U0420,czech technical university in prague,Czech Republic,420.0,,1201.0
+U0421,dublin city university,Ireland,421.0,,401.0
+U0422,university of limerick,Ireland,421.0,,601.0
+U0423,aston university,United Kingdom,423.0,,401.0
+U0424,université laval,Canada,423.0,,251.0
+U0425,national taipei university of technology,Taiwan,425.0,,1001.0
+U0427,leibniz university hannover,Germany,426.0,,401.0
+U0429,southeast university,China (Mainland),428.0,,401.0
+U0433,university of granada,Spain,431.0,,601.0
+U0434,ajman university,United Arab Emirates,477.0,,
+U0436,iran university of science and technology,"Iran, Islamic Republic of",436.0,,501.0
+U0437,murdoch university,Australia,436.0,,401.0
+U0439,vilnius university,Lithuania,439.0,,801.0
+U0445,james cook university,Australia,445.0,,351.0
+U0448,dalian university of technology,China (Mainland),448.0,,601.0
+U0449,hunan university,China (Mainland),448.0,,401.0
+U0451,university of electronic science and technology of china,China (Mainland),451.0,,401.0
+U0453,national taiwan normal university,Taiwan,452.0,,801.0
+U0454,university of kansas,United States,452.0,,401.0
+U0455,university of stirling,United Kingdom,452.0,,351.0
+U0459,university of guelph,Canada,456.0,,501.0
+U0462,tampere university,Finland,462.0,,301.0
+U0464,macau university of science and technology,Macau SAR,464.0,,201.0
+U0465,kobe university,Japan,465.0,,801.0
+U0467,universitat ramon llull,Spain,466.0,,501.0
+U0469,washington state university,United States,466.0,,351.0
+U0470,iowa state university,United States,470.0,,401.0
+U0471,ben-gurion university of the negev,Israel,471.0,,601.0
+U0474,bangor university,United Kingdom,474.0,,401.0
+U0475,hiroshima university,Japan,474.0,,801.0
+U0477,university of sharjah,United Arab Emirates,434.0,,251.0
+U0478,bilkent university,Turkey,477.0,,801.0
+U0481,aix-marseille university,France,481.0,,301.0
+U0486,national sun yat-sen university,Taiwan,485.0,,801.0
+U0489,chongqing university,China (Mainland),489.0,,601.0
+U0491,isfahan university of technology,"Iran, Islamic Republic of",489.0,,1001.0
+U0492,shanghai university,China (Mainland),489.0,,601.0
+U0494,university of jyväskylä,Finland,489.0,,401.0
+U0496,duy tan university,Vietnam,495.0,,401.0
+U0500,"university of california, riverside",United States,497.0,,251.0
+U0503,east china normal university,China (Mainland),501.0,,351.0
+U0505,university of huddersfield,United Kingdom,501.0,,601.0
+U0506,university of delaware,United States,506.0,,351.0
+U0507,university of trento,Italy,506.0,,401.0
+U0508,aristotle university of thessaloniki,Greece,508.0,,801.0
+U0509,shenzhen university,China (Mainland),508.0,,401.0
+U0510,soas university of london,United Kingdom,508.0,,501.0
+U0511,ewha womans university,South Korea,511.0,,801.0
+U0512,zhengzhou university,China (Mainland),511.0,,601.0
+U0516,ateneo de manila university,Philippines,516.0,,351.0
+U0517,edith cowan university,Australia,516.0,,351.0
+U0519,kyungpook national university,South Korea,516.0,,801.0
+U0521,university of hull,United Kingdom,516.0,,501.0
+U0523,zayed university,United Arab Emirates,,,501.0
+U0524,pusan national university,South Korea,524.0,,1001.0
+U0527,missouri university of science and technology,United States,527.0,,501.0
+U0529,university of bayreuth,Germany,527.0,,401.0
+U0530,warsaw university of technology,Poland,527.0,,1201.0
+U0531,coventry university,United Kingdom,526.0,,801.0
+U0533,university of bradford,United Kingdom,531.0,,501.0
+U0534,university of utah,United States,531.0,,251.0
+U0538,university of bordeaux,France,535.0,,301.0
+U0539,university of eastern finland,Finland,535.0,,601.0
+U0541,hitotsubashi university,Japan,539.0,,
+U0542,sunway university,Malaysia,539.0,,801.0
+U0544,university of salamanca,Spain,539.0,,801.0
+U0547,northwestern polytechnical university,China (Mainland),547.0,,501.0
+U0549,university of genoa,Italy,547.0,,401.0
+U0550,university of iceland,Iceland,547.0,,501.0
+U0551,university of windsor,Canada,547.0,,
+U0552,united arab emirates university,United Arab Emirates,261.0,,251.0
+U0553,university of tabriz,"Iran, Islamic Republic of",552.0,,
+U0554,hasselt university,Belgium,554.0,,301.0
+U0557,university of dhaka,Bangladesh,554.0,,601.0
+U0560,ulster university,United Kingdom,559.0,,
+U0561,umm al-qura university,Saudi Arabia,559.0,,
+U0564,eötvös loránd university,Hungary,564.0,,601.0
+U0566,university of connecticut,United States,565.0,,401.0
+U0567,chiang mai university,Thailand,567.0,,1001.0
+U0568,lebanese university,Lebanon,567.0,,1001.0
+U0570,"university of chemistry and technology, prague",Czech Republic,570.0,,1201.0
+U0571,university of szeged,Hungary,570.0,,1001.0
+U0572,university of the punjab,Pakistan,570.0,,801.0
+U0573,florida state university,United States,573.0,,301.0
+U0574,florida international university,United States,574.0,,501.0
+U0575,university of debrecen,Hungary,574.0,,1001.0
+U0577,sogang university,South Korea,576.0,,1001.0
+U0578,southern cross university,Australia,576.0,,601.0
+U0580,jawaharlal nehru university,India,580.0,,601.0
+U0587,bond university,Australia,587.0,,251.0
+U0588,shoolini university of biotechnology and management sciences,India,587.0,,351.0
+U0591,university of kwazulu-natal,South Africa,587.0,,401.0
+U0592,ain shams university,Egypt,592.0,,1001.0
+U0593,nottingham trent university,United Kingdom,592.0,,501.0
+U0596,thammasat university,Thailand,596.0,,1201.0
+U0597,universitas padjadjaran,Indonesia,596.0,,1501.0
+U0598,university of iowa,United States,596.0,,301.0
+U0599,university of ljubljana,Slovenia,596.0,,801.0
+U0602,illinois institute of technology,United States,,,401.0
+U0603,king khalid university,Saudi Arabia,,,801.0
+U0606,national chengchi university,Taiwan,,,1201.0
+U0608,rensselaer polytechnic institute,United States,,,601.0
+U0610,university of crete,Greece,,,401.0
+U0611,university of hohenheim,Germany,,,201.0
+U0615,brno university of technology,Czech Republic,,,1201.0
+U0617,eastern mediterranean university,Northern Cyprus,,,501.0
+U0620,university of klagenfurt,Austria,,,401.0
+U0621,university of minho,Portugal,,,801.0
+U0625,charles darwin university,Australia,,,351.0
+U0626,istanbul university,Turkey,,,1001.0
+U0631,university of south florida,United States,,,201.0
+U0634,ajou university,South Korea,,,601.0
+U0635,boston college,United States,,,251.0
+U0636,chang gung university,Taiwan,,,1001.0
+U0639,inha university,South Korea,,,1001.0
+U0640,savitribai phule pune university,India,,,601.0
+U0641,tulane university,United States,,,351.0
+U0643,university of portsmouth,United Kingdom,,,401.0
+U0644,beirut arab university,Lebanon,,,601.0
+U0645,de la salle university,Philippines,,,1201.0
+U0646,east china university of science and technology,China (Mainland),,,1001.0
+U0647,hacettepe university,Turkey,,,601.0
+U0648,lehigh university,United States,,,601.0
+U0649,national central university,Taiwan,,,1001.0
+U0651,ritsumeikan university,Japan,,,1201.0
+U0654,universiti tenaga nasional (uniten),Malaysia,,,801.0
+U0656,university of the basque country,Spain,,,801.0
+U0658,palacký university olomouc,Czech Republic,,,1001.0
+U0660,university of houston,United States,,,601.0
+U0661,university of zagreb,Croatia,,,1201.0
+U0662,aberystwyth university,United Kingdom,,,501.0
+U0665,free university of bozen-bolzano,Italy,,,401.0
+U0668,memorial university of newfoundland,Canada,,,601.0
+U0669,national chung hsing university,Taiwan,,,1201.0
+U0671,tokyo medical and dental university (tmdu),Japan,,,501.0
+U0673,university of manitoba,Canada,,,351.0
+U0674,university of plymouth,United Kingdom,,,401.0
+U0676,bar-ilan university,Israel,,,601.0
+U0681,university of haifa,Israel,,,601.0
+U0683,"goldsmiths, university of london",United Kingdom,,,501.0
+U0685,jeonbuk national university,South Korea,,,1001.0
+U0687,princess nourah bint abdulrahman university,Saudi Arabia,,,801.0
+U0688,temple university,United States,,,301.0
+U0694,shiraz university,"Iran, Islamic Republic of",,,801.0
+U0697,universidad panamericana (up),Mexico,,,1501.0
+U0699,universidade federal do rio grande do sul,Brazil,,,601.0
+U0700,university of brescia,Italy,,,351.0
+U0701,university of greenwich,United Kingdom,,,501.0
+U0702,university of siena,Italy,,,401.0
+U0705,lebanese american university,Lebanon,,,501.0
+U0707,stevens institute of technology,United States,,,501.0
+U0708,taras shevchenko national university of kyiv,Ukraine,,,1201.0
+U0712,american university,United States,,,601.0
+U0713,comsats university islamabad,Pakistan,,,601.0
+U0715,de montfort university,United Kingdom,,,601.0
+U0721,ton duc thang university,Vietnam,,,401.0
+U0724,brandeis university,United States,,,301.0
+U0725,budapest university of technology and economics,Hungary,,,1201.0
+U0726,diponegoro university,Indonesia,,,1501.0
+U0727,drexel university,United States,,,301.0
+U0728,effat university,Saudi Arabia,,,
+U0729,jadavpur university,India,,,1001.0
+U0730,konkuk university,South Korea,,,601.0
+U0732,middlesex university,United Kingdom,,,401.0
+U0733,riga technical university,Latvia,,,1201.0
+U0736,university of modena and reggio emilia,Italy,,,401.0
+U0737,university of trieste,Italy,,,501.0
+U0740,university of belgrade,Serbia,,,801.0
+U0742,carleton university,Canada,,,601.0
+U0747,university of central florida,United States,,,601.0
+U0748,university of the west of england,United Kingdom,,,401.0
+U0749,university of westminster,United Kingdom,,,1001.0
+U0751,victoria university,Australia,,,501.0
+U0752,vytautas magnus university,Lithuania,,,1201.0
+U0753,wake forest university,United States,,,351.0
+U0755,kaunas university of technology,Lithuania,,,1201.0
+U0757,tokyo university of science,Japan,,,1201.0
+U0760,university of calcutta,India,,,1001.0
+U0761,university of engineering & technology (uet) lahore,Pakistan,,,1001.0
+U0762,university of malta,Malta,,,801.0
+U0765,bangladesh university of engineering and technology,Bangladesh,,,1201.0
+U0766,king faisal university,Saudi Arabia,,,801.0
+U0767,nanjing university of aeronautics and astronautics,China (Mainland),,,1001.0
+U0770,university of patras,Greece,,,1001.0
+U0772,bournemouth university,United Kingdom,,,251.0
+U0773,chiba university,Japan,,,1001.0
+U0779,"university of maryland, baltimore county",United States,,,601.0
+U0781,verona university,Italy,,,351.0
+U0783,kasetsart university,Thailand,,,1501.0
+U0785,qassim university,Saudi Arabia,,,1201.0
+U0786,texas tech university,United States,,,801.0
+U0787,the new school,United States,,,801.0
+U0789,universidade federal de santa catarina,Brazil,,,1001.0
+U0790,university of latvia,Latvia,,,801.0
+U0791,university of mons,Belgium,,,501.0
+U0793,alfaisal university,Saudi Arabia,,,301.0
+U0794,ivane javakhishvili tbilisi state university,Georgia,,,1501.0
+U0795,keele university,United Kingdom,,,501.0
+U0799,university of kentucky,United States,,,501.0
+U0802,wayne state university,United States,,,501.0
+U0803,al-ahliyya amman university,Jordan,,,
+U0804,alexandria university,Egypt,,,801.0
+U0809,"birla institute of technology and science, pilani",India,,,801.0
+U0810,edinburgh napier university,United Kingdom,,,401.0
+U0814,instituto politécnico nacional (ipn),Mexico,,,1501.0
+U0815,jouf university,Saudi Arabia,,,601.0
+U0817,kuwait university,Kuwait,,,801.0
+U0818,liverpool john moores university,United Kingdom,,,401.0
+U0819,london south bank university,United Kingdom,,,601.0
+U0820,maynooth university,Ireland,,,401.0
+U0826,syracuse university,United States,,,401.0
+U0827,the catholic university of korea,South Korea,,,1201.0
+U0828,toronto metropolitan university,Canada,,,801.0
+U0829,tu dortmund university,Germany,,,501.0
+U0838,universiti tunku abdul rahman (utar),Malaysia,,,1001.0
+U0839,university of alaska fairbanks,United States,,,401.0
+U0840,university of alicante,Spain,,,1201.0
+U0841,university of baghdad,Iraq,,,1501.0
+U0843,university of brighton,United Kingdom,,,801.0
+U0844,university of bucharest,Romania,,,1201.0
+U0848,university of salerno,Italy,,,501.0
+U0849,university of stavanger,Norway,,,501.0
+U0850,university of ulsan,South Korea,,,
+U0853,al-quds university,"Palestinian Territory, Occupied",,,
+U0855,charles sturt university,Australia,,,1001.0
+U0856,chonnam national university,South Korea,,,1001.0
+U0857,chungnam national university,South Korea,,,1201.0
+U0858,clarkson university,United States,,,1001.0
+U0859,cy cergy paris university,France,,,801.0
+U0860,donghua university,China (Mainland),,,801.0
+U0861,georgia state university,United States,,,401.0
+U0863,jamia millia islamia,India,,,501.0
+U0864,kansas state university,United States,,,801.0
+U0867,mendel university in brno,Czech Republic,,,1201.0
+U0868,nagasaki university,Japan,,,1201.0
+U0870,north-west university,South Africa,,,601.0
+U0871,okayama university,Japan,,,1001.0
+U0872,oklahoma state university,United States,,,601.0
+U0877,technological university dublin,Ireland,,,1001.0
+U0879,tokyo university of agriculture and technology,Japan,,,1201.0
+U0885,université du québec,Canada,,,601.0
+U0888,university of dubai,United Arab Emirates,,,
+U0890,university of ghana,Ghana,,,1001.0
+U0891,university of hertfordshire,United Kingdom,,,601.0
+U0892,university of lincoln,United Kingdom,,,401.0
+U0894,university of palermo,Italy,,,801.0
+U0895,university of santo tomas,Philippines,,,
+U0896,university of south africa,South Africa,,,1001.0
+U0898,"vietnam national university, hanoi",Vietnam,,,1001.0
+U0900,virginia commonwealth university,United States,,,501.0
+U0902,australian catholic university,Australia,,,251.0
+U0906,future university in egypt,Egypt,,,
+U0911,kanazawa university,Japan,,,1001.0
+U0913,kyrgyz-turkish manas university,Kyrgyzstan,,,
+U0914,louisiana state university,United States,,,601.0
+U0915,makerere university,Uganda,,,801.0
+U0920,north south university,Bangladesh,,,601.0
+U0921,osaka metropolitan university,Japan,,,1201.0
+U0924,robert gordon university,United Kingdom,,,1001.0
+U0938,university of calabria,Italy,,,801.0
+U0939,university of east london,United Kingdom,,,1001.0
+U0940,university of hail,Saudi Arabia,,,351.0
+U0942,university of maribor,Slovenia,,,1201.0
+U0943,university of murcia,Spain,,,1001.0
+U0944,university of nairobi,Kenya,,,601.0
+U0945,university of peshawar,Pakistan,,,801.0
+U0946,university of salford,United Kingdom,,,801.0
+U0949,worcester polytechnic institute,United States,,,801.0
+U0952,yokohama city university,Japan,,,601.0
+U0954,athens university of economics and business,Greece,,,801.0
+U0955,auburn university,United States,,,601.0
+U0956,baku state university,Azerbaijan,,,1501.0
+U0958,clark university,United States,,,601.0
+U0961,ferdowsi university of mashhad,"Iran, Islamic Republic of",,,1001.0
+U0963,hallym university,South Korea,,,1201.0
+U0966,khon kaen university,Thailand,,,1201.0
+U0968,kumamoto university,Japan,,,1001.0
+U0969,mansoura university,Egypt,,,601.0
+U0970,niigata university,Japan,,,1001.0
+U0973,prince of songkla university,Thailand,,,1201.0
+U0979,sophia university,Japan,,,1501.0
+U0982,the university of alabama,United States,,,801.0
+U0997,university of central lancashire,United Kingdom,,,1001.0
+U0998,university of colombo,Sri Lanka,,,601.0
+U0999,university of denver,United States,,,401.0
+U1000,university of parma,Italy,,,601.0
+U1001,university of regina,Canada,,,601.0
+U1003,university of the western cape,South Africa,,,
+U1004,yarmouk university,Jordan,,,1001.0
+U1005,yeungnam university,South Korea,,,801.0
+U1006,al-azhar university,Egypt,,,801.0
+U1007,aligarh muslim university,India,,,801.0
+U1008,amity university,India,,,1001.0
+U1010,an-najah national university,"Palestinian Territory, Occupied",,,501.0
+U1011,"arab academy for science, technology and maritime transport",Egypt,,,1201.0
+U1012,assiut university,Egypt,,,1001.0
+U1014,azerbaijan state university of economics,Azerbaijan,,,
+U1015,banaras hindu university,India,,,601.0
+U1016,baylor university,United States,,,601.0
+U1019,birmingham city university,United Kingdom,,,501.0
+U1022,canterbury christ church university,United Kingdom,,,1201.0
+U1024,chung yuan christian university,Taiwan,,,1201.0
+U1025,chungbuk national university,South Korea,,,1201.0
+U1030,ege university,Turkey,,,1201.0
+U1034,george mason university,United States,,,301.0
+U1035,gifu university,Japan,,,1201.0
+U1036,glasgow caledonian university,United Kingdom,,,601.0
+U1037,gunma university,Japan,,,1201.0
+U1039,harbin engineering university,China (Mainland),,,1201.0
+U1041,howard university,United States,,,351.0
+U1042,hungarian university of agriculture and life sciences,Hungary,,,1201.0
+U1044,international christian university,Japan,,,
+U1046,islamic university of madinah,Saudi Arabia,,,
+U1048,jiangnan university,China (Mainland),,,1001.0
+U1049,kagoshima university,Japan,,,1501.0
+U1050,kangwon national university,South Korea,,,1201.0
+U1054,leeds beckett university,United Kingdom,,,801.0
+U1056,lodz university of technology,Poland,,,1501.0
+U1057,london metropolitan university,United Kingdom,,,
+U1059,lviv polytechnic national university,Ukraine,,,601.0
+U1060,marmara university,Turkey,,,1201.0
+U1061,mississippi state university,United States,,,801.0
+U1063,mustansiriyah university,Iraq,,,1501.0
+U1064,mutah university,Jordan,,,
+U1066,nanjing normal university,China (Mainland),,,801.0
+U1068,national chung cheng university,Taiwan,,,1201.0
+U1076,panjab university,India,,,801.0
+U1079,poznan university of technology,Poland,,,1201.0
+U1085,san diego state university,United States,,,601.0
+U1086,sheffield hallam university,United Kingdom,,,801.0
+U1087,shinshu university,Japan,,,1201.0
+U1089,silesian university of technology,Poland,,,1201.0
+U1090,slovak university of agriculture in nitra,Slovakia,,,1201.0
+U1091,slovak university of technology in bratislava,Slovakia,,,1501.0
+U1093,soonchunhyang university,South Korea,,,1201.0
+U1096,srm institute of science and technology,India,,,1201.0
+U1097,sumy state university,Ukraine,,,401.0
+U1099,széchenyi istván university,Hungary,,,
+U1100,taibah university,Saudi Arabia,,,801.0
+U1101,tallinn university,Estonia,,,1001.0
+U1104,telkom university,Indonesia,,,1501.0
+U1105,the hashemite university,Jordan,,,1201.0
+U1108,tokushima university,Japan,,,1201.0
+U1109,tokyo metropolitan university,Japan,,,1001.0
+U1147,universitas sebelas maret,Indonesia,,,1201.0
+U1159,universiti malaysia sabah (ums),Malaysia,,,1501.0
+U1160,universiti malaysia sarawak (unimas),Malaysia,,,1201.0
+U1161,universiti malaysia terengganu (umt),Malaysia,,,1201.0
+U1164,university of derby,United Kingdom,,,601.0
+U1165,university of deusto,Spain,,,801.0
+U1167,university of ibadan,Nigeria,,,401.0
+U1169,university of ioannina,Greece,,,801.0
+U1170,university of karachi,Pakistan,,,1501.0
+U1172,university of lagos,Nigeria,,,401.0
+U1179,university of north carolina at charlotte,United States,,,601.0
+U1181,university of novi sad,Serbia,,,1501.0
+U1182,university of rhode island,United States,,,801.0
+U1184,university of seoul,South Korea,,,1201.0
+U1185,university of tabuk,Saudi Arabia,,,501.0
+U1188,university of the free state,South Africa,,,801.0
+U1189,university of the sunshine coast,Australia,,,601.0
+U1190,university of toledo,United States,,,
+U1193,university of warmia and mazury in olsztyn,Poland,,,1501.0
+U1194,university of wolverhampton,United Kingdom,,,
+U1195,university of wyoming,United States,,,801.0
+U1198,vsb - technical university of ostrava,Czech Republic,,,1501.0
+U1200,west virginia university,United States,,,
+U1202,yokohama national university,Japan,,,1201.0
+U1203,al-balqa applied university,Jordan,,,801.0
+U1204,alexandru ioan cuza university,Romania,,,1501.0
+U1205,anadolu university,Turkey,,,1201.0
+U1206,aoyama gakuin university,Japan,,,1501.0
+U1209,bahauddin zakariya university,Pakistan,,,1001.0
+U1213,benemérita universidad autónoma de puebla,Mexico,,,1501.0
+U1218,chaoyang university of technology,Taiwan,,,1501.0
+U1220,chitkara university,India,,,
+U1223,cukurova university,Turkey,,,1501.0
+U1228,doshisha university,Japan,,,1501.0
+U1230,escuela politécnica nacional,Ecuador,,,1501.0
+U1231,feng chia university,Taiwan,,,1501.0
+U1233,fu jen catholic university,Taiwan,,,1001.0
+U1235,german university in cairo,Egypt,,,1201.0
+U1236,hanoi university of science and technology,Vietnam,,,1501.0
+U1237,harper adams university,United Kingdom,,,
+U1238,helwan university,Egypt,,,1201.0
+U1240,hue university,Vietnam,,,1501.0
+U1244,ivan franko national university of lviv,Ukraine,,,1201.0
+U1248,jeju national university,South Korea,,,1201.0
+U1252,kharkiv national university of radio electronics,Ukraine,,,1001.0
+U1253,khulna university,Bangladesh,,,
+U1257,king mongkut's university of technology north bangkok,Thailand,,,1201.0
+U1258,kookmin university,South Korea,,,1501.0
+U1259,kwame nkrumah university of science and technology,Ghana,,,1001.0
+U1260,kyoto institute of technology,Japan,,,1501.0
+U1262,marquette university,United States,,,801.0
+U1263,meiji university,Japan,,,1501.0
+U1268,national dong hwa university,Taiwan,,,1201.0
+U1270,national taipei university,Taiwan,,,1501.0
+U1271,national taiwan ocean university,Taiwan,,,1001.0
+U1273,óbuda university,Hungary,,,1001.0
+U1275,osmania university,India,,,1201.0
+U1277,pondicherry university,India,,,1001.0
+U1280,portland state university,United States,,,1001.0
+U1283,rikkyo university,Japan,,,1001.0
+U1284,saitama university,Japan,,,1501.0
+U1295,suez canal university,Egypt,,,801.0
+U1298,suranaree university of technology,Thailand,,,1201.0
+U1299,tamkang university,Taiwan,,,1201.0
+U1300,tanta university,Egypt,,,801.0
+U1301,technical university of cluj-napoca,Romania,,,1501.0
+U1302,technical university of liberec,Czech Republic,,,1501.0
+U1309,tokai university,Japan,,,1201.0
+U1313,tunghai university,Taiwan,,,1201.0
+U1341,universidad nacional del litoral,Argentina,,,1501.0
+U1345,universidade do estado do rio de janeiro (uerj),Brazil,,,1201.0
+U1346,universidade federal da bahia,Brazil,,,1201.0
+U1351,universidade federal do ceará (ufc),Brazil,,,1501.0
+U1357,universitas pendidikan indonesia,Indonesia,,,1201.0
+U1358,universitas sumatera utara,Indonesia,,,1501.0
+U1363,universiti malaysia perlis,Malaysia,,,1001.0
+U1364,universiti teknikal malaysia melaka,Malaysia,,,1201.0
+U1365,university of babylon,Iraq,,,601.0
+U1366,university of basrah,Iraq,,,1501.0
+U1369,university of kragujevac,Serbia,,,501.0
+U1370,university of kufa,Iraq,,,1501.0
+U1371,university of memphis,United States,,,801.0
+U1372,university of miskolc,Hungary,,,1501.0
+U1376,university of ostrava,Czech Republic,,,1201.0
+U1377,university of pannonia,Hungary,,,1201.0
+U1378,university of pardubice,Czech Republic,,,1501.0
+U1379,university of peradeniya,Sri Lanka,,,501.0
+U1380,university of primorska,Slovenia,,,1201.0
+U1381,university of rijeka,Croatia,,,1501.0
+U1385,university of silesia in katowice,Poland,,,1501.0
+U1387,university of split,Croatia,,,1001.0
+U1388,university of sri jayewardenepura,Sri Lanka,,,
+U1391,university of west bohemia,Czech Republic,,,1201.0
+U1396,western michigan university,United States,,,1201.0
+U1397,yamaguchi university,Japan,,,1501.0
+U1400,yuan ze university,Taiwan,,,1201.0
+U1401,zagazig university,Egypt,,,801.0
+U1417,kwansei gakuin university,Japan,,,1501.0
+U1418,lucian blaga university of sibiu,Romania,,,1501.0
+U1422,naresuan university,Thailand,,,1501.0
+U1425,nova southeastern university,United States,,,401.0
+U1428,pontifícia universidade católica do paraná,Brazil,,,1201.0
+U1431,sakarya university,Turkey,,,1001.0
+U1433,shibaura institute of technology,Japan,,,1201.0
+U1434,silpakorn university,Thailand,,,1501.0
+U1436,soongsil university,South Korea,,,1201.0
+U1438,state university of malang,Indonesia,,,1201.0
+U1442,united international university,Bangladesh,,,
+U1446,universidad autónoma de chile,Chile,,,801.0
+U1453,universidad católica de colombia,Colombia,,,
+U1478,universidad san ignacio de loyola,Peru,,,
+U1484,universidade do estado de santa catarina,Brazil,,,1501.0
+U1491,universitas andalas,Indonesia,,,1501.0
+U1496,university of craiova,Romania,,,1501.0
+U1497,university of lampung,Indonesia,,,
+U1500,university of oradea,Romania,,,1501.0

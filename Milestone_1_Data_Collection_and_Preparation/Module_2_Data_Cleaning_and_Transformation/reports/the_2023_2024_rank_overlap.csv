@@ -1,0 +1,113 @@
+university_id,university_name,country_name,wb_region,wb_income_group,the_rank_2023_num,the_rank_2024_num,rank_change,absolute_rank_change,rank_status
+U0233,university of twente,Netherlands,Europe & Central Asia,High income: OECD,251.0,184.0,67.0,67.0,Improved
+U0154,texas a&m university,United States,North America,High income: OECD,181.0,118.0,63.0,63.0,Improved
+U0139,chalmers university of technology,Sweden,Europe & Central Asia,High income: OECD,251.0,189.0,62.0,62.0,Improved
+U1534,Purdue University West Lafayette,United States,North America,High income: OECD,127.0,86.0,41.0,41.0,Improved
+U0109,technical university of denmark,Denmark,Europe & Central Asia,High income: OECD,166.0,126.0,40.0,40.0,Improved
+U0073,université paris-saclay,France,Europe & Central Asia,High income: OECD,93.0,58.0,35.0,35.0,Improved
+U1544,Penn State (Main campus),United States,North America,High income: OECD,151.0,122.0,29.0,29.0,Improved
+U1547,Trinity College Dublin,Ireland,Europe & Central Asia,High income: OECD,161.0,134.0,27.0,27.0,Improved
+U0089,durham university,United Kingdom,Europe & Central Asia,High income: OECD,198.0,174.0,24.0,24.0,Improved
+U0046,institut polytechnique de paris,France,Europe & Central Asia,High income: OECD,95.0,71.0,24.0,24.0,Improved
+U0049,delft university of technology,Netherlands,Europe & Central Asia,High income: OECD,70.0,48.0,22.0,22.0,Improved
+U0145,nanjing university,China (Mainland),East Asia & Pacific,Upper middle income,95.0,73.0,22.0,22.0,Improved
+U0238,university of rochester,United States,North America,High income: OECD,154.0,133.0,21.0,21.0,Improved
+U0132,sapienza university of rome,Italy,Europe & Central Asia,High income: OECD,201.0,181.0,20.0,20.0,Improved
+U0216,university of florida,United States,North America,High income: OECD,151.0,132.0,19.0,19.0,Improved
+U0116,university of wisconsin-madison,United States,North America,High income: OECD,81.0,63.0,18.0,18.0,Improved
+U0155,university of geneva,Switzerland,Europe & Central Asia,High income: OECD,201.0,183.0,18.0,18.0,Improved
+U0062,city university of hong kong,Hong Kong SAR,East Asia & Pacific,High income: nonOECD,99.0,82.0,17.0,17.0,Improved
+U0135,university of science and technology of china,China (Mainland),East Asia & Pacific,Upper middle income,74.0,57.0,17.0,17.0,Improved
+U1533,University of Minnesota,United States,North America,High income: OECD,101.0,85.0,16.0,16.0,Improved
+U0064,sorbonne university,France,Europe & Central Asia,High income: OECD,90.0,75.0,15.0,15.0,Improved
+U0098,pohang university of science and technology (postech),South Korea,East Asia & Pacific,High income: OECD,163.0,149.0,14.0,14.0,Improved
+U0033,the university of tokyo,Japan,East Asia & Pacific,High income: OECD,39.0,29.0,10.0,10.0,Improved
+U1541,University of Sheffield,United Kingdom,Europe & Central Asia,High income: OECD,114.0,105.0,9.0,9.0,Improved
+U0045,shanghai jiao tong university,China (Mainland),East Asia & Pacific,Upper middle income,52.0,43.0,9.0,9.0,Improved
+U0099,rwth aachen university,Germany,Europe & Central Asia,High income: OECD,99.0,90.0,9.0,9.0,Improved
+U1514,École Polytechnique Fédérale de Lausanne,Switzerland,Europe & Central Asia,High income: OECD,41.0,33.0,8.0,8.0,Improved
+U1531,Korea Advanced Institute of Science and Technology (KAIST),South Korea,East Asia & Pacific,High income: OECD,91.0,83.0,8.0,8.0,Improved
+U0039,fudan university,China (Mainland),East Asia & Pacific,Upper middle income,51.0,44.0,7.0,7.0,Improved
+U0080,university of birmingham,United Kingdom,Europe & Central Asia,High income: OECD,108.0,101.0,7.0,7.0,Improved
+U1520,Paris Sciences et Lettres – PSL Research University Paris,France,Europe & Central Asia,High income: OECD,47.0,40.0,7.0,7.0,Improved
+U0070,university of illinois at urbana-champaign,United States,North America,High income: OECD,48.0,42.0,6.0,6.0,Improved
+U1513,"Nanyang Technological University, Singapore",Singapore,East Asia & Pacific,High income: nonOECD,36.0,32.0,4.0,4.0,Improved
+U0130,"university of california, davis",United States,North America,High income: OECD,63.0,59.0,4.0,4.0,Improved
+U0020,tsinghua university,China (Mainland),East Asia & Pacific,Upper middle income,16.0,12.0,4.0,4.0,Improved
+U0058,carnegie mellon university,United States,North America,High income: OECD,28.0,24.0,4.0,4.0,Improved
+U0014,peking university,China (Mainland),East Asia & Pacific,Upper middle income,17.0,14.0,3.0,3.0,Improved
+U1524,University of Manchester,United Kingdom,Europe & Central Asia,High income: OECD,54.0,51.0,3.0,3.0,Improved
+U1509,"University of California, Los Angeles",United States,North America,High income: OECD,21.0,18.0,3.0,3.0,Improved
+U0002,imperial college london,United Kingdom,Europe & Central Asia,High income: OECD,10.0,8.0,2.0,2.0,Improved
+U1530,Yonsei University (Seoul campus),South Korea,East Asia & Pacific,High income: OECD,78.0,76.0,2.0,2.0,Improved
+U0114,georgia institute of technology,United States,North America,High income: OECD,38.0,36.0,2.0,2.0,Improved
+U0110,university of zurich,Switzerland,Europe & Central Asia,High income: OECD,82.0,80.0,2.0,2.0,Improved
+U1504,Massachusetts Institute of Technology,United States,North America,High income: OECD,5.0,3.0,2.0,2.0,Improved
+U0006,stanford university,United States,North America,High income: OECD,3.0,2.0,1.0,1.0,Improved
+U0022,princeton university,United States,North America,High income: OECD,7.0,6.0,1.0,1.0,Improved
+U0076,university of washington,United States,North America,High income: OECD,26.0,25.0,1.0,1.0,Improved
+U0032,johns hopkins university,United States,North America,High income: OECD,15.0,15.0,0.0,0.0,Stable
+U0044,university of michigan-ann arbor,United States,North America,High income: OECD,23.0,23.0,0.0,0.0,Stable
+U1508,The University of Chicago,United States,North America,High income: OECD,13.0,13.0,0.0,0.0,Stable
+U1507,ETH Zurich,Switzerland,Europe & Central Asia,High income: OECD,11.0,11.0,0.0,0.0,Stable
+U0142,leiden university,Netherlands,Europe & Central Asia,High income: OECD,77.0,77.0,0.0,0.0,Stable
+U1510,National University of Singapore,Singapore,East Asia & Pacific,High income: nonOECD,19.0,19.0,0.0,0.0,Stable
+U0016,cornell university,United States,North America,High income: OECD,20.0,20.0,0.0,0.0,Stable
+U0009,ucl,United Kingdom,Europe & Central Asia,High income: OECD,22.0,22.0,0.0,0.0,Stable
+U0003,university of oxford,United Kingdom,Europe & Central Asia,High income: OECD,1.0,1.0,0.0,0.0,Stable
+U1523,Karolinska Institute,Sweden,Europe & Central Asia,High income: OECD,49.0,50.0,-1.0,1.0,Declined
+U0061,duke university,United States,North America,High income: OECD,25.0,26.0,-1.0,1.0,Declined
+U0038,university of british columbia,Canada,North America,High income: OECD,40.0,41.0,-1.0,1.0,Declined
+U0055,university of amsterdam,Netherlands,Europe & Central Asia,High income: OECD,60.0,61.0,-1.0,1.0,Declined
+U0083,university of leeds,United Kingdom,Europe & Central Asia,High income: OECD,128.0,129.0,-1.0,1.0,Declined
+U0119,university of oslo,Norway,Europe & Central Asia,High income: OECD,126.0,127.0,-1.0,1.0,Declined
+U1506,"University of California, Berkeley",United States,North America,High income: OECD,8.0,9.0,-1.0,1.0,Declined
+U1505,California Institute of Technology,United States,North America,High income: OECD,6.0,7.0,-1.0,1.0,Declined
+U0023,yale university,United States,North America,High income: OECD,9.0,10.0,-1.0,1.0,Declined
+U1536,University of Bonn,Germany,Europe & Central Asia,High income: OECD,89.0,91.0,-2.0,2.0,Declined
+U1515,"University of California, San Diego",United States,North America,High income: OECD,32.0,34.0,-2.0,2.0,Declined
+U0005,university of cambridge,United Kingdom,Europe & Central Asia,High income: OECD,3.0,5.0,-2.0,2.0,Declined
+U0051,northwestern university,United States,North America,High income: OECD,26.0,28.0,-2.0,2.0,Declined
+U0011,university of pennsylvania,United States,North America,High income: OECD,14.0,16.0,-2.0,2.0,Declined
+U0004,harvard university,United States,North America,High income: OECD,2.0,4.0,-2.0,2.0,Declined
+U0066,university of texas at austin,United States,North America,High income: OECD,50.0,52.0,-2.0,2.0,Declined
+U0029,mcgill university,Canada,North America,High income: OECD,46.0,49.0,-3.0,3.0,Declined
+U0025,university of toronto,Canada,North America,High income: OECD,18.0,21.0,-3.0,3.0,Declined
+U0063,ku leuven,Belgium,Europe & Central Asia,High income: OECD,42.0,45.0,-3.0,3.0,Declined
+U0186,cardiff university,United Kingdom,Europe & Central Asia,High income: OECD,187.0,190.0,-3.0,3.0,Declined
+U1529,University of North Carolina at Chapel Hill,United States,North America,High income: OECD,69.0,72.0,-3.0,3.0,Declined
+U1517,University of Melbourne,Australia,East Asia & Pacific,High income: OECD,34.0,37.0,-3.0,3.0,Declined
+U1511,New York University,United States,North America,High income: OECD,24.0,27.0,-3.0,3.0,Declined
+U1516,University of Hong Kong,Hong Kong,East Asia & Pacific,High income: nonOECD,31.0,35.0,-4.0,4.0,Declined
+U0160,university of groningen,Netherlands,Europe & Central Asia,High income: OECD,75.0,79.0,-4.0,4.0,Declined
+U0221,vrije universiteit amsterdam,Netherlands,Europe & Central Asia,High income: OECD,121.0,125.0,-4.0,4.0,Declined
+U1522,Universität Heidelberg,Germany,Europe & Central Asia,High income: OECD,43.0,47.0,-4.0,4.0,Declined
+U0134,macquarie university,Australia,East Asia & Pacific,High income: OECD,175.0,180.0,-5.0,5.0,Declined
+U1526,Australian National University,Australia,East Asia & Pacific,High income: OECD,62.0,67.0,-5.0,5.0,Declined
+U1528,"University of California, Santa Barbara",United States,North America,High income: OECD,64.0,69.0,-5.0,5.0,Declined
+U0054,university of bristol,United Kingdom,Europe & Central Asia,High income: OECD,76.0,81.0,-5.0,5.0,Declined
+U0018,the university of sydney,Australia,East Asia & Pacific,High income: OECD,54.0,60.0,-6.0,6.0,Declined
+U0034,columbia university,United States,North America,High income: OECD,11.0,17.0,-6.0,6.0,Declined
+U0031,seoul national university,South Korea,East Asia & Pacific,High income: OECD,56.0,62.0,-6.0,6.0,Declined
+U0171,university of cape town,South Africa,Sub-Saharan Africa,Upper middle income,160.0,167.0,-7.0,7.0,Declined
+U0112,boston university,United States,North America,High income: OECD,71.0,78.0,-7.0,7.0,Declined
+U1525,Chinese University of Hong Kong,Hong Kong,East Asia & Pacific,High income: nonOECD,45.0,53.0,-8.0,8.0,Declined
+U0184,university of york,United Kingdom,Europe & Central Asia,High income: OECD,139.0,147.0,-8.0,8.0,Declined
+U0169,ghent university,Belgium,Europe & Central Asia,High income: OECD,107.0,115.0,-8.0,8.0,Declined
+U0125,university of southern california,United States,North America,High income: OECD,65.0,74.0,-9.0,9.0,Declined
+U1521,London School of Economics and Political Science,United Kingdom,Europe & Central Asia,High income: OECD,37.0,46.0,-9.0,9.0,Declined
+U1559,University of Virginia (Main campus),United States,North America,High income: OECD,156.0,166.0,-10.0,10.0,Declined
+U0037,monash university,Australia,East Asia & Pacific,High income: OECD,44.0,54.0,-10.0,10.0,Declined
+U0218,"university of maryland, college park",United States,North America,High income: OECD,104.0,114.0,-10.0,10.0,Declined
+U1540,Free University of Berlin,Germany,Europe & Central Asia,High income: OECD,91.0,102.0,-11.0,11.0,Declined
+U1527,Washington University in St Louis,United States,North America,High income: OECD,57.0,68.0,-11.0,11.0,Declined
+U0120,queen mary university of london,United Kingdom,Europe & Central Asia,High income: OECD,124.0,135.0,-11.0,11.0,Declined
+U0117,university of helsinki,Finland,Europe & Central Asia,High income: OECD,110.0,121.0,-11.0,11.0,Declined
+U1532,UNSW Sydney,Australia,East Asia & Pacific,High income: OECD,71.0,84.0,-13.0,13.0,Declined
+U0287,university of cologne,Germany,Europe & Central Asia,High income: OECD,146.0,160.0,-14.0,14.0,Declined
+U1546,University of Freiburg,Germany,Europe & Central Asia,High income: OECD,113.0,128.0,-15.0,15.0,Declined
+U0088,university of technology sydney,Australia,East Asia & Pacific,High income: OECD,133.0,148.0,-15.0,15.0,Declined
+U0041,the university of queensland,Australia,East Asia & Pacific,High income: OECD,53.0,70.0,-17.0,17.0,Declined
+U1537,Charité - Universitätsmedizin Berlin,Germany,Europe & Central Asia,High income: OECD,73.0,94.0,-21.0,21.0,Declined
+U1564,Arizona State University (Tempe),United States,North America,High income: OECD,156.0,182.0,-26.0,26.0,Declined
+U1570,Indiana University,United States,North America,High income: OECD,170.0,198.0,-28.0,28.0,Declined
