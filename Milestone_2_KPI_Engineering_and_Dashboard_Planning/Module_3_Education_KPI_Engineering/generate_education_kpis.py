@@ -1,30 +1,4 @@
-"""
-generate_education_kpis.py
-============================================================================
-MILESTONE 2 / MODULE 3 — Education KPI Engineering
 
-Computes all 6 required KPIs directly from the real, integrated EduVision_DV
-dataset (dim_university + fact_times/fact_cwur/fact_shanghai/fact_qs2023 +
-fact_ranking_core, produced by data_integration.py). No KPI is estimated
-from a field that doesn't exist in the source data — where a source doesn't
-publish the needed field, the KPI is left NULL for that row and the gap is
-reported, never silently filled in.
-
-KPIs computed (formulas match docs/KPI_METHODOLOGY.md):
-  1. Global Ranking Score          - cross-source composite, 0-100
-  2. Research Impact Score         - citation-impact composite, 0-100
-  3. Faculty-to-Student Ratio      - students per faculty member, "1 : X"
-  4. International Student %       - % of student body that is international
-  5. Academic Reputation Score     - THE Teaching pillar (documented proxy)
-  6. Research Productivity Index   - publication-output composite, 0-100
-
-Input:  data/processed/{dim_university, fact_times, fact_cwur,
-        fact_shanghai, fact_qs2023, fact_ranking_core}.csv
-Output: data/processed/university_final_dataset.xlsx  (Tableau-ready)
-
-Run: python3 generate_education_kpis.py   (after data_integration.py)
-============================================================================
-"""
 import os
 import numpy as np
 import pandas as pd
@@ -34,11 +8,7 @@ OUT_XLSX = os.path.join(IN_DIR, "university_final_dataset.xlsx")
 OUT_CSV = os.path.join(IN_DIR, "university_final_dataset.csv")
 
 
-# ---------------------------------------------------------------------------
-# Real-world country -> region classification (UN geoscheme, continent-level)
-# Applied as a labeled dimension for BI filtering/grouping — a standard
-# geographic classification, not derived or estimated data.
-# ---------------------------------------------------------------------------
+
 REGION_MAP = {
     "United States": "North America", "Canada": "North America", "Mexico": "North America",
     "Puerto Rico": "North America",
@@ -197,26 +167,18 @@ def build_final_dataset():
     ars = kpi_academic_reputation_score(times)
     rpi = kpi_research_productivity_index(cwur, shanghai)
 
-    # WHY start from grs (global ranking score): it's the broadest coverage
-    # table (every source contributes to it), so it's the natural backbone
-    # for a left-join chain — a university/year with NO ranking coverage at
-    # all shouldn't appear in the final KPI table.
+
     final = grs.merge(ris, on=["university_id", "year"], how="left")
     final = final.merge(fsr, on=["university_id", "year"], how="left")
     final = final.merge(isp, on=["university_id", "year"], how="left")
     final = final.merge(ars, on=["university_id", "year"], how="left")
     final = final.merge(rpi, on=["university_id", "year"], how="left")
 
-    # Attach dimension columns (university name, country, region) for
-    # filtering/labeling in Tableau — every row needs these to be usable.
+
     final = final.merge(dim, on="university_id", how="left")
     final["region"] = final["country"].map(REGION_MAP)
 
-    # ---- Tableau-friendly column order & naming --------------------------
-    # WHY this order: dimensions first (what you filter/group by), then
-    # measures (what you aggregate/chart) — matches how Tableau's own
-    # Data pane separates Dimensions from Measures, making the field list
-    # predictable for anyone opening this workbook fresh.
+
     final = final[[
         "university_id", "university_name", "country", "region", "year",
         "num_sources", "sources_covered",
@@ -226,9 +188,7 @@ def build_final_dataset():
         "research_productivity_index",
     ]].sort_values(["university_name", "year"]).reset_index(drop=True)
 
-    # WHY int, not float, for year: Tableau treats a float-typed year as a
-    # continuous MEASURE by default (implying you could average '2015.0'),
-    # when it should be a discrete DIMENSION you filter/pivot by.
+
     final["year"] = final["year"].astype(int)
 
     return final
@@ -255,10 +215,7 @@ if __name__ == "__main__":
     final.to_csv(OUT_CSV, index=False)
     with pd.ExcelWriter(OUT_XLSX, engine="openpyxl") as writer:
         final.to_excel(writer, sheet_name="university_final_dataset", index=False)
-        # WHY a second sheet: Tableau connects to the DATA sheet only, but a
-        # human opening this file in Excel benefits from the formulas being
-        # documented right next to the numbers, without polluting row 1 of
-        # the data sheet with anything that isn't a clean column header.
+
         pd.DataFrame({
             "KPI": [
                 "Global Ranking Score", "Research Impact Score", "Faculty-to-Student Ratio",
