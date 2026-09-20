@@ -54,7 +54,7 @@ Historically, higher education stakeholders have had to analyze fragmented datas
 
 ---
 
-## Repository Structure (Strictly 5 Modules)
+## Repository Structure (5 Modules)
 
 In accordance with project submission requirements, the repository is structured into exactly five functional module folders:
 
