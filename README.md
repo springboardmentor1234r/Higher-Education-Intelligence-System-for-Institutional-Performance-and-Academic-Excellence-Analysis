@@ -2,7 +2,7 @@
 
 **Author:** Sujay S  
 **Internship Track:** Infosys Springboard Internship 7.0  
-**Domain:** Higher Education Analytics & Business Intelligence  
+**Domain:** Data Visualization - Higher Education Analytics & Business Intelligence  
 **Core Technologies:** Python 3.11, Pandas, NumPy, Tableau Desktop 2026, OpenPyXL, ReportLab, python-pptx  
 **Date:** September 2026  
 
