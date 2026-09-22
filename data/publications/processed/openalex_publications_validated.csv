@@ -1,0 +1,61 @@
+university_id,university_name,country_name,openalex_id,openalex_display_name,openalex_country_code,openalex_country,openalex_ror,openalex_works_count,openalex_works_2023,openalex_works_2024,openalex_works_2025
+U0002,imperial college london,United Kingdom,https://openalex.org/I47508984,Imperial College London,GB,United Kingdom,https://ror.org/041kmwe10,393820.0,23056.0,23758.0,22698.0
+U0003,university of oxford,United Kingdom,https://openalex.org/I40120149,University of Oxford,GB,United Kingdom,https://ror.org/052gg0110,601867.0,45273.0,32787.0,34812.0
+U0004,harvard university,United States,https://openalex.org/I136199984,Harvard University,US,United States,https://ror.org/03vek6s52,713785.0,35925.0,33782.0,33883.0
+U0005,university of cambridge,United Kingdom,https://openalex.org/I241749,University of Cambridge,GB,United Kingdom,https://ror.org/013meh722,469139.0,22302.0,23073.0,23931.0
+U0006,stanford university,United States,https://openalex.org/I97018004,Stanford University,US,United States,https://ror.org/00f54p054,538422.0,25371.0,26081.0,26686.0
+U0009,ucl,United Kingdom,https://openalex.org/I45129253,University College London,GB,United Kingdom,https://ror.org/02jx3x895,598475.0,34143.0,37008.0,35477.0
+U0010,california institute of technology (caltech),United States,https://openalex.org/I122411786,California Institute of Technology,US,United States,https://ror.org/05dxps055,248293.0,6539.0,6951.0,6075.0
+U0011,university of pennsylvania,United States,https://openalex.org/I79576946,University of Pennsylvania,US,United States,https://ror.org/00b30xv10,388838.0,17150.0,17178.0,17172.0
+U0013,the university of melbourne,Australia,https://openalex.org/I165779595,The University of Melbourne,AU,Australia,https://ror.org/01ej9dk98,349437.0,21837.0,22572.0,21992.0
+U0014,peking university,China (Mainland),https://openalex.org/I20231570,Peking University,CN,China,https://ror.org/02v51f717,400530.0,35166.0,33132.0,34255.0
+U0016,cornell university,United States,https://openalex.org/I205783295,Cornell University,US,United States,https://ror.org/05bnh6r87,482412.0,21240.0,23448.0,22809.0
+U0018,the university of sydney,Australia,https://openalex.org/I129604602,The University of Sydney,AU,Australia,https://ror.org/0384j8v12,339262.0,19206.0,19302.0,18647.0
+U0020,tsinghua university,China (Mainland),https://openalex.org/I99065089,Tsinghua University,CN,China,https://ror.org/03cve4549,385984.0,26836.0,29771.0,32421.0
+U0021,university of chicago,United States,https://openalex.org/I40347166,University of Chicago,US,United States,https://ror.org/024mw5h28,317399.0,14703.0,15500.0,16419.0
+U0022,princeton university,United States,https://openalex.org/I20089843,Princeton University,US,United States,https://ror.org/00hx57361,218226.0,9012.0,8832.0,9048.0
+U0023,yale university,United States,https://openalex.org/I32971472,Yale University,US,United States,https://ror.org/03v76x132,421451.0,18783.0,27874.0,31608.0
+U0025,university of toronto,Canada,https://openalex.org/I185261750,University of Toronto,CA,Canada,https://ror.org/03dbr7087,563786.0,30277.0,30588.0,28447.0
+U0026,epfl,Switzerland,https://openalex.org/I5124864,École Polytechnique Fédérale de Lausanne,CH,Switzerland,https://ror.org/02s376052,176290.0,9357.0,9571.0,9690.0
+U0028,technical university of munich,Germany,https://openalex.org/I62916508,Technical University of Munich,DE,Germany,https://ror.org/02kkvpp62,233350.0,14521.0,15374.0,14995.0
+U0029,mcgill university,Canada,https://openalex.org/I5023651,McGill University,CA,Canada,https://ror.org/01pxwe438,297266.0,14866.0,15083.0,14346.0
+U0031,seoul national university,South Korea,https://openalex.org/I139264467,Seoul National University,KR,South Korea,https://ror.org/04h9pn542,249707.0,13751.0,17794.0,13842.0
+U0032,johns hopkins university,United States,https://openalex.org/I145311948,Johns Hopkins University,US,United States,https://ror.org/00za53h95,504352.0,24621.0,26157.0,25502.0
+U0033,the university of tokyo,Japan,https://openalex.org/I74801974,The University of Tokyo,JP,Japan,https://ror.org/057zh3y96,514424.0,20442.0,19234.0,19236.0
+U0034,columbia university,United States,https://openalex.org/I78577930,Columbia University,US,United States,https://ror.org/00hj8s172,393779.0,16689.0,17016.0,17878.0
+U0037,monash university,Australia,https://openalex.org/I56590836,Monash University,AU,Australia,https://ror.org/02bfwt286,288412.0,20407.0,19067.0,19116.0
+U0038,university of british columbia,Canada,https://openalex.org/I141945490,University of British Columbia,CA,Canada,https://ror.org/03rmrcq20,383643.0,19145.0,19433.0,18258.0
+U0039,fudan university,China (Mainland),https://openalex.org/I24943067,Fudan University,CN,China,https://ror.org/013q1eq08,247095.0,21831.0,22615.0,22314.0
+U0040,king's college london,United Kingdom,https://openalex.org/I183935753,King's College London,GB,United Kingdom,https://ror.org/0220mzb33,259003.0,16463.0,17089.0,16189.0
+U0041,the university of queensland,Australia,https://openalex.org/I165143802,The University of Queensland,AU,Australia,https://ror.org/00rqy9422,282584.0,16435.0,16371.0,15270.0
+U0044,university of michigan-ann arbor,United States,https://openalex.org/I27837315,University of Michigan,US,United States,https://ror.org/00jmfr291,993812.0,23660.0,24653.0,24451.0
+U0045,shanghai jiao tong university,China (Mainland),https://openalex.org/I183067930,Shanghai Jiao Tong University,CN,China,https://ror.org/0220qvk04,374382.0,32936.0,34387.0,34426.0
+U0046,institut polytechnique de paris,France,https://openalex.org/I4210145102,Institut Polytechnique de Paris,FR,France,https://ror.org/042tfbd02,9765.0,735.0,759.0,822.0
+U0048,zhejiang university,China (Mainland),https://openalex.org/I76130692,Zhejiang University,CN,China,https://ror.org/00a2xv884,377379.0,32414.0,34829.0,34455.0
+U0049,delft university of technology,Netherlands,https://openalex.org/I98358874,Delft University of Technology,NL,The Netherlands,https://ror.org/02e2c7k09,179392.0,10559.0,10792.0,10659.0
+U0050,kyoto university,Japan,https://openalex.org/I22299242,Kyoto University,JP,Japan,https://ror.org/02kpeqv85,364803.0,12669.0,12136.0,13001.0
+U0051,northwestern university,United States,https://openalex.org/I111979921,Northwestern University,US,United States,https://ror.org/000e0be47,267693.0,11717.0,11493.0,11478.0
+U0054,university of bristol,United Kingdom,https://openalex.org/I36234482,University of Bristol,GB,United Kingdom,https://ror.org/0524sp257,217227.0,11065.0,11571.0,11042.0
+U0055,university of amsterdam,Netherlands,https://openalex.org/I887064364,University of Amsterdam,NL,The Netherlands,https://ror.org/04dkp9463,241593.0,13231.0,13160.0,12821.0
+U0056,yonsei university,South Korea,https://openalex.org/I193775966,Yonsei University,KR,South Korea,https://ror.org/01wjejq96,183969.0,11761.0,11897.0,11860.0
+U0058,carnegie mellon university,United States,https://openalex.org/I74973139,Carnegie Mellon University,US,United States,https://ror.org/05x2bcf33,167951.0,7190.0,7762.0,9002.0
+U0059,ludwig-maximilians-universität münchen,Germany,https://openalex.org/I8204097,Ludwig-Maximilians-Universität München,DE,Germany,https://ror.org/05591te55,282404.0,16805.0,16928.0,19934.0
+U0061,duke university,United States,https://openalex.org/I170897317,Duke University,US,United States,https://ror.org/00py81415,277781.0,14554.0,15253.0,14359.0
+U0062,city university of hong kong,Hong Kong SAR,https://openalex.org/I168719708,City University of Hong Kong,HK,Hong Kong,https://ror.org/03q8dnn23,119831.0,8332.0,9200.0,10653.0
+U0063,ku leuven,Belgium,https://openalex.org/I99464096,KU Leuven,BE,Belgium,https://ror.org/05f950310,303580.0,16961.0,17641.0,16692.0
+U0064,sorbonne university,France,https://openalex.org/I39804081,Sorbonne Université,FR,France,https://ror.org/02en5vm52,411597.0,24116.0,23956.0,26142.0
+U0066,university of texas at austin,United States,https://openalex.org/I86519309,The University of Texas at Austin,US,United States,https://ror.org/00hj54h04,361537.0,12063.0,83061.0,15487.0
+U0067,korea university,South Korea,https://openalex.org/I197347611,Korea University,KR,South Korea,https://ror.org/047dqcg40,120807.0,7074.0,7731.0,8685.0
+U0073,université paris-saclay,France,https://openalex.org/I277688954,Université Paris-Saclay,FR,France,https://ror.org/03xjwb503,183273.0,19239.0,19937.0,21358.0
+U0074,kth royal institute of technology,Sweden,https://openalex.org/I86987016,KTH Royal Institute of Technology,SE,Sweden,https://ror.org/026vcq606,119385.0,6499.0,6589.0,6370.0
+U0075,lund university,Sweden,https://openalex.org/I187531555,Lund University,SE,Sweden,https://ror.org/012a77v79,240721.0,12199.0,13121.0,12506.0
+U0076,university of washington,United States,https://openalex.org/I201448701,University of Washington,US,United States,https://ror.org/00cvxb145,531695.0,24220.0,23669.0,22419.0
+U0077,the university of western australia,Australia,https://openalex.org/I177877127,The University of Western Australia,AU,Australia,https://ror.org/047272k79,159688.0,9317.0,8824.0,8515.0
+U0078,university of glasgow,United Kingdom,https://openalex.org/I7882870,University of Glasgow,GB,United Kingdom,https://ror.org/00vtgdb53,196747.0,10781.0,11253.0,10723.0
+U0079,brown university,United States,https://openalex.org/I27804330,Brown University,US,United States,https://ror.org/05gq02987,180549.0,8671.0,12866.0,9485.0
+U0080,university of birmingham,United Kingdom,https://openalex.org/I79619799,University of Birmingham,GB,United Kingdom,https://ror.org/03angcq70,219181.0,10792.0,11809.0,11556.0
+U0081,university of southampton,United Kingdom,https://openalex.org/I43439940,University of Southampton,GB,United Kingdom,https://ror.org/01ryk1543,187717.0,8778.0,9362.0,9181.0
+U0082,the university of adelaide,Australia,https://openalex.org/I5681781,The University of Adelaide,AU,Australia,https://ror.org/00892tw58,153892.0,8422.0,8948.0,8924.0
+U0083,university of leeds,United Kingdom,https://openalex.org/I130828816,University of Leeds,GB,United Kingdom,https://ror.org/024mrxd33,198718.0,10168.0,10423.0,10494.0
+U0085,tokyo institute of technology (tokyo tech),Japan,https://openalex.org/I114531698,Tokyo Institute of Technology,JP,Japan,https://ror.org/0112mx960,168189.0,6448.0,4961.0,3516.0
+U0088,university of technology sydney,Australia,https://openalex.org/I114017466,University of Technology Sydney,AU,Australia,https://ror.org/03f0f6041,101292.0,7034.0,6974.0,7033.0

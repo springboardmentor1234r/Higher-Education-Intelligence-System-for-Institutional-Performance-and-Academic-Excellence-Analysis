@@ -1,0 +1,181 @@
+university_id,university_name,country_name,year,publication_count
+U0002,imperial college london,United Kingdom,2023,23056.0
+U0002,imperial college london,United Kingdom,2024,23758.0
+U0002,imperial college london,United Kingdom,2025,22698.0
+U0003,university of oxford,United Kingdom,2023,45273.0
+U0003,university of oxford,United Kingdom,2024,32787.0
+U0003,university of oxford,United Kingdom,2025,34812.0
+U0004,harvard university,United States,2023,35925.0
+U0004,harvard university,United States,2024,33782.0
+U0004,harvard university,United States,2025,33883.0
+U0005,university of cambridge,United Kingdom,2023,22302.0
+U0005,university of cambridge,United Kingdom,2024,23073.0
+U0005,university of cambridge,United Kingdom,2025,23931.0
+U0006,stanford university,United States,2023,25371.0
+U0006,stanford university,United States,2024,26081.0
+U0006,stanford university,United States,2025,26686.0
+U0009,ucl,United Kingdom,2023,34143.0
+U0009,ucl,United Kingdom,2024,37008.0
+U0009,ucl,United Kingdom,2025,35477.0
+U0010,california institute of technology (caltech),United States,2023,6539.0
+U0010,california institute of technology (caltech),United States,2024,6951.0
+U0010,california institute of technology (caltech),United States,2025,6075.0
+U0011,university of pennsylvania,United States,2023,17150.0
+U0011,university of pennsylvania,United States,2024,17178.0
+U0011,university of pennsylvania,United States,2025,17172.0
+U0013,the university of melbourne,Australia,2023,21837.0
+U0013,the university of melbourne,Australia,2024,22572.0
+U0013,the university of melbourne,Australia,2025,21992.0
+U0014,peking university,China (Mainland),2023,35166.0
+U0014,peking university,China (Mainland),2024,33132.0
+U0014,peking university,China (Mainland),2025,34255.0
+U0016,cornell university,United States,2023,21240.0
+U0016,cornell university,United States,2024,23448.0
+U0016,cornell university,United States,2025,22809.0
+U0018,the university of sydney,Australia,2023,19206.0
+U0018,the university of sydney,Australia,2024,19302.0
+U0018,the university of sydney,Australia,2025,18647.0
+U0020,tsinghua university,China (Mainland),2023,26836.0
+U0020,tsinghua university,China (Mainland),2024,29771.0
+U0020,tsinghua university,China (Mainland),2025,32421.0
+U0021,university of chicago,United States,2023,14703.0
+U0021,university of chicago,United States,2024,15500.0
+U0021,university of chicago,United States,2025,16419.0
+U0022,princeton university,United States,2023,9012.0
+U0022,princeton university,United States,2024,8832.0
+U0022,princeton university,United States,2025,9048.0
+U0023,yale university,United States,2023,18783.0
+U0023,yale university,United States,2024,27874.0
+U0023,yale university,United States,2025,31608.0
+U0025,university of toronto,Canada,2023,30277.0
+U0025,university of toronto,Canada,2024,30588.0
+U0025,university of toronto,Canada,2025,28447.0
+U0026,epfl,Switzerland,2023,9357.0
+U0026,epfl,Switzerland,2024,9571.0
+U0026,epfl,Switzerland,2025,9690.0
+U0028,technical university of munich,Germany,2023,14521.0
+U0028,technical university of munich,Germany,2024,15374.0
+U0028,technical university of munich,Germany,2025,14995.0
+U0029,mcgill university,Canada,2023,14866.0
+U0029,mcgill university,Canada,2024,15083.0
+U0029,mcgill university,Canada,2025,14346.0
+U0031,seoul national university,South Korea,2023,13751.0
+U0031,seoul national university,South Korea,2024,17794.0
+U0031,seoul national university,South Korea,2025,13842.0
+U0032,johns hopkins university,United States,2023,24621.0
+U0032,johns hopkins university,United States,2024,26157.0
+U0032,johns hopkins university,United States,2025,25502.0
+U0033,the university of tokyo,Japan,2023,20442.0
+U0033,the university of tokyo,Japan,2024,19234.0
+U0033,the university of tokyo,Japan,2025,19236.0
+U0034,columbia university,United States,2023,16689.0
+U0034,columbia university,United States,2024,17016.0
+U0034,columbia university,United States,2025,17878.0
+U0037,monash university,Australia,2023,20407.0
+U0037,monash university,Australia,2024,19067.0
+U0037,monash university,Australia,2025,19116.0
+U0038,university of british columbia,Canada,2023,19145.0
+U0038,university of british columbia,Canada,2024,19433.0
+U0038,university of british columbia,Canada,2025,18258.0
+U0039,fudan university,China (Mainland),2023,21831.0
+U0039,fudan university,China (Mainland),2024,22615.0
+U0039,fudan university,China (Mainland),2025,22314.0
+U0040,king's college london,United Kingdom,2023,16463.0
+U0040,king's college london,United Kingdom,2024,17089.0
+U0040,king's college london,United Kingdom,2025,16189.0
+U0041,the university of queensland,Australia,2023,16435.0
+U0041,the university of queensland,Australia,2024,16371.0
+U0041,the university of queensland,Australia,2025,15270.0
+U0044,university of michigan-ann arbor,United States,2023,23660.0
+U0044,university of michigan-ann arbor,United States,2024,24653.0
+U0044,university of michigan-ann arbor,United States,2025,24451.0
+U0045,shanghai jiao tong university,China (Mainland),2023,32936.0
+U0045,shanghai jiao tong university,China (Mainland),2024,34387.0
+U0045,shanghai jiao tong university,China (Mainland),2025,34426.0
+U0046,institut polytechnique de paris,France,2023,735.0
+U0046,institut polytechnique de paris,France,2024,759.0
+U0046,institut polytechnique de paris,France,2025,822.0
+U0048,zhejiang university,China (Mainland),2023,32414.0
+U0048,zhejiang university,China (Mainland),2024,34829.0
+U0048,zhejiang university,China (Mainland),2025,34455.0
+U0049,delft university of technology,Netherlands,2023,10559.0
+U0049,delft university of technology,Netherlands,2024,10792.0
+U0049,delft university of technology,Netherlands,2025,10659.0
+U0050,kyoto university,Japan,2023,12669.0
+U0050,kyoto university,Japan,2024,12136.0
+U0050,kyoto university,Japan,2025,13001.0
+U0051,northwestern university,United States,2023,11717.0
+U0051,northwestern university,United States,2024,11493.0
+U0051,northwestern university,United States,2025,11478.0
+U0054,university of bristol,United Kingdom,2023,11065.0
+U0054,university of bristol,United Kingdom,2024,11571.0
+U0054,university of bristol,United Kingdom,2025,11042.0
+U0055,university of amsterdam,Netherlands,2023,13231.0
+U0055,university of amsterdam,Netherlands,2024,13160.0
+U0055,university of amsterdam,Netherlands,2025,12821.0
+U0056,yonsei university,South Korea,2023,11761.0
+U0056,yonsei university,South Korea,2024,11897.0
+U0056,yonsei university,South Korea,2025,11860.0
+U0058,carnegie mellon university,United States,2023,7190.0
+U0058,carnegie mellon university,United States,2024,7762.0
+U0058,carnegie mellon university,United States,2025,9002.0
+U0059,ludwig-maximilians-universität münchen,Germany,2023,16805.0
+U0059,ludwig-maximilians-universität münchen,Germany,2024,16928.0
+U0059,ludwig-maximilians-universität münchen,Germany,2025,19934.0
+U0061,duke university,United States,2023,14554.0
+U0061,duke university,United States,2024,15253.0
+U0061,duke university,United States,2025,14359.0
+U0062,city university of hong kong,Hong Kong SAR,2023,8332.0
+U0062,city university of hong kong,Hong Kong SAR,2024,9200.0
+U0062,city university of hong kong,Hong Kong SAR,2025,10653.0
+U0063,ku leuven,Belgium,2023,16961.0
+U0063,ku leuven,Belgium,2024,17641.0
+U0063,ku leuven,Belgium,2025,16692.0
+U0064,sorbonne university,France,2023,24116.0
+U0064,sorbonne university,France,2024,23956.0
+U0064,sorbonne university,France,2025,26142.0
+U0066,university of texas at austin,United States,2023,12063.0
+U0066,university of texas at austin,United States,2024,83061.0
+U0066,university of texas at austin,United States,2025,15487.0
+U0067,korea university,South Korea,2023,7074.0
+U0067,korea university,South Korea,2024,7731.0
+U0067,korea university,South Korea,2025,8685.0
+U0073,université paris-saclay,France,2023,19239.0
+U0073,université paris-saclay,France,2024,19937.0
+U0073,université paris-saclay,France,2025,21358.0
+U0074,kth royal institute of technology,Sweden,2023,6499.0
+U0074,kth royal institute of technology,Sweden,2024,6589.0
+U0074,kth royal institute of technology,Sweden,2025,6370.0
+U0075,lund university,Sweden,2023,12199.0
+U0075,lund university,Sweden,2024,13121.0
+U0075,lund university,Sweden,2025,12506.0
+U0076,university of washington,United States,2023,24220.0
+U0076,university of washington,United States,2024,23669.0
+U0076,university of washington,United States,2025,22419.0
+U0077,the university of western australia,Australia,2023,9317.0
+U0077,the university of western australia,Australia,2024,8824.0
+U0077,the university of western australia,Australia,2025,8515.0
+U0078,university of glasgow,United Kingdom,2023,10781.0
+U0078,university of glasgow,United Kingdom,2024,11253.0
+U0078,university of glasgow,United Kingdom,2025,10723.0
+U0079,brown university,United States,2023,8671.0
+U0079,brown university,United States,2024,12866.0
+U0079,brown university,United States,2025,9485.0
+U0080,university of birmingham,United Kingdom,2023,10792.0
+U0080,university of birmingham,United Kingdom,2024,11809.0
+U0080,university of birmingham,United Kingdom,2025,11556.0
+U0081,university of southampton,United Kingdom,2023,8778.0
+U0081,university of southampton,United Kingdom,2024,9362.0
+U0081,university of southampton,United Kingdom,2025,9181.0
+U0082,the university of adelaide,Australia,2023,8422.0
+U0082,the university of adelaide,Australia,2024,8948.0
+U0082,the university of adelaide,Australia,2025,8924.0
+U0083,university of leeds,United Kingdom,2023,10168.0
+U0083,university of leeds,United Kingdom,2024,10423.0
+U0083,university of leeds,United Kingdom,2025,10494.0
+U0085,tokyo institute of technology (tokyo tech),Japan,2023,6448.0
+U0085,tokyo institute of technology (tokyo tech),Japan,2024,4961.0
+U0085,tokyo institute of technology (tokyo tech),Japan,2025,3516.0
+U0088,university of technology sydney,Australia,2023,7034.0
+U0088,university of technology sydney,Australia,2024,6974.0
+U0088,university of technology sydney,Australia,2025,7033.0
