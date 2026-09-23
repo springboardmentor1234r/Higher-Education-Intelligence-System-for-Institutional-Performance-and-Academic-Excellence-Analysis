@@ -1,0 +1,71 @@
+QS_Name,QS_Standard,Country,THE_Name,THE_Standard,Similarity,Country_Match,Match_Category
+King Mongkut\'s Institute of Technology Ladkrabang,king mongkut s institute of technology ladkrabang,Thailand,King Mongkut�s Institute of Technology Ladkrabang,king mongkuts institute of technology ladkrabang,0.99,True,VERY_HIGH
+King Mongkut's University of Technology Thonburi ,king mongkut s university of technology thonburi,Thailand,King Mongkut�s University of Technology Thonburi,king mongkuts university of technology thonburi,0.989,True,VERY_HIGH
+Pontificia Universidad Católica del Ecuador (PUCE),pontificia universidad catolica del ecuador,Ecuador,Pontificia Universidad Cat�lica del Ecuador,pontificia universidad catlica del ecuador,0.988,True,VERY_HIGH
+Universidad Autónoma del Estado de México (UAEMex),universidad autonoma del estado de mexico,Mexico,Universidad Aut�noma del Estado de Mexico (UAEMex),universidad autnoma del estado de mexico,0.988,True,VERY_HIGH
+Universidad Autónoma del Estado de Hidalgo (UAEH),universidad autonoma del estado de hidalgo,Mexico,Universidad Aut�noma del Estado de Hidalgo,universidad autnoma del estado de hidalgo,0.988,True,VERY_HIGH
+Universidad Autónoma del Estado de Morelos (UAEM),universidad autonoma del estado de morelos,Mexico,Universidad Aut�noma del Estado de Morelos,universidad autnoma del estado de morelos,0.988,True,VERY_HIGH
+Pontificia Universidad Católica de Chile (UC),pontificia universidad catolica de chile,Chile,Pontificia Universidad Cat�lica de Chile,pontificia universidad catlica de chile,0.987,True,VERY_HIGH
+Escuela Superior Politécnica del Litoral (ESPOL),escuela superior politecnica del litoral,Ecuador,Escuela Superior Polit�cnica del Litoral,escuela superior politcnica del litoral,0.987,True,VERY_HIGH
+Universidad Tecnica Particular De Loja (UTPL),universidad tecnica particular de loja,Ecuador,Universidad T�cnica Particular de Loja,universidad tcnica particular de loja,0.987,True,VERY_HIGH
+Xi'an Jiaotong Liverpool University,xi an jiaotong liverpool university,China,Xi�an Jiaotong-Liverpool University,xian jiaotong liverpool university,0.986,True,VERY_HIGH
+Università Cattolica del Sacro Cuore,universita cattolica del sacro cuore,Italy,Universit� Cattolica del Sacro Cuore,universit cattolica del sacro cuore,0.986,True,VERY_HIGH
+Universidade Federal de São Paulo,universidade federal de sao paulo,Brazil,Universidade Federal de S�o Paulo (UNIFESP),universidade federal de so paulo,0.985,True,VERY_HIGH
+UNIVERSIDAD POLITECNICA SALESIANA,universidad politecnica salesiana,Ecuador,Universidad Polit�cnica Salesiana,universidad politcnica salesiana,0.985,True,VERY_HIGH
+Université catholique de Louvain (UCLouvain),universite catholique de louvain,Belgium,Universit� Catholique de Louvain,universit catholique de louvain,0.984,True,VERY_HIGH
+Rutgers University–New Brunswick,rutgers universitynew brunswick,United States,Rutgers University � New Brunswick,rutgers university new brunswick,0.984,True,VERY_HIGH
+Instituto Politécnico Nacional (IPN),instituto politecnico nacional,Mexico,Instituto Polit�cnico Nacional (IPN),instituto politcnico nacional,0.983,True,VERY_HIGH
+Technical University of Kosice,technical university of kosice,Slovakia,Technical University of Ko�ice,technical university of koice,0.983,True,VERY_HIGH
+University of Hawai?i at Manoa,university of hawai i at manoa,United States,University of Hawai�i at Manoa,university of hawaii at manoa,0.983,True,VERY_HIGH
+Universite libre de Bruxelles,universite libre de bruxelles,Belgium,Universit� Libre de Bruxelles,universit libre de bruxelles,0.982,True,VERY_HIGH
+Universidade Federal do Ceará (UFC),universidade federal do ceara,Brazil,Universidade Federal do Cear� (UFC),universidade federal do cear,0.982,True,VERY_HIGH
+Universidad Autónoma de Chile,universidad autonoma de chile,Chile,Universidad Aut�noma de Chile,universidad autnoma de chile,0.982,True,VERY_HIGH
+Tomas Bata University in Zlin,tomas bata university in zlin,Czech Republic,Tomas Bata University in Zl�n,tomas bata university in zln,0.982,True,VERY_HIGH
+Escuela Politécnica Nacional,escuela politecnica nacional,Ecuador,Escuela Polit�cnica Nacional,escuela politcnica nacional,0.982,True,VERY_HIGH
+University of Milano-Bicocca ,university of milano bicocca,Italy,University of Milan-Bicocca,university of milan bicocca,0.982,True,VERY_HIGH
+Suleyman Demirel University,suleyman demirel university,Turkey,S�leyman Demirel University,sleyman demirel university,0.981,True,VERY_HIGH
+Palacký University Olomouc,palacky university olomouc,Czech Republic,Palack� University Olomouc,palack university olomouc,0.98,True,VERY_HIGH
+Ecole des Ponts ParisTech,ecole des ponts paristech,France,�cole des Ponts ParisTech,cole des ponts paristech,0.98,True,VERY_HIGH
+Université Grenoble Alpes,universite grenoble alpes,France,Universit� Grenoble Alpes,universit grenoble alpes,0.98,True,VERY_HIGH
+Queen's University Belfast,queen s university belfast,United Kingdom,Queen�s University Belfast,queens university belfast,0.98,True,VERY_HIGH
+Universidad Andrés Bello,universidad andres bello,Chile,Universidad Andr�s Bello (UNAB),universidad andrs bello,0.979,True,VERY_HIGH
+Riga Stradins University,riga stradins university,Latvia,Riga Stradin� University,riga stradin university,0.979,True,VERY_HIGH
+Université Paris-Saclay,universite paris saclay,France,Universit� Paris-Saclay,universit paris saclay,0.978,True,VERY_HIGH
+University of Göttingen,university of gottingen,Germany,University of G�ttingen,university of gttingen,0.978,True,VERY_HIGH
+Abo Akademi University,abo akademi university,Finland,�bo Akademi University,bo akademi university,0.977,True,VERY_HIGH
+Université de Poitiers,universite de poitiers,France,Universit� de Poitiers,universit de poitiers,0.977,True,VERY_HIGH
+King's College London,king s college london,United Kingdom,King�s College London,kings college london,0.976,True,VERY_HIGH
+Benemérita Universidad Autónoma de Puebla,benemerita universidad autonoma de puebla,Mexico,Benem�rita Universidad Aut�noma de Puebla,benemrita universidad autnoma de puebla,0.975,True,VERY_HIGH
+University of Žilina,university of zilina,Slovakia,University of �ilina,university of ilina,0.974,True,VERY_HIGH
+Linköping University,linkoping university,Sweden,Link�ping University,linkping university,0.974,True,VERY_HIGH
+Bogaziçi University,bogazici university,Turkey,Bogazi�i University,bogazii university,0.973,True,VERY_HIGH
+University of Pecs,university of pecs,Hungary,University of P�cs,university of pcs,0.971,True,VERY_HIGH
+University of Lodz,university of lodz,Poland,University of L�dz,university of ldz,0.971,True,VERY_HIGH
+Ataturk University,ataturk university,Turkey,Atat�rk University,atatrk university,0.971,True,VERY_HIGH
+Universidad Autónoma de Nuevo León,universidad autonoma de nuevo leon,Mexico,Universidad Aut�noma de Nuevo Le�n (UANL),universidad autnoma de nuevo len,0.97,True,VERY_HIGH
+Transilvania University of Brasov,transilvania university of brasov,Romania,Transilvania University of Bra?ov,transilvania university of bra ov,0.97,True,VERY_HIGH
+Universidad Autónoma de Querétaro (UAQ),universidad autonoma de queretaro,Mexico,Universidad Aut�noma de Quer�taro,universidad autnoma de quertaro,0.969,True,VERY_HIGH
+Université Laval,universite laval,Canada,Universit� Laval,universit laval,0.968,True,VERY_HIGH
+École Normale Supérieure de Lyon,ecole normale superieure de lyon,France,�cole Normale Sup�rieure de Lyon,cole normale suprieure de lyon,0.968,True,VERY_HIGH
+Óbuda University,obuda university,Hungary,�buda University,buda university,0.968,True,VERY_HIGH
+Universidad Autonoma de Yucatan,universidad autonoma de yucatan,Mexico,Universidad Aut�noma de Yucat�n,universidad autnoma de yucatn,0.967,True,VERY_HIGH
+Umea University,umea university,Sweden,Ume� University,ume university,0.966,True,VERY_HIGH
+Czech University of Life Sciences in Prague,czech university of life sciences in prague,Czech Republic,Czech University of Life Sciences Prague (CZU),czech university of life sciences prague,0.964,True,VERY_HIGH
+"University of North Carolina, Chapel Hill",university of north carolina chapel hill,United States,University of North Carolina at Chapel Hill,university of north carolina at chapel hill,0.964,True,VERY_HIGH
+Pontifícia Universidade Católica do Paraná,pontificia universidade catolica do parana,Brazil,Pontif�cia Universidade Cat�lica do Paran�,pontifcia universidade catlica do paran,0.963,True,VERY_HIGH
+University of Hradec Kralove,university of hradec kralove,Czech Republic,University of Hradec Kr�lov�,university of hradec krlov,0.963,True,VERY_HIGH
+Koç University,koc university,Turkey,Ko� University,ko university,0.963,True,VERY_HIGH
+Széchenyi István University,szechenyi istvan university,Hungary,Sz�chenyi Istv�n University,szchenyi istvn university,0.962,True,VERY_HIGH
+Pavol Jozef Šafárik University in Košice,pavol jozef safarik university in kosice,Slovakia,Pavol Jozef �af�rik University in Ko�ice,pavol jozef afrik university in koice,0.961,True,VERY_HIGH
+Northeastern University,northeastern university,United States,Northwestern University,northwestern university,0.957,True,VERY_HIGH
+University of Jyväskylä,university of jyvaskyla,Finland,University of Jyv�skyl�,university of jyvskyl,0.955,True,VERY_HIGH
+Thapar Institute of Engineering & Technology,thapar institute of engineering technology,India,Thapar Institute of Engineering and Technology,thapar institute of engineering and technology,0.955,True,VERY_HIGH
+King Fahd University of Petroleum & Minerals,king fahd university of petroleum minerals,Saudi Arabia,King Fahd University of Petroleum and Minerals,king fahd university of petroleum and minerals,0.955,True,VERY_HIGH
+Johannes Kepler University Linz,johannes kepler university linz,Austria,Johannes Kepler University of Linz,johannes kepler university of linz,0.954,True,VERY_HIGH
+Université de Montréal ,universite de montreal,Canada,Universit� de Montr�al,universit de montral,0.952,True,VERY_HIGH
+"University of Rome ""Tor Vergata""",university of rome tor vergata,Italy,University of Rome II � Tor Vergata,university of rome ii tor vergata,0.952,True,VERY_HIGH
+Comenius University Bratislava,comenius university bratislava,Slovakia,Comenius University in Bratislava,comenius university in bratislava,0.952,True,VERY_HIGH
+University of Illinois at Chicago (UIC),university of illinois at chicago,United States,University of Illinois Chicago,university of illinois chicago,0.952,True,VERY_HIGH
+Jordan University of Science & Technology,jordan university of science technology,Jordan,Jordan University of Science and Technology,jordan university of science and technology,0.951,True,VERY_HIGH
+Southwest University,southwest university,China,Southeast University,southeast university,0.95,True,VERY_HIGH
+Université Paris Cité,universite paris cite,France,Universit� Paris Cit�,universit paris cit,0.95,True,VERY_HIGH

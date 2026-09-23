@@ -1,0 +1,208 @@
+QS_Name,QS_Standard,Country,THE_Name,THE_Standard,Similarity,Country_Match,Match_Category
+Université du Québec,universite du quebec,Canada,Universit� du Qu�bec,universit du qubec,0.947,True,HIGH
+University of Texas El Paso ,university of texas el paso,United States,University of Texas at El Paso,university of texas at el paso,0.947,True,HIGH
+Universidad Industrial de Santander - UIS,universidad industrial de santander uis,Colombia,Universidad Industrial de Santander (UIS),universidad industrial de santander,0.946,True,HIGH
+University of Texas Dallas,university of texas dallas,United States,University of Texas at Dallas,university of texas at dallas,0.945,True,HIGH
+"KIT, Karlsruhe Institute of Technology",kit karlsruhe institute of technology,Germany,Karlsruhe Institute of Technology,karlsruhe institute of technology,0.943,True,HIGH
+Northeastern University,northeastern university,United States,"Northeastern University, US",northeastern university us,0.939,True,HIGH
+The National University of Science and Technology MISIS,national university of science and technology misis,Russia,National University of Science and Technology (MISiS),national university of science and technology,0.938,True,HIGH
+Ruhr-Universität Bochum,ruhr universitat bochum,Germany,Ruhr University Bochum,ruhr university bochum,0.933,True,HIGH
+Eötvös Loránd University,eotvos lorand university,Hungary,E�tv�s Lor�nd University,etvs lornd university,0.933,True,HIGH
+Universidade Federal de Santa Maria,universidade federal de santa maria,Brazil,Universidade Federal de Santa Catarina,universidade federal de santa catarina,0.932,True,HIGH
+Indian Institute of Technology Madras (IITM),indian institute of technology madras,India,Indian Institute of Technology Mandi,indian institute of technology mandi,0.932,True,HIGH
+Imam Mohammad Ibn Saud Islamic University – IMSIU,imam mohammad ibn saud islamic university imsiu,Saudi Arabia,Imam Mohammad Ibn Saud Islamic University,imam mohammad ibn saud islamic university,0.932,True,HIGH
+Universidade Federal do Ceará (UFC),universidade federal do ceara,Brazil,Universidade Federal do Paran� (UFPR),universidade federal do paran,0.931,True,HIGH
+University of New Brunswick,university of new brunswick,Canada,University of New Brunswick UNB,university of new brunswick unb,0.931,True,HIGH
+University of Witwatersrand,university of witwatersrand,South Africa,University of the Witwatersrand,university of the witwatersrand,0.931,True,HIGH
+USI - Università della Svizzera italiana,usi universita della svizzera italiana,Switzerland,Universit� della Svizzera italiana,universit della svizzera italiana,0.93,True,HIGH
+St. Louis University,st louis university,United States,Saint Louis University,saint louis university,0.927,True,HIGH
+Paris Lodron University of Salzburg,paris lodron university of salzburg,Austria,Paris Lodron Universit�t Salzburg,paris lodron universitt salzburg,0.925,True,HIGH
+Indian Institute of Technology Hyderabad,indian institute of technology hyderabad,India,Indian Institute of Technology (Indian School of Mines) Dhanbad,indian institute of technology dhanbad,0.923,True,HIGH
+Istanbul Bilgi Üniversitesi,istanbul bilgi universitesi,Turkey,Istanbul Bilgi University,istanbul bilgi university,0.923,True,HIGH
+The University of Northampton,university of northampton,United Kingdom,University of Southampton,university of southampton,0.92,True,HIGH
+Lanzhou University,lanzhou university,China,Yangzhou University,yangzhou university,0.919,True,HIGH
+Johannes Gutenberg Universität Mainz,johannes gutenberg universitat mainz,Germany,Johannes Gutenberg University of Mainz,johannes gutenberg university of mainz,0.919,True,HIGH
+Indian Institute of Technology Roorkee (IITR),indian institute of technology roorkee,India,Indian Institute of Technology Ropar,indian institute of technology ropar,0.919,True,HIGH
+Universidad Católica de La Santísima Concepción - UCSC,universidad catolica de la santisima concepcion ucsc,Chile,Universidad Cat�lica de la Sant�sima Concepci�n,universidad catlica de la santsima concepcin,0.917,True,HIGH
+Indian Institute of Technology Delhi (IITD),indian institute of technology delhi,India,Indian Institute of Technology Mandi,indian institute of technology mandi,0.917,True,HIGH
+Oregon State University,oregon state university,United States,Morgan State University,morgan state university,0.913,True,HIGH
+Universidade Federal de São Carlos (UFSCar),universidade federal de sao carlos,Brazil,Universidade Federal de S�o Paulo (UNIFESP),universidade federal de so paulo,0.909,True,HIGH
+Shanghai University of Finance and Economics,shanghai university of finance and economics,China,Zhejiang University of Finance and Economics,zhejiang university of finance and economics,0.909,True,HIGH
+University of Göttingen,university of gottingen,Germany,University of T�bingen,university of tbingen,0.909,True,HIGH
+Universiti Teknologi MARA - UiTM,universiti teknologi mara uitm,Malaysia,Universiti Teknologi MARA,universiti teknologi mara,0.909,True,HIGH
+Indian Institute of Technology (BHU) Varanasi,indian institute of technology varanasi,India,Indian Institute of Technology Patna,indian institute of technology patna,0.907,True,HIGH
+Indian Institute of Technology (BHU) Varanasi,indian institute of technology varanasi,India,Indian Institute of Technology Mandi,indian institute of technology mandi,0.907,True,HIGH
+Universidade Federal do Paraná - UFPR,universidade federal do parana ufpr,Brazil,Universidade Federal do Paran� (UFPR),universidade federal do paran,0.906,True,HIGH
+University of South Bohemia,university of south bohemia,Czech Republic,University of West Bohemia,university of west bohemia,0.906,True,HIGH
+Universidad Rey Juan Carlos,universidad rey juan carlos,Spain,University Rey Juan Carlos,university rey juan carlos,0.906,True,HIGH
+Universidade Federal do Rio Grande Do Norte,universidade federal do rio grande do norte,Brazil,Universidade Federal do Rio Grande do Sul,universidade federal do rio grande do sul,0.905,True,HIGH
+Universitas Brawijaya ,universitas brawijaya,Indonesia,Universitas Sriwijaya,universitas sriwijaya,0.905,True,HIGH
+AGH University of Science and Technology,agh university of science and technology,Poland,Wroclaw University of Science and Technology,wroclaw university of science and technology,0.905,True,HIGH
+Indian Institute of Technology Bombay (IITB),indian institute of technology bombay,India,Indian Institute of Technology Ropar,indian institute of technology ropar,0.904,True,HIGH
+Indian Institute of Technology Bombay (IITB),indian institute of technology bombay,India,Indian Institute of Technology Mandi,indian institute of technology mandi,0.904,True,HIGH
+Indian Institute of Technology Madras (IITM),indian institute of technology madras,India,Indian Institute of Technology Patna,indian institute of technology patna,0.904,True,HIGH
+Indian Institute of Technology Madras (IITM),indian institute of technology madras,India,Indian Institute of Technology Ropar,indian institute of technology ropar,0.904,True,HIGH
+Indian Institute of Technology Kanpur (IITK),indian institute of technology kanpur,India,Indian Institute of Technology Patna,indian institute of technology patna,0.904,True,HIGH
+Indian Institute of Technology Kanpur (IITK),indian institute of technology kanpur,India,Indian Institute of Technology Ropar,indian institute of technology ropar,0.904,True,HIGH
+Indian Institute of Technology Kanpur (IITK),indian institute of technology kanpur,India,Indian Institute of Technology Mandi,indian institute of technology mandi,0.904,True,HIGH
+Indian Institute of Technology Indore (IIT Indore),indian institute of technology indore,India,Indian Institute of Technology Ropar,indian institute of technology ropar,0.904,True,HIGH
+Indian Institute of Technology Indore (IIT Indore),indian institute of technology indore,India,Indian Institute of Technology Mandi,indian institute of technology mandi,0.904,True,HIGH
+Universidade Federal do Parà - UFPA,universidade federal do para ufpa,Brazil,Universidade Federal do Paran� (UFPR),universidade federal do paran,0.903,True,HIGH
+MGIMO University,mgimo university,Russia,ITMO University,itmo university,0.903,True,HIGH
+Chang Jung Christian University,chang jung christian university,Taiwan,Chung Yuan Christian University,chung yuan christian university,0.903,True,HIGH
+Universidad Autónoma del Estado de México (UAEMex),universidad autonoma del estado de mexico,Mexico,Universidad Aut�noma del Estado de Morelos,universidad autnoma del estado de morelos,0.902,True,HIGH
+National University of Sciences And Technology (NUST) Islamabad,national university of sciences and technology islamabad,Pakistan,National University of Sciences and Technology,national university of sciences and technology,0.902,True,HIGH
+Ural Federal University - UrFU,ural federal university urfu,Russia,Ural Federal University,ural federal university,0.902,True,HIGH
+Perm State National Research University,perm state national research university,Russia,Belgorod State National Research University,belgorod state national research university,0.902,True,HIGH
+KAIST - Korea Advanced Institute of Science & Technology,kaist korea advanced institute of science technology,South Korea,Korea Advanced Institute of Science and Technology (KAIST),korea advanced institute of science and technology,0.902,True,HIGH
+Universidade Federal do Ceará (UFC),universidade federal do ceara,Brazil,Universidade Federal do Maranh�o (UFMA),universidade federal do maranho,0.9,True,HIGH
+Universidade Federal da Paraíba,universidade federal da paraiba,Brazil,Universidade Federal do Paran� (UFPR),universidade federal do paran,0.9,True,HIGH
+Southwest University,southwest university,China,Northwest University,northwest university,0.9,True,HIGH
+"Siberian Federal University, SibFU",siberian federal university sibfu,Russia,Siberian Federal University,siberian federal university,0.9,True,HIGH
+Nanjing University of Science and Technology,nanjing university of science and technology,China,Huazhong University of Science and Technology,huazhong university of science and technology,0.899,True,HIGH
+Nanjing University of Science and Technology,nanjing university of science and technology,China,Changsha University of Science and Technology,changsha university of science and technology,0.899,True,HIGH
+The University of Northampton,university of northampton,United Kingdom,University of Roehampton,university of roehampton,0.898,True,HIGH
+Technical University of Lublin,technical university of lublin,Poland,Medical University of Lublin,medical university of lublin,0.897,True,HIGH
+Lanzhou University,lanzhou university,China,Guangzhou University,guangzhou university,0.895,True,HIGH
+Linköping University,linkoping university,Sweden,J�nk�ping University,jnkping university,0.895,True,HIGH
+Erciyes Üniversitesi,erciyes universitesi,Turkey,Erciyes University,erciyes university,0.895,True,HIGH
+Akdeniz Üniversitesi,akdeniz universitesi,Turkey,Akdeniz University,akdeniz university,0.895,True,HIGH
+University at Buffalo SUNY,university at buffalo suny,United States,University at Buffalo,university at buffalo,0.894,True,HIGH
+Universidade Federal do Ceará (UFC),universidade federal do ceara,Brazil,Universidade Federal do ABC (UFABC),universidade federal do abc,0.893,True,HIGH
+Universidad Austral de Chile,universidad austral de chile,Chile,Universidad Aut�noma de Chile,universidad autnoma de chile,0.893,True,HIGH
+Universiti Sains Islam Malaysia,universiti sains islam malaysia,Malaysia,Universiti Sains Malaysia,universiti sains malaysia,0.893,True,HIGH
+Université de Tunis El Manar,universite de tunis el manar,Tunisia,University of Tunis El Manar,university of tunis el manar,0.893,True,HIGH
+Indian Institute of Technology Delhi (IITD),indian institute of technology delhi,India,Indian Institute of Technology (Indian School of Mines) Dhanbad,indian institute of technology dhanbad,0.892,True,HIGH
+Lanzhou University,lanzhou university,China,Wenzhou University,wenzhou university,0.889,True,HIGH
+Ankara Üniversitesi,ankara universitesi,Turkey,Ankara University,ankara university,0.889,True,HIGH
+Dokuz Eylül Üniversitesi,dokuz eylul universitesi,Turkey,Dokuz Eyl�l University,dokuz eyll university,0.889,True,HIGH
+Wuhan University of Technology,wuhan university of technology,China,Dalian University of Technology,dalian university of technology,0.885,True,HIGH
+The University of Northampton,university of northampton,United Kingdom,University of Wolverhampton,university of wolverhampton,0.885,True,HIGH
+University of Massachusetts Boston,university of massachusetts boston,United States,University of Massachusetts,university of massachusetts,0.885,True,HIGH
+Utah State University ,utah state university,United States,Texas State University,texas state university,0.884,True,HIGH
+Indian Institute of Technology (BHU) Varanasi,indian institute of technology varanasi,India,Indian Institute of Technology (Indian School of Mines) Dhanbad,indian institute of technology dhanbad,0.883,True,HIGH
+Bogaziçi University,bogazici university,Turkey,Gazi University,gazi university,0.882,True,HIGH
+Humboldt-Universität zu Berlin,humboldt universitat zu berlin,Germany,Humboldt University of Berlin,humboldt university of berlin,0.881,True,HIGH
+"University of Colorado, Denver ",university of colorado denver,United States,University of Colorado Boulder,university of colorado boulder,0.881,True,HIGH
+Nanjing University of Science and Technology,nanjing university of science and technology,China,Nanjing University of Information Science and Technology,nanjing university of information science and technology,0.88,True,HIGH
+Indian Institute of Technology Bombay (IITB),indian institute of technology bombay,India,Indian Institute of Technology (Indian School of Mines) Dhanbad,indian institute of technology dhanbad,0.88,True,HIGH
+Indian Institute of Technology Delhi (IITD),indian institute of technology delhi,India,Indian Institute of Technology Guwahati,indian institute of technology guwahati,0.88,True,HIGH
+Indian Institute of Technology Madras (IITM),indian institute of technology madras,India,Indian Institute of Technology (Indian School of Mines) Dhanbad,indian institute of technology dhanbad,0.88,True,HIGH
+Indian Institute of Technology Kanpur (IITK),indian institute of technology kanpur,India,Indian Institute of Technology (Indian School of Mines) Dhanbad,indian institute of technology dhanbad,0.88,True,HIGH
+Indian Institute of Technology Indore (IIT Indore),indian institute of technology indore,India,Indian Institute of Technology (Indian School of Mines) Dhanbad,indian institute of technology dhanbad,0.88,True,HIGH
+Indian Institute of Technology (BHU) Varanasi,indian institute of technology varanasi,India,Indian Institute of Technology Ropar,indian institute of technology ropar,0.88,True,HIGH
+Indiana State University,indiana state university,United States,Louisiana State University,louisiana state university,0.88,True,HIGH
+National Research Tomsk Polytechnic University,national research tomsk polytechnic university,Russia,Perm National Research Polytechnic University,perm national research polytechnic university,0.879,True,HIGH
+Universidad Autónoma del Estado de México (UAEMex),universidad autonoma del estado de mexico,Mexico,Universidad Aut�noma del Estado de Hidalgo,universidad autnoma del estado de hidalgo,0.878,True,HIGH
+Universidad Autónoma del Estado de Hidalgo (UAEH),universidad autonoma del estado de hidalgo,Mexico,Universidad Aut�noma del Estado de Mexico (UAEMex),universidad autnoma del estado de mexico,0.878,True,HIGH
+Universidad Autónoma del Estado de Morelos (UAEM),universidad autonoma del estado de morelos,Mexico,Universidad Aut�noma del Estado de Mexico (UAEMex),universidad autnoma del estado de mexico,0.878,True,HIGH
+Indian Institute of Technology Bombay (IITB),indian institute of technology bombay,India,Indian Institute of Technology Patna,indian institute of technology patna,0.877,True,HIGH
+Indian Institute of Technology Indore (IIT Indore),indian institute of technology indore,India,Indian Institute of Technology Patna,indian institute of technology patna,0.877,True,HIGH
+University of Science and Technology Beijing,university of science and technology beijing,China,University of Science and Technology of China,university of science and technology of china,0.876,True,HIGH
+"The University of Newcastle, Australia (UON)",university of newcastle australia,Australia,The University of Western Australia,university of western australia,0.875,True,HIGH
+Universidade Estadual de Campinas (Unicamp),universidade estadual de campinas,Brazil,Universidade Estadual de Maring�,universidade estadual de maring,0.875,True,HIGH
+Universidade Estadual de Londrina,universidade estadual de londrina,Brazil,Universidade Estadual de Maring�,universidade estadual de maring,0.875,True,HIGH
+Jilin University,jilin university,China,Jinan University,jinan university,0.875,True,HIGH
+Wuhan University of Technology,wuhan university of technology,China,Guangdong University of Technology,guangdong university of technology,0.875,True,HIGH
+Koç University,koc university,Turkey,Kocaeli University,kocaeli university,0.875,True,HIGH
+Gazi Üniversitesi,gazi universitesi,Turkey,Gazi University,gazi university,0.875,True,HIGH
+Purdue University,purdue university,United States,Duke University,duke university,0.875,True,HIGH
+University of South Alabama (USA),university of south alabama,United States,The University of Alabama,university of alabama,0.875,True,HIGH
+Indiana State University,indiana state university,United States,Montana State University,montana state university,0.875,True,HIGH
+Indian Institute of Technology Delhi (IITD),indian institute of technology delhi,India,Indian Institute of Technology Gandhinagar,indian institute of technology gandhinagar,0.872,True,HIGH
+Indian Institute of Technology Kharagpur (IIT-KGP),indian institute of technology kharagpur,India,Indian Institute of Technology (Indian School of Mines) Dhanbad,indian institute of technology dhanbad,0.872,True,HIGH
+Indian Institute of Technology (BHU) Varanasi,indian institute of technology varanasi,India,Indian Institute of Technology Guwahati,indian institute of technology guwahati,0.872,True,HIGH
+Indian Institute of Technology Bhubaneswar,indian institute of technology bhubaneswar,India,Indian Institute of Technology Patna,indian institute of technology patna,0.872,True,HIGH
+University of Bari,university of bari,Italy,University of Sassari,university of sassari,0.872,True,HIGH
+Saint Petersburg Electrotechnical University ETU-LETI,saint petersburg electrotechnical university etu leti,Russia,St Petersburg Electrotechnical University (LETI),st petersburg electrotechnical university,0.872,True,HIGH
+University of Niš,university of nis,Serbia,University of Novi Sad,university of novi sad,0.872,True,HIGH
+Universidade Federal de São Carlos (UFSCar),universidade federal de sao carlos,Brazil,Universidade Federal do Cear� (UFC),universidade federal do cear,0.871,True,HIGH
+Goethe-University Frankfurt am Main,goethe university frankfurt am main,Germany,Goethe University Frankfurt,goethe university frankfurt,0.871,True,HIGH
+University of Massachusetts Amherst,university of massachusetts amherst,United States,University of Massachusetts,university of massachusetts,0.871,True,HIGH
+Nicolaus Copernicus University ,nicolaus copernicus university,Poland,Nicolaus Copernicus University in Torun,nicolaus copernicus university in torun,0.87,True,HIGH
+Université de Franche-Comté,universite de franche comte,France,University of Franche-Comt�,university of franche comt,0.868,True,HIGH
+Indian Institute of Technology Kharagpur (IIT-KGP),indian institute of technology kharagpur,India,Indian Institute of Technology Patna,indian institute of technology patna,0.868,True,HIGH
+Indian Institute of Technology Kharagpur (IIT-KGP),indian institute of technology kharagpur,India,Indian Institute of Technology Ropar,indian institute of technology ropar,0.868,True,HIGH
+Indian Institute of Technology Madras (IITM),indian institute of technology madras,India,Indian Institute of Technology Guwahati,indian institute of technology guwahati,0.868,True,HIGH
+Indian Institute of Technology Hyderabad,indian institute of technology hyderabad,India,Indian Institute of Technology Patna,indian institute of technology patna,0.868,True,HIGH
+Indian Institute of Technology Hyderabad,indian institute of technology hyderabad,India,Indian Institute of Technology Ropar,indian institute of technology ropar,0.868,True,HIGH
+Universidad Nacional del Sur,universidad nacional del sur,Argentina,Universidad Nacional del Litoral,universidad nacional del litoral,0.867,True,HIGH
+Universidade Federal da Paraíba,universidade federal da paraiba,Brazil,Universidade Federal da Bahia,universidade federal da bahia,0.867,True,HIGH
+Universidade Federal de Goiás,universidade federal de goias,Brazil,Universidade Federal de Sergipe,universidade federal de sergipe,0.867,True,HIGH
+Universidad Autónoma del Estado de Hidalgo (UAEH),universidad autonoma del estado de hidalgo,Mexico,Universidad Aut�noma del Estado de Morelos,universidad autnoma del estado de morelos,0.867,True,HIGH
+Shandong University,shandong university,China,Shantou University,shantou university,0.865,True,HIGH
+University of Bari,university of bari,Italy,University of Pavia,university of pavia,0.865,True,HIGH
+University of Bari,university of bari,Italy,University of Turin,university of turin,0.865,True,HIGH
+University of Bari,university of bari,Italy,University of Parma,university of parma,0.865,True,HIGH
+Universiti Malaya (UM),universiti malaya,Malaysia,University of Malaya,university of malaya,0.865,True,HIGH
+Universidade de Santiago de Compostela,universidade de santiago de compostela,Spain,University of Santiago de Compostela,university of santiago de compostela,0.865,True,HIGH
+Clemson University,clemson university,United States,Clarkson University,clarkson university,0.865,True,HIGH
+University of Idaho,university of idaho,United States,University of Utah,university of utah,0.865,True,HIGH
+University of Idaho,university of idaho,United States,University of Iowa,university of iowa,0.865,True,HIGH
+Universität Innsbruck,universitat innsbruck,Austria,University of Innsbruck,university of innsbruck,0.864,True,HIGH
+Universidad de La Salle,universidad de la salle,Colombia,Universidad del Valle,universidad del valle,0.864,True,HIGH
+Université de Rennes 1 (University of Rennes),universite de rennes 1,France,University of Rennes 1,university of rennes 1,0.864,True,HIGH
+Université de Lorraine,universite de lorraine,France,University of Lorraine,university of lorraine,0.864,True,HIGH
+Universität Stuttgart,universitat stuttgart,Germany,University of Stuttgart,university of stuttgart,0.864,True,HIGH
+Universitas Indonesia,universitas indonesia,Indonesia,University of Indonesia,university of indonesia,0.864,True,HIGH
+Universitas Brawijaya ,universitas brawijaya,Indonesia,University of Brawijaya,university of brawijaya,0.864,True,HIGH
+Université de Fribourg,universite de fribourg,Switzerland,University of Fribourg,university of fribourg,0.864,True,HIGH
+Oregon State University,oregon state university,United States,Ohio State University (Main campus),ohio state university,0.864,True,HIGH
+Kent State University,kent state university,United States,Kansas State University,kansas state university,0.864,True,HIGH
+Chittagong University of Engineering and Technology,chittagong university of engineering and technology,Bangladesh,Bangladesh University of Engineering and Technology,bangladesh university of engineering and technology,0.863,True,HIGH
+Beijing Jiaotong University,beijing jiaotong university,China,Xi�an Jiaotong University,xian jiaotong university,0.863,True,HIGH
+Universiti Malaysia Pahang,universiti malaysia pahang,Malaysia,Universiti Malaysia Sabah (UMS),universiti malaysia sabah,0.863,True,HIGH
+Northeastern University,northeastern university,United States,Nova Southeastern University,nova southeastern university,0.863,True,HIGH
+Universidade Federal do Ceará (UFC),universidade federal do ceara,Brazil,Universidade Federal da Bahia,universidade federal da bahia,0.862,True,HIGH
+Universidade Federal de Goiás,universidade federal de goias,Brazil,Universidade Federal da Bahia,universidade federal da bahia,0.862,True,HIGH
+Universidad de Castilla-La Mancha,universidad de castilla la mancha,Spain,University of Castilla-La Mancha,university of castilla la mancha,0.862,True,HIGH
+University of South Carolina,university of south carolina,United States,University of South Carolina-Columbia,university of south carolina columbia,0.862,True,HIGH
+Indian Institute of Technology Delhi (IITD),indian institute of technology delhi,India,Indian Institute of Technology Patna,indian institute of technology patna,0.861,True,HIGH
+Indian Institute of Technology Delhi (IITD),indian institute of technology delhi,India,Indian Institute of Technology Ropar,indian institute of technology ropar,0.861,True,HIGH
+Indian Institute of Technology Madras (IITM),indian institute of technology madras,India,Indian Institute of Technology Gandhinagar,indian institute of technology gandhinagar,0.861,True,HIGH
+Indian Institute of Technology Kanpur (IITK),indian institute of technology kanpur,India,Indian Institute of Technology Gandhinagar,indian institute of technology gandhinagar,0.861,True,HIGH
+Indian Institute of Technology Indore (IIT Indore),indian institute of technology indore,India,Indian Institute of Technology Gandhinagar,indian institute of technology gandhinagar,0.861,True,HIGH
+Khulna University of Engineering and Technology,khulna university of engineering and technology,Bangladesh,Bangladesh University of Engineering and Technology,bangladesh university of engineering and technology,0.857,True,HIGH
+Pontifícia Universidade Católica de São Paulo,pontificia universidade catolica de sao paulo,Brazil,Pontif�cia Universidade Cat�lica do Paran�,pontifcia universidade catlica do paran,0.857,True,HIGH
+Universidade Federal de Pelotas ,universidade federal de pelotas,Brazil,Universidade Federal de S�o Paulo (UNIFESP),universidade federal de so paulo,0.857,True,HIGH
+Universidade Federal de Goiás,universidade federal de goias,Brazil,Universidade Federal do ABC (UFABC),universidade federal do abc,0.857,True,HIGH
+Universidade Federal de Uberlândia,universidade federal de uberlandia,Brazil,Universidade Federal da Bahia,universidade federal da bahia,0.857,True,HIGH
+Nanjing University of Science and Technology,nanjing university of science and technology,China,East China University of Science and Technology,east china university of science and technology,0.857,True,HIGH
+Soochow University,soochow university,China,"Soochow University, China",soochow university china,0.857,True,HIGH
+Lanzhou University,lanzhou university,China,Fuzhou University,fuzhou university,0.857,True,HIGH
+Beijing University of Technology,beijing university of technology,China,Dalian University of Technology,dalian university of technology,0.857,True,HIGH
+Hohai University,hohai university,China,Shanghai University,shanghai university,0.857,True,HIGH
+University of Jyväskylä,university of jyvaskyla,Finland,University of Vaasa,university of vaasa,0.857,True,HIGH
+Universität Konstanz,universitat konstanz,Germany,University of Konstanz,university of konstanz,0.857,True,HIGH
+Universität Mannheim,universitat mannheim,Germany,University of Mannheim,university of mannheim,0.857,True,HIGH
+Politecnico di Torino,politecnico di torino,Italy,Politecnico di Milano,politecnico di milano,0.857,True,HIGH
+Dongguk University ,dongguk university,South Korea,Konkuk University,konkuk university,0.857,True,HIGH
+Universitat Politècnica de València,universitat politecnica de valencia,Spain,Universitat Polit�cnica de Catalunya,universitat politcnica de catalunya,0.857,True,HIGH
+Colorado State University,colorado state university,United States,Florida State University,florida state university,0.857,True,HIGH
+University of Texas Dallas,university of texas dallas,United States,University of Texas at El Paso,university of texas at el paso,0.857,True,HIGH
+Utah State University ,utah state university,United States,Ohio State University (Main campus),ohio state university,0.857,True,HIGH
+Utah State University ,utah state university,United States,Iowa State University,iowa state university,0.857,True,HIGH
+Indiana State University,indiana state university,United States,Michigan State University,michigan state university,0.857,True,HIGH
+Indiana State University,indiana state university,United States,Indiana University,indiana university,0.857,True,HIGH
+Nanjing University of Science and Technology,nanjing university of science and technology,China,Southern University of Science and Technology (SUSTech),southern university of science and technology,0.854,True,HIGH
+Universidade Federal de Pernambuco (UFPE) ,universidade federal de pernambuco,Brazil,Universidade Federal do ABC (UFABC),universidade federal do abc,0.852,True,HIGH
+Universidade Federal de Goiás,universidade federal de goias,Brazil,Universidade Federal de S�o Paulo (UNIFESP),universidade federal de so paulo,0.852,True,HIGH
+Universidade Federal do Parà - UFPA,universidade federal do para ufpa,Brazil,Universidade Federal do Cear� (UFC),universidade federal do cear,0.852,True,HIGH
+University of Bialystok,university of bialystok,Poland,Medical University of Bialystok,medical university of bialystok,0.852,True,HIGH
+University of South Carolina,university of south carolina,United States,University of Southern California,university of southern california,0.852,True,HIGH
+University of South Carolina,university of south carolina,United States,University of South Dakota,university of south dakota,0.852,True,HIGH
+Northwest Agriculture and Forestry University,northwest agriculture and forestry university,China,Fujian Agriculture and Forestry University,fujian agriculture and forestry university,0.851,True,HIGH
+Universitat de Barcelona,universitat de barcelona,Spain,University of Barcelona,university of barcelona,0.851,True,HIGH
+King Mongkut's University of Technology Thonburi ,king mongkut s university of technology thonburi,Thailand,King Mongkut's University of Technology North Bangkok,king mongkut s university of technology north bangkok,0.851,True,HIGH
+Oregon State University,oregon state university,United States,Arizona State University (Tempe),arizona state university,0.851,True,HIGH
+Oregon State University,oregon state university,United States,Georgia State University,georgia state university,0.851,True,HIGH
+Indiana State University,indiana state university,United States,Kansas State University,kansas state university,0.851,True,HIGH
+Universität Hamburg,universitat hamburg,Germany,University of Hamburg,university of hamburg,0.85,True,HIGH
+Universität Potsdam,universitat potsdam,Germany,University of Potsdam,university of potsdam,0.85,True,HIGH
+Indian Institute of Technology Bhubaneswar,indian institute of technology bhubaneswar,India,Indian Institute of Technology (Indian School of Mines) Dhanbad,indian institute of technology dhanbad,0.85,True,HIGH
+University of Bari,university of bari,Italy,University of Calabria,university of calabria,0.85,True,HIGH
+University of Bari,university of bari,Italy,University of Insubria,university of insubria,0.85,True,HIGH
+University of Bari,university of bari,Italy,University of Camerino (Unicam),university of camerino,0.85,True,HIGH
+Université de Sousse,universite de sousse,Tunisia,University of Sousse,university of sousse,0.85,True,HIGH
+University of Idaho,university of idaho,United States,The University of Chicago,university of chicago,0.85,True,HIGH
+University of Idaho,university of idaho,United States,University of Florida,university of florida,0.85,True,HIGH
