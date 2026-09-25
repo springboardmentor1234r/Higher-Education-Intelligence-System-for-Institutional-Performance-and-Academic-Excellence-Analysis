@@ -2,7 +2,8 @@ import os
 import zipfile
 import uuid
 import shutil
-import xml.etree.ElementTree as ET
+import subprocess
+import time
 
 def get_uuid(name):
     return f"{{{str(uuid.uuid5(uuid.NAMESPACE_DNS, name)).upper()}}}"
@@ -64,9 +65,10 @@ def generate_twb(mode="full"):
     xml.append("        </relation>")
     xml.append("      </connection>")
     xml.append("      <aliases enabled='yes' />")
-    xml.append("      <column caption='Institution ID' datatype='string' name='[university_id]' role='dimension' type='nominal' />")
-    xml.append("      <column caption='University' datatype='string' name='[university_name]' role='dimension' type='nominal' />")
     xml.append("      <column caption='Country / Nation' datatype='string' name='[country_name]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />")
+    xml.append("      <column caption='University' datatype='string' name='[university_name]' role='dimension' type='nominal' />")
+    xml.append("      <column caption='Institution ID' datatype='string' name='[university_id]' role='dimension' type='nominal' />")
+    xml.append("      <column caption='Country Code' datatype='string' name='[country_id]' role='dimension' type='nominal' />")
     xml.append("      <column caption='Geographic Region' datatype='string' name='[region]' role='dimension' type='nominal' />")
     xml.append("      <column caption='Global Rank' datatype='integer' default-format='n#,##0' name='[global_rank]' role='measure' type='quantitative' />")
     xml.append("      <column caption='Overall Score' datatype='real' default-format='n#,##0.0' name='[kpi_global_ranking_score]' role='measure' type='quantitative' />")
@@ -79,44 +81,76 @@ def generate_twb(mode="full"):
     xml.append("    </datasource>")
     xml.append("  </datasources>")
 
-    # Scoped Interactive Filter Actions
+    # Scoped Actions with Exclude Protection (Zero Blank Graphs)
     xml.append("  <actions>")
-    if is_full:
-        filter_actions = [
-            ("Filter Scatter by University", "University Overview", "Top 10 Global Rankings", "University Overview", "Academic Reputation vs Score", "select", "[university_name]"),
-            ("Filter Overview by Region", "University Overview", "Universities by Region", "University Overview", "Top 10 Global Rankings,Top 10 Overall Score Trend,Publications by Top Universities,Faculty-to-Student Ratio by Region", "select", "[region]"),
-            ("Filter Research Scatter by University", "Research Analytics", "Research Productivity Rankings", "Research Analytics", "Research Citation Impact vs Score", "select", "[university_name]"),
-            ("Filter Research by Region", "Research Analytics", "Regional Research Performance", "Research Analytics", "Research Productivity Rankings,Research Citation Impact vs Score,Top 10 Overall Score Trend", "select", "[region]"),
-            ("Filter Diversity by Region", "Student Analytics", "International Student Diversity", "Student Analytics", "Top 10 Campus Diversity,Campus Diversity vs Institutional Score,Faculty-to-Student Ratio by Region", "select", "[region]"),
-            ("Filter Benchmarks by Country", "Country Comparison", "National Capacity Benchmark", "Country Comparison", "National Quality Benchmark", "select", "[country_name]"),
-        ]
-        for idx, (aname, src_d, src_s, tgt_d, tgt_s, trigger, ffield) in enumerate(filter_actions, start=1):
-            action_id = make_action_name(idx, aname)
-            xml.append(f"    <action caption='{aname}' name='{action_id}'>")
-            xml.append("      <activation auto-clear='true' type='on-select' />")
-            xml.append(f"      <source dashboard='{src_d}' type='sheet' worksheet='{src_s}' />")
-            xml.append("      <command command='tsc:tsl-filter'>")
-            xml.append(f"        <param name='target' value='{tgt_d}' />")
-            xml.append("        <param name='special-fields' value='all' />")
-            xml.append("      </command>")
-            xml.append("    </action>")
+    all_actions = [
+        ("Filter Scatter by University", 1, "act_ov_uni", "University Overview", "Top 10 Global Rankings", "University Overview", "Top 10 Global Rankings,Global University Footprint,National Capacity Benchmark"),
+        ("Filter Overview by Region", 2, "act_ov_reg", "University Overview", "Global University Footprint", "University Overview", "Global University Footprint"),
+        ("Interlink Research Scatter from Overview", 3, "act_res_from_ov", "University Overview", "Top 10 Global Rankings", "Research Analytics", "Research Productivity Rankings,Regional Academic Performance,Regional Research Performance"),
+        ("Interlink Country Benchmarks from Overview", 4, "act_cty_from_ov", "University Overview", "Global University Footprint", "Country Comparison", "Global University Footprint,Regional Academic Performance"),
+        ("Filter Research Scatter by University", 5, "act_res_uni", "Research Analytics", "Research Productivity Rankings", "Research Analytics", "Research Productivity Rankings,Regional Academic Performance,Regional Research Performance"),
+        ("Filter Research by Region", 6, "act_res_reg", "Research Analytics", "Regional Research Performance", "Research Analytics", "Regional Research Performance,Regional Academic Performance"),
+        ("Filter Campus Diversity by Region", 7, "act_stu_reg", "Student Analytics", "International Student Diversity", "Student Analytics", "International Student Diversity,Faculty-to-Student Ratio,Regional Academic Performance"),
+        ("Filter Country Quality by Capacity", 8, "act_cty_cap", "Country Comparison", "National Capacity Benchmark", "Country Comparison", "National Capacity Benchmark,Global University Footprint,Regional Academic Performance"),
+        ("Filter Country Benchmarks by Region", 9, "act_cty_reg", "Country Comparison", "Global University Footprint", "Country Comparison", "Global University Footprint,Regional Academic Performance"),
+    ]
+    
+    selected_actions = []
+    if is_proto:
+        selected_actions = all_actions[:2]
+    elif is_v1:
+        selected_actions = [a for a in all_actions if a[3] in ["University Overview", "Research Analytics"] and a[5] in ["University Overview", "Research Analytics"]]
+    else:
+        selected_actions = all_actions
+
+    for cap, idx, key, s_dash, s_sheet, target, exclude in selected_actions:
+        act_name = make_action_name(idx, key)
+        xml.append(f'    <action caption="{cap}" name="{act_name}">')
+        xml.append('      <activation auto-clear="true" type="on-select" />')
+        xml.append(f'      <source dashboard="{s_dash}" type="sheet" worksheet="{s_sheet}" />')
+        xml.append('      <command command="tsc:tsl-filter">')
+        if exclude:
+            xml.append(f'        <param name="exclude" value="{exclude}" />')
+        xml.append('        <param name="special-fields" value="all" />')
+        xml.append(f'        <param name="target" value="{target}" />')
+        xml.append('      </command>')
+        xml.append('    </action>')
     xml.append("  </actions>")
 
-    # Worksheets Helper
-    created_worksheets = []
-    def make_sheet(name, title, mark_type, rows, cols, col_instances, color_col=None, lod_col=None, size_col=None, label_col=None, rank_filter=None, country_filter=False):
-        created_worksheets.append(name)
-        title_clean = title.replace("&", "&amp;").replace("&amp;amp;", "&amp;")
-        name_clean = name.replace("&", "&amp;").replace("&amp;amp;", "&amp;")
+    # Helper for worksheets - dark theme styling for crisp, elegant look
+    def make_sheet(name, title, mark_type, rows, cols, col_instances, color_col=None, lod_col=None, label_col=None, rank_filter=None, country_filter=False):
         lines = []
-        lines.append(f"    <worksheet name='{name_clean}'>")
+        lines.append(f"    <worksheet name='{name}'>")
         lines.append("      <layout-options>")
         lines.append("        <title>")
         lines.append("          <formatted-text>")
-        lines.append(f"            <run bold='true' fontcolor='#FFFFFF' fontname='Segoe UI' fontsize='8'>{title_clean}</run>")
+        lines.append(f"            <run bold='true' fontcolor='#FFFFFF' fontname='Segoe UI' fontsize='9'>{title}</run>")
         lines.append("          </formatted-text>")
         lines.append("        </title>")
         lines.append("      </layout-options>")
+        lines.append("      <style>")
+        lines.append("        <style-rule element='table'>")
+        lines.append("          <format attr='background-color' value='#161F30' />")
+        lines.append("        </style-rule>")
+        lines.append("        <style-rule element='gridline'>")
+        lines.append("          <format attr='line-visibility' value='off' />")
+        lines.append("        </style-rule>")
+        lines.append("        <style-rule element='zeroline'>")
+        lines.append("          <format attr='line-visibility' value='off' />")
+        lines.append("        </style-rule>")
+        lines.append("        <style-rule element='header'>")
+        lines.append("          <format attr='color' value='#F8FAFC' />")
+        lines.append("          <format attr='font-family' value='Segoe UI' />")
+        lines.append("        </style-rule>")
+        lines.append("        <style-rule element='axis'>")
+        lines.append("          <format attr='color' value='#94A3B8' />")
+        lines.append("          <format attr='font-family' value='Segoe UI' />")
+        lines.append("        </style-rule>")
+        lines.append("        <style-rule element='label'>")
+        lines.append("          <format attr='color' value='#FFFFFF' />")
+        lines.append("          <format attr='font-family' value='Segoe UI' />")
+        lines.append("        </style-rule>")
+        lines.append("      </style>")
         lines.append("      <table>")
         lines.append("        <view>")
         lines.append("          <datasources>")
@@ -161,29 +195,6 @@ def generate_twb(mode="full"):
 
         lines.append("          <aggregation value='true' />")
         lines.append("        </view>")
-        lines.append("        <style>")
-        lines.append("          <style-rule element='table'>")
-        lines.append("            <format attr='background-color' value='#161F30' />")
-        lines.append("          </style-rule>")
-        lines.append("          <style-rule element='gridline'>")
-        lines.append("            <format attr='line-visibility' value='off' />")
-        lines.append("          </style-rule>")
-        lines.append("          <style-rule element='zeroline'>")
-        lines.append("            <format attr='line-visibility' value='off' />")
-        lines.append("          </style-rule>")
-        lines.append("          <style-rule element='header'>")
-        lines.append("            <format attr='color' value='#F8FAFC' />")
-        lines.append("            <format attr='font-family' value='Segoe UI' />")
-        lines.append("          </style-rule>")
-        lines.append("          <style-rule element='axis'>")
-        lines.append("            <format attr='color' value='#94A3B8' />")
-        lines.append("            <format attr='font-family' value='Segoe UI' />")
-        lines.append("          </style-rule>")
-        lines.append("          <style-rule element='label'>")
-        lines.append("            <format attr='color' value='#FFFFFF' />")
-        lines.append("            <format attr='font-family' value='Segoe UI' />")
-        lines.append("          </style-rule>")
-        lines.append("        </style>")
         lines.append("        <panes>")
         lines.append("          <pane selection-relaxation-option='selection-relaxation-allow'>")
         lines.append("            <view>")
@@ -195,8 +206,6 @@ def generate_twb(mode="full"):
             lines.append(f"              <color column='[federated.eduvision_kpi].[{color_col}]' />")
         if lod_col:
             lines.append(f"              <lod column='[federated.eduvision_kpi].[{lod_col}]' />")
-        if size_col:
-            lines.append(f"              <size column='[federated.eduvision_kpi].[{size_col}]' />")
         if label_col:
             lines.append(f"              <text column='[federated.eduvision_kpi].[{label_col}]' />")
         lines.append("            </encodings>")
@@ -218,10 +227,10 @@ def generate_twb(mode="full"):
 
     xml.append("  <worksheets>")
     
-    # 1. Top 10 Global Rankings (Horizontal Bar)
+    # 1. Top 10 Global Rankings (Top 8 universities for generous 44px bar height)
     xml.extend(make_sheet(
         name="Top 10 Global Rankings",
-        title="Top 10 Universities by Global Ranking",
+        title="Top Global Universities by Overall Score",
         mark_type="Bar",
         rows="[federated.eduvision_kpi].[none:university_name:nk]",
         cols="[federated.eduvision_kpi].[avg:kpi_global_ranking_score:qk]",
@@ -233,65 +242,84 @@ def generate_twb(mode="full"):
         ],
         color_col="none:region:nk",
         label_col="avg:kpi_global_ranking_score:qk",
-        rank_filter=(1, 10)
+        rank_filter=(1, 8)
     ))
 
-    # 2. Top 10 Overall Score Trend (Multi-Line Chart)
+    # 2. Global University Footprint (5 continental regions = 70px per bar)
     xml.extend(make_sheet(
-        name="Top 10 Overall Score Trend",
-        title="Top 10 Universities by Overall Score Trend",
-        mark_type="Line",
-        rows="[federated.eduvision_kpi].[avg:kpi_global_ranking_score:qk]",
-        cols="[federated.eduvision_kpi].[none:global_rank:qk]",
-        col_instances=[
-            ("global_rank", "None", "none:global_rank:qk", "quantitative"),
-            ("kpi_global_ranking_score", "Avg", "avg:kpi_global_ranking_score:qk", "quantitative"),
-            ("university_name", "None", "none:university_name:nk", "nominal"),
-            ("region", "None", "none:region:nk", "nominal"),
-        ],
-        color_col="none:region:nk",
-        lod_col="none:university_name:nk",
-        rank_filter=(1, 10)
-    ))
-
-    # 3. Universities by Region (Regional Share Distribution)
-    xml.extend(make_sheet(
-        name="Universities by Region",
-        title="Universities by Region (Regional Distribution)",
-        mark_type="Circle",
-        rows="[federated.eduvision_kpi].[count:university_id:qk]",
-        cols="[federated.eduvision_kpi].[none:region:nk]",
+        name="Global University Footprint",
+        title="Global University Distribution by Region",
+        mark_type="Bar",
+        rows="[federated.eduvision_kpi].[none:region:nk]",
+        cols="[federated.eduvision_kpi].[count:university_id:qk]",
         col_instances=[
             ("region", "None", "none:region:nk", "nominal"),
             ("university_id", "Count", "count:university_id:qk", "quantitative"),
         ],
         color_col="none:region:nk",
-        size_col="count:university_id:qk",
         label_col="count:university_id:qk"
     ))
 
-    # 4. Publications by Top Universities (Horizontal Bar)
+    # 3. Academic Reputation vs Score (Filtered to Top 50 institutions so points are crisp and legible)
     xml.extend(make_sheet(
-        name="Publications by Top Universities",
-        title="Publications & Citations by Top 5 Universities",
+        name="Academic Reputation vs Score",
+        title="Academic Reputation vs Research Citations (Top 50)",
+        mark_type="Circle",
+        rows="[federated.eduvision_kpi].[avg:kpi_global_ranking_score:qk]",
+        cols="[federated.eduvision_kpi].[avg:kpi_academic_reputation_score:qk]",
+        col_instances=[
+            ("kpi_global_ranking_score", "Avg", "avg:kpi_global_ranking_score:qk", "quantitative"),
+            ("kpi_academic_reputation_score", "Avg", "avg:kpi_academic_reputation_score:qk", "quantitative"),
+            ("university_name", "None", "none:university_name:nk", "nominal"),
+            ("region", "None", "none:region:nk", "nominal"),
+            ("global_rank", "None", "none:global_rank:qk", "quantitative"),
+        ],
+        color_col="none:region:nk",
+        lod_col="none:university_name:nk",
+        rank_filter=(1, 50)
+    ))
+
+    # 4. Research Productivity Rankings (Top 8 research hubs = 44px per bar)
+    xml.extend(make_sheet(
+        name="Research Productivity Rankings",
+        title="Top Research Institutions by Productivity Index",
         mark_type="Bar",
         rows="[federated.eduvision_kpi].[none:university_name:nk]",
-        cols="[federated.eduvision_kpi].[avg:kpi_research_impact_score:qk]",
+        cols="[federated.eduvision_kpi].[avg:kpi_research_productivity_index:qk]",
         col_instances=[
             ("university_name", "None", "none:university_name:nk", "nominal"),
-            ("kpi_research_impact_score", "Avg", "avg:kpi_research_impact_score:qk", "quantitative"),
+            ("kpi_research_productivity_index", "Avg", "avg:kpi_research_productivity_index:qk", "quantitative"),
             ("global_rank", "None", "none:global_rank:qk", "quantitative"),
             ("region", "None", "none:region:nk", "nominal"),
         ],
         color_col="none:region:nk",
-        label_col="avg:kpi_research_impact_score:qk",
-        rank_filter=(1, 5)
+        label_col="avg:kpi_research_productivity_index:qk",
+        rank_filter=(1, 8)
     ))
 
-    # 5. International Student Diversity (Regional Bar)
+    # 5. Citation Impact vs Research (Filtered to Top 50 research institutions)
+    xml.extend(make_sheet(
+        name="Citation Impact vs Research",
+        title="Research Citation Impact vs Productivity (Top 50)",
+        mark_type="Circle",
+        rows="[federated.eduvision_kpi].[avg:kpi_research_impact_score:qk]",
+        cols="[federated.eduvision_kpi].[avg:kpi_research_productivity_index:qk]",
+        col_instances=[
+            ("kpi_research_impact_score", "Avg", "avg:kpi_research_impact_score:qk", "quantitative"),
+            ("kpi_research_productivity_index", "Avg", "avg:kpi_research_productivity_index:qk", "quantitative"),
+            ("university_name", "None", "none:university_name:nk", "nominal"),
+            ("region", "None", "none:region:nk", "nominal"),
+            ("global_rank", "None", "none:global_rank:qk", "quantitative"),
+        ],
+        color_col="none:region:nk",
+        lod_col="none:university_name:nk",
+        rank_filter=(1, 50)
+    ))
+
+    # 6. International Student Diversity (5 regions = 70px per bar)
     xml.extend(make_sheet(
         name="International Student Diversity",
-        title="International Students % by Region",
+        title="International Student Percentage by Region",
         mark_type="Bar",
         rows="[federated.eduvision_kpi].[none:region:nk]",
         cols="[federated.eduvision_kpi].[avg:kpi_international_student_pct:qk]",
@@ -303,13 +331,13 @@ def generate_twb(mode="full"):
         label_col="avg:kpi_international_student_pct:qk"
     ))
 
-    # 6. Faculty-to-Student Ratio by Region (Vertical Column Chart)
+    # 7. Faculty-to-Student Ratio (5 regions = 70px per bar)
     xml.extend(make_sheet(
-        name="Faculty-to-Student Ratio by Region",
-        title="Faculty to Student Ratio by Region",
+        name="Faculty-to-Student Ratio",
+        title="Students Per Faculty Benchmark by Region",
         mark_type="Bar",
-        rows="[federated.eduvision_kpi].[avg:kpi_faculty_student_ratio:qk]",
-        cols="[federated.eduvision_kpi].[none:region:nk]",
+        rows="[federated.eduvision_kpi].[none:region:nk]",
+        cols="[federated.eduvision_kpi].[avg:kpi_faculty_student_ratio:qk]",
         col_instances=[
             ("region", "None", "none:region:nk", "nominal"),
             ("kpi_faculty_student_ratio", "Avg", "avg:kpi_faculty_student_ratio:qk", "quantitative"),
@@ -318,242 +346,151 @@ def generate_twb(mode="full"):
         label_col="avg:kpi_faculty_student_ratio:qk"
     ))
 
-    # Additional sheets for Full Suite
-    if is_full:
-        # 7. Research Citation Impact vs Score (Scatter / Bubble Plot)
-        xml.extend(make_sheet(
-            name="Research Citation Impact vs Score",
-            title="Citation Impact vs Research Score (Top 50)",
-            mark_type="Circle",
-            rows="[federated.eduvision_kpi].[avg:kpi_research_impact_score:qk]",
-            cols="[federated.eduvision_kpi].[avg:kpi_academic_reputation_score:qk]",
-            col_instances=[
-                ("kpi_research_impact_score", "Avg", "avg:kpi_research_impact_score:qk", "quantitative"),
-                ("kpi_academic_reputation_score", "Avg", "avg:kpi_academic_reputation_score:qk", "quantitative"),
-                ("university_name", "None", "none:university_name:nk", "nominal"),
-                ("region", "None", "none:region:nk", "nominal"),
-                ("global_rank", "None", "none:global_rank:qk", "quantitative"),
-                ("total_students", "Avg", "avg:total_students:qk", "quantitative"),
-            ],
-            color_col="none:region:nk",
-            lod_col="none:university_name:nk",
-            size_col="avg:total_students:qk",
-            rank_filter=(1, 50)
-        ))
+    # 8. National Capacity Benchmark (Top 8 nations = 44px per bar)
+    xml.extend(make_sheet(
+        name="National Capacity Benchmark",
+        title="Top Nations by Number of Ranked Universities",
+        mark_type="Bar",
+        rows="[federated.eduvision_kpi].[none:country_name:nk]",
+        cols="[federated.eduvision_kpi].[count:university_id:qk]",
+        col_instances=[
+            ("country_name", "None", "none:country_name:nk", "nominal"),
+            ("university_id", "Count", "count:university_id:qk", "quantitative"),
+            ("region", "None", "none:region:nk", "nominal"),
+        ],
+        color_col="none:region:nk",
+        label_col="count:university_id:qk",
+        country_filter=True
+    ))
 
-        # 8. Research Productivity Rankings (Horizontal Bar)
-        xml.extend(make_sheet(
-            name="Research Productivity Rankings",
-            title="Top Research Institutions by Productivity Index",
-            mark_type="Bar",
-            rows="[federated.eduvision_kpi].[none:university_name:nk]",
-            cols="[federated.eduvision_kpi].[avg:kpi_research_productivity_index:qk]",
-            col_instances=[
-                ("university_name", "None", "none:university_name:nk", "nominal"),
-                ("kpi_research_productivity_index", "Avg", "avg:kpi_research_productivity_index:qk", "quantitative"),
-                ("global_rank", "None", "none:global_rank:qk", "quantitative"),
-                ("region", "None", "none:region:nk", "nominal"),
-            ],
-            color_col="none:region:nk",
-            label_col="avg:kpi_research_productivity_index:qk",
-            rank_filter=(1, 8)
-        ))
+    # 9. Regional Academic Performance (5 regions = 70px per bar)
+    xml.extend(make_sheet(
+        name="Regional Academic Performance",
+        title="Average Institutional Score by Region",
+        mark_type="Bar",
+        rows="[federated.eduvision_kpi].[none:region:nk]",
+        cols="[federated.eduvision_kpi].[avg:kpi_global_ranking_score:qk]",
+        col_instances=[
+            ("region", "None", "none:region:nk", "nominal"),
+            ("kpi_global_ranking_score", "Avg", "avg:kpi_global_ranking_score:qk", "quantitative"),
+        ],
+        color_col="none:region:nk",
+        label_col="avg:kpi_global_ranking_score:qk"
+    ))
 
-        # 9. Regional Research Performance (Vertical Column Bar)
-        xml.extend(make_sheet(
-            name="Regional Research Performance",
-            title="Research Citation Score by Region",
-            mark_type="Bar",
-            rows="[federated.eduvision_kpi].[avg:kpi_research_impact_score:qk]",
-            cols="[federated.eduvision_kpi].[none:region:nk]",
-            col_instances=[
-                ("region", "None", "none:region:nk", "nominal"),
-                ("kpi_research_impact_score", "Avg", "avg:kpi_research_impact_score:qk", "quantitative"),
-            ],
-            color_col="none:region:nk",
-            label_col="avg:kpi_research_impact_score:qk"
-        ))
+    # 10. Regional Research Performance (5 regions = 70px per bar)
+    xml.extend(make_sheet(
+        name="Regional Research Performance",
+        title="Research Citation Score by Region",
+        mark_type="Bar",
+        rows="[federated.eduvision_kpi].[none:region:nk]",
+        cols="[federated.eduvision_kpi].[avg:kpi_research_impact_score:qk]",
+        col_instances=[
+            ("region", "None", "none:region:nk", "nominal"),
+            ("kpi_research_impact_score", "Avg", "avg:kpi_research_impact_score:qk", "quantitative"),
+        ],
+        color_col="none:region:nk",
+        label_col="avg:kpi_research_impact_score:qk"
+    ))
 
-        # 10. Top 10 Campus Diversity (Horizontal Bar)
-        xml.extend(make_sheet(
-            name="Top 10 Campus Diversity",
-            title="Top Institutions by International Student Percentage",
-            mark_type="Bar",
-            rows="[federated.eduvision_kpi].[none:university_name:nk]",
-            cols="[federated.eduvision_kpi].[avg:kpi_international_student_pct:qk]",
-            col_instances=[
-                ("university_name", "None", "none:university_name:nk", "nominal"),
-                ("kpi_international_student_pct", "Avg", "avg:kpi_international_student_pct:qk", "quantitative"),
-                ("global_rank", "None", "none:global_rank:qk", "quantitative"),
-                ("region", "None", "none:region:nk", "nominal"),
-            ],
-            color_col="none:region:nk",
-            label_col="avg:kpi_international_student_pct:qk",
-            rank_filter=(1, 8)
-        ))
+    # 11. Top 10 Campus Diversity (Top 8 diversity leaders = 44px per bar)
+    xml.extend(make_sheet(
+        name="Top 10 Campus Diversity",
+        title="Top Institutions by International Student Percentage",
+        mark_type="Bar",
+        rows="[federated.eduvision_kpi].[none:university_name:nk]",
+        cols="[federated.eduvision_kpi].[avg:kpi_international_student_pct:qk]",
+        col_instances=[
+            ("university_name", "None", "none:university_name:nk", "nominal"),
+            ("kpi_international_student_pct", "Avg", "avg:kpi_international_student_pct:qk", "quantitative"),
+            ("global_rank", "None", "none:global_rank:qk", "quantitative"),
+            ("region", "None", "none:region:nk", "nominal"),
+        ],
+        color_col="none:region:nk",
+        label_col="avg:kpi_international_student_pct:qk",
+        rank_filter=(1, 8)
+    ))
 
-        # 11. Campus Diversity vs Institutional Score (Scatter Plot)
-        xml.extend(make_sheet(
-            name="Campus Diversity vs Institutional Score",
-            title="Campus Diversity vs Overall Score (Top 50)",
-            mark_type="Circle",
-            rows="[federated.eduvision_kpi].[avg:kpi_global_ranking_score:qk]",
-            cols="[federated.eduvision_kpi].[avg:kpi_international_student_pct:qk]",
-            col_instances=[
-                ("kpi_global_ranking_score", "Avg", "avg:kpi_global_ranking_score:qk", "quantitative"),
-                ("kpi_international_student_pct", "Avg", "avg:kpi_international_student_pct:qk", "quantitative"),
-                ("university_name", "None", "none:university_name:nk", "nominal"),
-                ("region", "None", "none:region:nk", "nominal"),
-                ("global_rank", "None", "none:global_rank:qk", "quantitative"),
-            ],
-            color_col="none:region:nk",
-            lod_col="none:university_name:nk",
-            rank_filter=(1, 50)
-        ))
-
-        # 12. National Capacity Benchmark (Horizontal Bar)
-        xml.extend(make_sheet(
-            name="National Capacity Benchmark",
-            title="Top Nations by Number of Ranked Universities",
-            mark_type="Bar",
-            rows="[federated.eduvision_kpi].[none:country_name:nk]",
-            cols="[federated.eduvision_kpi].[count:university_id:qk]",
-            col_instances=[
-                ("country_name", "None", "none:country_name:nk", "nominal"),
-                ("university_id", "Count", "count:university_id:qk", "quantitative"),
-                ("region", "None", "none:region:nk", "nominal"),
-            ],
-            color_col="none:region:nk",
-            label_col="count:university_id:qk",
-            country_filter=True
-        ))
-
-        # 13. National Quality Benchmark (Vertical Column Bar)
-        xml.extend(make_sheet(
-            name="National Quality Benchmark",
-            title="Average University Score by Top Nation",
-            mark_type="Bar",
-            rows="[federated.eduvision_kpi].[avg:kpi_global_ranking_score:qk]",
-            cols="[federated.eduvision_kpi].[none:country_name:nk]",
-            col_instances=[
-                ("country_name", "None", "none:country_name:nk", "nominal"),
-                ("kpi_global_ranking_score", "Avg", "avg:kpi_global_ranking_score:qk", "quantitative"),
-                ("region", "None", "none:region:nk", "nominal"),
-            ],
-            color_col="none:region:nk",
-            label_col="avg:kpi_global_ranking_score:qk",
-            country_filter=True
-        ))
-
-        # 14. Global University Footprint (Horizontal Regional Bar)
-        xml.extend(make_sheet(
-            name="Global University Footprint",
-            title="Global University Distribution by Region",
-            mark_type="Bar",
-            rows="[federated.eduvision_kpi].[none:region:nk]",
-            cols="[federated.eduvision_kpi].[count:university_id:qk]",
-            col_instances=[
-                ("region", "None", "none:region:nk", "nominal"),
-                ("university_id", "Count", "count:university_id:qk", "quantitative"),
-            ],
-            color_col="none:region:nk",
-            label_col="count:university_id:qk"
-        ))
+    # 12. National Quality Benchmark (Top 8 nations = 44px per bar)
+    xml.extend(make_sheet(
+        name="National Quality Benchmark",
+        title="Average University Score by Top Nation",
+        mark_type="Bar",
+        rows="[federated.eduvision_kpi].[none:country_name:nk]",
+        cols="[federated.eduvision_kpi].[avg:kpi_global_ranking_score:qk]",
+        col_instances=[
+            ("country_name", "None", "none:country_name:nk", "nominal"),
+            ("kpi_global_ranking_score", "Avg", "avg:kpi_global_ranking_score:qk", "quantitative"),
+            ("region", "None", "none:region:nk", "nominal"),
+        ],
+        color_col="none:region:nk",
+        label_col="avg:kpi_global_ranking_score:qk",
+        country_filter=True
+    ))
 
     xml.append("  </worksheets>")
 
-    # Dashboards - Mentor Reference Design with Left Sidebar Navigation & Filter Pane
+    # Dashboards - Executive Dark Theme (1200 x 800 standard viewport)
     xml.append("  <dashboards>")
 
     def make_dashboard_xml(dash_name, dash_title, kpi_cards, sheets, nav_idx, theme_color):
-        dash_title_clean = dash_title.replace("&", "&amp;").replace("&amp;amp;", "&amp;")
-        dash_name_clean = dash_name.replace("&", "&amp;").replace("&amp;amp;", "&amp;")
         lines = []
-        lines.append(f"    <dashboard name='{dash_name_clean}'>")
+        lines.append(f"    <dashboard name='{dash_name}'>")
         lines.append("      <style />")
         lines.append("      <size maxheight='800' maxwidth='1200' minheight='800' minwidth='1200' sizing-mode='fixed' />")
         lines.append("      <zones>")
         lines.append("        <zone h='100000' id='1' type-v2='layout-basic' w='100000' x='0' y='0'>")
+        lines.append("          <zone-style>")
+        lines.append("            <format attr='background-color' value='#0B111E' />")
+        lines.append("          </zone-style>")
         
-        # 1. Left Sidebar Panel (x=800, y=800, w=15200, h=98400)
+        # 1. Executive Top Header Banner (y = 800, h = 5500)
         nav_steps = [
-            ("Overview", "🏛️"),
+            ("University Overview", "🏛️"),
             ("Research Analytics", "🔬"),
             ("Student Analytics", "👥"),
             ("Country Comparison", "🌐")
         ]
-        sb_runs = []
-        sb_runs.append("<run bold='true' fontcolor='#FFFFFF' fontname='Segoe UI' fontsize='10'>EduVision </run>")
-        sb_runs.append("<run bold='true' fontcolor='#A855F7' fontname='Segoe UI' fontsize='10'>DV</run>")
-        sb_runs.append("<run fontname='Segoe UI' fontsize='2'>&#10;</run>")
-        sb_runs.append("<run fontcolor='#64748B' fontname='Segoe UI' fontsize='7'>Higher Education Performance</run>")
-        sb_runs.append("<run fontname='Segoe UI' fontsize='4'>&#10;&#10;</run>")
-        
+        nav_runs = []
         for i, (sname, sicon) in enumerate(nav_steps, start=1):
             if i == nav_idx:
-                sb_runs.append(f"<run bold='true' fontcolor='#FFFFFF' fontname='Segoe UI' fontsize='8'>▶ {sicon} {sname}</run>")
+                nav_runs.append(f"<run bold='true' fontcolor='#FFFFFF' fontname='Segoe UI' fontsize='8'>[ {sicon} {sname} ]</run>")
             else:
-                sb_runs.append(f"<run fontcolor='#94A3B8' fontname='Segoe UI' fontsize='8'>   {sicon} {sname}</run>")
-            sb_runs.append("<run fontname='Segoe UI' fontsize='3'>&#10;&#10;</run>")
-            
-        sb_runs.append("<run fontcolor='#334155' fontname='Segoe UI' fontsize='7'>────────────────────</run>")
-        sb_runs.append("<run fontname='Segoe UI' fontsize='3'>&#10;</run>")
-        sb_runs.append("<run bold='true' fontcolor='#A855F7' fontname='Segoe UI' fontsize='8'>FILTERS</run>")
-        sb_runs.append("<run fontname='Segoe UI' fontsize='3'>&#10;&#10;</run>")
-        sb_runs.append("<run fontcolor='#94A3B8' fontname='Segoe UI' fontsize='7'>Year:  2024 ▼</run>")
-        sb_runs.append("<run fontname='Segoe UI' fontsize='2'>&#10;</run>")
-        sb_runs.append("<run fontcolor='#94A3B8' fontname='Segoe UI' fontsize='7'>Region:  (All) ▼</run>")
-        sb_runs.append("<run fontname='Segoe UI' fontsize='2'>&#10;</run>")
-        sb_runs.append("<run fontcolor='#94A3B8' fontname='Segoe UI' fontsize='7'>Country:  (All) ▼</run>")
-        sb_runs.append("<run fontname='Segoe UI' fontsize='2'>&#10;</run>")
-        sb_runs.append("<run fontcolor='#94A3B8' fontname='Segoe UI' fontsize='7'>Subject Area:  (All) ▼</run>")
-        sb_runs.append("<run fontname='Segoe UI' fontsize='4'>&#10;&#10;</run>")
-        sb_runs.append("<run bold='true' fontcolor='#A855F7' fontname='Segoe UI' fontsize='7'>↺  Reset Filters</run>")
-        sb_runs_str = "".join(sb_runs)
+                nav_runs.append(f"<run fontcolor='#64748B' fontname='Segoe UI' fontsize='8'>[ {sicon} {sname} ]</run>")
+            if i < 4:
+                nav_runs.append("<run fontcolor='#334155' fontname='Segoe UI' fontsize='8'>   </run>")
+        nav_runs_str = "".join(nav_runs)
 
-        lines.append("          <zone h='98400' id='2' type-v2='text' w='15200' x='800' y='800'>")
+        lines.append("          <zone h='5500' id='2' type-v2='text' w='98000' x='1000' y='800'>")
         lines.append("            <formatted-text>")
-        lines.append(f"              {sb_runs_str}")
-        lines.append("            </formatted-text>")
-        lines.append("            <zone-style>")
-        lines.append("              <format attr='border-style' value='solid' />")
-        lines.append("              <format attr='border-width' value='1' />")
-        lines.append("              <format attr='border-color' value='#1E293B' />")
-        lines.append("              <format attr='background-color' value='#0F172A' />")
-        lines.append("              <format attr='padding' value='6' />")
-        lines.append("            </zone-style>")
-        lines.append("          </zone>")
-
-        # 2. Top Header Bar (x=16600, y=800, w=82600, h=4800)
-        lines.append("          <zone h='4800' id='3' type-v2='text' w='82600' x='16600' y='800'>")
-        lines.append("            <formatted-text>")
-        lines.append("              <run bold='true' fontcolor='#FFFFFF' fontname='Segoe UI' fontsize='9'>EduVision DV  |  </run>")
-        lines.append(f"              <run bold='true' fontcolor='#F8FAFC' fontname='Segoe UI' fontsize='9'>{dash_title_clean}</run>")
-        lines.append("              <run fontcolor='#475569' fontname='Segoe UI' fontsize='7'>     |     Quick Filters: [ Year: 2024 ]  [ Region: (All) ]  [ Country: (All) ]  [ Subject: (All) ]     |     🏠 Home   📊 Dashboard   ℹ️ About</run>")
+        lines.append("              <run bold='true' fontcolor='#FFFFFF' fontname='Segoe UI' fontsize='10'>EduVision DV  |  </run>")
+        lines.append(f"              <run bold='true' fontcolor='#F8FAFC' fontname='Segoe UI' fontsize='10'>{dash_title}</run>")
+        lines.append("              <run fontcolor='#475569' fontname='Segoe UI' fontsize='8'>      |      </run>")
+        lines.append(f"              {nav_runs_str}")
         lines.append("            </formatted-text>")
         lines.append("            <zone-style>")
         lines.append("              <format attr='border-style' value='solid' />")
         lines.append("              <format attr='border-width' value='1' />")
         lines.append("              <format attr='border-color' value='#1E293B' />")
         lines.append("              <format attr='background-color' value='#111827' />")
-        lines.append("              <format attr='padding' value='4' />")
+        lines.append("              <format attr='padding' value='5' />")
         lines.append("            </zone-style>")
         lines.append("          </zone>")
         
-        # 3. 6 Executive KPI Cards Row (x=16600, y=6200, w=82600, h=10600)
+        # 2. 6 Executive KPI Cards Row (y = 7000, h = 10800)
         num_kpis = len(kpi_cards)
         if num_kpis > 0:
-            total_w = 82600
+            total_w = 98000
             gap = 600
             card_w = (total_w - (num_kpis - 1) * gap) // num_kpis
             for idx, (label, val, sub, card_border) in enumerate(kpi_cards):
-                card_x = 16600 + idx * (card_w + gap)
+                card_x = 1000 + idx * (card_w + gap)
                 zone_id = 10 + idx
-                lines.append(f"          <zone h='10600' id='{zone_id}' type-v2='text' w='{card_w}' x='{card_x}' y='6200'>")
+                lines.append(f"          <zone h='10800' id='{zone_id}' type-v2='text' w='{card_w}' x='{card_x}' y='7000'>")
                 lines.append("            <formatted-text>")
                 lines.append(f"              <run bold='true' fontcolor='{card_border}' fontname='Segoe UI' fontsize='7'>{label.upper()}</run>")
                 lines.append("              <run fontname='Segoe UI' fontsize='2'>&#10;</run>")
-                lines.append(f"              <run bold='true' fontcolor='#FFFFFF' fontname='Segoe UI' fontsize='10'>{val}</run>")
+                lines.append(f"              <run bold='true' fontcolor='#FFFFFF' fontname='Segoe UI' fontsize='11'>{val}</run>")
                 lines.append("              <run fontname='Segoe UI' fontsize='2'>&#10;</run>")
                 lines.append(f"              <run fontcolor='#94A3B8' fontname='Segoe UI' fontsize='7'>{sub}</run>")
                 lines.append("            </formatted-text>")
@@ -566,238 +503,118 @@ def generate_twb(mode="full"):
                 lines.append("            </zone-style>")
                 lines.append("          </zone>")
 
-        # 4. Visual Chart Zones
+        # 3. Row 1 Chart Zones (y = 18600, h = 38800)
         chart_zone_start = 30
-        num_sheets = len(sheets)
-        if num_sheets >= 6:
-            # 6 Charts (2 rows x 3 columns) matching mentor reference
-            cw = 27100
-            ch = 39500
-            gap_x = 600
-            for idx, s in enumerate(sheets[:6]):
-                row_idx = idx // 3
-                col_idx = idx % 3
-                cx = 16600 + col_idx * (cw + gap_x)
-                cy = 17400 + row_idx * (ch + 500)
-                zid = chart_zone_start + idx
-                lines.append(f"          <zone h='{ch}' id='{zid}' name='{s}' w='{cw}' x='{cx}' y='{cy}'>")
-                lines.append("            <zone-style>")
-                lines.append("              <format attr='border-style' value='solid' />")
-                lines.append("              <format attr='border-width' value='1' />")
-                lines.append("              <format attr='border-color' value='#1E293B' />")
-                lines.append("              <format attr='background-color' value='#161F30' />")
-                lines.append("              <format attr='padding' value='4' />")
-                lines.append("            </zone-style>")
-                lines.append("          </zone>")
-        elif num_sheets == 4:
-            # 4 Charts (2 rows x 2 columns)
-            cw = 41000
-            ch = 39500
-            gap_x = 600
-            for idx, s in enumerate(sheets[:4]):
-                row_idx = idx // 2
-                col_idx = idx % 2
-                cx = 16600 + col_idx * (cw + gap_x)
-                cy = 17400 + row_idx * (ch + 500)
-                zid = chart_zone_start + idx
-                lines.append(f"          <zone h='{ch}' id='{zid}' name='{s}' w='{cw}' x='{cx}' y='{cy}'>")
-                lines.append("            <zone-style>")
-                lines.append("              <format attr='border-style' value='solid' />")
-                lines.append("              <format attr='border-width' value='1' />")
-                lines.append("              <format attr='border-color' value='#1E293B' />")
-                lines.append("              <format attr='background-color' value='#161F30' />")
-                lines.append("              <format attr='padding' value='4' />")
-                lines.append("            </zone-style>")
-                lines.append("          </zone>")
-
-        # 5. Footer Zone (x=16600, y=97300, w=82600, h=1900)
-        lines.append("          <zone h='1900' id='29' type-v2='text' w='82600' x='16600' y='97300'>")
-        lines.append("            <formatted-text>")
-        lines.append("              <run fontcolor='#64748B' fontname='Segoe UI' fontsize='7'>Source: QS World University Rankings 2024 | Times Higher Education World University Rankings 2024              Note: All metrics are for 2024 unless otherwise stated.</run>")
-        lines.append("            </formatted-text>")
+        s1, s2, s3, s4 = sheets[:4]
+        lines.append(f"          <zone h='38800' id='{chart_zone_start}' name='{s1}' w='48600' x='1000' y='18600'>")
         lines.append("            <zone-style>")
-        lines.append("              <format attr='background-color' value='#0B111E' />")
-        lines.append("              <format attr='padding' value='2' />")
+        lines.append("              <format attr='border-style' value='solid' />")
+        lines.append("              <format attr='border-width' value='1' />")
+        lines.append("              <format attr='border-color' value='#1E293B' />")
+        lines.append("              <format attr='background-color' value='#161F30' />")
+        lines.append("              <format attr='padding' value='5' />")
+        lines.append("            </zone-style>")
+        lines.append("          </zone>")
+        
+        lines.append(f"          <zone h='38800' id='{chart_zone_start+1}' name='{s2}' w='48600' x='50400' y='18600'>")
+        lines.append("            <zone-style>")
+        lines.append("              <format attr='border-style' value='solid' />")
+        lines.append("              <format attr='border-width' value='1' />")
+        lines.append("              <format attr='border-color' value='#1E293B' />")
+        lines.append("              <format attr='background-color' value='#161F30' />")
+        lines.append("              <format attr='padding' value='5' />")
         lines.append("            </zone-style>")
         lines.append("          </zone>")
 
-        # 6. Zone-style for zone 1 (At bottom of zone 1 before closing)
-        lines.append("          <zone-style>")
-        lines.append("            <format attr='background-color' value='#0B111E' />")
-        lines.append("          </zone-style>")
+        # 4. Row 2 Chart Zones (y = 58200, h = 38800)
+        lines.append(f"          <zone h='38800' id='{chart_zone_start+2}' name='{s3}' w='48600' x='1000' y='58200'>")
+        lines.append("            <zone-style>")
+        lines.append("              <format attr='border-style' value='solid' />")
+        lines.append("              <format attr='border-width' value='1' />")
+        lines.append("              <format attr='border-color' value='#1E293B' />")
+        lines.append("              <format attr='background-color' value='#161F30' />")
+        lines.append("              <format attr='padding' value='5' />")
+        lines.append("            </zone-style>")
+        lines.append("          </zone>")
+        
+        lines.append(f"          <zone h='38800' id='{chart_zone_start+3}' name='{s4}' w='48600' x='50400' y='58200'>")
+        lines.append("            <zone-style>")
+        lines.append("              <format attr='border-style' value='solid' />")
+        lines.append("              <format attr='border-width' value='1' />")
+        lines.append("              <format attr='border-color' value='#1E293B' />")
+        lines.append("              <format attr='background-color' value='#161F30' />")
+        lines.append("              <format attr='padding' value='5' />")
+        lines.append("            </zone-style>")
+        lines.append("          </zone>")
+
         lines.append("        </zone>")
         lines.append("      </zones>")
-        lines.append(f"      <simple-id uuid='{get_uuid(dash_name_clean)}' />")
+        lines.append(f"      <simple-id uuid='{get_uuid(dash_name)}' />")
         lines.append("    </dashboard>")
         return lines
 
-    dashboards_info = []
+    dashboards_info = [
+        # Dashboard 1: Overview
+        ("University Overview", "Higher Education Performance Dashboard", [
+            ("TOP GLOBAL RANK", "#1 (MIT)", "★ World Leader", "#10B981"),
+            ("TOTAL UNIVERSITIES", "1,503", "106 Education Systems", "#06B6D4"),
+            ("AVG. OVERALL SCORE", "72.6 / 100", "+2.4% vs 2024", "#3B82F6"),
+            ("AVG. INTL STUDENTS %", "28.7%", "+1.8% Global Mobility", "#F59E0B"),
+            ("FACULTY-STUDENT RATIO", "1 : 11.2", "Global Staffing Benchmark", "#8B5CF6"),
+            ("RESEARCH IMPACT", "84.3 / 100", "Normalized Citations", "#EC4899"),
+        ], ["Top 10 Global Rankings", "Academic Reputation vs Score", "Global University Footprint", "National Capacity Benchmark"], 1, "#3B82F6"),
+
+        # Dashboard 2: Research Analytics
+        ("Research Analytics", "Research Analytics & Output Intelligence", [
+            ("AVG. RESEARCH SCORE", "82.4 / 100", "Top Tier Institutional Output", "#10B981"),
+            ("AVG. CITATION IMPACT", "86.1 / 100", "Normalized Cross-Discipline", "#06B6D4"),
+            ("RESEARCH PRODUCTIVITY INDEX", "84.9 / 100", "Derived Composite Formula", "#8B5CF6"),
+            ("INTL RESEARCH COLLAB", "78.2 / 100", "Cross-Border Network Breadth", "#F59E0B"),
+            ("TOP RESEARCH HUB", "Harvard (99.9)", "#1 Research Citations", "#3B82F6"),
+            ("GLOBAL CITATIONS LEADER", "99.87 / 100", "Peak Scientific Volume", "#EC4899"),
+        ], ["Research Productivity Rankings", "Citation Impact vs Research", "Regional Academic Performance", "Regional Research Performance"], 2, "#8B5CF6"),
+
+        # Dashboard 3: Student Analytics
+        ("Student Analytics", "Student Diversity & Faculty Capacity Intelligence", [
+            ("AVG. INTL STUDENT %", "28.7%", "Verified Continuous Metric", "#F59E0B"),
+            ("AVG. STUDENTS PER STAFF", "1 : 11.2", "Authentic Academic Ratio", "#8B5CF6"),
+            ("TOTAL FTE ENROLLMENT", "18.4M", "Across Matched Institutions", "#10B981"),
+            ("AVG GENDER RATIO (F:M)", "51 : 49", "Global Higher Ed Parity", "#06B6D4"),
+            ("HIGHEST DIVERSITY", "Macau (91.0%)", "Leading International Hub", "#EC4899"),
+            ("TOP FACULTY RATIO", "Caltech (3.8:1)", "Best Faculty Ratio", "#3B82F6"),
+        ], ["Top 10 Campus Diversity", "Faculty-to-Student Ratio", "International Student Diversity", "Regional Academic Performance"], 3, "#F59E0B"),
+
+        # Dashboard 4: Country Comparison
+        ("Country Comparison", "Country Comparison & World Bank Education Economics", [
+            ("TOP COUNTRY (CAPACITY)", "United States", "197 Ranked Institutions", "#3B82F6"),
+            ("AVG NATIONAL SCORE", "58.4 / 100", "Country-Level Benchmark", "#10B981"),
+            ("AVG GOVT SPEND (% GDP)", "4.82%", "Public Higher Ed Funding", "#F59E0B"),
+            ("AVG TERTIARY ENROLLMENT", "62.4%", "Gross Enrolment Ratio", "#06B6D4"),
+            ("TOP EUROPE CAPACITY", "United Kingdom (90)", "European Leader", "#8B5CF6"),
+            ("TOP ASIA CAPACITY", "China (71)", "Asian Leader", "#EC4899"),
+        ], ["National Capacity Benchmark", "National Quality Benchmark", "Global University Footprint", "Regional Academic Performance"], 4, "#10B981")
+    ]
+
+    target_dashboards = []
     if is_proto:
-        dashboards_info = [
-            ("University Overview (Wireframe)", "Higher Education Performance Dashboard", [
-                ("TOP GLOBAL RANK", "1 (MIT)", "★ World Leader", "#8B5CF6"),
-                ("TOTAL UNIVERSITIES", "1,503", "Ranked Universities", "#0284C7"),
-                ("AVG. OVERALL SCORE", "72.6", "▲ 2.4 vs 2023", "#16A34A"),
-                ("INTL STUDENTS %", "28.7%", "▲ 1.8% vs 2023", "#EA580C"),
-                ("FACULTY RATIO", "1 : 17.3", "▲ 0.6 vs 2023", "#DB2777"),
-                ("TOTAL PUBLICATIONS", "2.45M", "▲ 6.3% vs 2023", "#0D9488"),
-            ], [
-                "Top 10 Global Rankings",
-                "Top 10 Overall Score Trend",
-                "Universities by Region",
-                "Publications by Top Universities",
-                "International Student Diversity",
-                "Faculty-to-Student Ratio by Region"
-            ], 1, "#8B5CF6"),
-        ]
+        target_dashboards = dashboards_info[:1]
     elif is_v1:
-        dashboards_info = [
-            ("University Overview", "Higher Education Performance Dashboard", [
-                ("TOP GLOBAL RANK", "1 (MIT)", "★ World Leader", "#8B5CF6"),
-                ("TOTAL UNIVERSITIES", "1,503", "Ranked Universities", "#0284C7"),
-                ("AVG. OVERALL SCORE", "72.6", "▲ 2.4 vs 2023", "#16A34A"),
-                ("INTL STUDENTS %", "28.7%", "▲ 1.8% vs 2023", "#EA580C"),
-                ("FACULTY RATIO", "1 : 17.3", "▲ 0.6 vs 2023", "#DB2777"),
-                ("TOTAL PUBLICATIONS", "2.45M", "▲ 6.3% vs 2023", "#0D9488"),
-            ], [
-                "Top 10 Global Rankings",
-                "Top 10 Overall Score Trend",
-                "Universities by Region",
-                "Publications by Top Universities",
-                "International Student Diversity",
-                "Faculty-to-Student Ratio by Region"
-            ], 1, "#8B5CF6"),
-            
-            ("Research Analytics", "Research Analytics &amp; Output Intelligence", [
-                ("AVG. RESEARCH SCORE", "82.4 / 100", "Top Institutional Output", "#16A34A"),
-                ("AVG. CITATION IMPACT", "86.1 / 100", "Normalized Cross-Discipline", "#0284C7"),
-                ("RESEARCH INDEX", "84.9 / 100", "Composite Productivity", "#8B5CF6"),
-                ("INTL COLLABORATION", "78.2 / 100", "Cross-Border Networks", "#EA580C"),
-                ("TOP RESEARCH HUB", "Harvard (99.9)", "#1 Research Citations", "#DB2777"),
-                ("TOTAL RESEARCH CITATIONS", "99.87 / 100", "Peak Scientific Volume", "#0D9488"),
-            ], [
-                "Research Productivity Rankings",
-                "Top 10 Overall Score Trend",
-                "Publications by Top Universities",
-                "Faculty-to-Student Ratio by Region"
-            ], 2, "#0284C7"),
-        ]
+        target_dashboards = dashboards_info[:2]
     else:
-        dashboards_info = [
-            # Dashboard 1: Overview (Mentor Reference 6-Chart Layout)
-            ("University Overview", "Higher Education Performance Dashboard", [
-                ("TOP GLOBAL RANK", "1 (MIT)", "★ World Leader", "#8B5CF6"),
-                ("TOTAL UNIVERSITIES", "1,503", "Ranked Universities", "#0284C7"),
-                ("AVG. OVERALL SCORE", "72.6", "▲ 2.4 vs 2023", "#16A34A"),
-                ("INTL STUDENTS %", "28.7%", "▲ 1.8% vs 2023", "#EA580C"),
-                ("FACULTY RATIO", "1 : 17.3", "▲ 0.6 vs 2023", "#DB2777"),
-                ("TOTAL PUBLICATIONS", "2.45M", "▲ 6.3% vs 2023", "#0D9488"),
-            ], [
-                "Top 10 Global Rankings",
-                "Top 10 Overall Score Trend",
-                "Universities by Region",
-                "Publications by Top Universities",
-                "International Student Diversity",
-                "Faculty-to-Student Ratio by Region"
-            ], 1, "#8B5CF6"),
+        target_dashboards = dashboards_info
 
-            # Dashboard 2: Research Analytics
-            ("Research Analytics", "Research Analytics &amp; Output Intelligence", [
-                ("AVG. RESEARCH SCORE", "82.4 / 100", "Top Institutional Output", "#16A34A"),
-                ("AVG. CITATION IMPACT", "86.1 / 100", "Normalized Cross-Discipline", "#0284C7"),
-                ("RESEARCH INDEX", "84.9 / 100", "Composite Productivity", "#8B5CF6"),
-                ("INTL COLLABORATION", "78.2 / 100", "Cross-Border Networks", "#EA580C"),
-                ("TOP RESEARCH HUB", "Harvard (99.9)", "#1 Research Citations", "#DB2777"),
-                ("TOTAL RESEARCH CITATIONS", "99.87 / 100", "Peak Scientific Volume", "#0D9488"),
-            ], [
-                "Research Productivity Rankings",
-                "Research Citation Impact vs Score",
-                "Top 10 Overall Score Trend",
-                "Regional Research Performance"
-            ], 2, "#0284C7"),
-
-            # Dashboard 3: Student Analytics
-            ("Student Analytics", "Student Diversity &amp; Faculty Capacity Intelligence", [
-                ("AVG. INTL STUDENT %", "28.7%", "Verified Continuous Metric", "#EA580C"),
-                ("AVG. STUDENTS PER STAFF", "1 : 17.3", "Global Staffing Benchmark", "#8B5CF6"),
-                ("TOTAL FTE ENROLLMENT", "18.4M", "Across Matched Institutions", "#16A34A"),
-                ("GENDER PARITY (F:M)", "51 : 49", "Global Higher Ed Parity", "#0284C7"),
-                ("HIGHEST DIVERSITY", "Macau (91.0%)", "Leading International Hub", "#DB2777"),
-                ("TOP MENTORSHIP", "Caltech (3.8:1)", "Best Faculty Ratio", "#0D9488"),
-            ], [
-                "Top 10 Campus Diversity",
-                "Campus Diversity vs Institutional Score",
-                "Faculty-to-Student Ratio by Region",
-                "International Student Diversity"
-            ], 3, "#EA580C"),
-
-            # Dashboard 4: Country Comparison
-            ("Country Comparison", "Country Comparison &amp; World Bank Education Economics", [
-                ("TOP COUNTRY (CAPACITY)", "United States", "197 Ranked Institutions", "#0284C7"),
-                ("AVG NATIONAL SCORE", "58.4 / 100", "Country-Level Benchmark", "#16A34A"),
-                ("AVG GOVT SPEND (% GDP)", "4.82%", "Public Higher Ed Funding", "#EA580C"),
-                ("AVG TERTIARY ENROLLMENT", "62.4%", "Gross Enrolment Ratio", "#0D9488"),
-                ("TOP EUROPE CAPACITY", "United Kingdom (90)", "European Leader", "#8B5CF6"),
-                ("TOP ASIA CAPACITY", "China (71)", "Asian Leader", "#DB2777"),
-            ], [
-                "National Capacity Benchmark",
-                "National Quality Benchmark",
-                "Universities by Region",
-                "Global University Footprint"
-            ], 4, "#16A34A")
-        ]
-
-    for d_name, d_title, d_kpis, d_sheets, d_nav, d_color in dashboards_info:
+    for d_name, d_title, d_kpis, d_sheets, d_nav, d_color in target_dashboards:
         xml.extend(make_dashboard_xml(d_name, d_title, d_kpis, d_sheets, d_nav, d_color))
 
     xml.append("  </dashboards>")
-    
-    # Windows section (Required by Tableau Desktop to establish activeSheet)
-    xml.append("  <windows source-height='30'>")
-    for idx, (d_name, _, _, d_sheets, _, _) in enumerate(dashboards_info):
-        is_max = " maximized='true'" if idx == 0 else ""
-        d_name_clean = d_name.replace("&", "&amp;")
-        xml.append(f"    <window class='dashboard'{is_max} name='{d_name_clean}'>")
-        xml.append("      <viewpoints>")
-        for s in d_sheets:
-            s_clean = s.replace("&", "&amp;")
-            xml.append(f"        <viewpoint name='{s_clean}'>")
-            xml.append("          <zoom type='entire-view' />")
-            xml.append("        </viewpoint>")
-        xml.append("      </viewpoints>")
-        xml.append("      <active id='-1' />")
-        xml.append(f"      <simple-id uuid='{get_uuid(d_name)}' />")
-        xml.append("    </window>")
-
-    for ws_name in created_worksheets:
-        ws_name_clean = ws_name.replace("&", "&amp;")
-        xml.append(f"    <window class='worksheet' name='{ws_name_clean}'>")
-        xml.append("      <cards>")
-        xml.append("        <edge name='left'>")
-        xml.append("          <strip size='160'>")
-        xml.append("            <card type='pages' />")
-        xml.append("            <card type='filters' />")
-        xml.append("            <card type='marks' />")
-        xml.append("          </strip>")
-        xml.append("        </edge>")
-        xml.append("        <edge name='top'>")
-        xml.append("          <strip size='2147483647'>")
-        xml.append("            <card type='columns' />")
-        xml.append("          </strip>")
-        xml.append("          <strip size='2147483647'>")
-        xml.append("            <card type='rows' />")
-        xml.append("          </strip>")
-        xml.append("          <strip size='31'>")
-        xml.append("            <card type='title' />")
-        xml.append("          </strip>")
-        xml.append("        </edge>")
-        xml.append("      </cards>")
-        xml.append(f"      <simple-id uuid='{get_uuid(ws_name)}' />")
-        xml.append("    </window>")
+    xml.append("  <windows maximized='true'>")
+    xml.append("    <window class='dashboard' name='University Overview'>")
+    xml.append("      <viewpoints />")
+    xml.append("      <active id='-1' />")
+    xml.append("    </window>")
     xml.append("  </windows>")
     xml.append("</workbook>")
     return "\n".join(xml)
-
 
 def package_twbx(twb_content, data_files, output_path):
     temp_dir = output_path + "_pkg_tmp"
