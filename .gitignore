@@ -1,6 +1,27 @@
-.venv/
-venv/
+# Git Ignore Rules for EduVision_DV Submission
+
+# Exclude Large Raw Data Files (>100MB limit for GitHub)
+data/raw/world_bank_edstats/EdStatsData.csv
+*.csv.zip
+*.zip
+
+# Python & Environment
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
 .env
+
+# Temporary / Unpacked Files
+scratch/
+dashboard/unpacked_twbx/
+repo_temp/
+exisitng/
+
+# OS & Editor Artifacts
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
