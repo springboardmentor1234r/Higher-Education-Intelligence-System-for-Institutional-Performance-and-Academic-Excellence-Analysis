@@ -1,0 +1,259 @@
+country_id,country_name,country_code,region,income_group
+CTY_001,Afghanistan,AFG,South Asia,Low income
+CTY_002,Albania,ALB,Europe & Central Asia,Upper middle income
+CTY_003,Algeria,DZA,Middle East & North Africa,Upper middle income
+CTY_004,American Samoa,ASM,East Asia & Pacific,Upper middle income
+CTY_005,Andorra,AND,Europe & Central Asia,High income: nonOECD
+CTY_006,Angola,AGO,Sub-Saharan Africa,Upper middle income
+CTY_007,Antigua and Barbuda,ATG,Latin America & Caribbean,High income: nonOECD
+CTY_008,Arab World,ARB,Other,Unclassified
+CTY_009,Argentina,ARG,Latin America & Caribbean,Upper middle income
+CTY_010,Armenia,ARM,Europe & Central Asia,Lower middle income
+CTY_011,Aruba,ABW,Latin America & Caribbean,High income: nonOECD
+CTY_012,Australia,AUS,East Asia & Pacific,High income: OECD
+CTY_013,Austria,AUT,Europe & Central Asia,High income: OECD
+CTY_014,Azerbaijan,AZE,Europe & Central Asia,Upper middle income
+CTY_015,Bahamas,BHS,Latin America & Caribbean,High income: nonOECD
+CTY_016,Bahrain,BHR,Middle East & North Africa,High income: nonOECD
+CTY_017,Bangladesh,BGD,South Asia,Low income
+CTY_018,Barbados,BRB,Latin America & Caribbean,High income: nonOECD
+CTY_019,Belarus,BLR,Europe & Central Asia,Upper middle income
+CTY_020,Belgium,BEL,Europe & Central Asia,High income: OECD
+CTY_021,Belize,BLZ,Latin America & Caribbean,Upper middle income
+CTY_022,Benin,BEN,Sub-Saharan Africa,Low income
+CTY_023,Bermuda,BMU,North America,High income: nonOECD
+CTY_024,Bhutan,BTN,South Asia,Lower middle income
+CTY_025,Bolivia,BOL,Latin America & Caribbean,Lower middle income
+CTY_026,Bosnia and Herzegovina,BIH,Europe & Central Asia,Upper middle income
+CTY_027,Botswana,BWA,Sub-Saharan Africa,Upper middle income
+CTY_028,Brazil,BRA,Latin America & Caribbean,Upper middle income
+CTY_029,Brunei,BRN,East Asia & Pacific,High income: nonOECD
+CTY_030,Brunei Darussalam,BRN,East Asia & Pacific,High income: nonOECD
+CTY_031,Bulgaria,BGR,Europe & Central Asia,Upper middle income
+CTY_032,Burkina Faso,BFA,Sub-Saharan Africa,Low income
+CTY_033,Burundi,BDI,Sub-Saharan Africa,Low income
+CTY_034,Cabo Verde,CPV,Sub-Saharan Africa,Lower middle income
+CTY_035,Cambodia,KHM,East Asia & Pacific,Low income
+CTY_036,Cameroon,CMR,Sub-Saharan Africa,Lower middle income
+CTY_037,Canada,CAN,North America,High income: OECD
+CTY_038,Cayman Islands,CYM,Latin America & Caribbean,High income: nonOECD
+CTY_039,Central African Republic,CAF,Sub-Saharan Africa,Low income
+CTY_040,Chad,TCD,Sub-Saharan Africa,Low income
+CTY_041,Channel Islands,CHI,Europe & Central Asia,High income: nonOECD
+CTY_042,Chile,CHL,Latin America & Caribbean,High income: OECD
+CTY_043,China,CHN,East Asia & Pacific,Upper middle income
+CTY_044,Colombia,COL,Latin America & Caribbean,Upper middle income
+CTY_045,Comoros,COM,Sub-Saharan Africa,Low income
+CTY_046,Congo,COG,Sub-Saharan Africa,Lower middle income
+CTY_047,Costa Rica,CRI,Latin America & Caribbean,Upper middle income
+CTY_048,Croatia,HRV,Europe & Central Asia,High income: nonOECD
+CTY_049,Cuba,CUB,Latin America & Caribbean,Upper middle income
+CTY_050,Curaçao,CUW,Latin America & Caribbean,High income: nonOECD
+CTY_051,Cyprus,CYP,Europe & Central Asia,High income: nonOECD
+CTY_052,Czech Republic,CZE,Europe & Central Asia,High income: OECD
+CTY_053,Côte d'Ivoire,CIV,Sub-Saharan Africa,Lower middle income
+CTY_054,Dem. People's Rep. Korea,PRK,East Asia & Pacific,Low income
+CTY_055,Dem. Rep. Congo,COD,Sub-Saharan Africa,Low income
+CTY_056,Democratic Republic of the Congo,COD,Sub-Saharan Africa,Low income
+CTY_057,Denmark,DNK,Europe & Central Asia,High income: OECD
+CTY_058,Djibouti,DJI,Middle East & North Africa,Lower middle income
+CTY_059,Dominica,DMA,Latin America & Caribbean,Upper middle income
+CTY_060,Dominican Republic,DOM,Latin America & Caribbean,Upper middle income
+CTY_061,East Asia & Pacific,EAP,Other,Unclassified
+CTY_062,East Asia & Pacific (all income levels),EAS,Other,Unclassified
+CTY_063,East Asia & Pacific (developing only),EAP,Other,Unclassified
+CTY_064,Ecuador,ECU,Latin America & Caribbean,Upper middle income
+CTY_065,Egypt,EGY,Middle East & North Africa,Lower middle income
+CTY_066,El Salvador,SLV,Latin America & Caribbean,Lower middle income
+CTY_067,Equatorial Guinea,GNQ,Sub-Saharan Africa,High income: nonOECD
+CTY_068,Eritrea,ERI,Sub-Saharan Africa,Low income
+CTY_069,Estonia,EST,Europe & Central Asia,High income: OECD
+CTY_070,Ethiopia,ETH,Sub-Saharan Africa,Low income
+CTY_071,Euro area,EMU,Other,Unclassified
+CTY_072,Europe & Central Asia,ECA,Other,Unclassified
+CTY_073,Europe & Central Asia (all income levels),ECS,Other,Unclassified
+CTY_074,Europe & Central Asia (developing only),ECA,Other,Unclassified
+CTY_075,European Union,EUU,Other,Unclassified
+CTY_076,Faeroe Islands,FRO,Europe & Central Asia,High income: nonOECD
+CTY_077,Fiji,FJI,East Asia & Pacific,Upper middle income
+CTY_078,Finland,FIN,Europe & Central Asia,High income: OECD
+CTY_079,France,FRA,Europe & Central Asia,High income: OECD
+CTY_080,French Polynesia,PYF,East Asia & Pacific,High income: nonOECD
+CTY_081,Gabon,GAB,Sub-Saharan Africa,Upper middle income
+CTY_082,Gambia,GMB,Sub-Saharan Africa,Low income
+CTY_083,Georgia,GEO,Europe & Central Asia,Lower middle income
+CTY_084,Germany,DEU,Europe & Central Asia,High income: OECD
+CTY_085,Ghana,GHA,Sub-Saharan Africa,Lower middle income
+CTY_086,Gibraltar,GIB,Other,Unclassified
+CTY_087,Greece,GRC,Europe & Central Asia,High income: OECD
+CTY_088,Greenland,GRL,Europe & Central Asia,High income: nonOECD
+CTY_089,Grenada,GRD,Latin America & Caribbean,Upper middle income
+CTY_090,Guam,GUM,East Asia & Pacific,High income: nonOECD
+CTY_091,Guatemala,GTM,Latin America & Caribbean,Lower middle income
+CTY_092,Guinea,GIN,Sub-Saharan Africa,Low income
+CTY_093,Guinea-Bissau,GNB,Sub-Saharan Africa,Low income
+CTY_094,Guyana,GUY,Latin America & Caribbean,Lower middle income
+CTY_095,Haiti,HTI,Latin America & Caribbean,Low income
+CTY_096,Heavily indebted poor countries (HIPC),HPC,Other,Unclassified
+CTY_097,High income,HIC,Other,Unclassified
+CTY_098,Honduras,HND,Latin America & Caribbean,Lower middle income
+CTY_099,Hong Kong,HKG,East Asia & Pacific,High income: nonOECD
+CTY_100,Hungary,HUN,Europe & Central Asia,Upper middle income
+CTY_101,Iceland,ISL,Europe & Central Asia,High income: OECD
+CTY_102,India,IND,South Asia,Lower middle income
+CTY_103,Indonesia,IDN,East Asia & Pacific,Lower middle income
+CTY_104,Iran,IRN,Middle East & North Africa,Upper middle income
+CTY_105,Iraq,IRQ,Middle East & North Africa,Upper middle income
+CTY_106,Ireland,IRL,Europe & Central Asia,High income: OECD
+CTY_107,Isle of Man,IMN,Europe & Central Asia,High income: nonOECD
+CTY_108,Israel,ISR,Middle East & North Africa,High income: OECD
+CTY_109,Italy,ITA,Europe & Central Asia,High income: OECD
+CTY_110,Jamaica,JAM,Latin America & Caribbean,Upper middle income
+CTY_111,Japan,JPN,East Asia & Pacific,High income: OECD
+CTY_112,Jordan,JOR,Middle East & North Africa,Upper middle income
+CTY_113,Kazakhstan,KAZ,Europe & Central Asia,Upper middle income
+CTY_114,Kenya,KEN,Sub-Saharan Africa,Low income
+CTY_115,Kiribati,KIR,East Asia & Pacific,Lower middle income
+CTY_116,Korea,KOR,East Asia & Pacific,High income: OECD
+CTY_117,"Korea, Dem. Rep.",PRK,East Asia & Pacific,Low income
+CTY_118,"Korea, Rep.",KOR,East Asia & Pacific,High income: OECD
+CTY_119,Kosovo,XKX,Europe & Central Asia,Lower middle income
+CTY_120,Kuwait,KWT,Middle East & North Africa,High income: nonOECD
+CTY_121,Kyrgyz Republic,KGZ,Europe & Central Asia,Lower middle income
+CTY_122,Lao PDR,LAO,East Asia & Pacific,Lower middle income
+CTY_123,Latin America & Caribbean,LAC,Other,Unclassified
+CTY_124,Latin America & Caribbean (all income levels),LCN,Other,Unclassified
+CTY_125,Latin America & Caribbean (developing only),LAC,Other,Unclassified
+CTY_126,Latvia,LVA,Europe & Central Asia,High income: nonOECD
+CTY_127,Least developed countries: UN classification,LDC,Other,Unclassified
+CTY_128,Lebanon,LBN,Middle East & North Africa,Upper middle income
+CTY_129,Lesotho,LSO,Sub-Saharan Africa,Lower middle income
+CTY_130,Liberia,LBR,Sub-Saharan Africa,Low income
+CTY_131,Libya,LBY,Middle East & North Africa,Upper middle income
+CTY_132,Liechtenstein,LIE,Europe & Central Asia,High income: nonOECD
+CTY_133,Lithuania,LTU,Europe & Central Asia,High income: nonOECD
+CTY_134,Low & middle income,LMY,Other,Unclassified
+CTY_135,Low income,LIC,Other,Unclassified
+CTY_136,Lower middle income,LMC,Other,Unclassified
+CTY_137,Luxembourg,LUX,Europe & Central Asia,High income: OECD
+CTY_138,Macao,MAC,East Asia & Pacific,High income: nonOECD
+CTY_139,Macedonia,MKD,Europe & Central Asia,Upper middle income
+CTY_140,Madagascar,MDG,Sub-Saharan Africa,Low income
+CTY_141,Malawi,MWI,Sub-Saharan Africa,Low income
+CTY_142,Malaysia,MYS,East Asia & Pacific,Upper middle income
+CTY_143,Maldives,MDV,South Asia,Upper middle income
+CTY_144,Mali,MLI,Sub-Saharan Africa,Low income
+CTY_145,Malta,MLT,Middle East & North Africa,High income: nonOECD
+CTY_146,Marshall Islands,MHL,East Asia & Pacific,Upper middle income
+CTY_147,Mauritania,MRT,Sub-Saharan Africa,Lower middle income
+CTY_148,Mauritius,MUS,Sub-Saharan Africa,Upper middle income
+CTY_149,Mexico,MEX,Latin America & Caribbean,Upper middle income
+CTY_150,Micronesia,FSM,East Asia & Pacific,Lower middle income
+CTY_151,"Micronesia, Fed. Sts.",FSM,East Asia & Pacific,Lower middle income
+CTY_152,Middle East & North Africa,MNA,Other,Unclassified
+CTY_153,Middle East & North Africa (all income levels),MEA,Other,Unclassified
+CTY_154,Middle East & North Africa (developing only),MNA,Other,Unclassified
+CTY_155,Middle income,MIC,Other,Unclassified
+CTY_156,Moldova,MDA,Europe & Central Asia,Lower middle income
+CTY_157,Monaco,MCO,Europe & Central Asia,High income: nonOECD
+CTY_158,Mongolia,MNG,East Asia & Pacific,Lower middle income
+CTY_159,Montenegro,MNE,Europe & Central Asia,Upper middle income
+CTY_160,Morocco,MAR,Middle East & North Africa,Lower middle income
+CTY_161,Mozambique,MOZ,Sub-Saharan Africa,Low income
+CTY_162,Myanmar,MMR,East Asia & Pacific,Low income
+CTY_163,Namibia,NAM,Sub-Saharan Africa,Upper middle income
+CTY_164,Nauru,NRU,Other,Unclassified
+CTY_165,Nepal,NPL,South Asia,Low income
+CTY_166,Netherlands,NLD,Europe & Central Asia,High income: OECD
+CTY_167,New Caledonia,NCL,East Asia & Pacific,High income: nonOECD
+CTY_168,New Zealand,NZL,East Asia & Pacific,High income: OECD
+CTY_169,Nicaragua,NIC,Latin America & Caribbean,Lower middle income
+CTY_170,Niger,NER,Sub-Saharan Africa,Low income
+CTY_171,Nigeria,NGA,Sub-Saharan Africa,Lower middle income
+CTY_172,North America,NAC,Other,Unclassified
+CTY_173,North Macedonia,MKD,Europe & Central Asia,Upper middle income
+CTY_174,Northern Cyprus,N/A,Other,Unclassified
+CTY_175,Northern Mariana Islands,MNP,East Asia & Pacific,High income: nonOECD
+CTY_176,Norway,NOR,Europe & Central Asia,High income: OECD
+CTY_177,OECD members,OED,Other,Unclassified
+CTY_178,Oman,OMN,Middle East & North Africa,High income: nonOECD
+CTY_179,Pakistan,PAK,South Asia,Lower middle income
+CTY_180,Palau,PLW,East Asia & Pacific,Upper middle income
+CTY_181,Palestine,PSE,Middle East & North Africa,Lower middle income
+CTY_182,Panama,PAN,Latin America & Caribbean,Upper middle income
+CTY_183,Papua New Guinea,PNG,East Asia & Pacific,Lower middle income
+CTY_184,Paraguay,PRY,Latin America & Caribbean,Lower middle income
+CTY_185,Peru,PER,Latin America & Caribbean,Upper middle income
+CTY_186,Philippines,PHL,East Asia & Pacific,Lower middle income
+CTY_187,Poland,POL,Europe & Central Asia,High income: OECD
+CTY_188,Portugal,PRT,Europe & Central Asia,High income: OECD
+CTY_189,Puerto Rico,PRI,Latin America & Caribbean,High income: nonOECD
+CTY_190,Qatar,QAT,Middle East & North Africa,High income: nonOECD
+CTY_191,Republic of the Congo,COG,Sub-Saharan Africa,Lower middle income
+CTY_192,Romania,ROU,Europe & Central Asia,Upper middle income
+CTY_193,Russia,RUS,Europe & Central Asia,High income: nonOECD
+CTY_194,Rwanda,RWA,Sub-Saharan Africa,Low income
+CTY_195,Saint Kitts and Nevis,KNA,Latin America & Caribbean,High income: nonOECD
+CTY_196,Saint Lucia,LCA,Latin America & Caribbean,Upper middle income
+CTY_197,Saint Vincent and the Grenadines,VCT,Latin America & Caribbean,Upper middle income
+CTY_198,Samoa,WSM,East Asia & Pacific,Lower middle income
+CTY_199,San Marino,SMR,Europe & Central Asia,High income: nonOECD
+CTY_200,Saudi Arabia,SAU,Middle East & North Africa,High income: nonOECD
+CTY_201,Senegal,SEN,Sub-Saharan Africa,Lower middle income
+CTY_202,Serbia,SRB,Europe & Central Asia,Upper middle income
+CTY_203,Seychelles,SYC,Sub-Saharan Africa,Upper middle income
+CTY_204,Sierra Leone,SLE,Sub-Saharan Africa,Low income
+CTY_205,Singapore,SGP,East Asia & Pacific,High income: nonOECD
+CTY_206,Sint Maarten (Dutch part),SXM,Latin America & Caribbean,High income: nonOECD
+CTY_207,Slovak Republic,SVK,Europe & Central Asia,High income: OECD
+CTY_208,Slovenia,SVN,Europe & Central Asia,High income: OECD
+CTY_209,Solomon Islands,SLB,East Asia & Pacific,Lower middle income
+CTY_210,Somalia,SOM,Sub-Saharan Africa,Low income
+CTY_211,South Africa,ZAF,Sub-Saharan Africa,Upper middle income
+CTY_212,South Asia,SAS,Other,Unclassified
+CTY_213,South Sudan,SSD,Sub-Saharan Africa,Lower middle income
+CTY_214,Spain,ESP,Europe & Central Asia,High income: OECD
+CTY_215,Sri Lanka,LKA,South Asia,Lower middle income
+CTY_216,St. Martin (French part),MAF,Latin America & Caribbean,High income: nonOECD
+CTY_217,Sub-Saharan Africa,SSA,Other,Unclassified
+CTY_218,Sub-Saharan Africa (all income levels),SSF,Other,Unclassified
+CTY_219,Sub-Saharan Africa (developing only),SSA,Other,Unclassified
+CTY_220,Sudan,SDN,Sub-Saharan Africa,Lower middle income
+CTY_221,Suriname,SUR,Latin America & Caribbean,Upper middle income
+CTY_222,Swaziland,SWZ,Sub-Saharan Africa,Lower middle income
+CTY_223,Sweden,SWE,Europe & Central Asia,High income: OECD
+CTY_224,Switzerland,CHE,Europe & Central Asia,High income: OECD
+CTY_225,Syria,SYR,Middle East & North Africa,Lower middle income
+CTY_226,São Tomé and Principe,STP,Sub-Saharan Africa,Lower middle income
+CTY_227,Taiwan,N/A,Other,Unclassified
+CTY_228,Tajikistan,TJK,Europe & Central Asia,Low income
+CTY_229,Tanzania,TZA,Sub-Saharan Africa,Low income
+CTY_230,Thailand,THA,East Asia & Pacific,Upper middle income
+CTY_231,The Bahamas,BHS,Latin America & Caribbean,High income: nonOECD
+CTY_232,The Gambia,GMB,Sub-Saharan Africa,Low income
+CTY_233,Timor-Leste,TLS,East Asia & Pacific,Lower middle income
+CTY_234,Togo,TGO,Sub-Saharan Africa,Low income
+CTY_235,Tonga,TON,East Asia & Pacific,Upper middle income
+CTY_236,Trinidad and Tobago,TTO,Latin America & Caribbean,High income: nonOECD
+CTY_237,Tunisia,TUN,Middle East & North Africa,Upper middle income
+CTY_238,Turkey,TUR,Europe & Central Asia,Upper middle income
+CTY_239,Turkmenistan,TKM,Europe & Central Asia,Upper middle income
+CTY_240,Turks and Caicos Islands,TCA,Latin America & Caribbean,High income: nonOECD
+CTY_241,Tuvalu,TUV,East Asia & Pacific,Upper middle income
+CTY_242,Uganda,UGA,Sub-Saharan Africa,Low income
+CTY_243,Ukraine,UKR,Europe & Central Asia,Lower middle income
+CTY_244,United Arab Emirates,ARE,Middle East & North Africa,High income: nonOECD
+CTY_245,United Kingdom,GBR,Europe & Central Asia,High income: OECD
+CTY_246,United States,USA,North America,High income: OECD
+CTY_247,Upper middle income,UMC,Other,Unclassified
+CTY_248,Uruguay,URY,Latin America & Caribbean,High income: nonOECD
+CTY_249,Uzbekistan,UZB,Europe & Central Asia,Lower middle income
+CTY_250,Vanuatu,VUT,East Asia & Pacific,Lower middle income
+CTY_251,Venezuela,VEN,Latin America & Caribbean,Upper middle income
+CTY_252,Vietnam,VNM,East Asia & Pacific,Lower middle income
+CTY_253,Virgin Islands,VIR,Latin America & Caribbean,High income: nonOECD
+CTY_254,Virgin Islands (U.S.),VIR,Latin America & Caribbean,High income: nonOECD
+CTY_255,World,WLD,Other,Unclassified
+CTY_256,Yemen,YEM,Middle East & North Africa,Lower middle income
+CTY_257,Zambia,ZMB,Sub-Saharan Africa,Lower middle income
+CTY_258,Zimbabwe,ZWE,Sub-Saharan Africa,Low income
