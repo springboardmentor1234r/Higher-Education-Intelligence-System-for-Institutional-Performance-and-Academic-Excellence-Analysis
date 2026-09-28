@@ -657,10 +657,63 @@ def generate_twb(mode="full"):
 
     xml.append("  </dashboards>")
     xml.append("  <windows>")
-    xml.append("    <window class='dashboard' maximized='true' name='University Overview'>")
-    xml.append("      <viewpoints />")
-    xml.append("      <active id='-1' />")
-    xml.append("    </window>")
+    
+    # 1. Dashboard windows with explicit viewpoints for their constituent sheets
+    for idx, (d_name, d_title, d_kpis, d_sheets, d_nav) in enumerate(target_dashboards):
+        max_attr = " maximized='true'" if idx == 0 else ""
+        d_win_uuid = get_uuid(d_name + "_win")
+        xml.append(f"    <window class='dashboard'{max_attr} name='{d_name}'>")
+        xml.append("      <viewpoints>")
+        for s in d_sheets:
+            xml.append(f"        <viewpoint name='{s}'>")
+            xml.append("          <zoom type='entire-view' />")
+            xml.append("        </viewpoint>")
+        xml.append("      </viewpoints>")
+        xml.append("      <active id='-1' />")
+        xml.append(f"      <simple-id uuid='{d_win_uuid}' />")
+        xml.append("    </window>")
+
+    # 2. Worksheet windows (visual representations of all sheets in workbook)
+    all_sheet_names = [
+        "Top 10 Global Rankings",
+        "Global University Footprint",
+        "Academic Reputation vs Score",
+        "National Capacity Benchmark",
+        "Citations vs Overall Score",
+        "Research Productivity vs Score",
+        "Regional Academic Performance",
+        "Faculty-to-Student Ratio",
+        "International Student Diversity",
+        "Regional Research Performance",
+        "Top 10 Campus Diversity",
+        "National Quality Benchmark"
+    ]
+    for s_name in all_sheet_names:
+        s_win_uuid = get_uuid(s_name + "_win")
+        xml.append(f"    <window class='worksheet' name='{s_name}'>")
+        xml.append("      <cards>")
+        xml.append("        <edge name='left'>")
+        xml.append("          <strip size='160'>")
+        xml.append("            <card type='pages' />")
+        xml.append("            <card type='filters' />")
+        xml.append("            <card type='marks' />")
+        xml.append("          </strip>")
+        xml.append("        </edge>")
+        xml.append("        <edge name='top'>")
+        xml.append("          <strip size='2147483647'>")
+        xml.append("            <card type='columns' />")
+        xml.append("          </strip>")
+        xml.append("          <strip size='2147483647'>")
+        xml.append("            <card type='rows' />")
+        xml.append("          </strip>")
+        xml.append("          <strip size='31'>")
+        xml.append("            <card type='title' />")
+        xml.append("          </strip>")
+        xml.append("        </edge>")
+        xml.append("      </cards>")
+        xml.append(f"      <simple-id uuid='{s_win_uuid}' />")
+        xml.append("    </window>")
+
     xml.append("  </windows>")
     xml.append("</workbook>")
     return "\n".join(xml)
