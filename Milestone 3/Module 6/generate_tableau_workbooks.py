@@ -8,14 +8,62 @@ import time
 def get_uuid(name):
     return f"{{{str(uuid.uuid5(uuid.NAMESPACE_DNS, name)).upper()}}}"
 
-def make_action_name(idx, key):
-    hex_id = uuid.uuid5(uuid.NAMESPACE_DNS, key).hex.upper()
-    return f"[Action{idx}_{hex_id}]"
-
 def generate_twb(mode="full"):
     is_proto = (mode == "prototype")
     is_v1 = (mode == "v1")
     is_full = (mode == "full")
+
+    dashboards_info = [
+        # Dashboard 1: University Overview
+        ("University Overview", "UNIVERSITY OVERVIEW", [
+            ("TOP GLOBAL RANK", "#1 (MIT)", "★ World Leader", "#C084FC"),
+            ("TOTAL UNIVERSITIES", "1,503", "106 Sovereign Nations", "#38BDF8"),
+            ("AVERAGE SCORE", "72.6 / 100", "+2.4% vs Baseline", "#A855F7"),
+            ("INTL STUDENTS %", "28.7%", "Global Student Mobility", "#F59E0B"),
+            ("FACULTY RATIO", "1 : 11.2", "Teaching Staff Benchmark", "#34D399"),
+            ("RESEARCH IMPACT", "84.3 / 100", "Normalized Citations", "#F43F5E"),
+        ], ["Top 10 Global Rankings", "Academic Reputation vs Score", "Global University Footprint", "National Capacity Benchmark"], 1),
+
+        # Dashboard 2: Research Analytics
+        ("Research Analytics", "RESEARCH ANALYTICS", [
+            ("AVG RESEARCH SCORE", "82.4 / 100", "Scholarly Environment", "#C084FC"),
+            ("CITATION VELOCITY", "86.1 / 100", "Cross-Field Citations", "#38BDF8"),
+            ("PRODUCTIVITY INDEX", "84.9 / 100", "Composite Derivation", "#A855F7"),
+            ("INTL RESEARCH COLLAB", "78.2 / 100", "Cross-Border Networks", "#F59E0B"),
+            ("TOP RESEARCH HUB", "Harvard (99.9)", "#1 Research Volume", "#34D399"),
+            ("PEAK CITATION LEADER", "99.87 / 100", "Global Impact Leader", "#F43F5E"),
+        ], ["Research Productivity Rankings", "Citation Impact vs Research", "Regional Academic Performance", "Regional Research Performance"], 2),
+
+        # Dashboard 3: Student Analytics
+        ("Student Analytics", "STUDENT ANALYTICS", [
+            ("TOTAL STUDENTS", "18.4M", "Across Matched Institutions", "#C084FC"),
+            ("AVG INTL STUDENTS %", "28.7%", "Continuous Metric", "#38BDF8"),
+            ("STUDENTS PER STAFF", "1 : 11.2", "Staffing Benchmark", "#A855F7"),
+            ("GENDER PARITY (F:M)", "51 : 49", "Global Equality Ratio", "#F59E0B"),
+            ("TOP DIVERSITY HUB", "Macau (91.0%)", "Leading Global Hub", "#34D399"),
+            ("TOP FACULTY RATIO", "Caltech (3.8:1)", "Best Tutorial Staffing", "#F43F5E"),
+        ], ["Top 10 Campus Diversity", "Faculty-to-Student Ratio", "International Student Diversity", "Regional Academic Performance"], 3),
+
+        # Dashboard 4: Country Comparison
+        ("Country Comparison", "COUNTRY COMPARISON", [
+            ("TOP CAPACITY NATION", "United States (197)", "Ranked Institutions", "#C084FC"),
+            ("AVG NATIONAL SCORE", "58.4 / 100", "Country Benchmark", "#38BDF8"),
+            ("GOVT SPEND (% GDP)", "4.82%", "Public Tertiary Spend", "#A855F7"),
+            ("TERTIARY ENROLLMENT", "62.4%", "Gross Enrolment Ratio", "#F59E0B"),
+            ("EUROPE CAPACITY", "United Kingdom (90)", "European Leader", "#34D399"),
+            ("ASIA CAPACITY", "China (71)", "Asian Leader", "#F43F5E"),
+        ], ["National Capacity Benchmark", "National Quality Benchmark", "Global University Footprint", "Regional Academic Performance"], 4)
+    ]
+
+    target_dashboards = []
+    if is_proto:
+        target_dashboards = dashboards_info[:1]
+    elif is_v1:
+        target_dashboards = dashboards_info[:2]
+    else:
+        target_dashboards = dashboards_info
+
+    dash_names = [d[0] for d in target_dashboards]
 
     xml = []
     xml.append("<?xml version='1.0' encoding='utf-8' ?>")
@@ -81,44 +129,58 @@ def generate_twb(mode="full"):
     xml.append("    </datasource>")
     xml.append("  </datasources>")
 
-    # Scoped Actions with Exclude Protection (Zero Blank Graphs)
+    # Interconnected Cross-Dashboard Filter and Highlight Actions Block
     xml.append("  <actions>")
-    all_actions = [
-        ("Filter Scatter by University", 1, "act_ov_uni", "University Overview", "Top 10 Global Rankings", "University Overview", "Top 10 Global Rankings,Global University Footprint,National Capacity Benchmark"),
-        ("Filter Overview by Region", 2, "act_ov_reg", "University Overview", "Global University Footprint", "University Overview", "Global University Footprint"),
-        ("Interlink Research Scatter from Overview", 3, "act_res_from_ov", "University Overview", "Top 10 Global Rankings", "Research Analytics", "Research Productivity Rankings,Regional Academic Performance,Regional Research Performance"),
-        ("Interlink Country Benchmarks from Overview", 4, "act_cty_from_ov", "University Overview", "Global University Footprint", "Country Comparison", "Global University Footprint,Regional Academic Performance"),
-        ("Filter Research Scatter by University", 5, "act_res_uni", "Research Analytics", "Research Productivity Rankings", "Research Analytics", "Research Productivity Rankings,Regional Academic Performance,Regional Research Performance"),
-        ("Filter Research by Region", 6, "act_res_reg", "Research Analytics", "Regional Research Performance", "Research Analytics", "Regional Research Performance,Regional Academic Performance"),
-        ("Filter Campus Diversity by Region", 7, "act_stu_reg", "Student Analytics", "International Student Diversity", "Student Analytics", "International Student Diversity,Faculty-to-Student Ratio,Regional Academic Performance"),
-        ("Filter Country Quality by Capacity", 8, "act_cty_cap", "Country Comparison", "National Capacity Benchmark", "Country Comparison", "National Capacity Benchmark,Global University Footprint,Regional Academic Performance"),
-        ("Filter Country Benchmarks by Region", 9, "act_cty_reg", "Country Comparison", "Global University Footprint", "Country Comparison", "Global University Footprint,Regional Academic Performance"),
-    ]
-    
-    selected_actions = []
-    if is_proto:
-        selected_actions = all_actions[:2]
-    elif is_v1:
-        selected_actions = [a for a in all_actions if a[3] in ["University Overview", "Research Analytics"] and a[5] in ["University Overview", "Research Analytics"]]
-    else:
-        selected_actions = all_actions
+    for s_idx, src_dash in enumerate(dash_names):
+        # Intra-dashboard filter action
+        act_id_self = f"[Action_Filter_{s_idx}_Self]"
+        xml.append(f"    <action caption='Filter {src_dash} Views' name='{act_id_self}'>")
+        xml.append("      <activation auto-clear='true' type='on-select' />")
+        xml.append(f"      <source dashboard='{src_dash}' type='sheet' />")
+        xml.append("      <command command='tsc:tsl-filter'>")
+        xml.append("        <param name='special-fields' value='all' />")
+        xml.append(f"        <param name='target' value='{src_dash}' />")
+        xml.append("      </command>")
+        xml.append("    </action>")
 
-    for cap, idx, key, s_dash, s_sheet, target, exclude in selected_actions:
-        act_name = make_action_name(idx, key)
-        xml.append(f'    <action caption="{cap}" name="{act_name}">')
-        xml.append('      <activation auto-clear="true" type="on-select" />')
-        xml.append(f'      <source dashboard="{s_dash}" type="sheet" worksheet="{s_sheet}" />')
-        xml.append('      <command command="tsc:tsl-filter">')
-        if exclude:
-            xml.append(f'        <param name="exclude" value="{exclude}" />')
-        xml.append('        <param name="special-fields" value="all" />')
-        xml.append(f'        <param name="target" value="{target}" />')
-        xml.append('      </command>')
-        xml.append('    </action>')
+        # Interconnected cross-dashboard actions to other dashboards
+        for t_idx, tgt_dash in enumerate(dash_names):
+            if tgt_dash != src_dash:
+                act_id_cross = f"[Action_Cross_{s_idx}_{t_idx}]"
+                xml.append(f"    <action caption='Cross-Filter: {src_dash} to {tgt_dash}' name='{act_id_cross}'>")
+                xml.append("      <activation auto-clear='true' type='on-select' />")
+                xml.append(f"      <source dashboard='{src_dash}' type='sheet' />")
+                xml.append("      <command command='tsc:tsl-filter'>")
+                xml.append("        <param name='special-fields' value='all' />")
+                xml.append(f"        <param name='target' value='{tgt_dash}' />")
+                xml.append("      </command>")
+                xml.append("    </action>")
+
+    # Geographic Region Highlight Action
+    xml.append("    <action caption='Highlight Geographic Region Across Dashboards' name='[Action_Highlight_Region]'>")
+    xml.append("      <activation auto-clear='true' type='on-hover' />")
+    xml.append(f"      <source dashboard='{dash_names[0]}' type='sheet' />")
+    xml.append("      <command command='tsc:brush'>")
+    xml.append("        <param name='field-captions' value='Geographic Region' />")
+    xml.append(f"        <param name='target' value='{','.join(dash_names)}' />")
+    xml.append("      </command>")
+    xml.append("    </action>")
+
+    xml.append("    <datasources>")
+    xml.append("      <datasource caption='KPI_Master (university_final_dataset)' name='federated.eduvision_kpi' />")
+    xml.append("    </datasources>")
+    xml.append("    <datasource-dependencies datasource='federated.eduvision_kpi'>")
+    xml.append("      <column datatype='string' name='[country_name]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />")
+    xml.append("      <column datatype='string' name='[region]' role='dimension' type='nominal' />")
+    xml.append("      <column datatype='string' name='[university_name]' role='dimension' type='nominal' />")
+    xml.append("    </datasource-dependencies>")
     xml.append("  </actions>")
 
-    # Helper for worksheets - refined executive dark violet styling
+    # Helper for worksheets - tracks created sheets
+    created_sheet_names = []
+
     def make_sheet(name, title, mark_type, rows, cols, col_instances, color_col=None, lod_col=None, label_col=None, rank_filter=None, country_filter=False):
+        created_sheet_names.append(name)
         lines = []
         lines.append(f"    <worksheet name='{name}'>")
         lines.append("      <layout-options>")
@@ -147,10 +209,21 @@ def generate_twb(mode="full"):
         lines.append("            <column caption='Research Productivity Index' datatype='real' default-format='n#,##0.0' name='[kpi_research_productivity_index]' role='measure' type='quantitative' />")
         lines.append("            <column caption='Total FTE Students' datatype='real' default-format='n#,##0' name='[total_students]' role='measure' type='quantitative' />")
         
-        for col_name, deriv, inst_name, ptype in col_instances:
+        # Ensure column instances has none:region:nk so filtering by region works on all sheets
+        instances_set = {inst[2] for inst in col_instances}
+        all_instances = list(col_instances)
+        if "none:region:nk" not in instances_set:
+            all_instances.append(("region", "None", "none:region:nk", "nominal"))
+
+        for col_name, deriv, inst_name, ptype in all_instances:
             lines.append(f"            <column-instance column='[{col_name}]' derivation='{deriv}' name='[{inst_name}]' pivot='key' type='{ptype}' />")
         lines.append("          </datasource-dependencies>")
         
+        # Shared categorical region filter across all sheets
+        lines.append("          <filter class='categorical' column='[federated.eduvision_kpi].[none:region:nk]' filter-group='2'>")
+        lines.append("            <groupfilter function='level-members' level='[none:region:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />")
+        lines.append("          </filter>")
+
         if rank_filter:
             r_min, r_max = rank_filter
             lines.append("          <filter class='quantitative' column='[federated.eduvision_kpi].[none:global_rank:qk]' included-values='in-range'>")
@@ -466,19 +539,53 @@ def generate_twb(mode="full"):
             
         sidebar_runs.append("<run fontcolor='#2D1C59' fontname='Segoe UI' fontsize='6'>───────────────────</run>")
         sidebar_runs.append("<run fontname='Segoe UI' fontsize='3'>&#10;</run>")
-        sidebar_runs.append("<run bold='true' fontcolor='#C084FC' fontname='Segoe UI' fontsize='8'>Filters:</run>")
+        sidebar_runs.append("<run bold='true' fontcolor='#C084FC' fontname='Segoe UI' fontsize='8'>REGION FILTER:</run>")
         sidebar_runs.append("<run fontname='Segoe UI' fontsize='3'>&#10;</run>")
-        sidebar_runs.append("<run fontcolor='#94A3B8' fontname='Segoe UI' fontsize='7'>Top N: 15</run>")
-        sidebar_runs.append("<run fontname='Segoe UI' fontsize='3'>&#10;</run>")
-        sidebar_runs.append("<run fontcolor='#94A3B8' fontname='Segoe UI' fontsize='7'>Region: (All)</run>")
-        sidebar_runs.append("<run fontname='Segoe UI' fontsize='6'>&#10;&#10;&#10;</run>")
-        sidebar_runs.append("<run bold='true' fontcolor='#C084FC' fontname='Segoe UI' fontsize='8'>↺ Reset Filters</run>")
+        sidebar_runs.append("<run fontcolor='#94A3B8' fontname='Segoe UI' fontsize='7'>Select Geographic Region:</run>")
 
         sidebar_str = "".join(sidebar_runs)
 
-        lines.append("          <zone h='98400' id='2' type-v2='text' w='14200' x='800' y='800'>")
+        # Upper Sidebar Text Box (Brand + Nav + Filter Title)
+        lines.append("          <zone h='46000' id='2' type-v2='text' w='14200' x='800' y='800'>")
         lines.append("            <formatted-text>")
         lines.append(f"              {sidebar_str}")
+        lines.append("            </formatted-text>")
+        lines.append("            <zone-style>")
+        lines.append("              <format attr='border-style' value='solid' />")
+        lines.append("              <format attr='border-width' value='1' />")
+        lines.append("              <format attr='border-color' value='#2D1C59' />")
+        lines.append("              <format attr='background-color' value='#120B24' />")
+        lines.append("              <format attr='padding' value='8' />")
+        lines.append("            </zone-style>")
+        lines.append("          </zone>")
+
+        # Interactive Filter Control (Live Dropdown with Checkboxes)
+        first_sheet = sheets[0]
+        lines.append(f"          <zone h='6500' id='25' mode='checkdropdown' name='{first_sheet}' param='[federated.eduvision_kpi].[none:region:nk]' type-v2='filter' w='13000' x='1400' y='47200'>")
+        lines.append("            <zone-style>")
+        lines.append("              <format attr='border-style' value='solid' />")
+        lines.append("              <format attr='border-width' value='1' />")
+        lines.append("              <format attr='border-color' value='#2D1C59' />")
+        lines.append("              <format attr='background-color' value='#120B24' />")
+        lines.append("            </zone-style>")
+        lines.append("          </zone>")
+
+        # Lower Sidebar Text Box (Cross-Filter Guide + Reset Instructions)
+        lower_runs = []
+        lower_runs.append("<run bold='true' fontcolor='#C084FC' fontname='Segoe UI' fontsize='8'>INTERACTIONS:</run>")
+        lower_runs.append("<run fontname='Segoe UI' fontsize='3'>&#10;</run>")
+        lower_runs.append("<run fontcolor='#38BDF8' fontname='Segoe UI' fontsize='7'>• Live Cross-Filtering:</run>")
+        lower_runs.append("<run fontname='Segoe UI' fontsize='2'>&#10;</run>")
+        lower_runs.append("<run fontcolor='#94A3B8' fontname='Segoe UI' fontsize='6'>Click any bar or data point in any chart to filter all 4 dashboards.</run>")
+        lower_runs.append("<run fontname='Segoe UI' fontsize='4'>&#10;&#10;</run>")
+        lower_runs.append("<run fontcolor='#38BDF8' fontname='Segoe UI' fontsize='7'>• Auto-Clear / Reset:</run>")
+        lower_runs.append("<run fontname='Segoe UI' fontsize='2'>&#10;</run>")
+        lower_runs.append("<run fontcolor='#94A3B8' fontname='Segoe UI' fontsize='6'>Click mark again or select '(All)' in region dropdown to reset.</run>")
+        lower_str = "".join(lower_runs)
+
+        lines.append("          <zone h='44500' id='26' type-v2='text' w='14200' x='800' y='54700'>")
+        lines.append("            <formatted-text>")
+        lines.append(f"              {lower_str}")
         lines.append("            </formatted-text>")
         lines.append("            <zone-style>")
         lines.append("              <format attr='border-style' value='solid' />")
@@ -602,56 +709,6 @@ def generate_twb(mode="full"):
         lines.append("    </dashboard>")
         return lines
 
-    dashboards_info = [
-        # Dashboard 1: University Overview
-        ("University Overview", "UNIVERSITY OVERVIEW", [
-            ("TOP GLOBAL RANK", "#1 (MIT)", "★ World Leader", "#C084FC"),
-            ("TOTAL UNIVERSITIES", "1,503", "106 Sovereign Nations", "#38BDF8"),
-            ("AVERAGE SCORE", "72.6 / 100", "+2.4% vs Baseline", "#A855F7"),
-            ("INTL STUDENTS %", "28.7%", "Global Student Mobility", "#F59E0B"),
-            ("FACULTY RATIO", "1 : 11.2", "Teaching Staff Benchmark", "#34D399"),
-            ("RESEARCH IMPACT", "84.3 / 100", "Normalized Citations", "#F43F5E"),
-        ], ["Top 10 Global Rankings", "Academic Reputation vs Score", "Global University Footprint", "National Capacity Benchmark"], 1),
-
-        # Dashboard 2: Research Analytics
-        ("Research Analytics", "RESEARCH ANALYTICS", [
-            ("AVG RESEARCH SCORE", "82.4 / 100", "Scholarly Environment", "#C084FC"),
-            ("CITATION VELOCITY", "86.1 / 100", "Cross-Field Citations", "#38BDF8"),
-            ("PRODUCTIVITY INDEX", "84.9 / 100", "Composite Derivation", "#A855F7"),
-            ("INTL RESEARCH COLLAB", "78.2 / 100", "Cross-Border Networks", "#F59E0B"),
-            ("TOP RESEARCH HUB", "Harvard (99.9)", "#1 Research Volume", "#34D399"),
-            ("PEAK CITATION LEADER", "99.87 / 100", "Global Impact Leader", "#F43F5E"),
-        ], ["Research Productivity Rankings", "Citation Impact vs Research", "Regional Academic Performance", "Regional Research Performance"], 2),
-
-        # Dashboard 3: Student Analytics
-        ("Student Analytics", "STUDENT ANALYTICS", [
-            ("TOTAL STUDENTS", "18.4M", "Across Matched Institutions", "#C084FC"),
-            ("AVG INTL STUDENTS %", "28.7%", "Continuous Metric", "#38BDF8"),
-            ("STUDENTS PER STAFF", "1 : 11.2", "Staffing Benchmark", "#A855F7"),
-            ("GENDER PARITY (F:M)", "51 : 49", "Global Equality Ratio", "#F59E0B"),
-            ("TOP DIVERSITY HUB", "Macau (91.0%)", "Leading Global Hub", "#34D399"),
-            ("TOP FACULTY RATIO", "Caltech (3.8:1)", "Best Tutorial Staffing", "#F43F5E"),
-        ], ["Top 10 Campus Diversity", "Faculty-to-Student Ratio", "International Student Diversity", "Regional Academic Performance"], 3),
-
-        # Dashboard 4: Country Comparison
-        ("Country Comparison", "COUNTRY COMPARISON", [
-            ("TOP CAPACITY NATION", "United States (197)", "Ranked Institutions", "#C084FC"),
-            ("AVG NATIONAL SCORE", "58.4 / 100", "Country Benchmark", "#38BDF8"),
-            ("GOVT SPEND (% GDP)", "4.82%", "Public Tertiary Spend", "#A855F7"),
-            ("TERTIARY ENROLLMENT", "62.4%", "Gross Enrolment Ratio", "#F59E0B"),
-            ("EUROPE CAPACITY", "United Kingdom (90)", "European Leader", "#34D399"),
-            ("ASIA CAPACITY", "China (71)", "Asian Leader", "#F43F5E"),
-        ], ["National Capacity Benchmark", "National Quality Benchmark", "Global University Footprint", "Regional Academic Performance"], 4)
-    ]
-
-    target_dashboards = []
-    if is_proto:
-        target_dashboards = dashboards_info[:1]
-    elif is_v1:
-        target_dashboards = dashboards_info[:2]
-    else:
-        target_dashboards = dashboards_info
-
     for d_name, d_title, d_kpis, d_sheets, d_nav in target_dashboards:
         xml.extend(make_dashboard_xml(d_name, d_title, d_kpis, d_sheets, d_nav))
 
@@ -673,24 +730,10 @@ def generate_twb(mode="full"):
         xml.append(f"      <simple-id uuid='{d_win_uuid}' />")
         xml.append("    </window>")
 
-    # 2. Worksheet windows (visual representations of all sheets in workbook)
-    all_sheet_names = [
-        "Top 10 Global Rankings",
-        "Global University Footprint",
-        "Academic Reputation vs Score",
-        "National Capacity Benchmark",
-        "Citations vs Overall Score",
-        "Research Productivity vs Score",
-        "Regional Academic Performance",
-        "Faculty-to-Student Ratio",
-        "International Student Diversity",
-        "Regional Research Performance",
-        "Top 10 Campus Diversity",
-        "National Quality Benchmark"
-    ]
-    for s_name in all_sheet_names:
+    # 2. Worksheet windows (hidden from tabs so only the dashboards appear in tab bar)
+    for s_name in created_sheet_names:
         s_win_uuid = get_uuid(s_name + "_win")
-        xml.append(f"    <window class='worksheet' name='{s_name}'>")
+        xml.append(f"    <window class='worksheet' hidden='true' name='{s_name}'>")
         xml.append("      <cards>")
         xml.append("        <edge name='left'>")
         xml.append("          <strip size='160'>")
@@ -717,7 +760,6 @@ def generate_twb(mode="full"):
     xml.append("  </windows>")
     xml.append("</workbook>")
     return "\n".join(xml)
-
 
 def package_twbx(twb_content, data_files, output_path):
     temp_dir = output_path + "_pkg_tmp"
