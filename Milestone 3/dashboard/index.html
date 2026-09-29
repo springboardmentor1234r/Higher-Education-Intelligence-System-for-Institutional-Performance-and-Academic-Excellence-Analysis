@@ -621,6 +621,7 @@
         <p>EduVision Higher Education Intelligence System &copy; 2026. Data sources: QS 2025, THE 2024, WUR 2023, World Bank EdStats.</p>
     </footer>
 
+    <script src="data/dashboard_data.js"></script>
     <script>
         // Global App State
         let RAW_DATA = null;
@@ -629,15 +630,27 @@
         let activeView = 'overview';
         let chartInstances = {};
 
-        // Load JSON Bundle
-        fetch('data/dashboard_data.json')
-            .then(res => res.json())
-            .then(data => {
-                RAW_DATA = data;
+        // Load Data (Supports both file:// via script tag and http:// via fetch)
+        if (typeof DASHBOARD_DATA !== 'undefined' && DASHBOARD_DATA !== null) {
+            RAW_DATA = DASHBOARD_DATA;
+            window.addEventListener('DOMContentLoaded', () => {
                 initFilters();
                 renderAll();
-            })
-            .catch(err => console.error("Error loading dashboard data:", err));
+            });
+            if (document.readyState === 'complete' || document.readyState === 'interactive') {
+                initFilters();
+                renderAll();
+            }
+        } else {
+            fetch('data/dashboard_data.json')
+                .then(res => res.json())
+                .then(data => {
+                    RAW_DATA = data;
+                    initFilters();
+                    renderAll();
+                })
+                .catch(err => console.error("Error loading dashboard data:", err));
+        }
 
         function initFilters() {
             const regSel = document.getElementById('filter-region');
