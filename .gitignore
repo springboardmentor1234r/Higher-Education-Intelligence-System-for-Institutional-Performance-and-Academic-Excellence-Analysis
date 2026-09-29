@@ -2,6 +2,7 @@
 
 # Exclude Large Raw Data Files (>100MB limit for GitHub)
 data/raw/world_bank_edstats/EdStatsData.csv
+**/EdStatsData.csv
 *.csv.zip
 *.zip
 
