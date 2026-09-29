@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Tableau autosave / recovery files
+.~*.twbr
+*.twbr
+Book*.twb
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
