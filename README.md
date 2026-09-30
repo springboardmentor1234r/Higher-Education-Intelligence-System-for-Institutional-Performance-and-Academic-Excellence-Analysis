@@ -477,3 +477,15 @@ Higher Education Intelligence System
 
 **Project Repository:**  
 Higher-Education-Intelligence-System-for-Institutional-Performance-and-Academic-Excellence-Analysis
+
+**Screenshots**
+<img width="1891" height="1022" alt="University Overview Dashboard" src="https://github.com/user-attachments/assets/017b867c-35f6-40e4-b931-1923a5509698" />
+
+<img width="1897" height="1022" alt="Research Analytics Dashboard" src="https://github.com/user-attachments/assets/cbb5a200-fc2c-407e-835e-d550ac8fb149" />
+
+<img width="1904" height="1023" alt="Students Analytics Dashboard" src="https://github.com/user-attachments/assets/74c96262-7c7d-4e9a-a6f8-8770278aee45" />
+
+<img width="1894" height="1018" alt="Country Comparison Dashboard" src="https://github.com/user-attachments/assets/ee008602-7bd7-4c6f-9832-b743f1bda5f0" />
+
+
+
