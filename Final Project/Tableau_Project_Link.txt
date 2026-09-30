@@ -1,0 +1,32 @@
+================================================================================
+EDUVISSION_DV: TABLEAU PROJECT LINKS
+================================================================================
+
+Tableau Public Live URL:
+https://public.tableau.com/app/profile/sujay/viz/EduVision_DV/UniversityOverview
+
+Dashboards:
+1. University Overview:
+   https://public.tableau.com/views/EduVision_DV/UniversityOverview
+   Preview: dashboard_1_university_overview.png
+
+2. Research Analytics:
+   https://public.tableau.com/views/EduVision_DV/ResearchAnalytics
+   Preview: dashboard_2_research_analytics.png
+
+3. Student Analytics:
+   https://public.tableau.com/views/EduVision_DV/StudentAnalytics
+   Preview: dashboard_3_student_analytics.png
+
+4. Country Comparison:
+   https://public.tableau.com/views/EduVision_DV/CountryComparison
+   Preview: dashboard_4_country_comparison.png
+
+--------------------------------------------------------------------------------
+Presentation:
+File: Final_Presentation.pptx / EduVision_DV_Project_Presentation.pptx
+Description: Final presentation slides covering project overview and findings.
+================================================================================
+Author: Sujay S
+Track: Infosys Springboard Internship 7.0
+================================================================================

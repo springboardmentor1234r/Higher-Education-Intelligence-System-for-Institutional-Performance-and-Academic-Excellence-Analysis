@@ -18,7 +18,7 @@ The project transforms fragmented data from Quacquarelli Symonds (QS), Times Hig
 
 ## Project Organization (Nested Milestones & Modules)
 
-In strict accordance with the official project specification document, the repository is organized into **4 Milestones** comprising **8 Modules**, plus a dedicated **Screenshots** asset folder:
+In strict accordance with the official project specification document, the repository is organized into **4 Milestones** comprising **8 Modules**, plus the **Final Project** executive deliverable suite:
 
 ```
 EduVision_DV/
@@ -77,36 +77,15 @@ EduVision_DV/
 │       ├── data_dictionary.md, dataset_sources.md, dashboard_storyboard.pdf
 │       └── README.md
 │
-├── Milestone 5/                                  # Final Deliverables, Dashboards & Presentation
-│   ├── EduVision_DV.twbx                         # Unified Production Tableau Workbook
-│   ├── dashboard_1_university_overview.png       # University Overview Screenshot
-│   ├── dashboard_2_research_analytics.png        # Research Analytics Screenshot
-│   ├── dashboard_3_student_analytics.png         # Student Analytics Screenshot
-│   ├── dashboard_4_country_comparison.png        # Country Comparison Screenshot
-│   ├── final_documentation.pdf & .md             # Master Technical Report
-│   ├── dashboard_storyboard.pdf                  # Visual Storyboard Specification
-│   ├── EduVision_DV_Project_Presentation.pptx    # Executive Presentation Deck
-│   ├── eduvision_dashboard_v1.twbx, eduvision_prototype.twbx
-│   ├── cleaning_methodology.md, kpi_definitions.md, dashboard_guide.md
-│   ├── data_dictionary.md, dataset_sources.md
-│   └── README.md
-│
-├── Screenshots/                                  # Tableau Dashboards & Visual Assets
-│   ├── dashboard_1_university_overview.png       # Screenshot: University Overview
-│   ├── dashboard_2_research_analytics.png        # Screenshot: Research Analytics
-│   ├── dashboard_3_student_analytics.png         # Screenshot: Student Analytics
-│   ├── dashboard_4_country_comparison.png        # Screenshot: Country Comparison
-│   ├── EduVision_DV.twbx                         # Final packaged Tableau workbook
-│   ├── eduvision_dashboard_v1.twbx, eduvision_prototype.twbx
-│   ├── dashboard_storyboard.pdf, final_documentation.pdf
-│   ├── EduVision_DV_Project_Presentation.pptx
-│   └── README.md
-│
-├── EduVision_DV_Project_Presentation.pptx        # Root copy of the presentation
-├── .gitattributes
-├── .gitignore
-├── LICENSE
-└── README.md
+└── Final Project/                                # Final Project Deliverables & Presentation
+    ├── Final_Presentation.pptx                   # Executive Presentation Deck (Final PPT)
+    ├── EduVision_DV_Project_Presentation.pptx    # Executive Presentation Deck (Canonical Name)
+    ├── Tableau_Project_Link.md                   # Tableau Public Live Project Links & Guide
+    ├── Tableau_Project_Link.txt                  # Plain Text Tableau Public Live Links
+    ├── dashboard_1_university_overview.png       # University Overview Screenshot
+    ├── dashboard_2_research_analytics.png        # Research Analytics Screenshot
+    ├── dashboard_3_student_analytics.png         # Student Analytics Screenshot
+    └── dashboard_4_country_comparison.png        # Country Comparison Screenshot
 ```
 
 ---
@@ -141,7 +120,7 @@ The project underwent automated testing via `validate_and_test.py`:
 
 ```bash
 # Clone the repository
-git clone -b SUJAY_S https://github.com/springboardmentor1234r/Higher-Education-Intelligence-System-for-Institutional-Performance-and-Academic-Excellence-Analysis.git
+git clone -b SUJAY_S <repository-url>
 cd Higher-Education-Intelligence-System-for-Institutional-Performance-and-Academic-Excellence-Analysis
 
 # Create and activate a Python virtual environment
