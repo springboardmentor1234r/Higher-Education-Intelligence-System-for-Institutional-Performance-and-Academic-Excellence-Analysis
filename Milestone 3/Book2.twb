@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<workbook xmlns:ns0="http://www.tableausoftware.com/xml/user" _.fcp.WorkbookFingerprinting.true...author-id="9ea0d5d662d53c1d350ea837812a04561cc0d54a78c5734920773055c3141f54" _.fcp.WorkbookFingerprinting.true...creator-author-id="9ea0d5d662d53c1d350ea837812a04561cc0d54a78c5734920773055c3141f54" _.fcp.WorkbookFingerprinting.true...creator-license-type="free" _.fcp.WorkbookFingerprinting.true...creator-machine-id="36fde87f8084b52955cff331146f48f9ea63793e301d5b7f98c279dd63711517" _.fcp.WorkbookFingerprinting.true...license-type="free" _.fcp.WorkbookFingerprinting.true...machine-id="36fde87f8084b52955cff331146f48f9ea63793e301d5b7f98c279dd63711517" original-version="18.1" source-build="2026.2.3 (20262.26.0912.1023)" source-platform="win" version="18.1">
+<workbook _.fcp.WorkbookFingerprinting.true...author-id="9ea0d5d662d53c1d350ea837812a04561cc0d54a78c5734920773055c3141f54" _.fcp.WorkbookFingerprinting.true...creator-author-id="9ea0d5d662d53c1d350ea837812a04561cc0d54a78c5734920773055c3141f54" _.fcp.WorkbookFingerprinting.true...creator-license-type="free" _.fcp.WorkbookFingerprinting.true...creator-machine-id="36fde87f8084b52955cff331146f48f9ea63793e301d5b7f98c279dd63711517" _.fcp.WorkbookFingerprinting.true...license-type="free" _.fcp.WorkbookFingerprinting.true...machine-id="36fde87f8084b52955cff331146f48f9ea63793e301d5b7f98c279dd63711517" original-version="18.1" source-build="2026.2.3 (20262.26.0912.1023)" source-platform="win" version="18.1">
   <document-format-change-manifest>
     <AccessibleZoneTabOrder />
     <AnimationOnByDefault />
@@ -890,7 +890,7 @@
             <column caption="University" datatype="string" name="[university]" role="dimension" type="nominal" />
           </datasource-dependencies>
           <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (University)]">
-            <groupfilter function="level-members" level="[university]" ns0:ui-enumeration="all" ns0:ui-marker="enumerate" />
+            <groupfilter function="level-members" level="[university]" />
           </filter>
           <slices>
             <column>[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (University)]</column>
@@ -972,10 +972,10 @@
             <column caption="University" datatype="string" name="[university]" role="dimension" type="nominal" />
           </datasource-dependencies>
           <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (Country)]">
-            <groupfilter function="level-members" level="[country]" ns0:ui-enumeration="all" ns0:ui-marker="enumerate" />
+            <groupfilter function="level-members" level="[country]" />
           </filter>
           <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (University)]">
-            <groupfilter function="level-members" level="[university]" ns0:ui-enumeration="all" ns0:ui-marker="enumerate" />
+            <groupfilter function="level-members" level="[university]" />
           </filter>
           <slices>
             <column>[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (Country)]</column>
@@ -1051,11 +1051,7 @@
           <datasources>
             <datasource caption="university_dashboard_cleaned" name="federated.162hlcs07dq5n01b94jev0whq4kb" />
           </datasources>
-          <datasource-dependencies><column caption="World Region" datatype="string" name="[world_region]" role="dimension" type="nominal" /><column caption="University" datatype="string" name="[university]" role="dimension" type="nominal" /><column-instance column="[world_region]" derivation="None" name="[none:world_region:nk]" pivot="key" type="nominal" /><column-instance column="[university]" derivation="CountD" name="[ctd:university:qk]" pivot="key" type="quantitative" /></datasource-dependencies><slices>
-            <column>[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (Country)]</column>
-            <column>[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (University)]</column>
-          </slices>
-          <aggregation value="true" />
+          <datasource-dependencies><column caption="World Region" datatype="string" name="[world_region]" role="dimension" type="nominal" /><column caption="University" datatype="string" name="[university]" role="dimension" type="nominal" /><column-instance column="[world_region]" derivation="None" name="[none:world_region:nk]" pivot="key" type="nominal" /><column-instance column="[university]" derivation="CountD" name="[ctd:university:qk]" pivot="key" type="quantitative" /></datasource-dependencies><aggregation value="true" />
         </view>
         <style>
           <style-rule element="pane">
@@ -1071,7 +1067,7 @@
           </style-rule>
         </style>
         <panes>
-          <pane><view><breakdown value="auto" /></view><mark class="Pie" /><encodings><color column="[federated.162hlcs07dq5n01b94jev0whq4kb].[none:world_region:nk]" /><wedge-size column="[federated.162hlcs07dq5n01b94jev0whq4kb].[ctd:university:qk]" /><text column="[federated.162hlcs07dq5n01b94jev0whq4kb].[none:world_region:nk]" /><text column="[federated.162hlcs07dq5n01b94jev0whq4kb].[ctd:university:qk]" /></encodings><style><style-rule element="cell"><format attr="color" value="#ffffff" /></style-rule><style-rule element="mark"><format attr="mark-labels-show" value="true" /><format attr="mark-labels-cull" value="false" /><format attr="mark-border-color" value="#000000" /><format attr="mark-border-width" value="2" /><encoding attr="color" field="[federated.162hlcs07dq5n01b94jev0whq4kb].[none:world_region:nk]" type="palette"><map to="#38bdf8"><bucket>&amp;quot;Europe&amp;quot;</bucket></map><map to="#a855f7"><bucket>&amp;quot;North America&amp;quot;</bucket></map><map to="#2dd4bf"><bucket>&amp;quot;Asia&amp;quot;</bucket></map><map to="#f97316"><bucket>&amp;quot;Latin America&amp;quot;</bucket></map><map to="#ec4899"><bucket>&amp;quot;Oceania&amp;quot;</bucket></map></encoding></style-rule><style-rule element="pane"><format attr="background-color" value="#1e293b" /></style-rule></style></pane></panes>
+          <pane><view><breakdown value="auto" /></view><mark class="Pie" /><encodings><color column="[federated.162hlcs07dq5n01b94jev0whq4kb].[none:world_region:nk]" /><wedge-size column="[federated.162hlcs07dq5n01b94jev0whq4kb].[ctd:university:qk]" /><text column="[federated.162hlcs07dq5n01b94jev0whq4kb].[none:world_region:nk]" /><text column="[federated.162hlcs07dq5n01b94jev0whq4kb].[ctd:university:qk]" /></encodings><style><style-rule element="cell"><format attr="color" value="#ffffff" /></style-rule><style-rule element="mark"><format attr="mark-labels-show" value="true" /><format attr="mark-labels-cull" value="false" /><encoding attr="color" field="[federated.162hlcs07dq5n01b94jev0whq4kb].[none:world_region:nk]" type="palette"><map to="#38bdf8"><bucket>&amp;quot;Europe&amp;quot;</bucket></map><map to="#a855f7"><bucket>&amp;quot;North America&amp;quot;</bucket></map><map to="#2dd4bf"><bucket>&amp;quot;Asia&amp;quot;</bucket></map><map to="#f97316"><bucket>&amp;quot;Latin America&amp;quot;</bucket></map><map to="#ec4899"><bucket>&amp;quot;Oceania&amp;quot;</bucket></map></encoding></style-rule><style-rule element="pane"><format attr="background-color" value="#1e293b" /></style-rule></style></pane></panes>
         <rows />
         <cols />
       </table>
@@ -1097,10 +1093,10 @@
             <column caption="University" datatype="string" name="[university]" role="dimension" type="nominal" />
           </datasource-dependencies>
           <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (Country)]">
-            <groupfilter function="level-members" level="[country]" ns0:ui-enumeration="all" ns0:ui-marker="enumerate" />
+            <groupfilter function="level-members" level="[country]" />
           </filter>
           <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (University)]">
-            <groupfilter function="level-members" level="[university]" ns0:ui-enumeration="all" ns0:ui-marker="enumerate" />
+            <groupfilter function="level-members" level="[university]" />
           </filter>
           <slices>
             <column>[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (Country)]</column>
@@ -1182,7 +1178,7 @@
             <column caption="University" datatype="string" name="[university]" role="dimension" type="nominal" />
           </datasource-dependencies>
           <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (University)]">
-            <groupfilter function="level-members" level="[university]" ns0:ui-enumeration="all" ns0:ui-marker="enumerate" />
+            <groupfilter function="level-members" level="[university]" />
           </filter>
           <slices>
             <column>[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (University)]</column>
@@ -1415,18 +1411,7 @@
           <datasources>
             <datasource caption="university_dashboard_cleaned" name="federated.162hlcs07dq5n01b94jev0whq4kb" />
           </datasources>
-          <datasource-dependencies datasource="federated.162hlcs07dq5n01b94jev0whq4kb">
-            <column caption="Country" datatype="string" name="[country]" role="dimension" semantic-role="[Country].[ISO3166_2]" type="nominal" />
-            <column-instance column="[university]" derivation="None" name="[none:university:nk]" pivot="key" type="nominal" />
-            <column caption="University" datatype="string" name="[university]" role="dimension" type="nominal" />
-          </datasource-dependencies>
-          <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (Country)]" context="true">
-            <groupfilter function="member" level="[country]" member="&quot;Singapore&quot;" />
-          </filter>
-          <slices>
-            <column>[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (Country)]</column>
-          </slices>
-          <aggregation value="true" />
+          <datasource-dependencies><column caption="Female %" datatype="real" name="[female_pct]" role="measure" type="quantitative" /><column caption="Male %" datatype="real" name="[male_pct]" role="measure" type="quantitative" /><column caption="University" datatype="string" name="[university]" role="dimension" type="nominal" /><column-instance column="[female_pct]" derivation="Avg" name="[avg:female_pct:qk]" pivot="key" type="quantitative" /><column-instance column="[male_pct]" derivation="Avg" name="[avg:male_pct:qk]" pivot="key" type="quantitative" /><column-instance column="[university]" derivation="None" name="[none:university:nk]" pivot="key" type="nominal" /></datasource-dependencies><filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[none:university:nk]"><groupfilter count="15" end="top" function="end" units="records"><groupfilter direction="DESC" expression="AVG([female_pct])" function="order"><groupfilter function="level-members" level="[none:university:nk]" /></groupfilter></groupfilter></filter><filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[:Measure Names]"><groupfilter function="union"><groupfilter function="member" level="[:Measure Names]" member="&amp;quot;[federated.162hlcs07dq5n01b94jev0whq4kb].[avg:female_pct:qk]&amp;quot;" /><groupfilter function="member" level="[:Measure Names]" member="&amp;quot;[federated.162hlcs07dq5n01b94jev0whq4kb].[avg:male_pct:qk]&amp;quot;" /></groupfilter></filter><slices><column>[federated.162hlcs07dq5n01b94jev0whq4kb].[none:university:nk]</column><column>[federated.162hlcs07dq5n01b94jev0whq4kb].[:Measure Names]</column></slices><aggregation value="true" />
         </view>
         <style>
           <style-rule element="pane">
@@ -1442,41 +1427,8 @@
           </style-rule>
         </style>
         <panes>
-          <pane selection-relaxation-option="selection-relaxation-allow">
-            <view>
-              <breakdown value="auto" />
-            </view>
-            <mark class="Bar" />
-            <customized-tooltip>
-              <formatted-text>
-                <run fontcolor="#94a3b8" fontname="Tableau Semibold">Institution: </run>
-                <run bold="true" fontcolor="#fbbf24" fontname="Tableau Bold">&lt;[federated.162hlcs07dq5n01b94jev0whq4kb].[none:university:nk]&gt;
-</run>
-                <run fontcolor="#94a3b8" fontname="Tableau Semibold">Country: </run>
-                <run bold="true" fontcolor="#ffffff" fontname="Tableau Bold">&lt;[federated.162hlcs07dq5n01b94jev0whq4kb].[none:country:nk]&gt;
-</run>
-                <run fontcolor="#94a3b8" fontname="Tableau Semibold">Avg Students per Staff: </run>
-                <run bold="true" fontcolor="#fbbf24" fontname="Tableau Bold">&lt;[federated.162hlcs07dq5n01b94jev0whq4kb].[avg:the_student_staff_ratio:qk]&gt;</run>
-              </formatted-text>
-            </customized-tooltip>
-            <style>
-              <style-rule element="cell">
-                <format attr="color" value="#f1f5f9" />
-              </style-rule>
-              <style-rule element="mark">
-                <format attr="mark-labels-show" value="true" />
-                <format attr="mark-labels-cull" value="true" />
-                <format attr="mark-color" value="#ec4899" />
-              </style-rule>
-              <style-rule element="pane">
-                <format attr="minheight" value="-1" />
-                <format attr="maxheight" value="-1" />
-                <format attr="background-color" value="#1e293b" />
-              </style-rule>
-            </style>
-          </pane>
-        </panes>
-        <rows />
+          <pane><view><breakdown value="auto" /></view><mark class="Bar" /><encodings><color column="[federated.162hlcs07dq5n01b94jev0whq4kb].[:Measure Names]" /></encodings><style><style-rule element="cell"><format attr="color" value="#f1f5f9" /></style-rule><style-rule element="mark"><format attr="mark-labels-show" value="true" /><format attr="mark-labels-cull" value="true" /><encoding attr="color" field="[federated.162hlcs07dq5n01b94jev0whq4kb].[:Measure Names]" type="palette"><map to="#ec4899"><bucket>&amp;quot;[federated.162hlcs07dq5n01b94jev0whq4kb].[avg:female_pct:qk]&amp;quot;</bucket></map><map to="#38bdf8"><bucket>&amp;quot;[federated.162hlcs07dq5n01b94jev0whq4kb].[avg:male_pct:qk]&amp;quot;</bucket></map></encoding></style-rule><style-rule element="pane"><format attr="background-color" value="#1e293b" /></style-rule></style></pane></panes>
+        <rows>[federated.162hlcs07dq5n01b94jev0whq4kb].[Multiple Values]</rows>
         <cols>[federated.162hlcs07dq5n01b94jev0whq4kb].[none:university:nk]</cols>
       </table>
       <simple-id uuid="{78B6B1E4-4D64-43E6-BF7C-136C6A8B129F}" />
@@ -1501,10 +1453,10 @@
             <column caption="University" datatype="string" name="[university]" role="dimension" type="nominal" />
           </datasource-dependencies>
           <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (Country)]">
-            <groupfilter function="level-members" level="[country]" ns0:ui-enumeration="all" ns0:ui-marker="enumerate" />
+            <groupfilter function="level-members" level="[country]" />
           </filter>
           <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (University)]">
-            <groupfilter function="level-members" level="[university]" ns0:ui-enumeration="all" ns0:ui-marker="enumerate" />
+            <groupfilter function="level-members" level="[university]" />
           </filter>
           <slices>
             <column>[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (Country)]</column>
@@ -1581,26 +1533,7 @@
           <datasources>
             <datasource caption="university_dashboard_cleaned" name="federated.162hlcs07dq5n01b94jev0whq4kb" />
           </datasources>
-          <datasource-dependencies datasource="federated.162hlcs07dq5n01b94jev0whq4kb">
-            <column caption="Country" datatype="string" name="[country]" role="dimension" semantic-role="[Country].[ISO3166_2]" type="nominal" />
-            <column-instance column="[country]" derivation="None" name="[none:country:nk]" pivot="key" type="nominal" />
-            <column caption="QS International Students Score" datatype="real" name="[qs_international_students]" role="measure" type="quantitative" />
-          </datasource-dependencies>
-          <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (Country)]" context="true">
-            <groupfilter function="member" level="[country]" member="&quot;India&quot;" />
-          </filter>
-          <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[none:country:nk]">
-            <groupfilter count="10" end="top" function="end" units="records">
-              <groupfilter direction="DESC" expression="AVG([qs_international_students])" function="order">
-                <groupfilter function="level-members" level="[none:country:nk]" />
-              </groupfilter>
-            </groupfilter>
-          </filter>
-          <slices>
-            <column>[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (Country)]</column>
-            <column>[federated.162hlcs07dq5n01b94jev0whq4kb].[none:country:nk]</column>
-          </slices>
-          <aggregation value="true" />
+          <datasource-dependencies><column caption="International Students % (Bin)" datatype="real" name="[intl_student_bin]" role="dimension" type="ordinal" /><column caption="University" datatype="string" name="[university]" role="dimension" type="nominal" /><column-instance column="[intl_student_bin]" derivation="None" name="[none:intl_student_bin:ok]" pivot="key" type="ordinal" /><column-instance column="[university]" derivation="Count" name="[cnt:university:qk]" pivot="key" type="quantitative" /></datasource-dependencies><aggregation value="true" />
         </view>
         <style>
           <style-rule element="pane">
@@ -1616,30 +1549,9 @@
           </style-rule>
         </style>
         <panes>
-          <pane selection-relaxation-option="selection-relaxation-allow">
-            <view>
-              <breakdown value="auto" />
-            </view>
-            <mark class="Bar" />
-            <style>
-              <style-rule element="cell">
-                <format attr="color" value="#f1f5f9" />
-              </style-rule>
-              <style-rule element="mark">
-                <format attr="mark-labels-show" value="true" />
-                <format attr="mark-labels-cull" value="true" />
-                <format attr="mark-color" value="#38bdf8" />
-              </style-rule>
-              <style-rule element="pane">
-                <format attr="minheight" value="-1" />
-                <format attr="maxheight" value="-1" />
-                <format attr="background-color" value="#1e293b" />
-              </style-rule>
-            </style>
-          </pane>
-        </panes>
-        <rows />
-        <cols />
+          <pane><view><breakdown value="auto" /></view><mark class="Bar" /><style><style-rule element="cell"><format attr="color" value="#f1f5f9" /></style-rule><style-rule element="mark"><format attr="mark-labels-show" value="true" /><format attr="mark-labels-cull" value="true" /><format attr="mark-color" value="#38bdf8" /></style-rule><style-rule element="pane"><format attr="background-color" value="#1e293b" /></style-rule></style></pane></panes>
+        <rows>[federated.162hlcs07dq5n01b94jev0whq4kb].[cnt:university:qk]</rows>
+        <cols>[federated.162hlcs07dq5n01b94jev0whq4kb].[none:intl_student_bin:ok]</cols>
       </table>
       <simple-id uuid="{187FFB08-F371-4AD0-ABEE-DE5CB9885684}" />
     </worksheet>
@@ -2314,12 +2226,12 @@
             <groupfilter function="level-members" level="[country]" />
           </filter>
           <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (University)]" context="true">
-            <groupfilter function="level-members" level="[university]" ns0:ui-enumeration="all" ns0:ui-marker="enumerate" />
+            <groupfilter function="level-members" level="[university]" />
           </filter>
           <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[none:university:nk]">
-            <groupfilter count="10" end="top" function="end" units="records" ns0:ui-marker="end">
-              <groupfilter direction="DESC" expression="AVG([qs_citations_per_faculty])" function="order" ns0:ui-marker="order">
-                <groupfilter function="level-members" level="[none:university:nk]" ns0:ui-enumeration="all" ns0:ui-marker="enumerate" />
+            <groupfilter count="10" end="top" function="end" units="records">
+              <groupfilter direction="DESC" expression="AVG([qs_citations_per_faculty])" function="order">
+                <groupfilter function="level-members" level="[none:university:nk]" />
               </groupfilter>
             </groupfilter>
           </filter>
@@ -2394,7 +2306,7 @@
             <column caption="University" datatype="string" name="[university]" role="dimension" type="nominal" />
           </datasource-dependencies>
           <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (University)]">
-            <groupfilter function="level-members" level="[university]" ns0:ui-enumeration="all" ns0:ui-marker="enumerate" />
+            <groupfilter function="level-members" level="[university]" />
           </filter>
           <slices>
             <column>[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (University)]</column>
@@ -2476,12 +2388,12 @@
             <column caption="University" datatype="string" name="[university]" role="dimension" type="nominal" />
           </datasource-dependencies>
           <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (University)]" context="true">
-            <groupfilter function="level-members" level="[university]" ns0:ui-enumeration="all" ns0:ui-marker="enumerate" />
+            <groupfilter function="level-members" level="[university]" />
           </filter>
           <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[none:university:nk]">
-            <groupfilter count="10" end="top" function="end" units="records" ns0:ui-marker="end">
-              <groupfilter direction="DESC" expression="SUM([kpi6_research_productivity_index])" function="order" ns0:ui-marker="order">
-                <groupfilter function="level-members" level="[none:university:nk]" ns0:ui-enumeration="all" ns0:ui-marker="enumerate" />
+            <groupfilter count="10" end="top" function="end" units="records">
+              <groupfilter direction="DESC" expression="SUM([kpi6_research_productivity_index])" function="order">
+                <groupfilter function="level-members" level="[none:university:nk]" />
               </groupfilter>
             </groupfilter>
           </filter>
@@ -2554,26 +2466,7 @@
           <datasources>
             <datasource caption="university_dashboard_cleaned" name="federated.162hlcs07dq5n01b94jev0whq4kb" />
           </datasources>
-          <datasource-dependencies datasource="federated.162hlcs07dq5n01b94jev0whq4kb">
-            <column caption="Country" datatype="string" name="[country]" role="dimension" semantic-role="[Country].[ISO3166_2]" type="nominal" />
-            <column-instance column="[country]" derivation="None" name="[none:country:nk]" pivot="key" type="nominal" />
-            <column caption="Total Enrolled Students" datatype="integer" name="[the_number_students]" role="measure" type="quantitative" />
-          </datasource-dependencies>
-          <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (Country)]" context="true">
-            <groupfilter function="member" level="[country]" member="&quot;Singapore&quot;" />
-          </filter>
-          <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[none:country:nk]">
-            <groupfilter count="10" end="top" function="end" units="records">
-              <groupfilter direction="DESC" expression="SUM([the_number_students])" function="order">
-                <groupfilter function="level-members" level="[none:country:nk]" />
-              </groupfilter>
-            </groupfilter>
-          </filter>
-          <slices>
-            <column>[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (Country)]</column>
-            <column>[federated.162hlcs07dq5n01b94jev0whq4kb].[none:country:nk]</column>
-          </slices>
-          <aggregation value="true" />
+          <datasource-dependencies><column caption="Students per Staff (Bin)" datatype="real" name="[staff_ratio_bin]" role="dimension" type="ordinal" /><column caption="University" datatype="string" name="[university]" role="dimension" type="nominal" /><column-instance column="[staff_ratio_bin]" derivation="None" name="[none:staff_ratio_bin:ok]" pivot="key" type="ordinal" /><column-instance column="[university]" derivation="Count" name="[cnt:university:qk]" pivot="key" type="quantitative" /></datasource-dependencies><aggregation value="true" />
         </view>
         <style>
           <style-rule element="pane">
@@ -2589,39 +2482,9 @@
           </style-rule>
         </style>
         <panes>
-          <pane selection-relaxation-option="selection-relaxation-allow">
-            <view>
-              <breakdown value="auto" />
-            </view>
-            <mark class="Bar" />
-            <customized-tooltip>
-              <formatted-text>
-                <run fontcolor="#94a3b8" fontname="Tableau Semibold">Country: </run>
-                <run bold="true" fontcolor="#fbbf24" fontname="Tableau Bold">&lt;[federated.162hlcs07dq5n01b94jev0whq4kb].[none:country:nk]&gt;
-</run>
-                <run fontcolor="#94a3b8" fontname="Tableau Semibold">Total Enrolled Students: </run>
-                <run bold="true" fontcolor="#fbbf24" fontname="Tableau Bold">&lt;[federated.162hlcs07dq5n01b94jev0whq4kb].[sum:the_number_students:qk]&gt;</run>
-              </formatted-text>
-            </customized-tooltip>
-            <style>
-              <style-rule element="cell">
-                <format attr="color" value="#f1f5f9" />
-              </style-rule>
-              <style-rule element="mark">
-                <format attr="mark-labels-show" value="true" />
-                <format attr="mark-labels-cull" value="true" />
-                <format attr="mark-color" value="#a855f7" />
-              </style-rule>
-              <style-rule element="pane">
-                <format attr="minheight" value="-1" />
-                <format attr="maxheight" value="-1" />
-                <format attr="background-color" value="#1e293b" />
-              </style-rule>
-            </style>
-          </pane>
-        </panes>
-        <rows />
-        <cols />
+          <pane><view><breakdown value="auto" /></view><mark class="Bar" /><style><style-rule element="cell"><format attr="color" value="#f1f5f9" /></style-rule><style-rule element="mark"><format attr="mark-labels-show" value="true" /><format attr="mark-labels-cull" value="true" /><format attr="mark-color" value="#a855f7" /></style-rule><style-rule element="pane"><format attr="background-color" value="#1e293b" /></style-rule></style></pane></panes>
+        <rows>[federated.162hlcs07dq5n01b94jev0whq4kb].[cnt:university:qk]</rows>
+        <cols>[federated.162hlcs07dq5n01b94jev0whq4kb].[none:staff_ratio_bin:ok]</cols>
       </table>
       <simple-id uuid="{B65BE5C2-1A55-4D8C-B60B-608A2C7D0DC3}" />
     </worksheet>
@@ -2644,7 +2507,7 @@
             <column caption="University" datatype="string" name="[university]" role="dimension" type="nominal" />
           </datasource-dependencies>
           <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (University)]">
-            <groupfilter function="level-members" level="[university]" ns0:ui-enumeration="all" ns0:ui-marker="enumerate" />
+            <groupfilter function="level-members" level="[university]" />
           </filter>
           <slices>
             <column>[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (University)]</column>
@@ -2819,10 +2682,10 @@
             <column caption="University" datatype="string" name="[university]" role="dimension" type="nominal" />
           </datasource-dependencies>
           <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (Country)]" context="true">
-            <groupfilter function="level-members" level="[country]" ns0:ui-enumeration="all" ns0:ui-marker="enumerate" />
+            <groupfilter function="level-members" level="[country]" />
           </filter>
           <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[none:country:nk]">
-            <groupfilter function="level-members" level="[none:country:nk]" ns0:ui-enumeration="all" ns0:ui-marker="enumerate" />
+            <groupfilter function="level-members" level="[none:country:nk]" />
           </filter>
           <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[none:university:nk]">
             <groupfilter count="10" end="top" function="end" units="records">
@@ -2992,10 +2855,10 @@
             <column caption="University" datatype="string" name="[university]" role="dimension" type="nominal" />
           </datasource-dependencies>
           <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (Country)]">
-            <groupfilter function="level-members" level="[country]" ns0:ui-enumeration="all" ns0:ui-marker="enumerate" />
+            <groupfilter function="level-members" level="[country]" />
           </filter>
           <filter class="categorical" column="[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (University)]">
-            <groupfilter function="level-members" level="[university]" ns0:ui-enumeration="all" ns0:ui-marker="enumerate" />
+            <groupfilter function="level-members" level="[university]" />
           </filter>
           <slices>
             <column>[federated.162hlcs07dq5n01b94jev0whq4kb].[Action (Country)]</column>
@@ -3261,8 +3124,8 @@
         <devicelayout auto-generated="true" name="Phone">
           <size maxheight="1750" minheight="1750" sizing-mode="vscroll" />
           <zones>
-            <zone h="100000" id="449" type-v2="layout-basic" w="100000" x="0" y="0">
-              <zone h="97916" id="448" param="vert" type-v2="layout-flow" w="98828" x="586" y="1042">
+            <zone h="100000" id="451" type-v2="layout-basic" w="100000" x="0" y="0">
+              <zone h="84000" id="450" param="vert" type-v2="layout-flow" w="84000" x="8000" y="8000">
                 <zone forceUpdate="true" h="10804" id="2" type-v2="text" w="99414" x="293" y="521">
                   <formatted-text>
                     <run bold="true" fontalignment="1" fontcolor="#38bdf8" fontname="Tableau Bold" fontsize="10">EDUVISION | HIGHER EDUCATION INTELLIGENCE</run>
@@ -3659,8 +3522,8 @@
         <devicelayout auto-generated="true" name="Phone">
           <size maxheight="1550" minheight="1550" sizing-mode="vscroll" />
           <zones>
-            <zone h="100000" id="443" type-v2="layout-basic" w="100000" x="0" y="0">
-              <zone h="97916" id="442" param="vert" type-v2="layout-flow" w="98828" x="586" y="1042">
+            <zone h="100000" id="445" type-v2="layout-basic" w="100000" x="0" y="0">
+              <zone h="84000" id="444" param="vert" type-v2="layout-flow" w="84000" x="8000" y="8000">
                 <zone forceUpdate="true" h="8201" id="56" type-v2="text" w="95475" x="2261" y="2605">
                   <formatted-text>
                     <run bold="true" fontalignment="1" fontcolor="#38bdf8" fontname="Tableau Bold" fontsize="10">EDUVISION | HIGHER EDUCATION INTELLIGENCE</run>
@@ -4009,8 +3872,8 @@
         <devicelayout auto-generated="true" name="Phone">
           <size maxheight="1650" minheight="1650" sizing-mode="vscroll" />
           <zones>
-            <zone h="100000" id="446" type-v2="layout-basic" w="100000" x="0" y="0">
-              <zone h="84000" id="445" param="vert" type-v2="layout-flow" w="84000" x="8000" y="8000">
+            <zone h="100000" id="448" type-v2="layout-basic" w="100000" x="0" y="0">
+              <zone h="84000" id="447" param="vert" type-v2="layout-flow" w="84000" x="8000" y="8000">
                 <zone forceUpdate="true" h="9699" id="15" type-v2="text" w="99414" x="293" y="521">
                   <formatted-text>
                     <run bold="true" fontalignment="1" fontcolor="#38bdf8" fontname="Tableau Bold" fontsize="10">EDUVISION | HIGHER EDUCATION INTELLIGENCE</run>
@@ -4408,14 +4271,14 @@
             <format attr="margin" value="4" />
             <format attr="background-color" value="#1e293b" />
           </zone-style>
-        <zone id="777" type-v2="text" x="70000" y="78000" w="9000" h="8500"><formatted-text><run bold="true" fontalignment="1" fontcolor="#ffffff" fontsize="10">100%</run></formatted-text><zone-style><style-rule element="zone"><format attr="background-color" value="#1e293b" /></style-rule></zone-style></zone></zone>
+        </zone>
       </zones>
       <devicelayouts>
         <devicelayout auto-generated="true" name="Phone">
           <size maxheight="1500" minheight="1500" sizing-mode="vscroll" />
           <zones>
-            <zone h="100000" id="452" type-v2="layout-basic" w="100000" x="0" y="0">
-              <zone h="97916" id="451" param="vert" type-v2="layout-flow" w="98828" x="586" y="1042">
+            <zone h="100000" id="454" type-v2="layout-basic" w="100000" x="0" y="0">
+              <zone h="97916" id="453" param="vert" type-v2="layout-flow" w="98828" x="586" y="1042">
                 <zone forceUpdate="true" h="10155" id="5" type-v2="text" w="95343" x="2328" y="2605">
                   <formatted-text>
                     <run bold="true" fontalignment="1" fontcolor="#38bdf8" fontname="Tableau Bold" fontsize="10">EDUVISION | HIGHER EDUCATION INTELLIGENCE</run>
@@ -4605,6 +4468,24 @@
         </viewpoint>
         <viewpoint name="Academic Reputation 2">
           <zoom type="entire-view" />
+          <selection-collection>
+            <tuple-selection>
+              <tuple-reference>
+                <tuple-descriptor>
+                  <pane-descriptor>
+                    <x-fields />
+                    <y-fields />
+                  </pane-descriptor>
+                  <columns>
+                    <field>[federated.162hlcs07dq5n01b94jev0whq4kb].[ctd:university:qk]</field>
+                  </columns>
+                </tuple-descriptor>
+                <tuple>
+                  <value>2517</value>
+                </tuple>
+              </tuple-reference>
+            </tuple-selection>
+          </selection-collection>
           <floating-toolbar-visibility value="1" />
         </viewpoint>
         <viewpoint name="Average Score">
@@ -4623,7 +4504,7 @@
           <zoom type="fit-width" />
         </viewpoint>
       </viewpoints>
-      <active id="23" />
+      <active id="31" />
       <simple-id uuid="{3ECCFBB2-E8EA-40A1-8EAE-61D997DB2ED8}" />
     </window>
     <window class="dashboard" name="Research Analytics">
@@ -4650,7 +4531,7 @@
           <zoom type="entire-view" />
         </viewpoint>
       </viewpoints>
-      <active id="82" />
+      <active id="-1" />
       <simple-id uuid="{7F05E308-EAA0-40DC-B03F-578221B9280F}" />
     </window>
     <window class="dashboard" name="Student Analytics">
@@ -4755,7 +4636,7 @@
           </selection-collection>
         </viewpoint>
       </viewpoints>
-      <active id="20" />
+      <active id="-1" />
       <simple-id uuid="{941C6ACE-5E9B-4C40-99B7-A413CF277456}" />
     </window>
     <window class="worksheet" name="KPI - Students">
