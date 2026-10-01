@@ -6,15 +6,22 @@ from pathlib import Path
 # 1. Project paths
 # ------------------------------------------------------------
 
-# Search multiple candidate locations for raw data
+# Search multiple candidate locations for raw data.
+# This project stores the source files under the milestone module's raw folder,
+# so we support the repo layout as well as a few common run locations.
+project_root = Path(__file__).resolve().parents[2]
+module_dir = Path(__file__).resolve().parent
+
 candidates = [
-    Path(__file__).resolve().parent.parent.parent / "data" / "raw",
-    Path(__file__).resolve().parent.parent / "data" / "raw",
-    Path(__file__).resolve().parent / "data" / "raw",
-    Path.cwd() / "data" / "raw"
+    module_dir / "raw",
+    module_dir.parent / "raw",
+    project_root / "Milestone 1" / "Module 1" / "raw",
+    project_root / "data" / "raw",
+    Path.cwd() / "Milestone 1" / "Module 1" / "raw",
+    Path.cwd() / "data" / "raw",
 ]
 
-raw_dir = next((d for d in candidates if (d / "qs-world-rankings-2025.csv").exists()), candidates[0])
+raw_dir = next((d for d in candidates if d.exists() and (d / "qs-world-rankings-2025.csv").exists()), candidates[0])
 QS_FILE = raw_dir / "qs-world-rankings-2025.csv"
 THE_FILE = raw_dir / "TIMES_WorldUniversityRankings_2024.csv"
 
