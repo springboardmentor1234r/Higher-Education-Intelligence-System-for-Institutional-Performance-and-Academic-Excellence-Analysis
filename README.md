@@ -2,9 +2,9 @@
 
 ### Institutional Performance, Research Analytics & Academic Excellence
 
-**EduVision** is an interactive higher-education analytics and business intelligence project developed to analyze university rankings, research performance, student indicators, and country-level education outcomes.
+**EduVision** is an interactive higher-education analytics and business intelligence system developed to analyze university rankings, research performance, student indicators, and country-level education outcomes.
 
-It integrates data from **QS, Times Higher Education (THE), World Bank, and OpenAlex** and transforms the data into meaningful KPIs and interactive Tableau dashboards.
+It integrates data from **QS, Times Higher Education (THE), World Bank, and OpenAlex** and transforms heterogeneous datasets into meaningful **KPIs, analytical insights, and interactive Tableau dashboards**.
 
 ---
 
@@ -22,7 +22,7 @@ Provides an overall view of university rankings, academic reputation, research i
 
 ### 🔬 Research Analytics
 
-Analyzes research productivity, citation performance, research impact, research trends, and validated publication data.
+Analyzes research productivity, citation performance, research impact, research trends, and validated university-level publication data.
 
 **Dashboard Preview:**
 
@@ -59,7 +59,7 @@ Provides country-level benchmarking using university performance data and World 
 * Analyze research productivity and citation impact.
 * Analyze international student representation.
 * Compare country-level education performance.
-* Provide interactive Tableau dashboards.
+* Develop interactive Tableau dashboards.
 * Support academic and institutional performance analysis.
 
 ---
@@ -70,13 +70,13 @@ Provides country-level benchmarking using university performance data and World 
 
 Provides global ranking, overall score, academic reputation, employer reputation, citations per faculty, international students, international faculty, employment outcomes, and sustainability indicators.
 
-### Times Higher Education 2024
+### Times Higher Education (THE) 2024
 
 Provides ranking, teaching, research, citations, industry income, international outlook, student-to-staff ratio, international student percentage, and female percentage.
 
-### Times Higher Education 2023
+### Times Higher Education (THE) 2023
 
-Used for historical comparison of university ranking and performance indicators with the 2024 dataset.
+Used for historical comparison of university rankings and performance indicators with the 2024 dataset.
 
 ### World Bank Education Statistics
 
@@ -84,7 +84,7 @@ Provides country-level indicators such as tertiary enrollment, tertiary graduati
 
 ### OpenAlex
 
-Used to provide validated university-level publication analysis for 2023, 2024, and 2025.
+Used to provide validated university-level publication analysis for **2023, 2024, and 2025**.
 
 ---
 
@@ -138,7 +138,7 @@ The Research Analytics dashboard provides:
 * Research Productivity Index
 * Research Impact Score
 * THE Research Score
-* Citation Score
+* THE Citation Score
 * Research productivity comparison
 * Top universities by citations
 * Research trends
@@ -200,7 +200,7 @@ The project was validated for:
 * KPI calculations
 * Ranking calculations
 * Data quality
-* Country mapping
+* University and country mapping
 * World Bank linkage
 * Dashboard filters
 * Parameter actions
@@ -213,10 +213,10 @@ The project was validated for:
 
 ## ⚠️ Limitations
 
-* Some QS ranking records do not contain numeric ranking/overall-score values.
+* Some QS ranking records do not contain numeric ranking or overall-score values.
 * Some THE rankings are represented as ranking bands rather than exact positions.
-* World Bank indicators are country-level indicators from 2015.
-* Complete university-level total enrollment data was not consistently available.
+* World Bank indicators used in the project are country-level indicators from **2015**.
+* Complete university-level total enrollment data was not consistently available across the integrated datasets.
 * OpenAlex publication analysis currently covers **60 validated universities out of 3,530**.
 
 ---
@@ -240,7 +240,7 @@ The project was validated for:
 
 ### Lekhana B M
 
-MCA — Artificial Intelligence & Data Science
+**MCA — Artificial Intelligence & Data Science**
 
 **Areas:** Data Analytics • Python • Tableau • Business Intelligence • Data Visualization • Data Integration
 
