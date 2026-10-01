@@ -6,12 +6,19 @@ from pathlib import Path
 # 1. Project paths
 # ------------------------------------------------------------
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+# Search multiple candidate locations for raw data
+candidates = [
+    Path(__file__).resolve().parent.parent.parent / "data" / "raw",
+    Path(__file__).resolve().parent.parent / "data" / "raw",
+    Path(__file__).resolve().parent / "data" / "raw",
+    Path.cwd() / "data" / "raw"
+]
 
-QS_FILE = BASE_DIR / "data" / "raw" / "qs-world-rankings-2025.csv"
-THE_FILE = BASE_DIR / "data" / "raw" / "TIMES_WorldUniversityRankings_2024.csv"
+raw_dir = next((d for d in candidates if (d / "qs-world-rankings-2025.csv").exists()), candidates[0])
+QS_FILE = raw_dir / "qs-world-rankings-2025.csv"
+THE_FILE = raw_dir / "TIMES_WorldUniversityRankings_2024.csv"
 
-OUTPUT_DIR = BASE_DIR / "data" / "processed"
+OUTPUT_DIR = Path(__file__).resolve().parent
 OUTPUT_FILE = OUTPUT_DIR / "university_raw_data.csv"
 
 

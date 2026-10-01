@@ -1,0 +1,14 @@
+# Ensure line endings are LF for code and text files
+* text=auto eol=lf
+*.csv text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.ipynb text eol=lf
+*.twb text eol=lf
+
+# Binary files
+*.twbx binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.xlsx binary

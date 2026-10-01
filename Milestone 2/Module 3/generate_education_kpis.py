@@ -1,4 +1,4 @@
-﻿"""
+"""
 generate_education_kpis.py
 EduVision_DV - Higher Education Performance Dashboard
 Milestone 2 / Module 3: Education KPI Engineering
@@ -7,6 +7,7 @@ Milestone 2 / Module 3: Education KPI Engineering
 import pandas as pd
 import numpy as np
 import os
+from pathlib import Path
 
 def min_max_norm(s: pd.Series) -> pd.Series:
     v = s.dropna()
@@ -15,7 +16,7 @@ def min_max_norm(s: pd.Series) -> pd.Series:
     return ((s - v.min()) / (v.max() - v.min())) * 100
 
 def generate_kpis(cleaned_csv_path: str, output_excel_path: str):
-    print('Loading cleaned dataset...')
+    print(f'Loading cleaned dataset from {cleaned_csv_path}...')
     df = pd.read_csv(cleaned_csv_path)
 
     # 1. Master IDs
@@ -69,7 +70,16 @@ def generate_kpis(cleaned_csv_path: str, output_excel_path: str):
         dim_country = df[['country_id', 'Country']].drop_duplicates()
         dim_country.to_excel(writer, sheet_name='dim_country', index=False)
 
-    print('Finished exporting university_final_dataset.xlsx!')
+    print(f'Finished exporting {output_excel_path}!')
 
 if __name__ == '__main__':
-    generate_kpis('data/processed/university_cleaned.csv', 'data/processed/university_final_dataset.xlsx')
+    base_m3 = Path(__file__).resolve().parent
+    candidates = [
+        base_m3 / "university_cleaned.csv",
+        base_m3.parent.parent / "Milestone 1" / "Module 2" / "university_cleaned.csv",
+        base_m3.parent.parent / "data" / "processed" / "university_cleaned.csv",
+        Path.cwd() / "data" / "processed" / "university_cleaned.csv"
+    ]
+    inp = next((p for p in candidates if p.exists()), candidates[1])
+    out = base_m3 / "university_final_dataset.xlsx"
+    generate_kpis(str(inp), str(out))
