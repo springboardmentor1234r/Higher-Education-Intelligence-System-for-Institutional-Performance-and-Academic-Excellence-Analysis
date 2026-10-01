@@ -1071,7 +1071,7 @@
           </style-rule>
         </style>
         <panes>
-          <pane><view><breakdown value="auto" /></view><mark class="Pie" /><encodings><color column="[federated.162hlcs07dq5n01b94jev0whq4kb].[none:world_region:nk]" /><wedge-size column="[federated.162hlcs07dq5n01b94jev0whq4kb].[ctd:university:qk]" /><text column="[federated.162hlcs07dq5n01b94jev0whq4kb].[none:world_region:nk]" /><text column="[federated.162hlcs07dq5n01b94jev0whq4kb].[ctd:university:qk]" /></encodings><style><style-rule element="cell"><format attr="color" value="#ffffff" /></style-rule><style-rule element="mark"><format attr="mark-labels-show" value="true" /><format attr="mark-labels-cull" value="false" /><format attr="mark-border-color" value="#000000" /><format attr="mark-border-width" value="2" /><encoding attr="color" field="[federated.162hlcs07dq5n01b94jev0whq4kb].[none:world_region:nk]" type="palette"><map to="#38bdf8"><bucket>&amp;quot;Europe&amp;quot;</bucket></map><map to="#a855f7"><bucket>&amp;quot;North America&amp;quot;</bucket></map><map to="#2dd4bf"><bucket>&amp;quot;Asia&amp;quot;</bucket></map><map to="#f97316"><bucket>&amp;quot;Latin America&amp;quot;</bucket></map><map to="#ec4899"><bucket>&amp;quot;Oceania&amp;quot;</bucket></map></encoding></style-rule><style-rule element="pane"><format attr="background-color" value="#1e293b" /></style-rule></style></pane></panes>
+          <pane><view><breakdown value="auto" /></view><mark class="Pie" /><encodings><color column="[federated.162hlcs07dq5n01b94jev0whq4kb].[none:world_region:nk]" /><wedge-size column="[federated.162hlcs07dq5n01b94jev0whq4kb].[ctd:university:qk]" /><text column="[federated.162hlcs07dq5n01b94jev0whq4kb].[none:world_region:nk]" /><text column="[federated.162hlcs07dq5n01b94jev0whq4kb].[ctd:university:qk]" /></encodings><style><style-rule element="cell"><format attr="color" value="#ffffff" /></style-rule><style-rule element="mark"><format attr="mark-labels-show" value="true" /><format attr="mark-labels-cull" value="false" /><encoding attr="color" field="[federated.162hlcs07dq5n01b94jev0whq4kb].[none:world_region:nk]" type="palette"><map to="#38bdf8"><bucket>&amp;quot;Europe&amp;quot;</bucket></map><map to="#a855f7"><bucket>&amp;quot;North America&amp;quot;</bucket></map><map to="#2dd4bf"><bucket>&amp;quot;Asia&amp;quot;</bucket></map><map to="#f97316"><bucket>&amp;quot;Latin America&amp;quot;</bucket></map><map to="#ec4899"><bucket>&amp;quot;Oceania&amp;quot;</bucket></map></encoding></style-rule><style-rule element="pane"><format attr="background-color" value="#1e293b" /></style-rule></style></pane></panes>
         <rows />
         <cols />
       </table>
@@ -4408,7 +4408,7 @@
             <format attr="margin" value="4" />
             <format attr="background-color" value="#1e293b" />
           </zone-style>
-        <zone id="777" type-v2="text" x="70000" y="78000" w="9000" h="8500"><formatted-text><run bold="true" fontalignment="1" fontcolor="#ffffff" fontsize="10">100%</run></formatted-text><zone-style><style-rule element="zone"><format attr="background-color" value="#1e293b" /></style-rule></zone-style></zone></zone>
+        </zone>
       </zones>
       <devicelayouts>
         <devicelayout auto-generated="true" name="Phone">
