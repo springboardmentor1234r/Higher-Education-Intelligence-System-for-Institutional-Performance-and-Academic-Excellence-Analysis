@@ -1,0 +1,9 @@
+component,status,coverage,notes
+QS World University Rankings 2024,Complete,1498 universities,"Cleaned, IDs created, fact tables created"
+THE World University Rankings 2024,Complete,2673 records,"Cleaned, IDs created, fact tables created"
+World University Rankings 2023,Complete,2341 universities,"Cleaned, IDs created, fact tables created"
+World Bank Education Statistics,Complete,17059 selected indicator-year rows,Actual EdStats values; 5 selected education indicators
+Cross-source university matching,Complete with conservative exact/high-confidence fuzzy matching,3884 master universities; 641 matched across all 3 sources,Crosswalk contains method and score
+Six KPI implementation,Partial by source support,5 supported/available KPIs; 1 unavailable,Research Productivity Index intentionally not fabricated
+Tableau model,Ready for build,4 fact areas + dimensions,"Use relationships, not one giant CSV"
+Tableau dashboards,Blueprint ready; .twb/.twbx not generated,4 dashboards specified,Requires Tableau Desktop/Cloud for final workbook packaging

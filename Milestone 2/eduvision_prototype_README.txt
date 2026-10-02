@@ -1,0 +1,1 @@
+The guide requests eduvision_prototype.twbx. A genuine .twbx must be created/saved by Tableau. This folder includes dashboard_storyboard.pdf and the prepared Excel/CSV sources for building the Tableau prototype; no fake .twbx is supplied.

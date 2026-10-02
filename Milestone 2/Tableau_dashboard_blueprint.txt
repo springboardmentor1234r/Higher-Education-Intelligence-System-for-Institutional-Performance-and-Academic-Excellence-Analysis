@@ -1,0 +1,6 @@
+EduVision_DV Dashboard Blueprint
+1. University Overview: university selector, source/year filters, rank/overall/reputation KPIs, profile and comparison views.
+2. Research Analytics: research/citations metrics, source/year filters, research comparison and trend views.
+3. Student Analytics: student count, student/staff ratio, international student percentage, filters and comparison.
+4. Country Comparison: country selector, ranking coverage, World Bank education indicators, and cross-country comparison.
+Interactions: filters, university/country selectors, highlight actions, navigation buttons, and dashboard-to-dashboard navigation.
