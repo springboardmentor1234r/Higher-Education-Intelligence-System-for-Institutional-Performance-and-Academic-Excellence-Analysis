@@ -150,16 +150,16 @@ Explore the live interactive dashboard on Tableau Public:
 ## Dashboard Screenshots
 
 ### 1. Overview Dashboard
-![Overview Dashboard](documentation/Screenshots/Overview.png)
+![Overview Dashboard](documentation/Screenshots/overview.png)
 
 ### 2. Research Analytics Dashboard
-![Research Analytics Dashboard](documentation/Screenshots/Research.png)
+![Research Analytics Dashboard](documentation/Screenshots/research.png)
 
 ### 3. Student Analytics Dashboard
-![Student Analytics Dashboard](documentation/Screenshots/Student_analytic.png)
+![Student Analytics Dashboard](documentation/Screenshots/student_analytic.png)
 
 ### 4. Country Comparison Dashboard
-![Country Comparison Dashboard](documentation/Screenshots/Country_comparison.png)
+![Country Comparison Dashboard](documentation/Screenshots/country_comparison.png)
 
 ---
 

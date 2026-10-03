@@ -6,16 +6,16 @@ Module 04 organizes the Business Intelligence layer, hosting Tableau workbook fi
 ## Core Analytics Dashboards
 
 ### 1. University Overview
-![University Overview Dashboard](../documentation/Screenshots/Overview.png)
+![University Overview Dashboard](../documentation/Screenshots/overview.png)
 
 ### 2. Research Analytics
-![Research Analytics Dashboard](../documentation/Screenshots/Research.png)
+![Research Analytics Dashboard](../documentation/Screenshots/research.png)
 
 ### 3. Student Analytics
-![Student Analytics Dashboard](../documentation/Screenshots/Student_analytic.png)
+![Student Analytics Dashboard](../documentation/Screenshots/student_analytic.png)
 
 ### 4. Country Comparison
-![Country Comparison Dashboard](../documentation/Screenshots/Country_comparison.png)
+![Country Comparison Dashboard](../documentation/Screenshots/country_comparison.png)
 
 ---
 
