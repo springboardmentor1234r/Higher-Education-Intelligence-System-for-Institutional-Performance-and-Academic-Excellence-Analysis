@@ -2,12 +2,6 @@
 
 An enterprise-grade higher education analytics intelligence system that consolidates four public university ranking and macroeconomic datasets into a Star Schema data model, six engineered core KPIs, an automated data quality validation suite, and an interactive Tableau BI workbook with five analytical dashboards.
 
----
-
-![University Overview Dashboard](Documentation/Screenshots/dashboard_overview.png)
-
----
-
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
