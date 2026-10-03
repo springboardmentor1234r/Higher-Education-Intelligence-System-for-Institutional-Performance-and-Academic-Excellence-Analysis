@@ -1,0 +1,18 @@
+{
+  "dim_university_rows": 1373,
+  "dim_university_missing_country": 138,
+  "dim_university_country_completeness_pct": 89.95,
+  "fact_ranking_core_rows": 9793,
+  "fact_ranking_core_sources": 4,
+  "fact_ranking_core_year_range": "2005-2023",
+  "fact_ranking_core_duplicate_keys": 0,
+  "fact_ranking_core_missing_score": 5191,
+  "fact_ranking_core_score_completeness_pct": 46.99,
+  "fact_ranking_core_invalid_rank": 0,
+  "fact_country_indicator_rows": 79215,
+  "fact_country_indicator_countries": 170,
+  "fact_country_indicator_missing_value": 0,
+  "total_records_checked": 90381,
+  "total_issues_flagged": 5329,
+  "overall_completeness_pct": 94.1
+}

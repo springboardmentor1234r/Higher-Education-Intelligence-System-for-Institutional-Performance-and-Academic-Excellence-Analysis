@@ -1,0 +1,1547 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0708.1337                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='73d9cb28aa9e4f628506cdbdcc3a49283504af323c174d5303221a667ee4a0e6' _.fcp.WorkbookFingerprinting.true...creator-author-id='73d9cb28aa9e4f628506cdbdcc3a49283504af323c174d5303221a667ee4a0e6' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='90466320f01a1b5bdef6ed229097bf91f9bfe561ff06f2e37597d10e225f2796' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='90466320f01a1b5bdef6ed229097bf91f9bfe561ff06f2e37597d10e225f2796' original-version='18.1' source-build='2026.2.1 (20262.26.0708.1337)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='QS World University Rankings 2025 (Top global universities).csv+ (Multiple Connections)' inline='true' name='federated.0omg2540mn56uu1any8lx1q6pyxg' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='QS World University Rankings 2025 (Top global universities)' name='textscan.0ioamok0iszax910tf5mv0vihjbh'>
+            <connection class='textscan' directory='C:/Users/mbpsi/OneDrive/Desktop/EduVision_DV/Data/raw/QS_Ranking' filename='QS World University Rankings 2025 (Top global universities).csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='World University Rankings 2023' name='textscan.1grwbws05l40tf13z38wq0b4wt2d'>
+            <connection class='textscan' directory='C:/Users/mbpsi/OneDrive/Desktop/EduVision_DV/Data/raw/World_Ranking' filename='World University Rankings 2023.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation type='collection'>
+          <relation connection='textscan.0ioamok0iszax910tf5mv0vihjbh' name='QS World University Rankings 2025 (Top global universities).csv' table='[QS World University Rankings 2025 (Top global universities)#csv]' type='table'>
+            <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='RANK_2025' ordinal='0' />
+              <column datatype='string' name='RANK_2024' ordinal='1' />
+              <column datatype='string' name='Institution_Name' ordinal='2' />
+              <column datatype='string' name='Location' ordinal='3' />
+              <column datatype='string' name='Region' ordinal='4' />
+              <column datatype='string' name='SIZE' ordinal='5' />
+              <column datatype='string' name='FOCUS' ordinal='6' />
+              <column datatype='string' name='RES.' ordinal='7' />
+              <column datatype='string' name='STATUS' ordinal='8' />
+              <column datatype='real' name='Academic_Reputation_Score' ordinal='9' />
+              <column datatype='string' name='Academic_Reputation_Rank' ordinal='10' />
+              <column datatype='real' name='Employer_Reputation_Score' ordinal='11' />
+              <column datatype='string' name='Employer_Reputation_Rank' ordinal='12' />
+              <column datatype='real' name='Faculty_Student_Score' ordinal='13' />
+              <column datatype='string' name='Faculty_Student_Rank' ordinal='14' />
+              <column datatype='real' name='Citations_per_Faculty_Score' ordinal='15' />
+              <column datatype='string' name='Citations_per_Faculty_Rank' ordinal='16' />
+              <column datatype='real' name='International_Faculty_Score' ordinal='17' />
+              <column datatype='string' name='International_Faculty_Rank' ordinal='18' />
+              <column datatype='real' name='International_Students_Score' ordinal='19' />
+              <column datatype='string' name='International_Students_Rank' ordinal='20' />
+              <column datatype='real' name='International_Research_Network_Score' ordinal='21' />
+              <column datatype='string' name='International_Research_Network_Rank' ordinal='22' />
+              <column datatype='real' name='Employment_Outcomes_Score' ordinal='23' />
+              <column datatype='string' name='Employment_Outcomes_Rank' ordinal='24' />
+              <column datatype='real' name='Sustainability_Score' ordinal='25' />
+              <column datatype='string' name='Sustainability_Rank' ordinal='26' />
+              <column datatype='real' name='Overall_Score' ordinal='27' />
+            </columns>
+          </relation>
+          <relation connection='textscan.1grwbws05l40tf13z38wq0b4wt2d' name='World University Rankings 2023.csv' table='[World University Rankings 2023#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='University Rank' ordinal='0' />
+              <column datatype='string' name='Name of University' ordinal='1' />
+              <column datatype='string' name='Location' ordinal='2' />
+              <column datatype='integer' name='No of student' ordinal='3' />
+              <column datatype='real' name='No of student per staff' ordinal='4' />
+              <column datatype='real' name='International Student' ordinal='5' />
+              <column datatype='string' name='Female:Male Ratio' ordinal='6' />
+              <column datatype='string' name='OverAll Score' ordinal='7' />
+              <column datatype='real' name='Teaching Score' ordinal='8' />
+              <column datatype='real' name='Research Score' ordinal='9' />
+              <column datatype='real' name='Citations Score' ordinal='10' />
+              <column datatype='real' name='Industry Income Score' ordinal='11' />
+              <column datatype='real' name='International Outlook Score' ordinal='12' />
+            </columns>
+          </relation>
+        </relation>
+        <cols>
+          <map key='[Academic_Reputation_Rank]' value='[QS World University Rankings 2025 (Top global universities).csv].[Academic_Reputation_Rank]' />
+          <map key='[Academic_Reputation_Score]' value='[QS World University Rankings 2025 (Top global universities).csv].[Academic_Reputation_Score]' />
+          <map key='[Citations Score]' value='[World University Rankings 2023.csv].[Citations Score]' />
+          <map key='[Citations_per_Faculty_Rank]' value='[QS World University Rankings 2025 (Top global universities).csv].[Citations_per_Faculty_Rank]' />
+          <map key='[Citations_per_Faculty_Score]' value='[QS World University Rankings 2025 (Top global universities).csv].[Citations_per_Faculty_Score]' />
+          <map key='[Employer_Reputation_Rank]' value='[QS World University Rankings 2025 (Top global universities).csv].[Employer_Reputation_Rank]' />
+          <map key='[Employer_Reputation_Score]' value='[QS World University Rankings 2025 (Top global universities).csv].[Employer_Reputation_Score]' />
+          <map key='[Employment_Outcomes_Rank]' value='[QS World University Rankings 2025 (Top global universities).csv].[Employment_Outcomes_Rank]' />
+          <map key='[Employment_Outcomes_Score]' value='[QS World University Rankings 2025 (Top global universities).csv].[Employment_Outcomes_Score]' />
+          <map key='[FOCUS]' value='[QS World University Rankings 2025 (Top global universities).csv].[FOCUS]' />
+          <map key='[Faculty_Student_Rank]' value='[QS World University Rankings 2025 (Top global universities).csv].[Faculty_Student_Rank]' />
+          <map key='[Faculty_Student_Score]' value='[QS World University Rankings 2025 (Top global universities).csv].[Faculty_Student_Score]' />
+          <map key='[Female:Male Ratio]' value='[World University Rankings 2023.csv].[Female:Male Ratio]' />
+          <map key='[Industry Income Score]' value='[World University Rankings 2023.csv].[Industry Income Score]' />
+          <map key='[Institution_Name]' value='[QS World University Rankings 2025 (Top global universities).csv].[Institution_Name]' />
+          <map key='[International Outlook Score]' value='[World University Rankings 2023.csv].[International Outlook Score]' />
+          <map key='[International Student]' value='[World University Rankings 2023.csv].[International Student]' />
+          <map key='[International_Faculty_Rank]' value='[QS World University Rankings 2025 (Top global universities).csv].[International_Faculty_Rank]' />
+          <map key='[International_Faculty_Score]' value='[QS World University Rankings 2025 (Top global universities).csv].[International_Faculty_Score]' />
+          <map key='[International_Research_Network_Rank]' value='[QS World University Rankings 2025 (Top global universities).csv].[International_Research_Network_Rank]' />
+          <map key='[International_Research_Network_Score]' value='[QS World University Rankings 2025 (Top global universities).csv].[International_Research_Network_Score]' />
+          <map key='[International_Students_Rank]' value='[QS World University Rankings 2025 (Top global universities).csv].[International_Students_Rank]' />
+          <map key='[International_Students_Score]' value='[QS World University Rankings 2025 (Top global universities).csv].[International_Students_Score]' />
+          <map key='[Location (World University Rankings 2023.csv)]' value='[World University Rankings 2023.csv].[Location]' />
+          <map key='[Location]' value='[QS World University Rankings 2025 (Top global universities).csv].[Location]' />
+          <map key='[Name of University]' value='[World University Rankings 2023.csv].[Name of University]' />
+          <map key='[No of student per staff]' value='[World University Rankings 2023.csv].[No of student per staff]' />
+          <map key='[No of student]' value='[World University Rankings 2023.csv].[No of student]' />
+          <map key='[OverAll Score]' value='[World University Rankings 2023.csv].[OverAll Score]' />
+          <map key='[Overall_Score]' value='[QS World University Rankings 2025 (Top global universities).csv].[Overall_Score]' />
+          <map key='[RANK_2024]' value='[QS World University Rankings 2025 (Top global universities).csv].[RANK_2024]' />
+          <map key='[RANK_2025]' value='[QS World University Rankings 2025 (Top global universities).csv].[RANK_2025]' />
+          <map key='[RES.]' value='[QS World University Rankings 2025 (Top global universities).csv].[RES.]' />
+          <map key='[Region]' value='[QS World University Rankings 2025 (Top global universities).csv].[Region]' />
+          <map key='[Research Score]' value='[World University Rankings 2023.csv].[Research Score]' />
+          <map key='[SIZE]' value='[QS World University Rankings 2025 (Top global universities).csv].[SIZE]' />
+          <map key='[STATUS]' value='[QS World University Rankings 2025 (Top global universities).csv].[STATUS]' />
+          <map key='[Sustainability_Rank]' value='[QS World University Rankings 2025 (Top global universities).csv].[Sustainability_Rank]' />
+          <map key='[Sustainability_Score]' value='[QS World University Rankings 2025 (Top global universities).csv].[Sustainability_Score]' />
+          <map key='[Teaching Score]' value='[World University Rankings 2023.csv].[Teaching Score]' />
+          <map key='[University Rank]' value='[World University Rankings 2023.csv].[University Rank]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;ibm-5348_P100-1997&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[World University Rankings 2023.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RANK_2025</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[RANK_2025]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>RANK_2025</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RANK_2024</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[RANK_2024]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>RANK_2024</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution_Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Institution_Name]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>Institution_Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SIZE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SIZE]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>SIZE</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FOCUS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FOCUS]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>FOCUS</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RES.</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[RES.]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>RES.</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STATUS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STATUS]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>STATUS</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Academic_Reputation_Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Academic_Reputation_Score]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>Academic_Reputation_Score</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Academic_Reputation_Rank</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Academic_Reputation_Rank]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>Academic_Reputation_Rank</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employer_Reputation_Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Employer_Reputation_Score]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>Employer_Reputation_Score</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employer_Reputation_Rank</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Employer_Reputation_Rank]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>Employer_Reputation_Rank</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Faculty_Student_Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Faculty_Student_Score]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>Faculty_Student_Score</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Faculty_Student_Rank</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Faculty_Student_Rank]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>Faculty_Student_Rank</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Citations_per_Faculty_Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Citations_per_Faculty_Score]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>Citations_per_Faculty_Score</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Citations_per_Faculty_Rank</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Citations_per_Faculty_Rank]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>Citations_per_Faculty_Rank</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>International_Faculty_Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[International_Faculty_Score]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>International_Faculty_Score</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>International_Faculty_Rank</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[International_Faculty_Rank]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>International_Faculty_Rank</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>International_Students_Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[International_Students_Score]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>International_Students_Score</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>International_Students_Rank</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[International_Students_Rank]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>International_Students_Rank</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>International_Research_Network_Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[International_Research_Network_Score]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>International_Research_Network_Score</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>International_Research_Network_Rank</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[International_Research_Network_Rank]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>International_Research_Network_Rank</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employment_Outcomes_Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Employment_Outcomes_Score]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>Employment_Outcomes_Score</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employment_Outcomes_Rank</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Employment_Outcomes_Rank]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>Employment_Outcomes_Rank</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sustainability_Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sustainability_Score]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>Sustainability_Score</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sustainability_Rank</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sustainability_Rank]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>Sustainability_Rank</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Overall_Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Overall_Score]</local-name>
+            <parent-name>[QS World University Rankings 2025 (Top global universities).csv]</parent-name>
+            <remote-alias>Overall_Score</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>University Rank</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[University Rank]</local-name>
+            <parent-name>[World University Rankings 2023.csv]</parent-name>
+            <remote-alias>University Rank</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name of University</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name of University]</local-name>
+            <parent-name>[World University Rankings 2023.csv]</parent-name>
+            <remote-alias>Name of University</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location (World University Rankings 2023.csv)]</local-name>
+            <parent-name>[World University Rankings 2023.csv]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No of student</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[No of student]</local-name>
+            <parent-name>[World University Rankings 2023.csv]</parent-name>
+            <remote-alias>No of student</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No of student per staff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[No of student per staff]</local-name>
+            <parent-name>[World University Rankings 2023.csv]</parent-name>
+            <remote-alias>No of student per staff</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>International Student</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[International Student]</local-name>
+            <parent-name>[World University Rankings 2023.csv]</parent-name>
+            <remote-alias>International Student</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Female:Male Ratio</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Female:Male Ratio]</local-name>
+            <parent-name>[World University Rankings 2023.csv]</parent-name>
+            <remote-alias>Female:Male Ratio</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OverAll Score</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[OverAll Score]</local-name>
+            <parent-name>[World University Rankings 2023.csv]</parent-name>
+            <remote-alias>OverAll Score</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Teaching Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Teaching Score]</local-name>
+            <parent-name>[World University Rankings 2023.csv]</parent-name>
+            <remote-alias>Teaching Score</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Research Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Research Score]</local-name>
+            <parent-name>[World University Rankings 2023.csv]</parent-name>
+            <remote-alias>Research Score</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Citations Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Citations Score]</local-name>
+            <parent-name>[World University Rankings 2023.csv]</parent-name>
+            <remote-alias>Citations Score</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry Income Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Industry Income Score]</local-name>
+            <parent-name>[World University Rankings 2023.csv]</parent-name>
+            <remote-alias>Industry Income Score</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>International Outlook Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[International Outlook Score]</local-name>
+            <parent-name>[World University Rankings 2023.csv]</parent-name>
+            <remote-alias>International Outlook Score</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Academic Reputation Rank' datatype='string' name='[Academic_Reputation_Rank]' role='dimension' type='nominal' />
+      <column caption='Academic Reputation Score' datatype='real' name='[Academic_Reputation_Score]' role='measure' type='quantitative' />
+      <column caption='Citations per Faculty Rank' datatype='string' name='[Citations_per_Faculty_Rank]' role='dimension' type='nominal' />
+      <column caption='Citations per Faculty Score' datatype='real' name='[Citations_per_Faculty_Score]' role='measure' type='quantitative' />
+      <column caption='Employer Reputation Rank' datatype='string' name='[Employer_Reputation_Rank]' role='dimension' type='nominal' />
+      <column caption='Employer Reputation Score' datatype='real' name='[Employer_Reputation_Score]' role='measure' type='quantitative' />
+      <column caption='Employment Outcomes Rank' datatype='string' name='[Employment_Outcomes_Rank]' role='dimension' type='nominal' />
+      <column caption='Employment Outcomes Score' datatype='real' name='[Employment_Outcomes_Score]' role='measure' type='quantitative' />
+      <column caption='Focus' datatype='string' name='[FOCUS]' role='dimension' type='nominal' />
+      <column caption='Faculty Student Rank' datatype='string' name='[Faculty_Student_Rank]' role='dimension' type='nominal' />
+      <column caption='Faculty Student Score' datatype='real' name='[Faculty_Student_Score]' role='measure' type='quantitative' />
+      <column caption='Institution Name' datatype='string' name='[Institution_Name]' role='dimension' type='nominal' />
+      <column caption='International Faculty Rank' datatype='string' name='[International_Faculty_Rank]' role='dimension' type='nominal' />
+      <column caption='International Faculty Score' datatype='real' name='[International_Faculty_Score]' role='measure' type='quantitative' />
+      <column caption='International Research Network Rank' datatype='string' name='[International_Research_Network_Rank]' role='dimension' type='nominal' />
+      <column caption='International Research Network Score' datatype='real' name='[International_Research_Network_Score]' role='measure' type='quantitative' />
+      <column caption='International Students Rank' datatype='string' name='[International_Students_Rank]' role='dimension' type='nominal' />
+      <column caption='International Students Score' datatype='real' name='[International_Students_Score]' role='measure' type='quantitative' />
+      <column caption='Overall Score' datatype='real' name='[Overall_Score]' role='measure' type='quantitative' />
+      <column caption='Rank 2024' datatype='string' name='[RANK_2024]' role='dimension' type='nominal' />
+      <column caption='Rank 2025' datatype='string' name='[RANK_2025]' role='dimension' type='nominal' />
+      <column caption='Res.' datatype='string' name='[RES.]' role='dimension' type='nominal' />
+      <column caption='Size' datatype='string' name='[SIZE]' role='dimension' type='nominal' />
+      <column caption='Status' datatype='string' name='[STATUS]' role='dimension' type='nominal' />
+      <column caption='Sustainability Rank' datatype='string' name='[Sustainability_Rank]' role='dimension' type='nominal' />
+      <column caption='Sustainability Score' datatype='real' name='[Sustainability_Score]' role='measure' type='quantitative' />
+      <column caption='QS World University Rankings 2025 (Top global universities).csv' datatype='table' name='[__tableau_internal_object_id__].[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]' role='measure' type='quantitative' />
+      <column caption='World University Rankings 2023.csv' datatype='table' name='[__tableau_internal_object_id__].[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]' role='measure' type='quantitative' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/mbpsi/AppData/Local/Temp/TableauTemp/#TableauTemp_0hdc4ju0r5celg1cd60530rh3flb.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/27/2026 02:23:36 PM' username='tableau_internal_user'>
+          <relation type='collection'>
+            <relation name='QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A' table='[Extract].[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]' type='table' />
+            <relation name='World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360' table='[Extract].[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]' type='table' />
+          </relation>
+          <cols>
+            <map key='[Academic_Reputation_Rank]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[Academic_Reputation_Rank]' />
+            <map key='[Academic_Reputation_Score]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[Academic_Reputation_Score]' />
+            <map key='[Citations Score]' value='[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360].[Citations Score]' />
+            <map key='[Citations_per_Faculty_Rank]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[Citations_per_Faculty_Rank]' />
+            <map key='[Citations_per_Faculty_Score]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[Citations_per_Faculty_Score]' />
+            <map key='[Employer_Reputation_Rank]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[Employer_Reputation_Rank]' />
+            <map key='[Employer_Reputation_Score]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[Employer_Reputation_Score]' />
+            <map key='[Employment_Outcomes_Rank]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[Employment_Outcomes_Rank]' />
+            <map key='[Employment_Outcomes_Score]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[Employment_Outcomes_Score]' />
+            <map key='[FOCUS]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[FOCUS]' />
+            <map key='[Faculty_Student_Rank]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[Faculty_Student_Rank]' />
+            <map key='[Faculty_Student_Score]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[Faculty_Student_Score]' />
+            <map key='[Female:Male Ratio]' value='[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360].[Female:Male Ratio]' />
+            <map key='[Industry Income Score]' value='[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360].[Industry Income Score]' />
+            <map key='[Institution_Name]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[Institution_Name]' />
+            <map key='[International Outlook Score]' value='[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360].[International Outlook Score]' />
+            <map key='[International Student]' value='[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360].[International Student]' />
+            <map key='[International_Faculty_Rank]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[International_Faculty_Rank]' />
+            <map key='[International_Faculty_Score]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[International_Faculty_Score]' />
+            <map key='[International_Research_Network_Rank]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[International_Research_Network_Rank]' />
+            <map key='[International_Research_Network_Score]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[International_Research_Network_Score]' />
+            <map key='[International_Students_Rank]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[International_Students_Rank]' />
+            <map key='[International_Students_Score]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[International_Students_Score]' />
+            <map key='[Location (World University Rankings 2023.csv)]' value='[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360].[Location]' />
+            <map key='[Location]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[Location]' />
+            <map key='[Name of University]' value='[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360].[Name of University]' />
+            <map key='[No of student per staff]' value='[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360].[No of student per staff]' />
+            <map key='[No of student]' value='[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360].[No of student]' />
+            <map key='[OverAll Score]' value='[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360].[OverAll Score]' />
+            <map key='[Overall_Score]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[Overall_Score]' />
+            <map key='[RANK_2024]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[RANK_2024]' />
+            <map key='[RANK_2025]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[RANK_2025]' />
+            <map key='[RES.]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[RES.]' />
+            <map key='[Region]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[Region]' />
+            <map key='[Research Score]' value='[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360].[Research Score]' />
+            <map key='[SIZE]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[SIZE]' />
+            <map key='[STATUS]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[STATUS]' />
+            <map key='[Sustainability_Rank]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[Sustainability_Rank]' />
+            <map key='[Sustainability_Score]' value='[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A].[Sustainability_Score]' />
+            <map key='[Teaching Score]' value='[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360].[Teaching Score]' />
+            <map key='[University Rank]' value='[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360].[University Rank]' />
+          </cols>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>RANK_2025</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[RANK_2025]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>RANK_2025</remote-alias>
+              <ordinal>0</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>370</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RANK_2024</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[RANK_2024]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>RANK_2024</remote-alias>
+              <ordinal>1</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>342</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Institution_Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Institution_Name]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>Institution_Name</remote-alias>
+              <ordinal>2</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1503</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Location</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Location]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>Location</remote-alias>
+              <ordinal>3</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>95</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Region]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>Region</remote-alias>
+              <ordinal>4</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SIZE</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SIZE]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>SIZE</remote-alias>
+              <ordinal>5</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>FOCUS</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[FOCUS]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>FOCUS</remote-alias>
+              <ordinal>6</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RES.</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[RES.]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>RES.</remote-alias>
+              <ordinal>7</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STATUS</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STATUS]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>STATUS</remote-alias>
+              <ordinal>8</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Academic_Reputation_Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Academic_Reputation_Score]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>Academic_Reputation_Score</remote-alias>
+              <ordinal>9</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>439</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Academic_Reputation_Rank</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Academic_Reputation_Rank]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>Academic_Reputation_Rank</remote-alias>
+              <ordinal>10</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>890</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Employer_Reputation_Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Employer_Reputation_Score]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>Employer_Reputation_Score</remote-alias>
+              <ordinal>11</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>453</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Employer_Reputation_Rank</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Employer_Reputation_Rank]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>Employer_Reputation_Rank</remote-alias>
+              <ordinal>12</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>903</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Faculty_Student_Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Faculty_Student_Score]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>Faculty_Student_Score</remote-alias>
+              <ordinal>13</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>546</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Faculty_Student_Rank</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Faculty_Student_Rank]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>Faculty_Student_Rank</remote-alias>
+              <ordinal>14</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>971</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Citations_per_Faculty_Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Citations_per_Faculty_Score]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>Citations_per_Faculty_Score</remote-alias>
+              <ordinal>15</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>514</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Citations_per_Faculty_Rank</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Citations_per_Faculty_Rank]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>Citations_per_Faculty_Rank</remote-alias>
+              <ordinal>16</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>917</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>International_Faculty_Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[International_Faculty_Score]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>International_Faculty_Score</remote-alias>
+              <ordinal>17</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>468</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>International_Faculty_Rank</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[International_Faculty_Rank]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>International_Faculty_Rank</remote-alias>
+              <ordinal>18</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>848</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>International_Students_Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[International_Students_Score]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>International_Students_Score</remote-alias>
+              <ordinal>19</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>474</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>International_Students_Rank</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[International_Students_Rank]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>International_Students_Rank</remote-alias>
+              <ordinal>20</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>911</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>International_Research_Network_Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[International_Research_Network_Score]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>International_Research_Network_Score</remote-alias>
+              <ordinal>21</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>719</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>International_Research_Network_Rank</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[International_Research_Network_Rank]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>International_Research_Network_Rank</remote-alias>
+              <ordinal>22</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>967</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Employment_Outcomes_Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Employment_Outcomes_Score]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>Employment_Outcomes_Score</remote-alias>
+              <ordinal>23</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>496</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Employment_Outcomes_Rank</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Employment_Outcomes_Rank]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>Employment_Outcomes_Rank</remote-alias>
+              <ordinal>24</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>945</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sustainability_Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Sustainability_Score]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>Sustainability_Score</remote-alias>
+              <ordinal>25</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>365</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sustainability_Rank</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sustainability_Rank]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>Sustainability_Rank</remote-alias>
+              <ordinal>26</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>304</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Overall_Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Overall_Score]</local-name>
+              <parent-name>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</parent-name>
+              <remote-alias>Overall_Score</remote-alias>
+              <ordinal>27</ordinal>
+              <family>QS World University Rankings 2025 (Top global universities).csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>346</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>University Rank</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[University Rank]</local-name>
+              <parent-name>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</parent-name>
+              <remote-alias>University Rank</remote-alias>
+              <ordinal>28</ordinal>
+              <family>World University Rankings 2023.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>135</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Name of University</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Name of University]</local-name>
+              <parent-name>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</parent-name>
+              <remote-alias>Name of University</remote-alias>
+              <ordinal>29</ordinal>
+              <family>World University Rankings 2023.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2231</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Location</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Location (World University Rankings 2023.csv)]</local-name>
+              <parent-name>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</parent-name>
+              <remote-alias>Location</remote-alias>
+              <ordinal>30</ordinal>
+              <family>World University Rankings 2023.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>103</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>No of student</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[No of student]</local-name>
+              <parent-name>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</parent-name>
+              <remote-alias>No of student</remote-alias>
+              <ordinal>31</ordinal>
+              <family>World University Rankings 2023.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1654</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>No of student per staff</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[No of student per staff]</local-name>
+              <parent-name>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</parent-name>
+              <remote-alias>No of student per staff</remote-alias>
+              <ordinal>32</ordinal>
+              <family>World University Rankings 2023.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>390</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>International Student</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[International Student]</local-name>
+              <parent-name>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</parent-name>
+              <remote-alias>International Student</remote-alias>
+              <ordinal>33</ordinal>
+              <family>World University Rankings 2023.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>72</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Female:Male Ratio</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Female:Male Ratio]</local-name>
+              <parent-name>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</parent-name>
+              <remote-alias>Female:Male Ratio</remote-alias>
+              <ordinal>34</ordinal>
+              <family>World University Rankings 2023.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>85</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OverAll Score</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[OverAll Score]</local-name>
+              <parent-name>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</parent-name>
+              <remote-alias>OverAll Score</remote-alias>
+              <ordinal>35</ordinal>
+              <family>World University Rankings 2023.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>134</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Teaching Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Teaching Score]</local-name>
+              <parent-name>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</parent-name>
+              <remote-alias>Teaching Score</remote-alias>
+              <ordinal>36</ordinal>
+              <family>World University Rankings 2023.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>394</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Research Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Research Score]</local-name>
+              <parent-name>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</parent-name>
+              <remote-alias>Research Score</remote-alias>
+              <ordinal>37</ordinal>
+              <family>World University Rankings 2023.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>443</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Citations Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Citations Score]</local-name>
+              <parent-name>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</parent-name>
+              <remote-alias>Citations Score</remote-alias>
+              <ordinal>38</ordinal>
+              <family>World University Rankings 2023.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>714</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Industry Income Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Industry Income Score]</local-name>
+              <parent-name>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</parent-name>
+              <remote-alias>Industry Income Score</remote-alias>
+              <ordinal>39</ordinal>
+              <family>World University Rankings 2023.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>326</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>International Outlook Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[International Outlook Score]</local-name>
+              <parent-name>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</parent-name>
+              <remote-alias>International Outlook Score</remote-alias>
+              <ordinal>40</ordinal>
+              <family>World University Rankings 2023.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>652</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='QS World University Rankings 2025 (Top global universities).csv' id='QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A'>
+            <properties context=''>
+              <relation connection='textscan.0ioamok0iszax910tf5mv0vihjbh' name='QS World University Rankings 2025 (Top global universities).csv' table='[QS World University Rankings 2025 (Top global universities)#csv]' type='table'>
+                <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='RANK_2025' ordinal='0' />
+                  <column datatype='string' name='RANK_2024' ordinal='1' />
+                  <column datatype='string' name='Institution_Name' ordinal='2' />
+                  <column datatype='string' name='Location' ordinal='3' />
+                  <column datatype='string' name='Region' ordinal='4' />
+                  <column datatype='string' name='SIZE' ordinal='5' />
+                  <column datatype='string' name='FOCUS' ordinal='6' />
+                  <column datatype='string' name='RES.' ordinal='7' />
+                  <column datatype='string' name='STATUS' ordinal='8' />
+                  <column datatype='real' name='Academic_Reputation_Score' ordinal='9' />
+                  <column datatype='string' name='Academic_Reputation_Rank' ordinal='10' />
+                  <column datatype='real' name='Employer_Reputation_Score' ordinal='11' />
+                  <column datatype='string' name='Employer_Reputation_Rank' ordinal='12' />
+                  <column datatype='real' name='Faculty_Student_Score' ordinal='13' />
+                  <column datatype='string' name='Faculty_Student_Rank' ordinal='14' />
+                  <column datatype='real' name='Citations_per_Faculty_Score' ordinal='15' />
+                  <column datatype='string' name='Citations_per_Faculty_Rank' ordinal='16' />
+                  <column datatype='real' name='International_Faculty_Score' ordinal='17' />
+                  <column datatype='string' name='International_Faculty_Rank' ordinal='18' />
+                  <column datatype='real' name='International_Students_Score' ordinal='19' />
+                  <column datatype='string' name='International_Students_Rank' ordinal='20' />
+                  <column datatype='real' name='International_Research_Network_Score' ordinal='21' />
+                  <column datatype='string' name='International_Research_Network_Rank' ordinal='22' />
+                  <column datatype='real' name='Employment_Outcomes_Score' ordinal='23' />
+                  <column datatype='string' name='Employment_Outcomes_Rank' ordinal='24' />
+                  <column datatype='real' name='Sustainability_Score' ordinal='25' />
+                  <column datatype='string' name='Sustainability_Rank' ordinal='26' />
+                  <column datatype='real' name='Overall_Score' ordinal='27' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A' table='[Extract].[QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A]' type='table' />
+            </properties>
+          </object>
+          <object caption='World University Rankings 2023.csv' id='World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360'>
+            <properties context=''>
+              <relation connection='textscan.1grwbws05l40tf13z38wq0b4wt2d' name='World University Rankings 2023.csv' table='[World University Rankings 2023#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='University Rank' ordinal='0' />
+                  <column datatype='string' name='Name of University' ordinal='1' />
+                  <column datatype='string' name='Location' ordinal='2' />
+                  <column datatype='integer' name='No of student' ordinal='3' />
+                  <column datatype='real' name='No of student per staff' ordinal='4' />
+                  <column datatype='real' name='International Student' ordinal='5' />
+                  <column datatype='string' name='Female:Male Ratio' ordinal='6' />
+                  <column datatype='string' name='OverAll Score' ordinal='7' />
+                  <column datatype='real' name='Teaching Score' ordinal='8' />
+                  <column datatype='real' name='Research Score' ordinal='9' />
+                  <column datatype='real' name='Citations Score' ordinal='10' />
+                  <column datatype='real' name='Industry Income Score' ordinal='11' />
+                  <column datatype='real' name='International Outlook Score' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360' table='[Extract].[World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[Location]' />
+              <expression op='[Location (World University Rankings 2023.csv)]' />
+            </expression>
+            <first-end-point object-id='QS World University Rankings 2025 (Top global universities).csv_02CAC4A4346F4B159CB15F77BF5ADF6A' />
+            <second-end-point object-id='World University Rankings 2023.csv_55209BAB1F554F43AA6CA29DA6F69360' />
+          </relationship>
+        </relationships>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{859F4D52-1CBA-405B-973A-67B3157D4810}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0FC8C9FF-A919-4E65-A247-E4B411ADE7AE}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
