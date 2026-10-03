@@ -76,15 +76,15 @@ The core objective of this project is to eliminate data fragmentation across dis
 
 ## Project Architecture
 
-The project is structured into **4 functional core modules** supported by a dedicated **Documentation** folder.
+The project is structured into **4 functional core modules** supported by a dedicated **documentation** folder.
 
 ```text
-PROJECT_ROOT/
+EduVision_DV/
 ├── 01_Data_Ingestion_and_Cleaning/
 ├── 02_Integration_and_Data_Model/
 ├── 03_KPI_Engineering_and_Quality_Audit/
 ├── 04_BI_Dashboards_and_Visualization/
-└── Documentation/
+└── documentation/
 ```
 
 ### Module 1 — Data Ingestion and Cleaning (`01_Data_Ingestion_and_Cleaning/`)
@@ -150,27 +150,27 @@ Explore the live interactive dashboard on Tableau Public:
 ## Dashboard Screenshots
 
 ### 1. Overview Dashboard
-![Overview Dashboard](Documentation/Screenshots/dashboard_overview.png)
+![Overview Dashboard](documentation/Screenshots/Overview.png)
 
 ### 2. Research Analytics Dashboard
-![Research Analytics Dashboard](Documentation/Screenshots/dashboard_research.png)
+![Research Analytics Dashboard](documentation/Screenshots/Research.png)
 
 ### 3. Student Analytics Dashboard
-![Student Analytics Dashboard](Documentation/Screenshots/dashboard_student.png)
+![Student Analytics Dashboard](documentation/Screenshots/Student_analytic.png)
 
 ### 4. Country Comparison Dashboard
-![Country Comparison Dashboard](Documentation/Screenshots/dashboard_country.png)
+![Country Comparison Dashboard](documentation/Screenshots/Country_comparison.png)
 
 ---
 
 ## Project Documentation
 
-All non-code presentation and documentation materials are located in the top-level `Documentation/` folder:
+All non-code presentation and documentation materials are located in the top-level `documentation/` folder:
 
-- **Presentation (`Documentation/PPT/`)**: Project presentation slide deck (`Project_Presentation.pptx`).
-- **Tableau Documentation (`Documentation/Tableau/`)**: `Tableau_Dashboard.md` containing the live dashboard URL and visual details.
-- **Screenshots (`Documentation/Screenshots/`)**: Visual preview gallery of all dashboard views.
-- **Documentation Index**: `Documentation/README.md` detailing all assets.
+- **Presentation (`documentation/PPT/`)**: Project presentation slide deck (`Presentation.pptx.pdf`).
+- **Tableau Documentation (`documentation/Tableau/`)**: `Tableau_Dashboard.md` containing the live dashboard URL and visual details.
+- **Screenshots (`documentation/Screenshots/`)**: Visual preview gallery of all dashboard views.
+- **Documentation Index**: `documentation/README.md` detailing all assets.
 
 ---
 
@@ -209,13 +209,17 @@ python 03_KPI_Engineering_and_Quality_Audit/scripts/audit_data_quality.py
 EduVision_DV/
 │
 ├── 01_Data_Ingestion_and_Cleaning/
+│   ├── data/
+│   │   ├── raw/
+│   │   ├── cleaned/
+│   │   ├── processed/
+│   │   └── validation/
 │   ├── notebooks/
 │   │   └── 02_data_cleaning.ipynb
 │   ├── reports/
 │   │   ├── dataset_validation_report.csv
 │   │   ├── dataset_validation_report.md
 │   │   ├── dataset_profile.json
-│   │   ├── post_cleaning_validation.csv
 │   │   └── cleaning_log.md
 │   ├── scripts/
 │   │   ├── profile_data.py
@@ -223,12 +227,13 @@ EduVision_DV/
 │   └── README.md
 │
 ├── 02_Integration_and_Data_Model/
+│   ├── data/
+│   │   ├── final/
+│   │   └── warehouse/
 │   ├── notebooks/
 │   │   ├── 03_standardization_and_ids.ipynb
 │   │   └── 04_kpi_engineering_and_final_data.ipynb
 │   ├── reports/
-│   │   ├── university_matching_candidates.csv
-│   │   ├── university_matching_report.md
 │   │   └── final_data_model_validation.csv
 │   ├── scripts/
 │   │   ├── build_standardization_pipeline.py
@@ -252,8 +257,8 @@ EduVision_DV/
 │   └── README.md
 │
 ├── 04_BI_Dashboards_and_Visualization/
+│   ├── Dim_&_Fact_Datasets/
 │   ├── UNIVERSITY_OVERVIEW/
-│   │   └── tableau_dashboard_1_university_overview_guide.md
 │   ├── RESEARCH_ANALYTICS/
 │   ├── STUDENT_ANALYTICS/
 │   ├── COUNTRY_COMPARISON/
@@ -261,30 +266,18 @@ EduVision_DV/
 │   ├── EduVision_Module2_Cleaning.twbx
 │   └── README.md
 │
-├── Documentation/
-│   ├── PPT/
-│   │   └── (Project_Presentation.pptx placeholder)
-│   ├── Tableau/
-│   │   └── Tableau_Dashboard.md
-│   ├── Screenshots/
-│   │   ├── dashboard_overview.png
-│   │   ├── dashboard_research.png
-│   │   ├── dashboard_student.png
-│   │   └── dashboard_country.png
-│   └── README.md
-│
-├── Data/
-│   ├── raw/
-│   ├── cleaned/
-│   ├── processed/
-│   ├── final/
-│   └── warehouse/
-│
-├── Dim_&_Fact_Datasets/
-├── documentation/
-├── LICENSE
-├── README.md
-└── .gitignore
+└── documentation/
+    ├── PPT/
+    │   └── Presentation.pptx.pdf
+    ├── Tableau/
+    │   └── Tableau_Dashboard.md
+    ├── Screenshots/
+    │   ├── Overview.png
+    │   ├── Research.png
+    │   ├── Student_analytic.png
+    │   └── Country_comparison.png
+    ├── scripts/
+    └── README.md
 ```
 
 ---
