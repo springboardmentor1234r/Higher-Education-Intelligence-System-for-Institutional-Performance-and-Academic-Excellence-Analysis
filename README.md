@@ -4,6 +4,11 @@ A higher education analytics project that turns four public ranking and educatio
 
 ---
 
+**Live Dashboard:** [View on Tableau Public](https://prod-in-a.online.tableau.com/t/punikotiharsha-4b92357949/views/EduVision/UniversityOverview/5ac0bf9b-feb2-46e8-880f-48e557ac455b/1290284c-05e2-4bb8-95a9-80ca4dc1c5f2)
+**Repository:** [GitHub — PUNIKOTI-HARSHA branch](https://github.com/springboardmentor1234r/Higher-Education-Intelligence-System-for-Institutional-Performance-and-Academic-Excellence-Analysis/tree/PUNIKOTI-HARSHA)
+
+---
+
 ![University Overview dashboard](Assets/UNIVERSITY_OVERVIEW.png)
 
 ---
@@ -40,7 +45,10 @@ EduVision DV analyzes university rankings, research performance, student diversi
 | Policymakers | Comparing country level education indicators for planning |
 | Education consultants | Producing quick, defensible comparisons for clients |
 
-**The deliverable:** a single Tableau packaged workbook (**.twbx**) containing five dashboards, backed by a data pipeline that is documented end to end below, so every number on every dashboard can be traced back to a source file and a transformation step.
+**The deliverable:** a single Tableau packaged workbook (**.twbx**), also published live on Tableau Public, containing five dashboards, backed by a data pipeline that is documented end to end below, so every number on every dashboard can be traced back to a source file and a transformation step.
+
+- **Live dashboard:** https://prod-in-a.online.tableau.com/t/punikotiharsha-4b92357949/views/EduVision/UniversityOverview/5ac0bf9b-feb2-46e8-880f-48e557ac455b/1290284c-05e2-4bb8-95a9-80ca4dc1c5f2
+- **Source code and data pipeline:** https://github.com/springboardmentor1234r/Higher-Education-Intelligence-System-for-Institutional-Performance-and-Academic-Excellence-Analysis/tree/PUNIKOTI-HARSHA
 
 ---
 
@@ -212,27 +220,33 @@ KPIs are calculated in Python (pandas and numpy) during Steps 3 to 5 of the pipe
 
 Because University Overview reads from the full 1,503 row master table while Research Analytics reads from the narrower 918 row KPI dataset, it is expected and correct that University Overview can show more universities than Research Analytics for the same filter selection. This is documented behavior, not a data error, see Section 12.
 
+The live, interactive version of all five dashboards is published here: **https://prod-in-a.online.tableau.com/t/punikotiharsha-4b92357949/views/EduVision/UniversityOverview/5ac0bf9b-feb2-46e8-880f-48e557ac455b/1290284c-05e2-4bb8-95a9-80ca4dc1c5f2**
+
 ### 6.1 Dashboard Screenshots
 
 **University Overview**
 
-![University Overview dashboard](Assets/UNIVERSITY_OVERVIEW.png)
+[University Overview dashboard]<img width="1588" height="843" alt="Screenshot 2026-10-02 141917" src="https://github.com/user-attachments/assets/1065f3cc-f753-4b82-b6db-982fa0c8d334" />
+)
 
 **Research Analytics**
 
-![Research Analytics dashboard](Assets/RESEARCH_ANALYTICS.png)
+[Research Analytics dashboard]<img width="1583" height="842" alt="Screenshot 2026-10-02 141952" src="https://github.com/user-attachments/assets/5cbdba51-a91e-47c0-9222-1a5cbd783279" />
+
 
 **Student Analytics**
 
-![Student Analytics dashboard](Assets/STUDENT_ANALYTICS.png)
+[Student Analytics dashboard]<img width="1582" height="841" alt="Screenshot 2026-10-02 142017" src="https://github.com/user-attachments/assets/84b2f418-9668-44cf-907a-8ff441579d42" />
+
 
 **Country Comparison**
 
-![Country Comparison dashboard](Assets/COUNTRY_COMPARISON.png)
+[Country Comparison dashboard]<img width="1581" height="846" alt="Screenshot 2026-10-02 142041" src="https://github.com/user-attachments/assets/2fbca733-6917-441f-8f22-63bb75ae1c39" />
+
 
 **Info / About**
 
-![Info page](Assets/INFO.png)
+[Info page](Assets/INFO.png)
 
 ---
 
@@ -255,6 +269,8 @@ Dashboard actions link the charts together: selecting a university row filters o
 ## 8. Repository Structure
 
 The repository is organized by milestone, each with its own Deliverables folder, plus one shared folder holding the final dimension and fact tables used by the Tableau workbook.
+
+Full repository (PUNIKOTI-HARSHA branch): https://github.com/springboardmentor1234r/Higher-Education-Intelligence-System-for-Institutional-Performance-and-Academic-Excellence-Analysis/tree/PUNIKOTI-HARSHA
 
 ```
 Higher-Education-Intelligence-System.../
@@ -301,18 +317,18 @@ Higher-Education-Intelligence-System.../
 | **Milestone 03/** | Full dashboard build: the working workbook and supporting visualisation reference material |
 | **Milestone 04/** | Testing and final delivery: the QA Checklist, the Dashboard Testing Report, the Final Documentation, and the finished workbook, plus links to the GitHub repository and the published Tableau Public view |
 
-The final, presentation ready workbook is **Milestone 04/Deliverables/Module 8/EduVision DV.twbx**. Earlier **.twbx** files inside Milestone 02 and Milestone 03 are working prototypes kept for traceability, not the current version.
+The final, presentation ready workbook is **Milestone 04/Deliverables/Module 8/EduVision DV.twbx**. Earlier **.twbx** files inside Milestone 02 and Milestone 03 are working prototypes kept for traceability, not the current version. **Module 8/GitHub Repository.md** and **Module 8/Tableau Public.md** point to the two live links listed at the top of this README.
 
 ---
 
 ## 9. Getting Started
 
-1. Clone this repository.
+1. Clone this repository: `git clone -b PUNIKOTI-HARSHA https://github.com/springboardmentor1234r/Higher-Education-Intelligence-System-for-Institutional-Performance-and-Academic-Excellence-Analysis.git`
 2. Open **Milestone 04/Deliverables/Module 8/EduVision DV.twbx** in Tableau Desktop (2021.1 or later recommended). This is the final workbook.
 3. Read **Milestone 04/Deliverables/Module 8/Final Documentation.pdf** for a full guide to every dashboard and KPI.
 4. To review testing results, see **Milestone 04/Deliverables/Module 7/QA Checklist.pdf** and **Dashboard Testing Report.pdf** in the same folder.
 5. To re-run the pipeline yourself: run **Milestone 01/Script/data_collection.py**, then **Milestone 01/Deliverables/Module 2/script/education_cleaning.ipynb**, then **Milestone 02/Deliverables/Module 3/university_final_dataset.py** in that order. This reproduces the exact row counts documented in Section 3 and writes the tables found in **Dim_&_Fact_Datasets/**.
-6. The published, browser viewable version of the dashboard is linked from **Milestone 04/Deliverables/Module 8/Tableau Public.md**.
+6. No Tableau license is required to view the result: the published, browser viewable version of the dashboard is live at **https://prod-in-a.online.tableau.com/t/punikotiharsha-4b92357949/views/EduVision/UniversityOverview/5ac0bf9b-feb2-46e8-880f-48e557ac455b/1290284c-05e2-4bb8-95a9-80ca4dc1c5f2**, also linked from **Milestone 04/Deliverables/Module 8/Tableau Public.md**.
 
 ---
 
@@ -349,3 +365,7 @@ The final, presentation ready workbook is **Milestone 04/Deliverables/Module 8/E
 ## 13. License and Attribution
 
 Source rankings and indicators are publicly published by QS, Times Higher Education, and the World Bank, and are used here for educational and portfolio purposes. This repository does not claim ownership of the underlying ranking data.
+
+**Live dashboard:** https://prod-in-a.online.tableau.com/t/punikotiharsha-4b92357949/views/EduVision/UniversityOverview/5ac0bf9b-feb2-46e8-880f-48e557ac455b/1290284c-05e2-4bb8-95a9-80ca4dc1c5f2
+
+**Repository:** https://github.com/springboardmentor1234r/Higher-Education-Intelligence-System-for-Institutional-Performance-and-Academic-Excellence-Analysis/tree/PUNIKOTI-HARSHA
