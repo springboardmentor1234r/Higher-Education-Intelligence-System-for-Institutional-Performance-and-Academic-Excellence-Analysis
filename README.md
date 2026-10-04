@@ -226,19 +226,23 @@ The live, interactive version of all five dashboards is published here: **https:
 
 **University Overview**
 
-![University Overview dashboard](Assets/UNIVERSITY_OVERVIEW.png)
+![University Overview dashboard](<img width="1588" height="843" alt="Screenshot 2026-10-02 141917" src="https://github.com/user-attachments/assets/1065f3cc-f753-4b82-b6db-982fa0c8d334" />
+)
 
 **Research Analytics**
 
-![Research Analytics dashboard](Assets/RESEARCH_ANALYTICS.png)
+![Research Analytics dashboard]<img width="1583" height="842" alt="Screenshot 2026-10-02 141952" src="https://github.com/user-attachments/assets/5cbdba51-a91e-47c0-9222-1a5cbd783279" />
+
 
 **Student Analytics**
 
-![Student Analytics dashboard](Assets/STUDENT_ANALYTICS.png)
+![Student Analytics dashboard]<img width="1582" height="841" alt="Screenshot 2026-10-02 142017" src="https://github.com/user-attachments/assets/84b2f418-9668-44cf-907a-8ff441579d42" />
+
 
 **Country Comparison**
 
-![Country Comparison dashboard](Assets/COUNTRY_COMPARISON.png)
+![Country Comparison dashboard]<img width="1581" height="846" alt="Screenshot 2026-10-02 142041" src="https://github.com/user-attachments/assets/2fbca733-6917-441f-8f22-63bb75ae1c39" />
+
 
 **Info / About**
 
@@ -363,4 +367,5 @@ The final, presentation ready workbook is **Milestone 04/Deliverables/Module 8/E
 Source rankings and indicators are publicly published by QS, Times Higher Education, and the World Bank, and are used here for educational and portfolio purposes. This repository does not claim ownership of the underlying ranking data.
 
 **Live dashboard:** https://prod-in-a.online.tableau.com/t/punikotiharsha-4b92357949/views/EduVision/UniversityOverview/5ac0bf9b-feb2-46e8-880f-48e557ac455b/1290284c-05e2-4bb8-95a9-80ca4dc1c5f2
+
 **Repository:** https://github.com/springboardmentor1234r/Higher-Education-Intelligence-System-for-Institutional-Performance-and-Academic-Excellence-Analysis/tree/PUNIKOTI-HARSHA
