@@ -226,27 +226,27 @@ The live, interactive version of all five dashboards is published here: **https:
 
 **University Overview**
 
-![University Overview dashboard](<img width="1588" height="843" alt="Screenshot 2026-10-02 141917" src="https://github.com/user-attachments/assets/1065f3cc-f753-4b82-b6db-982fa0c8d334" />
+[University Overview dashboard]<img width="1588" height="843" alt="Screenshot 2026-10-02 141917" src="https://github.com/user-attachments/assets/1065f3cc-f753-4b82-b6db-982fa0c8d334" />
 )
 
 **Research Analytics**
 
-![Research Analytics dashboard]<img width="1583" height="842" alt="Screenshot 2026-10-02 141952" src="https://github.com/user-attachments/assets/5cbdba51-a91e-47c0-9222-1a5cbd783279" />
+[Research Analytics dashboard]<img width="1583" height="842" alt="Screenshot 2026-10-02 141952" src="https://github.com/user-attachments/assets/5cbdba51-a91e-47c0-9222-1a5cbd783279" />
 
 
 **Student Analytics**
 
-![Student Analytics dashboard]<img width="1582" height="841" alt="Screenshot 2026-10-02 142017" src="https://github.com/user-attachments/assets/84b2f418-9668-44cf-907a-8ff441579d42" />
+[Student Analytics dashboard]<img width="1582" height="841" alt="Screenshot 2026-10-02 142017" src="https://github.com/user-attachments/assets/84b2f418-9668-44cf-907a-8ff441579d42" />
 
 
 **Country Comparison**
 
-![Country Comparison dashboard]<img width="1581" height="846" alt="Screenshot 2026-10-02 142041" src="https://github.com/user-attachments/assets/2fbca733-6917-441f-8f22-63bb75ae1c39" />
+[Country Comparison dashboard]<img width="1581" height="846" alt="Screenshot 2026-10-02 142041" src="https://github.com/user-attachments/assets/2fbca733-6917-441f-8f22-63bb75ae1c39" />
 
 
 **Info / About**
 
-![Info page](Assets/INFO.png)
+[Info page](Assets/INFO.png)
 
 ---
 
