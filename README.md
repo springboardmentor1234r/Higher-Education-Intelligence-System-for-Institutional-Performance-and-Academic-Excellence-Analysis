@@ -9,7 +9,8 @@ A higher education analytics project that turns four public ranking and educatio
 
 ---
 
-![University Overview dashboard](Assets/UNIVERSITY_OVERVIEW.png)
+![University Overview dashboard]<img width="1588" height="843" alt="Screenshot 2026-10-02 141917 - Copy" src="https://github.com/user-attachments/assets/f69d4268-225e-4ed2-8e2b-d97bae950975" />
+
 
 ---
 
