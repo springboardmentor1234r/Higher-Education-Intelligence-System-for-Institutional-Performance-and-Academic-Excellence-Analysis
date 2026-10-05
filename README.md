@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # 🎓 EduVision\_DV
 
@@ -6,7 +6,7 @@
 
 *An interactive Tableau-based higher-education analytics system for university performance, research analytics, student insights, and country-level education benchmarking.*
 
-[![Tableau Public](https://img.shields.io/badge/Tableau%20Public-Live%20Dashboard-blue?style=for-the-badge&logo=tableau)](https://public.tableau.com/app/profile/sweta.mondal1173/viz/EduVision_DV_17907606354440/StudentAnalytics)
+[![Tableau Public](https://img.shields.io/badge/Tableau%20Public-Live%20Dashboard-blue?style=for-the-badge&logo=tableau)](https://public.tableau.com/app/profile/sweta.mondal1173/viz/EduVision_DV_1/UniversityOverview?publish=yes)
 [![Python](https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-green?style=for-the-badge&logo=pandas)](https://pandas.pydata.org/)
 [![Tableau](https://img.shields.io/badge/Tableau-Dashboard-orange?style=for-the-badge&logo=tableau)](https://www.tableau.com/)
@@ -17,7 +17,7 @@
 
 ## 🚀 Live Dashboard
 
-> **📊 [Open EduVision\_DV on Tableau Public](https://public.tableau.com/app/profile/sweta.mondal1173/viz/EduVision_DV_17907606354440/StudentAnalytics)**
+> **📊 [Open EduVision\_DV on Tableau Public](https://public.tableau.com/app/profile/sweta.mondal1173/viz/EduVision_DV_1/UniversityOverview?publish=yes)**
 
 The final Tableau workbook is published as a fully interactive Tableau Public dashboard suite.
 
@@ -205,7 +205,7 @@ flowchart LR
 |-----------|-------|-----------------|
 | **Milestone 1** | Data Collection & Preparation | `data_collection.py` · `education_cleaning.ipynb` · `university_cleaned.csv` |
 | **Milestone 2** | KPI Engineering & Dashboard Planning | `generate_education_kpis.py` · `university_final_dataset.xlsx` · `eduvision_prototype.twbx` |
-| **Milestone 3** | Dashboard Development | `EduVision_DV.twbx` |
+| **Milestone 3** | Dashboard Development | `EduVision_DV_1.twbx` |
 | **Milestone 4** | Testing, Documentation & Delivery | QA Checklist · Dashboard Testing Report · All reference documents |
 
 ---
@@ -252,7 +252,7 @@ EduVision_DV/
 │
 ├── Milestone3/
 │   ├── eduvision_prototype_v1.twbx
-│   └── EduVision_DV.twbx
+│   └── EduVision_DV_1.twbx
 │
 ├── Milestone4/
 │   ├── QA_Checklist.md
@@ -263,6 +263,9 @@ EduVision_DV/
 │   ├── Education_Analytics_Methodology.md
 │   ├── Project_Structure.md
 │   └── Final_Documentation.md
+│
+├── Final Project/
+│   └── Tableau_Public_Link.md
 │
 └── README.md
 ```
@@ -320,10 +323,10 @@ Module 7 validation covered all major testing areas:
 
 | | |
 |-|-|
-| **Workbook** | `EduVision_DV.twbx` |
+| **Workbook** | `EduVision_DV_1.twbx` |
 | **Dashboards** | 🎓 University Overview → 🔬 Research Analytics → 👩‍🎓 Student Analytics → 🌍 Country Comparison |
 | **Integration** | Filters + Navigation + Dashboard Actions + Parameters |
-| **Published** | [Tableau Public](https://public.tableau.com/app/profile/sweta.mondal1173/viz/EduVision_DV_17907606354440/StudentAnalytics) |
+| **Published** | [Tableau Public](https://public.tableau.com/app/profile/sweta.mondal1173/viz/EduVision_DV_1/UniversityOverview?publish=yes) |
 
 ---
 
@@ -332,7 +335,7 @@ Module 7 validation covered all major testing areas:
 ### Tableau Public
 The final workbook is published and publicly accessible:
 
-**🔗 [https://public.tableau.com/app/profile/sweta.mondal1173/viz/EduVision\_DV\_17907606354440/StudentAnalytics](https://public.tableau.com/app/profile/sweta.mondal1173/viz/EduVision_DV_17907606354440/StudentAnalytics)**
+**🔗 [https://public.tableau.com/app/profile/sweta.mondal1173/viz/EduVision\_DV\_1/UniversityOverview?publish=yes](https://public.tableau.com/app/profile/sweta.mondal1173/viz/EduVision_DV_1/UniversityOverview?publish=yes)**
 
 ### GitHub
 The project is organized as a milestone-based repository containing data collection and cleaning scripts, KPI engineering code, Tableau workbooks, testing reports, and full project documentation.
@@ -383,6 +386,6 @@ This project demonstrates practical experience across the full analytics lifecyc
 
 **Built with Python + Pandas + Tableau**
 
-[![Live Dashboard](https://img.shields.io/badge/📊%20Live%20Dashboard-Tableau%20Public-blue?style=for-the-badge)](https://public.tableau.com/app/profile/sweta.mondal1173/viz/EduVision_DV_17907606354440/StudentAnalytics)
+[![Live Dashboard](https://img.shields.io/badge/📊%20Live%20Dashboard-Tableau%20Public-blue?style=for-the-badge)](https://public.tableau.com/app/profile/sweta.mondal1173/viz/EduVision_DV_1/UniversityOverview?publish=yes)
 
 </div>

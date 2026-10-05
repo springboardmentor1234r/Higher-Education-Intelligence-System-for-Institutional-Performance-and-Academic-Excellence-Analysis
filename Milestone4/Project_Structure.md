@@ -1,4 +1,4 @@
-﻿# EduVision\_DV — Project Structure
+# EduVision\_DV — Project Structure
 
 | Item | Details |
 |------|---------|
@@ -59,7 +59,7 @@ EduVision_DV/
 │   └── eduvision_prototype.twbx
 │
 ├── Milestone3/
-│   ├── EduVision_DV.twbx
+│   ├── EduVision_DV_1.twbx
 │   └── eduvision_prototype_v1.twbx
 │
 ├── Milestone4/
@@ -70,6 +70,9 @@ EduVision_DV/
 │   ├── Dashboard_guide.md
 │   ├── Education_Analytics_Methodology.md
 │   └── Project_Structure.md
+│
+├── Final Project/
+│   └── Tableau_Public_Link.md
 │
 ├── .gitignore
 └── README.md
@@ -142,11 +145,11 @@ The World Bank Education Statistics dataset is stored in its own sub-folder due 
 
 | File | Type | Description |
 |------|------|-------------|
-| `EduVision_DV.twbx` | Tableau Packaged Workbook | **Production workbook** — the final four-dashboard suite (University Overview · Research Analytics · Student Analytics · Country Comparison) (712 KB) |
+| `EduVision_DV_1.twbx` | Tableau Packaged Workbook | **Production workbook** — the final four-dashboard suite (University Overview · Research Analytics · Student Analytics · Country Comparison) |
 | `eduvision_prototype_v1.twbx` | Tableau Packaged Workbook | Intermediate dashboard version retained for reference (690 KB) |
 
 **Key Output:**
-- `EduVision_DV.twbx` — the primary deliverable of the project, submitted for final evaluation
+- `EduVision_DV_1.twbx` — the primary deliverable of the project, submitted for final evaluation
 
 ---
 
@@ -189,7 +192,7 @@ Milestone2/generate_education_kpis.py ← Computes 6 KPIs
       ↓
 Milestone2/university_final_dataset.xlsx (kpi_summary sheet)
       ↓
-Milestone3/EduVision_DV.twbx       ← Production dashboards (4 dashboards)
+Milestone3/EduVision_DV_1.twbx     ← Production dashboards (4 dashboards)
       ↓
 Milestone4/QA_Checklist.md         ← Module 7 test results
 Milestone4/Dashboard_Testing_Report.md
