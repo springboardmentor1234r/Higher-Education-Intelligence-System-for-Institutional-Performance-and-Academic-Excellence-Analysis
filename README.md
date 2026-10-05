@@ -5,11 +5,12 @@ A higher education analytics project that turns four public ranking and educatio
 ---
 
 **Live Dashboard:** [View on Tableau Public][(https://prod-in-a.online.tableau.com/t/punikotiharsha-4b92357949/views/EduVision/UniversityOverview/5ac0bf9b-feb2-46e8-880f-48e557ac455b/1290284c-05e2-4bb8-95a9-80ca4dc1c5f2)](https://prod-in-a.online.tableau.com/t/punikotiharsha-4b92357949/views/EduVision1/UniversityOverview)
+
 **Repository:** [GitHub — PUNIKOTI-HARSHA branch](https://github.com/springboardmentor1234r/Higher-Education-Intelligence-System-for-Institutional-Performance-and-Academic-Excellence-Analysis/tree/PUNIKOTI-HARSHA)
 
 ---
 
-![University Overview dashboard]<img width="1588" height="843" alt="Screenshot 2026-10-02 141917 - Copy" src="https://github.com/user-attachments/assets/f69d4268-225e-4ed2-8e2b-d97bae950975" />
+[University Overview dashboard]<img width="1588" height="843" alt="Screenshot 2026-10-02 141917 - Copy" src="https://github.com/user-attachments/assets/f69d4268-225e-4ed2-8e2b-d97bae950975" />
 
 
 ---
