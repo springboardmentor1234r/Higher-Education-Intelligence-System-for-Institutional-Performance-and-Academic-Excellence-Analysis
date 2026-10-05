@@ -4,7 +4,7 @@ A higher education analytics project that turns four public ranking and educatio
 
 ---
 
-**Live Dashboard:** [View on Tableau Public](https://prod-in-a.online.tableau.com/t/punikotiharsha-4b92357949/views/EduVision/UniversityOverview/5ac0bf9b-feb2-46e8-880f-48e557ac455b/1290284c-05e2-4bb8-95a9-80ca4dc1c5f2)
+**Live Dashboard:** [View on Tableau Public][(https://prod-in-a.online.tableau.com/t/punikotiharsha-4b92357949/views/EduVision/UniversityOverview/5ac0bf9b-feb2-46e8-880f-48e557ac455b/1290284c-05e2-4bb8-95a9-80ca4dc1c5f2)](https://prod-in-a.online.tableau.com/t/punikotiharsha-4b92357949/views/EduVision1/UniversityOverview)
 **Repository:** [GitHub — PUNIKOTI-HARSHA branch](https://github.com/springboardmentor1234r/Higher-Education-Intelligence-System-for-Institutional-Performance-and-Academic-Excellence-Analysis/tree/PUNIKOTI-HARSHA)
 
 ---
@@ -366,6 +366,7 @@ The final, presentation ready workbook is **Milestone 04/Deliverables/Module 8/E
 
 Source rankings and indicators are publicly published by QS, Times Higher Education, and the World Bank, and are used here for educational and portfolio purposes. This repository does not claim ownership of the underlying ranking data.
 
-**Live dashboard:** https://prod-in-a.online.tableau.com/t/punikotiharsha-4b92357949/views/EduVision/UniversityOverview/5ac0bf9b-feb2-46e8-880f-48e557ac455b/1290284c-05e2-4bb8-95a9-80ca4dc1c5f2
+**Live dashboard:** [https://prod-in-a.online.tableau.com/t/punikotiharsha-4b92357949/views/EduVision/UniversityOverview/5ac0bf9b-feb2-46e8-880f-48e557ac455b/1290284c-05e2-4bb8-95a9-80ca4dc1c5f2
+](https://prod-in-a.online.tableau.com/t/punikotiharsha-4b92357949/views/EduVision1/UniversityOverview)
 
 **Repository:** https://github.com/springboardmentor1234r/Higher-Education-Intelligence-System-for-Institutional-Performance-and-Academic-Excellence-Analysis/tree/PUNIKOTI-HARSHA
