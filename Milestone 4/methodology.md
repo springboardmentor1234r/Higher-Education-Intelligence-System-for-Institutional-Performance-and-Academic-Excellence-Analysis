@@ -161,7 +161,7 @@ Six primary Key Performance Indicators (KPIs) and three formatted presentation d
 - **Technical Field Name:** `KPI_Research_Productivity_Proxy`
 - **Source:** THE `Research Environment` (`THE_Research_Environment`)
 - **Formula:** `THE_Research_Environment`
-- **Methodological Context:** QS does not publish a standalone metric measuring pure publication volume or output count. The project mentor explicitly rejected substituting `Sustainability_Score` or `Research Quality`. Therefore, THE *Research Environment* is utilized as a specialized analytical proxy.
+- **Methodological Context:** QS does not publish a standalone metric measuring pure publication volume or output count. The project mentor explicitly rejected substituting `Sustainability_Score` or `Research Quality`. Publication-volume analysis was not implemented because the available QS/THE source data does not provide a directly comparable publication-count field. In strict adherence to analytical honesty, no publication metric was fabricated; THE *Research Environment* is utilized as a specialized analytical proxy.
 - **Critical Policy:** In all dashboards, legends, and executive documentation, this metric must be titled **"Research Productivity (Proxy)"**. It must **never** be cited as the official THE Research Productivity score.
 - **Mathematical Properties:** Range $[34.90, 100.00]$, $\mu = 61.23$.
 - **Analytical Coverage:** 195 matched institutions (13.0% coverage). 1,308 unmatched institutions are `NaN`.

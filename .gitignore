@@ -6,6 +6,13 @@
 *.twbr
 Book*.twb
 
+# Local backup + files excluded from the repository
+_backup/
+scratch_slides/
+data/
+docs/
+notebooks/
+
 # Python
 __pycache__/
 *.py[cod]

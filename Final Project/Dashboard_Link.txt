@@ -1,0 +1,13 @@
+Tableau Public Dashboard Links
+
+University Overview:
+https://public.tableau.com/app/profile/kurapalli.sharmila/viz/EduVision_DV_17913698181990/UniversityOverview
+
+Research Analytics:
+https://public.tableau.com/app/profile/kurapalli.sharmila/viz/EduVision_DV_17913698181990/ResearchAnalytics
+
+Student Analytics:
+https://public.tableau.com/app/profile/kurapalli.sharmila/viz/EduVision_DV_17913698181990/StudentAnalytics
+
+Country Comparison:
+https://public.tableau.com/app/profile/kurapalli.sharmila/viz/EduVision_DV_17913698181990/CountryComparison

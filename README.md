@@ -1,166 +1,280 @@
-# EduVision_DV: Global Higher Education Performance Analytics
+# EduVision_DV — Global Higher Education Performance Analytics
 ### Infosys Springboard Virtual Internship Project
+### Kurapalli Sharmila
 
 ---
 
-## 1. Project Objective
-**EduVision_DV** is an advanced business intelligence and higher education performance analytics project developed under the **Infosys Springboard Virtual Internship**. 
+## 1. Project overview
 
-The project synthesizes multi-source data from the **QS World University Rankings 2025** and the **Times Higher Education (THE) World University Rankings** into a harmonized data warehouse. It delivers executive-level, interactive visual intelligence across four thematic areas:
-1. **Global Institutional Overview:** Macro-level rankings, continental distributions, and institutional profiles.
-2. **Research Analytics:** Correlation between research environment, faculty productivity, and citation impact across research intensity classifications.
-3. **Student & Learning Analytics:** Student-faculty ratios, global internationalization mobility, and overall enrollment footprint.
-4. **Country Benchmarking & Comparison:** Multi-metric national scorecards with interactive geographic cross-filtering.
+**EduVision_DV** integrates two independent global university ranking systems — the **QS
+World University Rankings 2025** and the **Times Higher Education (THE) World University
+Rankings** — into a single validated dataset, and delivers four interactive Tableau Desktop
+dashboards built on it.
+
+The dataset covers **1,503 institutions across 106 countries**, measured on **six KPIs**.
+
+## 2. Objective
+
+Produce an end-to-end business intelligence pipeline — from raw, inconsistently-formatted
+ranking exports to a reproducible master dataset to an executive dashboard suite — while
+preserving analytical honesty about what the source data does and does not measure.
+
+The project's governing rule: **no gap is ever filled with a guess.** Where a measurement
+does not exist, it stays null, and the dashboards say so.
+
+## 3. Data sources
+
+| Source | Institutions | Columns | Role |
+|---|---|---|---|
+| QS World University Rankings 2025 | 1,503 | 28 | Base table — all rows preserved |
+| Times Higher Education Rankings | 200 | 13 | Enrichment — 195 matched |
+
+**Integration outcome:** 195 matched, 1,308 unmatched with THE fields left null, 5 THE
+institutions deliberately excluded from matching (three absent from QS; two ambiguous
+multi-campus systems).
+
+## 4. Technology stack
+
+| Layer | Tools |
+|---|---|
+| Data processing | Python 3.10+, pandas, numpy, openpyxl |
+| Exploration | Jupyter / Google Colab, matplotlib, seaborn |
+| Visualisation | **Tableau Desktop 2026.2** (macOS Apple silicon) |
+| Formats | CSV, XLSX, TWBX, PNG, PDF, PPTX |
 
 ---
 
-## 2. Project Architecture & Clean Structure
+## 5. Milestones
+
+### Milestone 1 — Data Collection and Preparation *(Weeks 1–2)*
+
+Collects both ranking sources, audits completeness, then cleans, standardises and integrates
+them into one table.
+
+| Deliverable | File |
+|---|---|
+| Collection script | `Milestone 1/data_collection.py` |
+| Merged raw structure | `Milestone 1/university_raw_data.csv` — 1,703 × 39 |
+| Cleaning notebook | `Milestone 1/education_cleaning.ipynb` — executed, 14 cells |
+| Cleaned dataset | `Milestone 1/university_cleaned.csv` — 1,503 × 43 |
+
+**Evaluation:** QS completeness 96.87%, THE 100% (criterion > 95% ✅). Missing values on the
+QS base fields 0.98% (criterion < 2% ✅).
+
+### Milestone 2 — KPI Engineering and Dashboard Planning *(Weeks 3–4)*
+
+Derives and validates the six KPIs, and specifies the four dashboards.
+
+| Deliverable | File |
+|---|---|
+| KPI script | `Milestone 2/generate_education_kpis.py` |
+| Master dataset | `Milestone 2/university_final_dataset.xlsx` — 1,503 × 52 |
+| Design specification | `Milestone 2/dashboard_storyboard.pdf` |
+| Prototype workbook | `Milestone 2/eduvision_prototype.twbx` *(reconstructed — see §11)* |
+
+**Evaluation:** 36 of 36 KPI assertions passed ✅.
+
+### Milestone 3 — Dashboard Development *(Weeks 5–6)*
+
+Builds all four dashboards and integrates them with filters, navigation and cross-filtering.
+
+| Deliverable | File |
+|---|---|
+| Module 5 workbook | `Milestone 3/eduvision_dashboard_v1.twbx` *(reconstructed — see §11)* |
+| Final workbook | `EduVision_DV.twbx` *(project root)* |
+| Screenshots | `Milestone 3/screenshots/` — 4 exports at 3200 × 1900 |
+
+**Evaluation:** 4 dashboards, 24 worksheets, cross-filter action verified in both directions ✅.
+
+### Milestone 4 — Testing and Delivery *(Weeks 7–8)*
+
+Validates every calculation, tests every interaction, and documents the project.
+
+| Deliverable | File |
+|---|---|
+| QA checklist | `Milestone 4/QA_Checklist.md` — 62 checks |
+| Testing report | `Milestone 4/Dashboard_Testing_Report.md` |
+| Methodology | `Milestone 4/methodology.md` |
+| Dashboard guide | `Milestone 4/dashboard_guide.md` |
+| Presentation | `Final Project/Final_Presentation.pptx` & `EduVision_DV_Presentation.pptx` |
+
+**Evaluation:** 59 PASS, 0 FAIL, 3 documented limitations ✅.
+
+### Final Project *(Final Submission Folder)*
+
+Dedicated final submission package containing only the final presentation and dashboard link.
+
+| Deliverable | File |
+|---|---|
+| Final Presentation | `Final Project/Final_Presentation.pptx` — 20-slide comprehensive deck |
+| Dashboard Link | `Final Project/Dashboard_Link.txt` — instructions for manual Tableau Public publishing |
+
+---
+
+## 6. Final dashboards
+
+| # | Dashboard | Accent | Contents |
+|---|---|---|---|
+| 1 | **University Overview** | `#00D2C4` | Top 10 by global score, region donut, world map, **Rank Movement 2024-2025** |
+| 2 | **Research Analytics** | `#FF9F1C` | Impact vs productivity scatter, research-intensity box plots, top 10 research institutions |
+| 3 | **Student Analytics** | `#2EC4B6` | Staffing ratio by region, internationalisation scatter, top 10 by enrolment |
+| 4 | **Country Comparison** | `#00D2C4` | 106-country benchmarking table, choropleth, cross-filter action |
+
+All four: fixed 1600 × 950 canvas, dark theme (`#12161A` canvas, `#1B2026` cards,
+`#28323D` gridlines).
+
+**Dashboard action:** `Filter_Country_From_Benchmarking` — selecting a country row filters
+the map and the ranked-country count; clearing restores all 106.
+
+---
+
+## 7. KPI definitions
+
+| # | KPI | Field | Source | Coverage | Mean |
+|---|---|---|---|---|---|
+| 1 | Global Ranking Score | `KPI_Global_Ranking_Score` | QS Overall Score | 600 | 41.84 |
+| 2 | Academic Reputation Score | `KPI_Academic_Reputation_Score` | QS Academic Reputation | 1,503 | 20.29 |
+| 3 | Research Impact Score | `KPI_Research_Impact_Score` | QS Citations per Faculty | 1,503 | 23.50 |
+| 4 | Faculty-to-Student Ratio | `KPI_Faculty_to_Student_Ratio` | THE Students per Staff | 195 | 17.44 |
+| 5 | International Student % | `KPI_International_Student_Pct` | THE International Students | 195 | 25.48% |
+| 6 | Research Productivity Index **(Proxy)** | `KPI_Research_Productivity_Proxy` | THE Research Environment | 195 | 61.23 |
+
+### ⚠ On KPI 6
+
+The official specification calls this **Research Productivity Index**. This project
+implements it as a **proxy** derived from the **THE Research Environment** score and labels
+it **"Research Productivity (Proxy)"** everywhere it appears.
+
+It is **not** THE's official Research Productivity metric, which is not present in the source
+data. The label is deliberate and is not removed to match the specification's wording.
+
+### Coverage is not uniform
+
+Only two of the six KPIs describe all 1,503 institutions. Three describe the 195 matched to
+THE; one describes the 600 QS actually scores. Every KPI card names its own population.
+
+---
+
+## 8. Testing and validation
+
+| Layer | Result |
+|---|---|
+| KPI assertions | 36 / 36 passed (criterion > 95%) |
+| Full QA checklist | 62 checks — 59 PASS, 0 FAIL, 3 documented limitations |
+| Dashboard interactions | 6 tests; 10 defects found, fixed and retested |
+| Pipeline reproducibility | Re-run produces byte-identical outputs |
+| Notebook reproducibility | Two notebooks execute cleanly and reproduce the datasets exactly |
+
+Full records: `Milestone 4/QA_Checklist.md` and `Milestone 4/Dashboard_Testing_Report.md`.
+
+---
+
+## 9. How to run
+
+### Python pipeline
+
+```bash
+pip install -r requirements.txt
+
+python scripts/data_cleaning.py       # raw → data/processed/*.csv
+python scripts/data_integration.py    # → qs_the_integrated.csv
+python scripts/kpi_engineering.py     # → university_final_dataset.csv / .xlsx
+```
+
+### Milestone scripts
+
+```bash
+python "Milestone 1/data_collection.py"
+python "Milestone 2/generate_education_kpis.py"
+```
+
+### Notebooks
+
+```bash
+jupyter notebook "Milestone 1/education_cleaning.ipynb"
+jupyter notebook notebooks/EduVision_DV_Colab.ipynb
+```
+
+In Google Colab: upload the notebook, then upload `infosys_dataset.csv` and
+`Top_Universities_THE.xlsx` when prompted, and Run all.
+
+### Dashboards
+
+Open `EduVision_DV.twbx` in **Tableau Desktop 2026.2 or later**. The dataset is packaged
+inside the workbook — no separate data connection is required.
+
+---
+
+## 10. Repository structure
 
 ```
 EduVision_DV/
-│
+├── Milestone 1/                     Data collection and preparation
+│   ├── data_collection.py
+│   ├── university_raw_data.csv
+│   ├── education_cleaning.ipynb
+│   ├── university_cleaned.csv
+│   └── README.md
+├── Milestone 2/                     KPI engineering and dashboard planning
+│   ├── generate_education_kpis.py
+│   ├── university_final_dataset.xlsx / .csv
+│   ├── dashboard_storyboard.pdf
+│   ├── eduvision_prototype.twbx
+│   └── README.md
+├── Milestone 3/                     Dashboard development
+│   ├── eduvision_dashboard_v1.twbx
+│   ├── screenshots/                 4 dashboard exports
+│   └── README.md
+├── Milestone 4/                     Testing and delivery
+│   ├── QA_Checklist.md
+│   ├── Dashboard_Testing_Report.md
+│   ├── methodology.md
+│   ├── dashboard_guide.md
+│   └── README.md
+├── Final Project/                   Final delivery folder (submission only)
+│   ├── Final_Presentation.pptx      20-slide executive presentation
+│   └── Dashboard_Link.txt           Tableau Public publishing instructions
 ├── data/
-│   ├── raw/
-│   │   ├── infosys_dataset.csv          # QS World University Rankings 2025 (1,503 rows)
-│   │   └── Top_Universities_THE.xlsx     # Times Higher Education Rankings (200 rows)
-│   │
-│   └── processed/
-│       ├── qs_cleaned.csv                # Cleaned QS dataset
-│       ├── the_cleaned.csv               # Cleaned & normalized THE dataset
-│       └── qs_the_integrated.csv         # Left-joined integrated dataset
-│
-├── notebooks/
-│   └── EduVision_DV_Colab.ipynb         # Fully runnable, self-contained Google Colab notebook
-│
-├── scripts/
-│   ├── data_cleaning.py                 # Automated data cleaning pipeline
-│   ├── data_integration.py              # Entity matching & left-join integration
-│   ├── kpi_engineering.py               # KPI formulation & validation suite
-│   └── generate_notebook.py             # Notebook builder
-│
-├── docs/
-│   ├── methodology.md                   # Technical methodology, join rules & math formulas
-│   ├── dashboard_guide.md               # Exact Tableau Desktop step-by-step construction guide
-│   └── testing_report.md                # Comprehensive test audit & statistical validation
-│
-├── university_final_dataset.csv         # Master exported dataset (CSV format)
-├── university_final_dataset.xlsx        # Master exported dataset (Excel format)
-├── README.md                            # Main project overview & documentation
-└── requirements.txt                     # Project Python dependencies
+│   ├── raw/                         QS and THE source exports
+│   └── processed/                   Cleaned and integrated intermediates
+├── scripts/                         Production pipeline & PPT builder
+├── notebooks/                       Google Colab notebook
+├── docs/                            Methodology, dashboard guide, testing report
+├── EduVision_DV.twbx                ★ authoritative final workbook
+├── EduVision_DV_Presentation.pptx    Final presentation (root copy)
+├── university_final_dataset.csv / .xlsx
+├── requirements.txt
+└── README.md
 ```
 
 ---
 
-## 3. Data Ingestion & Google Colab Workflow
+## 11. Note on the milestone structure
 
-The main data-processing engine is engineered for **Google Colab**:
-- **Notebook Location:** `notebooks/EduVision_DV_Colab.ipynb`
-- **Environment Compatibility:** Works out of the box in Google Colab (handles `/content/` paths, local relative paths, or automatic upload prompt if files are missing).
-- **Key Modules in Colab:**
-  1. *Project Introduction & Library Setup* (`pandas`, `numpy`, `openpyxl`, `matplotlib`, `seaborn`)
-  2. *Intelligent Data Loader* (Auto-detects Colab environment and loads raw files)
-  3. *Data Cleaning* (Latin-1 decoding, string trimming, rank mid-point conversions, null preservation)
-  4. *Entity Matching & Left-Integration* (Resolving 195 verified institutions, handling exclusions)
-  5. *KPI Engineering* (6 KPIs + 3 tooltip display fields)
-  6. *Automated Validation Suite* (Assertion tests verifying 100% data conformance)
-  7. *Exploratory Data Analysis (EDA)* (8 complete pre-Tableau charts)
-  8. *Master Export* (Direct export to CSV and Excel, with browser auto-download trigger in Colab)
+This project was originally completed **end to end in a single build pass**. The milestone
+folders above were assembled afterwards, from the real work and its real outputs, so the
+repository reads against the official Week 1–8 milestone structure.
 
----
+Two files are **reconstructions rather than historical snapshots**, and are labelled as such
+in their milestone READMEs:
 
-## 4. Key Performance Indicators (KPIs)
+| File | What it actually is |
+|---|---|
+| `Milestone 2/eduvision_prototype.twbx` | A copy of the completed workbook, provided as the structural reference for the planned dashboards. No design-stage workbook was ever saved. |
+| `Milestone 3/eduvision_dashboard_v1.twbx` | The completed workbook with Student Analytics and Country Comparison removed, leaving the two dashboards Module 5 specifies. The dashboards inside are genuine; the file did not exist during Weeks 5–6. |
 
-The project engineers six standardized KPIs and three formatted display fields:
-
-| KPI Indicator | Technical Column Name | Data Source | Coverage | Expected Mean |
-| :--- | :--- | :--- | :--- | :--- |
-| **Global Ranking Score** | `KPI_Global_Ranking_Score` | QS `Overall_Score` | Top 600 (39.9%) | **41.84** |
-| **Academic Reputation** | `KPI_Academic_Reputation_Score` | QS `Academic_Reputation_Score` | All 1,503 (100%) | **20.29** |
-| **Students per Staff** | `KPI_Faculty_to_Student_Ratio` | THE `No. of Students per Staff` | Matched 195 (13.0%) | **17.44** |
-| **International Student %** | `KPI_International_Student_Pct` | THE `International Students` * 100 | Matched 195 (13.0%) | **25.48%** |
-| **Research Impact** | `KPI_Research_Impact_Score` | QS `Citations_per_Faculty_Score` | All 1,503 (100%) | **23.50** |
-| **Research Productivity (Proxy)** | `KPI_Research_Productivity_Proxy` | THE `Research Environment` | Matched 195 (13.0%) | **61.23** |
-
-### Display / Tooltip Formatted Fields:
-- `Display_Students_per_Staff`: Formats value as `X.X students/staff` or `"Sourced from THE (Data not available)"`.
-- `Display_Int_Student_Pct`: Formats value as `X.X%` or `"Sourced from THE (Data not available)"`.
-- `Display_Research_Productivity`: Formats value as `X.X pts` or `"THE Environment Proxy (Data not available)"`.
+Everything else in every milestone folder is an original project artifact or is derived
+directly from one. No results, validation figures, screenshots or dashboards were fabricated.
 
 ---
 
-## 5. Tableau Desktop Workflow & Dashboards
+## 12. Documented limitations
 
-The final datasets (`university_final_dataset.csv` and `university_final_dataset.xlsx`) serve as the single source of truth for **Tableau Desktop**:
-
-### 5.1 Dashboard 1: University Overview
-- **Visual Design:** Dark theme (`#12161A` canvas, `#1B2026` cards, `#00D2C4` teal accent).
-- **KPI Summary Cards:** Top Ranked University (MIT #1), Total Universities (`1,503`), Dynamic Average Global Score (`41.84` - Avg of Top 600).
-- **Worksheets:**
-  - *Top 10 Universities by Global Score* (Horizontal bar chart, descending)
-  - *Universities by Region* (Donut chart with total count in center)
-  - *Geographic Distribution* (Filled world map colored by university count)
-- **Filters:** Region, Location (Only Relevant Values), SIZE, FOCUS.
-
-### 5.2 Dashboard 2: Research Analytics
-- **Visual Design:** Dark theme with `#FF9F1C` amber accent.
-- **KPI Summary Cards:** Highest Research Impact (`100.0`), Average Citation Score (`23.5`), Average Research Productivity Proxy (`61.2`).
-- **Worksheets:**
-  - *Research Impact vs Research Productivity (Proxy)* (Scatter plot colored by Region)
-  - *Research Intensity Comparison* (Box plot grouped by `RES.`: VH, HI, MD, LO)
-  - *Top 10 Research Institutions* (Grouped bars comparing Impact and Productivity Proxy)
-- **Mandatory Notice:** `"Research Productivity (Proxy) uses THE Research Environment and is available only for matched QS-THE institutions."`
-
-### 5.3 Dashboard 3: Student Analytics
-- **Visual Design:** Dark theme with `#2EC4B6` emerald accent.
-- **KPI Summary Cards:** Average Students per Staff (`17.4 students/staff`), Average International Student % (`25.5%`), Total Enrolled FTE Student Headcount (`5.46M`).
-- **Worksheets:**
-  - *Average Students per Staff by Region* (Horizontal bar chart)
-  - *Internationalization Scatter* (Faculty-to-student ratio vs International Student %)
-  - *Top 10 Universities by Enrollment* (Horizontal bars by `THE_No_of_FTE_Students`)
-- **Filters:** Region, Location (Only Relevant Values), SIZE, FOCUS.
-
-### 5.4 Dashboard 4: Country Comparison
-- **Visual Design:** Dark theme with `#00D2C4` cyan accent.
-- **KPI Summary Cards:** Top Country by Avg Global Score, Total Ranked Countries (`106`), Most Represented Country (United States - `197` universities).
-- **Worksheets:**
-  - *Country Benchmarking Heatmap/Table* (Columns: Avg Global Score, Avg Academic Reputation, Avg Research Impact, University Count)
-  - *Geographic Country Map* (Choropleth country map)
-- **Interactive Action:** Selecting a country row in the benchmarking table dynamically filters and zooms the geographic map.
-
----
-
-## 6. Critical Analytical Disclosures & Limitations
-
-1. **Truncated Scored Sample:** QS overall rankings provide exact composite scores only for the top 600 universities. The remaining 903 universities are retained as `NaN`. Under no circumstances are missing scores imputed with zero or averages.
-2. **THE Coverage Limitations:** Times Higher Education rankings focus on the top 200 institutions. 195 universities match QS; all remaining 1,308 universities retain `NaN` for THE-derived metrics.
-3. **Research Productivity is an Analytical Proxy:** Because QS does not evaluate pure research volume, THE *Research Environment* is utilized as a project analytical proxy. It is explicitly labeled **"Research Productivity (Proxy)"** and must not be misrepresented as the official THE Research Productivity metric.
-4. **Faculty-to-Student Ratio Labeling:** The metric represents the number of students per staff member. It is labeled **"Average Students per Staff"** and never rendered as a colon ratio (`1:17.4`).
-
----
-
-## 7. Execution Instructions
-
-### To run the Python pipeline locally:
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Run data cleaning
-python scripts/data_cleaning.py
-
-# Run data integration
-python scripts/data_integration.py
-
-# Run KPI engineering and validation
-python scripts/kpi_engineering.py
-```
-
-### To run in Google Colab:
-1. Open [Google Colab](https://colab.research.google.com).
-2. Upload `notebooks/EduVision_DV_Colab.ipynb`.
-3. Upload `infosys dataset.csv` and `Top_Universities_THE.xlsx` when prompted (or place them in `/content/`).
-4. Run all cells (`Runtime` $\rightarrow$ `Run all`).
-5. Download the validated `university_final_dataset.csv` and `university_final_dataset.xlsx`.
-
-### To build dashboards in Tableau Desktop:
-Follow the detailed guide in `docs/dashboard_guide.md`.
+| Limitation | Why |
+|---|---|
+| **Publications analysis not delivered** | Neither source file contains a publications count. Only citation impact and research environment are available. Not substituted. |
+| **Trend analysis limited to one year** | Single QS edition. `RANK_2024` vs `RANK_2025` is the only genuine temporal signal, and it is now on University Overview. |
+| **Overall Score covers 600, not 1,503** | QS publishes it for its top 600 institutions only. |
+| **Three KPIs cover 195 institutions** | They are THE-derived and only 195 QS institutions match THE. Never extrapolated. |
+| **"Highest Research Impact" is a tie** | Nine institutions tie at exactly 100.0; Tableau surfaces the alphabetically first. |
+| **Tableau Public not deployed** | Optional in the specification. |

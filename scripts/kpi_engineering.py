@@ -207,24 +207,15 @@ def main():
     # Validate dataset
     validate_dataset(df)
 
-    # Export locations:
-    # 1. Inside EduVision_DV
+    # Export master dataset to project root
     csv_path_edu = os.path.join(base_dir, 'university_final_dataset.csv')
     xlsx_path_edu = os.path.join(base_dir, 'university_final_dataset.xlsx')
 
-    # 2. Workspace root for convenience
-    csv_path_ws = os.path.join(workspace_dir, 'university_final_dataset.csv')
-    xlsx_path_ws = os.path.join(workspace_dir, 'university_final_dataset.xlsx')
-
     print(f"Exporting final CSV to: {csv_path_edu}")
     df.to_csv(csv_path_edu, index=False, encoding='utf-8')
-    if csv_path_ws != csv_path_edu:
-        df.to_csv(csv_path_ws, index=False, encoding='utf-8')
 
     print(f"Exporting final Excel to: {xlsx_path_edu}")
     df.to_excel(xlsx_path_edu, index=False, engine='openpyxl')
-    if xlsx_path_ws != xlsx_path_edu:
-        df.to_excel(xlsx_path_ws, index=False, engine='openpyxl')
 
     print("Final datasets successfully exported in CSV and XLSX formats.")
 

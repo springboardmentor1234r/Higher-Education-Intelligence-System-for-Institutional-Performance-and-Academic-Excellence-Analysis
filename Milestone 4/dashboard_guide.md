@@ -182,6 +182,7 @@ Analyzes research productivity, citations per faculty, and institutional researc
 - Filters: `Region`, `Location` (Only Relevant Values).
 - **Mandatory Dashboard Footer / Annotation:**
   > *"Research Productivity (Proxy) uses THE Research Environment and is available only for matched QS-THE institutions."*
+- **Note on Publication Volume Analysis:** Publication-volume analysis was not implemented because the available QS/THE source data does not provide a directly comparable publication-count field. Do not fabricate a publication metric; research performance is legitimately analyzed via QS Citations per Faculty alongside the THE Research Environment proxy.
 
 ---
 
