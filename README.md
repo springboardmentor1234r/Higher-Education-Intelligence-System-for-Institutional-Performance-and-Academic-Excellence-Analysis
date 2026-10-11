@@ -34,8 +34,14 @@ flowchart LR
 
 ### 1. 🎓 University Overview
 *Macro-level institutional standing, academic reputation, and global geographic distribution.*
-- **Core Scorecards (6 KPIs):** Global Ranking Score, Research Impact, Faculty-to-Student Ratio, International Student %, Academic Reputation, Research Productivity.
-- **Visual Analytics:** Top Universities by Global Ranking & Academic Reputation, Geographic Density World Map, Faculty-Student Ratio analysis.
+- **Core Scorecards (6 KPIs):**
+  - **Avg Global Ranking:** `55.8` standardized percentile score
+  - **Avg Research Impact:** `59.9` citation influence index
+  - **Avg Faculty-Student:** `18.0` student-to-academic-staff ratio
+  - **Avg Intl Students %:** `14.1%` global international student share
+  - **Avg Academic Rep:** `24.4` global peer reputation score
+  - **Avg Research Prod:** `30.4` research productivity benchmark
+- **Visual Analytics:** Top Universities by Global Ranking Score (Treemap), Academic Reputation Rankings Table, Average Global Ranking by Country (Bubble Chart), Faculty-to-Student Ratio Analysis, Research Impact vs. Productivity Scatter Plot, Universities by Country World Map.
 
 ![University Overview](Assets/UNIVERSITY_OVERVIEW.png)
 
@@ -43,8 +49,14 @@ flowchart LR
 
 ### 2. 🔬 Research Analytics
 *In-depth evaluation of scholarly output, citation authority, research quality, and industrial collaboration.*
-- **Core Scorecards (6 KPIs):** Research Impact Score, Citations Score, Research Quality, Research Environment, Industry Impact, Research Productivity.
-- **Visual Analytics:** Citations vs. Productivity correlation scatter view, Research Quality by Country, Industry Income benchmarking.
+- **Core Scorecards (6 KPIs):**
+  - **Avg Research Impact:** `59.9` overall scholarly authority
+  - **Avg Citations Score:** `56.7` normalized citation authority
+  - **Avg Research Quality:** `63.3` THE research quality benchmark
+  - **Avg Environment:** `31.1` research ecosystem index
+  - **Avg Industry Impact:** `59.4` commercial collaboration & income
+  - **Avg Research Prod:** `30.4` scholarly output volume
+- **Visual Analytics:** Top Universities by Research Impact Score (Bar Chart), Research Quality Comparison (Bubble Chart), Average Research Impact by Country World Map, Research Environment Rankings, Citations vs. Research Productivity Correlation View, Average Industry Impact by Country Trendline.
 
 ![Research Analytics](Assets/RESEARCH_ANALYTICS.png)
 
@@ -53,13 +65,13 @@ flowchart LR
 ### 3. 👩‍🎓 Student Analytics
 *Student demographics, enrollment capacity, gender parity, and international student diversity.*
 - **Core Scorecards (6 KPIs):**
-  - **Total Students:** `20.18M` total FTE student body
+  - **Total Students:** `20,179,468.00M` total FTE student body
   - **Avg Male Pct:** `48.7%` average male enrollment ratio
   - **Avg Female Pct:** `51.3%` average female enrollment ratio
   - **Avg Overall Score:** `44.9` composite score
   - **Total Intl Student Pct:** `14.1%` global student mobility
   - **Avg Intl Outlook:** `59.3` internationalization index
-- **Visual Analytics:** International Student Percentage Bar Chart, Faculty-to-Student Ratio Distribution, Enrollment volume comparisons.
+- **Visual Analytics:** International Student Percentage Bar Chart, Faculty-to-Student Ratio Distribution, Enrollment Comparisons by Total Students (Treemap), Student Distribution Analysis (Scatter Plot), Student Population by Country Breakdown.
 
 ![Student Analytics](Assets/STUDENT_ANALYTICS.png)
 
@@ -67,8 +79,14 @@ flowchart LR
 
 ### 4. 🌍 Country Comparison
 *Macro cross-national higher education performance and regional system comparisons.*
-- **Core Scorecards (6 KPIs):** Aggregated national performance indicators across research, reputation, and teaching excellence.
-- **Visual Analytics:** Top-N Country Comparisons, Regional Academic Distribution (Americas, Europe, Asia, Africa, Oceania), National Higher Education Capacity.
+- **Core Scorecards (6 KPIs):**
+  - **Avg Global Ranking:** `55.8` national aggregate ranking
+  - **Avg Research Impact:** `59.9` scholarly citation influence
+  - **Avg Academic Rep:** `24.4` national peer reputation score
+  - **Avg Research Prod:** `30.4` national research output index
+  - **Avg Intl Students %:** `14.1%` cross-border student share
+  - **Avg Faculty-Student:** `18.0` national teaching capacity ratio
+- **Visual Analytics:** Average Global Ranking Score by Country (Bar Chart), Average Research Impact Score by Country (Bubble Chart), Academic Reputation Benchmarking (Treemap), Research Productivity Index by Country Trend, International Student % Distribution (Box Plot), Faculty-to-Student Ratio Geographic Map.
 
 ![Country Comparison](Assets/COUNTRY_COMPARISON.png)
 
