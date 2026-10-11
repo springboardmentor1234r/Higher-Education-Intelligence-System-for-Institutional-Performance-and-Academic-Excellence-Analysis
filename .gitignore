@@ -1,4 +1,20 @@
-.venv/
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-.ipynb_checkpoints/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Scratch & temporary testing files
+scratch/
+hyperd.log
+*.tmp
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
