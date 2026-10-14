@@ -1,0 +1,37 @@
+======================================================================
+01 University Overview
+======================================================================
+dim_country: (106, 3)
+dim_university: (1503, 3)
+fact_university_overview: (1503, 15)
+PK check dim_country unique: True
+PK check dim_university unique: True
+FK check fact.university_id all in dim_university: True
+
+======================================================================
+02 Research Analytics
+======================================================================
+dim_university: (867, 12)
+fact_research_analytics: (867, 16)
+PK check dim_university unique: True
+FK check fact.university_id all in dim_university: True
+
+======================================================================
+03 Student Analytics
+======================================================================
+dim_university: (812, 7)
+fact_student_analytics: (812, 19)
+PK check dim_university unique: True
+FK check fact.university_id all in dim_university: True
+
+======================================================================
+04 Country Comparison
+======================================================================
+dim_country: (104, 4)
+dim_indicator: (13, 2)
+fact_country_indicators: (33450, 4)
+PK check dim_country unique: True
+PK check dim_indicator unique: True
+FK check fact.country_id all in dim_country: True
+FK check fact.indicator_code all in dim_indicator: True
+fact grain unique (country_id, indicator_code, year): True
