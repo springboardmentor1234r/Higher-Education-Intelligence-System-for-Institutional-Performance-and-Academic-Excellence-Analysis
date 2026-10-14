@@ -1,7 +1,4 @@
-=======
-# Higher-Education-Intelligence-System-for-Institutional-Performance-and-Academic-Excellence-Analysis
-=======
-# EduVision: Higher Education Intelligence System
+# EduVision: Higher-Education-Intelligence-System-for-Institutional-Performance-and-Academic-Excellence-Analysis
 
 An end-to-end data analytics system that integrates multi-source global university rankings (QS 2025, Times Higher Education 2024, World University Rankings 2023) and macroeconomic context (World Bank Education Indicators). The system cleans, normalizes, models, and transforms heterogeneous educational datasets into a unified star schema for executive KPI analytics and Tableau dashboards.
 
@@ -11,14 +8,21 @@ An end-to-end data analytics system that integrates multi-source global universi
 
 ```text
 ├── Milestone_1/
-│   ├── raw/                       # Unprocessed source datasets
-│   ├── cleaned/                   # Standardized star-schema dimension & fact CSVs
+│   ├── cleaned/                       # Standardized star-schema dimension & fact CSVs
+│   └── raw/                           # Unprocessed source datasets
 ├── Milestone_2/
-│   ├── generate_education_kpis.py # KPI engineering & master joining pipeline
-│   └── university_final_dataset.xlsx  # final dataset ready for tableau dashboarding
+│   ├── generate_education_kpis.py     # KPI engineering & master joining pipeline
+│   └── university_final_dataset.xlsx  # Master excel dataset ready for Tableau
 ├── Milestone_3/
-│   
+│   └── eduvision_dashboard_v1.twbx    # Initial Tableau workbook prototype
+├── Milestone_4/
+│   ├── EduVision Analytics System - Dashboard Story Document.pdf  # Executive story & architecture doc
+│   └── EduVision_DV.twbx              # Final production Tableau workbook suite
+├── .gitignore                         # Git ignore configurations
+├── LICENSE                            # License agreement
+└── README.md                          # Project documentation
 ```
+
 ## 🛠️ Data Pipeline & Ingestion Strategy (Milestone 1)
 
 ### 1. Data Cleaning & Encoding Solutions
@@ -56,10 +60,22 @@ Each metric follows strict normalization, explicit calculation formulas, and mis
 * **Ratio Normalization:** Faculty-Student Capacity Ratio converts student-to-staff ratios into standard headcount per 100 students to ensure intuitive comparative visualization.
 * **Missing Value Rationale:** All unmapped or non-reported fields are deliberately maintained as `NaN` rather than imputed with zeros to prevent artificial skewing of regional performance averages in downstream analytics.
 
-## 4. 📁 Master Dataset Deliverable (`eduvision_final_dataset.xlsx`)
+### 4. 📁 Master Dataset Deliverable (`eduvision_final_dataset.xlsx`)
 The main output is an Excel workbook containing 3 structured sheets:
 ### Sheet Breakdown
 * **`Executive KPI Overview`**: Quick summary cards (3,536 total universities) and KPI definitions.
 * **`Master Dataset`**: The complete combined data table (3,536 rows × 12 columns) with clean styling.
 * **`Data Dictionary`**: Simple guide explaining every column name, data type, and source.
-  
+
+### 5. 📈 Visual Analytics & Executive Dashboards (Milestone 3 & 4)
+The visual platform features a 4-Dashboard Suite built in Tableau Desktop and published for interactive web deployment:
+
+* **Dashboard 1: `University Overview` (Global & National Standing)** — High-level ranks, overall composite scores, and geographic distribution.
+* **Dashboard 2: `Research Analytics` (Citations & Academic Output)** — Citation density vs. peer academic reputation scatter plots and research impact leaderboards.
+* **Dashboard 3: `Student Analytics` (Diversity & Learning Environment)** — International student proportions, overall enrollment, and student-to-faculty ratios.
+* **Dashboard 4: `Country Comparison` (National Benchmarking)** — Cross-country higher education benchmarking and national performance trends.
+
+### 6. Live Deployment & Documentation
+* **Interactive Tableau Public Platform:** [EduVision Analytics Suite on Tableau Public](https://public.tableau.com/views/EduViz/ResearchAnalytics?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+* **Official Data Source Attribution:** Source: `public.tableau.com`
+* **Executive Story Document:** Located under Milestone_4/EduVision Analytics System - Dashboard Story Document.pdf
