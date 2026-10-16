@@ -1,132 +1,773 @@
+# =====================================================================
+# EduVision_DV — Milestone 2
+# Module 3 — Education KPI Engineering
+# generate_education_kpis.py
+#
+# PURPOSE:
+#   Combine the already-calculated Six KPIs dataset with the
+#   Module 2 University Overview dataset.
+#
+# IMPORTANT:
+#   - Six KPI calculations are NOT changed here.
+#   - Six KPIs.xlsx is treated as the source of KPI calculations.
+#   - University matching is performed using standardized university
+#     names because the two files use different university_id systems.
+#   - The Module 2 university_id is used as the FINAL university_id.
+#
+# OUTPUT:
+#   university_final_dataset.xlsx
+# =====================================================================
+
 import os
+import re
+import unicodedata
 import pandas as pd
-import numpy as np
 
-print("==================================================")
-print("--> REBUILDING PRISTINE FILES FOR TABLEAU")
-print("==================================================")
 
-# 1. Locate the source dataset dynamically
-target_file = None
-for r, ds, fs in os.walk('.'):
-    for f in fs:
-        if "university" in f.lower() and f.endswith(('.xlsx', '.csv')) and 'final' not in f and 'kpis' not in f.lower():
-            target_file = os.path.join(r, f)
-            break
-    if target_file:
-        break
+# =====================================================================
+# 1. PATHS
+# =====================================================================
 
-if not target_file:
-    for r, ds, fs in os.walk('..'):
-        for f in fs:
-            if "university" in f.lower() and f.endswith(('.xlsx', '.csv')) and 'final' not in f and 'kpis' not in f.lower():
-                target_file = os.path.join(r, f)
-                break
-        if target_file:
-            break
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
-if not target_file:
-    raise FileNotFoundError("Could not locate the source university dataset file.")
+MODULE_03_DIR = os.path.dirname(SCRIPT_DIR)
 
-print(f"Reading source data from: {target_file}")
-df = pd.read_excel(target_file) if target_file.endswith('.xlsx') else pd.read_csv(target_file)
-
-# 2. If the first row contains metadata or isn't the header, drop it. 
-# Let's inspect and ensure row 0 is the actual header.
-if 'Unnamed' in str(df.columns[0]) or 'Sheet1' in str(df.columns[0]):
-    df.columns = df.iloc[0]
-    df = df[1:].reset_index(drop=True)
-
-# Flatten and clean column headers completely
-df.columns = [str(c).replace('\n', ' ').replace('\r', ' ').strip() for c in df.columns]
-df = df.loc[:, ~df.columns.str.contains('^Unnamed', case=False, na=False)]
-df = df.loc[:, df.columns != '']
-
-# Ensure unique column names
-cols = pd.Series(df.columns)
-for dup in cols[cols.duplicated()].unique():
-    cols[cols == dup] = [f"{dup}_{i}" if i != 0 else dup for i in range(sum(cols == dup))]
-df.columns = cols
-
-# Helper function to find matching columns safely
-def get_col(df, candidates):
-    for c in df.columns:
-        if c.lower().strip() in candidates:
-            return c
-    return None
-
-rank_col = get_col(df, ['rank_numeric', 'rank_2025', 'rank', 'rank_display', 'world_rank', 'university rank'])
-citation_col = get_col(df, ['citations_per_faculty', 'citations', 'citation_score', 'research_impact'])
-academic_col = get_col(df, ['academic_reputation', 'academic_score', 'reputation'])
-faculty_col = get_col(df, ['faculty_student_ratio', 'faculty_student', 'faculty_count'])
-intl_col = get_col(df, ['international_students', 'international_ratio', 'intl_students'])
-res_col = get_col(df, ['research_score', 'research'])
-outlook_col = get_col(df, ['international_outlook', 'intl_outlook'])
-
-# Handle numeric fills on raw metrics
-for col in [rank_col, citation_col, academic_col, faculty_col, intl_col, res_col, outlook_col]:
-    if col and col in df.columns:
-        df[col] = pd.to_numeric(df[col], errors='coerce')
-        df[col] = df[col].fillna(df[col].median())
-
-# 3. Calculate ALL 6 Mandatory KPIs Explicitly
-print("Calculating all 6 mandatory KPIs...")
-
-# KPI 1: Global Ranking Score
-if rank_col and rank_col in df.columns:
-    max_r, min_r = df[rank_col].max(), df[rank_col].min()
-    df['Global Ranking Score'] = np.round(100 * (1 - (df[rank_col] - min_r) / (max_r - min_r + 1e-5)), 2)
-else:
-    df['Global Ranking Score'] = 50.0
-
-# KPI 2: Research Impact Score
-if citation_col and citation_col in df.columns:
-    max_c, min_c = df[citation_col].max(), df[citation_col].min()
-    df['Research Impact Score'] = np.round(100 * (df[citation_col] - min_c) / (max_c - min_c + 1e-5), 2)
-else:
-    df['Research Impact Score'] = 50.0
-
-# KPI 3: Faculty-to-Student Ratio
-if faculty_col and faculty_col in df.columns:
-    df['Faculty-to-Student Ratio'] = np.round(df[faculty_col], 2)
-else:
-    df['Faculty-to-Student Ratio'] = 15.0
-
-# KPI 4: International Student Percentage
-if intl_col and intl_col in df.columns:
-    df['International Student Percentage'] = np.round(df[intl_col], 2)
-else:
-    df['International Student Percentage'] = 10.0
-
-# KPI 5: Academic Reputation Score
-if academic_col and academic_col in df.columns:
-    df['Academic Reputation Score'] = np.round(df[academic_col], 2)
-else:
-    df['Academic Reputation Score'] = 50.0
-
-# KPI 6: Research Productivity Index (50/30/20 formula)
-res_vals = df[res_col] if res_col and res_col in df.columns else df['Academic Reputation Score']
-cit_vals = df['Research Impact Score']
-out_vals = df[outlook_col] if outlook_col and outlook_col in df.columns else df['International Student Percentage']
-
-df['Research Productivity Index'] = np.round(
-    (0.50 * res_vals) + (0.30 * cit_vals) + (0.20 * out_vals), 2
+PROJECT_ROOT = os.path.dirname(
+    os.path.dirname(MODULE_03_DIR)
 )
 
-# Save intermediate Six KPIs file
-six_kpi_filename = "Six KPIs.xlsx"
-df.to_excel(six_kpi_filename, index=False, engine='openpyxl')
+# Module 2 cleaned data
+INPUT_DIR = os.path.join(
+    PROJECT_ROOT,
+    "Milestone_01",
+    "Module_02",
+    "deliverables",
+    "university_cleaned"
+)
 
-# 4. Create university_final_dataset.xlsx with zero nulls
-for col in df.select_dtypes(include=[np.number]).columns:
-    df[col] = df[col].fillna(df[col].median())
+# Master Module 2 dataset
+MASTER_FILE = os.path.join(
+    INPUT_DIR,
+    "01 University Overview.xlsx"
+)
 
-for col in df.select_dtypes(include=['object']).columns:
-    df[col] = df[col].fillna("Not Available")
+# Already-calculated Six KPI dataset
+SIX_KPIS_FILE = os.path.join(
+    MODULE_03_DIR,
+    "Six KPIs.xlsx"
+)
 
-final_output_filename = "university_final_dataset.xlsx"
-df.to_excel(final_output_filename, index=False, engine='openpyxl')
+# Final deliverable folder
+DELIVERABLES_DIR = os.path.join(
+    MODULE_03_DIR,
+    "deliverables"
+)
 
-print(f"==================================================")
-print(f"--> SUCCESS: Pristine files '{six_kpi_filename}' & '{final_output_filename}' generated!")
-print("==================================================")
+# Final output
+OUTPUT_FILE = os.path.join(
+    DELIVERABLES_DIR,
+    "university_final_dataset.xlsx"
+)
+
+os.makedirs(
+    DELIVERABLES_DIR,
+    exist_ok=True
+)
+
+
+# =====================================================================
+# 2. START
+# =====================================================================
+
+print("=" * 70)
+print("EDUVISION_DV - MODULE 3: FINAL UNIVERSITY DATASET")
+print("=" * 70)
+
+
+# =====================================================================
+# 3. CHECK INPUT FILES
+# =====================================================================
+
+print("\n" + "=" * 70)
+print("STEP 1 — CHECK INPUT FILES")
+print("=" * 70)
+
+if not os.path.exists(MASTER_FILE):
+    raise FileNotFoundError(
+        f"01 University Overview.xlsx not found:\n{MASTER_FILE}"
+    )
+
+if not os.path.exists(SIX_KPIS_FILE):
+    raise FileNotFoundError(
+        f"Six KPIs.xlsx not found:\n{SIX_KPIS_FILE}"
+    )
+
+print("[OK] 01 University Overview.xlsx")
+print("[OK] Six KPIs.xlsx")
+
+
+# =====================================================================
+# 4. LOAD DATA
+# =====================================================================
+
+print("\n" + "=" * 70)
+print("STEP 2 — LOAD DATA")
+print("=" * 70)
+
+df_master = pd.read_excel(
+    MASTER_FILE
+)
+
+df_kpi = pd.read_excel(
+    SIX_KPIS_FILE
+)
+
+print(
+    f"01 University Overview : {df_master.shape}"
+)
+
+print(
+    f"Six KPIs              : {df_kpi.shape}"
+)
+
+
+# =====================================================================
+# 5. CHECK REQUIRED COLUMNS
+# =====================================================================
+
+print("\n" + "=" * 70)
+print("STEP 3 — CHECK REQUIRED COLUMNS")
+print("=" * 70)
+
+required_master = [
+    "university_id",
+    "university_name"
+]
+
+required_kpi = [
+    "university_id",
+    "university_name",
+    "country_id",
+    "country_name",
+    "region",
+
+    # Six KPIs
+    "global_ranking_score",
+    "academic_reputation_score",
+    "research_impact_score",
+    "faculty_to_student_ratio",
+    "international_student_percentage",
+    "research_productivity_index"
+]
+
+for column in required_master:
+
+    if column not in df_master.columns:
+        raise KeyError(
+            f"Missing column in 01 University Overview.xlsx: {column}"
+        )
+
+print("[OK] Master required columns")
+
+
+for column in required_kpi:
+
+    if column not in df_kpi.columns:
+        raise KeyError(
+            f"Missing column in Six KPIs.xlsx: {column}"
+        )
+
+print("[OK] Six KPI required columns")
+
+
+# =====================================================================
+# 6. STANDARDIZE UNIVERSITY NAMES
+# =====================================================================
+#
+# The two datasets use different university_id systems.
+#
+# Module 2:
+#     massachusetts institute of technology united states
+#
+# Six KPIs:
+#     U0463
+#
+# Therefore university names are used ONLY as the matching bridge.
+#
+# The final university_id will come from Module 2.
+# =====================================================================
+
+print("\n" + "=" * 70)
+print("STEP 4 — STANDARDIZE UNIVERSITY NAMES")
+print("=" * 70)
+
+
+def standardize_name(value):
+
+    if pd.isna(value):
+        return ""
+
+    value = str(value).strip().lower()
+
+    # -------------------------------------------------------------
+    # Normalize Unicode characters.
+    #
+    # Example:
+    # Šafárik → Safarik
+    # Košice  → Kosice
+    # -------------------------------------------------------------
+
+    value = unicodedata.normalize(
+        "NFKD",
+        value
+    )
+
+    value = "".join(
+        character
+        for character in value
+        if not unicodedata.combining(character)
+    )
+
+    # -------------------------------------------------------------
+    # Remove punctuation.
+    # -------------------------------------------------------------
+
+    value = re.sub(
+        r"[^\w\s]",
+        " ",
+        value
+    )
+
+    # -------------------------------------------------------------
+    # Normalize whitespace.
+    # -------------------------------------------------------------
+
+    value = re.sub(
+        r"\s+",
+        " ",
+        value
+    )
+
+    return value.strip()
+
+
+df_master["_name_match"] = (
+    df_master["university_name"]
+    .apply(standardize_name)
+)
+
+df_kpi["_name_match"] = (
+    df_kpi["university_name"]
+    .apply(standardize_name)
+)
+
+
+# =====================================================================
+# 7. SPECIAL NAME NORMALIZATION
+# =====================================================================
+#
+# One known difference exists in the supplied datasets:
+#
+# Module 2:
+#   Pavol Jozef afárik University in Koice
+#
+# Six KPIs:
+#   Pavol Jozef Šafárik University in Košice
+#
+# Unicode normalization alone does not resolve this because the
+# Module 2 dataset contains the text "afárik" / "Koice".
+#
+# We therefore apply a very small explicit correction for this
+# documented source discrepancy.
+#
+# This does NOT change KPI calculations.
+# It only allows the existing KPI record to match its Module 2
+# university.
+# =====================================================================
+
+df_master["_name_match"] = (
+    df_master["_name_match"]
+    .str.replace(
+        "afarik university in ko ice",
+        "safarik university in kosice",
+        regex=False
+    )
+)
+
+
+# =====================================================================
+# 8. CHECK NAME DUPLICATES
+# =====================================================================
+
+master_duplicate_names = (
+    df_master["_name_match"]
+    .duplicated()
+    .sum()
+)
+
+kpi_duplicate_names = (
+    df_kpi["_name_match"]
+    .duplicated()
+    .sum()
+)
+
+print(
+    f"Duplicate standardized names in master : "
+    f"{master_duplicate_names}"
+)
+
+print(
+    f"Duplicate standardized names in KPI    : "
+    f"{kpi_duplicate_names}"
+)
+
+
+if master_duplicate_names > 0:
+
+    raise ValueError(
+        "Duplicate standardized university names "
+        "found in the master dataset."
+    )
+
+
+if kpi_duplicate_names > 0:
+
+    raise ValueError(
+        "Duplicate standardized university names "
+        "found in Six KPIs.xlsx."
+    )
+
+
+# =====================================================================
+# 9. CHECK MATCHING
+# =====================================================================
+
+print("\n" + "=" * 70)
+print("STEP 5 — MATCH UNIVERSITIES")
+print("=" * 70)
+
+master_names = set(
+    df_master["_name_match"]
+)
+
+kpi_names = set(
+    df_kpi["_name_match"]
+)
+
+matched_names = (
+    master_names
+    .intersection(kpi_names)
+)
+
+unmatched_kpi_names = (
+    kpi_names
+    - master_names
+)
+
+print(
+    f"Six KPI universities : {len(df_kpi):,}"
+)
+
+print(
+    f"Matching universities : {len(matched_names):,}"
+)
+
+print(
+    f"Unmatched KPI records : {len(unmatched_kpi_names):,}"
+)
+
+
+if len(unmatched_kpi_names) > 0:
+
+    print(
+        "\nWARNING: Some KPI universities did not match "
+        "the Module 2 master dataset."
+    )
+
+    print(
+        "\nFirst unmatched KPI universities:"
+    )
+
+    unmatched_rows = df_kpi[
+        df_kpi["_name_match"].isin(
+            unmatched_kpi_names
+        )
+    ][
+        [
+            "university_id",
+            "university_name"
+        ]
+    ].head(20)
+
+    print(
+        unmatched_rows.to_string(
+            index=False
+        )
+    )
+
+
+# =====================================================================
+# 10. INNER JOIN USING STANDARDIZED UNIVERSITY NAME
+# =====================================================================
+
+print("\n" + "=" * 70)
+print("STEP 6 — MATCH KPI DATA TO MODULE 2 UNIVERSITIES")
+print("=" * 70)
+
+final_df = df_master.merge(
+    df_kpi,
+    on="_name_match",
+    how="inner",
+    suffixes=(
+        "_master",
+        "_kpi"
+    )
+)
+
+print(
+    f"Merged dataset shape: {final_df.shape}"
+)
+
+
+# =====================================================================
+# 11. CREATE THE FINAL UNIVERSITY ID
+# =====================================================================
+#
+# IMPORTANT:
+#
+# Module 2 is the project's canonical university ID system.
+#
+# Therefore:
+#
+#     final university_id
+#             =
+#     Module 2 university_id
+#
+# The KPI-side Uxxxx ID is preserved separately for traceability.
+# =====================================================================
+
+print("\n" + "=" * 70)
+print("STEP 7 — CREATE FINAL UNIVERSITY ID")
+print("=" * 70)
+
+# Preserve the Module 2 ID
+final_df["university_id"] = (
+    final_df["university_id_master"]
+)
+
+# Preserve the KPI ID only as a traceability field
+final_df["kpi_university_id"] = (
+    final_df["university_id_kpi"]
+)
+
+print(
+    "[OK] Module 2 university_id used as final university_id"
+)
+
+print(
+    "[OK] KPI university_id preserved as kpi_university_id"
+)
+
+
+# =====================================================================
+# 12. CLEAN DUPLICATE COLUMNS
+# =====================================================================
+
+columns_to_drop = [
+
+    # Temporary matching column
+    "_name_match",
+
+    # Duplicate ID columns
+    "university_id_master",
+    "university_id_kpi",
+
+    # KPI-side context columns.
+    #
+    # The Module 2 master version is retained.
+    "university_name_kpi",
+    "country_id_kpi",
+    "country_name_kpi",
+    "region_kpi"
+]
+
+columns_to_drop = [
+    column
+    for column in columns_to_drop
+    if column in final_df.columns
+]
+
+if columns_to_drop:
+
+    print(
+        "\nRemoving duplicate/temporary columns:"
+    )
+
+    for column in columns_to_drop:
+        print(
+            f"  - {column}"
+        )
+
+    final_df = final_df.drop(
+        columns=columns_to_drop
+    )
+
+
+# =====================================================================
+# 13. FINAL COLUMN ORDER
+# =====================================================================
+
+print("\n" + "=" * 70)
+print("STEP 8 — ORGANIZE FINAL DATASET")
+print("=" * 70)
+
+preferred_columns = [
+
+    # -------------------------------------------------------------
+    # University identity
+    # -------------------------------------------------------------
+    "university_id",
+    "university_name",
+    "kpi_university_id",
+
+    # -------------------------------------------------------------
+    # Country information
+    # -------------------------------------------------------------
+    "country_id",
+    "country_name",
+    "region",
+
+    # -------------------------------------------------------------
+    # Years
+    # -------------------------------------------------------------
+    "overview_year",
+    "research_year",
+
+    # -------------------------------------------------------------
+    # KPI 1
+    # -------------------------------------------------------------
+    "global_ranking_score",
+    "global_ranking_score_source",
+    "overall_score_is_estimated",
+
+    # -------------------------------------------------------------
+    # KPI 5
+    # -------------------------------------------------------------
+    "academic_reputation_score",
+    "academic_reputation_score_source",
+
+    # -------------------------------------------------------------
+    # KPI 2
+    # -------------------------------------------------------------
+    "research_impact_score",
+    "research_impact_score_source",
+
+    # -------------------------------------------------------------
+    # KPI 3
+    # -------------------------------------------------------------
+    "faculty_to_student_ratio",
+    "faculty_to_student_ratio_source",
+
+    # -------------------------------------------------------------
+    # KPI 4
+    # -------------------------------------------------------------
+    "international_student_percentage",
+    "international_student_percentage_source",
+
+    # -------------------------------------------------------------
+    # KPI 6
+    # -------------------------------------------------------------
+    "research_productivity_index",
+    "research_productivity_index_source"
+]
+
+existing_preferred = [
+    column
+    for column in preferred_columns
+    if column in final_df.columns
+]
+
+remaining_columns = [
+    column
+    for column in final_df.columns
+    if column not in existing_preferred
+]
+
+final_df = final_df[
+    existing_preferred + remaining_columns
+]
+
+print(
+    f"Final dataset columns organized: "
+    f"{len(final_df.columns)}"
+)
+
+
+# =====================================================================
+# 14. FINAL QA
+# =====================================================================
+
+print("\n" + "=" * 70)
+print("STEP 9 — FINAL QA")
+print("=" * 70)
+
+duplicate_ids = (
+    final_df["university_id"]
+    .duplicated()
+    .sum()
+)
+
+duplicate_rows = (
+    final_df
+    .duplicated()
+    .sum()
+)
+
+missing_values = int(
+    final_df
+    .isna()
+    .sum()
+    .sum()
+)
+
+print(
+    f"Final dataset rows       : "
+    f"{len(final_df):,}"
+)
+
+print(
+    f"Final dataset columns    : "
+    f"{len(final_df.columns)}"
+)
+
+print(
+    f"Duplicate university IDs : "
+    f"{duplicate_ids}"
+)
+
+print(
+    f"Duplicate complete rows  : "
+    f"{duplicate_rows}"
+)
+
+print(
+    f"Missing values           : "
+    f"{missing_values}"
+)
+
+
+# =====================================================================
+# 15. CHECK SIX KPI COLUMNS
+# =====================================================================
+
+print("\nSix KPIs:")
+
+kpi_columns = [
+
+    "global_ranking_score",
+
+    "research_impact_score",
+
+    "faculty_to_student_ratio",
+
+    "international_student_percentage",
+
+    "academic_reputation_score",
+
+    "research_productivity_index"
+]
+
+for i, column in enumerate(
+    kpi_columns,
+    start=1
+):
+
+    missing_kpi = int(
+        final_df[column]
+        .isna()
+        .sum()
+    )
+
+    print(
+        f"{i}. {column} "
+        f"| Missing: {missing_kpi}"
+    )
+
+
+# =====================================================================
+# 16. QA VALIDATION
+# =====================================================================
+
+if duplicate_ids != 0:
+
+    raise ValueError(
+        "Duplicate university IDs found."
+    )
+
+
+if duplicate_rows != 0:
+
+    raise ValueError(
+        "Duplicate complete rows found."
+    )
+
+
+for column in kpi_columns:
+
+    if column not in final_df.columns:
+
+        raise ValueError(
+            f"Required KPI column missing: {column}"
+        )
+
+
+# =====================================================================
+# 17. SAVE FINAL DATASET
+# =====================================================================
+
+print("\n" + "=" * 70)
+print("STEP 10 — SAVE FINAL DATASET")
+print("=" * 70)
+
+final_df.to_excel(
+    OUTPUT_FILE,
+    index=False
+)
+
+print(
+    "\nuniversity_final_dataset.xlsx "
+    "saved successfully:"
+)
+
+print(
+    OUTPUT_FILE
+)
+
+
+# =====================================================================
+# 18. COMPLETED
+# =====================================================================
+
+print("\n" + "=" * 70)
+print("MODULE 3 — FINAL DATASET COMPLETED")
+print("=" * 70)
+
+print(
+    f"\nUniversities: "
+    f"{len(final_df):,}"
+)
+
+print(
+    f"Columns: "
+    f"{len(final_df.columns)}"
+)
+
+print(
+    "\nCreated:"
+)
+
+print(
+    "university_final_dataset.xlsx"
+)
+
+print("=" * 70)
