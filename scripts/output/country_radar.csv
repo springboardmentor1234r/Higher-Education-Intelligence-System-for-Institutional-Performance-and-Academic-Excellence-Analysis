@@ -1,0 +1,673 @@
+﻿Country,Metric,Value,Path,X,Y
+Algeria,Academic Reputation Score,0.0,1,0.0,0.0
+Algeria,Faculty Student Ratio,6.03,2,5.735,1.864
+Algeria,Global Ranking Score,0.0,3,0.0,-0.0
+Algeria,Research Impact Score,6.7,4,-3.938,-5.42
+Algeria,Research Productivity Index,4.82,5,-4.588,1.491
+Algeria,Academic Reputation Score,0.0,6,0.0,0.0
+Argentina,Academic Reputation Score,13.61,1,0.0,13.613
+Argentina,Faculty Student Ratio,9.4,2,8.936,2.904
+Argentina,Global Ranking Score,17.61,3,10.353,-14.25
+Argentina,Research Impact Score,4.51,4,-2.651,-3.649
+Argentina,Research Productivity Index,3.08,5,-2.925,0.95
+Argentina,Academic Reputation Score,13.61,6,0.0,13.613
+Armenia,Academic Reputation Score,5.78,1,0.0,5.775
+Armenia,Faculty Student Ratio,4.56,2,4.341,1.411
+Armenia,Global Ranking Score,0.0,3,0.0,-0.0
+Armenia,Research Impact Score,4.68,4,-2.753,-3.789
+Armenia,Research Productivity Index,3.07,5,-2.919,0.948
+Armenia,Academic Reputation Score,5.78,6,0.0,5.775
+Australia,Academic Reputation Score,30.58,1,0.0,30.582
+Australia,Faculty Student Ratio,6.98,2,6.639,2.157
+Australia,Global Ranking Score,43.82,3,25.759,-35.454
+Australia,Research Impact Score,73.47,4,-43.183,-59.436
+Australia,Research Productivity Index,48.75,5,-46.365,15.065
+Australia,Academic Reputation Score,30.58,6,0.0,30.582
+Austria,Academic Reputation Score,22.48,1,0.0,22.48
+Austria,Faculty Student Ratio,6.65,2,6.329,2.056
+Austria,Global Ranking Score,33.67,3,19.791,-27.24
+Austria,Research Impact Score,49.97,4,-29.37,-40.424
+Austria,Research Productivity Index,35.51,5,-33.776,10.974
+Austria,Academic Reputation Score,22.48,6,0.0,22.48
+Azerbaijan,Academic Reputation Score,9.9,1,0.0,9.895
+Azerbaijan,Faculty Student Ratio,4.79,2,4.558,1.481
+Azerbaijan,Global Ranking Score,0.0,3,0.0,-0.0
+Azerbaijan,Research Impact Score,2.17,4,-1.277,-1.758
+Azerbaijan,Research Productivity Index,1.64,5,-1.559,0.507
+Azerbaijan,Academic Reputation Score,9.9,6,0.0,9.895
+Bahrain,Academic Reputation Score,15.54,1,0.0,15.535
+Bahrain,Faculty Student Ratio,6.28,2,5.976,1.942
+Bahrain,Global Ranking Score,2.53,3,1.484,-2.043
+Bahrain,Research Impact Score,2.0,4,-1.176,-1.618
+Bahrain,Research Productivity Index,1.0,5,-0.954,0.31
+Bahrain,Academic Reputation Score,15.54,6,0.0,15.535
+Bangladesh,Academic Reputation Score,9.07,1,0.0,9.071
+Bangladesh,Faculty Student Ratio,4.58,2,4.351,1.414
+Bangladesh,Global Ranking Score,2.02,3,1.187,-1.634
+Bangladesh,Research Impact Score,17.32,4,-10.181,-14.013
+Bangladesh,Research Productivity Index,10.12,5,-9.621,3.126
+Bangladesh,Academic Reputation Score,9.07,6,0.0,9.071
+Belarus,Academic Reputation Score,15.5,1,0.0,15.502
+Belarus,Faculty Student Ratio,6.69,2,6.366,2.068
+Belarus,Global Ranking Score,11.99,3,7.05,-9.704
+Belarus,Research Impact Score,2.05,4,-1.205,-1.658
+Belarus,Research Productivity Index,1.61,5,-1.527,0.496
+Belarus,Academic Reputation Score,15.5,6,0.0,15.502
+Belgium,Academic Reputation Score,32.1,1,0.0,32.095
+Belgium,Faculty Student Ratio,9.94,2,9.455,3.072
+Belgium,Global Ranking Score,39.54,3,23.239,-31.986
+Belgium,Research Impact Score,63.17,4,-37.131,-51.107
+Belgium,Research Productivity Index,46.44,5,-44.165,14.35
+Belgium,Academic Reputation Score,32.1,6,0.0,32.095
+Bolivia,Academic Reputation Score,3.85,1,0.0,3.85
+Bolivia,Faculty Student Ratio,14.69,2,13.973,4.54
+Bolivia,Global Ranking Score,0.0,3,0.0,-0.0
+Bolivia,Research Impact Score,0.68,4,-0.397,-0.546
+Bolivia,Research Productivity Index,0.34,5,-0.322,0.105
+Bolivia,Academic Reputation Score,3.85,6,0.0,3.85
+Bosnia and Herzegovina,Academic Reputation Score,3.14,1,0.0,3.141
+Bosnia and Herzegovina,Faculty Student Ratio,2.82,2,2.685,0.872
+Bosnia and Herzegovina,Global Ranking Score,0.0,3,0.0,-0.0
+Bosnia and Herzegovina,Research Impact Score,6.83,4,-4.017,-5.528
+Bosnia and Herzegovina,Research Productivity Index,5.23,5,-4.979,1.618
+Bosnia and Herzegovina,Academic Reputation Score,3.14,6,0.0,3.141
+Botswana,Academic Reputation Score,0.0,1,0.0,0.0
+Botswana,Faculty Student Ratio,4.38,2,4.17,1.355
+Botswana,Global Ranking Score,0.0,3,0.0,-0.0
+Botswana,Research Impact Score,30.62,4,-18.001,-24.776
+Botswana,Research Productivity Index,20.11,5,-19.124,6.214
+Botswana,Academic Reputation Score,0.0,6,0.0,0.0
+Brazil,Academic Reputation Score,15.23,1,0.0,15.227
+Brazil,Faculty Student Ratio,5.27,2,5.015,1.629
+Brazil,Global Ranking Score,25.76,3,15.14,-20.838
+Brazil,Research Impact Score,17.27,4,-10.153,-13.974
+Brazil,Research Productivity Index,13.71,5,-13.035,4.235
+Brazil,Academic Reputation Score,15.23,6,0.0,15.227
+Brunei,Academic Reputation Score,16.72,1,0.0,16.717
+Brunei,Faculty Student Ratio,12.53,2,11.921,3.873
+Brunei,Global Ranking Score,6.94,3,4.082,-5.618
+Brunei,Research Impact Score,35.8,4,-21.043,-28.963
+Brunei,Research Productivity Index,23.13,5,-21.999,7.148
+Brunei,Academic Reputation Score,16.72,6,0.0,16.717
+Bulgaria,Academic Reputation Score,13.07,1,0.0,13.07
+Bulgaria,Faculty Student Ratio,5.1,2,4.846,1.574
+Bulgaria,Global Ranking Score,0.0,3,0.0,-0.0
+Bulgaria,Research Impact Score,11.32,4,-6.655,-9.16
+Bulgaria,Research Productivity Index,8.81,5,-8.383,2.724
+Bulgaria,Academic Reputation Score,13.07,6,0.0,13.07
+Canada,Academic Reputation Score,27.28,1,0.0,27.281
+Canada,Faculty Student Ratio,6.5,2,6.182,2.009
+Canada,Global Ranking Score,44.02,3,25.877,-35.617
+Canada,Research Impact Score,56.22,4,-33.047,-45.485
+Canada,Research Productivity Index,40.05,5,-38.09,12.376
+Canada,Academic Reputation Score,27.28,6,0.0,27.281
+Chile,Academic Reputation Score,16.94,1,0.0,16.936
+Chile,Faculty Student Ratio,4.64,2,4.415,1.435
+Chile,Global Ranking Score,25.09,3,14.75,-20.302
+Chile,Research Impact Score,22.8,4,-13.402,-18.447
+Chile,Research Productivity Index,15.72,5,-14.946,4.856
+Chile,Academic Reputation Score,16.94,6,0.0,16.936
+China,Academic Reputation Score,16.23,1,0.0,16.231
+China,Faculty Student Ratio,5.42,2,5.155,1.675
+China,Global Ranking Score,34.57,3,20.317,-27.964
+China,Research Impact Score,61.01,4,-35.859,-49.356
+China,Research Productivity Index,40.15,5,-38.184,12.407
+China,Academic Reputation Score,16.23,6,0.0,16.231
+Colombia,Academic Reputation Score,15.14,1,0.0,15.138
+Colombia,Faculty Student Ratio,5.71,2,5.432,1.765
+Colombia,Global Ranking Score,25.8,3,15.165,-20.872
+Colombia,Research Impact Score,11.64,4,-6.843,-9.418
+Colombia,Research Productivity Index,8.13,5,-7.734,2.513
+Colombia,Academic Reputation Score,15.14,6,0.0,15.138
+Costa Rica,Academic Reputation Score,14.26,1,0.0,14.26
+Costa Rica,Faculty Student Ratio,5.41,2,5.144,1.671
+Costa Rica,Global Ranking Score,4.29,3,2.523,-3.473
+Costa Rica,Research Impact Score,14.61,4,-8.588,-11.821
+Costa Rica,Research Productivity Index,8.9,5,-8.462,2.75
+Costa Rica,Academic Reputation Score,14.26,6,0.0,14.26
+Croatia,Academic Reputation Score,7.04,1,0.0,7.042
+Croatia,Faculty Student Ratio,4.89,2,4.65,1.511
+Croatia,Global Ranking Score,0.0,3,0.0,-0.0
+Croatia,Research Impact Score,23.43,4,-13.772,-18.955
+Croatia,Research Productivity Index,16.31,5,-15.509,5.039
+Croatia,Academic Reputation Score,7.04,6,0.0,7.042
+Cuba,Academic Reputation Score,7.7,1,0.0,7.7
+Cuba,Faculty Student Ratio,11.87,2,11.291,3.669
+Cuba,Global Ranking Score,0.0,3,0.0,-0.0
+Cuba,Research Impact Score,3.93,4,-2.312,-3.182
+Cuba,Research Productivity Index,3.91,5,-3.714,1.207
+Cuba,Academic Reputation Score,7.7,6,0.0,7.7
+Cyprus,Academic Reputation Score,8.81,1,0.0,8.815
+Cyprus,Faculty Student Ratio,4.37,2,4.16,1.352
+Cyprus,Global Ranking Score,11.74,3,6.902,-9.5
+Cyprus,Research Impact Score,57.27,4,-33.661,-46.33
+Cyprus,Research Productivity Index,35.64,5,-33.897,11.014
+Cyprus,Academic Reputation Score,8.81,6,0.0,8.815
+Czech Republic,Academic Reputation Score,10.24,1,0.0,10.239
+Czech Republic,Faculty Student Ratio,6.27,2,5.965,1.938
+Czech Republic,Global Ranking Score,11.71,3,6.883,-9.474
+Czech Republic,Research Impact Score,20.87,4,-12.27,-16.888
+Czech Republic,Research Productivity Index,16.38,5,-15.583,5.063
+Czech Republic,Academic Reputation Score,10.24,6,0.0,10.239
+Denmark,Academic Reputation Score,39.61,1,0.0,39.615
+Denmark,Faculty Student Ratio,7.25,2,6.891,2.239
+Denmark,Global Ranking Score,44.62,3,26.225,-36.096
+Denmark,Research Impact Score,72.81,4,-42.797,-58.905
+Denmark,Research Productivity Index,52.19,5,-49.636,16.128
+Denmark,Academic Reputation Score,39.61,6,0.0,39.615
+Dominican Republic,Academic Reputation Score,1.62,1,0.0,1.621
+Dominican Republic,Faculty Student Ratio,16.37,2,15.565,5.057
+Dominican Republic,Global Ranking Score,0.0,3,0.0,-0.0
+Dominican Republic,Research Impact Score,0.87,4,-0.509,-0.701
+Dominican Republic,Research Productivity Index,0.43,5,-0.414,0.134
+Dominican Republic,Academic Reputation Score,1.62,6,0.0,1.621
+Ecuador,Academic Reputation Score,7.99,1,0.0,7.995
+Ecuador,Faculty Student Ratio,5.06,2,4.816,1.565
+Ecuador,Global Ranking Score,0.0,3,0.0,-0.0
+Ecuador,Research Impact Score,8.18,4,-4.808,-6.618
+Ecuador,Research Productivity Index,5.68,5,-5.4,1.755
+Ecuador,Academic Reputation Score,7.99,6,0.0,7.995
+Egypt,Academic Reputation Score,13.28,1,0.0,13.279
+Egypt,Faculty Student Ratio,6.31,2,5.997,1.949
+Egypt,Global Ranking Score,8.46,3,4.972,-6.844
+Egypt,Research Impact Score,35.0,4,-20.57,-28.312
+Egypt,Research Productivity Index,20.88,5,-19.861,6.453
+Egypt,Academic Reputation Score,13.28,6,0.0,13.279
+Estonia,Academic Reputation Score,13.78,1,0.0,13.779
+Estonia,Faculty Student Ratio,7.33,2,6.973,2.266
+Estonia,Global Ranking Score,14.14,3,8.312,-11.441
+Estonia,Research Impact Score,34.9,4,-20.514,-28.235
+Estonia,Research Productivity Index,24.26,5,-23.076,7.498
+Estonia,Academic Reputation Score,13.78,6,0.0,13.779
+Ethiopia,Academic Reputation Score,5.17,1,0.0,5.167
+Ethiopia,Faculty Student Ratio,6.22,2,5.912,1.921
+Ethiopia,Global Ranking Score,0.0,3,0.0,-0.0
+Ethiopia,Research Impact Score,40.23,4,-23.649,-32.549
+Ethiopia,Research Productivity Index,22.76,5,-21.649,7.034
+Ethiopia,Academic Reputation Score,5.17,6,0.0,5.167
+Finland,Academic Reputation Score,23.06,1,0.0,23.055
+Finland,Faculty Student Ratio,7.8,2,7.418,2.41
+Finland,Global Ranking Score,25.9,3,15.222,-20.951
+Finland,Research Impact Score,63.96,4,-37.597,-51.748
+Finland,Research Productivity Index,43.92,5,-41.774,13.573
+Finland,Academic Reputation Score,23.06,6,0.0,23.055
+France,Academic Reputation Score,22.5,1,0.0,22.495
+France,Faculty Student Ratio,7.05,2,6.701,2.177
+France,Global Ranking Score,38.19,3,22.45,-30.9
+France,Research Impact Score,39.4,4,-23.156,-31.871
+France,Research Productivity Index,28.96,5,-27.547,8.95
+France,Academic Reputation Score,22.5,6,0.0,22.495
+Georgia,Academic Reputation Score,7.55,1,0.0,7.548
+Georgia,Faculty Student Ratio,5.47,2,5.201,1.69
+Georgia,Global Ranking Score,0.0,3,0.0,-0.0
+Georgia,Research Impact Score,16.86,4,-9.912,-13.643
+Georgia,Research Productivity Index,10.73,5,-10.208,3.317
+Georgia,Academic Reputation Score,7.55,6,0.0,7.548
+Germany,Academic Reputation Score,28.22,1,0.0,28.223
+Germany,Faculty Student Ratio,10.51,2,10.0,3.249
+Germany,Global Ranking Score,39.7,3,23.336,-32.119
+Germany,Research Impact Score,57.25,4,-33.65,-46.315
+Germany,Research Productivity Index,42.66,5,-40.572,13.183
+Germany,Academic Reputation Score,28.22,6,0.0,28.223
+Ghana,Academic Reputation Score,8.0,1,0.0,8.004
+Ghana,Faculty Student Ratio,10.48,2,9.969,3.239
+Ghana,Global Ranking Score,0.0,3,0.0,-0.0
+Ghana,Research Impact Score,18.26,4,-10.733,-14.773
+Ghana,Research Productivity Index,12.74,5,-12.114,3.936
+Ghana,Academic Reputation Score,8.0,6,0.0,8.004
+Greece,Academic Reputation Score,15.56,1,0.0,15.559
+Greece,Faculty Student Ratio,9.3,2,8.844,2.873
+Greece,Global Ranking Score,10.77,3,6.333,-8.717
+Greece,Research Impact Score,44.23,4,-26.001,-35.787
+Greece,Research Productivity Index,28.57,5,-27.176,8.83
+Greece,Academic Reputation Score,15.56,6,0.0,15.559
+Hong Kong,Academic Reputation Score,59.79,1,0.0,59.792
+Hong Kong,Faculty Student Ratio,11.79,2,11.214,3.644
+Hong Kong,Global Ranking Score,65.03,3,38.221,-52.607
+Hong Kong,Research Impact Score,82.39,4,-48.425,-66.651
+Hong Kong,Research Productivity Index,54.22,5,-51.568,16.755
+Hong Kong,Academic Reputation Score,59.79,6,0.0,59.792
+Hungary,Academic Reputation Score,10.79,1,0.0,10.786
+Hungary,Faculty Student Ratio,5.42,2,5.151,1.674
+Hungary,Global Ranking Score,1.26,3,0.742,-1.021
+Hungary,Research Impact Score,19.86,4,-11.673,-16.066
+Hungary,Research Productivity Index,14.39,5,-13.689,4.448
+Hungary,Academic Reputation Score,10.79,6,0.0,10.786
+Iceland,Academic Reputation Score,5.57,1,0.0,5.572
+Iceland,Faculty Student Ratio,10.83,2,10.305,3.348
+Iceland,Global Ranking Score,2.27,3,1.336,-1.839
+Iceland,Research Impact Score,63.92,4,-37.571,-51.712
+Iceland,Research Productivity Index,43.26,5,-41.144,13.369
+Iceland,Academic Reputation Score,5.57,6,0.0,5.572
+India,Academic Reputation Score,14.0,1,0.0,14.004
+India,Faculty Student Ratio,4.77,2,4.534,1.473
+India,Global Ranking Score,18.94,3,11.132,-15.322
+India,Research Impact Score,34.8,4,-20.457,-28.157
+India,Research Productivity Index,22.19,5,-21.104,6.857
+India,Academic Reputation Score,14.0,6,0.0,14.004
+Indonesia,Academic Reputation Score,15.66,1,0.0,15.657
+Indonesia,Faculty Student Ratio,6.34,2,6.032,1.96
+Indonesia,Global Ranking Score,15.69,3,9.224,-12.696
+Indonesia,Research Impact Score,11.88,4,-6.982,-9.61
+Indonesia,Research Productivity Index,9.02,5,-8.576,2.787
+Indonesia,Academic Reputation Score,15.66,6,0.0,15.657
+Iran,Academic Reputation Score,7.43,1,0.0,7.43
+Iran,Faculty Student Ratio,6.41,2,6.093,1.98
+Iran,Global Ranking Score,9.11,3,5.356,-7.372
+Iran,Research Impact Score,53.82,4,-31.632,-43.538
+Iran,Research Productivity Index,34.14,5,-32.466,10.549
+Iran,Academic Reputation Score,7.43,6,0.0,7.43
+Iraq,Academic Reputation Score,4.86,1,0.0,4.863
+Iraq,Faculty Student Ratio,5.77,2,5.492,1.784
+Iraq,Global Ranking Score,0.0,3,0.0,-0.0
+Iraq,Research Impact Score,6.27,4,-3.683,-5.069
+Iraq,Research Productivity Index,3.97,5,-3.773,1.226
+Iraq,Academic Reputation Score,4.86,6,0.0,4.863
+Ireland,Academic Reputation Score,28.9,1,0.0,28.901
+Ireland,Faculty Student Ratio,6.96,2,6.623,2.152
+Ireland,Global Ranking Score,30.43,3,17.886,-24.618
+Ireland,Research Impact Score,55.17,4,-32.43,-44.637
+Ireland,Research Productivity Index,38.16,5,-36.29,11.791
+Ireland,Academic Reputation Score,28.9,6,0.0,28.901
+Israel,Academic Reputation Score,19.6,1,0.0,19.605
+Israel,Faculty Student Ratio,6.59,2,6.272,2.038
+Israel,Global Ranking Score,17.05,3,10.019,-13.79
+Israel,Research Impact Score,53.57,4,-31.487,-43.338
+Israel,Research Productivity Index,38.21,5,-36.341,11.808
+Israel,Academic Reputation Score,19.6,6,0.0,19.605
+Italy,Academic Reputation Score,20.42,1,0.0,20.42
+Italy,Faculty Student Ratio,6.42,2,6.106,1.984
+Italy,Global Ranking Score,22.94,3,13.484,-18.559
+Italy,Research Impact Score,62.87,4,-36.954,-50.863
+Italy,Research Productivity Index,40.7,5,-38.705,12.576
+Italy,Academic Reputation Score,20.42,6,0.0,20.42
+Japan,Academic Reputation Score,21.37,1,0.0,21.37
+Japan,Faculty Student Ratio,5.31,2,5.054,1.642
+Japan,Global Ranking Score,44.82,3,26.346,-36.263
+Japan,Research Impact Score,19.18,4,-11.272,-15.515
+Japan,Research Productivity Index,15.25,5,-14.5,4.711
+Japan,Academic Reputation Score,21.37,6,0.0,21.37
+Jordan,Academic Reputation Score,11.8,1,0.0,11.803
+Jordan,Faculty Student Ratio,5.62,2,5.344,1.736
+Jordan,Global Ranking Score,7.7,3,4.527,-6.231
+Jordan,Research Impact Score,14.7,4,-8.643,-11.896
+Jordan,Research Productivity Index,8.97,5,-8.527,2.771
+Jordan,Academic Reputation Score,11.8,6,0.0,11.803
+Kazakhstan,Academic Reputation Score,14.54,1,0.0,14.537
+Kazakhstan,Faculty Student Ratio,8.15,2,7.747,2.517
+Kazakhstan,Global Ranking Score,21.93,3,12.889,-17.74
+Kazakhstan,Research Impact Score,3.67,4,-2.158,-2.97
+Kazakhstan,Research Productivity Index,2.68,5,-2.553,0.83
+Kazakhstan,Academic Reputation Score,14.54,6,0.0,14.537
+Kenya,Academic Reputation Score,7.29,1,0.0,7.295
+Kenya,Faculty Student Ratio,9.85,2,9.371,3.045
+Kenya,Global Ranking Score,0.0,3,0.0,-0.0
+Kenya,Research Impact Score,16.99,4,-9.985,-13.743
+Kenya,Research Productivity Index,9.74,5,-9.264,3.01
+Kenya,Academic Reputation Score,7.29,6,0.0,7.295
+Kosovo,Academic Reputation Score,0.0,1,0.0,0.0
+Kosovo,Faculty Student Ratio,5.87,2,5.579,1.813
+Kosovo,Global Ranking Score,0.0,3,0.0,-0.0
+Kosovo,Research Impact Score,4.57,4,-2.684,-3.695
+Kosovo,Research Productivity Index,4.08,5,-3.881,1.261
+Kosovo,Academic Reputation Score,0.0,6,0.0,0.0
+Kuwait,Academic Reputation Score,16.38,1,0.0,16.38
+Kuwait,Faculty Student Ratio,10.02,2,9.532,3.097
+Kuwait,Global Ranking Score,0.0,3,0.0,-0.0
+Kuwait,Research Impact Score,8.36,4,-4.915,-6.765
+Kuwait,Research Productivity Index,4.82,5,-4.581,1.488
+Kuwait,Academic Reputation Score,16.38,6,0.0,16.38
+Kyrgyzstan,Academic Reputation Score,11.85,1,0.0,11.854
+Kyrgyzstan,Faculty Student Ratio,9.04,2,8.597,2.793
+Kyrgyzstan,Global Ranking Score,0.0,3,0.0,-0.0
+Kyrgyzstan,Research Impact Score,0.74,4,-0.435,-0.599
+Kyrgyzstan,Research Productivity Index,0.37,5,-0.353,0.115
+Kyrgyzstan,Academic Reputation Score,11.85,6,0.0,11.854
+Latvia,Academic Reputation Score,8.51,1,0.0,8.511
+Latvia,Faculty Student Ratio,6.94,2,6.6,2.144
+Latvia,Global Ranking Score,0.0,3,0.0,-0.0
+Latvia,Research Impact Score,24.15,4,-14.198,-19.541
+Latvia,Research Productivity Index,19.55,5,-18.598,6.043
+Latvia,Academic Reputation Score,8.51,6,0.0,8.511
+Lebanon,Academic Reputation Score,16.19,1,0.0,16.194
+Lebanon,Faculty Student Ratio,5.95,2,5.658,1.838
+Lebanon,Global Ranking Score,13.19,3,7.755,-10.675
+Lebanon,Research Impact Score,28.36,4,-16.668,-22.942
+Lebanon,Research Productivity Index,18.51,5,-17.606,5.721
+Lebanon,Academic Reputation Score,16.19,6,0.0,16.194
+Libya,Academic Reputation Score,0.0,1,0.0,0.0
+Libya,Faculty Student Ratio,4.61,2,4.384,1.424
+Libya,Global Ranking Score,0.0,3,0.0,-0.0
+Libya,Research Impact Score,0.0,4,-0.0,-0.0
+Libya,Research Productivity Index,0.0,5,-0.0,0.0
+Libya,Academic Reputation Score,0.0,6,0.0,0.0
+Lithuania,Academic Reputation Score,9.95,1,0.0,9.949
+Lithuania,Faculty Student Ratio,6.15,2,5.847,1.9
+Lithuania,Global Ranking Score,7.95,3,4.676,-6.435
+Lithuania,Research Impact Score,27.47,4,-16.148,-22.226
+Lithuania,Research Productivity Index,18.68,5,-17.765,5.772
+Lithuania,Academic Reputation Score,9.95,6,0.0,9.949
+Luxembourg,Academic Reputation Score,8.0,1,0.0,8.004
+Luxembourg,Faculty Student Ratio,34.05,2,32.38,10.521
+Luxembourg,Global Ranking Score,14.27,3,8.386,-11.543
+Luxembourg,Research Impact Score,41.95,4,-24.658,-33.938
+Luxembourg,Research Productivity Index,30.98,5,-29.467,9.574
+Luxembourg,Academic Reputation Score,8.0,6,0.0,8.004
+Macao,Academic Reputation Score,6.94,1,0.0,6.94
+Macao,Faculty Student Ratio,5.13,2,4.878,1.585
+Macao,Global Ranking Score,26.77,3,15.734,-21.656
+Macao,Research Impact Score,64.94,4,-38.171,-52.538
+Macao,Research Productivity Index,39.84,5,-37.89,12.311
+Macao,Academic Reputation Score,6.94,6,0.0,6.94
+Malaysia,Academic Reputation Score,22.04,1,0.0,22.044
+Malaysia,Faculty Student Ratio,6.64,2,6.315,2.052
+Malaysia,Global Ranking Score,23.04,3,13.541,-18.638
+Malaysia,Research Impact Score,30.12,4,-17.703,-24.366
+Malaysia,Research Productivity Index,20.74,5,-19.721,6.408
+Malaysia,Academic Reputation Score,22.04,6,0.0,22.044
+Malta,Academic Reputation Score,4.86,1,0.0,4.863
+Malta,Faculty Student Ratio,5.39,2,5.122,1.664
+Malta,Global Ranking Score,0.0,3,0.0,-0.0
+Malta,Research Impact Score,40.4,4,-23.747,-32.684
+Malta,Research Productivity Index,25.77,5,-24.512,7.964
+Malta,Academic Reputation Score,4.86,6,0.0,4.863
+Mexico,Academic Reputation Score,12.51,1,0.0,12.506
+Mexico,Faculty Student Ratio,6.72,2,6.395,2.078
+Mexico,Global Ranking Score,42.87,3,25.196,-34.679
+Mexico,Research Impact Score,8.54,4,-5.017,-6.906
+Mexico,Research Productivity Index,6.91,5,-6.567,2.134
+Mexico,Academic Reputation Score,12.51,6,0.0,12.506
+Morocco,Academic Reputation Score,2.43,1,0.0,2.432
+Morocco,Faculty Student Ratio,15.17,2,14.426,4.687
+Morocco,Global Ranking Score,0.0,3,0.0,-0.0
+Morocco,Research Impact Score,24.49,4,-14.396,-19.814
+Morocco,Research Productivity Index,16.34,5,-15.539,5.049
+Morocco,Academic Reputation Score,2.43,6,0.0,2.432
+Netherlands,Academic Reputation Score,43.81,1,0.0,43.808
+Netherlands,Faculty Student Ratio,7.43,2,7.066,2.296
+Netherlands,Global Ranking Score,49.84,3,29.293,-40.318
+Netherlands,Research Impact Score,75.79,4,-44.549,-61.316
+Netherlands,Research Productivity Index,55.23,5,-52.527,17.067
+Netherlands,Academic Reputation Score,43.81,6,0.0,43.808
+New Zealand,Academic Reputation Score,34.32,1,0.0,34.321
+New Zealand,Faculty Student Ratio,5.59,2,5.314,1.726
+New Zealand,Global Ranking Score,31.77,3,18.673,-25.701
+New Zealand,Research Impact Score,59.68,4,-35.08,-48.284
+New Zealand,Research Productivity Index,40.03,5,-38.072,12.37
+New Zealand,Academic Reputation Score,34.32,6,0.0,34.321
+Nigeria,Academic Reputation Score,7.95,1,0.0,7.953
+Nigeria,Faculty Student Ratio,6.16,2,5.855,1.902
+Nigeria,Global Ranking Score,0.0,3,0.0,-0.0
+Nigeria,Research Impact Score,10.3,4,-6.056,-8.335
+Nigeria,Research Productivity Index,6.7,5,-6.37,2.07
+Nigeria,Academic Reputation Score,7.95,6,0.0,7.953
+Northern Cyprus,Academic Reputation Score,4.36,1,0.0,4.357
+Northern Cyprus,Faculty Student Ratio,5.61,2,5.338,1.734
+Northern Cyprus,Global Ranking Score,0.0,3,0.0,-0.0
+Northern Cyprus,Research Impact Score,33.46,4,-19.665,-27.066
+Northern Cyprus,Research Productivity Index,20.44,5,-19.443,6.317
+Northern Cyprus,Academic Reputation Score,4.36,6,0.0,4.357
+Norway,Academic Reputation Score,23.05,1,0.0,23.05
+Norway,Faculty Student Ratio,9.16,2,8.716,2.832
+Norway,Global Ranking Score,38.59,3,22.68,-31.217
+Norway,Research Impact Score,57.3,4,-33.68,-46.357
+Norway,Research Productivity Index,38.25,5,-36.381,11.821
+Norway,Academic Reputation Score,23.05,6,0.0,23.05
+Oman,Academic Reputation Score,10.33,1,0.0,10.334
+Oman,Faculty Student Ratio,6.19,2,5.883,1.912
+Oman,Global Ranking Score,13.76,3,8.089,-11.134
+Oman,Research Impact Score,13.65,4,-8.021,-11.039
+Oman,Research Productivity Index,8.7,5,-8.273,2.688
+Oman,Academic Reputation Score,10.33,6,0.0,10.334
+Pakistan,Academic Reputation Score,9.87,1,0.0,9.871
+Pakistan,Faculty Student Ratio,6.52,2,6.199,2.014
+Pakistan,Global Ranking Score,9.03,3,5.306,-7.304
+Pakistan,Research Impact Score,28.44,4,-16.714,-23.004
+Pakistan,Research Productivity Index,16.94,5,-16.112,5.235
+Pakistan,Academic Reputation Score,9.87,6,0.0,9.871
+Palestine,Academic Reputation Score,5.81,1,0.0,5.809
+Palestine,Faculty Student Ratio,6.32,2,6.009,1.952
+Palestine,Global Ranking Score,0.0,3,0.0,-0.0
+Palestine,Research Impact Score,4.81,4,-2.829,-3.894
+Palestine,Research Productivity Index,2.74,5,-2.609,0.848
+Palestine,Academic Reputation Score,5.81,6,0.0,5.809
+Paraguay,Academic Reputation Score,4.86,1,0.0,4.863
+Paraguay,Faculty Student Ratio,3.8,2,3.613,1.174
+Paraguay,Global Ranking Score,0.0,3,0.0,-0.0
+Paraguay,Research Impact Score,0.27,4,-0.162,-0.222
+Paraguay,Research Productivity Index,0.14,5,-0.131,0.043
+Paraguay,Academic Reputation Score,4.86,6,0.0,4.863
+Peru,Academic Reputation Score,12.3,1,0.0,12.3
+Peru,Faculty Student Ratio,5.53,2,5.255,1.707
+Peru,Global Ranking Score,14.02,3,8.238,-11.338
+Peru,Research Impact Score,8.6,4,-5.057,-6.961
+Peru,Research Productivity Index,5.55,5,-5.277,1.715
+Peru,Academic Reputation Score,12.3,6,0.0,12.3
+Philippines,Academic Reputation Score,19.01,1,0.0,19.007
+Philippines,Faculty Student Ratio,6.81,2,6.481,2.106
+Philippines,Global Ranking Score,9.66,3,5.677,-7.814
+Philippines,Research Impact Score,11.81,4,-6.945,-9.558
+Philippines,Research Productivity Index,7.31,5,-6.955,2.26
+Philippines,Academic Reputation Score,19.01,6,0.0,19.007
+Poland,Academic Reputation Score,11.36,1,0.0,11.361
+Poland,Faculty Student Ratio,5.63,2,5.359,1.741
+Poland,Global Ranking Score,14.98,3,8.807,-12.122
+Poland,Research Impact Score,25.61,4,-15.05,-20.715
+Poland,Research Productivity Index,18.45,5,-17.549,5.702
+Poland,Academic Reputation Score,11.36,6,0.0,11.361
+Portugal,Academic Reputation Score,23.1,1,0.0,23.1
+Portugal,Faculty Student Ratio,4.81,2,4.573,1.486
+Portugal,Global Ranking Score,17.15,3,10.078,-13.872
+Portugal,Research Impact Score,44.44,4,-26.121,-35.952
+Portugal,Research Productivity Index,30.98,5,-29.465,9.574
+Portugal,Academic Reputation Score,23.1,6,0.0,23.1
+Puerto Rico,Academic Reputation Score,9.02,1,0.0,9.017
+Puerto Rico,Faculty Student Ratio,4.57,2,4.351,1.414
+Puerto Rico,Global Ranking Score,0.0,3,0.0,-0.0
+Puerto Rico,Research Impact Score,27.93,4,-16.419,-22.599
+Puerto Rico,Research Productivity Index,17.68,5,-16.813,5.463
+Puerto Rico,Academic Reputation Score,9.02,6,0.0,9.017
+Qatar,Academic Reputation Score,20.31,1,0.0,20.314
+Qatar,Faculty Student Ratio,13.81,2,13.138,4.269
+Qatar,Global Ranking Score,39.39,3,23.155,-31.87
+Qatar,Research Impact Score,77.8,4,-45.73,-62.942
+Qatar,Research Productivity Index,48.36,5,-45.99,14.943
+Qatar,Academic Reputation Score,20.31,6,0.0,20.314
+Romania,Academic Reputation Score,5.74,1,0.0,5.736
+Romania,Faculty Student Ratio,4.6,2,4.373,1.421
+Romania,Global Ranking Score,0.0,3,0.0,-0.0
+Romania,Research Impact Score,23.63,4,-13.89,-19.118
+Romania,Research Productivity Index,15.94,5,-15.156,4.924
+Romania,Academic Reputation Score,5.74,6,0.0,5.736
+Russia,Academic Reputation Score,10.72,1,0.0,10.722
+Russia,Faculty Student Ratio,7.85,2,7.461,2.424
+Russia,Global Ranking Score,13.57,3,7.978,-10.981
+Russia,Research Impact Score,11.99,4,-7.046,-9.698
+Russia,Research Productivity Index,10.22,5,-9.715,3.157
+Russia,Academic Reputation Score,10.72,6,0.0,10.722
+Saudi Arabia,Academic Reputation Score,15.18,1,0.0,15.177
+Saudi Arabia,Faculty Student Ratio,5.53,2,5.259,1.709
+Saudi Arabia,Global Ranking Score,21.63,3,12.716,-17.501
+Saudi Arabia,Research Impact Score,39.51,4,-23.223,-31.964
+Saudi Arabia,Research Productivity Index,23.92,5,-22.749,7.391
+Saudi Arabia,Academic Reputation Score,15.18,6,0.0,15.177
+Serbia,Academic Reputation Score,7.52,1,0.0,7.523
+Serbia,Faculty Student Ratio,3.86,2,3.667,1.192
+Serbia,Global Ranking Score,0.0,3,0.0,-0.0
+Serbia,Research Impact Score,30.97,4,-18.204,-25.055
+Serbia,Research Productivity Index,20.65,5,-19.637,6.38
+Serbia,Academic Reputation Score,7.52,6,0.0,7.523
+Singapore,Academic Reputation Score,52.15,1,0.0,52.153
+Singapore,Faculty Student Ratio,13.23,2,12.579,4.087
+Singapore,Global Ranking Score,60.25,3,35.411,-48.739
+Singapore,Research Impact Score,78.2,4,-45.965,-63.265
+Singapore,Research Productivity Index,57.36,5,-54.551,17.725
+Singapore,Academic Reputation Score,52.15,6,0.0,52.153
+Slovakia,Academic Reputation Score,6.99,1,0.0,6.991
+Slovakia,Faculty Student Ratio,5.91,2,5.62,1.826
+Slovakia,Global Ranking Score,0.0,3,0.0,-0.0
+Slovakia,Research Impact Score,16.53,4,-9.717,-13.375
+Slovakia,Research Productivity Index,12.79,5,-12.166,3.953
+Slovakia,Academic Reputation Score,6.99,6,0.0,6.991
+Slovenia,Academic Reputation Score,9.35,1,0.0,9.355
+Slovenia,Faculty Student Ratio,4.43,2,4.214,1.369
+Slovenia,Global Ranking Score,0.0,3,0.0,-0.0
+Slovenia,Research Impact Score,20.95,4,-12.311,-16.945
+Slovenia,Research Productivity Index,15.21,5,-14.463,4.699
+Slovenia,Academic Reputation Score,9.35,6,0.0,9.355
+Somalia,Academic Reputation Score,0.0,1,0.0,0.0
+Somalia,Faculty Student Ratio,6.98,2,6.64,2.158
+Somalia,Global Ranking Score,0.0,3,0.0,-0.0
+Somalia,Research Impact Score,0.0,4,-0.0,-0.0
+Somalia,Research Productivity Index,0.0,5,-0.0,0.0
+Somalia,Academic Reputation Score,0.0,6,0.0,0.0
+South Africa,Academic Reputation Score,16.28,1,0.0,16.275
+South Africa,Faculty Student Ratio,8.59,2,8.169,2.654
+South Africa,Global Ranking Score,23.27,3,13.677,-18.825
+South Africa,Research Impact Score,39.47,4,-23.201,-31.933
+South Africa,Research Productivity Index,27.37,5,-26.033,8.459
+South Africa,Academic Reputation Score,16.28,6,0.0,16.275
+South Korea,Academic Reputation Score,18.1,1,0.0,18.1
+South Korea,Faculty Student Ratio,9.89,2,9.405,3.056
+South Korea,Global Ranking Score,38.5,3,22.63,-31.147
+South Korea,Research Impact Score,36.49,4,-21.45,-29.524
+South Korea,Research Productivity Index,27.48,5,-26.134,8.491
+South Korea,Academic Reputation Score,18.1,6,0.0,18.1
+Spain,Academic Reputation Score,22.4,1,0.0,22.403
+Spain,Faculty Student Ratio,5.68,2,5.405,1.756
+Spain,Global Ranking Score,21.76,3,12.789,-17.602
+Spain,Research Impact Score,41.49,4,-24.39,-33.57
+Spain,Research Productivity Index,27.96,5,-26.592,8.64
+Spain,Academic Reputation Score,22.4,6,0.0,22.403
+Sri Lanka,Academic Reputation Score,8.17,1,0.0,8.173
+Sri Lanka,Faculty Student Ratio,6.31,2,6.001,1.95
+Sri Lanka,Global Ranking Score,0.0,3,0.0,-0.0
+Sri Lanka,Research Impact Score,23.25,4,-13.664,-18.807
+Sri Lanka,Research Productivity Index,13.52,5,-12.856,4.177
+Sri Lanka,Academic Reputation Score,8.17,6,0.0,8.173
+Sudan,Academic Reputation Score,4.86,1,0.0,4.863
+Sudan,Faculty Student Ratio,3.32,2,3.161,1.027
+Sudan,Global Ranking Score,0.0,3,0.0,-0.0
+Sudan,Research Impact Score,0.87,4,-0.509,-0.701
+Sudan,Research Productivity Index,0.43,5,-0.414,0.134
+Sudan,Academic Reputation Score,4.86,6,0.0,4.863
+Sweden,Academic Reputation Score,40.16,1,0.0,40.16
+Sweden,Faculty Student Ratio,6.63,2,6.305,2.049
+Sweden,Global Ranking Score,47.06,3,27.663,-38.075
+Sweden,Research Impact Score,71.32,4,-41.923,-57.701
+Sweden,Research Productivity Index,51.37,5,-48.857,15.875
+Sweden,Academic Reputation Score,40.16,6,0.0,40.16
+Switzerland,Academic Reputation Score,38.69,1,0.0,38.693
+Switzerland,Faculty Student Ratio,7.25,2,6.895,2.24
+Switzerland,Global Ranking Score,54.16,3,31.832,-43.812
+Switzerland,Research Impact Score,67.39,4,-39.611,-54.519
+Switzerland,Research Productivity Index,47.49,5,-45.162,14.674
+Switzerland,Academic Reputation Score,38.69,6,0.0,38.693
+Taiwan,Academic Reputation Score,18.09,1,0.0,18.091
+Taiwan,Faculty Student Ratio,6.23,2,5.927,1.926
+Taiwan,Global Ranking Score,26.07,3,15.321,-21.088
+Taiwan,Research Impact Score,26.14,4,-15.363,-21.146
+Taiwan,Research Productivity Index,21.36,5,-20.318,6.602
+Taiwan,Academic Reputation Score,18.09,6,0.0,18.091
+Tanzania,Academic Reputation Score,0.0,1,0.0,0.0
+Tanzania,Faculty Student Ratio,5.26,2,4.998,1.624
+Tanzania,Global Ranking Score,0.0,3,0.0,-0.0
+Tanzania,Research Impact Score,50.02,4,-29.404,-40.471
+Tanzania,Research Productivity Index,30.61,5,-29.109,9.458
+Tanzania,Academic Reputation Score,0.0,6,0.0,0.0
+Thailand,Academic Reputation Score,20.89,1,0.0,20.895
+Thailand,Faculty Student Ratio,5.62,2,5.345,1.737
+Thailand,Global Ranking Score,10.83,3,6.364,-8.759
+Thailand,Research Impact Score,15.72,4,-9.243,-12.721
+Thailand,Research Productivity Index,11.83,5,-11.254,3.657
+Thailand,Academic Reputation Score,20.89,6,0.0,20.895
+Tunisia,Academic Reputation Score,5.8,1,0.0,5.8
+Tunisia,Faculty Student Ratio,5.01,2,4.762,1.547
+Tunisia,Global Ranking Score,0.0,3,0.0,-0.0
+Tunisia,Research Impact Score,20.18,4,-11.861,-16.325
+Tunisia,Research Productivity Index,13.83,5,-13.151,4.273
+Tunisia,Academic Reputation Score,5.8,6,0.0,5.8
+Turkey,Academic Reputation Score,12.21,1,0.0,12.211
+Turkey,Faculty Student Ratio,6.48,2,6.16,2.001
+Turkey,Global Ranking Score,11.2,3,6.58,-9.057
+Turkey,Research Impact Score,22.92,4,-13.473,-18.544
+Turkey,Research Productivity Index,16.4,5,-15.595,5.067
+Turkey,Academic Reputation Score,12.21,6,0.0,12.211
+Turkmenistan,Academic Reputation Score,0.0,1,0.0,0.0
+Turkmenistan,Faculty Student Ratio,3.75,2,3.564,1.158
+Turkmenistan,Global Ranking Score,0.0,3,0.0,-0.0
+Turkmenistan,Research Impact Score,0.0,4,-0.0,-0.0
+Turkmenistan,Research Productivity Index,0.0,5,-0.0,0.0
+Turkmenistan,Academic Reputation Score,0.0,6,0.0,0.0
+Uganda,Academic Reputation Score,9.83,1,0.0,9.828
+Uganda,Faculty Student Ratio,3.81,2,3.621,1.177
+Uganda,Global Ranking Score,0.0,3,0.0,-0.0
+Uganda,Research Impact Score,15.72,4,-9.24,-12.718
+Uganda,Research Productivity Index,13.21,5,-12.56,4.081
+Uganda,Academic Reputation Score,9.83,6,0.0,9.828
+Ukraine,Academic Reputation Score,7.23,1,0.0,7.23
+Ukraine,Faculty Student Ratio,4.47,2,4.247,1.38
+Ukraine,Global Ranking Score,0.0,3,0.0,-0.0
+Ukraine,Research Impact Score,7.83,4,-4.604,-6.337
+Ukraine,Research Productivity Index,5.5,5,-5.234,1.701
+Ukraine,Academic Reputation Score,7.23,6,0.0,7.23
+United Arab Emirates,Academic Reputation Score,16.02,1,0.0,16.025
+United Arab Emirates,Faculty Student Ratio,5.66,2,5.387,1.75
+United Arab Emirates,Global Ranking Score,11.14,3,6.547,-9.012
+United Arab Emirates,Research Impact Score,30.59,4,-17.979,-24.746
+United Arab Emirates,Research Productivity Index,19.18,5,-18.238,5.926
+United Arab Emirates,Academic Reputation Score,16.02,6,0.0,16.025
+United Kingdom,Academic Reputation Score,26.78,1,0.0,26.784
+United Kingdom,Faculty Student Ratio,5.36,2,5.097,1.656
+United Kingdom,Global Ranking Score,46.65,3,27.422,-37.743
+United Kingdom,Research Impact Score,41.85,4,-24.601,-33.861
+United Kingdom,Research Productivity Index,28.12,5,-26.742,8.689
+United Kingdom,Academic Reputation Score,26.78,6,0.0,26.784
+United States,Academic Reputation Score,23.87,1,0.0,23.868
+United States,Faculty Student Ratio,6.04,2,5.742,1.866
+United States,Global Ranking Score,53.04,3,31.176,-42.911
+United States,Research Impact Score,55.85,4,-32.829,-45.185
+United States,Research Productivity Index,39.75,5,-37.804,12.283
+United States,Academic Reputation Score,23.87,6,0.0,23.868
+Uruguay,Academic Reputation Score,16.26,1,0.0,16.261
+Uruguay,Faculty Student Ratio,12.46,2,11.848,3.85
+Uruguay,Global Ranking Score,0.0,3,0.0,-0.0
+Uruguay,Research Impact Score,0.83,4,-0.49,-0.674
+Uruguay,Research Productivity Index,0.42,5,-0.398,0.129
+Uruguay,Academic Reputation Score,16.26,6,0.0,16.261
+Uzbekistan,Academic Reputation Score,27.1,1,0.0,27.102
+Uzbekistan,Faculty Student Ratio,5.77,2,5.491,1.784
+Uzbekistan,Global Ranking Score,2.27,3,1.336,-1.839
+Uzbekistan,Research Impact Score,0.04,4,-0.026,-0.036
+Uzbekistan,Research Productivity Index,0.02,5,-0.021,0.007
+Uzbekistan,Academic Reputation Score,27.1,6,0.0,27.102
+Venezuela,Academic Reputation Score,13.17,1,0.0,13.171
+Venezuela,Faculty Student Ratio,3.95,2,3.758,1.221
+Venezuela,Global Ranking Score,0.0,3,0.0,-0.0
+Venezuela,Research Impact Score,1.99,4,-1.167,-1.606
+Venezuela,Research Productivity Index,1.58,5,-1.507,0.49
+Venezuela,Academic Reputation Score,13.17,6,0.0,13.171
+Vietnam,Academic Reputation Score,9.3,1,0.0,9.304
+Vietnam,Faculty Student Ratio,5.54,2,5.269,1.712
+Vietnam,Global Ranking Score,4.55,3,2.672,-3.677
+Vietnam,Research Impact Score,33.76,4,-19.841,-27.309
+Vietnam,Research Productivity Index,20.55,5,-19.547,6.351
+Vietnam,Academic Reputation Score,9.3,6,0.0,9.304
+Yemen,Academic Reputation Score,0.0,1,0.0,0.0
+Yemen,Faculty Student Ratio,7.8,2,7.419,2.41
+Yemen,Global Ranking Score,0.0,3,0.0,-0.0
+Yemen,Research Impact Score,0.0,4,-0.0,-0.0
+Yemen,Research Productivity Index,0.0,5,-0.0,0.0
+Yemen,Academic Reputation Score,0.0,6,0.0,0.0
+Zambia,Academic Reputation Score,0.0,1,0.0,0.0
+Zambia,Faculty Student Ratio,10.79,2,10.26,3.334
+Zambia,Global Ranking Score,0.0,3,0.0,-0.0
+Zambia,Research Impact Score,35.65,4,-20.955,-28.841
+Zambia,Research Productivity Index,20.27,5,-19.279,6.264
+Zambia,Academic Reputation Score,0.0,6,0.0,0.0
+Zimbabwe,Academic Reputation Score,0.0,1,0.0,0.0
+Zimbabwe,Faculty Student Ratio,9.21,2,8.758,2.846
+Zimbabwe,Global Ranking Score,0.0,3,0.0,-0.0
+Zimbabwe,Research Impact Score,24.3,4,-14.283,-19.659
+Zimbabwe,Research Productivity Index,18.21,5,-17.322,5.628
+Zimbabwe,Academic Reputation Score,0.0,6,0.0,0.0

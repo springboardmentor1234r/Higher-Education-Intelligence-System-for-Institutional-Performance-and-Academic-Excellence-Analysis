@@ -1,0 +1,134 @@
+﻿Country,Region,Year,Number of Universities,Avg Academic Reputation Score,Avg Faculty Student Ratio,Avg Global Ranking Score,Avg Research Impact Score,Avg Research Productivity Index
+Albania,Europe,2024,1,,16.2,,0.0,0.0
+Algeria,Africa,2024,110,,20.38,,0.07,0.05
+Angola,Africa,2024,1,,12.2,,0.0,0.0
+Argentina,South America,2024,37,14.74,31.59,34.75,0.05,0.03
+Armenia,Asia,2024,6,7.0,15.5,,0.05,0.03
+Australia,Oceania,2024,100,31.48,23.55,55.51,0.73,0.49
+Austria,Europe,2024,33,23.49,22.46,47.47,0.5,0.35
+Azerbaijan,Asia,2024,15,11.07,16.26,,0.02,0.02
+Bahrain,Asia,2024,4,16.63,21.22,22.8,0.02,0.01
+Bangladesh,Asia,2024,51,10.25,15.54,22.4,0.17,0.1
+Belarus,Europe,2024,10,16.6,22.59,30.3,0.02,0.02
+Belgium,Europe,2024,28,32.98,33.41,52.11,0.63,0.46
+Bolivia,South America,2024,4,5.1,49.22,,0.01,0.0
+Bosnia and Herzegovina,Europe,2024,3,4.4,9.7,,0.07,0.05
+Botswana,Africa,2024,4,,14.9,,0.31,0.2
+Brazil,South America,2024,175,16.33,17.86,41.2,0.17,0.14
+Brunei,Asia,2024,5,17.8,42.04,26.3,0.36,0.23
+Bulgaria,Europe,2024,9,14.2,17.27,,0.11,0.09
+Cambodia,Asia,2024,2,,5.5,,0.0,0.0
+Canada,North America,2024,80,28.23,21.94,55.67,0.56,0.4
+Chile,South America,2024,83,18.02,15.76,40.67,0.23,0.16
+China,Asia,2024,239,17.32,18.35,48.18,0.61,0.4
+Colombia,South America,2024,87,16.24,19.32,41.23,0.12,0.08
+Costa Rica,North America,2024,9,15.38,18.31,24.2,0.15,0.09
+Croatia,Europe,2024,10,8.25,16.58,,0.23,0.16
+Cuba,North America,2024,6,8.9,39.83,,0.04,0.04
+Cyprus,Europe,2024,6,10.0,14.87,30.1,0.57,0.36
+Czech Republic,Europe,2024,55,11.41,21.19,30.08,0.21,0.16
+Denmark,Europe,2024,19,40.4,24.43,56.14,0.73,0.52
+Dominican Republic,North America,2024,3,2.9,54.8,,0.01,0.0
+Ecuador,South America,2024,41,9.19,17.16,,0.08,0.06
+Egypt,Africa,2024,93,14.41,21.3,27.5,0.35,0.21
+Estonia,Europe,2024,7,14.9,24.71,32.0,0.35,0.24
+Ethiopia,Africa,2024,6,6.4,21.0,,0.4,0.23
+Fiji,Oceania,2024,2,,36.75,,0.49,0.33
+Finland,Europe,2024,28,24.06,26.27,41.31,0.64,0.44
+France,Europe,2024,128,23.5,23.76,51.05,0.39,0.29
+Georgia,Asia,2024,11,8.75,18.51,,0.17,0.11
+Germany,Europe,2024,145,29.16,35.31,52.24,0.57,0.43
+Ghana,Africa,2024,15,9.2,35.21,,0.18,0.13
+Greece,Europe,2024,43,16.66,31.27,29.33,0.44,0.28
+Guatemala,North America,2024,1,10.2,4.7,,0.01,0.0
+Honduras,North America,2024,1,5.1,3.3,,0.01,0.0
+Hong Kong,Asia,2024,14,60.31,39.56,72.3,0.82,0.54
+Hungary,Europe,2024,34,11.95,18.34,21.8,0.2,0.14
+Iceland,Europe,2024,5,6.8,36.38,22.6,0.64,0.43
+India,Asia,2024,261,15.12,16.18,35.8,0.35,0.22
+Indonesia,Asia,2024,82,16.75,21.42,33.23,0.12,0.09
+Iran,Asia,2024,147,8.63,21.63,28.02,0.54,0.34
+Iraq,Asia,2024,112,6.1,19.53,,0.06,0.04
+Ireland,Europe,2024,23,29.82,23.49,44.9,0.55,0.38
+Israel,Asia,2024,22,20.65,22.26,34.3,0.54,0.38
+Italy,Europe,2024,150,21.45,21.68,38.97,0.63,0.41
+Jamaica,North America,2024,2,,16.65,,0.71,0.41
+Japan,Asia,2024,368,22.39,18.0,56.3,0.19,0.15
+Jordan,Asia,2024,43,12.95,19.01,26.9,0.15,0.09
+Kazakhstan,Asia,2024,56,15.65,27.43,38.17,0.04,0.03
+Kenya,Africa,2024,8,8.5,33.11,,0.17,0.1
+Kosovo,Europe,2024,3,,19.83,,0.05,0.04
+Kuwait,Asia,2024,8,17.47,33.67,,0.08,0.05
+Kyrgyzstan,Asia,2024,5,13.0,30.4,,0.01,0.0
+Latvia,Europe,2024,11,9.7,23.41,,0.24,0.19
+Lebanon,Asia,2024,19,17.28,20.11,31.25,0.28,0.18
+Libya,Africa,2024,4,,15.65,,0.0,0.0
+Lithuania,Europe,2024,15,11.12,20.77,27.1,0.27,0.19
+Luxembourg,Europe,2024,4,9.2,113.68,32.1,0.42,0.31
+Macao,Asia,2024,5,8.15,17.38,42.0,0.65,0.4
+Malawi,Africa,2024,2,,12.35,,0.0,0.0
+Malaysia,Asia,2024,74,23.06,22.41,39.05,0.3,0.21
+Malta,Europe,2024,3,6.1,18.23,,0.4,0.26
+Mauritius,Africa,2024,2,,22.15,,0.47,0.29
+Mexico,North America,2024,84,13.64,22.69,54.75,0.09,0.07
+Moldova,Europe,2024,2,,18.45,,0.0,0.0
+Mongolia,Asia,2024,1,,26.5,,0.0,0.0
+Montenegro,Europe,2024,2,,22.3,,0.19,0.16
+Morocco,Africa,2024,25,3.7,50.81,,0.24,0.16
+Mozambique,Africa,2024,2,,27.4,,0.73,0.41
+Namibia,Africa,2024,2,,21.7,,0.71,0.4
+Nepal,Asia,2024,2,,30.9,,0.6,0.34
+Netherlands,Europe,2024,33,44.54,25.04,60.27,0.76,0.55
+New Zealand,Oceania,2024,22,35.17,18.9,45.96,0.6,0.4
+Nigeria,Africa,2024,97,9.15,20.8,,0.1,0.07
+North Macedonia,Europe,2024,1,,13.5,,0.26,0.18
+Northern Cyprus,Europe,2024,9,5.6,18.99,,0.33,0.2
+Norway,Europe,2024,18,24.05,30.82,51.36,0.57,0.38
+Oman,Asia,2024,11,11.5,20.9,31.7,0.14,0.09
+Pakistan,Asia,2024,157,11.04,22.01,27.95,0.28,0.17
+Palestine,Asia,2024,15,7.03,21.34,,0.05,0.03
+Panama,North America,2024,2,7.2,15.05,,0.01,0.01
+Paraguay,South America,2024,4,6.1,12.95,,0.0,0.0
+Peru,South America,2024,26,13.44,18.7,31.9,0.09,0.06
+Philippines,Asia,2024,27,20.06,22.99,28.45,0.12,0.07
+Poland,Europe,2024,95,12.51,19.06,32.67,0.26,0.18
+Portugal,Europe,2024,41,24.1,16.31,34.38,0.44,0.31
+Puerto Rico,North America,2024,3,10.2,15.53,,0.28,0.18
+Qatar,Asia,2024,4,21.35,46.3,52.0,0.78,0.48
+Romania,Europe,2024,60,6.96,15.61,,0.24,0.16
+Russia,Europe,2024,155,11.88,26.42,31.55,0.12,0.1
+Rwanda,Africa,2024,1,,31.7,,0.0,0.0
+Saudi Arabia,Asia,2024,73,16.28,18.71,37.93,0.4,0.24
+Senegal,Africa,2024,1,,17.4,,0.0,0.0
+Serbia,Europe,2024,10,8.73,13.14,,0.31,0.21
+Singapore,Asia,2024,7,52.78,44.34,68.51,0.78,0.57
+Slovakia,Europe,2024,22,8.2,19.98,,0.17,0.13
+Slovenia,Europe,2024,11,10.53,15.05,20.8,0.21,0.15
+Somalia,Africa,2024,4,,23.55,,0.0,0.0
+South Africa,Africa,2024,35,17.36,28.9,39.23,0.39,0.27
+South Korea,Asia,2024,103,19.17,33.23,51.29,0.36,0.27
+Spain,Europe,2024,152,23.41,19.23,38.03,0.41,0.28
+Sri Lanka,Asia,2024,15,9.37,21.31,,0.23,0.13
+Sudan,Africa,2024,3,6.1,11.37,,0.01,0.0
+Sweden,Europe,2024,35,40.94,22.38,58.07,0.71,0.51
+Switzerland,Europe,2024,38,39.49,24.44,63.69,0.67,0.47
+Syria,Asia,2024,1,6.1,1.4,,0.01,0.01
+Taiwan,Asia,2024,114,19.16,21.05,41.44,0.26,0.21
+Tanzania,Africa,2024,4,,17.8,,0.5,0.31
+Thailand,Asia,2024,65,21.92,19.01,29.38,0.16,0.12
+Tunisia,Africa,2024,24,7.02,16.97,,0.2,0.14
+Turkey,Europe,2024,197,13.35,21.87,29.67,0.23,0.16
+Turkmenistan,Asia,2024,15,,12.78,,0.0,0.0
+Turks and Caicos Islands,North America,2024,1,,4.2,,0.0,0.0
+Uganda,Africa,2024,5,11.0,12.98,,0.16,0.13
+Ukraine,Europe,2024,81,8.44,15.17,,0.08,0.05
+United Arab Emirates,Asia,2024,33,17.12,19.16,29.62,0.31,0.19
+United Kingdom,Europe,2024,402,27.74,18.15,57.75,0.42,0.28
+United States,North America,2024,545,24.86,20.41,62.81,0.56,0.4
+Uruguay,South America,2024,6,17.35,41.78,,0.01,0.0
+Uzbekistan,Asia,2024,79,28.05,19.53,22.6,0.0,0.0
+Venezuela,South America,2024,14,14.3,13.46,,0.02,0.02
+Vietnam,Asia,2024,18,10.48,18.75,24.4,0.34,0.2
+Yemen,Asia,2024,4,,26.28,,0.0,0.0
+Zambia,Africa,2024,4,,36.22,,0.36,0.2
+Zimbabwe,Africa,2024,3,,30.97,,0.24,0.18

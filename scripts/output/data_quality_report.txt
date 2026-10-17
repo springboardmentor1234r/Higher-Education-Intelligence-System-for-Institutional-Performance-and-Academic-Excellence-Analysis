@@ -1,0 +1,34 @@
+Loaded 6488 rows x 8 columns from eduvision_final_dataset.xlsx
+Column mapping (your file -> dashboard name):
+  University Id                <- university_id
+  University Name              <- university_name
+  Country                      <- country
+  Region                       NOT FOUND
+  Year                         NOT FOUND
+  Academic Reputation Score    <- academic_reputation_kpi
+  Faculty Student Ratio        <- faculty_student_ratio
+  Global Ranking Score         <- global_ranking_score
+  Research Impact Score        <- research_impact_score
+  Research Productivity Index  <- research_productivity_index
+  International Student %      NOT FOUND
+  International Students       NOT FOUND
+  Total Students               NOT FOUND
+No Year column found - set Year = 2024. Trend charts need 2+ years of data.
+Removed 265 duplicate/blank rows. 6223 remain.
+WARNING: 'Total Students' is missing. Student Analytics needs it - use --extra to merge it.
+WARNING: 'International Students' is missing. Student Analytics needs it - use --extra to merge it.
+WARNING: 'International Student %' is missing. Student Analytics needs it - use --extra to merge it.
+
+=== DATA QUALITY ===
+  University Name                missing   0.0%   OK
+  Country                        missing   0.0%   OK
+  Region                         missing   0.0%   OK
+  Year                           missing   0.0%   OK
+  Academic Reputation Score      missing  75.8%   FAIL (target < 2%)
+  Faculty Student Ratio          missing   0.0%   OK
+  Global Ranking Score           missing  84.7%   FAIL (target < 2%)
+  Research Impact Score          missing   0.0%   OK
+  Research Productivity Index    missing   0.0%   OK
+Overall completeness: 82.2%  (target > 95%)  FAIL
+Names still garbled: 0
+Countries: 133 | Regions: 6 | Years: [2024]
