@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduVision — Higher Education Intelligence System</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --bg-dark: #0f172a;
+            --bg-card: rgba(30, 41, 59, 0.7);
+            --bg-card-border: rgba(255, 255, 255, 0.1);
+            --accent-blue: #38bdf8;
+            --accent-indigo: #6366f1;
+            --accent-purple: #a855f7;
+            --accent-emerald: #34d399;
+            --accent-rose: #fb7185;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --text-dim: #64748b;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+        }
+
+        /* Navbar */
+        header {
+            background: rgba(15, 23, 42, 0.9);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--bg-card-border);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 0.85rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .brand-icon {
+            width: 38px;
+            height: 38px;
+            background: linear-gradient(135deg, var(--accent-indigo), var(--accent-purple));
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 1.2rem;
+            color: white;
+            box-shadow: 0 4px 14px rgba(99, 102, 241, 0.4);
+        }
+
+        .brand-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            background: linear-gradient(to right, #f8fafc, #cbd5e1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        nav.nav-tabs {
+            display: flex;
+            gap: 0.5rem;
+            background: rgba(30, 41, 59, 0.5);
+            padding: 0.35rem;
+            border-radius: 12px;
+            border: 1px solid var(--bg-card-border);
+        }
+
+        .tab-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            padding: 0.6rem 1.1rem;
+            font-size: 0.9rem;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .tab-btn:hover {
+            color: var(--text-main);
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .tab-btn.active {
+            background: linear-gradient(135deg, var(--accent-indigo), #4f46e5);
+            color: white;
+            box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+        }
+
+        /* Filter Controls Bar */
+        .filter-bar {
+            background: rgba(30, 41, 59, 0.4);
+            border-bottom: 1px solid var(--bg-card-border);
+            padding: 0.85rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-group {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .filter-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+        }
+
+        select.filter-select {
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid var(--bg-card-border);
+            color: var(--text-main);
+            padding: 0.45rem 0.85rem;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            outline: none;
+            cursor: pointer;
+            min-width: 160px;
+            transition: border-color 0.2s;
+        }
+
+        select.filter-select:focus {
+            border-color: var(--accent-indigo);
+        }
+
+        .context-badge {
+            background: rgba(56, 189, 248, 0.1);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            color: var(--accent-blue);
+            padding: 0.4rem 0.85rem;
+            border-radius: 20px;
+            font-size: 0.825rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .btn-clear {
+            background: transparent;
+            border: none;
+            color: var(--accent-rose);
+            cursor: pointer;
+            font-size: 0.8rem;
+            text-decoration: underline;
+            margin-left: 0.5rem;
+        }
+
+        /* Main Container */
+        main.content {
+            padding: 2rem;
+            flex: 1;
+            max-width: 1600px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .dashboard-view {
+            display: none;
+            flex-direction: column;
+            gap: 1.5rem;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+        .dashboard-view.active {
+            display: flex;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(6px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* KPI Cards Grid */
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.25rem;
+        }
+
+        .kpi-card {
+            background: var(--bg-card);
+            border: 1px solid var(--bg-card-border);
+            border-radius: 14px;
+            padding: 1.25rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            backdrop-filter: blur(10px);
+            transition: transform 0.2s, border-color 0.2s;
+        }
+
+        .kpi-card:hover {
+            transform: translateY(-2px);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .kpi-title {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+
+        .kpi-value {
+            font-size: 1.85rem;
+            font-weight: 800;
+            margin: 0.4rem 0;
+            color: var(--text-main);
+        }
+
+        .kpi-subtitle {
+            font-size: 0.75rem;
+            color: var(--accent-emerald);
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+        }
+
+        /* Grid Layouts for Charts */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        .grid-3-1 {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 1.5rem;
+        }
+
+        @media (max-width: 1024px) {
+            .grid-2, .grid-3-1 {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .chart-card {
+            background: var(--bg-card);
+            border: 1px solid var(--bg-card-border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            backdrop-filter: blur(10px);
+        }
+
+        .chart-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .chart-title {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--text-main);
+        }
+
+        .chart-container {
+            position: relative;
+            width: 100%;
+            min-height: 320px;
+            flex: 1;
+        }
+
+        /* Data Table */
+        .table-container {
+            overflow-x: auto;
+            max-height: 440px;
+            border-radius: 10px;
+            border: 1px solid var(--bg-card-border);
+        }
+
+        table.data-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.875rem;
+            text-align: left;
+        }
+
+        table.data-table th {
+            background: rgba(15, 23, 42, 0.9);
+            padding: 0.85rem 1rem;
+            color: var(--text-muted);
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            border-bottom: 1px solid var(--bg-card-border);
+        }
+
+        table.data-table td {
+            padding: 0.85rem 1rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            color: var(--text-main);
+        }
+
+        table.data-table tr:hover {
+            background: rgba(255, 255, 255, 0.04);
+            cursor: pointer;
+        }
+
+        table.data-table tr.selected {
+            background: rgba(99, 102, 241, 0.2);
+            border-left: 3px solid var(--accent-indigo);
+        }
+
+        .badge-rank {
+            background: rgba(99, 102, 241, 0.15);
+            color: var(--accent-indigo);
+            padding: 0.2rem 0.5rem;
+            border-radius: 6px;
+            font-weight: 700;
+        }
+
+        /* Highlight Banner */
+        .highlight-banner {
+            background: linear-gradient(135deg, rgba(30, 41, 59, 0.8), rgba(15, 23, 42, 0.9));
+            border: 1px solid var(--accent-indigo);
+            border-radius: 14px;
+            padding: 1.25rem 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .highlight-info h2 {
+            font-size: 1.35rem;
+            font-weight: 800;
+            color: var(--text-main);
+        }
+
+        .highlight-info p {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            margin-top: 0.25rem;
+        }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid var(--bg-card-border);
+            padding: 1.5rem 2rem;
+            text-align: center;
+            color: var(--text-dim);
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="brand">
+            <div class="brand-icon">EV</div>
+            <div class="brand-title">EduVision System</div>
+        </div>
+        <nav class="nav-tabs">
+            <button class="tab-btn active" onclick="switchView('overview')">
+                <span>🏛️</span> University Overview
+            </button>
+            <button class="tab-btn" onclick="switchView('research')">
+                <span>🔬</span> Research Analytics
+            </button>
+            <button class="tab-btn" onclick="switchView('student')">
+                <span>🎓</span> Student Analytics
+            </button>
+            <button class="tab-btn" onclick="switchView('country')">
+                <span>🌍</span> Country Comparison
+            </button>
+        </nav>
+    </header>
+
+    <div class="filter-bar">
+        <div class="filter-group">
+            <div class="filter-item">
+                <span class="filter-label">Region</span>
+                <select id="filter-region" class="filter-select" onchange="onFilterChange()"></select>
+            </div>
+            <div class="filter-item">
+                <span class="filter-label">Country</span>
+                <select id="filter-country" class="filter-select" onchange="onFilterChange()"></select>
+            </div>
+            <div class="filter-item">
+                <span class="filter-label">University</span>
+                <select id="filter-university" class="filter-select" onchange="onFilterChange()"></select>
+            </div>
+            <div class="filter-item">
+                <span class="filter-label">Year</span>
+                <select id="filter-year" class="filter-select" onchange="onFilterChange()"></select>
+            </div>
+        </div>
+
+        <div id="active-context-badge" class="context-badge" style="display: none;">
+            <span id="active-context-text">Active Selection</span>
+            <button class="btn-clear" onclick="clearUniversitySelection()">Clear</button>
+        </div>
+    </div>
+
+    <main class="content">
+
+        <!-- VIEW 1: UNIVERSITY OVERVIEW -->
+        <section id="view-overview" class="dashboard-view active">
+            <div class="kpi-grid">
+                <div class="kpi-card">
+                    <span class="kpi-title">Avg Global Rank Score</span>
+                    <div class="kpi-value" id="kpi1-val">--</div>
+                    <span class="kpi-subtitle"><span>▲</span> Benchmark Index</span>
+                </div>
+                <div class="kpi-card">
+                    <span class="kpi-title">Avg Research Impact</span>
+                    <div class="kpi-value" id="kpi2-val">--</div>
+                    <span class="kpi-subtitle"><span>▲</span> Citations per faculty</span>
+                </div>
+                <div class="kpi-card">
+                    <span class="kpi-title">Faculty-Student Ratio</span>
+                    <div class="kpi-value" id="kpi3-val">--</div>
+                    <span class="kpi-subtitle"><span>👥</span> Students per staff</span>
+                </div>
+                <div class="kpi-card">
+                    <span class="kpi-title">Int'l Student %</span>
+                    <div class="kpi-value" id="kpi4-val">--</div>
+                    <span class="kpi-subtitle"><span>🌐</span> Student diversity</span>
+                </div>
+                <div class="kpi-card">
+                    <span class="kpi-title">Academic Reputation</span>
+                    <div class="kpi-value" id="kpi5-val">--</div>
+                    <span class="kpi-subtitle"><span>★</span> Peer assessment</span>
+                </div>
+                <div class="kpi-card">
+                    <span class="kpi-title">Research Productivity</span>
+                    <div class="kpi-value" id="kpi6-val">--</div>
+                    <span class="kpi-subtitle"><span>⚡</span> Composite score</span>
+                </div>
+            </div>
+
+            <div class="grid-3-1">
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Global University Rankings Table</h3>
+                        <span style="font-size: 0.8rem; color: var(--text-muted);">Click any row to select & carry forward</span>
+                    </div>
+                    <div class="table-container">
+                        <table class="data-table" id="rankings-table">
+                            <thead>
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>University</th>
+                                    <th>Country</th>
+                                    <th>Region</th>
+                                    <th>Overall Score</th>
+                                    <th>Academic Rep</th>
+                                </tr>
+                            </thead>
+                            <tbody id="rankings-tbody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Regional Distribution</h3>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="chart-regional-dist"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- VIEW 2: RESEARCH ANALYTICS -->
+        <section id="view-research" class="dashboard-view">
+            <div class="highlight-banner" id="research-banner">
+                <div class="highlight-info">
+                    <h2 id="res-banner-title">Global Research Overview</h2>
+                    <p id="res-banner-sub">Analyzing citation intensity, peer research scores, and composite productivity.</p>
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Research Score vs Citation Impact</h3>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="chart-res-scatter"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Top Research Productivity Institutions</h3>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="chart-res-top"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 class="chart-title">Multi-Year Research Performance Trend (2023 - 2025)</h3>
+                </div>
+                <div class="chart-container">
+                    <canvas id="chart-res-trend"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- VIEW 3: STUDENT ANALYTICS -->
+        <section id="view-student" class="dashboard-view">
+            <div class="highlight-banner" id="student-banner">
+                <div class="highlight-info">
+                    <h2 id="stud-banner-title">Global Student Body Analytics</h2>
+                    <p id="stud-banner-sub">Examining total student headcounts, international student ratios, and teaching staff density.</p>
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Total Headcount vs International Students</h3>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="chart-stud-headcount"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Students Per Staff Ratio Comparison</h3>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="chart-stud-staff"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- VIEW 4: COUNTRY COMPARISON -->
+        <section id="view-country" class="dashboard-view">
+            <div class="highlight-banner" id="country-banner">
+                <div class="highlight-info">
+                    <h2 id="country-banner-title">Country Baseline Intelligence</h2>
+                    <p id="country-banner-sub">Comparing macroeconomic education stats (World Bank EdStats) against university ranking density.</p>
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">World Bank Education Indicators</h3>
+                        <select id="edstats-indicator-select" class="filter-select" onchange="renderCountryCharts()"></select>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="chart-country-edstats"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">University Count by Income Group</h3>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="chart-country-income"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>EduVision Higher Education Intelligence System &copy; 2026. Data sources: QS 2025, THE 2024, WUR 2023, World Bank EdStats.</p>
+    </footer>
+
+    <script>
+        // Global App State
+        let RAW_DATA = null;
+        let selectedUniversityId = null;
+        let selectedCountryId = null;
+        let activeView = 'overview';
+        let chartInstances = {};
+
+        // Load JSON Bundle
+        fetch('data/dashboard_data.json')
+            .then(res => res.json())
+            .then(data => {
+                RAW_DATA = data;
+                initFilters();
+                renderAll();
+            })
+            .catch(err => console.error("Error loading dashboard data:", err));
+
+        function initFilters() {
+            const regSel = document.getElementById('filter-region');
+            const ctySel = document.getElementById('filter-country');
+            const uniSel = document.getElementById('filter-university');
+            const yrSel = document.getElementById('filter-year');
+
+            // Regions
+            const regions = ['All', ...new Set(RAW_DATA.dim_country.map(c => c.region).filter(Boolean))].sort();
+            regSel.innerHTML = regions.map(r => `<option value="${r}">${r}</option>`).join('');
+
+            // Years
+            const years = ['All', '2025', '2024', '2023'];
+            yrSel.innerHTML = years.map(y => `<option value="${y}">${y}</option>`).join('');
+
+            populateCountryDropdown();
+            populateUniversityDropdown();
+        }
+
+        function populateCountryDropdown() {
+            const reg = document.getElementById('filter-region').value;
+            const ctySel = document.getElementById('filter-country');
+            let countries = RAW_DATA.dim_country;
+            if (reg !== 'All') {
+                countries = countries.filter(c => c.region === reg);
+            }
+            countries = ['All', ...countries.map(c => c.country_name).sort()];
+            ctySel.innerHTML = countries.map(c => `<option value="${c}">${c}</option>`).join('');
+        }
+
+        function populateUniversityDropdown() {
+            const reg = document.getElementById('filter-region').value;
+            const cty = document.getElementById('filter-country').value;
+            const uniSel = document.getElementById('filter-university');
+
+            let unis = RAW_DATA.dim_university;
+            if (reg !== 'All') unis = unis.filter(u => u.region === reg);
+            if (cty !== 'All') unis = unis.filter(u => u.country_name === cty);
+
+            const uniOptions = ['All', ...unis.map(u => u.university_name).sort()];
+            uniSel.innerHTML = uniOptions.map(u => `<option value="${u}">${u}</option>`).join('');
+        }
+
+        function onFilterChange() {
+            populateCountryDropdown();
+            populateUniversityDropdown();
+            renderAll();
+        }
+
+        function getFilteredPerformanceData() {
+            const reg = document.getElementById('filter-region').value;
+            const cty = document.getElementById('filter-country').value;
+            const uni = document.getElementById('filter-university').value;
+            const yr = document.getElementById('filter-year').value;
+
+            return RAW_DATA.university_performance.filter(d => {
+                if (reg !== 'All' && d.region !== reg) return false;
+                if (cty !== 'All' && d.country_name !== cty) return false;
+                if (uni !== 'All' && d.university_name !== uni) return false;
+                if (yr !== 'All' && String(d.year) !== yr) return false;
+                if (selectedUniversityId && d.university_id !== selectedUniversityId) return false;
+                return true;
+            });
+        }
+
+        function switchView(viewName) {
+            activeView = viewName;
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            document.querySelectorAll('.dashboard-view').forEach(vw => vw.classList.remove('active'));
+
+            event.currentTarget.classList.add('active');
+            document.getElementById(`view-${viewName}`).classList.add('active');
+
+            renderAll();
+        }
+
+        function selectUniversity(uniId) {
+            selectedUniversityId = uniId;
+            const uni = RAW_DATA.dim_university.find(u => u.university_id === uniId);
+            if (uni) {
+                selectedCountryId = uni.country_id;
+                document.getElementById('active-context-badge').style.display = 'flex';
+                document.getElementById('active-context-text').innerText = `Selected: ${uni.university_name}`;
+            }
+            renderAll();
+        }
+
+        function clearUniversitySelection() {
+            selectedUniversityId = null;
+            selectedCountryId = null;
+            document.getElementById('active-context-badge').style.display = 'none';
+            renderAll();
+        }
+
+        function renderAll() {
+            const data = getFilteredPerformanceData();
+            updateKPIs(data);
+
+            if (activeView === 'overview') renderOverview(data);
+            else if (activeView === 'research') renderResearch(data);
+            else if (activeView === 'student') renderStudent(data);
+            else if (activeView === 'country') renderCountry();
+        }
+
+        function avg(arr, key) {
+            const valid = arr.map(x => x[key]).filter(v => v !== null && v !== undefined && !isNaN(v));
+            if (valid.length === 0) return '--';
+            const sum = valid.reduce((a, b) => a + b, 0);
+            return (sum / valid.length).toFixed(1);
+        }
+
+        function updateKPIs(data) {
+            document.getElementById('kpi1-val').innerText = avg(data, 'kpi1_global_ranking_score');
+            document.getElementById('kpi2-val').innerText = avg(data, 'kpi2_research_impact_score');
+            document.getElementById('kpi3-val').innerText = avg(data, 'kpi3_faculty_student_ratio');
+            document.getElementById('kpi4-val').innerText = avg(data, 'kpi4_international_student_pct') + '%';
+            document.getElementById('kpi5-val').innerText = avg(data, 'kpi5_academic_reputation_score');
+            document.getElementById('kpi6-val').innerText = avg(data, 'kpi6_research_productivity_index');
+        }
+
+        function renderOverview(data) {
+            // Render Table
+            const tbody = document.getElementById('rankings-tbody');
+            const sorted = [...data].sort((a, b) => (a.global_rank || 9999) - (b.global_rank || 9999)).slice(0, 50);
+            
+            tbody.innerHTML = sorted.map(r => `
+                <tr class="${r.university_id === selectedUniversityId ? 'selected' : ''}" onclick="selectUniversity('${r.university_id}')">
+                    <td><span class="badge-rank">#${r.global_rank || 'N/A'}</span></td>
+                    <td style="font-weight: 600;">${r.university_name}</td>
+                    <td>${r.country_name}</td>
+                    <td>${r.region}</td>
+                    <td>${r.overall_score || '--'}</td>
+                    <td>${r.academic_reputation || '--'}</td>
+                </tr>
+            `).join('');
+
+            // Regional Dist Chart
+            const regCounts = {};
+            data.forEach(d => {
+                if (d.region) regCounts[d.region] = (regCounts[d.region] || 0) + 1;
+            });
+
+            destroyChart('chart-regional-dist');
+            const ctx = document.getElementById('chart-regional-dist').getContext('2d');
+            chartInstances['chart-regional-dist'] = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: Object.keys(regCounts),
+                    datasets: [{
+                        data: Object.values(regCounts),
+                        backgroundColor: ['#38bdf8', '#6366f1', '#a855f7', '#34d399', '#fb7185', '#f59e0b']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { labels: { color: '#f8fafc' } } }
+                }
+            });
+        }
+
+        function renderResearch(data) {
+            const uniObj = RAW_DATA.dim_university.find(u => u.university_id === selectedUniversityId);
+            if (uniObj) {
+                document.getElementById('res-banner-title').innerText = `Research Focus: ${uniObj.university_name}`;
+                document.getElementById('res-banner-sub').innerText = `Location: ${uniObj.country_name} (${uniObj.region})`;
+            } else {
+                document.getElementById('res-banner-title').innerText = "Global Research Overview";
+                document.getElementById('res-banner-sub').innerText = "Analyzing citation intensity, peer research scores, and composite productivity.";
+            }
+
+            // Scatter Chart
+            const scatterData = data.filter(d => d.research_score && d.citation_score).map(d => ({
+                x: d.research_score,
+                y: d.citation_score,
+                r: Math.max(4, (d.research_productivity || 50) / 10)
+            }));
+
+            destroyChart('chart-res-scatter');
+            const ctxScatter = document.getElementById('chart-res-scatter').getContext('2d');
+            chartInstances['chart-res-scatter'] = new Chart(ctxScatter, {
+                type: 'bubble',
+                data: {
+                    datasets: [{
+                        label: 'Universities',
+                        data: scatterData,
+                        backgroundColor: 'rgba(99, 102, 241, 0.6)'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        x: { title: { display: true, text: 'Research Score', color: '#94a3b8' }, ticks: { color: '#94a3b8' } },
+                        y: { title: { display: true, text: 'Citation Impact Score', color: '#94a3b8' }, ticks: { color: '#94a3b8' } }
+                    }
+                }
+            });
+
+            // Top Institutions
+            const topRes = [...data].filter(d => d.research_productivity).sort((a, b) => b.research_productivity - a.research_productivity).slice(0, 10);
+            destroyChart('chart-res-top');
+            const ctxTop = document.getElementById('chart-res-top').getContext('2d');
+            chartInstances['chart-res-top'] = new Chart(ctxTop, {
+                type: 'bar',
+                data: {
+                    labels: topRes.map(d => d.university_name.substring(0, 20) + '...'),
+                    datasets: [{
+                        label: 'Research Productivity Index',
+                        data: topRes.map(d => d.research_productivity),
+                        backgroundColor: '#a855f7'
+                    }]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: { x: { ticks: { color: '#94a3b8' } }, y: { ticks: { color: '#94a3b8' } } }
+                }
+            });
+        }
+
+        function renderStudent(data) {
+            const studData = data.filter(d => d.total_students && d.international_students).slice(0, 15);
+            destroyChart('chart-stud-headcount');
+            const ctxHead = document.getElementById('chart-stud-headcount').getContext('2d');
+            chartInstances['chart-stud-headcount'] = new Chart(ctxHead, {
+                type: 'bar',
+                data: {
+                    labels: studData.map(d => d.university_name.substring(0, 15) + '...'),
+                    datasets: [
+                        { label: 'Total Students', data: studData.map(d => d.total_students), backgroundColor: '#38bdf8' },
+                        { label: 'Intl Students', data: studData.map(d => d.international_students), backgroundColor: '#fb7185' }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: { x: { ticks: { color: '#94a3b8' } }, y: { ticks: { color: '#94a3b8' } } }
+                }
+            });
+        }
+
+        function renderCountry() {
+            // EdStats Indicators
+            const indSel = document.getElementById('edstats-indicator-select');
+            const uniqueInds = [...new Set(RAW_DATA.country_education.map(e => e.indicator_short).filter(Boolean))];
+            if (indSel.children.length === 0) {
+                indSel.innerHTML = uniqueInds.map(i => `<option value="${i}">${i}</option>`).join('');
+            }
+
+            const chosenInd = indSel.value || uniqueInds[0];
+            const edFiltered = RAW_DATA.country_education.filter(e => e.indicator_short === chosenInd && e.year >= 2000);
+
+            // Group by year
+            const yearSums = {};
+            const yearCounts = {};
+            edFiltered.forEach(e => {
+                yearSums[e.year] = (yearSums[e.year] || 0) + e.value;
+                yearCounts[e.year] = (yearCounts[e.year] || 0) + 1;
+            });
+
+            const sortedYears = Object.keys(yearSums).sort();
+            const yearAvgs = sortedYears.map(y => (yearSums[y] / yearCounts[y]).toFixed(2));
+
+            destroyChart('chart-country-edstats');
+            const ctxEd = document.getElementById('chart-country-edstats').getContext('2d');
+            chartInstances['chart-country-edstats'] = new Chart(ctxEd, {
+                type: 'line',
+                data: {
+                    labels: sortedYears,
+                    datasets: [{
+                        label: chosenInd,
+                        data: yearAvgs,
+                        borderColor: '#34d399',
+                        tension: 0.3,
+                        fill: true,
+                        backgroundColor: 'rgba(52, 211, 153, 0.1)'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: { x: { ticks: { color: '#94a3b8' } }, y: { ticks: { color: '#94a3b8' } } }
+                }
+            });
+        }
+
+        function destroyChart(id) {
+            if (chartInstances[id]) {
+                chartInstances[id].destroy();
+                delete chartInstances[id];
+            }
+        }
+    </script>
+</body>
+</html>
