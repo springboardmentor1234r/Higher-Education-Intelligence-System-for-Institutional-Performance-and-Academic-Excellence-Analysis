@@ -1,0 +1,7 @@
+kpi,source,field,rule
+Global Ranking Score,WUR 2023,overall_score,Direct; score retained as provided
+Research Impact Score,WUR 2023,citations_score,Citations score used as the available research-impact measure; not converted to percentage
+Faculty-to-Student Ratio,WUR 2023,no_of_student_per_staff,Students-per-staff field retained as source measure; not relabelled as a literal faculty/student ratio
+International Student %,WUR 2023,international_student_pct,Direct percentage extracted from source
+Academic Reputation Score,QS 2025,academic_reputation_score,Requires QS source file
+Research Productivity Index,—,—,Not directly supported by current source files; do not fabricate

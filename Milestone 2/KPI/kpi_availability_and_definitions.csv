@@ -1,0 +1,7 @@
+kpi,definition,source_fields,status
+Global Ranking Score,overall_score from each ranking source,QS/THE/WUR,Available; keep source-specific because scales differ
+Research Impact Score,citations-based score from each ranking source,QS citations_per_faculty_score; THE scores_citations; WUR citations_score,Available; source-specific
+Faculty-to-Student Ratio,students per staff/faculty-student ratio,THE stats_student_staff_ratio; WUR no_of_student_per_staff,"Available for THE/WUR; QS field is a score, not ratio"
+International Student %,actual percentage of international students,THE international_students_pct; WUR international_student_pct,"Available for THE/WUR; QS field is a score, not percentage"
+Academic Reputation Score,QS academic reputation score,QS academic_reputation_score,Available for QS only
+Research Productivity Index,requires defensible research-output/productivity numerator and denominator,No supported university-level formula in supplied fields,Not calculated; left blank to avoid invented KPI
